@@ -1,4 +1,4 @@
-name: "MS-194 · Weekly Lighthouse CWV / LCP Budget & @graph Schema Audit (Mondays 10:00 MYT)"
+﻿name: "MS-194 Â· Weekly Lighthouse CWV / LCP Budget & @graph Schema Audit (Mondays 10:00 MYT)"
 
 on:
   schedule:
@@ -21,7 +21,7 @@ concurrency:
 
 env:
   NODE_ENV: "production"
-  SITE_DOMAIN: "https://onyxman.my"
+  SITE_DOMAIN: "https://www.onyxmen.my"
   LCP_BUDGET_MS: "800"
   CLS_BUDGET: "0.00"
   MAX_HTML_BYTES: "600000"
@@ -34,32 +34,32 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      - name: "01 · Checkout Onyxman.my Repository"
+      - name: "01 Â· Checkout Onyxman.my Repository"
         uses: actions/checkout@v4
 
-      - name: "02 · Setup Node.js 20 LTS Runtime"
+      - name: "02 Â· Setup Node.js 20 LTS Runtime"
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      - name: "03 · Ensure Production public/ Build Artifact Is Fresh"
+      - name: "03 Â· Ensure Production public/ Build Artifact Is Fresh"
         run: |
           if [ -f "scripts/build-site.mjs" ]; then
             echo "Running scripts/build-site.mjs to guarantee fresh public/ artifact..."
             node scripts/build-site.mjs
           fi
 
-      - name: "04 · Run Google Merchant Center & @graph JSON-LD Schema Validation Suite"
+      - name: "04 Â· Run Google Merchant Center & @graph JSON-LD Schema Validation Suite"
         run: |
           echo "Running scripts/validate-schemas.mjs..."
           node scripts/validate-schemas.mjs
 
-      - name: "05 · Run 6-Gate Deterministic Verification Suite (--phase=ALL)"
+      - name: "05 Â· Run 6-Gate Deterministic Verification Suite (--phase=ALL)"
         run: |
           echo "Running scripts/verify-gate.mjs --phase=ALL..."
           node scripts/verify-gate.mjs --phase=ALL
 
-      - name: "06 · Automated CWV / LCP (<0.8s) & Zero-CLS Budget Audit Across public/ Artifact"
+      - name: "06 Â· Automated CWV / LCP (<0.8s) & Zero-CLS Budget Audit Across public/ Artifact"
         run: |
           node --input-type=module -e '
             import fs from "node:fs";
@@ -133,11 +133,12 @@ jobs:
             console.log(`[PASS] All ${checkedPages} pages passed CWV/LCP (<0.8s) & @graph budgets.`);
           '
 
-      - name: "07 · Run Cloud Health & Order Bridge Dry-Run Audit"
+      - name: "07 Â· Run Cloud Health & Order Bridge Dry-Run Audit"
         run: |
           node scripts/cloud-health-monitor.mjs --dry-run
 
-      - name: "08 · Optional Live Edge TTFB & Order Drawer Check"
+      - name: "08 Â· Optional Live Edge TTFB & Order Drawer Check"
         if: ${{ github.event_name == 'schedule' || github.event.inputs.run_live_ttfb_audit == 'true' }}
         run: |
           node scripts/cloud-health-monitor.mjs --live
+
