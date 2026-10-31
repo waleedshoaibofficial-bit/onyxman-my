@@ -153,12 +153,22 @@ function reconcileTrustRouteAliases() {
     ['ms/terma-perkhidmatan/index.html', 'ms/terma-dan-pemulangan/index.html'],
     ['ms/jaminan-ketulenan/index.html', 'ms/ketulenan/index.html'],
     ['ms/penghantaran-rahsia/index.html', 'ms/bungkusan-rahsia/index.html'],
+    ['horsemen-malaysia/index.html', 'products/horsemen/index.html'],
+    ['hammer-of-thor-malaysia/index.html', 'products/hammer-of-thor/index.html'],
+    ['grow-xl-malaysia/index.html', 'products/grow-xl/index.html'],
+    ['magnum-pump-xr-malaysia/index.html', 'products/magnum-pump-xr/index.html'],
+    ['index.html', 'products/index.html'],
+    ['ms/horsemen-malaysia/index.html', 'ms/produk/horsemen/index.html'],
+    ['ms/hammer-of-thor-malaysia/index.html', 'ms/produk/hammer-of-thor/index.html'],
+    ['ms/grow-xl-malaysia/index.html', 'ms/produk/grow-xl/index.html'],
+    ['ms/magnum-pump-xr-malaysia/index.html', 'ms/produk/magnum-pump-xr/index.html'],
+    ['ms/index.html', 'ms/produk/index.html'],
   ];
 
   for (const [srcRel, destRel] of aliasPairs) {
     const srcAbs = path.join(PUBLIC_DIR, srcRel);
     const destAbs = path.join(PUBLIC_DIR, destRel);
-    if (fs.existsSync(srcAbs) && !fs.existsSync(destAbs)) {
+    if (fs.existsSync(srcAbs)) {
       fs.mkdirSync(path.dirname(destAbs), { recursive: true });
       fs.copyFileSync(srcAbs, destAbs);
     }
