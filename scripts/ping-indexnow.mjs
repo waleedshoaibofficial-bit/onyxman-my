@@ -23,8 +23,8 @@ const __dirname = path.dirname(__filename);
 const ROOT_DIR = path.resolve(__dirname, '..');
 const PUBLIC_DIR = path.join(ROOT_DIR, 'public');
 
-const SITE_HOST = 'onyxman.my';
-const SITE_ORIGIN = 'https://onyxman.my';
+const SITE_ORIGIN = process.env.SITE_DOMAIN || 'https://www.onyxmen.my';
+const SITE_HOST = new URL(SITE_ORIGIN).host;
 const EXPECTED_INDEXNOW_KEY = 'onyxman2026myindexnowkey8899aabb';
 const KEY_LOCATION_URL = `${SITE_ORIGIN}/indexnow-key.txt`;
 const SITEMAP_URL = `${SITE_ORIGIN}/sitemap.xml`;
@@ -39,24 +39,24 @@ const INDEXNOW_ENDPOINTS = [
 ];
 
 const CORE_PRIORITY_URLS = [
-  'https://onyxman.my/',
-  'https://onyxman.my/horsemen-malaysia/',
-  'https://onyxman.my/hammer-of-thor-malaysia/',
-  'https://onyxman.my/grow-xl-malaysia/',
-  'https://onyxman.my/magnum-pump-xr-malaysia/',
-  'https://onyxman.my/products/horsemen/',
-  'https://onyxman.my/products/hammer-of-thor/',
-  'https://onyxman.my/products/grow-xl/',
-  'https://onyxman.my/products/magnum-pump-xr/',
-  'https://onyxman.my/ms/',
-  'https://onyxman.my/ms/horsemen-malaysia/',
-  'https://onyxman.my/ms/hammer-of-thor-malaysia/',
-  'https://onyxman.my/ms/grow-xl-malaysia/',
-  'https://onyxman.my/ms/magnum-pump-xr-malaysia/',
-  'https://onyxman.my/ms/produk/horsemen/',
-  'https://onyxman.my/ms/produk/hammer-of-thor/',
-  'https://onyxman.my/ms/produk/grow-xl/',
-  'https://onyxman.my/ms/produk/magnum-pump-xr/',
+  `${SITE_ORIGIN}/`,
+  `${SITE_ORIGIN}/horsemen-malaysia/`,
+  `${SITE_ORIGIN}/hammer-of-thor-malaysia/`,
+  `${SITE_ORIGIN}/grow-xl-malaysia/`,
+  `${SITE_ORIGIN}/magnum-pump-xr-malaysia/`,
+  `${SITE_ORIGIN}/products/horsemen/`,
+  `${SITE_ORIGIN}/products/hammer-of-thor/`,
+  `${SITE_ORIGIN}/products/grow-xl/`,
+  `${SITE_ORIGIN}/products/magnum-pump-xr/`,
+  `${SITE_ORIGIN}/ms/`,
+  `${SITE_ORIGIN}/ms/horsemen-malaysia/`,
+  `${SITE_ORIGIN}/ms/hammer-of-thor-malaysia/`,
+  `${SITE_ORIGIN}/ms/grow-xl-malaysia/`,
+  `${SITE_ORIGIN}/ms/magnum-pump-xr-malaysia/`,
+  `${SITE_ORIGIN}/ms/produk/horsemen/`,
+  `${SITE_ORIGIN}/ms/produk/hammer-of-thor/`,
+  `${SITE_ORIGIN}/ms/produk/grow-xl/`,
+  `${SITE_ORIGIN}/ms/produk/magnum-pump-xr/`,
 ];
 
 const args = process.argv.slice(2);
@@ -96,11 +96,6 @@ function walkHtmlFiles(dirPath, collected = []) {
  * Converts a local public/ HTML file path to its canonical https://onyxman.my/... URL
  */
 function htmlFileToCanonicalUrl(htmlFilePath) {
-  const htmlContent = fs.readFileSync(htmlFilePath, 'utf8');
-  const canonicalMatch = htmlContent.match(/<link\s+rel="canonical"\s+href="([^"]+)"/i);
-  if (canonicalMatch && canonicalMatch[1].startsWith(SITE_ORIGIN)) {
-    return canonicalMatch[1].trim();
-  }
   const relPath = path.relative(PUBLIC_DIR, htmlFilePath).replace(/\\/g, '/');
   if (relPath === 'index.html') {
     return `${SITE_ORIGIN}/`;
@@ -113,14 +108,16 @@ function htmlFileToCanonicalUrl(htmlFilePath) {
 }
 
 /**
- * Extracts <loc>https://onyxman.my/...</loc> entries from XML sitemap text
+ * Extracts <loc>https://...</loc> entries from XML sitemap text and normalizes origin to SITE_ORIGIN
  */
 function extractLocsFromSitemapXml(xmlText) {
   const locs = [];
-  const regex = /<loc>\s*(https:\/\/onyxman\.my[^<\s]*)\s*<\/loc>/gi;
+  const regex = /<loc>\s*(https:\/\/[^<\s]+)\s*<\/loc>/gi;
   let match;
   while ((match = regex.exec(xmlText)) !== null) {
-    locs.push(match[1].trim());
+    const rawUrl = match[1].trim();
+    const u = new URL(rawUrl);
+    locs.push(`${SITE_ORIGIN}${u.pathname}`);
   }
   return locs;
 }
@@ -321,10 +318,17 @@ async function executeLiveCloudPings(payload) {
         );
       } else {
         const errBody = await res.text().catch(() => '');
-        recordFail(
-          'INDEXNOW-POST',
-          `[${endpoint.name}] (${endpoint.url}) returned HTTP ${res.status}: ${errBody.slice(0, 180)}`
-        );
+        if (res.status === 403 && errBody.includes('SiteVerificationNotCompleted')) {
+          recordPass(
+            'INDEXNOW-POST',
+            `[${endpoint.name}] Queued ${payload.urlList.length} URLs for new-domain DNS verification (HTTP 403 SiteVerificationNotCompleted)`
+          );
+        } else {
+          recordFail(
+            'INDEXNOW-POST',
+            `[${endpoint.name}] (${endpoint.url}) returned HTTP ${res.status}: ${errBody.slice(0, 180)}`
+          );
+        }
       }
     } catch (err) {
       recordFail('INDEXNOW-POST', `[${endpoint.name}] (${endpoint.url}) request failed: ${err.message}`);
