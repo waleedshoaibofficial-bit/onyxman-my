@@ -1,4 +1,4 @@
-name: "MS-191 · Deploy Onyxman.my to Cloudflare Pages & Instant IndexNow Ping"
+﻿name: "MS-191 Â· Deploy Onyxman.my to Cloudflare Pages & Instant IndexNow Ping"
 
 on:
   push:
@@ -32,7 +32,7 @@ concurrency:
 
 env:
   NODE_ENV: "production"
-  SITE_DOMAIN: "https://onyxman.my"
+  SITE_DOMAIN: "https://www.onyxmen.my"
   CF_PAGES_PROJECT: "onyxman-my"
   INDEXNOW_KEY: "onyxman2026myindexnowkey8899aabb"
   PRIMARY_ORDER_EMAIL: "waleedshoaibofficial@gmail.com"
@@ -46,47 +46,47 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      - name: "01 · Checkout Onyxman.my Repository"
+      - name: "01 Â· Checkout Onyxman.my Repository"
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: "02 · Setup Node.js 20 LTS Runtime"
+      - name: "02 Â· Setup Node.js 20 LTS Runtime"
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      - name: "03 · Execute Full Bilingual Static Build (EN-MY + MS-MY)"
+      - name: "03 Â· Execute Full Bilingual Static Build (EN-MY + MS-MY)"
         run: |
           echo "Building Onyxman.my bilingual production artifact into public/..."
           node scripts/build-site.mjs
 
-      - name: "04 · Validate All @graph JSON-LD Structured Data Schemas"
+      - name: "04 Â· Validate All @graph JSON-LD Structured Data Schemas"
         run: |
           echo "Auditing @graph JSON-LD schemas across all built HTML pages..."
           node scripts/validate-schemas.mjs
 
-      - name: "05 · Run 6-Gate Deterministic Verification Engine (--phase=ALL)"
+      - name: "05 Â· Run 6-Gate Deterministic Verification Engine (--phase=ALL)"
         run: |
           echo "Executing 6-Gate deterministic verification suite..."
           node scripts/verify-gate.mjs --phase=ALL
 
-      - name: "06 · Pre-Deploy Dry-Run Audit (IndexNow + Health Monitor)"
+      - name: "06 Â· Pre-Deploy Dry-Run Audit (IndexNow + Health Monitor)"
         run: |
           node scripts/ping-indexnow.mjs --dry-run
           node scripts/cloud-health-monitor.mjs --dry-run
 
-      - name: "06B · Upload public/ Artifact for GitHub Pages Cloud Hosting"
+      - name: "06B Â· Upload public/ Artifact for GitHub Pages Cloud Hosting"
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
 
-      - name: "06C · Deploy to GitHub Pages Live Cloud Edge"
+      - name: "06C Â· Deploy to GitHub Pages Live Cloud Edge"
         id: gh_pages_deploy
         uses: actions/deploy-pages@v4
         continue-on-error: true
 
-      - name: "07 · Deploy public/ Artifact to Cloudflare Pages (onyxman-my -> https://onyxman.my)"
+      - name: "07 Â· Deploy public/ Artifact to Cloudflare Pages (onyxman-my -> https://onyxman.my)"
         if: ${{ env.CF_TOKEN_PRESENT == 'true' }}
         env:
           CF_TOKEN_PRESENT: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
@@ -98,14 +98,15 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy public --project-name=onyxman-my --branch=main --commit-dirty=true
 
-      - name: "08 · Instant Post-Deploy IndexNow Batch Submission (Bing, Yandex, Seznam, Naver)"
+      - name: "08 Â· Instant Post-Deploy IndexNow Batch Submission (Bing, Yandex, Seznam, Naver)"
         continue-on-error: true
         run: |
           echo "Submitting all canonical https://onyxman.my/... URLs to IndexNow endpoints..."
           node scripts/ping-indexnow.mjs --live
 
-      - name: "09 · Post-Deploy Live Edge Verification & Order Bridge Check"
+      - name: "09 Â· Post-Deploy Live Edge Verification & Order Bridge Check"
         continue-on-error: true
         run: |
           echo "Verifying live https://onyxman.my edge TTFB, HTTP 200, RM 159 integrity & Express Order Drawer..."
           node scripts/cloud-health-monitor.mjs --live
+
