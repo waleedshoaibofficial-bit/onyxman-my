@@ -1,0 +1,39 @@
+# ============================================================================
+# ONYXMAN.MY — CLOUDFLARE PAGES SECURITY & SUB-SECOND CACHE HEADERS (MS-008)
+# Target Domain: https://onyxman.my
+# Performance Budget: LCP < 0.8s | CLS = 0.00
+# ============================================================================
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
+  Content-Security-Policy: default-src 'self' https://onyxman.my; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https://onyxman.my data: blob:; connect-src 'self' https://formsubmit.co https://api.web3forms.com https://api.indexnow.org; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://formsubmit.co https://api.web3forms.com https://wa.me
+  X-Robots-Tag: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
+
+/*.html
+  Cache-Control: public, max-age=0, s-maxage=3600, stale-while-revalidate=86400
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/styles/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/scripts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/sitemap*.xml
+  Content-Type: application/xml; charset=utf-8
+  Cache-Control: public, max-age=1800, s-maxage=3600
+
+/robots.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=3600, s-maxage=86400
+
+/indexnow-key.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=86400, immutable

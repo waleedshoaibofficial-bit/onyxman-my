@@ -1,0 +1,322 @@
+{
+  "microStep": "MS-030",
+  "id": "hammer-of-thor",
+  "slug": "hammer-of-thor",
+  "legacyIdAlias": "Sensitivity-of-thor",
+  "name": "Hammer of Thor",
+  "brand": "Onyxman",
+  "brandUrl": "https://onyxman.my",
+  "sku": "ONYX-HT-20",
+  "skuLegacyAlias": "ONYX-HT-20MY",
+  "mpn": "HT-TRIB-20MY",
+  "gtin13": "9550000102028",
+  "category": "Botanical Dietary Supplement for Adult Men (18+) — Vegetarian Capsules",
+  "labelTranscription": {
+    "primaryTitle": "HAMMER OF THOR",
+    "subtitleEn": "Men's Health — Tribulus Terrestris — 20 Veg. Capsules",
+    "subtitleMs": "Kesihatan Lelaki — Tribulus Terrestris — 20 Kapsul Vegetarian",
+    "bottleColorway": "Gloss Obsidian Black Bottle with Gold Crest, Metallic Gold Cap & Green Vegetarian Seal Badge",
+    "capsuleCount": 20,
+    "capsuleWeightMg": 500,
+    "netWeightGrams": 10,
+    "capsuleFormatEn": "100% Plant-Derived Hypromellose (HPMC) Vegetarian Capsule",
+    "capsuleFormatMs": "100% Kapsul Vegetarian Berasaskan Tumbuhan (HPMC)",
+    "originMarket": "Malaysia Official Apothecary Distribution (https://onyxman.my)"
+  },
+  "routes": {
+    "enPath": "/products/hammer-of-thor/",
+    "msPath": "/ms/produk/hammer-of-thor/",
+    "i18nRegistryEnPath": "/products/Sensitivity-of-thor/",
+    "i18nRegistryMsPath": "/ms/produk/Sensitivity-of-thor/",
+    "canonicalEn": "https://onyxman.my/products/hammer-of-thor/",
+    "canonicalMs": "https://onyxman.my/ms/produk/hammer-of-thor/"
+  },
+  "images": {
+    "primaryWebp": "/assets/products/hammer-of-thor.webp",
+    "primaryPng": "/assets/products/hammer-of-thor.png",
+    "cutoutWebp": "/assets/products/hammer-of-thor-cutout.webp",
+    "cutoutPng": "/assets/products/hammer-of-thor-cutout.png",
+    "stageWebp": "/assets/products/hammer-of-thor-stage.webp",
+    "stagePng": "/assets/products/hammer-of-thor-stage.png",
+    "portraitWebp": "/assets/products/hammer-of-thor-portrait.webp",
+    "portraitPng": "/assets/products/hammer-of-thor-portrait.png",
+    "altEn": "Hammer of Thor Men's Health Tribulus Terrestris — 20 Veg. Capsules Official Onyxman Malaysia Bottle (RM 159)",
+    "altMs": "Hammer of Thor Kesihatan Lelaki Tribulus Terrestris — 20 Kapsul Vegetarian Botol Rasmi Onyxman Malaysia (RM 159)"
+  },
+  "pricing": {
+    "currency": "MYR",
+    "currencySymbol": "RM",
+    "unitPrice": 159.0,
+    "unitPriceFormatted": "RM 159",
+    "unitPriceSchema": "159.00",
+    "priceValidUntil": "2027-12-31",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "bundleTiers": [
+      {
+        "tierId": "hammer-of-thor-1-bottle",
+        "bottles": 1,
+        "totalCapsules": 20,
+        "cycleDurationDays": 20,
+        "refillTriggerDay": 18,
+        "priceNumeric": 159.0,
+        "priceFormatted": "RM 159",
+        "priceSchema": "159.00",
+        "perBottleFormatted": "RM 159 / bottle",
+        "titleEn": "1 Bottle — Single 20-Veg-Capsule Tribulus Reserve",
+        "titleMs": "1 Botol — Bekalan 20 Kapsul Vegetarian Tribulus",
+        "shippingEn": "Free Discreet Express Shipping in Peninsular Malaysia (RM 12 East Malaysia)",
+        "shippingMs": "Penghantaran Ekspres Rahsia Percuma Semenanjung Malaysia (RM 12 Sabah/Sarawak)",
+        "badgeEn": "VEGETARIAN CAPSULE TRIAL",
+        "badgeMs": "PILIHAN PERMULAAN VEGETARIAN"
+      },
+      {
+        "tierId": "hammer-of-thor-2-bottles",
+        "bottles": 2,
+        "totalCapsules": 40,
+        "cycleDurationDays": 40,
+        "refillTriggerDay": 36,
+        "priceNumeric": 318.0,
+        "priceFormatted": "RM 318",
+        "priceSchema": "318.00",
+        "perBottleFormatted": "RM 159 / bottle",
+        "titleEn": "2 Bottles — 40-Veg-Capsule Sustained Saponin Protocol",
+        "titleMs": "2 Botol — Protokol Saponin Berterusan 40 Kapsul Vegetarian",
+        "shippingEn": "Free Nationwide Malaysia Discreet Express Shipping (Including Sabah, Sarawak & Labuan)",
+        "shippingMs": "Penghantaran Ekspres Rahsia Percuma Seluruh Malaysia (Termasuk Sabah, Sarawak & Labuan)",
+        "badgeEn": "TOP VEGETARIAN SELECTION",
+        "badgeMs": "PILIHAN UTAMA KAPSUL VEG"
+      },
+      {
+        "tierId": "hammer-of-thor-3-bottles",
+        "bottles": 3,
+        "totalCapsules": 60,
+        "cycleDurationDays": 60,
+        "refillTriggerDay": 54,
+        "priceNumeric": 477.0,
+        "priceFormatted": "RM 477",
+        "priceSchema": "477.00",
+        "perBottleFormatted": "RM 159 / bottle",
+        "titleEn": "3 Bottles — 60-Veg-Capsule Complete Vitality Mastery Vault",
+        "titleMs": "3 Botol — Pakej Lengkap Kecergasan 60 Kapsul Vegetarian",
+        "shippingEn": "Priority Discreet Dispatch + Free Nationwide Shipping + VIP Refill Concierge",
+        "shippingMs": "Penghantaran Rahsia Keutamaan + Percuma Seluruh Negara + Khidmat Peringatan VIP",
+        "badgeEn": "COMPLETE 60-DAY PROTOCOL",
+        "badgeMs": "PROTOKOL OPTIMUM 60 HARI"
+      }
+    ]
+  },
+  "refillProtocol": {
+    "capsuleCount": 20,
+    "capsuleStrengthMg": 500,
+    "refillReminderDay": 18,
+    "calendarAlertTitleEn": "Onyxman Malaysia — Hammer of Thor Day-18 Refill Check-In (RM 159)",
+    "calendarAlertTitleMs": "Onyxman Malaysia — Peringatan Bekalan Hari Ke-18 Hammer of Thor (RM 159)",
+    "protocolSummaryEn": "Formulated as a 20-vegetarian-capsule Tribulus Terrestris specialist cycle. To maintain uninterrupted steroidal saponin levels, our concierge triggers an automated Day-18 refill alert so your next bottle arrives before Day 20.",
+    "protocolSummaryMs": "Dirumus sebagai kitaran khas 20 kapsul vegetarian berasaskan Tribulus Terrestris. Bagi mengekalkan tahap saponin secara konsisten, sistem kami menghantar peringatan bekalan pada Hari Ke-18 supaya botol seterusnya tiba sebelum Hari Ke-20."
+  },
+  "locales": {
+    "en-MY": {
+      "seoTitle": "Hammer of Thor (20 Veg. Capsules) — Men's Health Tribulus Terrestris Supplement | RM 159 Onyxman Malaysia",
+      "metaDescription": "Order authentic Hammer of Thor (Men's Health — Tribulus Terrestris — 20 Veg. Capsules, SKU ONYX-HT-20) for RM 159 at Onyxman.my. 100% plant-derived vegetarian capsules with Tribulus, Maca, L-Arginine, Panax Ginseng & Zinc. Discreet Malaysia delivery.",
+      "heroEyebrow": "FORMULATION II • 20 VEGETARIAN CAPSULES • HIGH-SAPONIN TRIBULUS SPECIALIST",
+      "heroHeadline": "Hammer of Thor — Standardized Tribulus Terrestris & Vegetarian Vitality Matrix",
+      "heroSubheadline": "Crafted specifically for men in Malaysia seeking a 100% vegetarian-encapsulated Tribulus Terrestris protocol. Combines high-saponin Tribulus fruit extract with Peruvian Maca, L-Arginine, Panax Ginseng, Malaysian Tongkat Ali, and Zinc.",
+      "positioningSummary": "Hammer of Thor stands out in the Onyxman apothecary lineup as the dedicated 20-vegetarian-capsule Tribulus Terrestris specialist. Encapsulated in plant-based hypromellose (zero bovine or porcine gelatin), it delivers standardized furostanol saponins alongside adaptogenic roots and amino-acid cofactors to support physical drive, muscular recovery after training, and steady evening stamina.",
+      "idealUserProfile": "Adult men (18+) in Malaysia who specifically prefer 100% plant-derived vegetarian capsules (Veg. Capsules) and want a Tribulus Terrestris-led formula supporting physical strength, gym recovery, and sustained evening vitality.",
+      "sensoryAndCraftNotes": "Presented in a sleek black bottle with gold metallic cap and the signature green Vegetarian Capsule crest. Plant-cellulose shells resist sticking in Malaysia's humid climate and digest cleanly without gastric heaviness."
+    },
+    "ms-MY": {
+      "seoTitle": "Hammer of Thor (20 Kapsul Vegetarian) — Suplemen Tribulus Terrestris Kesihatan Lelaki | RM 159 Onyxman Malaysia",
+      "metaDescription": "Tempah Hammer of Thor tulen (Men's Health — Tribulus Terrestris — 20 Veg. Capsules, SKU ONYX-HT-20) pada harga RM 159 di Onyxman.my. Kapsul 100% vegetarian dengan Tribulus, Maca, L-Arginine, Panax Ginseng & Zink. Penghantaran rahsia seluruh Malaysia.",
+      "heroEyebrow": "FORMULASI II • 20 KAPSUL VEGETARIAN • PAKAR TRIBULUS BERSAPONIN TINGGI",
+      "heroHeadline": "Hammer of Thor — Matriks Tribulus Terrestris Piawai dalam Kapsul Vegetarian",
+      "heroSubheadline": "Dirumus khusus untuk lelaki dewasa di Malaysia yang mengutamakan kapsul 100% berasaskan tumbuhan (Veg. Capsules). Menggabungkan ekstrak Tribulus Terrestris bersaponin tinggi bersama Maca Peru, L-Arginine, Panax Ginseng, Tongkat Ali, dan Zink.",
+      "positioningSummary": "Hammer of Thor merupakan formulasi unik dalam rangkaian Onyxman kerana menggunakan 20 kapsul vegetarian sepenuhnya (bebas gelatin haiwan) dengan teras utama Tribulus Terrestris. Ia membekalkan saponin furostanol piawai bersama akar adaptogenik dan asid amino untuk menyokong kekuatan fizikal, pemulihan otot selepas bersenam, serta ketahanan tenaga malam.",
+      "idealUserProfile": "Lelaki dewasa (18+) di Malaysia yang mementingkan kapsul 100% vegetarian berasaskan tumbuhan dan mahukan formulasi berteraskan Tribulus Terrestris untuk kekuatan fizikal, kecergasan senaman, dan stamina malam yang konsisten.",
+      "sensoryAndCraftNotes": "Didatangkan dalam botol hitam berkilat dengan penutup emas metalik serta lencana hijau rasmi '20 Veg. Capsules'. Sarung kapsul selulosa tumbuhan tahan kelembapan cuaca Malaysia dan mudah dihadam tanpa rasa senak perut."
+    }
+  },
+  "botanicalActives": [
+    {
+      "code": "HT-ACT-01",
+      "scientificName": "Tribulus terrestris (Standardized Aerial & Fruit Extract)",
+      "commonNameEn": "High-Saponin Tribulus Terrestris",
+      "commonNameMs": "Ekstrak Buah Tribulus Terrestris Bersaponin Tinggi",
+      "dosagePerCapsuleMg": 200,
+      "standardization": "60% Total Steroidal Saponins (Protodioscin-Rich Fraction)",
+      "roleEn": "Primary phytosterol driver shown on the front bottle label; supports physical drive, lean muscular stamina, and male vitality conditioning.",
+      "roleMs": "Bahan aktif utama yang tertera pada label hadapan botol; menyokong daya tahan fizikal, kekuatan otot, dan kecergasan lelaki dewasa."
+    },
+    {
+      "code": "HT-ACT-02",
+      "scientificName": "Lepidium meyenii (Standardized Root Tuber Extract)",
+      "commonNameEn": "Andean Maca Root Complex",
+      "commonNameMs": "Ekstrak Akar Maca Peru",
+      "dosagePerCapsuleMg": 100,
+      "standardization": "10:1 Concentrated Root Tuber Extract",
+      "roleEn": "Works synergistically with Tribulus saponins to sustain physical endurance and evening vitality without central nervous system overstimulation.",
+      "roleMs": "Bertindak secara sinergi bersama saponin Tribulus untuk mengekalkan stamina fizikal dan kecergasan malam tanpa rangsangan saraf berlebihan."
+    },
+    {
+      "code": "HT-ACT-03",
+      "scientificName": "L-Arginine Base (Plant-Fermented Amino Acid)",
+      "commonNameEn": "Plant-Fermented L-Arginine",
+      "commonNameMs": "Asid Amino L-Arginine Fermentasi Tumbuhan",
+      "dosagePerCapsuleMg": 80,
+      "standardization": "99% Pure Plant-Fermented Free Amino Acid",
+      "roleEn": "Supports endothelial nitric oxide pathways and healthy peripheral blood flow during both physical workouts and evening activity.",
+      "roleMs": "Menyokong laluan nitrik oksida dan kelancaran peredaran darah semasa aktiviti senaman mahupun kecergasan malam."
+    },
+    {
+      "code": "HT-ACT-04",
+      "scientificName": "Panax ginseng (Standardized Root Extract)",
+      "commonNameEn": "Panax Ginseng Vitality Root",
+      "commonNameMs": "Ekstrak Akar Panax Ginseng",
+      "dosagePerCapsuleMg": 60,
+      "standardization": "10% Ginsenoside Phytocomplex",
+      "roleEn": "Promotes physical anti-fatigue resilience, mental clarity, and cardiorespiratory stamina under high tropical heat and work stress.",
+      "roleMs": "Membantu melawan kelesuan fizikal, meningkatkan fokus minda, dan menyokong ketahanan kardio dalam cuaca tropika Malaysia."
+    },
+    {
+      "code": "HT-ACT-05",
+      "scientificName": "Eurycoma longifolia (Malaysian Root Extract)",
+      "commonNameEn": "Malaysian Tongkat Ali Root",
+      "commonNameMs": "Ekstrak Akar Tongkat Ali Malaysia",
+      "dosagePerCapsuleMg": 45,
+      "standardization": "100:1 Water-Soluble Root Extract",
+      "roleEn": "Complements Tribulus Terrestris with native Malaysian quassinoids for balanced daily vitality and recovery.",
+      "roleMs": "Melengkapkan fungsi Tribulus Terrestris dengan sebatian aktif Tongkat Ali tempatan untuk keseimbangan tenaga dan pemulihan."
+    },
+    {
+      "code": "HT-ACT-06",
+      "scientificName": "Zinc Bisglycinate Chelate",
+      "commonNameEn": "Chelated Elemental Zinc Matrix",
+      "commonNameMs": "Mineral Zink Bisglisinat Terkelat",
+      "dosagePerCapsuleMg": 15,
+      "standardization": "15mg High-Absorption Chelated Zinc",
+      "roleEn": "Essential trace mineral required for normal male reproductive health, protein synthesis, and immune resilience.",
+      "roleMs": "Mineral surih penting yang diperlukan untuk kesihatan sistem lelaki dewasa, sintesis protein, dan ketahanan badan."
+    }
+  ],
+  "usageProtocol": {
+    "servingSize": "1 Vegetarian Capsule (500mg)",
+    "servingsPerContainer": 20,
+    "totalNetPotencyMg": 10000,
+    "modes": [
+      {
+        "modeId": "daily-saponin-conditioning",
+        "titleEn": "Protocol A: Daily Evening Saponin Conditioning",
+        "titleMs": "Protokol A: Penjagaan Saponin Harian Selepas Makan Malam",
+        "instructionEn": "Take 1 vegetarian capsule daily 30 minutes after dinner with 250ml of water. Consistent daily intake over 20 days builds peak Tribulus saponin and Zinc saturation.",
+        "instructionMs": "Ambil 1 kapsul vegetarian setiap hari 30 minit selepas makan malam bersama 250ml air kosong. Pengambilan konsisten selama 20 hari membina tahap saponin Tribulus dan Zink yang optimum."
+      },
+      {
+        "modeId": "pre-training-or-evening",
+        "titleEn": "Protocol B: Pre-Training or Evening Stamina Support",
+        "titleMs": "Protokol B: Sokongan Sebelum Senaman atau Aktiviti Malam",
+        "instructionEn": "On resistance-training days or active evenings, take 1 vegetarian capsule 45 minutes prior to physical exertion with 300ml water.",
+        "instructionMs": "Pada hari senaman bebanan atau aktiviti malam, ambil 1 kapsul vegetarian 45 minit sebelum aktiviti bersama 300ml air."
+      }
+    ],
+    "storageEn": "Store below 30°C in a dry, shaded cabinet. Keep the desiccant sachet inside the bottle to preserve the crisp integrity of the vegetarian HPMC capsules.",
+    "storageMs": "Simpan di bawah suhu 30°C di tempat kering dan teduh. Biarkan pek penyerap lembapan di dalam botol bagi mengekalkan kualiti kapsul vegetarian HPMC."
+  },
+  "progressionTimeline": [
+    {
+      "stage": "Days 1–5",
+      "titleEn": "Clean Vegetarian Dissolution & Baseline Energy Lift",
+      "titleMs": "Hari 1–5: Penyerapan Bersih Kapsul Vegetarian & Peningkatan Tenaga Asas",
+      "detailEn": "Plant-fermented L-Arginine and Panax Ginseng begin supporting daytime and evening physical alertness with zero digestive heaviness.",
+      "detailMs": "L-Arginine fermentasi tumbuhan dan Panax Ginseng mula menyokong kecergasan fizikal siang dan malam tanpa rasa tidak selesa pada perut."
+    },
+    {
+      "stage": "Days 6–14",
+      "titleEn": "Tribulus Saponin & Chelated Zinc Accumulation",
+      "titleMs": "Hari 6–14: Pengumpulan Saponin Tribulus & Zink Terkelat",
+      "detailEn": "Standardized 60% saponin Tribulus Terrestris and Zinc Bisglycinate support stronger post-exercise recovery, physical drive, and steady stamina.",
+      "detailMs": "Ekstrak Tribulus Terrestris 60% saponin dan Zink Bisglisinat menyokong pemulihan otot yang lebih cepat serta daya tahan fizikal yang stabil."
+    },
+    {
+      "stage": "Days 15–20 (Day-18 Refill Trigger)",
+      "titleEn": "Full 20-Day Conditioning & Day-18 Refill Continuity",
+      "titleMs": "Hari 15–20 (Peringatan Hari Ke-18): Kemuncak Kitaran 20 Hari",
+      "detailEn": "Full botanical synergy established. On Day 18, your automated Onyxman reminder prompts your next bottle dispatch so your Tribulus cycle remains uninterrupted.",
+      "detailMs": "Sinergi penuh botani dicapai. Pada Hari Ke-18, peringatan automatik Onyxman membantu anda menempah botol baharu supaya kitaran tidak terputus."
+    }
+  ],
+  "discreetShippingAndCheckout": {
+    "unmarkedParcelEn": "Delivered inside an unmarked, opaque matte parcel with zero brand logos or supplement descriptions. Sender appears strictly as 'OM Fulfilment Logistics'.",
+    "unmarkedParcelMs": "Dihantar menggunakan bungkusan legap tanpa logo atau keterangan suplemen. Nama pengirim hanya ditulis sebagai 'OM Fulfilment Logistics'.",
+    "westMalaysiaEtaEn": "1–2 Business Days across Peninsular Malaysia (Free Express Shipping on 1, 2, or 3 bottles).",
+    "westMalaysiaEtaMs": "1–2 Hari Bekerja di seluruh Semenanjung Malaysia (Penghantaran Ekspres Percuma untuk 1, 2, atau 3 botol).",
+    "eastMalaysiaEtaEn": "2–4 Business Days to Sabah, Sarawak & Labuan via Discreet Air Parcel (RM 12 on 1 bottle; Free on 2 or 3 bottles).",
+    "eastMalaysiaEtaMs": "2–4 Hari Bekerja ke Sabah, Sarawak & Labuan melalui Kargo Udara Rahsia (RM 12 untuk 1 botol; Percuma untuk 2 atau 3 botol).",
+    "klangValleySameDayEn": "3–5 Hours Same-Day Private Runner across Kuala Lumpur, Selangor, Putrajaya & Cyberjaya (orders before 16:00 MYT).",
+    "klangValleySameDayMs": "3–5 Jam Penghantar Persendirian Hari Sama di Kuala Lumpur, Selangor, Putrajaya & Cyberjaya (pesanan sebelum 4:00 petang).",
+    "paymentOptionsEn": "FPX Online Banking, DuitNow Instant QR, or Cash on Delivery (COD Malaysia).",
+    "paymentOptionsMs": "Perbankan Dalam Talian FPX, DuitNow QR Segera, atau Bayar Waktu Terima (COD Malaysia)."
+  },
+  "faqs": [
+    {
+      "qEn": "What does '20 Veg. Capsules' on the Hammer of Thor bottle label mean?",
+      "aEn": "It confirms that Hammer of Thor (SKU: ONYX-HT-20, MPN: HT-TRIB-20MY) uses 20 plant-derived hypromellose (HPMC) vegetarian capsules per bottle rather than animal gelatin capsules, making it ideal for Malaysian men seeking a clean plant-shell supplement.",
+      "qMs": "Apakah maksud '20 Veg. Capsules' yang tertera pada label botol Hammer of Thor?",
+      "aMs": "Ia mengesahkan bahawa Hammer of Thor (SKU: ONYX-HT-20, MPN: HT-TRIB-20MY) menggunakan 20 kapsul vegetarian berasaskan selulosa tumbuhan (HPMC) dan bukannya gelatin haiwan, menjadikannya pilihan bersih untuk lelaki di Malaysia."
+    },
+    {
+      "qEn": "Why is Tribulus Terrestris highlighted on the front of Hammer of Thor?",
+      "aEn": "Unlike multi-herb blends where Tribulus is a minor secondary ingredient, Hammer of Thor is formulated around a 200mg standardized 60%-saponin Tribulus Terrestris core supported by Maca, L-Arginine, Panax Ginseng, Tongkat Ali, and Zinc.",
+      "qMs": "Mengapakah Tribulus Terrestris ditekankan pada bahagian hadapan botol Hammer of Thor?",
+      "aMs": "Berbeza dengan produk lain yang hanya meletakkan sedikit Tribulus, Hammer of Thor menjadikan 200mg ekstrak piawai Tribulus Terrestris (60% saponin) sebagai teras utama, diperkukuh oleh Maca, L-Arginine, Panax Ginseng, Tongkat Ali, dan Zink."
+    },
+    {
+      "qEn": "Should I choose Hammer of Thor or Horsemen if both have 20 capsules at RM 159?",
+      "aEn": "Choose Hammer of Thor if you want 100% vegetarian capsules and a Tribulus Terrestris + Zinc dominant formula for daily stamina and muscular recovery. Choose Horsemen if you want a 100:1 Tongkat Ali + Black Maca + Epimedium formula geared toward rapid evening readiness.",
+      "qMs": "Patutkah saya memilih Hammer of Thor atau Horsemen memandangkan kedua-duanya berharga RM 159 untuk 20 kapsul?",
+      "aMs": "Pilih Hammer of Thor jika anda mengutamakan kapsul 100% vegetarian serta formulasi berasaskan Tribulus Terrestris + Zink untuk stamina harian dan pemulihan otot. Pilih Horsemen jika anda mahukan fokus Tongkat Ali 100:1 + Maca Hitam untuk kesediaan tenaga malam yang pantas."
+    },
+    {
+      "qEn": "How does the Day-18 refill reminder work for Hammer of Thor?",
+      "aEn": "With 20 vegetarian capsules per bottle, taking 1 capsule daily means you reach your final 2 capsules on Day 18. Our order bridge generates a 1-click Google Calendar & WhatsApp reminder for Day 18 so your next bottle arrives seamlessly.",
+      "qMs": "Bagaimanakah peringatan bekalan semula Hari Ke-18 berfungsi untuk Hammer of Thor?",
+      "aMs": "Dengan 20 kapsul vegetarian setiap botol, pengambilan 1 kapsul sehari bermakna anda mempunyai baki 2 kapsul pada Hari Ke-18. Sistem kami menyediakan pautan peringatan Google Calendar & WhatsApp pada Hari Ke-18 supaya botol baharu sempat tiba tanpa terputus bekalan."
+    },
+    {
+      "qEn": "What are the official bundle prices for Hammer of Thor on Onyxman.my?",
+      "aEn": "Every Onyxman formulation follows transparent uniform pricing: 1 Bottle (20 Veg. Capsules) is RM 159, 2 Bottles (40 Veg. Capsules + Free Nationwide Malaysia Shipping) is RM 318, and 3 Bottles (60 Veg. Capsules) is RM 477.",
+      "qMs": "Berapakah harga rasmi pakej Hammer of Thor di laman rasmi Onyxman.my?",
+      "aMs": "Semua produk Onyxman mempunyai harga rasmi yang seragam: 1 Botol (20 Kapsul Veg) ialah RM 159, 2 Botol (40 Kapsul Veg + Penghantaran Percuma Seluruh Malaysia) ialah RM 318, dan 3 Botol (60 Kapsul Veg) ialah RM 477."
+    },
+    {
+      "qEn": "How can I distinguish authentic Hammer of Thor on Onyxman.my from cheap marketplace fakes?",
+      "aEn": "Authentic Hammer of Thor from Onyxman.my features a precision-aligned black bottle with a gold metallic cap, crisp 'Men's Health — Tribulus Terrestris — 20 Veg. Capsules' typography, tamper-evident seal, and official RM 159 pricing backed by sales@onyxman.my.",
+      "qMs": "Bagaimanakah cara membezakan Hammer of Thor tulen di Onyxman.my daripada produk tiruan murah di pasaran?",
+      "aMs": "Hammer of Thor tulen daripada Onyxman.my menampilkan botol hitam berkualiti tinggi dengan penutup emas metalik, cetakan tajam 'Men's Health — Tribulus Terrestris — 20 Veg. Capsules', pelekat keselamatan kedap udara, serta harga rasmi RM 159 yang disahkan melalui sales@onyxman.my."
+    },
+    {
+      "qEn": "Is my Hammer of Thor order shipped discreetly to offices or apartments in Malaysia?",
+      "aEn": "Yes, 100%. We ship in plain, unmarked matte packaging under 'OM Fulfilment Logistics'. You can have it delivered to your home, condominium guardhouse, office reception, or nearest PosLaju/NinjaVan collection point with total privacy.",
+      "qMs": "Adakah pesanan Hammer of Thor dihantar secara rahsia ke pejabat atau pangsapuri di Malaysia?",
+      "aMs": "Ya, 100% rahsia. Kami menghantar menggunakan bungkusan legap tanpa sebarang jenama di bawah nama 'OM Fulfilment Logistics'. Anda boleh menerimanya di rumah, pondok pengawal kondo, pejabat, atau pusat pungutan kurier dengan privasi penuh."
+    },
+    {
+      "qEn": "Can I use Cash on Delivery (COD) for Hammer of Thor?",
+      "aEn": "Yes. Both Cash on Delivery (COD) and instant FPX / DuitNow QR payments are supported across Malaysia with zero hidden handling fees.",
+      "qMs": "Adakah kaedah Bayar Waktu Terima (COD) disediakan untuk Hammer of Thor?",
+      "aMs": "Ya. Kedua-dua kaedah Bayar Waktu Terima (COD) serta pembayaran pantas FPX / DuitNow QR disediakan di seluruh Malaysia tanpa sebarang caj tambahan tersembunyi."
+    },
+    {
+      "qEn": "Does Hammer of Thor contain any synthetic drugs or banned stimulants?",
+      "aEn": "No. Hammer of Thor is a botanical and mineral dietary supplement containing standardized plant extracts (Tribulus Terrestris, Maca, Panax Ginseng, Tongkat Ali), plant-fermented L-Arginine, and Zinc. It contains zero undeclared synthetic PDE5 chemicals.",
+      "qMs": "Adakah Hammer of Thor mengandungi sebarang ubat sintetik atau perangsang terlarang?",
+      "aMs": "Tidak. Hammer of Thor ialah suplemen pemakanan botani dan mineral yang mengandungi ekstrak tumbuhan piawai (Tribulus Terrestris, Maca, Panax Ginseng, Tongkat Ali), L-Arginine tumbuhan, dan Zink. Ia bebas daripada bahan kimia sintetik terlarang."
+    },
+    {
+      "qEn": "Can I combine Hammer of Thor with regular gym workouts?",
+      "aEn": "Yes. Many active men in Kuala Lumpur, Penang, and Johor Bahru take Hammer of Thor 45 minutes before resistance training or after their evening meal to support physical stamina and post-workout nutritional recovery.",
+      "qMs": "Bolehkah saya mengamalkan Hammer of Thor bersama rutin senaman di gimnasium?",
+      "aMs": "Ya. Ramai pengguna aktif di Kuala Lumpur, Pulau Pinang, dan Johor Bahru mengambil Hammer of Thor 45 minit sebelum latihan bebanan atau selepas makan malam bagi menyokong stamina fizikal dan pemulihan tenaga."
+    }
+  ]
+}

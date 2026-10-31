@@ -1,0 +1,333 @@
+{
+  "microSteps": ["MS-033", "MS-034", "MS-035"],
+  "brand": "Onyxman",
+  "domain": "https://onyxman.my",
+  "uniformPricing": {
+    "currency": "MYR",
+    "symbol": "RM",
+    "singleBottle": "159.00",
+    "twoBottles": "318.00",
+    "threeBottles": "477.00",
+    "rationaleEn": "All four Onyxman formulations share a uniform RM 159 per bottle price (RM 318 for 2 bottles, RM 477 for 3 bottles) so Malaysian men can select purely based on physiological goal, capsule count (20 vs 30), and botanical mechanism rather than price compromises.",
+    "rationaleMs": "Keempat-empat formulasi Onyxman ditawarkan pada harga seragam RM 159 sebotol (RM 318 untuk 2 botol, RM 477 untuk 3 botol) supaya pengguna di Malaysia boleh memilih berdasarkan matlamat fisiologi, bilangan kapsul (20 vs 30), dan kesesuaian herba tanpa perlu risau tentang perbezaan harga."
+  },
+  "headToHeadComparisons": [
+    {
+      "microStep": "MS-033",
+      "id": "horsemen-vs-hammer-of-thor",
+      "slug": "horsemen-vs-hammer-of-thor",
+      "i18nRouteKey": "compare-horsemen-vs-Sensitivity-of-thor",
+      "enPath": "/compare/horsemen-vs-hammer-of-thor/",
+      "msPath": "/ms/perbandingan/horsemen-vs-hammer-of-thor/",
+      "i18nRegistryEnPath": "/compare/horsemen-vs-Sensitivity-of-thor/",
+      "i18nRegistryMsPath": "/ms/perbandingan/horsemen-vs-Sensitivity-of-thor/",
+      "leftProductId": "horsemen",
+      "rightProductId": "hammer-of-thor",
+      "locales": {
+        "en-MY": {
+          "seoTitle": "Horsemen vs Hammer of Thor (20 Capsules Comparison) — Which RM 159 Formula Fits You? | Onyxman Malaysia",
+          "metaDescription": "Detailed side-by-side comparison of Horsemen (20 Capsules x 500mg) vs Hammer of Thor (20 Veg. Capsules Tribulus Terrestris) in Malaysia. Compare ingredients, capsule shell, timing, and Day-18 refill protocol.",
+          "headline": "Horsemen vs Hammer of Thor — 20-Capsule Classic vs Vegetarian Tribulus Specialist",
+          "subheadline": "Both formulations deliver a concentrated 20-capsule x 500mg cycle with a Day-18 refill protocol at RM 159, but their botanical architectures serve two distinct adult male vitality priorities.",
+          "executiveVerdict": "Choose Horsemen (SKU: ONYX-HM-20) if your top priority is rapid evening readiness (45–60 minutes pre-activity) powered by 100:1 Malaysian Tongkat Ali, Black Peruvian Maca, Epimedium, and Korean Red Ginseng. Choose Hammer of Thor (SKU: ONYX-HT-20) if you specifically require 100% plant-derived vegetarian capsules (20 Veg. Capsules) and want a 60%-saponin Tribulus Terrestris + Chelated Zinc formula for daily physical drive and post-workout muscular conditioning."
+        },
+        "ms-MY": {
+          "seoTitle": "Perbandingan Horsemen vs Hammer of Thor (20 Kapsul) — Pilihan RM 159 Terbaik | Onyxman Malaysia",
+          "metaDescription": "Perbandingan lengkap Horsemen (20 Kapsul x 500mg) vs Hammer of Thor (20 Kapsul Vegetarian Tribulus Terrestris) di Malaysia. Bandingkan ramuan herba, jenis kapsul, masa pengambilan, dan harga rasmi RM 159.",
+          "headline": "Horsemen vs Hammer of Thor — Klasik 20 Kapsul vs Pakar Tribulus Kapsul Vegetarian",
+          "subheadline": "Kedua-dua formulasi ini membekalkan kitaran padat 20 kapsul x 500mg dengan peringatan bekalan Hari Ke-18 pada harga RM 159, namun mempunyai fokus ramuan botani yang berbeza.",
+          "executiveVerdict": "Pilih Horsemen (SKU: ONYX-HM-20) jika keutamaan anda ialah kesediaan tenaga malam yang pantas (45–60 minit sebelum aktiviti) berasaskan Tongkat Ali 100:1, Maca Hitam Peru, Epimedium, dan Ginseng Merah Korea. Pilih Hammer of Thor (SKU: ONYX-HT-20) jika anda mengutamakan kapsul 100% vegetarian berasaskan tumbuhan (20 Veg. Capsules) dengan teras Tribulus Terrestris 60% saponin + Zink untuk kekuatan fizikal harian dan pemulihan otot."
+        }
+      },
+      "comparisonRows": [
+        {
+          "dimensionEn": "Official Bottle Subtitle",
+          "dimensionMs": "Subtajuk Rasmi Pada Botol",
+          "leftValueEn": "Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg",
+          "leftValueMs": "Man Virility Enhancement Herbal Supplement — 20 Kapsul x 500mg",
+          "rightValueEn": "Men's Health — Tribulus Terrestris — 20 Veg. Capsules",
+          "rightValueMs": "Men's Health — Tribulus Terrestris — 20 Kapsul Vegetarian"
+        },
+        {
+          "dimensionEn": "SKU & MPN Identifiers",
+          "dimensionMs": "Kod SKU & MPN Rasmi",
+          "leftValueEn": "SKU: ONYX-HM-20 | MPN: HM-500MG-20MY",
+          "leftValueMs": "SKU: ONYX-HM-20 | MPN: HM-500MG-20MY",
+          "rightValueEn": "SKU: ONYX-HT-20 | MPN: HT-TRIB-20MY",
+          "rightValueMs": "SKU: ONYX-HT-20 | MPN: HT-TRIB-20MY"
+        },
+        {
+          "dimensionEn": "Capsule Count & Refill Trigger",
+          "dimensionMs": "Bilangan Kapsul & Peringatan Bekalan",
+          "leftValueEn": "20 Capsules x 500mg (Day-18 Automated Refill Alert)",
+          "leftValueMs": "20 Kapsul x 500mg (Peringatan Automatik Hari Ke-18)",
+          "rightValueEn": "20 Veg. Capsules x 500mg (Day-18 Automated Refill Alert)",
+          "rightValueMs": "20 Kapsul Veg x 500mg (Peringatan Automatik Hari Ke-18)"
+        },
+        {
+          "dimensionEn": "Capsule Shell Material",
+          "dimensionMs": "Bahan Sarung Kapsul",
+          "leftValueEn": "Rapid-Dissolve Apothecary Capsule (20–30 min warm-water dissolution)",
+          "leftValueMs": "Kapsul Apotekari Larut Pantas (20–30 minit bersama air suam)",
+          "rightValueEn": "100% Plant-Derived Hypromellose (HPMC) Vegetarian Capsule",
+          "rightValueMs": "100% Kapsul Vegetarian Selulosa Tumbuhan (HPMC)"
+        },
+        {
+          "dimensionEn": "Lead Botanical Driver",
+          "dimensionMs": "Peneraju Herba Utama",
+          "leftValueEn": "150mg Malaysian Tongkat Ali (100:1) + 100mg Black Peruvian Maca + 80mg Epimedium",
+          "leftValueMs": "150mg Tongkat Ali Malaysia (100:1) + 100mg Maca Hitam Peru + 80mg Epimedium",
+          "rightValueEn": "200mg Standardized Tribulus Terrestris (60% Saponins) + 100mg Maca + 15mg Chelated Zinc",
+          "rightValueMs": "200mg Tribulus Terrestris Piawai (60% Saponin) + 100mg Maca + 15mg Zink Terkelat"
+        },
+        {
+          "dimensionEn": "Optimal Intake Timing",
+          "dimensionMs": "Masa Pengambilan Optimum",
+          "leftValueEn": "45–60 minutes before evening activity OR 1 capsule daily after dinner",
+          "leftValueMs": "45–60 minit sebelum aktiviti malam ATAU 1 kapsul sehari selepas makan malam",
+          "rightValueEn": "1 vegetarian capsule daily 30 minutes after dinner OR 45 minutes pre-training",
+          "rightValueMs": "1 kapsul vegetarian setiap hari 30 minit selepas makan malam ATAU sebelum senaman"
+        },
+        {
+          "dimensionEn": "Official Malaysia Pricing",
+          "dimensionMs": "Harga Rasmi Malaysia",
+          "leftValueEn": "1 Bottle: RM 159 | 2 Bottles: RM 318 | 3 Bottles: RM 477",
+          "leftValueMs": "1 Botol: RM 159 | 2 Botol: RM 318 | 3 Botol: RM 477",
+          "rightValueEn": "1 Bottle: RM 159 | 2 Bottles: RM 318 | 3 Bottles: RM 477",
+          "rightValueMs": "1 Botol: RM 159 | 2 Botol: RM 318 | 3 Botol: RM 477"
+        }
+      ],
+      "decisionScenarios": [
+        {
+          "scenarioEn": "You want rapid evening readiness after long Kuala Lumpur or JB office hours",
+          "scenarioMs": "Anda mahukan kesediaan tenaga malam yang pantas selepas waktu kerja yang panjang",
+          "recommendedProductId": "horsemen",
+          "reasonEn": "Horsemen's 100:1 Tongkat Ali + Epimedium + L-Arginine HCl ratio is tuned for 45–60 minute pre-evening absorption with warm water.",
+          "reasonMs": "Nisbah Tongkat Ali 100:1 + Epimedium + L-Arginine HCl dalam Horsemen ditala khusus untuk serapan pantas 45–60 minit bersama air suam."
+        },
+        {
+          "scenarioEn": "You strictly prefer 100% vegetarian capsules and focus on Tribulus saponins + Zinc",
+          "scenarioMs": "Anda mengutamakan kapsul 100% vegetarian dan fokus kepada saponin Tribulus + Zink",
+          "recommendedProductId": "hammer-of-thor",
+          "reasonEn": "Hammer of Thor uses plant-derived HPMC vegetarian shells and delivers 200mg of 60%-saponin Tribulus Terrestris plus 15mg Zinc Bisglycinate.",
+          "reasonMs": "Hammer of Thor menggunakan kapsul tumbuhan HPMC serta membekalkan 200mg Tribulus Terrestris (60% saponin) dan 15mg Zink Bisglisinat."
+        }
+      ]
+    },
+    {
+      "microStep": "MS-034",
+      "id": "grow-xl-vs-magnum-pump-xr",
+      "slug": "grow-xl-vs-magnum-pump-xr",
+      "i18nRouteKey": "compare-grow-xl-vs-magnum-pump-xr",
+      "enPath": "/compare/grow-xl-vs-magnum-pump-xr/",
+      "msPath": "/ms/perbandingan/grow-xl-vs-magnum-pump-xr/",
+      "i18nRegistryEnPath": "/compare/grow-xl-vs-magnum-pump-xr/",
+      "i18nRegistryMsPath": "/ms/perbandingan/grow-xl-vs-magnum-pump-xr/",
+      "leftProductId": "grow-xl",
+      "rightProductId": "magnum-pump-xr",
+      "locales": {
+        "en-MY": {
+          "seoTitle": "Grow XL vs Magnum Pump XR (30 Capsules Comparison) — Botanical Blend vs Nitric Oxide XR | Onyxman Malaysia",
+          "metaDescription": "Compare Grow XL (30 Capsules Extra-Strength Botanical Blend) vs Magnum Pump XR (30 Black Capsules Nitric Oxide Testosterone Pro Series) in Malaysia. Both RM 159 with Day-25 refill reminder.",
+          "headline": "Grow XL vs Magnum Pump XR — 30-Day Extra-Strength Botanical vs Testosterone Pro Nitric Oxide Black Capsules",
+          "subheadline": "Both flagship 30-capsule formulations provide a full 1-month daily supply with a Day-25 refill trigger at RM 159, yet they target different physiological pathways and times of day.",
+          "executiveVerdict": "Select Grow XL (SKU: ONYX-GX-30) if you want an all-day morning baseline protocol combining Extra-Strength Tongkat Ali, Maca Root, Brazilian Muira Puama, and Saw Palmetto for cumulative 30-to-90-day vitality conditioning. Select Magnum Pump XR (SKU: ONYX-MP-30, 30 Black Capsules) if your priority is acute + extended-release Nitric Oxide vascular flow (320mg combined L-Arginine HCl + L-Citrulline Malate catalyzed by Bioperine) taken 30–45 minutes before gym workouts or evening performance."
+        },
+        "ms-MY": {
+          "seoTitle": "Perbandingan Grow XL vs Magnum Pump XR (30 Kapsul) — Campuran Botani vs Nitrik Oksida | Onyxman Malaysia",
+          "metaDescription": "Bandingkan Grow XL (30 Kapsul Campuran Prestasi Kekuatan Ekstra) vs Magnum Pump XR (30 Kapsul Hitam Nitrik Oksida Testosterone Pro Series) di Malaysia. Harga seragam RM 159.",
+          "headline": "Grow XL vs Magnum Pump XR — Botani Kekuatan Ekstra 30 Hari vs Kapsul Hitam Nitrik Oksida Siri Pro",
+          "subheadline": "Kedua-dua formulasi 30 kapsul ini membekalkan kitaran sebulan penuh dengan peringatan bekalan Hari Ke-25 pada harga RM 159, tetapi berfungsi melalui laluan fisiologi dan waktu pengambilan yang berbeza.",
+          "executiveVerdict": "Pilih Grow XL (SKU: ONYX-GX-30) jika anda mahukan rutin penjagaan waktu pagi sepanjang hari yang menggabungkan Tongkat Ali Kekuatan Ekstra, Akar Maca, Muira Puama Brazil, dan Saw Palmetto untuk kitaran 30 hingga 90 hari. Pilih Magnum Pump XR (SKU: ONYX-MP-30, 30 Kapsul Hitam) jika keutamaan anda ialah sokongan aliran vaskular Nitrik Oksida Pelepasan Lanjutan (320mg gabungan L-Arginine HCl + L-Citrulline bersama Bioperine) yang diambil 30–45 minit sebelum senaman gimnasium atau aktiviti malam."
+        }
+      },
+      "comparisonRows": [
+        {
+          "dimensionEn": "Official Bottle Subtitle",
+          "dimensionMs": "Subtajuk Rasmi Pada Botol",
+          "leftValueEn": "#1 Selling Product — Made With Natural Ingredient — Extra-Strength Enhancement Male Performance Blend — 30 Capsules",
+          "leftValueMs": "Produk Jualan #1 — Campuran Prestasi Lelaki Kekuatan Ekstra Semula Jadi — 30 Kapsul",
+          "rightValueEn": "Testosterone Pro Series — Male Enhancement Formula Maximum Strength — 30 Black Capsules",
+          "rightValueMs": "Testosterone Pro Series — Formula Prestasi Lelaki Kekuatan Maksimum — 30 Kapsul Hitam"
+        },
+        {
+          "dimensionEn": "SKU & MPN Identifiers",
+          "dimensionMs": "Kod SKU & MPN Rasmi",
+          "leftValueEn": "SKU: ONYX-GX-30 | MPN: GXL-30CAP-MY",
+          "leftValueMs": "SKU: ONYX-GX-30 | MPN: GXL-30CAP-MY",
+          "rightValueEn": "SKU: ONYX-MP-30 | MPN: MPXR-30BLK-MY",
+          "rightValueMs": "SKU: ONYX-MP-30 | MPN: MPXR-30BLK-MY"
+        },
+        {
+          "dimensionEn": "Capsule Count & Appearance",
+          "dimensionMs": "Bilangan & Rupa Kapsul",
+          "leftValueEn": "30 Standard Botanical Capsules x 550mg (Day-25 Refill Trigger)",
+          "leftValueMs": "30 Kapsul Botani Piawai x 550mg (Peringatan Hari Ke-25)",
+          "rightValueEn": "30 Signature Jet-Black Capsules x 600mg (Day-25 Refill Trigger)",
+          "rightValueMs": "30 Kapsul Hitam Eksklusif x 600mg (Peringatan Hari Ke-25)"
+        },
+        {
+          "dimensionEn": "Primary Physiological Mechanism",
+          "dimensionMs": "Mekanisme Fisiologi Utama",
+          "leftValueEn": "Cumulative 30-Day Adaptogenic Vitality, Micro-Circulation & Saw Palmetto Male Wellness",
+          "leftValueMs": "Kecergasan Adaptogenik 30 Hari, Aliran Mikro & Kesihatan Lelaki Saw Palmetto",
+          "rightValueEn": "Extended-Release (XR) Nitric Oxide Vasodilation + Pro-Series Physical Pump",
+          "rightValueMs": "Aliran Vaskular Nitrik Oksida Pelepasan Lanjutan (XR) & Prestasi Fizikal"
+        },
+        {
+          "dimensionEn": "Key Active Formula",
+          "dimensionMs": "Komposisi Bahan Aktif Utama",
+          "leftValueEn": "Tongkat Ali (140mg), Maca (110mg), L-Arginine/Citrulline (100mg), Muira Puama (80mg), Saw Palmetto (70mg), Ginseng/Ginkgo (50mg)",
+          "leftValueMs": "Tongkat Ali (140mg), Maca (110mg), L-Arginine/Citrulline (100mg), Muira Puama (80mg), Saw Palmetto (70mg), Ginseng/Ginkgo (50mg)",
+          "rightValueEn": "L-Arginine HCl (180mg), L-Citrulline Malate (140mg), Tribulus (110mg), Tongkat Ali (90mg), Thai Black Ginger (65mg), Bioperine (15mg)",
+          "rightValueMs": "L-Arginine HCl (180mg), L-Citrulline Malate (140mg), Tribulus (110mg), Tongkat Ali (90mg), Kunyit Hitam (65mg), Bioperine (15mg)"
+        },
+        {
+          "dimensionEn": "Best Time of Day to Take",
+          "dimensionMs": "Waktu Pengambilan Terbaik",
+          "leftValueEn": "Morning (20–30 minutes after breakfast for all-day baseline nourishment)",
+          "leftValueMs": "Waktu Pagi (20–30 minit selepas sarapan untuk sokongan sepanjang hari)",
+          "rightValueEn": "30–45 minutes before gym training OR 30–45 minutes before evening activity",
+          "rightValueMs": "30–45 minit sebelum senaman gimnasium ATAU 30–45 minit sebelum aktiviti malam"
+        },
+        {
+          "dimensionEn": "Official Malaysia Pricing",
+          "dimensionMs": "Harga Rasmi Malaysia",
+          "leftValueEn": "1 Bottle: RM 159 | 2 Bottles: RM 318 | 3 Bottles: RM 477",
+          "leftValueMs": "1 Botol: RM 159 | 2 Botol: RM 318 | 3 Botol: RM 477",
+          "rightValueEn": "1 Bottle: RM 159 | 2 Bottles: RM 318 | 3 Bottles: RM 477",
+          "rightValueMs": "1 Botol: RM 159 | 2 Botol: RM 318 | 3 Botol: RM 477"
+        }
+      ],
+      "decisionScenarios": [
+        {
+          "scenarioEn": "You want a simple 1-capsule-after-breakfast 30-day wellness & vitality habit",
+          "scenarioMs": "Anda mahukan rutin mudah 1 kapsul selepas sarapan selama 30 hari penuh",
+          "recommendedProductId": "grow-xl",
+          "reasonEn": "Grow XL combines Muira Puama, Saw Palmetto, Tongkat Ali, and Maca for progressive 30-to-90-day baseline conditioning.",
+          "reasonMs": "Grow XL menggabungkan Muira Puama, Saw Palmetto, Tongkat Ali, dan Maca untuk penjagaan kecergasan berperingkat selama 30 hingga 90 hari."
+        },
+        {
+          "scenarioEn": "You train at the gym or want maximum Nitric Oxide vascular support before evening activity",
+          "scenarioMs": "Anda aktif bersenam di gimnasium atau mahukan sokongan vaskular Nitrik Oksida sebelum aktiviti malam",
+          "recommendedProductId": "magnum-pump-xr",
+          "reasonEn": "Magnum Pump XR's 30 Black Capsules deliver 320mg of combined L-Arginine HCl + L-Citrulline Malate with Bioperine and Thai Black Ginger.",
+          "reasonMs": "30 Kapsul Hitam Magnum Pump XR membekalkan 320mg gabungan L-Arginine HCl + L-Citrulline Malate bersama Bioperine dan Kunyit Hitam."
+        }
+      ]
+    }
+  ],
+  "fullApothecaryMatrix": {
+    "microStep": "MS-035",
+    "id": "onyxman-4-product-matrix",
+    "i18nRouteKey": "compare-index",
+    "enPath": "/compare/",
+    "msPath": "/ms/perbandingan/",
+    "locales": {
+      "en-MY": {
+        "seoTitle": "Complete 4-Product Onyxman Apothecary Comparison Matrix — Horsemen vs Hammer of Thor vs Grow XL vs Magnum Pump XR | RM 159",
+        "metaDescription": "Compare all 4 official Onyxman Malaysia men's vitality supplements side-by-side: Horsemen (20 Caps), Hammer of Thor (20 Veg Caps), Grow XL (30 Caps), and Magnum Pump XR (30 Black Caps). Uniform RM 159 pricing.",
+        "headline": "The Complete 4-Product Onyxman Apothecary Selection Matrix",
+        "subheadline": "Every formulation is priced identically at RM 159 per bottle (RM 318 for 2 bottles, RM 477 for 3 bottles). Compare capsule count, refill cycle, primary botanical driver, and ideal user profile below."
+      },
+      "ms-MY": {
+        "seoTitle": "Jadual Perbandingan Lengkap 4 Produk Onyxman — Horsemen vs Hammer of Thor vs Grow XL vs Magnum Pump XR | RM 159",
+        "metaDescription": "Bandingkan keempat-empat suplemen kecergasan lelaki rasmi Onyxman Malaysia: Horsemen (20 Kapsul), Hammer of Thor (20 Kapsul Veg), Grow XL (30 Kapsul), dan Magnum Pump XR (30 Kapsul Hitam). Harga seragam RM 159.",
+        "headline": "Jadual Pemilihan Lengkap 4 Formulasi Apotekari Onyxman",
+        "subheadline": "Setiap formulasi ditawarkan pada harga seragam RM 159 sebotol (RM 318 untuk 2 botol, RM 477 untuk 3 botol). Bandingkan bilangan kapsul, kitaran bekalan, teras herba utama, dan profil pengguna di bawah."
+      }
+    },
+    "productsSummary": [
+      {
+        "productId": "horsemen",
+        "name": "Horsemen",
+        "sku": "ONYX-HM-20",
+        "mpn": "HM-500MG-20MY",
+        "capsuleCount": 20,
+        "capsuleTypeEn": "500mg High-Density Herbal Capsule",
+        "capsuleTypeMs": "Kapsul Herba Padat 500mg",
+        "refillDay": 18,
+        "primaryGoalEn": "Rapid Evening Readiness & Post-Work Stamina Resilience",
+        "primaryGoalMs": "Kesediaan Tenaga Malam Pantas & Ketahanan Selepas Kerja",
+        "signatureActivesEn": "Tongkat Ali 100:1 (150mg) + Black Maca (100mg) + Epimedium (80mg) + L-Arginine (80mg) + Red Ginseng (60mg)",
+        "signatureActivesMs": "Tongkat Ali 100:1 (150mg) + Maca Hitam (100mg) + Epimedium (80mg) + L-Arginine (80mg) + Ginseng Merah (60mg)",
+        "idealUserEn": "Executives & adult men wanting concentrated 500mg evening stamina support",
+        "idealUserMs": "Eksekutif & lelaki dewasa yang mahukan kapsul 500mg padat untuk tenaga malam",
+        "priceSingle": "RM 159",
+        "priceTwo": "RM 318",
+        "priceThree": "RM 477"
+      },
+      {
+        "productId": "hammer-of-thor",
+        "name": "Hammer of Thor",
+        "sku": "ONYX-HT-20",
+        "mpn": "HT-TRIB-20MY",
+        "capsuleCount": 20,
+        "capsuleTypeEn": "100% Plant-Derived Vegetarian Capsule (20 Veg. Capsules)",
+        "capsuleTypeMs": "100% Kapsul Vegetarian Tumbuhan (20 Kapsul Veg)",
+        "refillDay": 18,
+        "primaryGoalEn": "High-Saponin Tribulus Conditioning & Clean Vegetarian Digestion",
+        "primaryGoalMs": "Penjagaan Saponin Tribulus & Penghadaman Kapsul Vegetarian Bersih",
+        "signatureActivesEn": "Tribulus Terrestris 60% Saponins (200mg) + Maca (100mg) + Plant L-Arginine (80mg) + Ginseng (60mg) + Zinc (15mg)",
+        "signatureActivesMs": "Tribulus Terrestris 60% Saponin (200mg) + Maca (100mg) + L-Arginine Tumbuhan (80mg) + Ginseng (60mg) + Zink (15mg)",
+        "idealUserEn": "Men who prefer 100% vegetarian capsules and Tribulus + Zinc strength conditioning",
+        "idealUserMs": "Lelaki yang mengutamakan kapsul vegetarian 100% dan kekuatan Tribulus + Zink",
+        "priceSingle": "RM 159",
+        "priceTwo": "RM 318",
+        "priceThree": "RM 477"
+      },
+      {
+        "productId": "grow-xl",
+        "name": "Grow XL",
+        "sku": "ONYX-GX-30",
+        "mpn": "GXL-30CAP-MY",
+        "capsuleCount": 30,
+        "capsuleTypeEn": "550mg Extra-Strength Full-Month Botanical Capsule",
+        "capsuleTypeMs": "Kapsul Botani Kekuatan Ekstra 550mg (Sebulan Penuh)",
+        "refillDay": 25,
+        "primaryGoalEn": "30-Day Daily Baseline Vitality, Micro-Circulation & Male Wellness",
+        "primaryGoalMs": "Kecergasan Asas Harian 30 Hari, Aliran Mikro & Kesejahteraan Lelaki",
+        "signatureActivesEn": "Extra-Strength Tongkat Ali (140mg) + Maca (110mg) + Dual Amino (100mg) + Muira Puama (80mg) + Saw Palmetto (70mg)",
+        "signatureActivesMs": "Tongkat Ali Ekstra (140mg) + Maca (110mg) + Dwi-Asid Amino (100mg) + Muira Puama (80mg) + Saw Palmetto (70mg)",
+        "idealUserEn": "Men seeking a 1-capsule-each-morning 30-to-90-day progressive conditioning habit",
+        "idealUserMs": "Lelaki yang mahukan rutin harian 1 kapsul setiap pagi selama 30 hingga 90 hari",
+        "priceSingle": "RM 159",
+        "priceTwo": "RM 318",
+        "priceThree": "RM 477"
+      },
+      {
+        "productId": "magnum-pump-xr",
+        "name": "Magnum Pump XR",
+        "sku": "ONYX-MP-30",
+        "mpn": "MPXR-30BLK-MY",
+        "capsuleCount": 30,
+        "capsuleTypeEn": "600mg Extended-Release Jet-Black Capsule (30 Black Capsules)",
+        "capsuleTypeMs": "Kapsul Hitam Pelepasan Lanjutan 600mg (30 Kapsul Hitam)",
+        "refillDay": 25,
+        "primaryGoalEn": "Nitric Oxide Vasodilation, Pre-Workout Gym Pump & Evening Output",
+        "primaryGoalMs": "Aliran Vaskular Nitrik Oksida, Prestasi Gimnasium & Tenaga Malam",
+        "signatureActivesEn": "L-Arginine HCl (180mg) + L-Citrulline Malate (140mg) + Tribulus (110mg) + Tongkat Ali (90mg) + Black Ginger (65mg) + Bioperine (15mg)",
+        "signatureActivesMs": "L-Arginine HCl (180mg) + L-Citrulline Malate (140mg) + Tribulus (110mg) + Tongkat Ali (90mg) + Kunyit Hitam (65mg) + Bioperine (15mg)",
+        "idealUserEn": "Active gym-goers & men wanting maximum nitric oxide vascular flow before activity",
+        "idealUserMs": "Pengamal gimnasium & lelaki yang mahukan aliran vaskular nitrik oksida maksimum",
+        "priceSingle": "RM 159",
+        "priceTwo": "RM 318",
+        "priceThree": "RM 477"
+      }
+    ],
+    "matrixFaqs": [
+      {
+        "qEn": "Why do the 20-capsule bottles (Horsemen & Hammer of Thor) and 30-capsule bottles (Grow XL & Magnum Pump XR) cost the same RM 159?",
+        "aEn": "The 20-capsule formulations utilize higher-ratio standardized botanical extracts per milligram (such as 100:1 Eurycoma longifolia and 60%-saponin Tribulus in vegetarian HPMC shells), whereas the 30-capsule formulations are calibrated for steady 30-day daily intake or amino-acid nitric oxide loading. Pricing all four at RM 159 allows you to choose strictly by your biological goal.",
+        "qMs": "Mengapakah botol 20 kapsul (Horsemen & Hammer of Thor) dan botol 30 kapsul (Grow XL & Magnum Pump XR) mempunyai harga yang sama iaitu RM 159?",
+        "aMs": "Formulasi 20 kapsul menggunakan nisbah ekstrak herba piawai berkepekatan tinggi bagi setiap miligram (seperti ekstrak 100:1 Tongkat Ali dan 60% saponin Tribulus dalam kapsul vegetarian), manakala formulasi 30 kapsul ditala untuk pengambilan harian sebulan penuh atau muatan asid amino nitrik oksida. Harga seragam RM 159 membolehkan anda memilih mengikut keperluan badan anda."
+      },
+      {
+        "qEn": "Can I mix two different formulations in a 2-bottle (RM 318) or 3-bottle (RM 477) order?",
+        "aEn": "Yes. When submitting your order through the Express Discreet Order Drawer (routed to sales@onyxman.my / waleedshoaibofficial@gmail.com), simply mention in the Discreet Notes if you wish to pair, for example, 1 bottle of Grow XL (morning baseline) with 1 bottle of Horsemen or Magnum Pump XR (evening/pre-workout) at the RM 318 2-bottle tier.",
+        "qMs": "Bolehkah saya menggabungkan dua jenis produk berbeza dalam pakej 2 botol (RM 318) atau 3 botol (RM 477)?",
+        "aMs": "Ya, boleh. Semasa mengisi borang tempahan pantas (dihantar ke sales@onyxman.my / waleedshoaibofficial@gmail.com), nyatakan sahaja pada ruangan nota jika anda ingin menggabungkan contohnya 1 botol Grow XL (rutin pagi) bersama 1 botol Horsemen atau Magnum Pump XR (rutin malam/senaman) pada harga pakej 2 botol RM 318."
+      }
+    ]
+  }
+}

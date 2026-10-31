@@ -1,0 +1,360 @@
+{
+  "microStep": "MS-043",
+  "brand": "Onyxman",
+  "domain": "https://onyxman.my",
+  "totalGuides": 6,
+  "hubRoutes": {
+    "enPath": "/guides/",
+    "msPath": "/ms/panduan/",
+    "titleEn": "Adult Men’s Vitality, Authenticity Verification & Discreet Malaysia Buyer Guides | Onyxman Malaysia",
+    "titleMs": "Panduan Stamina Lelaki Dewasa, Semakan Ketulenan & Tempahan Rahsia Malaysia | Onyxman Malaysia"
+  },
+  "guides": [
+    {
+      "guideNumber": 1,
+      "id": "optimal-capsule-timing-and-absorption-protocol",
+      "slug": "optimal-capsule-timing-and-absorption-protocol",
+      "i18nRouteKey": "guide-dosage-timing",
+      "enPath": "/guides/optimal-capsule-timing-and-absorption-protocol/",
+      "msPath": "/ms/panduan/masa-pengambilan-kapsul-dan-penyerapan-optimum/",
+      "publishedDate": "2026-01-15",
+      "updatedDate": "2026-10-30",
+      "author": "Onyxman Botanical Research & Quality Assurance Board (Kuala Lumpur)",
+      "readingTimeMinutes": 6,
+      "relatedProductIds": ["horsemen", "hammer-of-thor", "grow-xl", "magnum-pump-xr"],
+      "locales": {
+        "en-MY": {
+          "seoTitle": "Optimal Capsule Timing & Absorption Protocol — 20-Capsule vs 30-Capsule Cycles | Onyxman Malaysia",
+          "metaDescription": "Complete Malaysian buyer guide to timing Horsemen (20 Caps), Hammer of Thor (20 Veg Caps), Grow XL (30 Caps), and Magnum Pump XR (30 Black Caps) around meals, coffee/teh tarik, and workouts.",
+          "headline": "Optimal Capsule Timing & Absorption Protocol: Mastering 20-Capsule vs 30-Capsule Cycles",
+          "summary": "How you time your capsule relative to Malaysian meals, caffeine, hydration, and physical activity determines up to 40% of its botanical bioavailability.",
+          "sections": [
+            {
+              "heading": "1. The 20-Capsule Evening & Saponin Reserves (Horsemen & Hammer of Thor)",
+              "body": "Horsemen (20 Capsules x 500mg, SKU ONYX-HM-20) and Hammer of Thor (20 Veg. Capsules, SKU ONYX-HT-20) are concentrated 20-serving protocols priced at RM 159 per bottle. For Horsemen, taking 1 capsule with 250ml–300ml of warm water 45 to 60 minutes after dinner allows Eurycoma longifolia (Tongkat Ali 100:1), Epimedium, and L-Arginine HCl to clear the stomach rapidly. For Hammer of Thor, taking 1 vegetarian HPMC capsule 30 minutes after dinner maximizes steroidal saponin (Tribulus Terrestris 60%) and Zinc Bisglycinate absorption without gastric discomfort."
+            },
+            {
+              "heading": "2. The 30-Capsule Full-Month Protocols (Grow XL vs Magnum Pump XR)",
+              "body": "Grow XL (30 Capsules, SKU ONYX-GX-30) is calibrated as a morning baseline conditioning cycle: take 1 capsule 20–30 minutes after breakfast every morning for 30 days (or 60–90 days on the RM 318 / RM 477 multi-bottle tiers). Conversely, Magnum Pump XR (30 Black Capsules, SKU ONYX-MP-30) is an Extended-Release Nitric Oxide formula (L-Arginine HCl + L-Citrulline Malate + Bioperine) best taken 30–45 minutes before resistance training or evening physical activity."
+            },
+            {
+              "heading": "3. Navigating Malaysian Dietary Factors: Kopi, Teh Tarik & Heavy Meals",
+              "body": "Polyphenols and tannins in strong kopi O or teh tarik can bind to botanical alkaloids and trace minerals (like Zinc) in the digestive tract. Always leave a 45-minute buffer between coffee/tea and your Onyxman capsule, and swallow capsules with plain warm or room-temperature water."
+            },
+            {
+              "heading": "4. Automated Day-18 & Day-25 Refill Synchronization",
+              "body": "Botanical adaptogens rely on uninterrupted plasma saturation. Onyxman's Dual-Mode Order Bridge automatically calculates a Day-18 refill reminder for 20-capsule bottles and a Day-25 refill reminder for 30-capsule bottles so your next RM 159 bottle or RM 318 dual pack arrives via 1–2 day express courier before your current bottle is empty."
+            }
+          ]
+        },
+        "ms-MY": {
+          "seoTitle": "Panduan Masa Pengambilan Kapsul & Penyerapan Optimum — Kitaran 20 vs 30 Kapsul | Onyxman Malaysia",
+          "metaDescription": "Panduan lengkap masa pengambilan Horsemen (20 Kapsul), Hammer of Thor (20 Kapsul Veg), Grow XL (30 Kapsul) & Magnum Pump XR (30 Kapsul Hitam) mengikut waktu makan dan senaman di Malaysia.",
+          "headline": "Protokol Masa Pengambilan & Penyerapan Optimum: Kitaran 20 Kapsul vs 30 Kapsul",
+          "summary": "Cara anda menyelaraskan waktu pengambilan kapsul mengikut waktu makan, minuman berkafein, dan aktiviti fizikal mempengaruhi kadar keberkesanan penyerapan herba sehingga 40%.",
+          "sections": [
+            {
+              "heading": "1. Kitaran Padat 20 Kapsul (Horsemen & Hammer of Thor)",
+              "body": "Horsemen (20 Kapsul x 500mg, SKU ONYX-HM-20) dan Hammer of Thor (20 Kapsul Vegetarian, SKU ONYX-HT-20) ialah formulasi 20 hidangan berharga RM 159 sebotol. Bagi Horsemen, pengambilan 1 kapsul bersama 250ml–300ml air suam 45 hingga 60 minit selepas makan malam membolehkan ekstrak Tongkat Ali 100:1, Epimedium, dan L-Arginine HCl diserap dengan pantas. Bagi Hammer of Thor, pengambilan 1 kapsul vegetarian HPMC 30 minit selepas makan malam mengoptimumkan penyerapan saponin Tribulus Terrestris (60%) dan Zink."
+            },
+            {
+              "heading": "2. Kitaran Sebulan Penuh 30 Kapsul (Grow XL vs Magnum Pump XR)",
+              "body": "Grow XL (30 Kapsul, SKU ONYX-GX-30) ditala sebagai rutin penjagaan waktu pagi: ambil 1 kapsul 20–30 minit selepas sarapan setiap pagi selama 30 hari penuh (atau 60–90 hari melalui pakej RM 318 / RM 477). Sebaliknya, Magnum Pump XR (30 Kapsul Hitam, SKU ONYX-MP-30) ialah formula Nitrik Oksida Pelepasan Lanjutan (L-Arginine HCl + L-Citrulline + Bioperine) yang paling sesuai diambil 30–45 minit sebelum latihan gimnasium atau aktiviti malam."
+            },
+            {
+              "heading": "3. Jarak Masa Dengan Kopi, Teh Tarik & Makanan Berat",
+              "body": "Kandungan tanin di dalam kopi pekat atau teh tarik boleh mengikat sebatian aktif herba dan mineral Zink di dalam perut. Pastikan jarak masa sekurang-kurangnya 45 minit antara minuman berkafein/teh dengan kapsul Onyxman, dan sentiasa ambil kapsul bersama air kosong suam."
+            },
+            {
+              "heading": "4. Penyelarasan Peringatan Bekalan Hari Ke-18 & Hari Ke-25",
+              "body": "Herba adaptogenik memerlukan pengambilan yang berterusan tanpa putus. Sistem Onyxman menetapkan peringatan bekalan automatik pada Hari Ke-18 untuk botol 20 kapsul dan Hari Ke-25 untuk botol 30 kapsul supaya pesanan baharu sempat tiba melalui kurier ekspres 1–2 hari sebelum botol semasa anda tamat."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "guideNumber": 2,
+      "id": "how-to-verify-authentic-onyxman-bottles-malaysia",
+      "slug": "how-to-verify-authentic-onyxman-bottles-malaysia",
+      "i18nRouteKey": "guide-authenticity-verification",
+      "enPath": "/guides/how-to-verify-authentic-onyxman-bottles-malaysia/",
+      "msPath": "/ms/panduan/cara-semak-ketulenan-botol-onyxman-malaysia/",
+      "publishedDate": "2026-01-20",
+      "updatedDate": "2026-10-30",
+      "author": "Onyxman Botanical Research & Quality Assurance Board (Kuala Lumpur)",
+      "readingTimeMinutes": 7,
+      "relatedProductIds": ["horsemen", "hammer-of-thor", "grow-xl", "magnum-pump-xr"],
+      "locales": {
+        "en-MY": {
+          "seoTitle": "How to Spot Counterfeit Bottles vs Official RM 159 Onyxman Stock in Malaysia | Onyxman.my",
+          "metaDescription": "Protect your health from unverified marketplace fakes and watermarked classified listings. Learn the 5 authenticity checks for official RM 159 Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR in Malaysia.",
+          "headline": "How to Verify Authentic Onyxman Bottles & Spot Counterfeit Listings in Malaysia",
+          "summary": "A 5-point inspection checklist to distinguish genuine climate-controlled Onyxman Malaysia formulations (RM 159) from unverified street peddlers and adulterated imitations.",
+          "sections": [
+            {
+              "heading": "1. Official Uniform Pricing: RM 159 (1 Bottle) | RM 318 (2 Bottles) | RM 477 (3 Bottles)",
+              "body": "Genuine Onyxman formulations distributed through https://onyxman.my maintain strict, transparent Malaysian Ringgit pricing: RM 159.00 for a single bottle, RM 318.00 for the 2-bottle reserve, and RM 477.00 for the 3-bottle Mastery Vault. Listings offering suspiciously cheap 'RM 25–RM 45 clearance bottles' on unverified classifieds are almost universally counterfeit starch-filled capsules or expired stock exposed to tropical warehouse heat."
+            },
+            {
+              "heading": "2. Exact Label Typography, Capsule Count & Capsule Format",
+              "body": "Verify every bottle against our official SKU specifications: (a) Horsemen (SKU ONYX-HM-20): 'Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg'; (b) Hammer of Thor (SKU ONYX-HT-20): 'Men's Health — Tribulus Terrestris — 20 Veg. Capsules' with the green vegetarian badge and gold metallic cap; (c) Grow XL (SKU ONYX-GX-30): '#1 Selling Product — Made With Natural Ingredient — Extra-Strength Enhancement Male Performance Blend — 30 Capsules'; (d) Magnum Pump XR (SKU ONYX-MP-30): 'Testosterone Pro Series — Male Enhancement Formula Maximum Strength — 30 Black Capsules' containing 30 jet-black capsules."
+            },
+            {
+              "heading": "3. Zero Fake Medical Registration Numbers or Illicit Synthetic Adulterants",
+              "body": "Counterfeit sellers frequently print fabricated drug registration numbers or spike cheap capsules with undeclared synthetic phosphodiesterase-5 (PDE5) chemicals that cause severe headaches, flushing, and dangerous blood-pressure drops. Authentic Onyxman products are pure botanical and amino-acid dietary supplements—never marketed as prescription drugs—and are batch-screened for heavy metals and microbial safety."
+            },
+            {
+              "heading": "4. Authorized Fulfilment Channels & Official Email Verification",
+              "body": "Every authentic order placed on https://onyxman.my is processed exclusively through our Kuala Lumpur fulfilment desk via waleedshoaibofficial@gmail.com, sales@onyxman.my, and info@onyxman.my, and shipped under our discreet logistics identifier 'OM Fulfilment Logistics'."
+            }
+          ]
+        },
+        "ms-MY": {
+          "seoTitle": "Cara Semak Ketulenan Botol Onyxman & Elak Produk Tiruan di Malaysia | RM 159 Rasmi",
+          "metaDescription": "Lindungi kesihatan anda daripada produk tiruan murah dan iklan tidak sah. Ketahui 5 langkah semakan ketulenan untuk Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159) di Onyxman.my.",
+          "headline": "Cara Semak Ketulenan Botol Onyxman & Mengenal Pasti Produk Tiruan di Malaysia",
+          "summary": "Senarai semak 5 perkara penting untuk membezakan stok tulen kawalan suhu Onyxman Malaysia (RM 159) daripada kapsul tiruan yang merbahaya.",
+          "sections": [
+            {
+              "heading": "1. Harga Rasmi Seragam: RM 159 (1 Botol) | RM 318 (2 Botol) | RM 477 (3 Botol)",
+              "body": "Semua formulasi tulen Onyxman yang diedarkan melalui https://onyxman.my mempunyai harga rasmi yang tetap dalam Ringgit Malaysia: RM 159.00 untuk 1 botol, RM 318.00 untuk pakej 2 botol, dan RM 477.00 untuk pakej lengkap 3 botol. Iklan yang menawarkan harga terlalu murah seperti 'RM 25–RM 45' di platform tidak sah lazimnya merupakan produk tiruan berisi tepung kanji atau stok rosak."
+            },
+            {
+              "heading": "2. Ketepatan Cetakan Label, Bilangan Kapsul & Jenis Kapsul",
+              "body": "Pastikan botol anda sepadan dengan spesifikasi SKU rasmi kami: (a) Horsemen (SKU ONYX-HM-20): 'Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg'; (b) Hammer of Thor (SKU ONYX-HT-20): 'Men's Health — Tribulus Terrestris — 20 Veg. Capsules' dengan lencana hijau vegetarian dan penutup emas; (c) Grow XL (SKU ONYX-GX-30): '#1 Selling Product — Made With Natural Ingredient — Extra-Strength Enhancement Male Performance Blend — 30 Capsules'; (d) Magnum Pump XR (SKU ONYX-MP-30): 'Testosterone Pro Series — Male Enhancement Formula Maximum Strength — 30 Black Capsules' yang mengandungi 30 kapsul berwarna hitam pekat."
+            },
+            {
+              "heading": "3. Bebas Nombor Pendaftaran Palsu & Bebas Bahan Kimia Sintetik Terlarang",
+              "body": "Penjual produk tiruan sering mencetak nombor pendaftaran palsu atau mencampurkan bahan kimia sintetik terlarang yang menyebabkan sakit kepala melampau, debaran jantung, dan risiko tekanan darah. Produk tulen Onyxman adalah suplemen pemakanan botani dan asid amino semula jadi yang disaring daripada logam berat dan bahan terlarang."
+            },
+            {
+              "heading": "4. Saluran Tempahan Rasmi & Pengesahan E-mel",
+              "body": "Setiap pesanan tulen di https://onyxman.my hanya diproses melalui meja operasi Kuala Lumpur kami menerusi waleedshoaibofficial@gmail.com, sales@onyxman.my, dan info@onyxman.my, serta dihantar menggunakan nama pengirim rahsia 'OM Fulfilment Logistics'."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "guideNumber": 3,
+      "id": "discreet-plain-box-cod-fpx-ordering-guide-malaysia",
+      "slug": "discreet-plain-box-cod-fpx-ordering-guide-malaysia",
+      "i18nRouteKey": "trust-discreet-shipping",
+      "enPath": "/guides/discreet-plain-box-cod-fpx-ordering-guide-malaysia/",
+      "msPath": "/ms/panduan/panduan-tempahan-bungkusan-rahsia-cod-fpx-malaysia/",
+      "publishedDate": "2026-02-01",
+      "updatedDate": "2026-10-30",
+      "author": "Onyxman Malaysia Logistics & Privacy Desk (Kuala Lumpur)",
+      "readingTimeMinutes": 5,
+      "relatedProductIds": ["horsemen", "hammer-of-thor", "grow-xl", "magnum-pump-xr"],
+      "locales": {
+        "en-MY": {
+          "seoTitle": "Discreet Plain-Box Ordering Guide: COD, FPX & DuitNow QR Across Malaysia | Onyxman.my",
+          "metaDescription": "How Onyxman Malaysia protects your privacy from checkout to doorstep: unmarked matte parcels, neutral 'OM Fulfilment Logistics' airway bills, Cash on Delivery (COD), and instant FPX / DuitNow QR.",
+          "headline": "Discreet Plain-Box Ordering in Malaysia: How Our Privacy Logistics, COD & FPX Work",
+          "summary": "Every step of the Onyxman fulfilment pipeline is engineered so that courier riders, condo guards, office receptionists, and family members never know what is inside your parcel.",
+          "sections": [
+            {
+              "heading": "1. Three-Layer Unmarked Packaging Architecture",
+              "body": "Each bottle is first sealed with its factory tamper-evident cap wrap, then cushioned in opaque bubble protection to eliminate bottle rattling sounds, and finally sealed inside an unbranded matte security carton or poly-mailer. The exterior bears zero logos, zero product photos, and zero mention of Onyxman."
+            },
+            {
+              "heading": "2. Neutral Airway Bill & Customs Declaration",
+              "body": "On NinjaVan, J&T VIP, and PosLaju airway bills, the sender is printed strictly as 'OM Fulfilment Logistics (Kuala Lumpur)'. For East Malaysia air freight to Sabah, Sarawak, and Labuan, item description reads simply 'Personal Nutritional Wellness'."
+            },
+            {
+              "heading": "3. Choosing Between FPX / DuitNow QR and Cash on Delivery (COD)",
+              "body": "If you want your parcel dropped at a condominium guardhouse, parcel locker, or office reception desk without needing to be physically present, choose FPX Online Banking or DuitNow Instant QR. If you prefer to pay in person only when the courier hands you the sealed box, choose Cash on Delivery (COD Malaysia) at RM 0 extra surcharge."
+            }
+          ]
+        },
+        "ms-MY": {
+          "seoTitle": "Panduan Tempahan Bungkusan Rahsia: COD, FPX & DuitNow QR Seluruh Malaysia | Onyxman.my",
+          "metaDescription": "Ketahui bagaimana Onyxman Malaysia melindungi privasi anda sepenuhnya: kotak tanpa jenama, slip kurier 'OM Fulfilment Logistics', Bayar Waktu Terima (COD), serta FPX & DuitNow QR.",
+          "headline": "Panduan Tempahan Bungkusan Rahsia di Malaysia: Jaminan Privasi Kurier, COD & FPX",
+          "summary": "Setiap langkah penghantaran Onyxman direka rapi supaya posmen, pengawal keselamatan kondo, kerani pejabat, atau ahli keluarga tidak mengetahui isi kandungan bungkusan anda.",
+          "sections": [
+            {
+              "heading": "1. Pembungkusan Keselamatan Tiga Lapisan Tanpa Nama Produk",
+              "body": "Setiap botol mempunyai pelekat keselamatan kedap udara asal, dibalut dengan pelindung gelembung tebal supaya botol tidak mengeluarkan bunyi apabila digoncang, dan dimasukkan ke dalam kotak atau pek keselamatan legap tanpa sebarang cetakan logo atau jenama Onyxman."
+            },
+            {
+              "heading": "2. Maklumat Pengirim Neutral Pada Slip Kurier",
+              "body": "Pada slip penghantaran NinjaVan, J&T VIP, dan PosLaju, nama pengirim hanya dicetak sebagai 'OM Fulfilment Logistics (Kuala Lumpur)'. Bagi penerbangan kargo udara ke Sabah, Sarawak, dan Labuan, keterangan barangan ditulis secara umum sebagai 'Penjagaan Kesihatan Harian'."
+            },
+            {
+              "heading": "3. Pilihan Antara FPX / DuitNow QR dan Bayar Waktu Terima (COD)",
+              "body": "Jika anda mahu bungkusan ditinggalkan di pondok pengawal kondo, loker bungkusan, atau kaunter pejabat semasa anda tiada, pilih pembayaran awal melalui FPX atau DuitNow QR. Jika anda mahu membayar secara bersemuka apabila bungkusan diserahkan ke tangan anda, pilih COD (Bayar Waktu Terima) tanpa sebarang caj tambahan."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "guideNumber": 4,
+      "id": "20-capsule-vs-30-capsule-cycle-selection-guide",
+      "slug": "20-capsule-vs-30-capsule-cycle-selection-guide",
+      "i18nRouteKey": "guides-index",
+      "enPath": "/guides/20-capsule-vs-30-capsule-cycle-selection-guide/",
+      "msPath": "/ms/panduan/panduan-pemilihan-kitaran-20-kapsul-vs-30-kapsul/",
+      "publishedDate": "2026-02-10",
+      "updatedDate": "2026-10-30",
+      "author": "Onyxman Botanical Research & Quality Assurance Board (Kuala Lumpur)",
+      "readingTimeMinutes": 6,
+      "relatedProductIds": ["horsemen", "hammer-of-thor", "grow-xl", "magnum-pump-xr"],
+      "locales": {
+        "en-MY": {
+          "seoTitle": "20-Capsule vs 30-Capsule Cycle Selection Guide: Which Onyxman Protocol Fits Your Lifestyle?",
+          "metaDescription": "Compare Onyxman's 20-capsule concentrated reserves (Horsemen & Hammer of Thor) against our 30-capsule full-month protocols (Grow XL & Magnum Pump XR) at uniform RM 159 pricing.",
+          "headline": "20-Capsule vs 30-Capsule Cycle Selection: Matching Your Supplement to Your Lifestyle",
+          "summary": "Understand the exact difference between our 20-capsule high-ratio botanical reserves (Day-18 refill) and our 30-capsule monthly routines (Day-25 refill).",
+          "sections": [
+            {
+              "heading": "1. When to Choose a 20-Capsule Reserve (Horsemen or Hammer of Thor)",
+              "body": "Our 20-capsule bottles pack high-ratio herbal extracts into a compact 20-serving format. Choose Horsemen (20 Capsules x 500mg) if you want flexible dual-mode intake—either 45–60 minutes before active evenings or a concentrated 20-day Tongkat Ali + Black Maca boost. Choose Hammer of Thor (20 Veg. Capsules) if you require 100% plant-derived vegetarian capsules with a 60%-saponin Tribulus Terrestris + Zinc focus."
+            },
+            {
+              "heading": "2. When to Choose a 30-Capsule Monthly Cycle (Grow XL or Magnum Pump XR)",
+              "body": "Our 30-capsule bottles are built for men who thrive on a 1-capsule-per-day 30-day calendar habit. Choose Grow XL (30 Capsules) for an all-day morning baseline blend featuring Tongkat Ali, Maca, Muira Puama, and Saw Palmetto. Choose Magnum Pump XR (30 Black Capsules) if you work out regularly and want a 600mg L-Arginine HCl + L-Citrulline Nitric Oxide capsule before gym sessions or evening activity."
+            },
+            {
+              "heading": "3. Multi-Bottle Economics & Free East Malaysia Shipping",
+              "body": "Whether you select a 20-capsule or 30-capsule product, 1 bottle is RM 159, 2 bottles is RM 318 (unlocking Free Air Freight to Sabah, Sarawak & Labuan), and 3 bottles is RM 477 for a complete 60-to-90-day conditioning cycle."
+            }
+          ]
+        },
+        "ms-MY": {
+          "seoTitle": "Panduan Pemilihan Kitaran 20 Kapsul vs 30 Kapsul: Protokol Onyxman Mana Sesuai Untuk Anda?",
+          "metaDescription": "Bandingkan kitaran padat 20 kapsul (Horsemen & Hammer of Thor) dengan kitaran penuh 30 kapsul sebulan (Grow XL & Magnum Pump XR) pada harga seragam RM 159 di Onyxman Malaysia.",
+          "headline": "Pemilihan Kitaran 20 Kapsul vs 30 Kapsul: Sesuaikan Mengikut Gaya Hidup Anda",
+          "summary": "Fahami perbezaan sebenar antara rizab herba berkepekatan tinggi 20 kapsul (peringatan Hari Ke-18) dan rutin bulanan 30 kapsul (peringatan Hari Ke-25).",
+          "sections": [
+            {
+              "heading": "1. Bila Perlu Memilih Botol 20 Kapsul (Horsemen atau Hammer of Thor)",
+              "body": "Botol 20 kapsul kami memadatkan ekstrak herba bernisbah tinggi ke dalam 20 hidangan. Pilih Horsemen (20 Kapsul x 500mg) jika anda mahukan kesediaan tenaga malam yang pantas (45–60 minit sebelum aktiviti) berasaskan Tongkat Ali + Maca Hitam. Pilih Hammer of Thor (20 Kapsul Vegetarian) jika anda mengutamakan kapsul tumbuhan 100% vegetarian dengan fokus saponin Tribulus Terrestris + Zink."
+            },
+            {
+              "heading": "2. Bila Perlu Memilih Botol 30 Kapsul Sebulan Penuh (Grow XL atau Magnum Pump XR)",
+              "body": "Botol 30 kapsul direka untuk lelaki yang menyukai rutin tetap 1 kapsul sehari selama sebulan penuh. Pilih Grow XL (30 Kapsul) untuk penjagaan waktu pagi sepanjang hari dengan Tongkat Ali, Maca, Muira Puama, dan Saw Palmetto. Pilih Magnum Pump XR (30 Kapsul Hitam) jika anda aktif bersenam dan mahukan sokongan Nitrik Oksida L-Arginine HCl + L-Citrulline sebelum gimnasium atau aktiviti malam."
+            },
+            {
+              "heading": "3. Kelebihan Pakej 2 & 3 Botol Termasuk Penghantaran Percuma Sabah/Sarawak",
+              "body": "Bagi kedua-dua kategori 20 kapsul dan 30 kapsul, harga 1 botol ialah RM 159, 2 botol ialah RM 318 (layak mendapat Penghantaran Udara Percuma ke Sabah, Sarawak & Labuan), dan 3 botol ialah RM 477 untuk kitaran lengkap."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "guideNumber": 5,
+      "id": "malaysian-mens-vitality-and-tropical-stamina-nutrition",
+      "slug": "malaysian-mens-vitality-and-tropical-stamina-nutrition",
+      "i18nRouteKey": "guides-index",
+      "enPath": "/guides/malaysian-mens-vitality-and-tropical-stamina-nutrition/",
+      "msPath": "/ms/panduan/nutrisi-kecergasan-dan-stamina-lelaki-iklim-tropika-malaysia/",
+      "publishedDate": "2026-02-18",
+      "updatedDate": "2026-10-30",
+      "author": "Onyxman Botanical Research & Quality Assurance Board (Kuala Lumpur)",
+      "readingTimeMinutes": 6,
+      "relatedProductIds": ["horsemen", "hammer-of-thor", "grow-xl", "magnum-pump-xr"],
+      "locales": {
+        "en-MY": {
+          "seoTitle": "Malaysian Men’s Vitality & Tropical Stamina Nutrition Guide | Onyxman Malaysia",
+          "metaDescription": "How Malaysia's tropical humidity, long Klang Valley commutes, sleep debt, and late-night mamak meals affect adult male stamina—and how standardized botanicals support recovery.",
+          "headline": "Malaysian Men’s Vitality & Tropical Stamina Nutrition: Combating Urban Fatigue",
+          "summary": "Why adult men in Kuala Lumpur, Johor Bahru, Penang, and across Malaysia face unique stamina drains from tropical dehydration, traffic stress, and late-night high-glycemic meals.",
+          "sections": [
+            {
+              "heading": "1. The Tropical Dehydration & Cortisol Trap",
+              "body": "Malaysia's year-round 32°C heat and high humidity accelerate electrolyte and trace-mineral loss (especially Zinc and Magnesium) through perspiration, while 2-hour daily commutes along the Federal Highway, LDP, or Penang Bridge elevate evening cortisol. Elevated cortisol directly blunts evening physical drive and nitric oxide endothelial responsiveness."
+            },
+            {
+              "heading": "2. Standardized Adaptogens vs Sugar-Heavy Energy Drinks",
+              "body": "Many Malaysian men reach for canned sugary energy drinks or 3-in-1 coffee at 6:00 PM, resulting in a 9:00 PM glycemic crash and midnight insomnia. Standardized caffeine-free adaptogens—such as 100:1 Eurycoma longifolia (Tongkat Ali), Peruvian Black Maca, and Panax Ginseng—support cellular ATP resilience without spiking blood sugar or disturbing sleep."
+            },
+            {
+              "heading": "3. Hydration & Protein Pairing for Maximum Botanical Output",
+              "body": "Pair your daily Onyxman capsule with at least 2.5 to 3.0 liters of plain water daily, prioritize lean protein at dinner, and avoid heavy deep-fried foods within 60 minutes of taking evening formulations like Horsemen or Magnum Pump XR."
+            }
+          ]
+        },
+        "ms-MY": {
+          "seoTitle": "Panduan Nutrisi Kecergasan & Stamina Lelaki di Malaysia | Onyxman Malaysia",
+          "metaDescription": "Bagaimana cuaca panas lembap Malaysia, kesesakan trafik harian, kurang tidur, dan pemakanan lewat malam mempengaruhi stamina lelaki dewasa serta peranan herba piawai.",
+          "headline": "Nutrisi Kecergasan & Stamina Lelaki di Malaysia: Mengatasi Keletihan Gaya Hidup Moden",
+          "summary": "Mengapa lelaki dewasa di Kuala Lumpur, Johor Bahru, Pulau Pinang, dan seluruh Malaysia sering mengalami keletihan waktu malam akibat cuaca tropika, tekanan kerja, dan tabiat pemakanan.",
+          "sections": [
+            {
+              "heading": "1. Kesan Cuaca Panas Tropika & Tekanan Trafik Harian",
+              "body": "Cuaca panas dan lembap sepanjang tahun di Malaysia mempercepatkan kehilangan mineral penting (terutamanya Zink) melalui peluh, manakala kesesakan trafik harian serta waktu kerja yang panjang meningkatkan hormon tekanan (kortisol) pada waktu petang. Peningkatan kortisol ini secara langsung menurunkan tahap tenaga dan kesediaan fizikal pada waktu malam."
+            },
+            {
+              "heading": "2. Herba Adaptogenik Bebas Kafein vs Minuman Tenaga Bergula Tinggi",
+              "body": "Ramai lelaki di Malaysia mengambil minuman tin bergula tinggi atau kopi segera 3-dalam-1 pada lewat petang, yang akhirnya menyebabkan badan kembali lesu pada jam 9:00 malam serta sukar tidur. Ekstrak herba adaptogenik bebas kafein seperti Tongkat Ali 100:1, Maca Hitam Peru, dan Panax Ginseng menyokong tenaga selular secara semula jadi tanpa gangguan tidur."
+            },
+            {
+              "heading": "3. Pengambilan Air Kosong & Pemakanan Seimbang",
+              "body": "Pastikan anda minum sekurang-kurangnya 2.5 hingga 3.0 liter air kosong sehari, utamakan sumber protein berkualiti semasa makan malam, dan elakkan makanan terlalu berminyak 60 minit sebelum mengambil kapsul malam seperti Horsemen atau Magnum Pump XR."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "guideNumber": 6,
+      "id": "nitric-oxide-amino-acids-vs-adaptogenic-herbs-guide",
+      "slug": "nitric-oxide-amino-acids-vs-adaptogenic-herbs-guide",
+      "i18nRouteKey": "guides-index",
+      "enPath": "/guides/nitric-oxide-amino-acids-vs-adaptogenic-herbs-guide/",
+      "msPath": "/ms/panduan/perbezaan-asid-amino-nitrik-oksida-dan-herba-adaptogenik/",
+      "publishedDate": "2026-02-25",
+      "updatedDate": "2026-10-30",
+      "author": "Onyxman Botanical Research & Quality Assurance Board (Kuala Lumpur)",
+      "readingTimeMinutes": 6,
+      "relatedProductIds": ["magnum-pump-xr", "grow-xl", "horsemen", "hammer-of-thor"],
+      "locales": {
+        "en-MY": {
+          "seoTitle": "Nitric Oxide Amino Acids (L-Arginine & L-Citrulline) vs Adaptogenic Herbs Guide | Onyxman Malaysia",
+          "metaDescription": "Understand the science of vascular Nitric Oxide precursors (L-Arginine HCl, L-Citrulline, Bioperine) vs botanical adaptogens (Tongkat Ali, Tribulus, Maca) and how Magnum Pump XR unites both.",
+          "headline": "Nitric Oxide Amino Acids vs Adaptogenic Herbs: How Vascular Flow & Vitality Work Together",
+          "summary": "Clarifying the two core pillars of adult male physical performance—endothelial nitric oxide vasodilation and neuro-endocrine adaptogenic support—plus entity disambiguation for Magnum Pump XR.",
+          "sections": [
+            {
+              "heading": "1. Pillar One: Endothelial Nitric Oxide (L-Arginine HCl & L-Citrulline Malate)",
+              "body": "Amino acids like L-Arginine HCl and L-Citrulline Malate work directly on the vascular endothelium to support Nitric Oxide (NO) production. This pathway governs blood flow, oxygen delivery to working muscles at the gym, and peripheral physical responsiveness within 30–60 minutes of intake."
+            },
+            {
+              "heading": "2. Pillar Two: Botanical Adaptogens (Tongkat Ali, Tribulus, Maca & Muira Puama)",
+              "body": "While amino acids support vascular plumbing, standardized botanical extracts like Malaysian Eurycoma longifolia (Tongkat Ali), 60%-saponin Tribulus Terrestris, Peruvian Black Maca, and Brazilian Muira Puama support the underlying energetic drive, stamina resilience, and post-work recovery over a 20-to-90-day cycle."
+            },
+            {
+              "heading": "3. Dietary Supplement Disambiguation: Magnum Pump XR (30 Black Capsules)",
+              "body": "For Malaysian buyers searching online: Magnum Pump XR by Onyxman Malaysia (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, RM 159) is an oral Testosterone Pro Series & Nitric Oxide Dietary Supplement containing 30 Black Capsules per bottle—completely unrelated to heavy industrial oilfield slurry/frac pumps that share the 'Magnum' name in engineering catalogs."
+            }
+          ]
+        },
+        "ms-MY": {
+          "seoTitle": "Panduan Asid Amino Nitrik Oksida vs Herba Adaptogenik | Onyxman Malaysia",
+          "metaDescription": "Fahami perbezaan fungsi prekursor vaskular Nitrik Oksida (L-Arginine HCl, L-Citrulline, Bioperine) dan herba adaptogenik (Tongkat Ali, Tribulus, Maca) dalam rangkaian Onyxman Malaysia.",
+          "headline": "Asid Amino Nitrik Oksida vs Herba Adaptogenik: Gabungan Aliran Vaskular & Tenaga Dalaman",
+          "summary": "Penjelasan saintifik mengenai dua teras utama prestasi fizikal lelaki dewasa—kelancaran saluran darah melalui nitrik oksida dan ketahanan tenaga melalui herba adaptogenik.",
+          "sections": [
+            {
+              "heading": "1. Teras Pertama: Laluan Vaskular Nitrik Oksida (L-Arginine HCl & L-Citrulline Malate)",
+              "body": "Asid amino seperti L-Arginine HCl dan L-Citrulline Malate bertindak secara langsung menyokong penghasilan Nitrik Oksida (NO) pada dinding saluran darah. Laluan ini membantu melancarkan pengangkutan oksigen dan nutrien ke otot semasa senaman gimnasium serta kesediaan fizikal dalam masa 30–60 minit."
+            },
+            {
+              "heading": "2. Teras Kedua: Herba Adaptogenik (Tongkat Ali, Tribulus, Maca & Muira Puama)",
+              "body": "Jika asid amino menyokong kelancaran aliran darah, ekstrak herba piawai seperti Tongkat Ali Malaysia, Tribulus Terrestris (60% saponin), Maca Hitam Peru, dan Muira Puama pula menyokong daya tahan fizikal, pemulihan tenaga, dan kecergasan dalaman sepanjang kitaran 20 hingga 90 hari."
+            },
+            {
+              "heading": "3. Penjelasan Produk: Magnum Pump XR (30 Kapsul Hitam Suplemen Pemakanan)",
+              "body": "Untuk makluman pengguna di Malaysia: Magnum Pump XR oleh Onyxman Malaysia (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, RM 159) adalah 100% Suplemen Pemakanan kapsul botani dan asid amino (30 Kapsul Hitam setiap botol) di bawah Testosterone Pro Series—dan sama sekali tidak berkaitan dengan peralatan pam industri minyak dan gas."
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+;; ============================================================================
+;; ONYXMAN.MY — CLOUDFLARE PRODUCTION DNS & FREE BUSINESS EMAIL ZONE FILE
+;; Standard RFC 1035 BIND Zone File for 1-Click Cloudflare DNS Import
+;; Domain: onyxman.my
+;; Target Hosting: Cloudflare Pages (onyxman-my.pages.dev)
+;; Email Routing: Cloudflare Email Routing + Gmail SMTP Outbound (Send Mail As)
+;; Concierge Forwarding Target: waleedshoaibofficial@gmail.com
+;; ============================================================================
+
+$ORIGIN onyxman.my.
+$TTL 3600
+
+;; ----------------------------------------------------------------------------
+;; 1. WEB HOSTING RECORDS (Cloudflare Pages Custom Domain — Proxied / Orange Cloud)
+;; Note: Cloudflare automatically flattens apex (@) CNAME records via CNAME Flattening.
+;; cf_tags=cf-proxied:true instructs Cloudflare's BIND importer to enable the Orange Cloud proxy.
+;; ----------------------------------------------------------------------------
+@               1       IN  CNAME   onyxman-my.pages.dev. ; cf_tags=cf-proxied:true
+www             1       IN  CNAME   onyxman.my. ; cf_tags=cf-proxied:true
+
+;; ----------------------------------------------------------------------------
+;; 2. CLOUDFLARE EMAIL ROUTING INBOUND MX RECORDS (RM 0 / Free Forever)
+;; Routes sales@onyxman.my, info@onyxman.my, and *@onyxman.my -> waleedshoaibofficial@gmail.com
+;; ----------------------------------------------------------------------------
+@               3600    IN  MX  69  route1.mx.cloudflare.net.
+@               3600    IN  MX  99  route2.mx.cloudflare.net.
+@               3600    IN  MX  40  route3.mx.cloudflare.net.
+
+;; ----------------------------------------------------------------------------
+;; 3. MERGED SPF RECORD (Cloudflare Inbound Forwarding + Gmail SMTP Outbound)
+;; Authorizes both Cloudflare Email Routing (_spf.mx.cloudflare.net) AND
+;; Google Workspace / Gmail SMTP (smtp.gmail.com:587 via _spf.google.com)
+;; so outbound replies from waleedshoaibofficial@gmail.com as sales@onyxman.my
+;; or info@onyxman.my achieve 100% SPF pass.
+;; ----------------------------------------------------------------------------
+@               3600    IN  TXT     "v=spf1 include:_spf.mx.cloudflare.net include:_spf.google.com ~all"
+
+;; ----------------------------------------------------------------------------
+;; 4. DMARC AUTHENTICATION & REPORTING POLICY
+;; Enforces quarantine protection and sends aggregate XML reports to concierge Gmail.
+;; ----------------------------------------------------------------------------
+_dmarc          3600    IN  TXT     "v=DMARC1; p=quarantine; rua=mailto:waleedshoaibofficial@gmail.com; pct=100; adkim=r; aspf=r"
+
+;; ----------------------------------------------------------------------------
+;; 5. SEARCH ENGINE OWNERSHIP VERIFICATION PLACEHOLDERS
+;; Replace placeholder tokens below with your live verification strings from
+;; Google Search Console and Bing Webmaster Tools if verifying via DNS TXT.
+;; ----------------------------------------------------------------------------
+@               3600    IN  TXT     "google-site-verification=REPLACE_WITH_GOOGLE_SEARCH_CONSOLE_TOKEN"
+@               3600    IN  TXT     "msvalidate.01=REPLACE_WITH_BING_WEBMASTER_TOKEN"
+
+;; ----------------------------------------------------------------------------
+;; 6. CAA RECORDS (Certificate Authority Authorization for Zero-Downtime SSL)
+;; Authorizes Let's Encrypt, Google Trust Services, and DigiCert used by Cloudflare Universal SSL.
+;; ----------------------------------------------------------------------------
+@               3600    IN  CAA 0   issue "letsencrypt.org"
+@               3600    IN  CAA 0   issue "pki.goog"
+@               3600    IN  CAA 0   issue "digicert.com"
+@               3600    IN  CAA 0   issuewild "letsencrypt.org"
+@               3600    IN  CAA 0   issuewild "pki.goog"

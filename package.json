@@ -1,0 +1,43 @@
+{
+  "name": "onyxman-malaysia-luxury-cloud",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Onyxman.my — Malaysia Luxury Botanical Apothecary & 24/7 Autonomous Cloud SEO Platform",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "verify": "node scripts/verify-gate.mjs --phase=ALL",
+    "verify:phaseA": "node scripts/verify-gate.mjs --phase=A",
+    "verify:all": "node scripts/verify-gate.mjs --phase=ALL",
+    "verify:schema": "node scripts/verify-gate.mjs --phase=SCHEMA",
+    "verify:links": "node scripts/verify-gate.mjs --phase=LINKS",
+    "validate:schemas": "node scripts/validate-schemas.mjs",
+    "audit:redteam": "node scripts/redteam-browser-audit.mjs",
+    "whatsapp:status": "node scripts/set-whatsapp.mjs --status",
+    "whatsapp:set": "node scripts/set-whatsapp.mjs",
+    "whatsapp:clear": "node scripts/set-whatsapp.mjs --clear",
+    "whatsapp:enable": "node scripts/set-whatsapp.mjs",
+    "whatsapp:fallback": "node scripts/set-whatsapp.mjs --clear",
+    "dns:dry-run": "node scripts/cloudflare-dns-email-setup.mjs --dry-run",
+    "seo:ping-indexnow": "node scripts/ping-indexnow.mjs",
+    "cloudflare:setup": "node scripts/cloudflare-dns-email-setup.mjs",
+    "cloudflare:verify": "node scripts/cloudflare-dns-email-setup.mjs --dry-run",
+    "clean": "node -e \"import('fs').then(fs => fs.rmSync('./dist', { recursive: true, force: true }))\""
+  },
+  "keywords": [
+    "onyxman",
+    "malaysia",
+    "mens-vitality",
+    "botanical-apothecary",
+    "horsemen",
+    "Sensitivity-of-thor",
+    "grow-xl",
+    "magnum-pump-xr",
+    "cloudflare-pages"
+  ],
+  "author": "Onyxman Malaysia Apothecary <sales@onyxman.my>",
+  "license": "UNLICENSED"
+}

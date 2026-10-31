@@ -1,0 +1,319 @@
+{
+  "microStep": "MS-031",
+  "id": "grow-xl",
+  "slug": "grow-xl",
+  "name": "Grow XL",
+  "brand": "Onyxman",
+  "brandUrl": "https://onyxman.my",
+  "sku": "ONYX-GX-30",
+  "skuLegacyAlias": "ONYX-GX-30MY",
+  "mpn": "GXL-30CAP-MY",
+  "gtin13": "9550000102035",
+  "category": "Botanical Dietary Supplement for Adult Men (18+) — 30-Day Daily Cycle",
+  "labelTranscription": {
+    "primaryTitle": "GROW XL",
+    "subtitleEn": "#1 Selling Product — Made With Natural Ingredient — Extra-Strength Enhancement Male Performance Blend — 30 Capsules",
+    "subtitleMs": "Produk Jualan #1 — Dirumus Dengan Ramuan Semula Jadi — Campuran Prestasi Lelaki Kekuatan Ekstra — 30 Kapsul",
+    "bottleColorway": "Gloss Obsidian Black Bottle with Metallic Gold Seal Crest, Blue-Silver 'XL' Emblem & Red Performance Banner",
+    "capsuleCount": 30,
+    "capsuleWeightMg": 550,
+    "netWeightGrams": 16.5,
+    "capsuleFormatEn": "30-Day Full-Month Extra-Strength Botanical Capsule",
+    "capsuleFormatMs": "Kapsul Botani Kekuatan Ekstra Kitaran Penuh 30 Hari",
+    "originMarket": "Malaysia Official Apothecary Distribution (https://onyxman.my)"
+  },
+  "routes": {
+    "enPath": "/products/grow-xl/",
+    "msPath": "/ms/produk/grow-xl/",
+    "canonicalEn": "https://onyxman.my/products/grow-xl/",
+    "canonicalMs": "https://onyxman.my/ms/produk/grow-xl/"
+  },
+  "images": {
+    "primaryWebp": "/assets/products/grow-xl.webp",
+    "primaryPng": "/assets/products/grow-xl.png",
+    "cutoutWebp": "/assets/products/grow-xl-cutout.webp",
+    "cutoutPng": "/assets/products/grow-xl-cutout.png",
+    "stageWebp": "/assets/products/grow-xl-stage.webp",
+    "stagePng": "/assets/products/grow-xl-stage.png",
+    "portraitWebp": "/assets/products/grow-xl-portrait.webp",
+    "portraitPng": "/assets/products/grow-xl-portrait.png",
+    "altEn": "Grow XL #1 Selling Product Extra-Strength Enhancement Male Performance Blend — 30 Capsules Official Onyxman Malaysia Bottle (RM 159)",
+    "altMs": "Grow XL Produk Jualan #1 Campuran Prestasi Lelaki Kekuatan Ekstra — 30 Kapsul Botol Rasmi Onyxman Malaysia (RM 159)"
+  },
+  "pricing": {
+    "currency": "MYR",
+    "currencySymbol": "RM",
+    "unitPrice": 159.0,
+    "unitPriceFormatted": "RM 159",
+    "unitPriceSchema": "159.00",
+    "priceValidUntil": "2027-12-31",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "bundleTiers": [
+      {
+        "tierId": "grow-xl-1-bottle",
+        "bottles": 1,
+        "totalCapsules": 30,
+        "cycleDurationDays": 30,
+        "refillTriggerDay": 25,
+        "priceNumeric": 159.0,
+        "priceFormatted": "RM 159",
+        "priceSchema": "159.00",
+        "perBottleFormatted": "RM 159 / bottle",
+        "titleEn": "1 Bottle — Full 30-Day Daily Performance Cycle (30 Capsules)",
+        "titleMs": "1 Botol — Kitaran Penuh Harian 30 Hari (30 Kapsul)",
+        "shippingEn": "Free Discreet Express Shipping in Peninsular Malaysia (RM 12 East Malaysia)",
+        "shippingMs": "Penghantaran Ekspres Rahsia Percuma Semenanjung Malaysia (RM 12 Sabah/Sarawak)",
+        "badgeEn": "30-DAY DAILY PROTOCOL",
+        "badgeMs": "PROTOKOL HARIAN 30 HARI"
+      },
+      {
+        "tierId": "grow-xl-2-bottles",
+        "bottles": 2,
+        "totalCapsules": 60,
+        "cycleDurationDays": 60,
+        "refillTriggerDay": 50,
+        "priceNumeric": 318.0,
+        "priceFormatted": "RM 318",
+        "priceSchema": "318.00",
+        "perBottleFormatted": "RM 159 / bottle",
+        "titleEn": "2 Bottles — 60-Day Progressive Conditioning Reserve (60 Capsules)",
+        "titleMs": "2 Botol — Bekalan Penjagaan Berperingkat 60 Hari (60 Kapsul)",
+        "shippingEn": "Free Nationwide Malaysia Discreet Express Shipping (Including Sabah, Sarawak & Labuan)",
+        "shippingMs": "Penghantaran Ekspres Rahsia Percuma Seluruh Malaysia (Termasuk Sabah, Sarawak & Labuan)",
+        "badgeEn": "#1 BESTSELLER 60-DAY PACK",
+        "badgeMs": "PAKEJ 60 HARI PALING LARIS"
+      },
+      {
+        "tierId": "grow-xl-3-bottles",
+        "bottles": 3,
+        "totalCapsules": 90,
+        "cycleDurationDays": 90,
+        "refillTriggerDay": 75,
+        "priceNumeric": 477.0,
+        "priceFormatted": "RM 477",
+        "priceSchema": "477.00",
+        "perBottleFormatted": "RM 159 / bottle",
+        "titleEn": "3 Bottles — Complete 90-Day Extra-Strength Mastery Vault (90 Capsules)",
+        "titleMs": "3 Botol — Pakej Lengkap Kekuatan Ekstra 90 Hari (90 Kapsul)",
+        "shippingEn": "Priority Discreet Dispatch + Free Nationwide Shipping + VIP Refill Concierge",
+        "shippingMs": "Penghantaran Rahsia Keutamaan + Percuma Seluruh Negara + Khidmat Peringatan VIP",
+        "badgeEn": "FULL 90-DAY TRANSFORMATION VAULT",
+        "badgeMs": "PAKEJ OPTIMUM 90 HARI"
+      }
+    ]
+  },
+  "refillProtocol": {
+    "capsuleCount": 30,
+    "capsuleStrengthMg": 550,
+    "refillReminderDay": 25,
+    "calendarAlertTitleEn": "Onyxman Malaysia — Grow XL Day-25 Refill Check-In (RM 159)",
+    "calendarAlertTitleMs": "Onyxman Malaysia — Peringatan Bekalan Hari Ke-25 Grow XL (RM 159)",
+    "protocolSummaryEn": "Grow XL provides a full 30-capsule monthly supply (1 capsule per day). Our system schedules your automated Google Calendar and WhatsApp refill reminder on Day 25 (with 5 capsules remaining), ensuring 100% seamless continuity between Month 1, Month 2, and Month 3.",
+    "protocolSummaryMs": "Grow XL membekalkan 30 kapsul untuk kegunaan sebulan penuh (1 kapsul sehari). Sistem kami menjadualkan peringatan Google Calendar dan WhatsApp pada Hari Ke-25 (ketika berbaki 5 kapsul), memastikan tiada jurang bekalan antara Bulan Pertama, Kedua, dan Ketiga."
+  },
+  "locales": {
+    "en-MY": {
+      "seoTitle": "Grow XL (30 Capsules) — Extra-Strength Enhancement Male Performance Blend | RM 159 Onyxman Malaysia",
+      "metaDescription": "Buy authentic Grow XL (#1 Selling Product — Extra-Strength Enhancement Male Performance Blend — 30 Capsules, SKU ONYX-GX-30) for RM 159 at Onyxman.my. 30-day natural botanical cycle with Tongkat Ali, Maca, L-Arginine, Muira Puama & Saw Palmetto.",
+      "heroEyebrow": "FORMULATION III • 30 CAPSULES • EXTRA-STRENGTH 30-DAY BOTANICAL BLEND",
+      "heroHeadline": "Grow XL — 30-Day Progressive Male Performance & Micro-Circulation Protocol",
+      "heroSubheadline": "Marked with the gold '#1 Selling Product — Made With Natural Ingredient' seal, Grow XL delivers a full 30-capsule monthly regimen uniting Extra-Strength Tongkat Ali, Peruvian Maca Root, L-Arginine, Brazilian Muira Puama, and Saw Palmetto.",
+      "positioningSummary": "Grow XL is engineered for adult men in Malaysia who prefer a structured 1-capsule-a-day 30-day botanical nourishment program rather than an on-demand evening capsule. Over a complete 30-day to 90-day cycle, its 6 natural botanical and amino-acid actives support baseline male vitality, peripheral micro-circulation, prostate-friendly nutritional balance, and sustained all-day stamina.",
+      "idealUserProfile": "Adult men (18+) in Malaysia seeking a comprehensive 30-capsule full-month daily habit (RM 5.30/day at RM 159 per bottle) focused on cumulative botanical conditioning, all-day energy stability, and progressive vitality support.",
+      "sensoryAndCraftNotes": "Studio-restored and supplied in a 100% authentic, unblemished obsidian bottle featuring the gold '#1 Selling Product' crest, metallic blue-silver 'XL' emblem, and 30-capsule tamper-evident seal."
+    },
+    "ms-MY": {
+      "seoTitle": "Grow XL (30 Kapsul) — Campuran Prestasi Lelaki Kekuatan Ekstra Semula Jadi | RM 159 Onyxman Malaysia",
+      "metaDescription": "Beli Grow XL tulen (Produk Jualan #1 — Campuran Prestasi Lelaki Kekuatan Ekstra — 30 Kapsul, SKU ONYX-GX-30) pada harga RM 159 di Onyxman.my. Kitaran penuh 30 hari dengan Tongkat Ali, Maca, L-Arginine, Muira Puama & Saw Palmetto.",
+      "heroEyebrow": "FORMULASI III • 30 KAPSUL • CAMPURAN BOTANI KEKUATAN EKSTRA 30 HARI",
+      "heroHeadline": "Grow XL — Protokol Harian 30 Hari untuk Prestasi Lelaki & Peredaran Mikro",
+      "heroSubheadline": "Terkenal dengan lencana emas '#1 Selling Product — Made With Natural Ingredient', Grow XL menawarkan bekalan penuh 30 kapsul sebulan yang menggabungkan Tongkat Ali Kekuatan Ekstra, Akar Maca Peru, L-Arginine, Muira Puama Brazil, dan Saw Palmetto.",
+      "positioningSummary": "Grow XL dirumus khas untuk lelaki dewasa di Malaysia yang menggemari rutin harian teratur 1 kapsul sehari selama 30 hari penuh. Sepanjang kitaran 30 hingga 90 hari, gabungan 6 ekstrak tumbuhan semula jadi dan asid amino di dalamnya menyokong kecergasan asas lelaki, kelancaran peredaran darah mikro, serta stamina harian yang konsisten.",
+      "idealUserProfile": "Lelaki dewasa (18+) di Malaysia yang mahukan bekalan 30 kapsul sebulan penuh (hanya RM 5.30 sehari pada harga RM 159 sebotol) untuk penjagaan stamina berperingkat dan tenaga berpanjangan sepanjang hari.",
+      "sensoryAndCraftNotes": "Dibekalkan dalam botol hitam berkilat tulen dengan lencana emas '#1 Selling Product', lambang 'XL' biru-perak metalik, serta penutup keselamatan kedap udara untuk 30 kapsul."
+    }
+  },
+  "botanicalActives": [
+    {
+      "code": "GX-ACT-01",
+      "scientificName": "Eurycoma longifolia (Extra-Strength Standardized Root Extract)",
+      "commonNameEn": "Extra-Strength Malaysian Tongkat Ali",
+      "commonNameMs": "Ekstrak Akar Tongkat Ali Malaysia Kekuatan Ekstra",
+      "dosagePerCapsuleMg": 140,
+      "standardization": "100:1 Standardized Root Extract (2.0% Eurycomanone)",
+      "roleEn": "Provides daily adaptogenic support for male vitality, physical endurance, and healthy energetic drive across a 30-day cycle.",
+      "roleMs": "Memberikan sokongan adaptogenik harian untuk kecergasan lelaki, daya tahan fizikal, dan tenaga dalaman sepanjang kitaran 30 hari."
+    },
+    {
+      "code": "GX-ACT-02",
+      "scientificName": "Lepidium meyenii (Concentrated Andean Maca Root)",
+      "commonNameEn": "Peruvian Maca Root Extract",
+      "commonNameMs": "Ekstrak Akar Maca Peru",
+      "dosagePerCapsuleMg": 110,
+      "standardization": "10:1 Gelatinized Root Extract",
+      "roleEn": "Supports sustained daily stamina, physical vitality, and resilience against chronic workplace fatigue.",
+      "roleMs": "Menyokong stamina harian yang berterusan, kecergasan fizikal, dan ketahanan terhadap keletihan kerja."
+    },
+    {
+      "code": "GX-ACT-03",
+      "scientificName": "L-Arginine Hydrochloride & L-Citrulline Malate Blend",
+      "commonNameEn": "Dual Amino-Acid Micro-Circulation Matrix",
+      "commonNameMs": "Matriks Dwi-Asid Amino L-Arginine & L-Citrulline",
+      "dosagePerCapsuleMg": 100,
+      "standardization": "2:1 L-Arginine HCl to L-Citrulline Ratio",
+      "roleEn": "Promotes continuous daily nitric oxide bioavailability and smooth vascular nutrient delivery to active tissues.",
+      "roleMs": "Menggalakkan ketersediaan nitrik oksida harian dan kelancaran penghantaran nutrien vaskular ke tisu badan yang aktif."
+    },
+    {
+      "code": "GX-ACT-04",
+      "scientificName": "Ptychopetalum olacoides (Standardized Bark & Root Extract)",
+      "commonNameEn": "Brazilian Muira Puama (Potency Wood)",
+      "commonNameMs": "Ekstrak Kulit & Akar Muira Puama Brazil",
+      "dosagePerCapsuleMg": 80,
+      "standardization": "12:1 Concentrated Bark Phytosterols",
+      "roleEn": "Traditional Amazonian botanical prized for supporting neuromuscular vigor, physical readiness, and male confidence.",
+      "roleMs": "Herba tradisional Amazon yang terkenal untuk menyokong kecergasan neuromuskular, kesediaan fizikal, dan keyakinan lelaki."
+    },
+    {
+      "code": "GX-ACT-05",
+      "scientificName": "Serenoa repens (Standardized Berry Lipidosterolic Extract)",
+      "commonNameEn": "Saw Palmetto Berry Extract",
+      "commonNameMs": "Ekstrak Beri Saw Palmetto",
+      "dosagePerCapsuleMg": 70,
+      "standardization": "45% Free Fatty Acids & Phytosterols",
+      "roleEn": "Supports long-term adult male wellness, urinary comfort, and balanced physiological conditioning in men over 30.",
+      "roleMs": "Menyokong kesejahteraan jangka panjang lelaki dewasa dan keseimbangan fisiologi khususnya bagi lelaki berusia 30 tahun ke atas."
+    },
+    {
+      "code": "GX-ACT-06",
+      "scientificName": "Panax ginseng & Ginkgo biloba Vascular Cofactor",
+      "commonNameEn": "Aged Panax Ginseng & Ginkgo Flavone Complex",
+      "commonNameMs": "Kompleks Panax Ginseng & Ginkgo Biloba",
+      "dosagePerCapsuleMg": 50,
+      "standardization": "8% Ginsenosides + 24% Flavone Glycosides",
+      "roleEn": "Supports peripheral micro-circulation, mental alertness, and cellular energy production throughout the day.",
+      "roleMs": "Menyokong peredaran darah mikro periferi, kecerdasan minda, dan penghasilan tenaga selular sepanjang hari."
+    }
+  ],
+  "usageProtocol": {
+    "servingSize": "1 Capsule (550mg)",
+    "servingsPerContainer": 30,
+    "totalNetPotencyMg": 16500,
+    "modes": [
+      {
+        "modeId": "morning-daily-cycle",
+        "titleEn": "Protocol A: 30-Day Morning Baseline Routine (Recommended)",
+        "titleMs": "Protokol A: Rutin Harian Pagi 30 Hari (Disyorkan)",
+        "instructionEn": "Take 1 capsule every morning 20–30 minutes after breakfast with a full glass (250ml–300ml) of water. Taking Grow XL at the same time each morning establishes steady 24-hour botanical plasma levels.",
+        "instructionMs": "Ambil 1 kapsul setiap pagi 20–30 minit selepas sarapan bersama segelas penuh (250ml–300ml) air kosong. Pengambilan pada waktu yang konsisten setiap pagi mengekalkan tahap nutrien botani sepanjang 24 jam."
+      },
+      {
+        "modeId": "evening-split-option",
+        "titleEn": "Protocol B: Post-Dinner Conditioning Routine",
+        "titleMs": "Protokol B: Rutin Selepas Makan Malam",
+        "instructionEn": "If you fast in the morning or prefer evening supplementation, take 1 capsule 30 minutes after dinner with warm water.",
+        "instructionMs": "Jika anda tidak bersarapan atau lebih selesa mengambil suplemen pada waktu malam, ambil 1 kapsul 30 minit selepas makan malam bersama air suam."
+      }
+    ],
+    "storageEn": "Store below 30°C away from direct heat and humidity. Each 30-capsule bottle is designed for a complete 1-month personal cycle.",
+    "storageMs": "Simpan di bawah suhu 30°C jauh daripada haba dan kelembapan. Setiap botol 30 kapsul direka tepat untuk kitaran peribadi selama 1 bulan penuh."
+  },
+  "progressionTimeline": [
+    {
+      "stage": "Days 1–10 (Phase 1: Micro-Circulation Awakening)",
+      "titleEn": "Daily Nutrient Uptake & Morning Energy Stability",
+      "titleMs": "Hari 1–10 (Fasa 1: Pengaktifan Aliran Mikro & Kestabilan Tenaga)",
+      "detailEn": "L-Arginine, L-Citrulline, and Ginkgo biloba begin supporting smoother peripheral micro-circulation and steadier daytime energy without mid-afternoon crashes.",
+      "detailMs": "L-Arginine, L-Citrulline, dan Ginkgo biloba mula menyokong kelancaran aliran darah mikro serta tenaga harian yang lebih stabil tanpa rasa mengantuk pada waktu petang."
+    },
+    {
+      "stage": "Days 11–20 (Phase 2: Botanical Reserve Compounding)",
+      "titleEn": "Tongkat Ali, Maca & Muira Puama Synergy",
+      "titleMs": "Hari 11–20 (Fasa 2: Pembinaan Rizab Botani)",
+      "detailEn": "Extra-Strength Tongkat Ali, Peruvian Maca, and Brazilian Muira Puama accumulate in your system, supporting stronger physical stamina, workout endurance, and evening readiness.",
+      "detailMs": "Gabungan Tongkat Ali Kekuatan Ekstra, Maca Peru, dan Muira Puama Brazil membina daya tahan fizikal yang lebih kukuh serta kesediaan tenaga malam."
+    },
+    {
+      "stage": "Days 21–30 (Phase 3: Full-Month Peak & Day-25 Refill Trigger)",
+      "titleEn": "Peak 30-Day Conditioning & Seamless Month-2 Continuity",
+      "titleMs": "Hari 21–30 (Fasa 3: Kemuncak 30 Hari & Peringatan Hari Ke-25)",
+      "detailEn": "Complete 30-day botanical conditioning across all 6 natural actives. On Day 25, your automated Onyxman reminder triggers so your second bottle arrives before Day 30.",
+      "detailMs": "Penjagaan botani 30 hari mencapai tahap optimum. Pada Hari Ke-25, peringatan automatik Onyxman memastikan botol bulan kedua tiba sebelum Hari Ke-30."
+    }
+  ],
+  "discreetShippingAndCheckout": {
+    "unmarkedParcelEn": "100% unmarked matte security parcel. Airway bill states 'OM Fulfilment Logistics' with zero mention of Grow XL or male performance products.",
+    "unmarkedParcelMs": "100% bungkusan keselamatan legap tanpa sebarang nama produk. Slip kurier hanya memaparkan 'OM Fulfilment Logistics' tanpa menyebut Grow XL.",
+    "westMalaysiaEtaEn": "1–2 Business Days across Peninsular Malaysia (Free Express Shipping on 1, 2, or 3 bottles).",
+    "westMalaysiaEtaMs": "1–2 Hari Bekerja di seluruh Semenanjung Malaysia (Penghantaran Ekspres Percuma untuk 1, 2, atau 3 botol).",
+    "eastMalaysiaEtaEn": "2–4 Business Days to Sabah, Sarawak & Labuan via Discreet Air Freight (RM 12 for 1 bottle; Free on 2 or 3 bottles).",
+    "eastMalaysiaEtaMs": "2–4 Hari Bekerja ke Sabah, Sarawak & Labuan melalui Kargo Udara Rahsia (RM 12 untuk 1 botol; Percuma untuk 2 atau 3 botol).",
+    "klangValleySameDayEn": "3–5 Hours Same-Day Private Discreet Runner in Kuala Lumpur, Selangor, Putrajaya & Cyberjaya (orders before 16:00 MYT).",
+    "klangValleySameDayMs": "3–5 Jam Penghantar Persendirian Hari Sama di Kuala Lumpur, Selangor, Putrajaya & Cyberjaya (pesanan sebelum 4:00 petang).",
+    "paymentOptionsEn": "FPX Online Banking, DuitNow Instant QR, or Cash on Delivery (COD Malaysia).",
+    "paymentOptionsMs": "Perbankan Dalam Talian FPX, DuitNow QR Segera, atau Bayar Waktu Terima (COD Malaysia)."
+  },
+  "faqs": [
+    {
+      "qEn": "How many capsules are in 1 bottle of Grow XL and how long does a bottle last?",
+      "aEn": "Each authentic bottle of Grow XL (SKU: ONYX-GX-30, MPN: GXL-30CAP-MY) contains 30 capsules. At the recommended daily dosage of 1 capsule per day, 1 bottle provides a complete 30-day (1 full month) supply.",
+      "qMs": "Berapakah bilangan kapsul di dalam 1 botol Grow XL dan berapa lama ia bertahan?",
+      "aMs": "Setiap botol tulen Grow XL (SKU: ONYX-GX-30, MPN: GXL-30CAP-MY) mengandungi 30 kapsul. Pada sukatan yang disyorkan iaitu 1 kapsul sehari, 1 botol mencukupi untuk bekalan penuh selama 30 hari (1 bulan)."
+    },
+    {
+      "qEn": "How does Grow XL (30 Capsules) compare to Horsemen and Hammer of Thor (20 Capsules)?",
+      "aEn": "Grow XL is designed as a 30-day daily nutritional conditioning protocol (1 capsule every morning/evening for 30 days) featuring Muira Puama, Saw Palmetto, Tongkat Ali, Maca, and L-Arginine. Horsemen and Hammer of Thor are more concentrated 20-capsule cycles geared toward evening stamina or Tribulus saponin conditioning.",
+      "qMs": "Apakah perbezaan antara Grow XL (30 Kapsul) berbanding Horsemen dan Hammer of Thor (20 Kapsul)?",
+      "aMs": "Grow XL direka sebagai protokol penjagaan harian selama 30 hari penuh (1 kapsul sehari) yang menggabungkan Muira Puama, Saw Palmetto, Tongkat Ali, Maca, dan L-Arginine. Horsemen dan Hammer of Thor pula ialah kitaran 20 kapsul berkepekatan tinggi untuk kesediaan malam atau fokus saponin Tribulus."
+    },
+    {
+      "qEn": "How does Grow XL differ from Magnum Pump XR (both 30-capsule bottles)?",
+      "aEn": "While both contain 30 capsules at RM 159, Grow XL is an all-day natural botanical performance blend (Tongkat Ali, Maca, Muira Puama, Saw Palmetto) taken once daily after breakfast. Magnum Pump XR (30 Black Capsules) is a specialized Nitric Oxide & Testosterone Pro Series formula dominated by L-Arginine HCl, L-Citrulline, Black Ginger, and Bioperine taken 30–45 minutes before gym workouts or evening activity.",
+      "qMs": "Apakah perbezaan antara Grow XL dan Magnum Pump XR memandangkan kedua-duanya mempunyai 30 kapsul?",
+      "aMs": "Walaupun kedua-duanya mengandungi 30 kapsul pada harga RM 159, Grow XL ialah campuran herba semula jadi harian (Tongkat Ali, Maca, Muira Puama, Saw Palmetto) yang diambil selepas sarapan. Magnum Pump XR (30 Kapsul Hitam) pula ialah formulasi khusus Nitrik Oksida (L-Arginine HCl, L-Citrulline, Kunyit Hitam, Bioperine) yang diambil 30–45 minit sebelum senaman atau aktiviti malam."
+    },
+    {
+      "qEn": "Why is the refill reminder for Grow XL set to Day 25 instead of Day 18?",
+      "aEn": "Because Grow XL contains 30 capsules per bottle (compared to 20 capsules in Horsemen and Hammer of Thor), Day 25 is when you have 5 capsules remaining—giving ample time for our 1–2 day discreet courier delivery to reach you before Day 30.",
+      "qMs": "Mengapakah peringatan bekalan semula Grow XL ditetapkan pada Hari Ke-25 dan bukannya Hari Ke-18?",
+      "aMs": "Kerana Grow XL mengandungi 30 kapsul sebotol (berbanding 20 kapsul bagi Horsemen dan Hammer of Thor). Pada Hari Ke-25, anda masih mempunyai baki 5 kapsul—memberi masa yang cukup untuk penghantaran kurier 1–2 hari tiba sebelum Hari Ke-30."
+    },
+    {
+      "qEn": "Why should I order Grow XL directly from Onyxman.my instead of unverified classified ads?",
+      "aEn": "Unverified third-party classified images often circulate watermarked, poorly stored, or counterfeit stock at inflated prices. Ordering directly from Onyxman.my guarantees 100% authentic, climate-controlled Kuala Lumpur warehouse stock at the official RM 159 price with tamper-evident packaging.",
+      "qMs": "Mengapakah saya perlu menempah Grow XL terus dari Onyxman.my berbanding iklan pihak ketiga yang tidak sah?",
+      "aMs": "Iklan pihak ketiga yang tidak disahkan sering menjual stok lama atau tiruan pada harga tidak menentu. Tempahan terus di Onyxman.my menjamin stok tulen dari gudang kawalan suhu kami di Kuala Lumpur pada harga rasmi RM 159 dengan pelekat keselamatan kedap udara."
+    },
+    {
+      "qEn": "What is the price for 1, 2, or 3 bottles of Grow XL in Malaysia?",
+      "aEn": "1 Bottle (30 Capsules / 30 Days) is RM 159. 2 Bottles (60 Capsules / 60 Days + Free Nationwide Malaysia Shipping) is RM 318. 3 Bottles (90 Capsules / 90 Days Complete Vault) is RM 477.",
+      "qMs": "Berapakah harga untuk pakej 1, 2, atau 3 botol Grow XL di Malaysia?",
+      "aMs": "1 Botol (30 Kapsul / 30 Hari) berharga RM 159. 2 Botol (60 Kapsul / 60 Hari + Penghantaran Percuma Seluruh Malaysia) berharga RM 318. 3 Botol (90 Kapsul / 90 Hari Pakej Lengkap) berharga RM 477."
+    },
+    {
+      "qEn": "Is Grow XL shipped in a plain box without product names?",
+      "aEn": "Yes. Every parcel leaves our hub in a 100% unmarked matte mailer or plain carton. Only 'OM Fulfilment Logistics' is printed on the airway bill so your privacy is completely protected.",
+      "qMs": "Adakah Grow XL dihantar di dalam kotak kosong tanpa nama produk?",
+      "aMs": "Ya. Setiap bungkusan dihantar menggunakan pek keselamatan atau kotak tanpa sebarang cetakan jenama. Hanya nama 'OM Fulfilment Logistics' tertera pada slip kurier demi menjaga privasi anda sepenuhnya."
+    },
+    {
+      "qEn": "Can I pay Cash on Delivery (COD) for Grow XL in both West and East Malaysia?",
+      "aEn": "Yes. We support Cash on Delivery (COD) as well as instant FPX Online Banking and DuitNow QR across Peninsular Malaysia and major towns in Sabah and Sarawak.",
+      "qMs": "Bolehkah saya membayar secara COD (Bayar Waktu Terima) untuk Grow XL di Semenanjung serta Sabah & Sarawak?",
+      "aMs": "Ya. Kami menyokong pembayaran COD (Bayar Waktu Terima) serta pembayaran segera FPX dan DuitNow QR di seluruh Semenanjung Malaysia dan bandar-bandar utama di Sabah serta Sarawak."
+    },
+    {
+      "qEn": "Does Grow XL make unrealistic permanent anatomical claims or contain synthetic drugs?",
+      "aEn": "No. At Onyxman Malaysia, we strictly reject exaggerated medical or anatomical claims. Grow XL is an authentic botanical and amino-acid dietary supplement formulated to support adult male physical stamina, peripheral micro-circulation, and daily vitality.",
+      "qMs": "Adakah Grow XL membuat tuntutan perubatan melampau atau mengandungi bahan kimia sintetik?",
+      "aMs": "Tidak. Di Onyxman Malaysia, kami menolak sebarang tuntutan perubatan yang melampau. Grow XL ialah suplemen pemakanan botani dan asid amino tulen yang dirumus untuk menyokong stamina fizikal, aliran mikro, dan kecergasan harian lelaki dewasa."
+    },
+    {
+      "qEn": "How long should I take Grow XL for optimal results?",
+      "aEn": "While initial morning energy and vitality support are typically noted within the first 7–10 days, botanical adaptogens like Tongkat Ali, Maca, Muira Puama, and Saw Palmetto achieve peak conditioning over a continuous 60-day (2 bottles, RM 318) to 90-day (3 bottles, RM 477) cycle.",
+      "qMs": "Berapa lamakah tempoh penggunaan Grow XL yang disyorkan untuk kesan terbaik?",
+      "aMs": "Walaupun sokongan tenaga harian lazimnya mula dirasai dalam 7–10 hari pertama, herba adaptogenik seperti Tongkat Ali, Maca, Muira Puama, dan Saw Palmetto mencapai tahap optimum apabila diamalkan secara konsisten selama 60 hari (2 botol, RM 318) hingga 90 hari (3 botol, RM 477)."
+    }
+  ]
+}

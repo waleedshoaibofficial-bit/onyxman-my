@@ -1,0 +1,319 @@
+{
+  "microStep": "MS-029",
+  "id": "horsemen",
+  "slug": "horsemen",
+  "name": "Horsemen",
+  "brand": "Onyxman",
+  "brandUrl": "https://onyxman.my",
+  "sku": "ONYX-HM-20",
+  "skuLegacyAlias": "ONYX-HM-20MY",
+  "mpn": "HM-500MG-20MY",
+  "gtin13": "9550000102011",
+  "category": "Botanical Dietary Supplement for Adult Men (18+)",
+  "labelTranscription": {
+    "primaryTitle": "HORSEMEN",
+    "subtitleEn": "Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg",
+    "subtitleMs": "Suplemen Herba Kecergasan & Stamina Lelaki — 20 Kapsul x 500mg",
+    "bottleColorway": "Deep Obsidian Black Bottle with Metallic Crimson & Gold Crest Typography",
+    "capsuleCount": 20,
+    "capsuleWeightMg": 500,
+    "netWeightGrams": 10,
+    "capsuleFormatEn": "500mg High-Density Herbal Extract Capsule",
+    "capsuleFormatMs": "Kapsul Ekstrak Herba Berkepekatan Tinggi 500mg",
+    "originMarket": "Malaysia Official Apothecary Distribution (https://onyxman.my)"
+  },
+  "routes": {
+    "enPath": "/products/horsemen/",
+    "msPath": "/ms/produk/horsemen/",
+    "canonicalEn": "https://onyxman.my/products/horsemen/",
+    "canonicalMs": "https://onyxman.my/ms/produk/horsemen/"
+  },
+  "images": {
+    "primaryWebp": "/assets/products/horsemen.webp",
+    "primaryPng": "/assets/products/horsemen.png",
+    "cutoutWebp": "/assets/products/horsemen-cutout.webp",
+    "cutoutPng": "/assets/products/horsemen-cutout.png",
+    "stageWebp": "/assets/products/horsemen-stage.webp",
+    "stagePng": "/assets/products/horsemen-stage.png",
+    "portraitWebp": "/assets/products/horsemen-portrait.webp",
+    "portraitPng": "/assets/products/horsemen-portrait.png",
+    "altEn": "Horsemen Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg Official Onyxman Malaysia Bottle (RM 159)",
+    "altMs": "Horsemen Suplemen Herba Stamina Lelaki — 20 Kapsul x 500mg Botol Rasmi Onyxman Malaysia (RM 159)"
+  },
+  "pricing": {
+    "currency": "MYR",
+    "currencySymbol": "RM",
+    "unitPrice": 159.0,
+    "unitPriceFormatted": "RM 159",
+    "unitPriceSchema": "159.00",
+    "priceValidUntil": "2027-12-31",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "bundleTiers": [
+      {
+        "tierId": "horsemen-1-bottle",
+        "bottles": 1,
+        "totalCapsules": 20,
+        "cycleDurationDays": 20,
+        "refillTriggerDay": 18,
+        "priceNumeric": 159.0,
+        "priceFormatted": "RM 159",
+        "priceSchema": "159.00",
+        "perBottleFormatted": "RM 159 / bottle",
+        "titleEn": "1 Bottle — Single 20-Capsule Reserve (10,000mg Total Botanicals)",
+        "titleMs": "1 Botol — Bekalan 20 Kapsul (10,000mg Jumlah Ekstrak Botani)",
+        "shippingEn": "Free Discreet Express Shipping in Peninsular Malaysia (RM 12 East Malaysia)",
+        "shippingMs": "Penghantaran Ekspres Rahsia Percuma Semenanjung Malaysia (RM 12 Sabah/Sarawak)",
+        "badgeEn": "20-CAPSULE STARTER CYCLE",
+        "badgeMs": "KITARAN PERMULAAN 20 KAPSUL"
+      },
+      {
+        "tierId": "horsemen-2-bottles",
+        "bottles": 2,
+        "totalCapsules": 40,
+        "cycleDurationDays": 40,
+        "refillTriggerDay": 36,
+        "priceNumeric": 318.0,
+        "priceFormatted": "RM 318",
+        "priceSchema": "318.00",
+        "perBottleFormatted": "RM 159 / bottle",
+        "titleEn": "2 Bottles — Dual 40-Capsule Momentum Protocol (20,000mg Total Botanicals)",
+        "titleMs": "2 Botol — Protokol Dwi-Momentum 40 Kapsul (20,000mg Jumlah Ekstrak Botani)",
+        "shippingEn": "Free Nationwide Malaysia Discreet Express Shipping (Including Sabah, Sarawak & Labuan)",
+        "shippingMs": "Penghantaran Ekspres Rahsia Percuma Seluruh Malaysia (Termasuk Sabah, Sarawak & Labuan)",
+        "badgeEn": "MOST SELECTED IN KUALA LUMPUR & SELANGOR",
+        "badgeMs": "PILIHAN UTAMA DI KL & SELANGOR"
+      },
+      {
+        "tierId": "horsemen-3-bottles",
+        "bottles": 3,
+        "totalCapsules": 60,
+        "cycleDurationDays": 60,
+        "refillTriggerDay": 54,
+        "priceNumeric": 477.0,
+        "priceFormatted": "RM 477",
+        "priceSchema": "477.00",
+        "perBottleFormatted": "RM 159 / bottle",
+        "titleEn": "3 Bottles — Complete 60-Capsule Apothecary Vault (30,000mg Total Botanicals)",
+        "titleMs": "3 Botol — Pakej Lengkap Apotekari 60 Kapsul (30,000mg Jumlah Ekstrak Botani)",
+        "shippingEn": "Priority Discreet Dispatch + Free Nationwide Shipping + VIP Refill Concierge",
+        "shippingMs": "Penghantaran Rahsia Keutamaan + Percuma Seluruh Negara + Khidmat Peringatan VIP",
+        "badgeEn": "PEAK CONDITIONING VAULT",
+        "badgeMs": "PAKEJ KECERGASAN OPTIMUM"
+      }
+    ]
+  },
+  "refillProtocol": {
+    "capsuleCount": 20,
+    "capsuleStrengthMg": 500,
+    "refillReminderDay": 18,
+    "calendarAlertTitleEn": "Onyxman Malaysia — Horsemen Day-18 Refill Check-In (RM 159)",
+    "calendarAlertTitleMs": "Onyxman Malaysia — Peringatan Bekalan Hari Ke-18 Horsemen (RM 159)",
+    "protocolSummaryEn": "Designed around a 20-capsule x 500mg precision reserve. Our automated Google Calendar and WhatsApp concierge triggers a discreet refill reminder on Day 18 so your botanical momentum experiences zero interruption while courier transit completes within 1–2 business days.",
+    "protocolSummaryMs": "Dirangka khusus untuk kitaran 20 kapsul x 500mg. Sistem peringatan Google Calendar dan WhatsApp kami menetapkan notis bekalan semula pada Hari Ke-18 supaya kesinambungan tenaga botani anda tidak terputus sementara penghantaran ekspres tiba dalam 1–2 hari bekerja."
+  },
+  "locales": {
+    "en-MY": {
+      "seoTitle": "Horsemen (20 Capsules x 500mg) — Man Virility Enhancement Herbal Supplement | RM 159 Onyxman Malaysia",
+      "metaDescription": "Reserve authentic Horsemen (20 Capsules x 500mg, SKU ONYX-HM-20) at RM 159 on Onyxman.my. Formulated with Tongkat Ali 100:1, Black Maca, Panax Ginseng & L-Arginine. 100% discreet unmarked shipping across Malaysia with FPX, DuitNow QR & COD.",
+      "heroEyebrow": "FORMULATION I • 20 CAPSULES × 500MG HERBAL APOTHECARY RESERVE",
+      "heroHeadline": "Horsemen — High-Density 500mg Botanical Virility & Evening Stamina Protocol",
+      "heroSubheadline": "Engineered for adult men in Malaysia demanding rapid evening readiness and sustained physical endurance. Each 500mg capsule unites standardized Malaysian Eurycoma longifolia (Tongkat Ali), Peruvian Black Maca, Korean Red Ginseng, and L-Arginine HCl.",
+      "positioningSummary": "Horsemen is Onyxman Malaysia's flagship 20-capsule x 500mg herbal supplement crafted for men who prefer a concentrated, dual-mode botanical reserve. Whether taken 45–60 minutes prior to high-output evening activity or on a structured 20-day daily conditioning schedule, its 500mg botanical matrix supports natural vitality, physical stamina, and post-work energy resilience without jittery synthetic stimulants.",
+      "idealUserProfile": "Corporate professionals, entrepreneurs, and active adult men (18+) in Malaysia experiencing late-evening fatigue who want a concentrated 500mg herbal capsule that supports both evening readiness and full-body physical endurance.",
+      "sensoryAndCraftNotes": "Encapsulated at 500mg per serving inside a tamper-evident obsidian-black apothecary bottle with metallic crimson-and-gold crest detailing. Zero chalky tablet binders; rapid warm-water dissolution within 20–30 minutes."
+    },
+    "ms-MY": {
+      "seoTitle": "Horsemen (20 Kapsul x 500mg) — Suplemen Herba Kecergasan & Stamina Lelaki | RM 159 Onyxman Malaysia",
+      "metaDescription": "Dapatkan Horsemen tulen (20 Kapsul x 500mg, SKU ONYX-HM-20) pada harga rasmi RM 159 di Onyxman.my. Gabungan Tongkat Ali 100:1, Maca Hitam, Panax Ginseng & L-Arginine. Penghantaran rahsia tanpa nama produk ke seluruh Malaysia (FPX, DuitNow & COD).",
+      "heroEyebrow": "FORMULASI I • 20 KAPSUL × 500MG RIZAB APOTEKARI HERBA",
+      "heroHeadline": "Horsemen — Protokol Herba Berkepekatan Tinggi 500mg untuk Stamina & Tenaga Malam",
+      "heroSubheadline": "Dirumus khas untuk lelaki dewasa di Malaysia yang mengutamakan kesediaan tenaga malam dan ketahanan fizikal berpanjangan. Setiap kapsul 500mg menggabungkan ekstrak Tongkat Ali Malaysia, Maca Hitam Peru, Ginseng Merah Korea, dan L-Arginine HCl.",
+      "positioningSummary": "Horsemen ialah formulasi 20 kapsul x 500mg pilihan utama di Onyxman Malaysia bagi lelaki yang mahukan kapsul herba padat dengan fleksibiliti penggunaan. Sama ada diambil 45–60 minit sebelum aktiviti malam atau diamalkan secara harian selama 20 hari, matriks 500mg ini menyokong kecergasan semula jadi, stamina fizikal, dan pemulihan tenaga selepas waktu kerja yang panjang.",
+      "idealUserProfile": "Golongan profesional, usahawan, dan lelaki dewasa aktif (18+) di Malaysia yang sering keletihan pada waktu malam dan memerlukan kapsul herba 500mg berkepekatan tinggi untuk menyokong tenaga serta ketahanan fizikal.",
+      "sensoryAndCraftNotes": "Dikapsulkan tepat pada 500mg setiap biji di dalam botol hitam obsidian kedap udara dengan kemasan merah metalik dan emas. Tanpa bahan pengikat tablet kapur; mudah larut bersama air suam dalam masa 20–30 minit."
+    }
+  },
+  "botanicalActives": [
+    {
+      "code": "HM-ACT-01",
+      "scientificName": "Eurycoma longifolia (100:1 Standardized Root Extract)",
+      "commonNameEn": "Malaysian Tongkat Ali Root Extract",
+      "commonNameMs": "Ekstrak Akar Tongkat Ali Hitam & Kuning Malaysia",
+      "dosagePerCapsuleMg": 150,
+      "standardization": "2.2% Eurycomanone & Quassinoid Bio-Fractions",
+      "roleEn": "Supports healthy free vitality tone, physical drive, and resilience against cortisol-induced evening fatigue.",
+      "roleMs": "Menyokong keseimbangan tenaga dalaman lelaki, daya tahan fizikal, dan mengurangkan kelesuan akibat tekanan kerja harian."
+    },
+    {
+      "code": "HM-ACT-02",
+      "scientificName": "Lepidium meyenii (Gelatinized Black Root Extract)",
+      "commonNameEn": "Andean Black Peruvian Maca Root",
+      "commonNameMs": "Ekstrak Akar Maca Hitam Peru",
+      "dosagePerCapsuleMg": 100,
+      "standardization": "0.6% Macamides & Macaenes",
+      "roleEn": "Provides non-caffeinated adaptogenic stamina, supporting sustained physical output and mental focus without sleep disruption.",
+      "roleMs": "Membekalkan stamina adaptogenik bebas kafein bagi menyokong prestasi fizikal berterusan tanpa mengganggu kualiti tidur malam."
+    },
+    {
+      "code": "HM-ACT-03",
+      "scientificName": "Epimedium sagittatum (Aerial Part Extract)",
+      "commonNameEn": "Horny Goat Weed Complex",
+      "commonNameMs": "Ekstrak Herba Epimedium (Horny Goat Weed)",
+      "dosagePerCapsuleMg": 80,
+      "standardization": "10% Flavonoid Icariins",
+      "roleEn": "Traditionally utilized to support peripheral micro-circulation, nitric oxide synergy, and physical responsiveness.",
+      "roleMs": "Digunakan secara tradisional untuk menyokong peredaran darah mikro, sinergi nitrik oksida, dan kesediaan fizikal."
+    },
+    {
+      "code": "HM-ACT-04",
+      "scientificName": "L-Arginine Hydrochloride (Pharmaceutical Grade)",
+      "commonNameEn": "L-Arginine HCl Nitric Oxide Precursor",
+      "commonNameMs": "Asid Amino L-Arginine HCl",
+      "dosagePerCapsuleMg": 80,
+      "standardization": "99.2% Pure Free-Form Amino Acid HCl",
+      "roleEn": "Direct biological substrate for endothelial nitric oxide synthesis, promoting smooth nutrient and oxygen transport during physical exertion.",
+      "roleMs": "Prekursor biologi langsung untuk penghasilan nitrik oksida bagi melancarkan pengangkutan oksigen dan nutrien semasa aktiviti fizikal."
+    },
+    {
+      "code": "HM-ACT-05",
+      "scientificName": "Panax ginseng (6-Year Aged Root Extract)",
+      "commonNameEn": "Korean Red Panax Ginseng",
+      "commonNameMs": "Ekstrak Akar Panax Ginseng Merah Korea",
+      "dosagePerCapsuleMg": 60,
+      "standardization": "8% Total Ginsenosides (Rg1, Rb1, Rg3)",
+      "roleEn": "Supports cellular ATP energy metabolism, aerobic stamina, and rapid recovery after demanding workdays.",
+      "roleMs": "Menyokong metabolisme tenaga selular ATP, kecergasan kardio, dan pemulihan pantas selepas hari bekerja yang memenatkan."
+    },
+    {
+      "code": "HM-ACT-06",
+      "scientificName": "Tribulus terrestris & Zinc Picolinate Cofactor",
+      "commonNameEn": "Saponin & Elemental Zinc Bio-Matrix",
+      "commonNameMs": "Kompleks Tribulus Saponin & Zink Pikolinat",
+      "dosagePerCapsuleMg": 30,
+      "standardization": "45% Furostanol Saponins + 10mg Elemental Zinc Equivalent",
+      "roleEn": "Essential trace mineral and phytosterol cofactor supporting normal male reproductive nutrition and cellular synthesis.",
+      "roleMs": "Mineral surih penting dan kofaktor fitosterol yang menyokong nutrisi kesihatan lelaki dewasa secara menyeluruh."
+    }
+  ],
+  "usageProtocol": {
+    "servingSize": "1 Capsule (500mg)",
+    "servingsPerContainer": 20,
+    "totalNetPotencyMg": 10000,
+    "modes": [
+      {
+        "modeId": "evening-readiness",
+        "titleEn": "Protocol A: Targeted Evening Readiness",
+        "titleMs": "Protokol A: Kesediaan Tenaga Malam Terfokus",
+        "instructionEn": "Take 1 capsule (500mg) with 250ml–300ml of warm water 45 to 60 minutes after dinner or prior to evening physical activity. Avoid heavy high-fat meals immediately before intake to maximize botanical absorption speed.",
+        "instructionMs": "Ambil 1 kapsul (500mg) bersama 250ml–300ml air suam 45 hingga 60 minit selepas makan malam atau sebelum aktiviti fizikal. Elakkan makanan terlalu berminyak sejurus sebelum pengambilan untuk penyerapan herba yang lebih pantas."
+      },
+      {
+        "modeId": "baseline-conditioning",
+        "titleEn": "Protocol B: 20-Day Baseline Stamina Conditioning",
+        "titleMs": "Protokol B: Penjagaan Stamina Harian 20 Hari",
+        "instructionEn": "Take 1 capsule daily after your evening meal for 20 consecutive days (1 bottle) or 40 days (2-bottle reserve). Maintain 2.5L daily hydration across Malaysia's tropical climate.",
+        "instructionMs": "Ambil 1 kapsul setiap hari selepas makan malam selama 20 hari berturut-turut (1 botol) atau 40 hari (pakej 2 botol). Pastikan pengambilan air kosong sekurang-kurangnya 2.5 liter sehari."
+      }
+    ],
+    "storageEn": "Store below 30°C in a cool, dry cabinet away from direct Malaysian tropical sunlight and bathroom humidity. Keep cap tightly sealed after each use.",
+    "storageMs": "Simpan di bawah suhu 30°C di tempat kering dan sejuk, jauh daripada cahaya matahari terus dan kelembapan bilik air. Pastikan penutup botol ditutup rapat."
+  },
+  "progressionTimeline": [
+    {
+      "stage": "Days 1–5",
+      "titleEn": "Initial Botanical Bio-Saturation & Evening Alertness",
+      "titleMs": "Hari 1–5: Penyerapan Awal Botani & Kesegaran Malam",
+      "detailEn": "L-Arginine HCl and Korean Red Ginseng ginsenosides support noticeable reductions in post-office evening sluggishness and smoother peripheral warmth.",
+      "detailMs": "Kombinasi L-Arginine HCl dan Ginseng Merah Korea membantu mengurangkan rasa lesu selepas waktu pejabat serta menyokong kelancaran aliran tenaga malam."
+    },
+    {
+      "stage": "Days 6–14",
+      "titleEn": "Compound Tongkat Ali & Black Maca Synergy",
+      "titleMs": "Hari 6–14: Sinergi Akar Tongkat Ali & Maca Hitam",
+      "detailEn": "Standardized Eurycoma longifolia and Peruvian Black Maca build cumulative adaptogenic reserves, supporting steadier physical stamina and confident evening readiness.",
+      "detailMs": "Ekstrak piawai Tongkat Ali dan Maca Hitam membina simpanan adaptogenik secara berperingkat, memberikan ketahanan fizikal dan keyakinan malam yang lebih mantap."
+    },
+    {
+      "stage": "Days 15–20 (Day-18 Refill Trigger)",
+      "titleEn": "Full 20-Capsule Cycle Peak & Seamless Transition",
+      "titleMs": "Hari 15–20 (Notis Bekalan Hari Ke-18): Kemuncak Kitaran 20 Kapsul",
+      "detailEn": "Peak botanical conditioning achieved across all 6 actives. On Day 18, Onyxman's automated calendar/WhatsApp reminder alerts you to secure your next bottle so your cycle continues without a gap.",
+      "detailMs": "Tahap kecergasan botani mencapai keseimbangan penuh. Pada Hari Ke-18, peringatan automatik Onyxman memastikan botol seterusnya sempat tiba tanpa gangguan kitaran."
+    }
+  ],
+  "discreetShippingAndCheckout": {
+    "unmarkedParcelEn": "Shipped in a 100% plain, unbranded matte security parcel. The outer courier label lists only 'OM Fulfilment Logistics (Kuala Lumpur)' with zero mention of Horsemen, Onyxman, or men's supplements.",
+    "unmarkedParcelMs": "Dihantar di dalam bungkusan keselamatan legap tanpa sebarang logo atau jenama. Slip kurier hanya memaparkan 'OM Fulfilment Logistics (Kuala Lumpur)' tanpa menyebut nama Horsemen, Onyxman, atau suplemen lelaki.",
+    "westMalaysiaEtaEn": "1–2 Business Days via NinjaVan Discreet, J&T VIP, or PosLaju Priority (Free Shipping on 1, 2, or 3 bottles).",
+    "westMalaysiaEtaMs": "1–2 Hari Bekerja melalui NinjaVan, J&T VIP, atau PosLaju (Penghantaran Percuma untuk 1, 2, atau 3 botol).",
+    "eastMalaysiaEtaEn": "2–4 Business Days to Sabah, Sarawak & Labuan via Discreet Air Freight (RM 12 for 1 bottle; Free on 2+ bottles).",
+    "eastMalaysiaEtaMs": "2–4 Hari Bekerja ke Sabah, Sarawak & Labuan melalui Kargo Udara Rahsia (RM 12 untuk 1 botol; Percuma untuk 2+ botol).",
+    "klangValleySameDayEn": "3–5 Hours Private Discreet Runner across Kuala Lumpur, Petaling Jaya, Subang Jaya, Shah Alam, Putrajaya & Cyberjaya for orders confirmed before 16:00 MYT.",
+    "klangValleySameDayMs": "3–5 Jam Penghantar Persendirian Rahsia di sekitar Kuala Lumpur, Petaling Jaya, Subang Jaya, Shah Alam, Putrajaya & Cyberjaya bagi pesanan sebelum jam 4:00 petang.",
+    "paymentOptionsEn": "FPX Online Banking, DuitNow Instant QR, or Cash on Delivery (COD — pay the courier only when your sealed parcel is in your hands).",
+    "paymentOptionsMs": "Perbankan Dalam Talian FPX, DuitNow QR Segera, atau Bayar Waktu Terima (COD — bayar tunai/QR kepada posmen semasa bungkusan diterima)."
+  },
+  "faqs": [
+    {
+      "qEn": "What is the exact capsule count and milligram strength of Horsemen?",
+      "aEn": "Each authentic bottle of Horsemen (SKU: ONYX-HM-20, MPN: HM-500MG-20MY) contains 20 capsules at 500mg per capsule, providing 10,000mg (10g) of concentrated botanical extracts per bottle.",
+      "qMs": "Berapakah bilangan kapsul dan kekuatan miligram sebenar bagi sebotol Horsemen?",
+      "aMs": "Setiap botol tulen Horsemen (SKU: ONYX-HM-20, MPN: HM-500MG-20MY) mengandungi 20 kapsul dengan kepekatan 500mg setiap kapsul, memberikan jumlah keseluruhan 10,000mg (10g) ekstrak herba bagi setiap botol."
+    },
+    {
+      "qEn": "How does Horsemen differ from Hammer of Thor (both 20-capsule formulations)?",
+      "aEn": "Horsemen is formulated around a 100:1 Malaysian Tongkat Ali + Black Peruvian Maca + Epimedium + Korean Red Ginseng matrix designed for rapid evening readiness and dual-mode intake. Hammer of Thor focuses specifically on high-saponin Tribulus Terrestris inside 100% vegetarian capsules for progressive daily physical stamina conditioning.",
+      "qMs": "Apakah perbezaan antara Horsemen dan Hammer of Thor memandangkan kedua-duanya mempunyai 20 kapsul?",
+      "aMs": "Horsemen dirumus dengan tumpuan ekstrak Tongkat Ali 100:1, Maca Hitam Peru, Epimedium dan Ginseng Merah Korea untuk kesediaan tenaga malam yang pantas serta penggunaan dwi-mod. Hammer of Thor pula menumpukan kepada Tribulus Terrestris bersaponin tinggi di dalam kapsul vegetarian untuk bina stamina fizikal harian."
+    },
+    {
+      "qEn": "Why does Onyxman set a Day-18 refill reminder for Horsemen?",
+      "aEn": "Because Horsemen contains 20 capsules, a customer taking 1 capsule daily has 2 capsules remaining on Day 18. Triggering a discreet reminder on Day 18 allows 1–2 business days for Peninsular Malaysia courier delivery so your next bottle arrives on Day 20 with zero gap in your routine.",
+      "qMs": "Mengapakah Onyxman menetapkan peringatan bekalan semula pada Hari Ke-18 untuk Horsemen?",
+      "aMs": "Memandangkan Horsemen mengandungi 20 kapsul, pengguna yang mengambil 1 kapsul sehari akan mempunyai baki 2 kapsul pada Hari Ke-18. Peringatan pada Hari Ke-18 memberi ruang 1–2 hari bekerja untuk penghantaran kurier supaya botol baharu tiba tepat pada Hari Ke-20 tanpa sebarang gangguan kitaran."
+    },
+    {
+      "qEn": "What is the official price of Horsemen in Malaysia and are multi-bottle bundles available?",
+      "aEn": "The official Onyxman Malaysia price is RM 159 for 1 bottle (20 capsules), RM 318 for 2 bottles (40 capsules + Free Nationwide Shipping including Sabah & Sarawak), and RM 477 for the 3-bottle 60-capsule Mastery Vault.",
+      "qMs": "Berapakah harga rasmi Horsemen di Malaysia dan adakah pakej lebih daripada satu botol ditawarkan?",
+      "aMs": "Harga rasmi di Onyxman Malaysia ialah RM 159 untuk 1 botol (20 kapsul), RM 318 untuk 2 botol (40 kapsul + Penghantaran Percuma ke seluruh Malaysia termasuk Sabah & Sarawak), dan RM 477 untuk pakej lengkap 3 botol (60 kapsul)."
+    },
+    {
+      "qEn": "Will the courier driver or my family/office receptionist know what is inside the parcel?",
+      "aEn": "Never. Every Horsemen order is sealed inside an unmarked, opaque security mailer or plain matte carton. The shipping label states 'OM Fulfilment Logistics' and describes contents generically as 'Personal Nutritional Wellness'. Zero product names or logos appear on the outside.",
+      "qMs": "Adakah penghantar kurier, ahli keluarga, atau kerani pejabat akan tahu kandungan di dalam bungkusan saya?",
+      "aMs": "Tidak sama sekali. Setiap pesanan Horsemen dibungkus menggunakan kotak atau pek keselamatan legap tanpa sebarang cetakan jenama. Label kurier hanya tertera 'OM Fulfilment Logistics' dengan keterangan umum 'Penjagaan Kesihatan Harian'. Tiada nama produk pada luar bungkusan."
+    },
+    {
+      "qEn": "Can I pay via Cash on Delivery (COD) or DuitNow QR in Malaysia?",
+      "aEn": "Yes. You can select Cash on Delivery (COD) across Peninsular Malaysia and major East Malaysia hubs to pay upon receiving your sealed parcel, or choose instant FPX Online Banking / DuitNow QR with zero extra fee.",
+      "qMs": "Bolehkah saya membuat bayaran secara COD (Bayar Waktu Terima) atau DuitNow QR?",
+      "aMs": "Ya. Anda boleh memilih COD (Bayar Waktu Terima) di seluruh Semenanjung Malaysia dan bandar utama Sabah/Sarawak untuk membayar semasa bungkusan tiba di tangan anda, atau pilih pembayaran pantas FPX / DuitNow QR tanpa caj tambahan."
+    },
+    {
+      "qEn": "Can I take Horsemen if I drink kopi or teh tarik in the evening?",
+      "aEn": "Horsemen is 100% caffeine-free, so it will not compound caffeine jitters. However, for optimal botanical absorption in the gut, we recommend leaving a 45-minute gap between strong coffee/tea (which contain tannins) and your Horsemen capsule, taking the capsule with plain warm water.",
+      "qMs": "Bolehkah saya mengambil Horsemen jika saya minum kopi atau teh tarik pada waktu petang/malam?",
+      "aMs": "Horsemen adalah 100% bebas kafein dan tidak menyebabkan debaran kafein. Namun, untuk penyerapan herba yang optimum, kami menyarankan jarak masa sekitar 45 minit antara minuman berkafein/teh (yang mengandungi tanin) dengan pengambilan kapsul Horsemen bersama air suam kosong."
+    },
+    {
+      "qEn": "Is Horsemen a prescription drug or synthetic medication?",
+      "aEn": "No. Horsemen is a traditional botanical and amino-acid dietary supplement formulated for adult men (18+) to support physical vitality, stamina, and daily nutrition. It is free from undeclared synthetic PDE5 adulterants and is not intended to diagnose, treat, cure, or prevent any disease.",
+      "qMs": "Adakah Horsemen sejenis ubat preskripsi atau bahan kimia sintetik?",
+      "aMs": "Tidak. Horsemen ialah suplemen pemakanan herba dan asid amino untuk lelaki dewasa (18+) bagi menyokong kecergasan fizikal dan stamina harian. Ia bebas daripada bahan terlarang sintetik dan tidak bertujuan untuk mendiagnosis, merawat, atau menyembuhkan sebarang penyakit."
+    },
+    {
+      "qEn": "How do I place an order if I prefer email or WhatsApp confirmation?",
+      "aEn": "Click 'Reserve Discreet Dispatch — RM 159' on any page to open the Express Discreet Order Drawer. Your order routes immediately to our Kuala Lumpur fulfilment desk (waleedshoaibofficial@gmail.com / sales@onyxman.my), and our concierge messages your Malaysian WhatsApp number directly to confirm dispatch.",
+      "qMs": "Bagaimanakah cara membuat tempahan jika saya mahukan pengesahan melalui e-mel atau WhatsApp?",
+      "aMs": "Klik butang 'Tempah Bungkusan Rahsia — RM 159' untuk membuka borang tempahan pantas. Pesanan anda dihantar terus ke meja operasi Kuala Lumpur kami (waleedshoaibofficial@gmail.com / sales@onyxman.my) dan pegawai khidmat pelanggan kami akan menghubungi WhatsApp anda dengan segera."
+    },
+    {
+      "qEn": "Who should consult a doctor before taking Horsemen?",
+      "aEn": "Horsemen is strictly for adult men aged 18 and above. Men with pre-existing cardiovascular conditions, uncontrolled hypertension, renal/hepatic conditions, or those taking prescription nitrates or blood thinners should consult a licensed healthcare physician in Malaysia prior to use.",
+      "qMs": "Siapakah yang perlu mendapatkan nasihat doktor sebelum mengambil Horsemen?",
+      "aMs": "Horsemen adalah khusus untuk lelaki dewasa berumur 18 tahun ke atas sahaja. Individu yang mempunyai masalah jantung, tekanan darah tinggi tidak terkawal, masalah buah pinggang/hati, atau sedang mengambil ubat pencair darah/nitrat preskripsi perlu merujuk doktor bertauliah sebelum penggunaan."
+    }
+  ]
+}

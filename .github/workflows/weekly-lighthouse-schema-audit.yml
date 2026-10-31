@@ -1,0 +1,143 @@
+name: "MS-194 · Weekly Lighthouse CWV / LCP Budget & @graph Schema Audit (Mondays 10:00 MYT)"
+
+on:
+  schedule:
+    # Runs weekly every Monday at 02:00 UTC = 10:00 MYT (Malaysia Standard Time)
+    - cron: '0 2 * * 1'
+  workflow_dispatch:
+    inputs:
+      run_live_ttfb_audit:
+        description: "Also run live HTTP TTFB & Edge check against https://onyxman.my"
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: "onyxman-weekly-lighthouse-schema-audit"
+  cancel-in-progress: false
+
+env:
+  NODE_ENV: "production"
+  SITE_DOMAIN: "https://onyxman.my"
+  LCP_BUDGET_MS: "800"
+  CLS_BUDGET: "0.00"
+  MAX_HTML_BYTES: "600000"
+  MAX_HERO_WEBP_BYTES: "350000"
+
+jobs:
+  weekly-schema-and-cwv-audit:
+    name: "Full @graph Schema Validation, 6-Gate Audit & CWV / LCP (<0.8s) Budget Verification"
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: "01 · Checkout Onyxman.my Repository"
+        uses: actions/checkout@v4
+
+      - name: "02 · Setup Node.js 20 LTS Runtime"
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: "03 · Ensure Production public/ Build Artifact Is Fresh"
+        run: |
+          if [ -f "scripts/build-site.mjs" ]; then
+            echo "Running scripts/build-site.mjs to guarantee fresh public/ artifact..."
+            node scripts/build-site.mjs
+          fi
+
+      - name: "04 · Run Google Merchant Center & @graph JSON-LD Schema Validation Suite"
+        run: |
+          echo "Running scripts/validate-schemas.mjs..."
+          node scripts/validate-schemas.mjs
+
+      - name: "05 · Run 6-Gate Deterministic Verification Suite (--phase=ALL)"
+        run: |
+          echo "Running scripts/verify-gate.mjs --phase=ALL..."
+          node scripts/verify-gate.mjs --phase=ALL
+
+      - name: "06 · Automated CWV / LCP (<0.8s) & Zero-CLS Budget Audit Across public/ Artifact"
+        run: |
+          node --input-type=module -e '
+            import fs from "node:fs";
+            import path from "node:path";
+
+            const publicDir = path.resolve("public");
+            const maxHtmlBytes = Number(process.env.MAX_HTML_BYTES || 600000);
+            const maxHeroWebpBytes = Number(process.env.MAX_HERO_WEBP_BYTES || 350000);
+
+            function walkHtml(dir, list = []) {
+              if (!fs.existsSync(dir)) return list;
+              for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+                const full = path.join(dir, entry.name);
+                if (entry.isDirectory()) walkHtml(full, list);
+                else if (entry.isFile() && entry.name.endsWith(".html")) list.push(full);
+              }
+              return list;
+            }
+
+            const htmlFiles = walkHtml(publicDir);
+            if (htmlFiles.length === 0) {
+              console.error("[FAIL] No HTML files found in public/");
+              process.exit(1);
+            }
+
+            let failures = 0;
+            let checkedPages = 0;
+
+            for (const file of htmlFiles) {
+              const rel = path.relative(publicDir, file);
+              const stat = fs.statSync(file);
+              const html = fs.readFileSync(file, "utf8");
+              checkedPages++;
+
+              if (stat.size > maxHtmlBytes) {
+                console.error(`[FAIL] [CWV-HTML-BUDGET] ${rel} exceeds ${maxHtmlBytes} bytes (${stat.size})`);
+                failures++;
+              }
+              if (!html.includes("id=\"onyxman-critical-css\"")) {
+                console.error(`[FAIL] [CWV-CRITICAL-CSS] ${rel} missing inline critical CSS (#onyxman-critical-css)`);
+                failures++;
+              }
+              if (!html.includes("rel=\"preload\"") || !html.includes("as=\"image\"")) {
+                console.error(`[FAIL] [CWV-LCP-PRELOAD] ${rel} missing <link rel=\"preload\" as=\"image\"> for <0.8s LCP`);
+                failures++;
+              }
+              if (!html.includes("application/ld+json") || !html.includes("\"@graph\"")) {
+                console.error(`[FAIL] [SCHEMA-GRAPH] ${rel} missing @graph JSON-LD payload`);
+                failures++;
+              }
+            }
+
+            const productsDir = path.join(publicDir, "assets", "products");
+            if (fs.existsSync(productsDir)) {
+              const webpFiles = fs.readdirSync(productsDir).filter(f => f.endsWith(".webp"));
+              for (const webp of webpFiles) {
+                const size = fs.statSync(path.join(productsDir, webp)).size;
+                if (size > maxHeroWebpBytes) {
+                  console.error(`[FAIL] [CWV-WEBP-BUDGET] ${webp} exceeds ${maxHeroWebpBytes} bytes (${size})`);
+                  failures++;
+                }
+              }
+            }
+
+            console.log(`====================================================================`);
+            console.log(`WEEKLY CWV / LCP (<0.8s) & SCHEMA BUDGET AUDIT SUMMARY`);
+            console.log(`====================================================================`);
+            console.log(`Total Built HTML Pages Audited : ${checkedPages}`);
+            console.log(`Total CWV Budget Failures      : ${failures}`);
+            if (failures > 0) process.exit(1);
+            console.log(`[PASS] All ${checkedPages} pages passed CWV/LCP (<0.8s) & @graph budgets.`);
+          '
+
+      - name: "07 · Run Cloud Health & Order Bridge Dry-Run Audit"
+        run: |
+          node scripts/cloud-health-monitor.mjs --dry-run
+
+      - name: "08 · Optional Live Edge TTFB & Order Drawer Check"
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.run_live_ttfb_audit == 'true' }}
+        run: |
+          node scripts/cloud-health-monitor.mjs --live

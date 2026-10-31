@@ -1,0 +1,334 @@
+{
+  "generated_by": "Subagent #2 - OpenCV Studio Photo Specialist (MS-013A to MS-028)",
+  "stage_directory": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage",
+  "output_directory": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products",
+  "watermark_verification": {
+    "target_product": "grow-xl",
+    "watermark_digits": "0173313985",
+    "roi_coordinates": [
+      224,
+      110,
+      348,
+      138
+    ],
+    "initial_yellow_pixels": 656,
+    "final_yellow_pixels": 0,
+    "yellow_watermark_residue_pct": 0.0,
+    "status": "100.0% ERASED (0.0% RESIDUE VERIFIED)"
+  },
+  "geometry_and_segmentation_verification": {
+    "grow-xl": {
+      "rotation_applied_deg": -11.65,
+      "final_vertical_tilt_deg": 0.0,
+      "white_fur_and_pink_flower_removed": true
+    },
+    "hammer-of-thor": {
+      "rotation_applied_deg": -1.87,
+      "final_vertical_tilt_deg": 0.0,
+      "ceramic_tile_and_grout_removed": true
+    },
+    "horsemen": {
+      "rotation_applied_deg": 0.0,
+      "final_vertical_tilt_deg": 0.0,
+      "backdrop_halo_removed": true
+    },
+    "magnum-pump-xr": {
+      "bottle_rotation_applied_deg": -1.32,
+      "final_vertical_tilt_deg": 0.0,
+      "dual_mask_bottle_plus_6_black_capsules": true
+    }
+  },
+  "products": {
+    "horsemen": {
+      "slug": "horsemen",
+      "cutout_1200x1500": {
+        "png": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/horsemen-cutout.png",
+          "width": 1200,
+          "height": 1500,
+          "size_bytes": 823230,
+          "sha256": "a424c3e2dd05d6be7885d4d4707bee3deada0bd6da23f5a0a4c85b27db988e17"
+        },
+        "webp": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/horsemen-cutout.webp",
+          "width": 1200,
+          "height": 1500,
+          "size_bytes": 84426,
+          "sha256": "170922e58bbbf2ca68d331338f80b9ddbc3c574f4c09bec65891eba3d3585fc0"
+        }
+      },
+      "stage_1600x1200": {
+        "png": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/horsemen-stage.png",
+          "width": 1600,
+          "height": 1200,
+          "size_bytes": 510128,
+          "sha256": "3225e860be76bbad6f713f030a8132fdc22f0385e0ebdec1517d713734433297"
+        },
+        "webp": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/horsemen-stage.webp",
+          "width": 1600,
+          "height": 1200,
+          "size_bytes": 63064,
+          "sha256": "c866351aa36e917bc4614d2b9c7e6c07519ac89642e3a7056a09db23a0de9a7d"
+        }
+      },
+      "portrait_900x1125": {
+        "png": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/horsemen-portrait.png",
+          "width": 900,
+          "height": 1125,
+          "size_bytes": 424526,
+          "sha256": "718168183473f9f5ac67ebc4b43d6260c203b5a20f0499e02b3cebdd90f20696"
+        },
+        "webp": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/horsemen-portrait.webp",
+          "width": 900,
+          "height": 1125,
+          "size_bytes": 52598,
+          "sha256": "92f77f21ea4c97ef1dba82101274ebb6ebc893a7d0503761dec089274bbcf566"
+        }
+      },
+      "primary_alias": {
+        "png": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/horsemen.png",
+          "width": 900,
+          "height": 1125,
+          "size_bytes": 424526,
+          "sha256": "718168183473f9f5ac67ebc4b43d6260c203b5a20f0499e02b3cebdd90f20696"
+        },
+        "webp": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/horsemen.webp",
+          "width": 900,
+          "height": 1125,
+          "size_bytes": 52598,
+          "sha256": "92f77f21ea4c97ef1dba82101274ebb6ebc893a7d0503761dec089274bbcf566"
+        }
+      }
+    },
+    "hammer-of-thor": {
+      "slug": "hammer-of-thor",
+      "cutout_1200x1500": {
+        "png": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/hammer-of-thor-cutout.png",
+          "width": 1200,
+          "height": 1500,
+          "size_bytes": 840768,
+          "sha256": "bd32f24134577b61f4db38ff20a6ce306607e0a5cfab7f2145a32fa1be0bb9c5"
+        },
+        "webp": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/hammer-of-thor-cutout.webp",
+          "width": 1200,
+          "height": 1500,
+          "size_bytes": 88050,
+          "sha256": "0a2108dabab6c987b4a8cef9fb21b49322aefecacebd35b372139d003dea3523"
+        }
+      },
+      "stage_1600x1200": {
+        "png": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/hammer-of-thor-stage.png",
+          "width": 1600,
+          "height": 1200,
+          "size_bytes": 515540,
+          "sha256": "97f1c66c1692bf13be63781ce83f3e7ac66fb78426c1d78a8c878be7ca7db304"
+        },
+        "webp": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/hammer-of-thor-stage.webp",
+          "width": 1600,
+          "height": 1200,
+          "size_bytes": 62048,
+          "sha256": "0477a9b068d27f5e4e6fad386e6b3df699cb9ebff29b88c8a64e005e78f43575"
+        }
+      },
+      "portrait_900x1125": {
+        "png": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/hammer-of-thor-portrait.png",
+          "width": 900,
+          "height": 1125,
+          "size_bytes": 431662,
+          "sha256": "ad8b5c0bbcf63b4d9439e6aba08b42fc2cdcda96d90f2c6ef98a249a80b745f9"
+        },
+        "webp": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/hammer-of-thor-portrait.webp",
+          "width": 900,
+          "height": 1125,
+          "size_bytes": 51020,
+          "sha256": "bf26cbf9163992b6da74233c42e02d42d82e539b7db7c0a501c86a62e609159a"
+        }
+      },
+      "primary_alias": {
+        "png": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/hammer-of-thor.png",
+          "width": 900,
+          "height": 1125,
+          "size_bytes": 431662,
+          "sha256": "ad8b5c0bbcf63b4d9439e6aba08b42fc2cdcda96d90f2c6ef98a249a80b745f9"
+        },
+        "webp": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/hammer-of-thor.webp",
+          "width": 900,
+          "height": 1125,
+          "size_bytes": 51020,
+          "sha256": "bf26cbf9163992b6da74233c42e02d42d82e539b7db7c0a501c86a62e609159a"
+        }
+      }
+    },
+    "grow-xl": {
+      "slug": "grow-xl",
+      "cutout_1200x1500": {
+        "png": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/grow-xl-cutout.png",
+          "width": 1200,
+          "height": 1500,
+          "size_bytes": 1338434,
+          "sha256": "288e84a34245564e7deb54d6689b060029ff12af6939e29b51e453656a8b77f9"
+        },
+        "webp": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/grow-xl-cutout.webp",
+          "width": 1200,
+          "height": 1500,
+          "size_bytes": 118406,
+          "sha256": "8ef45907bc5247afd4dc3758892bb72fd268acba300ce337b8c33f2325152681"
+        }
+      },
+      "stage_1600x1200": {
+        "png": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/grow-xl-stage.png",
+          "width": 1600,
+          "height": 1200,
+          "size_bytes": 758885,
+          "sha256": "f34a9807c93b578bd02e9ca6a6076a589769546435eff3332296ee2055266e62"
+        },
+        "webp": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/grow-xl-stage.webp",
+          "width": 1600,
+          "height": 1200,
+          "size_bytes": 81912,
+          "sha256": "413d1036abbf84d7e1301b6fa3c6e6e235b7593efd97900d20021c2cb36c6d58"
+        }
+      },
+      "portrait_900x1125": {
+        "png": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/grow-xl-portrait.png",
+          "width": 900,
+          "height": 1125,
+          "size_bytes": 652829,
+          "sha256": "9f10a97cd6d8b6e4b5e97222790ea2d1f227a583053c7994854947952fc2dd38"
+        },
+        "webp": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/grow-xl-portrait.webp",
+          "width": 900,
+          "height": 1125,
+          "size_bytes": 71364,
+          "sha256": "ad7c2c4652325eeb25ee85d1001deb096d4226570adf12159de7191ef611c390"
+        }
+      },
+      "primary_alias": {
+        "png": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/grow-xl.png",
+          "width": 900,
+          "height": 1125,
+          "size_bytes": 652829,
+          "sha256": "9f10a97cd6d8b6e4b5e97222790ea2d1f227a583053c7994854947952fc2dd38"
+        },
+        "webp": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/grow-xl.webp",
+          "width": 900,
+          "height": 1125,
+          "size_bytes": 71364,
+          "sha256": "ad7c2c4652325eeb25ee85d1001deb096d4226570adf12159de7191ef611c390"
+        }
+      }
+    },
+    "magnum-pump-xr": {
+      "slug": "magnum-pump-xr",
+      "cutout_1200x1500": {
+        "png": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/magnum-pump-xr-cutout.png",
+          "width": 1200,
+          "height": 1500,
+          "size_bytes": 1128532,
+          "sha256": "a0de36491f384fff0e4afd8e44ec4ed87a0a98e4bd5367e8d1a70c116eebb6ec"
+        },
+        "webp": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/magnum-pump-xr-cutout.webp",
+          "width": 1200,
+          "height": 1500,
+          "size_bytes": 121658,
+          "sha256": "00cbbc9be5450a534063f113911d4824c4afd5d881be6b61bc752cd6a2c580f8"
+        }
+      },
+      "stage_1600x1200": {
+        "png": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/magnum-pump-xr-stage.png",
+          "width": 1600,
+          "height": 1200,
+          "size_bytes": 702490,
+          "sha256": "e8c0f914d5e3ce02815c49f4e04585d3772969396bd2da4310134235abb59bef"
+        },
+        "webp": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/magnum-pump-xr-stage.webp",
+          "width": 1600,
+          "height": 1200,
+          "size_bytes": 83894,
+          "sha256": "2427112c09230525b6f53eb12ed69091cf10f265956f79acd8025e41c924d1cb"
+        }
+      },
+      "portrait_900x1125": {
+        "png": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/magnum-pump-xr-portrait.png",
+          "width": 900,
+          "height": 1125,
+          "size_bytes": 500795,
+          "sha256": "84c8f00d335b29720a505ce1042959c36e60ac6decef5ae7e479c800a0fec72a"
+        },
+        "webp": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/magnum-pump-xr-portrait.webp",
+          "width": 900,
+          "height": 1125,
+          "size_bytes": 65060,
+          "sha256": "da4ffe81f125a926f1d20e839368b4948e0bbb2d842b182c23380febb898e315"
+        }
+      },
+      "primary_alias": {
+        "png": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/magnum-pump-xr.png",
+          "width": 900,
+          "height": 1125,
+          "size_bytes": 500795,
+          "sha256": "84c8f00d335b29720a505ce1042959c36e60ac6decef5ae7e479c800a0fec72a"
+        },
+        "webp": {
+          "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/magnum-pump-xr.webp",
+          "width": 900,
+          "height": 1125,
+          "size_bytes": 65060,
+          "sha256": "da4ffe81f125a926f1d20e839368b4948e0bbb2d842b182c23380febb898e315"
+        }
+      }
+    }
+  },
+  "lineup_hero_1920x1080": {
+    "png": {
+      "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/onyxman-lineup-hero.png",
+      "width": 1920,
+      "height": 1080,
+      "size_bytes": 1479915,
+      "sha256": "891a6a36ff6b51dbeceedd0b8e629beb3187abc4e5ae7854c982ecb9ee52cdc8"
+    },
+    "webp": {
+      "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/onyxman-lineup-hero.webp",
+      "width": 1920,
+      "height": 1080,
+      "size_bytes": 190068,
+      "sha256": "40de9a843a6ab417fe2f8a263baa1ab8f56ec2e2123afdf24ab98ae7bdc72194"
+    }
+  },
+  "audit_contact_sheet": {
+    "path": "C:/Users/yasin/AppData/Local/Temp/onyxman-cloud-stage/public/assets/products/audit-contact-sheet.png",
+    "width": 2400,
+    "height": 1350,
+    "size_bytes": 1289644,
+    "sha256": "ca7a59dbe926397afbfa47776421233387576c0c1a06849c165b8b9cdc840f15"
+  }
+}

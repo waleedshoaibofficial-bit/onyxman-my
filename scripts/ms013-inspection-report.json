@@ -1,0 +1,42 @@
+{
+  "horsemen": {
+    "slug": "horsemen",
+    "path": "C:/Users/yasin/.gemini/antigravity/brain/37a7e321-32aa-4896-ab7b-69b1e7e7b02e/.user_uploaded/media_1793280109990_a3563815.jpg",
+    "width": 220,
+    "height": 450,
+    "channels": 3,
+    "mean_brightness": 76.85
+  },
+  "hammer-of-thor": {
+    "slug": "hammer-of-thor",
+    "path": "C:/Users/yasin/.gemini/antigravity/brain/37a7e321-32aa-4896-ab7b-69b1e7e7b02e/.user_uploaded/media_1793280109990_a1dc234a.jpg",
+    "width": 756,
+    "height": 1008,
+    "channels": 3,
+    "mean_brightness": 131.04
+  },
+  "grow-xl": {
+    "slug": "grow-xl",
+    "path": "C:/Users/yasin/.gemini/antigravity/brain/37a7e321-32aa-4896-ab7b-69b1e7e7b02e/.user_uploaded/media_1793280109994_9621d557.jpg",
+    "width": 640,
+    "height": 640,
+    "channels": 3,
+    "mean_brightness": 157.27,
+    "watermark_text": "0173313985",
+    "watermark_yellow_pixels_initial": 502,
+    "watermark_bbox": {
+      "x_min": 232,
+      "x_max": 340,
+      "y_min": 118,
+      "y_max": 133
+    }
+  },
+  "magnum-pump-xr": {
+    "slug": "magnum-pump-xr",
+    "path": "C:/Users/yasin/.gemini/antigravity/brain/37a7e321-32aa-4896-ab7b-69b1e7e7b02e/.user_uploaded/media_1793280109999_5d34fe93.jpg",
+    "width": 471,
+    "height": 450,
+    "channels": 3,
+    "mean_brightness": 183.11
+  }
+}

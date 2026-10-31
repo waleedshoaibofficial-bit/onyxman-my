@@ -1,0 +1,59 @@
+# ==============================================================================
+# ONYXMAN.MY — CLOUDFLARE PAGES & EDGE CONFIGURATION (MS-196)
+# Production Domain : https://onyxman.my (Namecheap DNS -> Cloudflare Zone)
+# Pages Project     : onyxman-my
+# Static Output Dir : public
+# ==============================================================================
+
+name = "onyxman-my"
+pages_build_output_dir = "public"
+compatibility_date = "2026-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+DOMAIN = "https://onyxman.my"
+SITE_NAME = "Onyxman Malaysia"
+PRIMARY_ORDER_EMAIL = "waleedshoaibofficial@gmail.com"
+BRAND_SALES_EMAIL = "sales@onyxman.my"
+BRAND_INFO_EMAIL = "info@onyxman.my"
+SINGLE_BOTTLE_PRICE_MYR = "159.00"
+TWO_BOTTLE_PRICE_MYR = "318.00"
+THREE_BOTTLE_PRICE_MYR = "477.00"
+PRICE_CURRENCY = "MYR"
+INDEXNOW_KEY = "onyxman2026myindexnowkey8899aabb"
+INDEXNOW_KEY_LOCATION = "https://onyxman.my/indexnow-key.txt"
+ORDER_BRIDGE_MODE = "express-email-drawer"
+
+[env.production]
+compatibility_date = "2026-10-01"
+
+[env.production.vars]
+DOMAIN = "https://onyxman.my"
+SITE_NAME = "Onyxman Malaysia"
+PRIMARY_ORDER_EMAIL = "waleedshoaibofficial@gmail.com"
+BRAND_SALES_EMAIL = "sales@onyxman.my"
+BRAND_INFO_EMAIL = "info@onyxman.my"
+SINGLE_BOTTLE_PRICE_MYR = "159.00"
+TWO_BOTTLE_PRICE_MYR = "318.00"
+THREE_BOTTLE_PRICE_MYR = "477.00"
+PRICE_CURRENCY = "MYR"
+INDEXNOW_KEY = "onyxman2026myindexnowkey8899aabb"
+INDEXNOW_KEY_LOCATION = "https://onyxman.my/indexnow-key.txt"
+ORDER_BRIDGE_MODE = "express-email-drawer"
+
+[env.preview]
+compatibility_date = "2026-10-01"
+
+[env.preview.vars]
+DOMAIN = "https://onyxman.my"
+SITE_NAME = "Onyxman Malaysia (Preview)"
+PRIMARY_ORDER_EMAIL = "waleedshoaibofficial@gmail.com"
+BRAND_SALES_EMAIL = "sales@onyxman.my"
+BRAND_INFO_EMAIL = "info@onyxman.my"
+SINGLE_BOTTLE_PRICE_MYR = "159.00"
+TWO_BOTTLE_PRICE_MYR = "318.00"
+THREE_BOTTLE_PRICE_MYR = "477.00"
+PRICE_CURRENCY = "MYR"
+INDEXNOW_KEY = "onyxman2026myindexnowkey8899aabb"
+INDEXNOW_KEY_LOCATION = "https://onyxman.my/indexnow-key.txt"
+ORDER_BRIDGE_MODE = "express-email-drawer"

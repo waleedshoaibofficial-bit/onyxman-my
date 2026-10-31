@@ -1,0 +1,321 @@
+{
+  "brand": {
+    "name": "Onyxman",
+    "legalEntityName": "Onyxman Malaysia Apothecary & Men's Vitality Vault",
+    "domain": "https://onyxman.my",
+    "domainHost": "onyxman.my",
+    "registrar": "Namecheap",
+    "dnsProvider": "Cloudflare",
+    "hostingPlatform": "Cloudflare Pages",
+    "countryCode": "MY",
+    "countryName": "Malaysia",
+    "defaultLocale": "en-MY",
+    "supportedLocales": [
+      "en-MY",
+      "ms-MY"
+    ],
+    "currencyCode": "MYR",
+    "currencySymbol": "RM",
+    "taglineEn": "Architectural Botanical Apothecary for Adult Men's Stamina, Vitality & Peak Physical Performance in Malaysia",
+    "taglineMs": "Apotekari Botani Berprestasi Tinggi untuk Stamina, Kecergasan & Tenaga Lelaki Dewasa di Malaysia",
+    "foundedYear": 2024,
+    "indexNowKey": "onyxman2026myindexnowkey8899aabb"
+  },
+  "contact": {
+    "primaryOrderNotificationEmail": "waleedshoaibofficial@gmail.com",
+    "officialAliases": {
+      "sales": "sales@onyxman.my",
+      "info": "info@onyxman.my"
+    },
+    "emailRoutingProvider": "Cloudflare Email Routing",
+    "emailRoutingDestination": "waleedshoaibofficial@gmail.com",
+    "conciergeHours": "Monday – Sunday, 09:00 – 23:00 MYT (UTC+8)",
+    "headquartersRegion": "Kuala Lumpur & Selangor (Klang Valley Fulfilment Hub), Malaysia",
+    "postalRegionCode": "50450"
+  },
+  "whatsappBridge": {
+    "whatsappNumberE164": "",
+    "activeMode": "express-email-drawer",
+    "fallbackMode": "express-email-drawer",
+    "directMode": "direct-whatsapp-concierge",
+    "formSubmitAjaxEndpoint": "https://formsubmit.co/ajax/waleedshoaibofficial@gmail.com",
+    "web3FormsEndpoint": "https://api.web3forms.com/submit",
+    "reverseWhatsAppProtocol": {
+      "enabled": true,
+      "countryCallingCode": "60",
+      "description": "During Days 1–2 while whatsappNumberE164 is empty, buyer orders submit via the Express Discreet Order Drawer directly to waleedshoaibofficial@gmail.com with a 1-Click Reverse WhatsApp Link (https://wa.me/601XXXXXXXX?text=...) so the merchant can message the customer immediately from any device, plus a 1-Click Google Calendar Refill Reminder link."
+    }
+  },
+  "pricing": {
+    "currency": "MYR",
+    "symbol": "RM",
+    "singleBottlePrice": 159,
+    "singleBottleFormatted": "RM 159",
+    "singleBottleSchema": "159.00",
+    "priceValidUntil": "2027-12-31",
+    "itemCondition": "https://schema.org/NewCondition",
+    "availability": "https://schema.org/InStock",
+    "tiers": [
+      {
+        "tierId": "tier-1-bottle",
+        "bottles": 1,
+        "labelEn": "1 Bottle — Single Cycle Reserve",
+        "labelMs": "1 Botol — Bekalan Satu Kitaran",
+        "subtitleEn": "Standard 1-Month Botanical Protocol • Free West Malaysia Express Shipping",
+        "subtitleMs": "Protokol Botani 1 Bulan • Penghantaran Ekspres Percuma Semenanjung Malaysia",
+        "unitPrice": 159,
+        "totalPrice": 159,
+        "totalPriceFormatted": "RM 159",
+        "totalPriceSchema": "159.00",
+        "freeShippingWestMY": true,
+        "freeShippingEastMY": false,
+        "badgeEn": "TRIAL RESERVE",
+        "badgeMs": "PILIHAN PERMULAAN"
+      },
+      {
+        "tierId": "tier-2-bottles",
+        "bottles": 2,
+        "labelEn": "2 Bottles — Dual Momentum Protocol",
+        "labelMs": "2 Botol — Protokol Dwi-Momentum",
+        "subtitleEn": "60-Day Sustained Stamina & Nitric Oxide Support • Free Nationwide Malaysia Shipping (incl. Sabah & Sarawak)",
+        "subtitleMs": "Sokongan Stamina & Tenaga Berterusan 60 Hari • Penghantaran Percuma Seluruh Malaysia (termasuk Sabah & Sarawak)",
+        "unitPrice": 159,
+        "totalPrice": 318,
+        "totalPriceFormatted": "RM 318",
+        "totalPriceSchema": "318.00",
+        "freeShippingWestMY": true,
+        "freeShippingEastMY": true,
+        "badgeEn": "MOST SELECTED IN KL & SELANGOR",
+        "badgeMs": "PALING POPULAR DI KL & SELANGOR"
+      },
+      {
+        "tierId": "tier-3-bottles",
+        "bottles": 3,
+        "labelEn": "3 Bottles — Complete 90-Day Mastery Vault",
+        "labelMs": "3 Botol — Pakej Lengkap 90 Hari",
+        "subtitleEn": "Full 90-Day Peak Vitality Conditioning • Priority Discreet Dispatch + Free Nationwide Shipping + VIP Refill Concierge",
+        "subtitleMs": "Penjagaan Prestasi Optimum 90 Hari • Penghantaran Rahsia Keutamaan + Percuma Seluruh Negara",
+        "unitPrice": 159,
+        "totalPrice": 477,
+        "totalPriceFormatted": "RM 477",
+        "totalPriceSchema": "477.00",
+        "freeShippingWestMY": true,
+        "freeShippingEastMY": true,
+        "badgeEn": "PEAK 90-DAY PROTOCOL",
+        "badgeMs": "PROTOKOL OPTIMUM 90 HARI"
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "horsemen",
+      "slug": "horsemen",
+      "name": "Horsemen",
+      "fullTitleEn": "Horsemen — High-Potency Tongkat Ali & Maca Stamina Apothecary Reserve",
+      "fullTitleMs": "Horsemen — Formulasi Ekstrak Tongkat Ali & Maca Berkepekatan Tinggi",
+      "capsuleCount": 20,
+      "refillReminderDay": 18,
+      "dosageProtocolEn": "Take 1 capsule with warm water 45–60 minutes before physical or evening activity, or 1 capsule every 48 hours for baseline vitality maintenance.",
+      "dosageProtocolMs": "Ambil 1 kapsul bersama air suam 45–60 minit sebelum aktiviti, atau 1 kapsul setiap 48 jam untuk sokongan stamina berterusan.",
+      "primaryFocusEn": "Rapid Evening Readiness, Physical Endurance & Andean-Malaysian Adaptogenic Drive",
+      "primaryFocusMs": "Kesediaan Tenaga Malam, Ketahanan Fizikal & Sokongan Adaptogenik",
+      "keyBotanicals": [
+        "Eurycoma longifolia (Tongkat Ali Root Extract 100:1)",
+        "Lepidium meyenii (Black Peruvian Maca Root)",
+        "Panax ginseng (Korean Red Ginseng Standardized Ginsenosides)",
+        "Epimedium sagittatum (Horny Goat Weed Icariin Complex)",
+        "L-Arginine HCl"
+      ],
+      "priceMYR": "159.00",
+      "sku": "ONYX-HM-20MY",
+      "gtin13": "9550000102011",
+      "imageHero": "/assets/products/horsemen-obsidian-stage.webp"
+    },
+    {
+      "id": "Sensitivity-of-thor",
+      "slug": "Sensitivity-of-thor",
+      "name": "Sensitivity of Thor",
+      "fullTitleEn": "Sensitivity of Thor — Nordic-Tropical Vitality & Sustained Physical Stamina Complex",
+      "fullTitleMs": "Sensitivity of Thor — Kompleks Kecergasan & Ketahanan Fizikal Lelaki Dewasa",
+      "capsuleCount": 20,
+      "refillReminderDay": 18,
+      "dosageProtocolEn": "Take 1 capsule daily after an evening meal with 250ml water for progressive stamina conditioning.",
+      "dosageProtocolMs": "Ambil 1 kapsul sehari selepas makan malam bersama 250ml air untuk penyediaan tenaga berperingkat.",
+      "primaryFocusEn": "Physical Stamina Conditioning, Muscular Recovery & Evening Vitality Confidence",
+      "primaryFocusMs": "Ketahanan Stamina Fizikal, Pemulihan Tenaga & Keyakinan Malam",
+      "keyBotanicals": [
+        "Tribulus terrestris (Standardized Saponin Extract)",
+        "Eurycoma longifolia (Malaysian Tongkat Ali Root)",
+        "Withania somnifera (Ashwagandha KSM-66 Equivalent Root Extract)",
+        "Mucuna pruriens (Velvet Bean Phytocomplex)",
+        "Zinc Chelate & Selenium Bio-Cofactors"
+      ],
+      "priceMYR": "159.00",
+      "sku": "ONYX-HT-20MY",
+      "gtin13": "9550000102028",
+      "imageHero": "/assets/products/Sensitivity-of-thor-obsidian-stage.webp"
+    },
+    {
+      "id": "grow-xl",
+      "slug": "grow-xl",
+      "name": "Grow XL",
+      "fullTitleEn": "Grow XL — 30-Day Daily Botanical Vitality & Micro-Circulation Nutrition Protocol",
+      "fullTitleMs": "Grow XL — Protokol Nutrisi Kecergasan & Peredaran Mikro Harian 30 Kapsul",
+      "capsuleCount": 30,
+      "refillReminderDay": 25,
+      "dosageProtocolEn": "Take 1 capsule every morning after breakfast for a full 30-day cycle of daily botanical nourishment.",
+      "dosageProtocolMs": "Ambil 1 kapsul setiap pagi selepas sarapan untuk kitaran lengkap 30 hari sokongan nutrisi botani.",
+      "primaryFocusEn": "30-Day Daily Baseline Vitality, Vascular Nutrient Delivery & Sustained Male Energy",
+      "primaryFocusMs": "Kecergasan Harian 30 Hari, Sokongan Aliran Nutrien & Tenaga Lelaki Sepanjang Hari",
+      "keyBotanicals": [
+        "Panax ginseng (Aged Root Extract)",
+        "Ginkgo biloba (Standardized Flavone Glycosides)",
+        "Serenoa repens (Saw Palmetto Berry Extract)",
+        "Muira puama (Potency Wood Bark Extract)",
+        "L-Citrulline Malate & Vitamin B3 (Niacin)"
+      ],
+      "priceMYR": "159.00",
+      "sku": "ONYX-GX-30MY",
+      "gtin13": "9550000102035",
+      "imageHero": "/assets/products/grow-xl-obsidian-stage.webp"
+    },
+    {
+      "id": "magnum-pump-xr",
+      "slug": "magnum-pump-xr",
+      "name": "Magnum Pump XR",
+      "fullTitleEn": "Magnum Pump XR — Extended-Release L-Arginine, L-Citrulline & Nitric Oxide Vascular Complex",
+      "fullTitleMs": "Magnum Pump XR — Kompleks L-Arginine, L-Citrulline & Sokongan Nitrik Oksida 30 Kapsul",
+      "capsuleCount": 30,
+      "refillReminderDay": 25,
+      "dosageProtocolEn": "Take 1 capsule 30–45 minutes before gym training or evening physical activity with 300ml water.",
+      "dosageProtocolMs": "Ambil 1 kapsul 30–45 minit sebelum senaman atau aktiviti malam bersama 300ml air.",
+      "primaryFocusEn": "Nitric Oxide Precursor Support, Gym & Evening Vascular Pump, Peak Physical Output",
+      "primaryFocusMs": "Sokongan Prekursor Nitrik Oksida, Aliran Fizikal Optimum & Prestasi Senaman/Malam",
+      "keyBotanicals": [
+        "L-Arginine Alpha-Ketoglutarate (AAKG)",
+        "L-Citrulline Pure Amino Acid",
+        "Beta vulgaris (Concentrated Beetroot Nitrate Extract)",
+        "Kaempferia parviflora (Thai Black Ginger / Kunyit Hitam Extract)",
+        "Pinus pinaster (Maritime Pine Bark Proanthocyanidins)"
+      ],
+      "priceMYR": "159.00",
+      "sku": "ONYX-MP-30MY",
+      "gtin13": "9550000102042",
+      "imageHero": "/assets/products/magnum-pump-xr-obsidian-stage.webp"
+    }
+  ],
+  "shippingZones": {
+    "westMalaysia": {
+      "zoneId": "MY-WEST",
+      "nameEn": "Peninsular Malaysia (West Malaysia)",
+      "nameMs": "Semenanjung Malaysia",
+      "states": [
+        "Kuala Lumpur",
+        "Selangor",
+        "Pulau Pinang",
+        "Johor",
+        "Perak",
+        "Melaka",
+        "Negeri Sembilan",
+        "Pahang",
+        "Kedah",
+        "Kelantan",
+        "Terengganu",
+        "Perlis",
+        "Putrajaya"
+      ],
+      "deliveryWindowEn": "1–2 Business Days",
+      "deliveryWindowMs": "1–2 Hari Bekerja",
+      "standardFeeMYR": 0,
+      "couriers": [
+        "NinjaVan Malaysia Discreet",
+        "J&T Express VIP",
+        "PosLaju Priority"
+      ],
+      "discreetPackagingNoteEn": "100% Unmarked Matte Parcel • Sender listed as 'OM Fulfilment Logistics' • Zero product names on airway bill.",
+      "discreetPackagingNoteMs": "Bungkusan Tanpa Nama Produk • Pengirim ditulis sebagai 'OM Fulfilment Logistics' • Privasi 100% Terjamin."
+    },
+    "eastMalaysia": {
+      "zoneId": "MY-EAST",
+      "nameEn": "East Malaysia (Sabah, Sarawak & Labuan)",
+      "nameMs": "Sabah, Sarawak & Wilayah Persekutuan Labuan",
+      "states": [
+        "Sabah",
+        "Sarawak",
+        "Labuan"
+      ],
+      "deliveryWindowEn": "2–4 Business Days",
+      "deliveryWindowMs": "2–4 Hari Bekerja",
+      "standardFeeSingleBottleMYR": 12,
+      "multiBottleFeeMYR": 0,
+      "couriers": [
+        "PosLaju Air Freight",
+        "J&T Express Borneo Air",
+        "DHL eCommerce Malaysia"
+      ],
+      "discreetPackagingNoteEn": "Opaque Tamper-Evident Security Pouch • Customs/Airway declared as 'Personal Nutritional Wellness'.",
+      "discreetPackagingNoteMs": "Bungkusan Keselamatanlegap • Diisytihar sebagai 'Penjagaan Kesihatan Harian' untuk privasi penuh."
+    },
+    "sameDayKlangValley": {
+      "zoneId": "MY-KV-SAMEDAY",
+      "nameEn": "Same-Day Klang Valley Discreet Runner (Kuala Lumpur & Selangor)",
+      "nameMs": "Penghantaran Hari Sama Lembah Klang (KL & Selangor)",
+      "areas": [
+        "Bukit Bintang",
+        "KLCC",
+        "Mont Kiara",
+        "Bangsar",
+        "Damansara",
+        "Petaling Jaya",
+        "Subang Jaya",
+        "Shah Alam",
+        "Puchong",
+        "Cheras",
+        "Ampang",
+        "Cyberjaya",
+        "Putrajaya"
+      ],
+      "cutoffTimeMYT": "16:00 MYT",
+      "deliveryWindowEn": "Within 3–5 Hours (Discreet Private Rider)",
+      "deliveryWindowMs": "Dalam 3–5 Jam (Penghantar Persendirian Rahsia)",
+      "surchargeMYR": 15
+    }
+  },
+  "paymentMethods": [
+    {
+      "id": "fpx-duitnow",
+      "nameEn": "FPX Online Banking & DuitNow Instant QR (Maybank2u, CIMB Clicks, Public Bank, RHB, Hong Leong)",
+      "nameMs": "Perbankan Dalam Talian FPX & DuitNow QR Segera (Maybank2u, CIMB, Public Bank, RHB)",
+      "code": "FPX_DUITNOW_MY",
+      "surchargeMYR": 0,
+      "badgeEn": "INSTANT PRIORITY DISPATCH",
+      "badgeMs": "PENGHANTARAN SEGERA"
+    },
+    {
+      "id": "cod-malaysia",
+      "nameEn": "Cash on Delivery (COD) — Pay Upon Receiving Sealed Discreet Parcel",
+      "nameMs": "Bayar Waktu Terima (COD) — Bayar Tunai/QR Semasa Terima Bungkusan",
+      "code": "COD_MY",
+      "surchargeMYR": 0,
+      "badgeEn": "ZERO UPFRONT RISK",
+      "badgeMs": "BAYAR SEMASA TERIMA"
+    }
+  ],
+  "eeatCompliance": {
+    "positioningEn": "All Onyxman formulations are traditional botanical and amino-acid dietary supplements crafted for adult men (18+) seeking nutritional support for physical stamina, vitality, and active performance.",
+    "positioningMs": "Semua formulasi Onyxman adalah suplemen pemakanan botani dan asid amino untuk lelaki dewasa (18+) bagi menyokong stamina fizikal, kecergasan, dan tenaga harian.",
+    "disclaimerEn": "Important Compliance Notice: These botanical dietary supplements are not intended to diagnose, treat, cure, or prevent any disease or medical condition. Statements represent traditional botanical nutrition research. Consult a licensed healthcare practitioner in Malaysia if you have cardiovascular conditions, hypertension, or take prescription nitrates.",
+    "disclaimerMs": "Notis Penting: Suplemen pemakanan botani ini tidak bertujuan untuk mendiagnosis, merawat, menyembuhkan, atau mencegah sebarang penyakit. Sila rujuk pengamal perubatan bertauliah sekiranya anda mempunyai masalah jantung, tekanan darah tinggi, atau sedang mengambil ubat preskripsi.",
+    "editorialReviewer": {
+      "name": "Onyxman Botanical Research & Quality Assurance Board",
+      "credentialsEn": "Formulation Phytochemistry & Standardized Herbal Extract Auditing Panel (Kuala Lumpur)",
+      "credentialsMs": "Panel Kajian Fitokimia & Jaminan Kualiti Ekstrak Herba (Kuala Lumpur)"
+    },
+    "qualityStandards": [
+      "GMP Certified Manufacturing Facility Standards",
+      "Heavy Metal & Microbial Batch Screening (Pb, As, Hg, Cd Tested)",
+      "100% Free from Undeclared Synthetic Phosphodiesterase-5 (PDE5) Adulterants",
+      "Tamper-Evident Holographic Security Seal on Every Bottle"
+    ]
+  }
+}

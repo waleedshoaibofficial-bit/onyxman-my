@@ -1,0 +1,847 @@
+/* ==========================================================================
+   ONYXMAN.MY — ARCHITECTURAL LUXURY CSS SYSTEM (LUXURY-TOKENS.CSS)
+   PARADIGM A: 100vw x 100vh Full-Bleed Obsidian Cinema Scrollytelling Stage
+   PARADIGM D: 50vw / 50vw Pinned Split-Screen Apothecary Stage
+   PERFORMANCE TARGET: LCP < 0.8s | CLS = 0.00 | Zero Box-Grid Clones
+   ========================================================================== */
+
+:root {
+  /* Core Obsidian & Metallic Foil Palette */
+  --bg-abyssal-obsidian: #050507;
+  --bg-smoked-onyx: #0B0C10;
+  --bg-velvet-charcoal: #12141C;
+  --bg-obsidian-glass: rgba(11, 12, 16, 0.82);
+  --bg-stage-vignette: radial-gradient(circle at 50% 42%, rgba(212, 175, 55, 0.11) 0%, rgba(11, 12, 16, 0.65) 48%, #050507 100%);
+
+  /* Champagne Gold & Warm Silk Ivory Tokens */
+  --gold-champagne: #D4AF37;
+  --gold-foil-bright: #F3E5AB;
+  --gold-burnished: #9A7B2C;
+  --gold-hairline: rgba(212, 175, 55, 0.24);
+  --gold-hairline-strong: rgba(243, 229, 171, 0.45);
+  --gold-glow-ambient: rgba(212, 175, 55, 0.16);
+
+  /* Editorial Text Hierarchy */
+  --text-silk-ivory: #EAE6DF;
+  --text-muted-alabaster: #B8B3A8;
+  --text-ash-silver: #7E7A72;
+  --text-obsidian-ink: #050507;
+
+  /* Status & Compliance Accents */
+  --emerald-vitality: #2E8B57;
+  --emerald-glow: rgba(46, 139, 87, 0.22);
+  --amber-apothecary: #C88A32;
+  --crimson-alert: #B83A3A;
+
+  /* Bespoke Typography Families */
+  --font-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-architectural: 'Syne', 'Helvetica Neue', Arial, sans-serif;
+  --font-technical: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Fluid Editorial Type Scale */
+  --text-hero-cinema: clamp(3.1rem, 6.8vw, 6.75rem);
+  --text-curtain-title: clamp(2.35rem, 4.6vw, 4.5rem);
+  --text-split-heading: clamp(1.85rem, 3.1vw, 3.15rem);
+  --text-monograph-lead: clamp(1.2rem, 1.65vw, 1.55rem);
+  --text-body-editorial: clamp(1.02rem, 1.12vw, 1.16rem);
+  --text-caption-tech: 0.8125rem;
+  --text-micro-index: 0.725rem;
+
+  /* Spatial & Architectural Rhythm */
+  --stage-full-width: 100vw;
+  --stage-full-height: 100vh;
+  --split-half-width: 50vw;
+  --gutter-cinema: clamp(1.5rem, 4.5vw, 5.25rem);
+  --gutter-vertical: clamp(4rem, 9vh, 8.5rem);
+  --hairline-rule: 1px solid rgba(212, 175, 55, 0.22);
+  --hairline-subtle: 1px solid rgba(234, 230, 223, 0.09);
+
+  /* Motion & Tactile Transitions */
+  --ease-cinema: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-velvet: cubic-bezier(0.25, 0.8, 0.25, 1);
+  --duration-fast: 220ms;
+  --duration-stage: 560ms;
+}
+
+/* ==========================================================================
+   1. RESET & ZERO-CLS CORE FOUNDATION
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: var(--bg-abyssal-obsidian);
+  color: var(--text-silk-ivory);
+  font-family: var(--font-technical);
+  font-size: 16px;
+  line-height: 1.65;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--bg-abyssal-obsidian);
+  color: var(--text-silk-ivory);
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--duration-fast) var(--ease-velvet),
+              opacity var(--duration-fast) var(--ease-velvet);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px solid var(--gold-foil-bright);
+  outline-offset: 4px;
+}
+
+::selection {
+  background-color: var(--gold-champagne);
+  color: var(--bg-abyssal-obsidian);
+}
+
+/* ==========================================================================
+   2. EDITORIAL TYPOGRAPHY & METALLIC FOIL TREATMENTS
+   ========================================================================== */
+
+.font-display-serif {
+  font-family: var(--font-display);
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  line-height: 1.06;
+}
+
+.font-architectural-syne {
+  font-family: var(--font-architectural);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.12;
+}
+
+.font-technical-grotesk {
+  font-family: var(--font-technical);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+.foil-champagne-text {
+  background: linear-gradient(
+    135deg,
+    #F3E5AB 0%,
+    #D4AF37 38%,
+    #FFF6D6 64%,
+    #9A7B2C 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.editorial-kicker {
+  font-family: var(--font-technical);
+  font-size: var(--text-micro-index);
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  color: var(--gold-champagne);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.editorial-kicker::before {
+  content: "";
+  display: inline-block;
+  width: 2.25rem;
+  height: 1px;
+  background-color: var(--gold-champagne);
+}
+
+.editorial-headline-xl {
+  font-family: var(--font-display);
+  font-size: var(--text-hero-cinema);
+  font-weight: 400;
+  line-height: 0.98;
+  letter-spacing: -0.02em;
+  color: var(--text-silk-ivory);
+}
+
+.editorial-headline-lg {
+  font-family: var(--font-display);
+  font-size: var(--text-curtain-title);
+  font-weight: 400;
+  line-height: 1.05;
+  color: var(--text-silk-ivory);
+}
+
+.editorial-lead-paragraph {
+  font-family: var(--font-display);
+  font-size: var(--text-monograph-lead);
+  line-height: 1.55;
+  color: var(--text-muted-alabaster);
+  max-width: 58ch;
+}
+
+/* ==========================================================================
+   3. ARCHITECTURAL NAVIGATION HEADER (FLOATING OBSIDIAN HORIZON)
+   ========================================================================== */
+
+.obsidian-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 900;
+  background: linear-gradient(
+    180deg,
+    rgba(5, 5, 7, 0.92) 0%,
+    rgba(5, 5, 7, 0.68) 70%,
+    rgba(5, 5, 7, 0) 100%
+  );
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: var(--hairline-subtle);
+}
+
+.obsidian-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.15rem var(--gutter-cinema);
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.obsidian-header__brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.12rem;
+}
+
+.obsidian-header__wordmark {
+  font-family: var(--font-display);
+  font-size: 1.65rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--text-silk-ivory);
+}
+
+.obsidian-header__submark {
+  font-family: var(--font-technical);
+  font-size: 0.65rem;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--gold-champagne);
+}
+
+.obsidian-header__nav {
+  display: flex;
+  align-items: center;
+  gap: clamp(1.25rem, 2.4vw, 2.75rem);
+}
+
+.obsidian-header__link {
+  font-family: var(--font-technical);
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-muted-alabaster);
+  position: relative;
+  padding: 0.35rem 0;
+}
+
+.obsidian-header__link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--gold-champagne);
+  transform: scaleX(0);
+  transform-origin: right center;
+  transition: transform var(--duration-fast) var(--ease-cinema);
+}
+
+.obsidian-header__link:hover,
+.obsidian-header__link[aria-current="page"] {
+  color: var(--gold-foil-bright);
+}
+
+.obsidian-header__link:hover::after,
+.obsidian-header__link[aria-current="page"]::after {
+  transform: scaleX(1);
+  transform-origin: left center;
+}
+
+.obsidian-header__actions {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.locale-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-muted-alabaster);
+  padding-right: 1rem;
+  border-right: var(--hairline-subtle);
+}
+
+.locale-switcher__option--active {
+  color: var(--gold-foil-bright);
+  font-weight: 600;
+}
+
+/* ==========================================================================
+   4. PARADIGM A — 100vw x 100vh FULL-BLEED OBSIDIAN CINEMA STAGE
+   ========================================================================== */
+
+.cinema-stage-100vh {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: calc(var(--gutter-vertical) + 3rem) var(--gutter-cinema) var(--gutter-vertical);
+  background-color: var(--bg-abyssal-obsidian);
+  background-image: var(--bg-stage-vignette);
+  overflow: hidden;
+  border-bottom: var(--hairline-rule);
+}
+
+.cinema-stage-100vh__backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cinema-stage-100vh__bottle-render {
+  width: clamp(280px, 42vw, 680px);
+  max-height: 82vh;
+  object-fit: contain;
+  mask-image: radial-gradient(circle at 50% 50%, #000000 68%, transparent 98%);
+  -webkit-mask-image: radial-gradient(circle at 50% 50%, #000000 68%, transparent 98%);
+  filter: drop-shadow(0 32px 64px rgba(0, 0, 0, 0.92));
+  transform: translateY(-2vh);
+}
+
+.cinema-stage-100vh__overlay {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 1.65rem;
+  max-width: 1680px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cinema-stage-100vh__horizon-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 2.5rem;
+  padding-top: 2rem;
+  border-top: var(--hairline-rule);
+}
+
+.cinema-stage-100vh__price-ledger {
+  display: flex;
+  align-items: baseline;
+  gap: 1.25rem;
+}
+
+.cinema-stage-100vh__price-value {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 3.8vw, 3.6rem);
+  color: var(--gold-foil-bright);
+  line-height: 1;
+}
+
+.cinema-stage-100vh__price-meta {
+  font-family: var(--font-technical);
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-muted-alabaster);
+}
+
+/* ==========================================================================
+   5. PARADIGM D — 50vw / 50vw PINNED SPLIT-SCREEN APOTHECARY STAGE
+   ========================================================================== */
+
+.split-stage-5050 {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background-color: var(--bg-smoked-onyx);
+  border-bottom: var(--hairline-rule);
+}
+
+.split-stage-5050__visual-pane {
+  width: 50vw;
+  min-height: 100vh;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--gutter-cinema);
+  background: radial-gradient(
+    circle at 50% 48%,
+    rgba(212, 175, 55, 0.14) 0%,
+    rgba(18, 20, 28, 0.85) 55%,
+    #050507 100%
+  );
+  border-right: var(--hairline-rule);
+  overflow: hidden;
+}
+
+.split-stage-5050__visual-figure {
+  position: relative;
+  width: 100%;
+  max-width: 540px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.split-stage-5050__visual-img {
+  width: 100%;
+  max-height: 74vh;
+  object-fit: contain;
+  mask-image: radial-gradient(circle at 50% 50%, #000000 72%, transparent 99%);
+  -webkit-mask-image: radial-gradient(circle at 50% 50%, #000000 72%, transparent 99%);
+}
+
+.split-stage-5050__index-watermark {
+  position: absolute;
+  top: 2.5rem;
+  left: var(--gutter-cinema);
+  font-family: var(--font-display);
+  font-size: clamp(3.5rem, 6vw, 5.5rem);
+  line-height: 1;
+  color: rgba(212, 175, 55, 0.14);
+  pointer-events: none;
+}
+
+.split-stage-5050__narrative-pane {
+  width: 50vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--gutter-vertical) var(--gutter-cinema);
+  background-color: var(--bg-abyssal-obsidian);
+}
+
+/* ==========================================================================
+   6. ARCHITECTURAL HAIRLINE LEDGERS & BOTANICAL MONOGRAPH ROWS
+   (Strict Non-Box Replacement for Banned Card Grids)
+   ========================================================================== */
+
+.architectural-ledger {
+  width: 100%;
+  border-top: var(--hairline-rule);
+}
+
+.architectural-ledger__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.65rem 0;
+  border-bottom: var(--hairline-subtle);
+  transition: background-color var(--duration-fast) var(--ease-velvet),
+              padding-left var(--duration-fast) var(--ease-cinema);
+}
+
+.architectural-ledger__row:hover {
+  background-color: rgba(212, 175, 55, 0.035);
+  padding-left: 0.75rem;
+}
+
+.architectural-ledger__index {
+  font-family: var(--font-technical);
+  font-size: var(--text-micro-index);
+  letter-spacing: 0.22em;
+  color: var(--gold-champagne);
+  min-width: 4.5rem;
+}
+
+.architectural-ledger__title {
+  font-family: var(--font-display);
+  font-size: 1.55rem;
+  color: var(--text-silk-ivory);
+  flex: 1 1 240px;
+}
+
+.architectural-ledger__detail {
+  font-family: var(--font-technical);
+  font-size: 0.94rem;
+  color: var(--text-muted-alabaster);
+  flex: 2 1 320px;
+}
+
+.architectural-ledger__metric {
+  font-family: var(--font-technical);
+  font-size: 0.85rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold-foil-bright);
+  text-align: right;
+}
+
+/* ==========================================================================
+   7. MULTI-BOTTLE TIER SELECTOR STRIPS (RM 159 / RM 318 / RM 477)
+   ========================================================================== */
+
+.tier-strip-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 2rem 0;
+  border-top: var(--hairline-rule);
+}
+
+.tier-strip-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.35rem 1.25rem;
+  border-bottom: var(--hairline-subtle);
+  background: transparent;
+  text-align: left;
+  width: 100%;
+  transition: background-color var(--duration-fast) var(--ease-velvet);
+}
+
+.tier-strip-option:hover,
+.tier-strip-option[aria-checked="true"],
+.tier-strip-option--selected {
+  background: linear-gradient(
+    90deg,
+    rgba(212, 175, 55, 0.13) 0%,
+    rgba(212, 175, 55, 0.03) 100%
+  );
+  border-bottom-color: var(--gold-champagne);
+}
+
+.tier-strip-option__left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.tier-strip-option__eyebrow {
+  font-family: var(--font-technical);
+  font-size: 0.68rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--gold-champagne);
+}
+
+.tier-strip-option__title {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  color: var(--text-silk-ivory);
+}
+
+.tier-strip-option__subtitle {
+  font-family: var(--font-technical);
+  font-size: 0.84rem;
+  color: var(--text-muted-alabaster);
+}
+
+.tier-strip-option__price {
+  font-family: var(--font-display);
+  font-size: 1.85rem;
+  color: var(--gold-foil-bright);
+  white-space: nowrap;
+}
+
+/* ==========================================================================
+   8. BESPOKE FOIL CTA TRIGGERS & EXPRESS CONCIERGE DRAWER
+   ========================================================================== */
+
+.cta-foil-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.75rem;
+  padding: 1.15rem 2.2rem;
+  background: linear-gradient(135deg, #F3E5AB 0%, #D4AF37 52%, #AA882E 100%);
+  color: var(--text-obsidian-ink);
+  font-family: var(--font-technical);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  transition: transform var(--duration-fast) var(--ease-cinema),
+              filter var(--duration-fast) var(--ease-velvet);
+}
+
+.cta-foil-primary:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.08);
+}
+
+.cta-hairline-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.1rem;
+  padding: 1.1rem 1.85rem;
+  border-top: var(--hairline-rule);
+  border-bottom: var(--hairline-rule);
+  color: var(--gold-foil-bright);
+  font-family: var(--font-technical);
+  font-size: 0.78rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  transition: color var(--duration-fast) var(--ease-velvet),
+              background-color var(--duration-fast) var(--ease-velvet);
+}
+
+.cta-hairline-secondary:hover {
+  background-color: rgba(212, 175, 55, 0.08);
+  color: var(--text-silk-ivory);
+}
+
+/* Express Discreet Order Drawer (Slide-Over Stage) */
+.concierge-drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1100;
+  background-color: rgba(5, 5, 7, 0.84);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--duration-stage) var(--ease-cinema);
+}
+
+.concierge-drawer-backdrop[aria-hidden="false"] {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.concierge-drawer-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: min(100vw, 560px);
+  height: 100vh;
+  z-index: 1200;
+  background-color: var(--bg-smoked-onyx);
+  border-left: var(--hairline-rule);
+  padding: 2.5rem var(--gutter-cinema);
+  overflow-y: auto;
+  transform: translateX(100%);
+  transition: transform var(--duration-stage) var(--ease-cinema);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.concierge-drawer-panel[aria-hidden="false"] {
+  transform: translateX(0);
+}
+
+.apothecary-field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  margin-bottom: 1.35rem;
+}
+
+.apothecary-field-label {
+  font-family: var(--font-technical);
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold-champagne);
+}
+
+.apothecary-field-input,
+.apothecary-field-select,
+.apothecary-field-textarea {
+  width: 100%;
+  padding: 0.85rem 0;
+  border-bottom: var(--hairline-rule);
+  color: var(--text-silk-ivory);
+  font-family: var(--font-technical);
+  font-size: 1rem;
+  background: transparent;
+  transition: border-color var(--duration-fast) var(--ease-velvet);
+}
+
+.apothecary-field-input:focus,
+.apothecary-field-select:focus,
+.apothecary-field-textarea:focus {
+  outline: none;
+  border-bottom-color: var(--gold-foil-bright);
+}
+
+.apothecary-field-select option {
+  background-color: var(--bg-smoked-onyx);
+  color: var(--text-silk-ivory);
+}
+
+/* ==========================================================================
+   9. EDITORIAL FOOTER & COMPLIANCE LEDGER
+   ========================================================================== */
+
+.obsidian-footer {
+  background-color: var(--bg-abyssal-obsidian);
+  border-top: var(--hairline-rule);
+  padding: var(--gutter-vertical) var(--gutter-cinema) 3.5rem;
+}
+
+.obsidian-footer__columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3rem;
+  max-width: 1680px;
+  margin: 0 auto 3.5rem;
+}
+
+.obsidian-footer__col {
+  flex: 1 1 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.obsidian-footer__heading {
+  font-family: var(--font-technical);
+  font-size: 0.74rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--gold-champagne);
+  margin-bottom: 0.4rem;
+}
+
+.obsidian-footer__link {
+  font-size: 0.9rem;
+  color: var(--text-muted-alabaster);
+}
+
+.obsidian-footer__link:hover {
+  color: var(--gold-foil-bright);
+}
+
+.obsidian-footer__legal {
+  max-width: 1680px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  border-top: var(--hairline-subtle);
+  font-size: 0.78rem;
+  color: var(--text-ash-silver);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+/* ==========================================================================
+   10. RESPONSIVE ADAPTATION (MOBILE & TABLET STAGES)
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+  .split-stage-5050 {
+    flex-direction: column;
+  }
+
+  .split-stage-5050__visual-pane,
+  .split-stage-5050__narrative-pane {
+    width: 100vw;
+    min-height: auto;
+    position: relative;
+    height: auto;
+  }
+
+  .split-stage-5050__visual-pane {
+    min-height: 62vh;
+    border-right: none;
+    border-bottom: var(--hairline-rule);
+  }
+
+  .obsidian-header__nav {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .cinema-stage-100vh {
+    padding-top: 6.5rem;
+    padding-bottom: 3rem;
+  }
+
+  .cinema-stage-100vh__horizon-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cta-foil-primary,
+  .cta-hairline-secondary {
+    width: 100%;
+    justify-content: center;
+  }
+}

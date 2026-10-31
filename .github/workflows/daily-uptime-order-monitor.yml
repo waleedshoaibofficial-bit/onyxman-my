@@ -1,0 +1,59 @@
+name: "MS-193 · 24/7 Every-6-Hour Uptime, <800ms TTFB & Order Bridge Monitor"
+
+on:
+  schedule:
+    # Runs autonomously every 6 hours (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Health monitor execution mode (--live for production HTTP checks, --dry-run for local build audit)"
+        required: false
+        default: "--live"
+        type: choice
+        options:
+          - "--live"
+          - "--dry-run"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: "onyxman-6h-uptime-order-monitor"
+  cancel-in-progress: false
+
+env:
+  NODE_ENV: "production"
+  SITE_DOMAIN: "https://onyxman.my"
+  TTFB_BUDGET_MS: "800"
+  PRIMARY_ORDER_EMAIL: "waleedshoaibofficial@gmail.com"
+  BRAND_SALES_EMAIL: "sales@onyxman.my"
+  BRAND_INFO_EMAIL: "info@onyxman.my"
+  EXPECTED_SINGLE_PRICE: "RM 159"
+  EXPECTED_SCHEMA_PRICE: "159.00"
+
+jobs:
+  uptime-and-order-bridge-monitor:
+    name: "Audit https://onyxman.my & 4 Flagship Product URLs (HTTP 200, <800ms TTFB, @graph JSON-LD, RM 159 & Order Drawer)"
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: "01 · Checkout Onyxman.my Repository"
+        uses: actions/checkout@v4
+
+      - name: "02 · Setup Node.js 20 LTS Runtime"
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: "03 · Verify Local Static Build Integrity (--dry-run)"
+        run: |
+          echo "Running local artifact integrity check across / and all 4 flagship product URLs..."
+          node scripts/cloud-health-monitor.mjs --dry-run
+
+      - name: "04 · Execute Production Cloud Health & Order Bridge Monitor"
+        run: |
+          MODE="${{ github.event.inputs.mode || '--live' }}"
+          echo "Executing Onyxman.my Cloud Health & Order Bridge Monitor (${MODE})..."
+          node scripts/cloud-health-monitor.mjs "${MODE}"

@@ -1,0 +1,29 @@
+# Node & Package Managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build & TypeScript Outputs
+dist/
+dist-ts/
+*.tsbuildinfo
+
+# Environment & Local Secrets (Never Commit API Keys or Tokens)
+.env
+.env.local
+.env.production.local
+.dev.vars
+
+# Headless Browser Temp Profiles & Raw Binary Screenshots
+.tmp-chrome-profile/
+audit-screenshots/*.png
+!audit-screenshots/redteam-audit-report.json
+
+# OS & Editor Artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
