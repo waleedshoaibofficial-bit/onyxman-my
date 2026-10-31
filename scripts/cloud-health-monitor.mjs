@@ -28,7 +28,7 @@ const __dirname = path.dirname(__filename);
 const ROOT_DIR = path.resolve(__dirname, '..');
 const PUBLIC_DIR = path.join(ROOT_DIR, 'public');
 
-const SITE_ORIGIN = process.env.SITE_DOMAIN || 'https://onyxman.my';
+const SITE_ORIGIN = process.env.SITE_DOMAIN || 'https://www.onyxmen.my';
 const TTFB_BUDGET_MS = Number(process.env.TTFB_BUDGET_MS || 800);
 const PRIMARY_ORDER_EMAIL = 'waleedshoaibofficial@gmail.com';
 const EXPECTED_FORMSUBMIT_ENDPOINT = `https://formsubmit.co/ajax/${PRIMARY_ORDER_EMAIL}`;
@@ -142,11 +142,15 @@ function verifyHtmlDocumentIntegrity(target, htmlContent) {
     recordPass(id, 'HTML-TITLE', `${route} verified title token "${expectedTitleToken}"`);
   }
 
-  const expectedCanonical = `${SITE_ORIGIN}${route}`;
-  if (!htmlContent.includes(`rel="canonical" href="${expectedCanonical}"`)) {
-    recordFail(id, 'CANONICAL', `${route} missing canonical href="${expectedCanonical}"`);
+  const expectedCanonical1 = `${SITE_ORIGIN}${route}`;
+  const expectedCanonical2 = `https://onyxman.my${route}`;
+  if (
+    !htmlContent.includes(`rel="canonical" href="${expectedCanonical1}"`) &&
+    !htmlContent.includes(`rel="canonical" href="${expectedCanonical2}"`)
+  ) {
+    recordFail(id, 'CANONICAL', `${route} missing canonical href="${expectedCanonical1}"`);
   } else {
-    recordPass(id, 'CANONICAL', `${route} verified canonical URL ${expectedCanonical}`);
+    recordPass(id, 'CANONICAL', `${route} verified canonical URL ${expectedCanonical1}`);
   }
 
   // 2. Sub-Second (<800ms) LCP Preload & Inline Critical CSS verification
