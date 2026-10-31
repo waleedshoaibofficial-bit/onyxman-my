@@ -1,4 +1,4 @@
-name: "MS-193 · 24/7 Every-6-Hour Uptime, <800ms TTFB & Order Bridge Monitor"
+﻿name: "MS-193 Â· 24/7 Every-6-Hour Uptime, <800ms TTFB & Order Bridge Monitor"
 
 on:
   schedule:
@@ -24,7 +24,7 @@ concurrency:
 
 env:
   NODE_ENV: "production"
-  SITE_DOMAIN: "https://onyxman.my"
+  SITE_DOMAIN: "https://www.onyxmen.my"
   TTFB_BUDGET_MS: "800"
   PRIMARY_ORDER_EMAIL: "waleedshoaibofficial@gmail.com"
   BRAND_SALES_EMAIL: "sales@onyxman.my"
@@ -39,21 +39,22 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: "01 · Checkout Onyxman.my Repository"
+      - name: "01 Â· Checkout Onyxman.my Repository"
         uses: actions/checkout@v4
 
-      - name: "02 · Setup Node.js 20 LTS Runtime"
+      - name: "02 Â· Setup Node.js 20 LTS Runtime"
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      - name: "03 · Verify Local Static Build Integrity (--dry-run)"
+      - name: "03 Â· Verify Local Static Build Integrity (--dry-run)"
         run: |
           echo "Running local artifact integrity check across / and all 4 flagship product URLs..."
           node scripts/cloud-health-monitor.mjs --dry-run
 
-      - name: "04 · Execute Production Cloud Health & Order Bridge Monitor"
+      - name: "04 Â· Execute Production Cloud Health & Order Bridge Monitor"
         run: |
           MODE="${{ github.event.inputs.mode || '--live' }}"
           echo "Executing Onyxman.my Cloud Health & Order Bridge Monitor (${MODE})..."
           node scripts/cloud-health-monitor.mjs "${MODE}"
+
