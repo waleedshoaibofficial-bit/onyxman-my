@@ -1,12 +1,10 @@
 /**
- * ONYXMAN.MY — ARCHITECTURAL GLASSMORPHIC OBSIDIAN HEADER (MS-062 to MS-063)
+ * ONYXMEN.MY — EXACT 1:1 SOVEREIGN BOTANICALS HEADER (DEMO_01 REPLICATION)
  * Features:
- * - Full-width architectural glassmorphic obsidian top bar
- * - ONYXMAN liquid-gold wordmark (Cormorant Garamond + Syne)
- * - Direct navigation to all 4 Flagship Formulations (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR)
- * - Navigation to Comparisons, Botanical Monographs, Malaysia State Delivery Hubs
- * - Instant EN | BM language switcher targeting exact paired route (alternatePathEn / alternatePathMs)
- * - "ACQUIRE · RM 159" Express Discreet Order Drawer trigger
+ * - Row 1 (.header-crown-black): Solid #121315 matte-black bar with centered italic Cormorant Garamond "ONYXMEN" wordmark
+ * - Row 2 (.header-white-nav): Pure-white #FFFFFF minimal navigation bar with centered Montserrat uppercase links
+ *   (HOME, PRODUCTS, FORMULAS, SCIENCE, DISCREET VIP, CONTACT)
+ * - Right Minimal Line Icons: EN | BM Paired Route Switcher + 8K Optical Macro Loupe Toggle + Mobile Twin Toggle + VIP Bag Trigger
  */
 
 /**
@@ -132,7 +130,7 @@ export function resolvePairedLocaleRoutes(canonicalPath = '/', locale = 'en-MY',
 }
 
 /**
- * Renders the ObsidianHeader component (`MS-062` to `MS-063`).
+ * Renders the 1:1 Sovereign Botanicals Header (`demo_01_sovereign_botanicals.html`).
  *
  * @param {Object} [options]
  * @param {string} [options.lang='en-MY']
@@ -147,7 +145,6 @@ export function renderObsidianHeader(options = {}) {
   const locale = resolveHeaderLocale(options.lang || options.locale || 'en-MY');
   const isMs = locale === 'ms-MY';
   const canonicalPath = options.canonicalPath || (isMs ? '/ms/' : '/');
-  const activeNav = String(options.activeNav || '').toLowerCase();
   const defaultProduct = options.productSlug || 'horsemen';
 
   const { enHref, msHref } = resolvePairedLocaleRoutes(
@@ -158,210 +155,61 @@ export function renderObsidianHeader(options = {}) {
   );
 
   const homeHref = isMs ? '/ms/' : '/';
-  const formulationsIndexHref = isMs ? '/ms/produk/' : '/products/';
-  const compareHref = isMs ? '/ms/perbandingan/' : '/compare/';
-  const monographsHref = isMs ? '/ms/ramuan-botani/' : '/ingredients/';
-  const deliveryHref = isMs ? '/ms/penghantaran-malaysia/' : '/malaysia-delivery/';
-  const guidesHref = isMs ? '/ms/panduan/' : '/guides/';
-
-  const brandSubmark = isMs
-    ? 'APOTEKARI BOTANI LELAKI MALAYSIA · KUALA LUMPUR'
-    : 'ARCHITECTURAL BOTANICAL APOTHECARY · MALAYSIA';
-
-  const acquireCtaLabel = isMs ? 'ACQUIRE · RM 159' : 'ACQUIRE · RM 159';
-  const acquireCtaAria = isMs
-    ? 'Buka Laci Tempahan Ekspres Rahsia — RM 159'
-    : 'Open 10-Second Express Discreet Order Drawer — RM 159';
-
-  const isNavCurrent = (key, pathPrefix) => {
-    if (activeNav === key) return ' aria-current="page"';
-    if (pathPrefix && pathPrefix !== '/' && pathPrefix !== '/ms/' && canonicalPath.startsWith(pathPrefix)) {
-      return ' aria-current="page"';
-    }
-    return '';
-  };
-
-  const flagshipLinksHtml = FLAGSHIP_NAV_PRODUCTS.map((prod) => {
-    const href = isMs ? prod.msPath : prod.enPath;
-    const label = isMs ? prod.nameMs : prod.nameEn;
-    const meta = isMs ? prod.metaMs : prod.metaEn;
-    const currentAttr =
-      canonicalPath === prod.enPath || canonicalPath === prod.msPath || activeNav === prod.slug
-        ? ' aria-current="page"'
-        : '';
-    return `
-          <a
-            href="${href}"
-            class="obsidian-header__product-link"
-            data-nav-product="${prod.slug}"${currentAttr}
-          >
-            <span class="obsidian-header__product-name">${label}</span>
-            <span class="obsidian-header__product-meta">${meta}</span>
-          </a>`;
-  }).join('');
 
   return `
-<header class="obsidian-header" role="banner" data-obsidian-header>
-  <!-- Single-Bar 64px Ultra-Sleek Luxury Glassmorphic Header -->
-  <div class="obsidian-header__inner">
-    <a href="${homeHref}" class="obsidian-header__brand" aria-label="Onyxman Malaysia — ${brandSubmark}">
-      <span class="obsidian-header__wordmark foil-champagne-text">ONYXMAN</span>
-      <span class="obsidian-header__submark">${isMs ? 'APOTEKARI LELAKI · KL' : 'MALAYSIA APOTHECARY · KL'}</span>
-    </a>
+<header class="site-header obsidian-header" role="banner" data-obsidian-header>
+  <!-- Row 1: Solid Matte-Black Crown Bar with Centered Italic "ONYXMEN" -->
+  <div class="header-crown-black">
+    <a href="${homeHref}" class="crown-wordmark" aria-label="ONYXMEN Official Malaysia Storefront">ONYXMEN</a>
+  </div>
 
-    <nav class="obsidian-header__nav" aria-label="${
-      isMs ? 'Navigasi Utama Apotekari Onyxman' : 'Onyxman Primary Apothecary Navigation'
-    }">
-      <a href="${formulationsIndexHref}" class="obsidian-header__link"${isNavCurrent('products', formulationsIndexHref)}>
-        ${isMs ? 'Koleksi' : 'Collection'}
-      </a>
-      <a href="${ isMs ? '/ms/produk/horsemen/' : '/products/horsemen/' }" class="obsidian-header__link"${isNavCurrent('horsemen', isMs ? '/ms/produk/horsemen/' : '/products/horsemen/')}>
-        Horsemen
-      </a>
-      <a href="${ isMs ? '/ms/produk/hammer-of-thor/' : '/products/hammer-of-thor/' }" class="obsidian-header__link"${isNavCurrent('hammer-of-thor', isMs ? '/ms/produk/hammer-of-thor/' : '/products/hammer-of-thor/')}>
-        Hammer of Thor
-      </a>
-      <a href="${ isMs ? '/ms/produk/grow-xl/' : '/products/grow-xl/' }" class="obsidian-header__link"${isNavCurrent('grow-xl', isMs ? '/ms/produk/grow-xl/' : '/products/grow-xl/')}>
-        Grow XL
-      </a>
-      <a href="${ isMs ? '/ms/produk/magnum-pump-xr/' : '/products/magnum-pump-xr/' }" class="obsidian-header__link"${isNavCurrent('magnum-pump-xr', isMs ? '/ms/produk/magnum-pump-xr/' : '/products/magnum-pump-xr/')}>
-        Magnum Pump XR
-      </a>
-      <a href="${compareHref}" class="obsidian-header__link"${isNavCurrent('compare', compareHref)}>
-        ${isMs ? 'Perbandingan' : 'Compare'}
-      </a>
-      <a href="${monographsHref}" class="obsidian-header__link"${isNavCurrent('ingredients', monographsHref)}>
-        ${isMs ? 'Ramuan' : 'Botanicals'}
-      </a>
-      <a href="${deliveryHref}" class="obsidian-header__link"${isNavCurrent('locations', deliveryHref)}>
-        ${isMs ? '16 Negeri' : '16 States'}
-      </a>
-    </nav>
+  <!-- Row 2: Pure-White Minimal Navigation Bar with Centered Links & Right Icons -->
+  <nav class="header-white-nav" aria-label="${isMs ? 'Navigasi Utama ONYXMEN' : 'ONYXMEN Primary Storefront Navigation'}">
+    <div class="nav-center-links">
+      <a href="#top-hero" class="nav-item active">${isMs ? 'UTAMA' : 'HOME'}</a>
+      <a href="#conservatory-stage" class="nav-item">${isMs ? 'PRODUK' : 'PRODUCTS'}</a>
+      <a href="#formula-comparison" class="nav-item">${isMs ? 'FORMULA' : 'FORMULAS'}</a>
+      <a href="#botanical-science" class="nav-item">${isMs ? 'SAINS' : 'SCIENCE'}</a>
+      <a href="#discreet-vip" class="nav-item">${isMs ? 'VIP RAHSIA' : 'DISCREET VIP'}</a>
+      <a href="#footer-contact" class="nav-item">${isMs ? 'HUBUNGI' : 'CONTACT'}</a>
+    </div>
 
-    <div class="obsidian-header__actions">
-      <!-- Instant EN | BM Paired Route Switcher -->
-      <div class="locale-switcher" role="group" aria-label="${
-        isMs ? 'Penukar Bahasa EN atau BM' : 'Language Switcher EN or BM'
-      }">
-        <a
-          href="${enHref}"
-          lang="en-MY"
-          hreflang="en-MY"
-          class="locale-switcher__option ${!isMs ? 'locale-switcher__option--active' : ''}"
-          ${!isMs ? 'aria-current="true"' : ''}
-        >EN</a>
-        <span class="locale-switcher__sep" aria-hidden="true">|</span>
-        <a
-          href="${msHref}"
-          lang="ms-MY"
-          hreflang="ms-MY"
-          class="locale-switcher__option ${isMs ? 'locale-switcher__option--active' : ''}"
-          ${isMs ? 'aria-current="true"' : ''}
-        >BM</a>
+    <div class="nav-right-icons">
+      <!-- Paired EN | BM Language Switcher -->
+      <div class="sovereign-locale-switch" role="group" aria-label="Language Switcher">
+        <a href="${enHref}" lang="en-MY" hreflang="en-MY" class="sovereign-locale-link ${!isMs ? 'active' : ''}" ${!isMs ? 'aria-current="true"' : ''}>EN</a>
+        <span class="sovereign-locale-sep">|</span>
+        <a href="${msHref}" lang="ms-MY" hreflang="ms-MY" class="sovereign-locale-link ${isMs ? 'active' : ''}" ${isMs ? 'aria-current="true"' : ''}>BM</a>
       </div>
 
-      <!-- Express Discreet Order Drawer Trigger -->
+      <!-- Toggle 120mm 3.5x Optical Macro Loupe (Clean Search Icon) -->
+      <button type="button" class="icon-btn" id="btn-toggle-loupe" title="Toggle 8K Optical Macro Loupe" aria-label="Toggle Optical Macro Loupe">
+        <svg viewBox="0 0 24 24">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </button>
+
+      <!-- Shopping Bag Trigger -->
       <button
         type="button"
-        class="cta-foil-primary obsidian-header__cta"
+        class="icon-btn"
+        id="btn-open-bag"
         data-open-order-drawer="true"
         data-order-product="${defaultProduct}"
         data-order-qty="1"
-        aria-label="${acquireCtaAria}"
-        aria-controls="onyxman-express-order-drawer"
+        title="Open ONYXMEN VIP Bag"
+        aria-label="Open ONYXMEN VIP Bag"
       >
-        <span>${acquireCtaLabel}</span>
-      </button>
-
-      <!-- Architectural Mobile Navigation Curtain Toggle -->
-      <button
-        type="button"
-        class="obsidian-header__mobile-toggle"
-        data-toggle-mobile-nav="true"
-        aria-expanded="false"
-        aria-controls="obsidian-mobile-nav-curtain"
-        aria-label="${isMs ? 'Buka Menu Navigasi' : 'Toggle Apothecary Navigation Menu'}"
-      >
-        <span class="obsidian-header__mobile-bar"></span>
-        <span class="obsidian-header__mobile-bar"></span>
+        <svg viewBox="0 0 24 24">
+          <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <path d="M16 10a4 4 0 0 1-8 0"></path>
+        </svg>
+        <span class="bag-badge" id="bag-count-badge" style="display:inline-flex;">2</span>
       </button>
     </div>
-  </div>
-
-  <!-- Mobile Full-Screen Architectural Navigation Curtain -->
-  <div
-    id="obsidian-mobile-nav-curtain"
-    class="obsidian-mobile-curtain"
-    aria-hidden="true"
-    data-mobile-nav-curtain
-  >
-    <div class="obsidian-mobile-curtain__inner">
-      <div class="obsidian-mobile-curtain__section">
-        <span class="editorial-kicker">${
-          isMs ? '01 · EMPAT FORMULASI UTAMA (RM 159)' : '01 · FOUR FLAGSHIP FORMULATIONS (RM 159)'
-        }</span>
-        <div class="obsidian-mobile-curtain__links">
-          <a href="${isMs ? '/ms/produk/horsemen/' : '/products/horsemen/'}" class="obsidian-mobile-curtain__link">
-            <span>Horsemen — 20 Capsules × 500mg</span>
-            <span>RM 159 →</span>
-          </a>
-          <a href="${isMs ? '/ms/produk/hammer-of-thor/' : '/products/hammer-of-thor/'}" class="obsidian-mobile-curtain__link">
-            <span>Hammer of Thor — 20 Veg. Capsules</span>
-            <span>RM 159 →</span>
-          </a>
-          <a href="${isMs ? '/ms/produk/grow-xl/' : '/products/grow-xl/'}" class="obsidian-mobile-curtain__link">
-            <span>Grow XL — 30 Daily Capsules</span>
-            <span>RM 159 →</span>
-          </a>
-          <a href="${isMs ? '/ms/produk/magnum-pump-xr/' : '/products/magnum-pump-xr/'}" class="obsidian-mobile-curtain__link">
-            <span>Magnum Pump XR — 30 Black Capsules</span>
-            <span>RM 159 →</span>
-          </a>
-        </div>
-      </div>
-
-      <div class="obsidian-mobile-curtain__section">
-        <span class="editorial-kicker">${
-          isMs ? '02 · APOTEKARI, MONOGRAF & PENGHANTARAN 16 NEGERI' : '02 · MONOGRAPHS, COMPARISONS & 16 MALAYSIA HUBS'
-        }</span>
-        <div class="obsidian-mobile-curtain__links">
-          <a href="${formulationsIndexHref}" class="obsidian-mobile-curtain__link">
-            <span>${isMs ? 'Koleksi Lengkap Formulasi' : 'Complete Formulations Vault'}</span>
-            <span>→</span>
-          </a>
-          <a href="${compareHref}" class="obsidian-mobile-curtain__link">
-            <span>${isMs ? 'Jadual Perbandingan Formulasi' : 'Formulation Comparison Matrix'}</span>
-            <span>→</span>
-          </a>
-          <a href="${monographsHref}" class="obsidian-mobile-curtain__link">
-            <span>${isMs ? 'Monograf Fitokimia & Ramuan Botani' : 'Botanical Ingredient Monographs'}</span>
-            <span>→</span>
-          </a>
-          <a href="${deliveryHref}" class="obsidian-mobile-curtain__link">
-            <span>${isMs ? 'Penghantaran Rahsia 16 Negeri Malaysia' : 'All 16 Malaysia State Delivery Hubs'}</span>
-            <span>→</span>
-          </a>
-          <a href="${guidesHref}" class="obsidian-mobile-curtain__link">
-            <span>${isMs ? 'Panduan Protokol & Semakan Ketulenan' : 'Vitality Protocols & Buyer Guides'}</span>
-            <span>→</span>
-          </a>
-        </div>
-      </div>
-
-      <div class="obsidian-mobile-curtain__footer">
-        <button
-          type="button"
-          class="cta-foil-primary"
-          data-open-order-drawer="true"
-          data-order-product="${defaultProduct}"
-          data-order-qty="1"
-        >
-          <span>${isMs ? 'TEMPAH BUNGKUSAN RAHSIA · RM 159' : 'ACQUIRE IN PLAIN PARCEL · RM 159'}</span>
-          <span aria-hidden="true">→</span>
-        </button>
-      </div>
-    </div>
-  </div>
+  </nav>
 </header>`;
 }
 

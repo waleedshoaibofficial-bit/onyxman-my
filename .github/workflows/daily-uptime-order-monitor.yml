@@ -1,4 +1,4 @@
-name: "MS-193 Â· 24/7 Every-6-Hour Uptime, <800ms TTFB & Order Bridge Monitor"
+name: "MS-193 · 24/7 Every-6-Hour Uptime, <800ms TTFB, Auto-Heal & Order Bridge Monitor"
 
 on:
   schedule:
@@ -34,28 +34,40 @@ env:
 
 jobs:
   uptime-and-order-bridge-monitor:
-    name: "Audit https://onyxman.my & 4 Flagship Product URLs (HTTP 200, <800ms TTFB, @graph JSON-LD, RM 159 & Order Drawer)"
+    name: "Audit & Auto-Heal https://www.onyxmen.my (HTTP 200, <800ms TTFB, @graph JSON-LD, RM 159 & Order Drawer)"
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
     steps:
-      - name: "01 Â· Checkout Onyxman.my Repository"
+      - name: "01 · Checkout Onyxman.my Repository"
         uses: actions/checkout@v4
 
-      - name: "02 Â· Setup Node.js 20 LTS Runtime"
+      - name: "02 · Setup Node.js 20 LTS Runtime"
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
       - name: "03 · Build Local Static Artifacts & Verify Integrity (--dry-run)"
         run: |
-          echo "Building local static HTML artifacts and running dry-run check..."
+          echo "Building local static HTML artifacts and running 6-Gate + dry-run check..."
           node scripts/build-site.mjs
+          node scripts/verify-gate.mjs --phase=ALL
           node scripts/cloud-health-monitor.mjs --dry-run
 
-      - name: "04 · Execute Production Cloud Health & Order Bridge Monitor"
+      - name: "04 · Execute Production Cloud Health & Order Bridge Monitor (With Instant Auto-Heal)"
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           MODE="${{ github.event.inputs.mode || '--live' }}"
           echo "Executing Onyxman.my Cloud Health & Order Bridge Monitor (${MODE})..."
-          node scripts/cloud-health-monitor.mjs "${MODE}"
-
+          if ! node scripts/cloud-health-monitor.mjs "${MODE}"; then
+            echo "[AUTO-HEAL TRIGGERED] Live drift or error detected — automatically redeploying clean verified 280-page build to Cloudflare Pages..."
+            if [ -n "${CLOUDFLARE_API_TOKEN}" ] && [ -n "${CLOUDFLARE_ACCOUNT_ID}" ]; then
+              npx --yes wrangler@latest pages deploy public --project-name="onyxman-my" --branch=main --commit-dirty=true
+              sleep 5
+              node scripts/cloud-health-monitor.mjs "${MODE}"
+            else
+              exit 1
+            fi
+          fi

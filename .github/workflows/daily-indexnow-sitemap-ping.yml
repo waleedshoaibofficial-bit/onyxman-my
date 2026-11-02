@@ -60,16 +60,21 @@ jobs:
           echo "Executing IndexNow submission in mode: ${MODE}"
           node scripts/ping-indexnow.mjs "${MODE}"
 
-      - name: "06 · Verify Live HTTP 200 Reachability for sitemap.xml, llms.txt & indexnow-key.txt"
+      - name: "06 · Verify Live HTTP 200 Reachability for All 5 Sitemaps, llms.txt & indexnow-key.txt"
         if: ${{ (github.event.inputs.mode || '--live') == '--live' }}
         run: |
-          echo "Checking HTTP reachability for https://www.onyxmen.my/sitemap.xml, /llms.txt, and /indexnow-key.txt..."
-          curl -fsSLI "https://www.onyxmen.my/sitemap.xml" | head -n 5
-          curl -fsSLI "https://www.onyxmen.my/llms.txt" | head -n 5
+          echo "Checking HTTP 200 reachability for all 5 XML sitemaps, llms.txt, and indexnow-key.txt..."
+          curl -fsSLI "https://www.onyxmen.my/sitemap.xml" > /dev/null
+          curl -fsSLI "https://www.onyxmen.my/sitemap-index.xml" > /dev/null
+          curl -fsSLI "https://www.onyxmen.my/sitemap-en.xml" > /dev/null
+          curl -fsSLI "https://www.onyxmen.my/sitemap-ms.xml" > /dev/null
+          curl -fsSLI "https://www.onyxmen.my/sitemap-images.xml" > /dev/null
+          curl -fsSLI "https://www.onyxmen.my/llms.txt" > /dev/null
+          curl -fsSLI "https://www.onyxmen.my/seo-health-status.json" > /dev/null
           KEY_BODY=$(curl -fsSL "https://www.onyxmen.my/indexnow-key.txt" | tr -d '\r\n ')
           if [ "$KEY_BODY" != "onyxman2026myindexnowkey8899aabb" ]; then
             echo "::error::IndexNow key mismatch at https://www.onyxmen.my/indexnow-key.txt: got '$KEY_BODY'"
             exit 1
           fi
-          echo "Verified IndexNow key match: $KEY_BODY"
+          echo "Verified IndexNow key match ($KEY_BODY) and HTTP 200 across all 5 XML sitemaps!"
 

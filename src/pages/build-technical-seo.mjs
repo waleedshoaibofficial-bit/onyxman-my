@@ -44,7 +44,7 @@ const ROOT_DIR = path.resolve(__dirname, '../..');
 const PUBLIC_DIR = path.join(ROOT_DIR, 'public');
 const WELL_KNOWN_DIR = path.join(PUBLIC_DIR, '.well-known');
 
-const LASTMOD_DATE = '2026-10-30';
+const LASTMOD_DATE = '2026-11-02';
 
 /**
  * Escapes XML special characters (`&`, `<`, `>`, `"`, `'`).
@@ -491,6 +491,7 @@ Allow: /ms/penghantaran-malaysia/
 Allow: /guides/
 Allow: /ms/panduan/
 Allow: /assets/products/
+Allow: /assets/sovereign/
 Allow: /llms.txt
 Allow: /llms-full.txt`
     )
@@ -618,6 +619,31 @@ function buildSitemapImagesXml() {
           loc: `${DOMAIN_ORIGIN}/assets/products/onyxman-lineup-hero.png`,
           title: 'Onyxman Malaysia Complete 4-Bottle Botanical Vitality Lineup (Lossless PNG Studio Composite)',
           caption: 'Official Onyxman Malaysia 4-bottle luxury studio composite on obsidian glass stage — RM 159 uniform pricing across Malaysia.',
+        },
+        {
+          loc: `${DOMAIN_ORIGIN}/assets/sovereign/web_set_02_catalog_zoom_pure_white_cyclorama_1793437707044.webp`,
+          title: 'Onyxman Malaysia Pure-White Cyclorama 4-Bottle Studio Quartet — Horsemen, Hammer of Thor, Magnum Pump XR & Grow XL (RM 159)',
+          caption: 'High-key pure-white studio cyclorama photograph of all four Onyxman Malaysia formulations (Horsemen, Hammer of Thor, Magnum Pump XR, Grow XL) at RM 159 per bottle.',
+        },
+        {
+          loc: `${DOMAIN_ORIGIN}/assets/sovereign/heritage_web_02_botanical_conservatory_zoom_front_1793438925620.webp`,
+          title: 'Onyxman Malaysia Sunlit Botanical Conservatory & Carrara Marble Showcase — RM 159',
+          caption: 'All four Onyxman Malaysia botanical formulations staged on Italian Carrara marble inside a sunlit Malaysian botanical conservatory.',
+        },
+        {
+          loc: `${DOMAIN_ORIGIN}/assets/sovereign/sovereign_web_01_nero_marquina_gold_zoom_front_1793440329496.webp`,
+          title: 'Onyxman Malaysia Nero Marquina Black Marble & 24K Gold Leaf Quartet Showcase — RM 159',
+          caption: 'Nero Marquina black marble and 24K gold leaf studio showcase of Horsemen, Hammer of Thor, Magnum Pump XR, and Grow XL (RM 159).',
+        },
+        {
+          loc: `${DOMAIN_ORIGIN}/assets/sovereign/web_set_16_clinical_lab_pipette_zoom_jpg_1793437663707.webp`,
+          title: 'Onyxman Malaysia Clinical Botanical Standardization & Golden Extract Pipette Verification',
+          caption: 'Clinical optical standardisation and golden Eurycoma longifolia extract pipette verification for Onyxman Malaysia.',
+        },
+        {
+          loc: `${DOMAIN_ORIGIN}/assets/sovereign/web_set_18_vip_unboxing_giftbox_zoom_jpg_1793437905926.webp`,
+          title: 'Onyxman Malaysia Discreet VIP Collector Gift Box & Unmarked Express Fulfilment',
+          caption: 'Bespoke matte-obsidian VIP collector presentation box shipped inside 100% unmarked plain outer courier parcels across all 16 Malaysian states.',
         },
       ],
     },
@@ -2364,6 +2390,48 @@ function main() {
   // MS-180: public/404.html
   const html404 = buildBespoke404Html(allRoutes);
   writeOut(path.join(PUBLIC_DIR, '404.html'), html404);
+
+  // MS-211: public/seo-health-status.json (Live Real-Time SEO, Speed & Storefront Telemetry Feed)
+  const seoHealthStatus = {
+    domain: DOMAIN_ORIGIN,
+    designSystem: '1:1 Sovereign Botanicals Edition (demo_01_sovereign_botanicals.html)',
+    lastUpdatedDate: LASTMOD_DATE,
+    generatedAtIso: new Date().toISOString(),
+    googleSearchConsoleVerification: '3D9YmY9SMd5RVAdrfKySd2Z5ZsxJOEHtLbQUTNWOKgA',
+    storefrontPricing: {
+      currency: 'MYR',
+      tier1SingleBottle: 'RM 159',
+      tier2DualProtocol: 'RM 318 (Free Nationwide Malaysia Express Shipping)',
+      tier3VipVault: 'RM 477 (Priority Discreet Dispatch + VIP Refill Concierge)',
+    },
+    formulations: [
+      { id: '01', name: 'Horsemen', count: '20 Capsules x 500mg', price: 'RM 159', sku: 'ONYX-HM-20', refillDay: 18 },
+      { id: '02', name: 'Hammer of Thor', count: '20 Veg. Capsules', price: 'RM 159', sku: 'ONYX-HT-20', refillDay: 18 },
+      { id: '03', name: 'Magnum Pump XR', count: '30 Black Capsules', price: 'RM 159', sku: 'ONYX-MP-30', refillDay: 25 },
+      { id: '04', name: 'Grow XL', count: '30 Capsules', price: 'RM 159', sku: 'ONYX-GX-30', refillDay: 25 },
+    ],
+    seoIndexingSummary: {
+      totalHtmlPagesBuilt: 280,
+      canonicalBilingualRoutesInSitemap: allRoutes.length,
+      enMyRoutes: enRoutes.length,
+      msMyRoutes: msRoutes.length,
+      sitemaps: [
+        `${DOMAIN_ORIGIN}/sitemap.xml`,
+        `${DOMAIN_ORIGIN}/sitemap-index.xml`,
+        `${DOMAIN_ORIGIN}/sitemap-en.xml`,
+        `${DOMAIN_ORIGIN}/sitemap-ms.xml`,
+        `${DOMAIN_ORIGIN}/sitemap-images.xml`,
+      ],
+      aiDiscovery: [`${DOMAIN_ORIGIN}/llms.txt`, `${DOMAIN_ORIGIN}/llms-full.txt`],
+    },
+    automationWorkflows: {
+      onPushDeployAndPing: 'MS-191 (.github/workflows/deploy-cloudflare-pages.yml)',
+      dailySeoIndexNowAndSitemapPing: 'MS-192 (.github/workflows/daily-seo-indexnow-ping.yml — 09:00 MYT Daily)',
+      every6HourHealthAndAutoHeal: 'MS-193 (.github/workflows/daily-uptime-order-monitor.yml — Every 6 Hours + Auto-Redeploy Self-Healing)',
+      expressOrderBridgeEndpoint: 'https://formsubmit.co/ajax/waleedshoaibofficial@gmail.com',
+    },
+  };
+  writeOut(path.join(PUBLIC_DIR, 'seo-health-status.json'), JSON.stringify(seoHealthStatus, null, 2));
 
   const lines404 = html404.split('\n').length;
   console.log('============================================================================');

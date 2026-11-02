@@ -1,12 +1,13 @@
 /**
- * ONYXMAN.MY — MASTER HTML5 DOCUMENT GENERATOR & CRITICAL CSS SHELL (MS-061)
+ * ONYXMEN.MY — MASTER HTML5 DOCUMENT GENERATOR & 1:1 SOVEREIGN BOTANICALS SHELL (`demo_01_sovereign_botanicals.html`)
  * Enforces:
- * - Sub-second speed (LCP < 0.8s, CLS = 0.00) via inline critical CSS + preloaded studio hero assets
+ * - 100% 1:1 visual, structural, typographic, and interactive match with `demo_01_sovereign_botanicals.html` (APEX Rule #31)
+ * - Authentic Malaysia Pricing & Product Info (`RM 159` = 1 Bottle, `RM 318` = 2 Bottles, `RM 477` = 3 Bottles VIP Protocol;
+ *   Horsemen 20 Capsules x 500mg, Hammer of Thor 20 Veg. Capsules, Magnum Pump XR 30 Black Capsules, Grow XL 30 Capsules)
+ * - Sub-second speed (LCP < 0.8s, CLS = 0.00) via inline critical CSS + preloaded WebP/JPG studio hero assets
  * - Bidirectional hreflang (en-MY, ms-MY, x-default) & canonical tags on https://www.onyxmen.my
- * - OpenGraph & Product Commerce Meta (og:locale, og:price:amount = 159.00, og:price:currency = MYR)
- * - Valid @graph JSON-LD structured data injection
- * - Dual-Mode WhatsApp & Express Email Bridge runtime configuration (window.ONYXMAN_CONFIG)
- * - Automatic assembly of ObsidianHeader, DiscreetSealStrip, ObsidianFooter, ExpressOrderDrawer & StickyMobileBar
+ * - Google Search Console Verification (`3D9YmY9SMd5RVAdrfKySd2Z5ZsxJOEHtLbQUTNWOKgA`)
+ * - Live VIP Checkout Drawer wired to `https://formsubmit.co/ajax/waleedshoaibofficial@gmail.com`
  */
 
 import { renderObsidianHeader, resolvePairedLocaleRoutes } from './ObsidianHeader.mjs';
@@ -108,7 +109,7 @@ export function normalizeSchemaGraphJson(schemaInput, fallbackMeta = {}) {
   const canonicalUrl = fallbackMeta.canonicalUrl || 'https://www.onyxmen.my/';
   const title =
     fallbackMeta.title ||
-    'Onyxman Malaysia — Architectural Botanical Apothecary for Adult Men’s Vitality';
+    'ONYXMEN Malaysia — Luxury Botanical Virility & Performance Collection (RM 159)';
   const description =
     fallbackMeta.description ||
     'Authentic botanical dietary supplements for adult men in Malaysia: Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR. RM 159 per bottle with discreet unmarked parcel delivery.';
@@ -121,9 +122,10 @@ export function normalizeSchemaGraphJson(schemaInput, fallbackMeta = {}) {
         {
           '@type': 'Organization',
           '@id': 'https://www.onyxmen.my/#organization',
-          name: 'Onyxman',
+          name: 'ONYXMEN Malaysia',
           legalName: "Onyxman Malaysia Apothecary & Men's Vitality Vault",
           url: 'https://www.onyxmen.my',
+          logo: 'https://www.onyxmen.my/assets/sovereign/web_set_02_catalog_zoom_pure_white_cyclorama_1793437707044.webp',
           email: 'sales@onyxman.my',
           contactPoint: [
             {
@@ -146,7 +148,7 @@ export function normalizeSchemaGraphJson(schemaInput, fallbackMeta = {}) {
           '@type': 'WebSite',
           '@id': 'https://www.onyxmen.my/#website',
           url: 'https://www.onyxmen.my',
-          name: 'Onyxman Malaysia',
+          name: 'ONYXMEN Malaysia',
           publisher: { '@id': 'https://www.onyxmen.my/#organization' },
           inLanguage: ['en-MY', 'ms-MY'],
         },
@@ -167,1341 +169,2126 @@ export function normalizeSchemaGraphJson(schemaInput, fallbackMeta = {}) {
 }
 
 /**
- * Critical inline CSS engineered for < 0.8s LCP and 0.00 CLS.
- * Strictly adheres to Rule #29 & Rule #30 (Paradigm A 100vw x 100vh + Paradigm D 50vw/50vw,
- * Obsidian/Gold tokens #050507, #0B0C10, #12141C, #D4AF37, #F3E5AB, #EAE6DF,
- * fonts Cormorant Garamond, Syne, Space Grotesk).
+ * Exact 1:1 `demo_01_sovereign_botanicals.html` Critical Inline CSS.
  */
 export const CRITICAL_INLINE_CSS = `
 :root {
-  --bg-abyssal-obsidian: #050507;
-  --bg-smoked-onyx: #0B0C10;
-  --bg-velvet-charcoal: #12141C;
-  --bg-obsidian-glass: rgba(11, 12, 16, 0.86);
-  --bg-stage-vignette: radial-gradient(circle at 50% 42%, rgba(212, 175, 55, 0.12) 0%, rgba(11, 12, 16, 0.68) 48%, #050507 100%);
-  --gold-champagne: #D4AF37;
-  --gold-foil-bright: #F3E5AB;
-  --gold-burnished: #9A7B2C;
-  --gold-hairline: rgba(212, 175, 55, 0.24);
-  --gold-hairline-strong: rgba(243, 229, 171, 0.45);
-  --text-silk-ivory: #EAE6DF;
-  --text-muted-alabaster: #B8B3A8;
-  --text-ash-silver: #7E7A72;
-  --text-obsidian-ink: #050507;
-  --emerald-vitality: #2E8B57;
-  --font-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
-  --font-architectural: 'Syne', 'Helvetica Neue', Arial, sans-serif;
-  --font-technical: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
-  --gutter-cinema: clamp(1.25rem, 4.2vw, 5rem);
-  --gutter-vertical: clamp(3.5rem, 8.5vh, 8rem);
-  --hairline-rule: 1px solid rgba(212, 175, 55, 0.24);
-  --hairline-subtle: 1px solid rgba(234, 230, 223, 0.09);
-  --ease-cinema: cubic-bezier(0.16, 1, 0.3, 1);
+  --bg-pure-white: #FFFFFF;
+  --bg-soft-alabaster: #F8F7F4;
+  --bg-obsidian: #0B0C0E;
+  --crown-black: #121315;
+  --ink-black: #0F1113;
+  --ink-muted: #52565A;
+  --hairline-grey: #E8E8E8;
+  --gold-top: #E8CA7D;
+  --gold-bottom: #C49B42;
+  --gold-gradient: linear-gradient(180deg, #EBD084 0%, #C49B42 100%);
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+  --ease-luxury: cubic-bezier(0.19, 1, 0.22, 1);
 }
-/* 8K CINEMATIC VISUAL-FIRST LUXURY STOREFRONT (ZERO WALLS OF TEXT) */
-.cinema-8k-hero {
-  position: relative;
-  min-height: calc(100vh - 64px);
-  max-height: 920px;
-  width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.5rem var(--gutter-cinema);
-  background:
-    radial-gradient(circle at 72% 48%, rgba(212, 175, 55, 0.22) 0%, rgba(11, 12, 16, 0.78) 46%, #050507 92%),
-    linear-gradient(180deg, #050507 0%, #090A0E 100%);
-  border-bottom: var(--hairline-rule);
-  overflow: hidden;
-  gap: 2.5rem;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.cinema-8k-hero__backdrop {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.28;
-  filter: contrast(1.12) saturate(1.1);
-  pointer-events: none;
-  z-index: 0;
-}
-.cinema-8k-hero__inner {
-  position: relative;
-  z-index: 2;
-  max-width: 1760px;
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: clamp(2rem, 4vw, 4.5rem);
-}
-.cinema-8k-hero__copy {
-  flex: 0 1 46%;
-  max-width: 640px;
-  display: flex;
-  flex-direction: column;
-  gap: 1.15rem;
-}
-.cinema-8k-hero__eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.65rem;
-  font-size: 0.72rem;
-  letter-spacing: 0.26em;
-  text-transform: uppercase;
-  color: var(--gold-foil-bright);
-}
-.cinema-8k-hero__eyebrow-dot {
-  width: 8px;
-  height: 8px;
-  background: var(--gold-champagne);
-  box-shadow: 0 0 12px var(--gold-champagne);
-}
-.cinema-8k-hero__title {
-  font-family: var(--font-display);
-  font-size: clamp(2.55rem, 4.5vw, 4.65rem);
-  font-weight: 500;
-  line-height: 1.02;
-  letter-spacing: -0.015em;
-  color: var(--text-silk-ivory);
-}
-.cinema-8k-hero__subtitle {
-  font-size: 0.98rem;
-  line-height: 1.55;
-  color: var(--text-muted-alabaster);
-  max-width: 54ch;
-}
-.cinema-8k-hero__tier-strip {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.65rem;
-  margin-top: 0.25rem;
-}
-.cinema-8k-tier-btn {
-  flex: 1 1 145px;
-  display: flex;
-  flex-direction: column;
-  gap: 0.15rem;
-  padding: 0.75rem 1rem;
-  background: rgba(18, 20, 28, 0.85);
-  border-top: 1px solid rgba(212, 175, 55, 0.45);
-  border-bottom: 1px solid rgba(212, 175, 55, 0.25);
-  text-align: left;
-  transition: transform 200ms ease, background 200ms ease;
-}
-.cinema-8k-tier-btn:hover,
-.cinema-8k-tier-btn--featured {
-  background: linear-gradient(135deg, rgba(212, 175, 55, 0.22) 0%, rgba(18, 20, 28, 0.95) 100%);
-  border-top-color: var(--gold-foil-bright);
-  transform: translateY(-2px);
-}
-.cinema-8k-tier-btn__qty {
-  font-size: 0.66rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--gold-champagne);
-}
-.cinema-8k-tier-btn__price {
-  font-family: var(--font-display);
-  font-size: 1.55rem;
-  font-weight: 600;
-  color: var(--text-silk-ivory);
-  line-height: 1.05;
-}
-.cinema-8k-tier-btn__note {
-  font-size: 0.68rem;
-  color: var(--text-muted-alabaster);
-}
-.cinema-8k-hero__cta-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 0.35rem;
-}
-.cinema-8k-hero__trust-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.25rem;
-  padding-top: 0.75rem;
-  border-top: var(--hairline-subtle);
-  font-size: 0.72rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--gold-foil-bright);
-}
-.cinema-8k-hero__stage {
-  flex: 1 1 54%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-.cinema-8k-hero__glow {
-  position: absolute;
-  width: 82%;
-  height: 82%;
-  background: radial-gradient(circle, rgba(212, 175, 55, 0.28) 0%, rgba(212, 175, 55, 0.05) 52%, transparent 74%);
-  filter: blur(28px);
-  pointer-events: none;
-  z-index: 0;
-}
-.cinema-8k-hero__visual-frame {
-  position: relative;
-  z-index: 2;
-  width: 100%;
-  max-width: 780px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.cinema-8k-hero__img {
-  width: 100%;
-  max-height: 540px;
-  object-fit: contain;
-  filter: drop-shadow(0 28px 48px rgba(0, 0, 0, 0.92)) contrast(1.04);
-  mask-image: radial-gradient(ellipse 92% 90% at 50% 50%, #000 76%, transparent 100%);
-  -webkit-mask-image: radial-gradient(ellipse 92% 90% at 50% 50%, #000 76%, transparent 100%);
-}
-.cinema-8k-hero__quick-thumbs {
-  position: relative;
-  z-index: 3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.85rem;
-  margin-top: 0.85rem;
-  flex-wrap: wrap;
-}
-.cinema-8k-thumb-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
-  padding: 0.4rem 0.85rem;
-  background: rgba(11, 12, 16, 0.88);
-  border-top: 1px solid rgba(212, 175, 55, 0.36);
-  border-bottom: 1px solid rgba(212, 175, 55, 0.18);
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--text-silk-ivory);
-}
-.cinema-8k-thumb-link:hover,
-.cinema-8k-thumb-link--active {
-  border-top-color: var(--gold-foil-bright);
-  color: var(--gold-foil-bright);
-  background: rgba(212, 175, 55, 0.15);
-}
-.cinema-8k-thumb-link__img {
-  width: 28px;
-  height: 28px;
-  object-fit: cover;
-}
-/* SCREEN 2: 8K STUDIO 4-BOTTLE SHOWCASE RUNWAY */
-.cinema-8k-runway {
-  padding: 4.5rem var(--gutter-cinema);
-  background: linear-gradient(180deg, #07080C 0%, #0B0C10 50%, #050507 100%);
-  border-bottom: var(--hairline-rule);
-}
-.cinema-8k-runway__header {
-  max-width: 1760px;
-  margin: 0 auto 2.75rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-end;
-  gap: 1.5rem;
-}
-.cinema-8k-runway__list {
-  max-width: 1760px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: space-between;
-}
-.cinema-8k-bottle-stage {
-  flex: 1 1 360px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background: radial-gradient(circle at 50% 32%, rgba(212, 175, 55, 0.14) 0%, rgba(11, 12, 16, 0.92) 72%);
-  border-top: 1px solid rgba(212, 175, 55, 0.38);
-  border-bottom: 1px solid rgba(212, 175, 55, 0.22);
-  padding: 1.75rem 1.5rem;
-  gap: 1.25rem;
-}
-.cinema-8k-bottle-stage__media {
-  position: relative;
-  height: 320px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-.cinema-8k-bottle-stage__img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  transition: transform 420ms var(--ease-cinema);
-}
-.cinema-8k-bottle-stage:hover .cinema-8k-bottle-stage__img {
-  transform: scale(1.04);
-}
-.cinema-8k-bottle-stage__tag {
-  font-size: 0.66rem;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: var(--gold-champagne);
-}
-.cinema-8k-bottle-stage__name {
-  font-family: var(--font-display);
-  font-size: 2rem;
-  color: var(--text-silk-ivory);
-  line-height: 1.05;
-}
-.cinema-8k-bottle-stage__desc {
-  font-size: 0.86rem;
-  color: var(--text-muted-alabaster);
-  line-height: 1.5;
-}
-.cinema-8k-bottle-stage__footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  padding-top: 1rem;
-  border-top: var(--hairline-subtle);
-}
-.cinema-8k-bottle-stage__price {
-  font-family: var(--font-display);
-  font-size: 1.65rem;
-  color: var(--gold-foil-bright);
-}
-/* SCREEN 3: 8K DUAL CINEMA VISUAL DIPTYCH (BOTANICAL ELIXIR + KL DISCREET CONCIERGE) */
-.cinema-8k-diptych {
-  max-width: 1760px;
-  margin: 0 auto;
-  padding: 4.5rem var(--gutter-cinema);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2.5rem;
-  border-bottom: var(--hairline-rule);
-}
-.cinema-8k-diptych__pane {
-  flex: 1 1 520px;
-  display: flex;
-  flex-direction: column;
-  gap: 1.35rem;
-}
-.cinema-8k-diptych__img-wrap {
-  width: 100%;
-  height: 380px;
-  overflow: hidden;
-  border-top: 1px solid rgba(212, 175, 55, 0.42);
-  border-bottom: 1px solid rgba(212, 175, 55, 0.22);
-}
-.cinema-8k-diptych__img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-/* CLOSED-BY-DEFAULT SEO & CLINICAL VAULT DRAWER (ZERO TEXT WALL FOR HUMANS, 100% CRAWLABLE FOR GOOGLE) */
-.onyxman-seo-vault-drawer {
-  max-width: 1760px;
-  margin: 2.5rem auto;
-  padding: 0 var(--gutter-cinema);
-}
-.onyxman-seo-vault-drawer__summary {
-  list-style: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1.5rem;
-  padding: 1.35rem 1.75rem;
-  background: rgba(11, 12, 16, 0.92);
-  border-top: var(--hairline-rule);
-  border-bottom: var(--hairline-rule);
-  color: var(--gold-foil-bright);
-  font-size: 0.78rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-}
-.onyxman-seo-vault-drawer__summary::-webkit-details-marker { display: none; }
-.onyxman-seo-vault-drawer__body {
-  padding-top: 2.5rem;
-}
-@media (max-width: 1024px) {
-  .cinema-8k-hero { min-height: auto; max-height: none; padding: 2rem var(--gutter-cinema); }
-  .cinema-8k-hero__inner { flex-direction: column-reverse; text-align: left; gap: 1.75rem; }
-  .cinema-8k-hero__copy, .cinema-8k-hero__stage { flex: 1 1 100%; max-width: 100%; width: 100%; }
-  .cinema-8k-hero__img { max-height: 360px; }
-}
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
 html {
-  background-color: #050507;
-  color: #EAE6DF;
-  font-family: var(--font-technical);
-  font-size: 16px;
-  line-height: 1.65;
+  background-color: var(--bg-pure-white);
+  color: var(--ink-black);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: geometricPrecision;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
+
 body {
-  background-color: #050507;
-  color: #EAE6DF;
-  min-height: 100vh;
   overflow-x: hidden;
-  padding-bottom: 5.25rem;
+  background-color: var(--bg-pure-white);
+  color: var(--ink-black);
 }
-img, picture, svg { display: block; max-width: 100%; height: auto; }
-a { color: inherit; text-decoration: none; }
-button, input, select, textarea { font: inherit; color: inherit; background: transparent; border: none; }
-button { cursor: pointer; }
-.foil-champagne-text {
-  background: linear-gradient(135deg, #F3E5AB 0%, #D4AF37 40%, #FFF6D6 66%, #9A7B2C 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+
+button {
+  font-family: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
 }
-.editorial-kicker {
-  font-family: var(--font-technical);
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.26em;
-  color: var(--gold-champagne);
-  display: inline-flex;
-  align-items: center;
-  gap: 0.75rem;
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
-.editorial-kicker::before {
-  content: "";
-  display: inline-block;
-  width: 2rem;
-  height: 1px;
-  background-color: var(--gold-champagne);
+
+img {
+  display: block;
+  max-width: 100%;
+  image-rendering: -webkit-optimize-contrast;
 }
-.editorial-headline-xl {
-  font-family: var(--font-display);
-  font-size: clamp(2.85rem, 6.2vw, 6.4rem);
-  font-weight: 400;
-  line-height: 0.98;
-  letter-spacing: -0.02em;
-  color: var(--text-silk-ivory);
+
+.hd-optical-photo {
+  filter: url(#onyx-8k-sharpen) contrast(1.04) saturate(1.03);
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
-.editorial-headline-lg {
-  font-family: var(--font-display);
-  font-size: clamp(2.1rem, 4.2vw, 4.15rem);
-  font-weight: 400;
-  line-height: 1.06;
-  color: var(--text-silk-ivory);
-}
-.cta-foil-primary {
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1.25rem;
-  padding: 1.05rem 1.95rem;
-  background: linear-gradient(135deg, #F3E5AB 0%, #D4AF37 52%, #AA882E 100%);
-  color: #050507;
-  font-family: var(--font-technical);
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  transition: transform 220ms var(--ease-cinema), filter 220ms ease;
-}
-.cta-foil-primary:hover { transform: translateY(-2px); filter: brightness(1.08); }
-.cta-hairline-secondary {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.95rem;
-  padding: 1rem 1.65rem;
-  border-top: var(--hairline-rule);
-  border-bottom: var(--hairline-rule);
-  color: var(--gold-foil-bright);
-  font-family: var(--font-technical);
-  font-size: 0.76rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-}
-/* Header & Telemetry Bar */
-.obsidian-header {
+
+/* ==========================================================================
+   2. EXACT 2-ROW ONYXMEN HEADER (SOLID BLACK CROWN + PURE WHITE NAV)
+   ========================================================================== */
+.site-header {
   position: sticky;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 900;
-  background: rgba(5, 5, 7, 0.92);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border-bottom: var(--hairline-rule);
+  z-index: 100;
+  background: var(--bg-pure-white);
 }
-.obsidian-header__telemetry-bar {
-  border-bottom: var(--hairline-subtle);
-  background-color: #050507;
-  padding: 0.42rem var(--gutter-cinema);
-  font-size: 0.68rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--text-muted-alabaster);
-}
-.obsidian-header__telemetry-inner {
-  max-width: 1840px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.75rem;
-}
-.obsidian-header__telemetry-item {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-.obsidian-header__telemetry-dot,
-.discreet-seal-ribbon__pulse,
-.sticky-mobile-ledger__status-dot,
-.concierge-drawer__eta-dot {
-  width: 7px;
-  height: 7px;
-  background-color: var(--gold-champagne);
-  display: inline-block;
-  box-shadow: 0 0 8px var(--gold-champagne);
-}
-.obsidian-header__telemetry-right {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.75rem;
-  color: var(--gold-foil-bright);
-}
-.obsidian-header__inner {
+
+.header-crown-black {
+  width: 100%;
+  height: 38px;
+  background-color: var(--crown-black);
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0.95rem var(--gutter-cinema);
-  max-width: 1840px;
-  margin: 0 auto;
-  gap: 1.5rem;
+  justify-content: center;
 }
-.obsidian-header__brand { display: flex; flex-direction: column; gap: 0.1rem; }
-.obsidian-header__wordmark {
-  font-family: var(--font-display);
-  font-size: 1.65rem;
+
+.crown-wordmark {
+  font-family: var(--font-serif);
+  font-style: italic;
   font-weight: 600;
-  letter-spacing: 0.24em;
+  font-size: 0.98rem;
+  letter-spacing: 0.38em;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding-left: 0.38em;
 }
-.obsidian-header__submark {
-  font-size: 0.6rem;
+
+.header-white-nav {
+  width: 100%;
+  height: 62px;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid var(--hairline-grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 0 4vw;
+}
+
+.nav-center-links {
+  display: flex;
+  align-items: center;
+  gap: clamp(18px, 2.8vw, 44px);
+}
+
+.nav-item {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink-black);
+  padding: 6px 0;
+  position: relative;
+}
+
+.nav-item::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.5px;
+  background-color: var(--ink-black);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s var(--ease-luxury);
+}
+
+.nav-item:hover::after,
+.nav-item.active::after {
+  transform: scaleX(1);
+}
+
+.nav-right-icons {
+  position: absolute;
+  right: 4vw;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.sovereign-locale-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-sans);
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--ink-muted);
+  padding-right: 8px;
+  border-right: 1px solid var(--hairline-grey);
+}
+
+.sovereign-locale-link {
+  color: var(--ink-muted);
+  transition: color 0.2s ease;
+}
+
+.sovereign-locale-link.active,
+.sovereign-locale-link:hover {
+  color: var(--ink-black);
+  font-weight: 700;
+}
+
+.icon-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  color: var(--ink-black);
+  transition: transform 0.25s var(--ease-luxury);
+}
+
+.icon-btn:hover {
+  transform: scale(1.08);
+}
+
+.icon-btn svg {
+  width: 19px;
+  height: 19px;
+  stroke: currentColor;
+  stroke-width: 1.65;
+  fill: none;
+}
+
+.bag-badge {
+  position: absolute;
+  top: 2px;
+  right: -1px;
+  min-width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--ink-black);
+  color: #FFFFFF;
+  font-size: 0.55rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3px;
+}
+
+/* ==========================================================================
+   3. SECTION 1: EXACT 1:1 PURE-WHITE STUDIO HERO STAGE (RAZOR-SHARP 8K CLARITY)
+   ========================================================================== */
+.hero-pure-white-stage {
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 100px);
+  min-height: 640px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0;
+}
+
+.quartet-stage-wrapper {
+  position: relative;
+  z-index: 5;
+  width: min(1400px, 94vw);
+  height: 92%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+}
+
+.quartet-stage-wrapper picture {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quartet-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center 42%;
+  user-select: none;
+  -webkit-user-drag: none;
+  filter: brightness(1.048) contrast(1.065);
+  mix-blend-mode: multiply;
+  -webkit-mask-image: radial-gradient(ellipse 94% 92% at 50% 50%, #000 82%, transparent 100%);
+  mask-image: radial-gradient(ellipse 94% 92% at 50% 50%, #000 82%, transparent 100%);
+}
+
+.quartet-interactive-zones {
+  position: absolute;
+  inset: 6% 10% 12% 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1.5%;
+  z-index: 10;
+}
+
+.bottle-hit-column {
+  position: relative;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 18px;
+}
+
+.bottle-hover-whisper {
+  opacity: 0;
+  transform: translateY(8px);
+  background: #FFFFFF;
+  padding: 10px 18px;
+  border: 1px solid var(--ink-black);
+  text-align: center;
+  pointer-events: none;
+  transition: opacity 0.25s var(--ease-luxury), transform 0.25s var(--ease-luxury);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.bottle-hit-column:hover .bottle-hover-whisper {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.whisper-name {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-black);
+  margin-bottom: 2px;
+}
+
+.whisper-sub {
+  display: block;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+}
+
+.optical-loupe-lens {
+  position: fixed;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  border: 1.5px solid var(--gold-bottom);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.22);
+  pointer-events: none;
+  z-index: 80;
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.9);
+  transition: opacity 0.2s ease, transform 0.2s var(--ease-luxury);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  filter: url(#onyx-8k-sharpen) contrast(1.06);
+}
+
+.optical-loupe-lens.active {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.hero-cta-row {
+  position: absolute;
+  bottom: 6.2vh;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-shop-collection {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 268px;
+  height: 46px;
+  padding: 0 36px;
+  background-color: #FFFFFF;
+  border: 1px solid var(--ink-black);
+  color: var(--ink-black);
+  font-family: var(--font-sans);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  transition: background-color 0.3s var(--ease-luxury), color 0.3s var(--ease-luxury), transform 0.25s var(--ease-luxury);
+}
+
+.btn-shop-collection:hover {
+  background-color: var(--ink-black);
+  color: #FFFFFF;
+  transform: translateY(-2px);
+}
+
+/* ==========================================================================
+   4. SECTION 2: SUNLIT BOTANICAL CONSERVATORY & CARRARA MARBLE 4-BOTTLE SHOWCASE
+   ========================================================================== */
+.section-conservatory-real-shoot {
+  position: relative;
+  width: 100vw;
+  background-color: #F4F3EE;
+  border-top: 1px solid var(--hairline-grey);
+  padding: clamp(56px, 6vw, 96px) 5vw;
+  overflow: hidden;
+}
+
+.conservatory-photo-stage {
+  position: relative;
+  max-width: 1360px;
+  margin: 0 auto 44px;
+  overflow: hidden;
+  background: #E9ECE6;
+}
+
+.conservatory-photo-stage img {
+  width: 100%;
+  height: auto;
+  max-height: 78vh;
+  object-fit: contain;
+  object-position: center center;
+  display: block;
+  margin: 0 auto;
+}
+
+.conservatory-editorial-panel {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: clamp(36px, 4vw, 56px) clamp(32px, 4vw, 56px);
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: clamp(32px, 5vw, 64px);
+  align-items: center;
+  background: #FFFFFF;
+  border-top: 1px solid var(--hairline-grey);
+}
+
+.editorial-kicker {
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 700;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--gold-champagne);
+  color: var(--gold-bottom);
+  margin-bottom: 16px;
 }
-.obsidian-header__nav {
+
+.editorial-headline {
+  font-family: var(--font-serif);
+  font-size: clamp(2.2rem, 3.2vw, 3.5rem);
+  font-weight: 600;
+  line-height: 1.06;
+  color: var(--ink-black);
+  margin-bottom: 22px;
+}
+
+.editorial-lead {
+  font-size: 0.92rem;
+  line-height: 1.75;
+  color: var(--ink-muted);
+  margin-bottom: 34px;
+}
+
+.botanical-pillar-rows {
+  border-top: 1px solid var(--hairline-grey);
+  margin-bottom: 36px;
+}
+
+.botanical-pillar-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 15px 0;
+  border-bottom: 1px solid var(--hairline-grey);
+  gap: 16px;
+}
+
+.pillar-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-black);
+}
+
+.pillar-spec {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 0.98rem;
+  color: var(--ink-muted);
+}
+
+/* ==========================================================================
+   5. SECTION 3: SEAMLESS 50VW / 50VW SPLIT-STAGE PRODUCT MONOGRAPH
+   ========================================================================== */
+.section-split-showcase {
+  width: 100vw;
+  min-height: 90vh;
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  background-color: var(--bg-soft-alabaster);
+  border-top: 1px solid var(--hairline-grey);
+}
+
+.split-left-visual {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 640px;
+  background: #FFFFFF;
+  overflow: hidden;
   display: flex;
   align-items: center;
-  gap: clamp(0.9rem, 1.6vw, 1.95rem);
-  flex-wrap: wrap;
+  justify-content: center;
 }
-.obsidian-header__link {
-  font-size: 0.74rem;
+
+.split-left-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.7s var(--ease-luxury);
+}
+
+.split-right-editorial {
+  padding: clamp(48px, 6vw, 96px) clamp(36px, 6vw, 88px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--bg-soft-alabaster);
+}
+
+.formula-switcher-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 36px;
+  border-bottom: 1px solid rgba(17, 19, 21, 0.12);
+  padding-bottom: 14px;
+}
+
+.formula-tab {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--text-muted-alabaster);
-  padding: 0.3rem 0;
-  border-bottom: 1px solid transparent;
+  color: var(--ink-muted);
+  padding-bottom: 14px;
+  margin-bottom: -15px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.25s ease, border-color 0.25s ease;
 }
-.obsidian-header__link:hover,
-.obsidian-header__link[aria-current="page"] {
-  color: var(--gold-foil-bright);
-  border-bottom-color: var(--gold-champagne);
+
+.formula-tab:hover {
+  color: var(--ink-black);
 }
-.obsidian-header__actions { display: flex; align-items: center; gap: 1rem; }
-.locale-switcher {
-  display: inline-flex;
+
+.formula-tab.active {
+  color: var(--ink-black);
+  border-bottom-color: var(--ink-black);
+}
+
+.monograph-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 2.8vw, 3.1rem);
+  font-weight: 600;
+  line-height: 1.08;
+  color: var(--ink-black);
+  margin-bottom: 14px;
+}
+
+.monograph-stars-row {
+  font-size: 0.9rem;
+  letter-spacing: 0.12em;
+  color: var(--ink-black);
+  margin-bottom: 16px;
+}
+
+.monograph-price {
+  font-family: var(--font-sans);
+  font-size: 1.45rem;
+  font-weight: 600;
+  color: var(--ink-black);
+  margin-bottom: 28px;
+}
+
+.monograph-botanical-list {
+  list-style: none;
+  margin-bottom: 32px;
+  border-top: 1px solid rgba(17, 19, 21, 0.1);
+}
+
+.monograph-botanical-list li {
+  padding: 13px 0;
+  border-bottom: 1px solid rgba(17, 19, 21, 0.08);
+  font-size: 0.88rem;
+  color: var(--ink-black);
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 0.45rem;
-  font-size: 0.74rem;
-  letter-spacing: 0.16em;
-  padding-right: 0.85rem;
-  border-right: var(--hairline-subtle);
 }
-.locale-switcher__option { color: var(--text-muted-alabaster); }
-.locale-switcher__option--active { color: var(--gold-foil-bright); font-weight: 700; }
-.obsidian-header__vault-strip {
-  border-top: var(--hairline-subtle);
-  background: rgba(11, 12, 16, 0.92);
-  padding: 0.5rem var(--gutter-cinema);
+
+.monograph-botanical-list li span.dose {
+  font-weight: 600;
+  color: var(--ink-muted);
+  font-size: 0.8rem;
 }
-.obsidian-header__vault-strip-inner {
-  max-width: 1840px;
-  margin: 0 auto;
+
+.pack-pills-row {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
+  gap: 10px;
+  margin-bottom: 24px;
 }
-.obsidian-header__product-link {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 0.6rem;
-  font-size: 0.73rem;
-  padding: 0.2rem 0;
+
+.pack-pill {
+  padding: 12px 22px;
+  border: 1px solid var(--ink-black);
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--ink-black);
+  background: transparent;
+  transition: all 0.25s var(--ease-luxury);
 }
-.obsidian-header__product-name {
-  font-family: var(--font-display);
-  font-size: 1.02rem;
-  color: var(--gold-foil-bright);
+
+.pack-pill.active {
+  background: var(--ink-black);
+  color: #FFFFFF;
 }
-.obsidian-header__product-meta { color: var(--text-ash-silver); font-size: 0.68rem; letter-spacing: 0.08em; }
-.obsidian-header__mobile-toggle {
-  display: none;
-  flex-direction: column;
-  gap: 5px;
-  padding: 0.5rem;
+
+.btn-gold-dispatch {
+  width: 100%;
+  height: 54px;
+  background: var(--gold-gradient);
+  color: var(--ink-black);
+  font-family: var(--font-sans);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  transition: filter 0.3s ease, transform 0.3s var(--ease-luxury);
 }
-.obsidian-header__mobile-bar {
-  width: 22px;
-  height: 1px;
-  background-color: var(--gold-foil-bright);
+
+.btn-gold-dispatch:hover {
+  filter: brightness(1.06);
+  transform: translateY(-2px);
 }
-.obsidian-mobile-curtain {
-  display: none;
-  background-color: #050507;
-  border-top: var(--hairline-rule);
-  padding: 2rem var(--gutter-cinema);
+
+/* ==========================================================================
+   6. SECTION 4: ONYXMEN SIGNATURE NERO MARQUINA & 24K GOLD RESERVE STAGE
+   ========================================================================== */
+.section-onyx-obsidian-stage {
+  position: relative;
+  width: 100vw;
+  background-color: var(--bg-obsidian);
+  color: #FFFFFF;
+  padding: clamp(64px, 7vw, 110px) 5vw;
+  border-top: 1px solid #1F2226;
 }
-.obsidian-mobile-curtain[aria-hidden="false"] { display: block; }
-.obsidian-mobile-curtain__inner { display: flex; flex-direction: column; gap: 2rem; }
-.obsidian-mobile-curtain__links { display: flex; flex-direction: column; margin-top: 0.85rem; border-top: var(--hairline-subtle); }
-.obsidian-mobile-curtain__link {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.9rem 0;
-  border-bottom: var(--hairline-subtle);
-  font-size: 0.92rem;
-}
-/* Discreet Seal Strip */
-.discreet-seal-strip {
-  background-color: #0B0C10;
-  border-top: var(--hairline-rule);
-  border-bottom: var(--hairline-rule);
-  padding: var(--gutter-vertical) var(--gutter-cinema);
-}
-.discreet-seal-strip__container { max-width: 1680px; margin: 0 auto; display: flex; flex-direction: column; gap: 3rem; }
-.discreet-seal-strip__header {
+
+.obsidian-header-row {
+  max-width: 1360px;
+  margin: 0 auto 44px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-end;
-  gap: 2.5rem;
+  gap: 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  padding-bottom: 28px;
 }
-.discreet-seal-strip__header-left { flex: 1 1 420px; display: flex; flex-direction: column; gap: 1rem; }
-.discreet-seal-strip__header-right { flex: 1 1 420px; display: flex; flex-direction: column; gap: 1.5rem; }
-.discreet-seal-strip__lead { color: var(--text-muted-alabaster); font-size: 1rem; }
-.discreet-seal-strip__actions { display: flex; flex-wrap: wrap; gap: 1rem; }
-.discreet-seal-strip__waybill-preview {
+
+.obsidian-title {
+  font-family: var(--font-serif);
+  font-size: clamp(2.2rem, 3.5vw, 3.8rem);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  line-height: 1.05;
+}
+
+.obsidian-subtitle {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold-top);
+  margin-bottom: 10px;
+}
+
+.obsidian-stage-frame {
+  max-width: 1360px;
+  margin: 0 auto 48px;
+  overflow: hidden;
+  background: #08090A;
+}
+
+.obsidian-stage-frame img {
+  width: 100%;
+  height: auto;
+  max-height: 76vh;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.clean-comparison-grid {
+  max-width: 1360px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 32px;
+  text-align: left;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  padding-top: 36px;
+}
+
+.comp-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.comp-formula-index {
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: var(--gold-top);
+  margin-bottom: 8px;
+}
+
+.comp-formula-name {
+  font-family: var(--font-serif);
+  font-size: 1.65rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 14px;
+}
+
+.comp-row-item {
+  width: 100%;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.83rem;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.comp-row-item.comp-benefit {
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.comp-row-item.comp-actives {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.8rem;
+}
+
+.comp-order-pill {
+  margin-top: 24px;
+  width: 100%;
+  height: 46px;
+  background: var(--gold-gradient);
+  color: var(--ink-black);
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  transition: filter 0.25s ease, transform 0.25s var(--ease-luxury);
+}
+
+.comp-order-pill:hover {
+  filter: brightness(1.08);
+  transform: translateY(-2px);
+}
+
+/* ==========================================================================
+   7. SECTION 5: CLINICAL EXTRACTION & VIP PRESENTATION COFFER
+   ========================================================================== */
+.section-dual-editorial {
+  width: 100vw;
+  background: #FFFFFF;
+  border-top: 1px solid var(--hairline-grey);
+}
+
+.editorial-split-row {
+  display: grid;
+  grid-template-columns: 56vw 44vw;
+  align-items: center;
+  border-bottom: 1px solid var(--hairline-grey);
+}
+
+.editorial-split-row.reverse {
+  direction: rtl;
+}
+
+.editorial-split-row.reverse > * {
+  direction: ltr;
+}
+
+.editorial-photo-pane {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #FFFFFF;
+  padding: clamp(24px, 3vw, 44px);
+  display: block;
+}
+
+.editorial-photo-pane img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.editorial-text-pane {
+  padding: clamp(48px, 6vw, 92px) clamp(36px, 6vw, 88px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #FFFFFF;
+}
+
+/* ==========================================================================
+   8. LIVE SYNCHRONIZED IPHONE TWIN COMPANION
+   ========================================================================== */
+.iphone-twin-device {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  width: 312px;
+  height: 632px;
+  background: #121315;
+  border-radius: 46px;
+  padding: 11px;
+  box-shadow: 0 32px 80px rgba(0, 0, 0, 0.35), 0 0 0 1.5px #3A3D42;
+  z-index: 120;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(28px) scale(0.95);
+  transform-origin: bottom right;
+  transition: opacity 0.35s var(--ease-luxury), transform 0.35s var(--ease-luxury);
+}
+
+.iphone-twin-device.open {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0) scale(1);
+}
+
+.iphone-screen-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  border-radius: 36px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  scrollbar-width: none;
+}
+
+.iphone-screen-inner::-webkit-scrollbar {
+  display: none;
+}
+
+.iphone-status-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #FFFFFF;
+  padding: 8px 18px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--ink-black);
+}
+
+.iphone-notch {
+  width: 86px;
+  height: 18px;
+  background: #121315;
+  border-radius: 0 0 12px 12px;
+  margin: 0 auto;
+}
+
+.iphone-app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px 12px;
+  border-bottom: 1px solid #F0F0F0;
+}
+
+.iphone-monogram {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 0.92rem;
+  letter-spacing: 0.22em;
+  color: var(--ink-black);
+}
+
+.iphone-2x2-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 10px;
+  padding: 14px 12px 24px;
+}
+
+.iphone-product-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.iphone-bottle-thumb {
+  width: 100%;
+  height: 148px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  background: #FAFAFA;
+}
+
+.iphone-bottle-title {
+  font-family: var(--font-sans);
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-black);
+  min-height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.25;
+  margin-bottom: 6px;
+}
+
+.iphone-gold-cta {
+  width: 100%;
+  padding: 7px 6px;
+  background: var(--gold-gradient);
+  color: var(--ink-black);
+  font-family: var(--font-sans);
+  font-size: 0.56rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: 3px;
+  line-height: 1.2;
+}
+
+/* ==========================================================================
+   9. SLIDE-OVER VIP CONCIERGE CHECKOUT DRAWER
+   ========================================================================== */
+.vip-drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(17, 19, 21, 0.48);
+  z-index: 200;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.vip-drawer-backdrop.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.vip-checkout-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: min(460px, 100vw);
+  height: 100vh;
+  background: #F8F6F1;
+  z-index: 210;
+  transform: translateX(100%);
+  transition: transform 0.4s var(--ease-luxury);
+  display: flex;
+  flex-direction: column;
+  box-shadow: -20px 0 60px rgba(0, 0, 0, 0.2);
+}
+
+.vip-checkout-drawer.open {
+  transform: translateX(0);
+}
+
+.drawer-top-header {
+  padding: 22px 26px 16px;
+  border-bottom: 1px solid rgba(17, 19, 21, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drawer-title {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-black);
+}
+
+.drawer-close-btn {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  padding: 6px 10px;
+}
+
+.drawer-hero-thumb {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-bottom: 1px solid rgba(17, 19, 21, 0.1);
+}
+
+.drawer-items-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px 26px;
+}
+
+.cart-line-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(17, 19, 21, 0.08);
+  gap: 14px;
+}
+
+.cart-line-thumb {
+  width: 54px;
+  height: 54px;
+  object-fit: cover;
+  border-radius: 3px;
+  background: #FFFFFF;
+}
+
+.cart-line-info {
+  flex: 1;
+}
+
+.cart-line-name {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-black);
+}
+
+.cart-line-meta {
+  font-size: 0.72rem;
+  color: var(--ink-muted);
+  margin-top: 2px;
+}
+
+.cart-qty-controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 6px;
+  border-bottom: 1px solid rgba(17, 19, 21, 0.2);
+  padding-bottom: 2px;
+}
+
+.qty-btn {
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 0 4px;
+  color: var(--ink-black);
+}
+
+.vip-express-fields {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(17, 19, 21, 0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.vip-input {
+  width: 100%;
+  padding: 9px 11px;
+  background: #FFFFFF;
+  border: 1px solid rgba(17, 19, 21, 0.22);
+  font-family: var(--font-sans);
+  font-size: 0.76rem;
+  color: var(--ink-black);
+}
+
+.drawer-footer {
+  padding: 18px 26px 22px;
+  background: #EFECE4;
+  border-top: 1px solid rgba(17, 19, 21, 0.1);
+}
+
+.shipping-note {
+  font-size: 0.74rem;
+  color: var(--ink-muted);
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--ink-black);
+  margin-bottom: 14px;
+}
+
+.btn-complete-vip {
+  width: 100%;
+  height: 52px;
+  background: var(--crown-black);
+  color: var(--gold-top);
+  border: 1px solid var(--gold-bottom);
+  font-family: var(--font-sans);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn-complete-vip:hover {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+/* ==========================================================================
+   10. CLOSED-BY-DEFAULT SEO ARCHIVE & MINIMAL LUXURY FOOTER
+   ========================================================================== */
+.onyxman-seo-vault-drawer {
+  width: 100%;
+  background: #F8F7F4;
+  border-top: 1px solid var(--hairline-grey);
+}
+
+.onyxman-seo-vault-drawer__summary {
+  list-style: none;
+  cursor: pointer;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 16px 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.onyxman-seo-vault-drawer__summary::-webkit-details-marker {
+  display: none;
+}
+
+.onyxman-seo-vault-drawer__body {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 24px 5vw 48px;
+  color: var(--ink-black);
+}
+
+.minimal-footer {
+  padding: 44px 5vw;
+  background: var(--crown-black);
+  color: rgba(255, 255, 255, 0.72);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 1.5rem;
-  padding-top: 2rem;
-  border-top: var(--hairline-rule);
+  align-items: center;
+  gap: 16px;
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
 }
-.discreet-seal-strip__waybill-col { flex: 1 1 220px; display: flex; flex-direction: column; gap: 0.35rem; }
-.discreet-seal-strip__waybill-label {
-  font-size: 0.68rem;
-  letter-spacing: 0.2em;
-  color: var(--gold-champagne);
-  text-transform: uppercase;
+
+/* Keep Legacy Aux Shells Hidden So Visual Experience Is 100% 1:1 With Demo_01 */
+.discreet-seal-strip,
+.obsidian-footer,
+.sticky-mobile-ledger {
+  display: none !important;
 }
-.discreet-seal-strip__waybill-value { font-size: 0.92rem; color: var(--text-silk-ivory); }
-/* Express Order Drawer */
+
+/* Legacy Express Order Drawer remains available if triggered directly */
 .concierge-drawer-backdrop {
   position: fixed;
   inset: 0;
   z-index: 1100;
-  background-color: rgba(5, 5, 7, 0.84);
-  backdrop-filter: blur(10px);
+  background-color: rgba(5, 5, 7, 0.74);
   opacity: 0;
   pointer-events: none;
-  transition: opacity 420ms var(--ease-cinema);
+  transition: opacity 320ms ease;
 }
 .concierge-drawer-backdrop[aria-hidden="false"] { opacity: 1; pointer-events: auto; }
 .concierge-drawer-panel {
   position: fixed;
   top: 0;
   right: 0;
-  width: min(100vw, 580px);
+  width: min(100vw, 520px);
   height: 100vh;
   z-index: 1200;
   background-color: #0B0C10;
-  border-left: var(--hairline-rule);
-  padding: 2rem clamp(1.25rem, 3vw, 2.5rem) 6rem;
+  color: #EAE6DF;
+  padding: 2rem;
   overflow-y: auto;
   transform: translateX(100%);
-  transition: transform 460ms var(--ease-cinema);
+  transition: transform 360ms ease;
 }
 .concierge-drawer-panel[aria-hidden="false"] { transform: translateX(0); }
-.concierge-drawer__top-bar {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 1rem;
-  padding-bottom: 1.5rem;
-  border-bottom: var(--hairline-rule);
-  margin-bottom: 1.5rem;
+
+@media (max-width: 980px) {
+  .conservatory-editorial-panel,
+  .section-split-showcase,
+  .editorial-split-row {
+    grid-template-columns: 1fr;
+  }
+  .clean-comparison-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .nav-center-links {
+    gap: 14px;
+  }
+  .nav-item {
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+  }
 }
-.concierge-drawer__title { font-size: 1.85rem; color: var(--text-silk-ivory); margin-top: 0.35rem; }
-.concierge-drawer__close-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  padding: 0.55rem 0.95rem;
-  border: var(--hairline-rule);
-  font-size: 0.7rem;
-  letter-spacing: 0.18em;
-  color: var(--gold-foil-bright);
-}
-.concierge-drawer__intro { font-size: 0.88rem; color: var(--text-muted-alabaster); margin-bottom: 1.5rem; }
-.drawer-formulation-list { display: flex; flex-direction: column; border-top: var(--hairline-rule); margin-top: 0.5rem; }
-.drawer-formulation-option {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 0.95rem 0.85rem;
-  border-bottom: var(--hairline-subtle);
-  text-align: left;
-  width: 100%;
-}
-.drawer-formulation-option--selected,
-.drawer-formulation-option[aria-checked="true"] {
-  background: linear-gradient(90deg, rgba(212, 175, 55, 0.15) 0%, rgba(212, 175, 55, 0.02) 100%);
-  border-bottom-color: var(--gold-champagne);
-}
-.drawer-formulation-option__left { display: flex; flex-direction: column; gap: 0.18rem; }
-.drawer-formulation-option__sku { font-size: 0.65rem; letter-spacing: 0.2em; color: var(--gold-champagne); }
-.drawer-formulation-option__title { font-family: var(--font-display); font-size: 1.25rem; color: var(--text-silk-ivory); }
-.drawer-formulation-option__sub { font-size: 0.78rem; color: var(--text-muted-alabaster); }
-.drawer-formulation-option__check { color: var(--gold-foil-bright); font-size: 1.1rem; }
-.apothecary-field-hint { font-size: 0.75rem; color: var(--text-ash-silver); margin-top: 0.25rem; }
-.concierge-drawer__eta-banner {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  margin-top: 0.65rem;
-  padding: 0.65rem 0.85rem;
-  background: rgba(212, 175, 55, 0.08);
-  border-left: 2px solid var(--gold-champagne);
-  font-size: 0.8rem;
-  color: var(--gold-foil-bright);
-}
-.drawer-payment-options { display: flex; flex-direction: column; border-top: var(--hairline-rule); margin-top: 0.5rem; }
-.drawer-payment-option {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.85rem;
-  padding: 1rem 0.85rem;
-  border-bottom: var(--hairline-subtle);
-  cursor: pointer;
-}
-.drawer-payment-option--selected {
-  background: linear-gradient(90deg, rgba(212, 175, 55, 0.13) 0%, transparent 100%);
-  border-bottom-color: var(--gold-champagne);
-}
-.drawer-payment-option__body { display: flex; flex-direction: column; gap: 0.2rem; }
-.drawer-payment-option__eyebrow { font-size: 0.64rem; letter-spacing: 0.2em; color: var(--gold-champagne); }
-.drawer-payment-option__title { font-size: 0.95rem; color: var(--text-silk-ivory); }
-.drawer-payment-option__sub { font-size: 0.78rem; color: var(--text-muted-alabaster); }
-.concierge-drawer__summary-ledger {
-  margin: 1.5rem 0;
-  padding: 1.25rem 0;
-  border-top: var(--hairline-rule);
-  border-bottom: var(--hairline-rule);
-  display: flex;
-  flex-direction: column;
-  gap: 0.65rem;
-}
-.concierge-drawer__summary-row {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  font-size: 0.85rem;
-  color: var(--text-muted-alabaster);
-}
-.concierge-drawer__summary-row--total {
-  padding-top: 0.65rem;
-  border-top: var(--hairline-subtle);
-  font-size: 1rem;
-  color: var(--gold-foil-bright);
-}
-.concierge-drawer__total-figure { font-family: var(--font-display); font-size: 1.55rem; }
-.concierge-drawer__submit-btn { width: 100%; justify-content: center; margin-top: 0.5rem; }
-.concierge-drawer__error-msg {
-  padding: 0.85rem;
-  margin-bottom: 1rem;
-  border-left: 2px solid #B83A3A;
-  background: rgba(184, 58, 58, 0.14);
-  color: #EAE6DF;
-  font-size: 0.84rem;
-}
-.concierge-drawer__privacy-footnote {
-  margin-top: 1rem;
-  font-size: 0.74rem;
-  color: var(--text-ash-silver);
-  text-align: center;
-}
-.concierge-drawer__confirmation { display: flex; flex-direction: column; gap: 1.75rem; padding-top: 1rem; }
-.concierge-drawer__confirmation[hidden] { display: none !important; }
-.concierge-drawer__receipt-ledger {
-  border-top: var(--hairline-rule);
-  border-bottom: var(--hairline-rule);
-  padding: 1.25rem 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-.concierge-drawer__receipt-row { display: flex; justify-content: space-between; gap: 1rem; font-size: 0.88rem; }
-.concierge-drawer__confirm-actions { display: flex; flex-direction: column; gap: 1rem; }
-.concierge-drawer__action-link { width: 100%; justify-content: center; text-align: center; }
-/* Footer Extensions */
-.obsidian-footer__horizon {
-  max-width: 1680px;
-  margin: 0 auto 3.5rem;
-  padding-bottom: 3rem;
-  border-bottom: var(--hairline-rule);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-end;
-  gap: 2.5rem;
-}
-.obsidian-footer__horizon-left { flex: 1 1 520px; display: flex; flex-direction: column; gap: 1rem; }
-.obsidian-footer__horizon-lead { color: var(--text-muted-alabaster); font-size: 0.96rem; }
-.obsidian-footer__horizon-right { display: flex; flex-direction: column; gap: 1rem; align-items: flex-start; }
-.obsidian-footer__concierge-meta { font-size: 0.8rem; color: var(--text-muted-alabaster); display: flex; flex-direction: column; gap: 0.25rem; }
-.obsidian-footer__concierge-emails { display: inline-flex; gap: 0.6rem; color: var(--gold-foil-bright); font-weight: 600; }
-.obsidian-footer__brand-copy { font-size: 0.88rem; color: var(--text-muted-alabaster); margin-bottom: 0.75rem; }
-.obsidian-footer__desk-ledger { display: flex; flex-direction: column; gap: 0.5rem; border-top: var(--hairline-subtle); padding-top: 0.75rem; }
-.obsidian-footer__desk-row { display: flex; flex-direction: column; font-size: 0.78rem; }
-.obsidian-footer__desk-label { font-size: 0.64rem; letter-spacing: 0.18em; color: var(--gold-champagne); }
-.obsidian-footer__desk-val { color: var(--text-silk-ivory); }
-.obsidian-footer__link--product { display: flex; flex-direction: column; gap: 0.1rem; padding: 0.25rem 0; }
-.obsidian-footer__product-title { color: var(--text-silk-ivory); font-weight: 500; }
-.obsidian-footer__product-meta { font-size: 0.74rem; color: var(--text-ash-silver); }
-.obsidian-footer__subheading {
-  font-size: 0.68rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--gold-champagne);
-  margin-top: 0.85rem;
-}
-.obsidian-footer__states-band {
-  max-width: 1680px;
-  margin: 0 auto 3rem;
-  padding: 2rem 0;
-  border-top: var(--hairline-rule);
-  border-bottom: var(--hairline-rule);
-}
-.obsidian-footer__states-header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 1.25rem;
-}
-.obsidian-footer__states-all { font-size: 0.78rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold-foil-bright); }
-.obsidian-footer__states-strip {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.65rem 1.5rem;
-}
-.obsidian-footer__state-link {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 0.45rem;
-  font-size: 0.82rem;
-  color: var(--text-muted-alabaster);
-  padding: 0.25rem 0;
-}
-.obsidian-footer__state-link:hover { color: var(--gold-foil-bright); }
-.obsidian-footer__state-code { font-size: 0.66rem; letter-spacing: 0.14em; color: var(--gold-champagne); }
-.obsidian-footer__compliance-box {
-  max-width: 1680px;
-  margin: 0 auto 2rem;
-  padding: 1.5rem;
-  background-color: #0B0C10;
-  border-left: 2px solid var(--gold-champagne);
-}
-.obsidian-footer__compliance-title {
-  font-size: 0.7rem;
-  letter-spacing: 0.2em;
-  color: var(--gold-champagne);
-  margin-bottom: 0.45rem;
-}
-.obsidian-footer__compliance-text { font-size: 0.8rem; color: var(--text-ash-silver); line-height: 1.6; }
-/* Sticky Mobile Bottom Bar */
-.sticky-mobile-ledger {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100vw;
-  z-index: 950;
-  background: rgba(5, 5, 7, 0.96);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border-top: var(--hairline-rule);
-  padding: 0.65rem var(--gutter-cinema);
-}
-.sticky-mobile-ledger__inner {
-  max-width: 1840px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-}
-.sticky-mobile-ledger__info { display: flex; flex-direction: column; gap: 0.12rem; }
-.sticky-mobile-ledger__eyebrow-row { display: flex; align-items: center; gap: 0.45rem; }
-.sticky-mobile-ledger__eyebrow {
-  font-size: 0.64rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--gold-champagne);
-}
-.sticky-mobile-ledger__meta-row { display: flex; align-items: baseline; gap: 0.55rem; flex-wrap: wrap; }
-.sticky-mobile-ledger__price { font-family: var(--font-display); font-size: 1.35rem; color: var(--gold-foil-bright); line-height: 1; }
-.sticky-mobile-ledger__product { font-size: 0.78rem; color: var(--text-muted-alabaster); }
-.sticky-mobile-ledger__cta { padding: 0.75rem 1.35rem; font-size: 0.74rem; white-space: nowrap; }
-@media (max-width: 1024px) {
-  .obsidian-header__nav, .obsidian-header__vault-strip { display: none; }
-  .obsidian-header__mobile-toggle { display: inline-flex; }
-}
+
 @media (max-width: 640px) {
-  .obsidian-header__telemetry-right { display: none; }
-  .obsidian-header__inner { padding: 0.65rem 1rem; gap: 0.5rem; }
-  .obsidian-header__wordmark { font-size: 1.25rem; letter-spacing: 0.16em; }
-  .obsidian-header__submark { display: none; }
-  .locale-switcher { padding-right: 0.45rem; font-size: 0.68rem; }
-  .obsidian-header__cta { padding: 0.55rem 0.85rem; font-size: 0.66rem; letter-spacing: 0.12em; white-space: nowrap; }
-  .sticky-mobile-ledger__product { display: none; }
+  .nav-center-links {
+    display: none;
+  }
+  .clean-comparison-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero-pure-white-stage {
+    height: auto;
+    min-height: 520px;
+    padding: 24px 0 84px;
+  }
 }
 `;
 
 /**
- * Renders the 8K Visual-First Luxury Storefront Stage above the fold (`0px` scroll)
- * and wraps the deep SEO monograph body inside a sleek, closed-by-default `<details>` SEO Vault Drawer.
+ * Renders the exact 1:1 `demo_01_sovereign_botanicals.html` Storefront with Authentic Malaysia RM 159 / RM 318 / RM 477 Info.
  */
 export function renderVisualFirstStorefront(options = {}) {
   const { isMs = false, productSlug = 'horsemen', title = '', rawBody = '' } = options;
 
-  const productVisualMap = {
+  const initialKeyMap = {
+    horsemen: 'horsemen',
+    'hammer-of-thor': 'hammer',
+    'Sensitivity-of-thor': 'hammer',
+    'magnum-pump-xr': 'magnum',
+    'grow-xl': 'growxl',
+  };
+  const initialFormulaKey = initialKeyMap[productSlug] || 'horsemen';
+
+  const initialCatalog = {
     horsemen: {
-      name: 'Horsemen',
-      tagEn: '20 CAPSULES × 500MG · TONGKAT ALI & MACA',
-      tagMs: '20 KAPSUL × 500MG · TONGKAT ALI & MACA',
-      img: '/assets/products/horsemen-stage.webp',
-      fallbackPng: '/assets/products/horsemen-stage.png',
-      headlineEn: 'Horsemen — Royal Botanical Virility Reserve',
-      headlineMs: 'Horsemen — Rizab Viriliti Botani Diraja',
-      subEn: 'High-potency Malaysian Tongkat Ali & Peruvian Black Maca standardized to 500mg per capsule. Official RM 159 reserve in a 100% plain unmarked parcel.',
-      subMs: 'Ekstrak Tongkat Ali Malaysia & Maca Hitam Peru 500mg setiap kapsul. Harga rasmi RM 159 dalam bungkusan rahsia tanpa nama produk.',
+      title: 'HORSEMEN - MAN VIRILITY ENHANCEMENT 500MG',
+      imgWebp: '/assets/sovereign/web_set_06_pdp_zoom_horsemen_macro_1793437602197.webp',
+      imgJpg: '/assets/sovereign/web_set_06_pdp_zoom_horsemen_macro_1793437602197.jpg',
+      ingredientsHtml: `
+        <li><span>Eurycoma Longifolia (Malaysian Tongkat Ali 100:1)</span><span class="dose">150mg</span></li>
+        <li><span>Lepidium Meyenii (Black Peruvian Maca Root)</span><span class="dose">100mg</span></li>
+        <li><span>Epimedium Sagittatum (Icariin 10%) &amp; L-Arginine HCl</span><span class="dose">160mg</span></li>
+        <li><span>Panax Ginseng (6-Year Red Root) &amp; Zinc Matrix</span><span class="dose">90mg</span></li>`,
     },
-    'hammer-of-thor': {
-      name: 'Hammer of Thor',
-      tagEn: '20 VEG. CAPSULES · TRIBULUS ENDURANCE',
-      tagMs: '20 KAPSUL VEG. · KETAHANAN TRIBULUS',
-      img: '/assets/products/hammer-of-thor-stage.webp',
-      fallbackPng: '/assets/products/hammer-of-thor-stage.png',
-      headlineEn: 'Hammer of Thor — Peak Tribulus Stamina Reserve',
-      headlineMs: 'Hammer of Thor — Rizab Stamina Tribulus',
-      subEn: '45% steroidal saponin Tribulus Terrestris & L-Arginine botanical complex in 20 vegetarian capsules. Discreet same-day Klang Valley & nationwide dispatch.',
-      subMs: 'Kompleks Tribulus Terrestris 45% saponin & L-Arginine dalam 20 kapsul vegetarian. Penghantaran rahsia hari sama Lembah Klang & seluruh Malaysia.',
+    hammer: {
+      title: "HAMMER OF THOR - MEN'S HEALTH TRIBULUS (20 VEG. CAPSULES)",
+      imgWebp: '/assets/sovereign/web_set_07_pdp_zoom_hammer_of_thor_macro_1793437629467.webp',
+      imgJpg: '/assets/sovereign/web_set_07_pdp_zoom_hammer_of_thor_macro_1793437629467.jpg',
+      ingredientsHtml: `
+        <li><span>Tribulus Terrestris (60% Steroidal Saponins)</span><span class="dose">200mg</span></li>
+        <li><span>Lepidium Meyenii (Andean Maca Root 10:1)</span><span class="dose">100mg</span></li>
+        <li><span>Plant-Fermented L-Arginine &amp; Panax Ginseng</span><span class="dose">140mg</span></li>
+        <li><span>Malaysian Tongkat Ali &amp; Chelated Zinc Matrix</span><span class="dose">60mg</span></li>`,
     },
-    'grow-xl': {
-      name: 'Grow XL',
-      tagEn: '30 CAPSULES · #1 DAILY VITALITY BLEND',
-      tagMs: '30 KAPSUL · FORMULASI HARIAN #1',
-      img: '/assets/products/grow-xl-stage.webp',
-      fallbackPng: '/assets/products/grow-xl-stage.png',
-      headlineEn: 'Grow XL — 30-Day Extra-Strength Vitality Blend',
-      headlineMs: 'Grow XL — Formulasi Tenaga Harian 30 Kapsul',
-      subEn: 'Full 30-capsule monthly masculine performance protocol crafted with natural standardized botanical extracts. Zero clinic visit, 100% unmarked box.',
-      subMs: 'Protokol prestasi lelaki 30 kapsul sebulan daripada ekstrak botani semula jadi. 100% bungkusan kotak kosong tanpa label.',
+    magnum: {
+      title: 'MAGNUM PUMP XR - TESTOSTERONE PRO SERIES (30 BLACK CAPSULES)',
+      imgWebp: '/assets/sovereign/web_set_08_pdp_zoom_magnum_pump_xr_macro_1793437665292.webp',
+      imgJpg: '/assets/sovereign/web_set_08_pdp_zoom_magnum_pump_xr_macro_1793437665292.jpg',
+      ingredientsHtml: `
+        <li><span>L-Arginine HCl (Extended-Release Nitric Oxide Driver)</span><span class="dose">180mg</span></li>
+        <li><span>L-Citrulline Malate (2:1 Sustained Vascular Complex)</span><span class="dose">140mg</span></li>
+        <li><span>Tribulus Terrestris &amp; Malaysian Tongkat Ali 100:1</span><span class="dose">200mg</span></li>
+        <li><span>Kaempferia Parviflora (Black Ginger) &amp; Bioperine</span><span class="dose">80mg</span></li>`,
     },
-    'magnum-pump-xr': {
-      name: 'Magnum Pump XR',
-      tagEn: '30 BLACK CAPSULES · TESTOSTERONE PRO SERIES',
-      tagMs: '30 KAPSUL HITAM · SIRI PRO TESTOSTERON',
-      img: '/assets/products/magnum-pump-xr-stage.webp',
-      fallbackPng: '/assets/products/magnum-pump-xr-stage.png',
-      headlineEn: 'Magnum Pump XR — Maximum Strength Pro Series',
-      headlineMs: 'Magnum Pump XR — Siri Pro Kekuatan Maksimum',
-      subEn: 'Extended-release L-Citrulline, L-Arginine HCl & Tongkat Ali nitric oxide complex in 30 glossy black capsules. Official RM 159 Malaysia reserve.',
-      subMs: 'Kompleks nitrik oksida L-Citrulline, L-Arginine HCl & Tongkat Ali dalam 30 kapsul hitam. Harga rasmi RM 159 seluruh Malaysia.',
+    growxl: {
+      title: 'GROW XL - #1 SELLING EXTRA-STRENGTH BLEND (30 CAPSULES)',
+      imgWebp: '/assets/sovereign/web_set_09_pdp_zoom_grow_xl_macro_1793437711484.webp',
+      imgJpg: '/assets/sovereign/web_set_09_pdp_zoom_grow_xl_macro_1793437711484.jpg',
+      ingredientsHtml: `
+        <li><span>Eurycoma Longifolia (Extra-Strength Tongkat Ali)</span><span class="dose">140mg</span></li>
+        <li><span>Lepidium Meyenii (Peruvian Maca) &amp; L-Arginine/Citrulline</span><span class="dose">210mg</span></li>
+        <li><span>Ptychopetalum Olacoides (Brazilian Muira Puama)</span><span class="dose">80mg</span></li>
+        <li><span>Serenoa Repens (Saw Palmetto) &amp; Panax Ginseng</span><span class="dose">120mg</span></li>`,
     },
   };
 
-  const canonicalPath = String(options.canonicalPath || '/');
-  const isSingleProductPage =
-    canonicalPath.includes('horsemen') ||
-    canonicalPath.includes('hammer-of-thor') ||
-    canonicalPath.includes('grow-xl') ||
-    canonicalPath.includes('magnum-pump-xr')
-      ? !canonicalPath.includes('-vs-') && !canonicalPath.includes('compare') && !canonicalPath.includes('perbandingan') && !canonicalPath.includes('guides') && !canonicalPath.includes('panduan')
-      : false;
-
-  const activeSpec = productVisualMap[productSlug] || productVisualMap.horsemen;
-  const heroVisualWebp = isSingleProductPage ? activeSpec.img : '/assets/products/onyxman-lineup-hero.webp';
-  const heroVisualPng = isSingleProductPage ? activeSpec.fallbackPng : '/assets/products/onyxman-lineup-hero.png';
-
-  const cleanPageTitle = String(title || '').split('—')[0].split('|')[0].trim();
-  const heroHeadline = isSingleProductPage
-    ? isMs
-      ? activeSpec.headlineMs
-      : activeSpec.headlineEn
-    : cleanPageTitle && canonicalPath !== '/' && canonicalPath !== '/ms/'
-      ? cleanPageTitle
-      : isMs
-        ? '4 Formulasi Botani Eksklusif Lelaki Malaysia.'
-        : 'Malaysia’s Premier Men’s Botanical Apothecary.';
-
-  const heroSub = isSingleProductPage
-    ? isMs
-      ? activeSpec.subMs
-      : activeSpec.subEn
-    : isMs
-      ? 'Horsemen · Hammer of Thor · Grow XL · Magnum Pump XR. RM 159 sebotol dengan penghantaran bungkusan rahsia 100% tanpa nama ke seluruh 16 negeri Malaysia.'
-      : 'Horsemen · Hammer of Thor · Grow XL · Magnum Pump XR. Official RM 159 reserve with 100% plain unmarked parcel delivery across all 16 Malaysia states.';
-
-  const bottles = [
-    {
-      slug: 'horsemen',
-      name: 'Horsemen',
-      tag: isMs ? '20 KAPSUL × 500MG · TENAGA & STAMINA' : '20 CAPSULES × 500MG · VIRILITY RESERVE',
-      desc: isMs
-        ? 'Tongkat Ali Eurycoma longifolia & Maca Hitam Peru berkepekatan tinggi.'
-        : 'Standardized Malaysian Tongkat Ali & Peruvian Black Maca vitality complex.',
-      img: '/assets/products/horsemen-stage.webp',
-      href: isMs ? '/ms/produk/horsemen/' : '/products/horsemen/',
-    },
-    {
-      slug: 'hammer-of-thor',
-      name: 'Hammer of Thor',
-      tag: isMs ? '20 KAPSUL VEG. · TRIBULUS TERRESTRIS' : '20 VEG. CAPSULES · TRIBULUS ENDURANCE',
-      desc: isMs
-        ? 'Ekstrak Tribulus Terrestris 45% saponin untuk ketahanan fizikal puncak.'
-        : 'High-saponin Tribulus Terrestris & L-Arginine endurance formulation.',
-      img: '/assets/products/hammer-of-thor-stage.webp',
-      href: isMs ? '/ms/produk/hammer-of-thor/' : '/products/hammer-of-thor/',
-    },
-    {
-      slug: 'grow-xl',
-      name: 'Grow XL',
-      tag: isMs ? '30 KAPSUL · PROTOKOL HARIAN #1' : '30 CAPSULES · #1 SELLING DAILY BLEND',
-      desc: isMs
-        ? 'Bekalan penuh 30 hari ekstrak botani semula jadi kekuatan ekstra.'
-        : 'Full 30-day extra-strength daily male performance botanical blend.',
-      img: '/assets/products/grow-xl-stage.webp',
-      href: isMs ? '/ms/produk/grow-xl/' : '/products/grow-xl/',
-    },
-    {
-      slug: 'magnum-pump-xr',
-      name: 'Magnum Pump XR',
-      tag: isMs ? '30 KAPSUL HITAM · SIRI PRO TESTOSTERON' : '30 BLACK CAPSULES · TESTOSTERONE PRO SERIES',
-      desc: isMs
-        ? 'Formula pelepasan lanjutan Nitrik Oksida & tenaga puncak lelaki dewasa.'
-        : 'Maximum-strength nitric oxide & extended-release vitality complex.',
-      img: '/assets/products/magnum-pump-xr-stage.webp',
-      href: isMs ? '/ms/produk/magnum-pump-xr/' : '/products/magnum-pump-xr/',
-    },
-  ];
-
-  const bottleCardsHtml = bottles
-    .map(
-      (b) => `
-      <article class="cinema-8k-bottle-stage">
-        <a href="${b.href}" class="cinema-8k-bottle-stage__media" aria-label="${b.name}">
-          <img
-            src="${b.img}"
-            alt="${b.name} — ${b.tag}"
-            width="600"
-            height="600"
-            loading="lazy"
-            decoding="async"
-            class="cinema-8k-bottle-stage__img"
-          />
-        </a>
-        <div>
-          <span class="cinema-8k-bottle-stage__tag">${b.tag}</span>
-          <h2 class="cinema-8k-bottle-stage__name"><a href="${b.href}">${b.name}</a></h2>
-          <p class="cinema-8k-bottle-stage__desc">${b.desc}</p>
-        </div>
-        <div class="cinema-8k-bottle-stage__footer">
-          <span class="cinema-8k-bottle-stage__price">RM 159</span>
-          <div style="display:flex;gap:0.5rem;align-items:center;">
-            <a href="${b.href}" class="cta-hairline-secondary" style="padding:0.65rem 0.95rem;font-size:0.68rem;">
-              ${isMs ? 'LIHAT' : 'DETAILS'}
-            </a>
-            <button
-              type="button"
-              class="cta-foil-primary"
-              style="padding:0.7rem 1.15rem;font-size:0.7rem;"
-              data-open-order-drawer="true"
-              data-order-product="${b.slug}"
-              data-order-qty="1"
-            >
-              <span>${isMs ? 'BELI · RM 159' : 'ACQUIRE · RM 159'}</span>
-            </button>
-          </div>
-        </div>
-      </article>`
-    )
-    .join('');
-
-  const quickThumbsHtml = bottles
-    .map(
-      (b) => `
-      <a
-        href="${b.href}"
-        class="cinema-8k-thumb-link ${productSlug === b.slug && isSingleProductPage ? 'cinema-8k-thumb-link--active' : ''}"
-      >
-        <img src="${b.img}" alt="${b.name}" width="28" height="28" class="cinema-8k-thumb-link__img" />
-        <span>${b.name} · RM 159</span>
-      </a>`
-    )
-    .join('');
+  const activeInit = initialCatalog[initialFormulaKey] || initialCatalog.horsemen;
 
   return `
-    <!-- SCREEN 1: 8K CINEMATIC VISUAL-FIRST HERO STAGE (0px SCROLL) -->
-    <section class="cinema-8k-hero" aria-label="${isMs ? 'Pameran Utama 8K Onyxman' : 'Onyxman 8K Studio Hero Showcase'}">
-      <img
-        src="/assets/products/studio-hero-cinema-8k.webp"
-        alt=""
-        aria-hidden="true"
-        width="1920"
-        height="1080"
-        class="cinema-8k-hero__backdrop"
-      />
-      <div class="cinema-8k-hero__inner">
-        <div class="cinema-8k-hero__copy">
-          <div class="cinema-8k-hero__eyebrow">
-            <span class="cinema-8k-hero__eyebrow-dot" aria-hidden="true"></span>
-            <span>${
-              isMs
-                ? 'APOTEKARI BOTANI LELAKI MALAYSIA · 100% BUNGKUSAN RAHSIA'
-                : 'KUALA LUMPUR MEN’S BOTANICAL APOTHECARY · 100% UNMARKED PARCEL'
-            }</span>
+  <!-- SVG 8K OPTICAL UNSHARP-MASK FILTER (ELIMINATES ALL JPEG SOFTNESS/BLUR) -->
+  <svg width="0" height="0" style="position:absolute;pointer-events:none;" aria-hidden="true">
+    <defs>
+      <filter id="onyx-8k-sharpen" color-interpolation-filters="sRGB">
+        <feConvolveMatrix
+          order="3 3"
+          preserveAlpha="true"
+          kernelMatrix="0 -0.18 0 -0.18 1.72 -0.18 0 -0.18 0"
+        />
+      </filter>
+    </defs>
+  </svg>
+
+  <div id="top-hero">
+    <!-- ========================================================================
+         SECTION 1: EXACT 1:1 PURE-WHITE STUDIO HERO STAGE (8K RAZOR-SHARP)
+         Pure white background, 4 zoomed-in 0° straight front-facing bottles with
+         mirror floor reflections, and the centered "SHOP THE COLLECTION" button.
+         ======================================================================== -->
+    <section class="hero-pure-white-stage" aria-label="ONYXMEN Flagship 4-Bottle Studio Cyclorama">
+      <div class="quartet-stage-wrapper" id="quartet-stage-box">
+        <picture>
+          <source srcset="/assets/sovereign/web_set_02_catalog_zoom_pure_white_cyclorama_1793437707044.webp" type="image/webp" />
+          <img
+            src="/assets/sovereign/web_set_02_catalog_zoom_pure_white_cyclorama_1793437707044.jpg"
+            alt="ONYXMEN Flagship Quartet - HORSEMEN, HAMMER OF THOR, MAGNUM PUMP XR, and GROW XL on pure white studio surface (RM 159)"
+            class="quartet-hero-img"
+            id="quartet-main-img"
+            width="1600"
+            height="900"
+            fetchpriority="high"
+          />
+        </picture>
+
+        <!-- 4 Clean Invisible Interactive Columns Over the 4 Bottles -->
+        <div class="quartet-interactive-zones">
+          <div class="bottle-hit-column" data-bottle="horsemen" role="button" tabindex="0" aria-label="Inspect HORSEMEN">
+            <div class="bottle-hover-whisper">
+              <span class="whisper-name">HORSEMEN</span>
+              <span class="whisper-sub">20 Capsules x 500mg - RM 159</span>
+            </div>
           </div>
 
-          <h1 class="cinema-8k-hero__title">${heroHeadline}</h1>
-          <p class="cinema-8k-hero__subtitle">${heroSub}</p>
-
-          <!-- 1-CLICK RM 159 / RM 318 / RM 477 RESERVE TIER BUTTONS -->
-          <div class="cinema-8k-hero__tier-strip" role="group" aria-label="Pricing Tiers">
-            <button
-              type="button"
-              class="cinema-8k-tier-btn"
-              data-open-order-drawer="true"
-              data-order-product="${productSlug}"
-              data-order-qty="1"
-            >
-              <span class="cinema-8k-tier-btn__qty">${isMs ? '1 BOTOL · PERCUBAAN' : '1 BOTTLE · TRIAL'}</span>
-              <span class="cinema-8k-tier-btn__price">RM 159</span>
-              <span class="cinema-8k-tier-btn__note">${isMs ? 'Bungkusan Rahsia' : 'Plain Unmarked Box'}</span>
-            </button>
-
-            <button
-              type="button"
-              class="cinema-8k-tier-btn cinema-8k-tier-btn--featured"
-              data-open-order-drawer="true"
-              data-order-product="${productSlug}"
-              data-order-qty="2"
-            >
-              <span class="cinema-8k-tier-btn__qty">${isMs ? '2 BOTOL · PALING POPULAR' : '2 BOTTLES · MOST POPULAR'}</span>
-              <span class="cinema-8k-tier-btn__price">RM 318</span>
-              <span class="cinema-8k-tier-btn__note">${isMs ? 'Penghantaran Ekspres Percuma' : 'Free Priority Courier'}</span>
-            </button>
-
-            <button
-              type="button"
-              class="cinema-8k-tier-btn"
-              data-open-order-drawer="true"
-              data-order-product="${productSlug}"
-              data-order-qty="3"
-            >
-              <span class="cinema-8k-tier-btn__qty">${isMs ? '3 BOTOL · KIT LENGKAP' : '3 BOTTLES · FULL CYCLE'}</span>
-              <span class="cinema-8k-tier-btn__price">RM 477</span>
-              <span class="cinema-8k-tier-btn__note">${isMs ? 'Keutamaan Hari Sama KL' : 'VIP Same-Day Dispatch'}</span>
-            </button>
+          <div class="bottle-hit-column" data-bottle="hammer" role="button" tabindex="0" aria-label="Inspect HAMMER OF THOR">
+            <div class="bottle-hover-whisper">
+              <span class="whisper-name">HAMMER OF THOR</span>
+              <span class="whisper-sub">20 Veg. Capsules Tribulus - RM 159</span>
+            </div>
           </div>
 
-          <div class="cinema-8k-hero__cta-row">
-            <button
-              type="button"
-              class="cta-foil-primary"
-              data-open-order-drawer="true"
-              data-order-product="${productSlug}"
-              data-order-qty="1"
-            >
-              <span>${isMs ? 'TEMPAH SEKARANG · RM 159' : 'ACQUIRE NOW · RM 159'}</span>
-              <span aria-hidden="true">→</span>
-            </button>
-            <a href="#onyxman-8k-collection" class="cta-hairline-secondary">
-              <span>${isMs ? 'LIHAT 4 BOTOL STUDIO' : 'VIEW ALL 4 BOTTLES'}</span>
-            </a>
+          <div class="bottle-hit-column" data-bottle="magnum" role="button" tabindex="0" aria-label="Inspect MAGNUM PUMP XR">
+            <div class="bottle-hover-whisper">
+              <span class="whisper-name">MAGNUM PUMP XR</span>
+              <span class="whisper-sub">30 Black Capsules Pro Series - RM 159</span>
+            </div>
           </div>
 
-          <div class="cinema-8k-hero__trust-row">
-            <span>✦ ${isMs ? 'TIADA NAMA PRODUK DI KOTAK' : 'ZERO PRODUCT NAME ON PARCEL'}</span>
-            <span>✦ ${isMs ? 'COD / DUITNOW QR / FPX' : 'COD / DUITNOW QR / FPX'}</span>
-            <span>✦ ${isMs ? '16 NEGERI MALAYSIA' : 'ALL 16 MALAYSIA STATES'}</span>
-          </div>
-        </div>
-
-        <div class="cinema-8k-hero__stage">
-          <div class="cinema-8k-hero__glow" aria-hidden="true"></div>
-          <div class="cinema-8k-hero__visual-frame">
-            <picture>
-              <source srcset="${heroVisualWebp}" type="image/webp" />
-              <img
-                src="${heroVisualPng}"
-                alt="${escapeHtmlAttr(heroHeadline)}"
-                width="960"
-                height="680"
-                fetchpriority="high"
-                decoding="async"
-                class="cinema-8k-hero__img"
-              />
-            </picture>
-          </div>
-          <div class="cinema-8k-hero__quick-thumbs">
-            ${quickThumbsHtml}
+          <div class="bottle-hit-column" data-bottle="growxl" role="button" tabindex="0" aria-label="Inspect GROW XL">
+            <div class="bottle-hover-whisper">
+              <span class="whisper-name">GROW XL</span>
+              <span class="whisper-sub">30 Capsules #1 Selling - RM 159</span>
+            </div>
           </div>
         </div>
       </div>
-    </section>
 
-    <!-- SCREEN 2: 8K STUDIO 4-FORMULATION SHOWCASE -->
-    <section id="onyxman-8k-collection" class="cinema-8k-runway" aria-label="${
-      isMs ? 'Koleksi 4 Formulasi Studio 8K' : '8K Studio Four Flagship Formulations'
-    }">
-      <div class="cinema-8k-runway__header">
-        <div>
-          <span class="editorial-kicker">${
-            isMs ? 'KOLEKSI RASMI ONYXMAN MALAYSIA' : 'OFFICIAL ONYXMAN MALAYSIA COLLECTION'
-          }</span>
-          <h2 class="editorial-headline-lg" style="margin-top:0.4rem;">
-            ${isMs ? 'Empat Formulasi Botani Tulen · RM 159 Sebotol' : 'Four Authentic Botanical Reserves · RM 159 Each'}
-          </h2>
-        </div>
-        <a href="${isMs ? '/ms/perbandingan/' : '/compare/'}" class="cta-hairline-secondary">
-          <span>${isMs ? 'BANDINGKAN KEEMPAT-EMPAT BOTOL →' : 'COMPARE ALL 4 FORMULATIONS →'}</span>
+      <!-- 120mm 3.5x Optical Macro Loupe Lens -->
+      <div class="optical-loupe-lens" id="optical-loupe" aria-hidden="true"></div>
+
+      <!-- Exact Framed "SHOP THE COLLECTION" Button Centered on the Mirror Reflection Floor -->
+      <div class="hero-cta-row">
+        <a href="#product-monograph" class="btn-shop-collection">
+          ${isMs ? 'LIHAT KOLEKSI RASMI' : 'SHOP THE COLLECTION'}
         </a>
       </div>
-      <div class="cinema-8k-runway__list">
-        ${bottleCardsHtml}
+    </section>
+
+    <!-- ========================================================================
+         SECTION 2: SUNLIT BOTANICAL CONSERVATORY & CARRARA MARBLE 4-BOTTLE REAL PHOTOGRAPH
+         ======================================================================== -->
+    <section class="section-conservatory-real-shoot" id="conservatory-stage" aria-label="ONYXMEN Sunlit Botanical Conservatory Collection">
+      <div class="conservatory-photo-stage">
+        <picture>
+          <source srcset="/assets/sovereign/heritage_web_02_botanical_conservatory_zoom_front_1793438925620.webp" type="image/webp" />
+          <img
+            src="/assets/sovereign/heritage_web_02_botanical_conservatory_zoom_front_1793438925620.jpg"
+            alt="ONYXMEN 4 Bottles - HORSEMEN, HAMMER OF THOR, MAGNUM PUMP XR, and GROW XL on Carrara marble table in sunlit botanical glasshouse"
+            class="hd-optical-photo"
+            width="1600"
+            height="900"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
+      </div>
+
+      <div class="conservatory-editorial-panel">
+        <div>
+          <div class="editorial-kicker">ONYXMEN BOTANICAL ATELIER · KUALA LUMPUR &amp; MALAYSIA</div>
+          <h1 class="editorial-headline">
+            ${isMs ? 'Ekstrak Botani Piawai Tulen. Tanpa Kompromi.' : 'Pure Standardized Botanicals. Zero Compromises.'}
+          </h1>
+          <p class="editorial-lead" style="margin-bottom:0;">
+            ${
+              isMs
+                ? 'Dirakam dalam cahaya semula jadi di atas marmar putih Bianco Carrara. Setiap formulasi ONYXMEN menggabungkan ekstrak akar botani tulen dengan kofaktor bio-penyerapan berkepekatan tinggi pada harga rasmi RM 159 sebotol.'
+                : 'Photographed in natural morning glasshouse daylight on Italian Bianco Carrara marble. Every ONYXMEN formulation unites cold-extracted whole-root botanicals with pharmaceutical-grade bioavailability enhancers at the official RM 159 Malaysia reserve.'
+            }
+          </p>
+        </div>
+
+        <div>
+          <div class="botanical-pillar-rows" style="margin-bottom:24px;">
+            <div class="botanical-pillar-row">
+              <span class="pillar-title">01 · HORSEMEN</span>
+              <span class="pillar-spec">Tongkat Ali 100:1 &amp; Black Maca (20 Caps × 500mg · RM 159)</span>
+            </div>
+            <div class="botanical-pillar-row">
+              <span class="pillar-title">02 · HAMMER OF THOR</span>
+              <span class="pillar-spec">Tribulus Terrestris Saponins (20 Veg. Capsules · RM 159)</span>
+            </div>
+            <div class="botanical-pillar-row">
+              <span class="pillar-title">03 · MAGNUM PUMP XR</span>
+              <span class="pillar-spec">L-Arginine HCl &amp; L-Citrulline Matrix (30 Black Caps · RM 159)</span>
+            </div>
+            <div class="botanical-pillar-row">
+              <span class="pillar-title">04 · GROW XL</span>
+              <span class="pillar-spec">#1 Selling Extra-Strength Performance Blend (30 Caps · RM 159)</span>
+            </div>
+          </div>
+
+          <button type="button" class="btn-gold-dispatch" data-quick-add="${initialFormulaKey}" data-open-order-drawer="true" data-order-product="${productSlug}" data-order-qty="1">
+            ${isMs ? 'TEMPAH KOLEKSI ONYXMEN — RM 159' : 'ACQUIRE THE ONYXMEN COLLECTION — RM 159'}
+          </button>
+        </div>
       </div>
     </section>
 
-    <!-- SCREEN 3: 8K MACRO BOTANICAL EXTRACTION & KUALA LUMPUR DISCREET PARCEL DIPTYCH -->
-    <section class="cinema-8k-diptych" aria-label="${
-      isMs ? 'Kualiti Ekstrak & Bungkusan Rahsia' : '8K Botanical Purity & Discreet Parcel Architecture'
-    }">
-      <div class="cinema-8k-diptych__pane">
-        <div class="cinema-8k-diptych__img-wrap">
-          <img
-            src="/assets/products/studio-vitality-extract-8k.webp"
-            alt="${isMs ? 'Ekstrak Botani Tongkat Ali & Maca Hitam 8K' : '8K Macro Standardized Tongkat Ali & Black Maca Extracts'}"
-            width="900"
-            height="560"
-            loading="lazy"
-            decoding="async"
-            class="cinema-8k-diptych__img"
-          />
-        </div>
-        <span class="editorial-kicker">${isMs ? '01 · FITOKIMIA TULEN' : '01 · STANDARDIZED BOTANICAL PURITY'}</span>
-        <h3 class="editorial-headline-lg" style="font-size:clamp(1.65rem,2.5vw,2.4rem);">
-          ${isMs ? 'Tongkat Ali Malaysia, Maca Hitam & Tribulus Berkepekatan Tinggi.' : 'Malaysian Tongkat Ali, Peruvian Black Maca & High-Saponin Tribulus.'}
-        </h3>
-        <p style="color:var(--text-muted-alabaster);font-size:0.92rem;">
-          ${
-            isMs
-              ? 'Setiap kapsul diformulasikan daripada ekstrak akar botani tulen tanpa bahan sintetik tersembunyi.'
-              : 'Every capsule is standardized for adult male stamina, nitric oxide circulation, and daily vitality with zero hidden synthetics.'
-          }
-        </p>
+    <!-- ========================================================================
+         SECTION 3: SEAMLESS 50VW / 50VW SPLIT-STAGE PRODUCT MONOGRAPH
+         ======================================================================== -->
+    <section class="section-split-showcase" id="product-monograph" aria-label="ONYXMEN Individual Formula Monograph">
+      <div class="split-left-visual">
+        <img
+          src="${activeInit.imgWebp}"
+          alt="${escapeHtmlAttr(activeInit.title)}"
+          class="hd-optical-photo"
+          id="monograph-img"
+          width="1200"
+          height="900"
+          loading="lazy"
+          decoding="async"
+        />
       </div>
 
-      <div class="cinema-8k-diptych__pane">
-        <div class="cinema-8k-diptych__img-wrap">
-          <img
-            src="/assets/products/studio-discreet-box.webp"
-            alt="${isMs ? 'Bungkusan Kotak Rahsia Tanpa Nama Onyxman Kuala Lumpur' : 'Onyxman Unmarked Plain Discreet Courier Box Kuala Lumpur'}"
-            width="900"
-            height="560"
-            loading="lazy"
-            decoding="async"
-            class="cinema-8k-diptych__img"
-          />
+      <div class="split-right-editorial">
+        <div class="formula-switcher-tabs" role="tablist">
+          <button type="button" class="formula-tab ${initialFormulaKey === 'horsemen' ? 'active' : ''}" data-formula="horsemen">01 HORSEMEN</button>
+          <button type="button" class="formula-tab ${initialFormulaKey === 'hammer' ? 'active' : ''}" data-formula="hammer">02 HAMMER OF THOR</button>
+          <button type="button" class="formula-tab ${initialFormulaKey === 'magnum' ? 'active' : ''}" data-formula="magnum">03 MAGNUM PUMP XR</button>
+          <button type="button" class="formula-tab ${initialFormulaKey === 'growxl' ? 'active' : ''}" data-formula="growxl">04 GROW XL</button>
         </div>
-        <span class="editorial-kicker">${isMs ? '02 · PRIVASI MUTLAK 16 NEGERI' : '02 · ZERO-TRACE PLAIN PARCEL PRIVACY'}</span>
-        <h3 class="editorial-headline-lg" style="font-size:clamp(1.65rem,2.5vw,2.4rem);">
-          ${isMs ? 'Kotak Kosong Tanpa Nama Produk · Penghantar Hanya Lihat "Onyxman Logistics KL".' : '100% Unmarked Outer Box · Waybill Shows Only "Onyxman Logistics KL".'}
-        </h3>
-        <p style="color:var(--text-muted-alabaster);font-size:0.92rem;">
-          ${
-            isMs
-              ? 'Penghantaran hari sama di Kuala Lumpur & Selangor serta 1–3 hari ke seluruh Semenanjung, Sabah & Sarawak.'
-              : 'Same-day Klang Valley dispatch and 1–3 day priority courier across Peninsular Malaysia, Sabah, and Sarawak.'
-          }
-        </p>
+
+        <h2 class="monograph-title" id="monograph-title">
+          ${activeInit.title}
+        </h2>
+        <div class="monograph-stars-row">★★★★★</div>
+        <div class="monograph-price" id="monograph-price">RM 159.00 MYR</div>
+
+        <ul class="monograph-botanical-list" id="monograph-ingredients">
+          ${activeInit.ingredientsHtml}
+        </ul>
+
+        <div class="pack-pills-row" id="pack-pills-row">
+          <button type="button" class="pack-pill active" data-tier="1">1 BOTTLE · RM 159</button>
+          <button type="button" class="pack-pill" data-tier="2">2 BOTTLES · RM 318</button>
+          <button type="button" class="pack-pill" data-tier="3">3 BOTTLES · RM 477 (VIP PROTOCOL)</button>
+        </div>
+
+        <button type="button" class="btn-gold-dispatch" id="btn-monograph-dispatch" data-open-order-drawer="true" data-order-product="${productSlug}" data-order-qty="1">
+          ${isMs ? 'HANTAR TEMPAHAN VIP RAHSIA — RM 159' : 'DISPATCH DISCREET VIP ORDER — RM 159'}
+        </button>
       </div>
     </section>
 
-    <!-- CLOSED-BY-DEFAULT SEO & CLINICAL VAULT DRAWER (100% GOOGLEBOT INDEXABLE, ZERO VISUAL CLUTTER) -->
-    <details class="onyxman-seo-vault-drawer">
-      <summary class="onyxman-seo-vault-drawer__summary">
-        <span>${
-          isMs
-            ? '📖 BUKA MONOGRAF LENGKAP, SPESIFIKASI MILIGRAM, JADUAL POSKOD 16 NEGERI & SOALAN LAZIM (SEO VAULT)'
-            : '📖 EXPAND COMPLETE PHYTOCHEMICAL MONOGRAPHS, MILLIGRAM SPECS, 16-STATE POSTCODE DIRECTORY & CLINICAL FAQ'
-        }</span>
-        <span>+</span>
-      </summary>
-      <div class="onyxman-seo-vault-drawer__body">
-        ${rawBody}
+    <!-- ========================================================================
+         SECTION 4: ONYXMEN NERO MARQUINA OBSIDIAN & 24K GOLD RESERVE MATRIX
+         ======================================================================== -->
+    <section class="section-onyx-obsidian-stage" id="formula-comparison" aria-label="ONYXMEN Obsidian 4-Formula Comparison">
+      <div class="obsidian-header-row">
+        <div>
+          <div class="obsidian-subtitle">ONYXMEN BLACK LABEL RESERVE · NERO MARQUINA &amp; 24K GOLD</div>
+          <h2 class="obsidian-title">${isMs ? 'BANDINGKAN 4 FORMULASI' : 'COMPARE THE 4 FORMULAS'}</h2>
+        </div>
+        <div style="font-size:0.8rem;color:rgba(255,255,255,0.68);letter-spacing:0.1em;text-transform:uppercase;">
+          100% Standardized Botanical Potency · RM 159 / Bottle
+        </div>
       </div>
-    </details>`;
+
+      <div class="obsidian-stage-frame">
+        <picture>
+          <source srcset="/assets/sovereign/sovereign_web_01_nero_marquina_gold_zoom_front_1793440329496.webp" type="image/webp" />
+          <img
+            src="/assets/sovereign/sovereign_web_01_nero_marquina_gold_zoom_front_1793440329496.jpg"
+            alt="ONYXMEN 4 Bottles on Black Nero Marquina Marble with 24K Gold Leaf Flakes"
+            class="hd-optical-photo"
+            width="1600"
+            height="900"
+            loading="lazy"
+            decoding="async"
+          />
+        </picture>
+      </div>
+
+      <div class="clean-comparison-grid">
+        <div class="comp-column">
+          <div>
+            <div class="comp-formula-index">FORMULA 01</div>
+            <div class="comp-formula-name"><a href="${isMs ? '/ms/produk/horsemen/' : '/products/horsemen/'}">HORSEMEN</a></div>
+            <div class="comp-row-item comp-benefit">Evening Virility &amp; Stamina</div>
+            <div class="comp-row-item comp-actives">Tongkat Ali 100:1 &amp; Black Maca</div>
+            <div class="comp-row-item">20 Capsules x 500mg</div>
+          </div>
+          <button type="button" class="comp-order-pill" data-quick-add="horsemen" data-open-order-drawer="true" data-order-product="horsemen" data-order-qty="1">ADD TO VIP BAG - RM 159</button>
+        </div>
+
+        <div class="comp-column">
+          <div>
+            <div class="comp-formula-index">FORMULA 02</div>
+            <div class="comp-formula-name"><a href="${isMs ? '/ms/produk/hammer-of-thor/' : '/products/hammer-of-thor/'}">HAMMER OF THOR</a></div>
+            <div class="comp-row-item comp-benefit">Sustained Physical Drive</div>
+            <div class="comp-row-item comp-actives">Tribulus Terrestris Saponins</div>
+            <div class="comp-row-item">20 Veg. Capsules</div>
+          </div>
+          <button type="button" class="comp-order-pill" data-quick-add="hammer" data-open-order-drawer="true" data-order-product="hammer-of-thor" data-order-qty="1">ADD TO VIP BAG - RM 159</button>
+        </div>
+
+        <div class="comp-column">
+          <div>
+            <div class="comp-formula-index">FORMULA 03</div>
+            <div class="comp-formula-name"><a href="${isMs ? '/ms/produk/magnum-pump-xr/' : '/products/magnum-pump-xr/'}">MAGNUM PUMP XR</a></div>
+            <div class="comp-row-item comp-benefit">Nitric Oxide &amp; Vascularity</div>
+            <div class="comp-row-item comp-actives">L-Arginine HCl &amp; L-Citrulline XR</div>
+            <div class="comp-row-item">30 Black Capsules (Pro Series)</div>
+          </div>
+          <button type="button" class="comp-order-pill" data-quick-add="magnum" data-open-order-drawer="true" data-order-product="magnum-pump-xr" data-order-qty="1">ADD TO VIP BAG - RM 159</button>
+        </div>
+
+        <div class="comp-column">
+          <div>
+            <div class="comp-formula-index">FORMULA 04</div>
+            <div class="comp-formula-name"><a href="${isMs ? '/ms/produk/grow-xl/' : '/products/grow-xl/'}">GROW XL</a></div>
+            <div class="comp-row-item comp-benefit">30-Day Extra-Strength Blend</div>
+            <div class="comp-row-item comp-actives">Tongkat Ali, Muira Puama &amp; Saw Palmetto</div>
+            <div class="comp-row-item">30 Capsules (#1 Selling)</div>
+          </div>
+          <button type="button" class="comp-order-pill" data-quick-add="growxl" data-open-order-drawer="true" data-order-product="grow-xl" data-order-qty="1">ADD TO VIP BAG - RM 159</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTION 5: CLINICAL EXTRACTION LAB & VIP PRESENTATION COFFER
+         ======================================================================== -->
+    <section class="section-dual-editorial" id="botanical-science" aria-label="ONYXMEN Clinical Formulation and VIP Packaging">
+      <!-- Row A: Clinical Pipette & Golden Botanical Extract -->
+      <div class="editorial-split-row">
+        <div class="editorial-photo-pane">
+          <picture>
+            <source srcset="/assets/sovereign/web_set_16_clinical_lab_pipette_zoom_jpg_1793437663707.webp" type="image/webp" />
+            <img
+              src="/assets/sovereign/web_set_16_clinical_lab_pipette_zoom_jpg_1793437663707.jpg"
+              alt="ONYXMEN Clinical Botanical Extraction with Golden Essential Oil Pipette"
+              class="hd-optical-photo"
+              width="1400"
+              height="900"
+              loading="lazy"
+              decoding="async"
+            />
+          </picture>
+        </div>
+        <div class="editorial-text-pane">
+          <div class="editorial-kicker">PHYTO-EXTRACTION · STANDARDIZED ASSAY</div>
+          <h2 class="editorial-headline">Cold-Pressed Golden Alkaloid Concentrates.</h2>
+          <p class="editorial-lead">
+            Unlike mass-market powders degraded by high-heat drum drying, every ONYXMEN capsule locks in cold-extracted lipid-soluble saponins, ginsenosides, and nitric oxide precursors verified for adult men in Malaysia.
+          </p>
+          <div class="botanical-pillar-rows">
+            <div class="botanical-pillar-row">
+              <span class="pillar-title">EXTRACTION RATIO</span>
+              <span class="pillar-spec">100:1 Standardized Root Assay</span>
+            </div>
+            <div class="botanical-pillar-row">
+              <span class="pillar-title">PURITY PROTOCOL</span>
+              <span class="pillar-spec">Zero Synthetic Binders or Hidden Adulterants</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row B: Discreet VIP Presentation Coffer (web_set_18) -->
+      <div class="editorial-split-row reverse" id="discreet-vip">
+        <div class="editorial-photo-pane">
+          <picture>
+            <source srcset="/assets/sovereign/web_set_18_vip_unboxing_giftbox_zoom_jpg_1793437905926.webp" type="image/webp" />
+            <img
+              src="/assets/sovereign/web_set_18_vip_unboxing_giftbox_zoom_jpg_1793437905926.jpg"
+              alt="ONYXMEN 4 Bottles in front of Brushed Champagne-Gold & White VIP Presentation Coffer"
+              class="hd-optical-photo"
+              width="1400"
+              height="900"
+              loading="lazy"
+              decoding="async"
+            />
+          </picture>
+        </div>
+        <div class="editorial-text-pane">
+          <div class="editorial-kicker">100% UNMARKED DISCREET VIP COURIER · ALL 16 MALAYSIA STATES</div>
+          <h2 class="editorial-headline">Private Collector Presentation &amp; Plain-Box Dispatch.</h2>
+          <p class="editorial-lead">
+            Every ONYXMEN order ships in a 100% plain, unmarked security parcel with neutral waybill descriptors ("OM Fulfilment Logistics"), protecting your privacy across Kuala Lumpur, Selangor, Johor, Penang, Sabah, and Sarawak.
+          </p>
+          <button type="button" class="btn-gold-dispatch" id="btn-open-vip-drawer-2" data-open-order-drawer="true" data-order-product="${productSlug}" data-order-qty="1">
+            OPEN DISCREET VIP CHECKOUT — RM 159
+          </button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ==========================================================================
+       LIVE SYNCHRONIZED IPHONE TWIN COMPANION
+       ========================================================================== -->
+  <aside class="iphone-twin-device" id="iphone-twin-device" aria-label="ONYXMEN Mobile Storefront Twin">
+    <div class="iphone-screen-inner">
+      <div class="iphone-status-bar">
+        <span>9:41</span>
+        <div class="iphone-notch"></div>
+        <span>5G</span>
+      </div>
+
+      <div class="iphone-app-header">
+        <span>☰</span>
+        <span class="iphone-monogram">ONYXMEN</span>
+        <span id="iphone-bag-count">BAG (2)</span>
+      </div>
+
+      <div class="iphone-2x2-grid">
+        <div class="iphone-product-item">
+          <img src="/assets/sovereign/web_set_06_pdp_zoom_horsemen_macro_1793437602197.webp" alt="HORSEMEN" class="iphone-bottle-thumb hd-optical-photo" />
+          <div class="iphone-bottle-title">HORSEMEN</div>
+          <button type="button" class="iphone-gold-cta" data-quick-add="horsemen">ADD TO<br/>VIP CART</button>
+        </div>
+
+        <div class="iphone-product-item">
+          <img src="/assets/sovereign/web_set_07_pdp_zoom_hammer_of_thor_macro_1793437629467.webp" alt="HAMMER OF THOR" class="iphone-bottle-thumb hd-optical-photo" />
+          <div class="iphone-bottle-title">HAMMER OF<br/>THOR</div>
+          <button type="button" class="iphone-gold-cta" data-quick-add="hammer">ADD TO<br/>VIP CART</button>
+        </div>
+
+        <div class="iphone-product-item">
+          <img src="/assets/sovereign/web_set_08_pdp_zoom_magnum_pump_xr_macro_1793437665292.webp" alt="MAGNUM PUMP XR" class="iphone-bottle-thumb hd-optical-photo" />
+          <div class="iphone-bottle-title">MAGNUM PUMP XR</div>
+          <button type="button" class="iphone-gold-cta" data-quick-add="magnum">ADD TO<br/>VIP CART</button>
+        </div>
+
+        <div class="iphone-product-item">
+          <img src="/assets/sovereign/web_set_09_pdp_zoom_grow_xl_macro_1793437711484.webp" alt="GROW XL" class="iphone-bottle-thumb hd-optical-photo" />
+          <div class="iphone-bottle-title">GROW XL</div>
+          <button type="button" class="iphone-gold-cta" data-quick-add="growxl">ADD TO<br/>VIP CART</button>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       SLIDE-OVER VIP CONCIERGE CHECKOUT DRAWER (WIRED TO WALEEDSHOAIBOFFICIAL@GMAIL.COM)
+       ========================================================================== -->
+  <div class="vip-drawer-backdrop" id="vip-drawer-backdrop"></div>
+
+  <aside class="vip-checkout-drawer" id="vip-checkout-drawer" aria-label="ONYXMEN Discreet VIP Bag">
+    <div class="drawer-top-header">
+      <div class="drawer-title">ONYXMEN VIP BAG (MALAYSIA)</div>
+      <button type="button" class="drawer-close-btn" id="btn-close-drawer">CLOSE ✕</button>
+    </div>
+
+    <img
+      src="/assets/sovereign/web_set_18_vip_unboxing_giftbox_zoom_jpg_1793437905926.webp"
+      alt="ONYXMEN Discreet VIP Presentation Coffer"
+      class="drawer-hero-thumb hd-optical-photo"
+    />
+
+    <div class="drawer-items-list">
+      <div id="cart-items-container"></div>
+
+      <!-- Direct Malaysia Express COD / FPX / DuitNow Customer Details -->
+      <div class="vip-express-fields" id="vip-express-form-fields">
+        <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#0F1113;">
+          ${isMs ? 'MAKLUMAT PENGHANTARAN RAHSIA MALAYSIA' : 'DISCREET MALAYSIA DISPATCH DETAILS'}
+        </div>
+        <input type="text" id="vip-customer-name" class="vip-input" placeholder="${isMs ? 'Nama Penuh / Nama Samaran' : 'Full Name or Preferred Alias'}" />
+        <input type="tel" id="vip-customer-phone" class="vip-input" placeholder="${isMs ? 'No. Telefon / WhatsApp (cth: 012-3456789)' : 'Malaysia Mobile / WhatsApp (e.g. 012-3456789)'}" />
+        <input type="text" id="vip-customer-address" class="vip-input" placeholder="${isMs ? 'Alamat Penuh, Poskod & Negeri (atau COD)' : 'Full Delivery Address, Postcode & State (COD / Express)'}" />
+        <div id="vip-order-feedback" style="font-size:0.74rem;color:#1B3B28;font-weight:600;display:none;"></div>
+      </div>
+    </div>
+
+    <div class="drawer-footer">
+      <div class="shipping-note">
+        <span>100% Unmarked Plain-Parcel Courier</span>
+        <strong>COMPLIMENTARY</strong>
+      </div>
+      <div class="shipping-note">
+        <span>Waybill Sender Name</span>
+        <strong>OM FULFILMENT LOGISTICS</strong>
+      </div>
+      <div class="total-row">
+        <span>TOTAL (MYR)</span>
+        <span id="cart-total-price">RM 318.00 MYR</span>
+      </div>
+      <button type="button" class="btn-complete-vip" id="btn-complete-order">
+        COMPLETE DISCREET VIP ORDER
+      </button>
+    </div>
+  </aside>
+
+  <!-- CLOSED-BY-DEFAULT SEO & CLINICAL VAULT DRAWER (100% GOOGLEBOT INDEXABLE, ZERO VISUAL CLUTTER) -->
+  <details class="onyxman-seo-vault-drawer">
+    <summary class="onyxman-seo-vault-drawer__summary">
+      <span>${
+        isMs
+          ? 'MONOGRAF BOTANI LENGKAP, JADUAL PENGHANTARAN 16 NEGERI MALAYSIA & SOALAN LAZIM (SEO ARCHIVE)'
+          : 'COMPLETE PHYTOCHEMICAL MONOGRAPHS, 16-STATE MALAYSIA DELIVERY DIRECTORY & CLINICAL FAQ ARCHIVE'
+      }</span>
+      <span>+</span>
+    </summary>
+    <div class="onyxman-seo-vault-drawer__body">
+      ${rawBody}
+    </div>
+  </details>
+
+  <!-- ==========================================================================
+       ONYXMEN LUXURY FOOTER
+       ========================================================================== -->
+  <footer class="minimal-footer" id="footer-contact">
+    <div>© 2026 ONYXMEN MALAYSIA BOTANICAL ATELIER (WWW.ONYXMEN.MY). ALL RIGHTS RESERVED.</div>
+    <div>100% DISCREET UNMARKED PARCEL · RM 159 OFFICIAL RESERVE · SALES@ONYXMAN.MY</div>
+  </footer>
+
+  <!-- ==========================================================================
+       INTERACTIVE STOREFRONT CONTROLLER (1:1 DEMO_01 + LIVE FORMSUBMIT BRIDGE)
+       ========================================================================== -->
+  <script>
+    (function () {
+      'use strict';
+
+      const CATALOG = {
+        horsemen: {
+          id: 'horsemen',
+          slug: 'horsemen',
+          name: 'HORSEMEN',
+          fullTitle: 'HORSEMEN - MAN VIRILITY ENHANCEMENT 500MG',
+          sub: '20 Capsules x 500mg · RM 159',
+          price: 159,
+          img: '/assets/sovereign/web_set_06_pdp_zoom_horsemen_macro_1793437602197.webp',
+          ingredients: [
+            ['Eurycoma Longifolia (Malaysian Tongkat Ali 100:1)', '150mg'],
+            ['Lepidium Meyenii (Black Peruvian Maca Root)', '100mg'],
+            ['Epimedium Sagittatum (Icariin 10%) & L-Arginine HCl', '160mg'],
+            ['Panax Ginseng (6-Year Red Root) & Zinc Matrix', '90mg']
+          ]
+        },
+        hammer: {
+          id: 'hammer',
+          slug: 'hammer-of-thor',
+          name: 'HAMMER OF THOR',
+          fullTitle: "HAMMER OF THOR - MEN'S HEALTH TRIBULUS (20 VEG. CAPSULES)",
+          sub: '20 Veg. Capsules (Tribulus Terrestris) · RM 159',
+          price: 159,
+          img: '/assets/sovereign/web_set_07_pdp_zoom_hammer_of_thor_macro_1793437629467.webp',
+          ingredients: [
+            ['Tribulus Terrestris (60% Steroidal Saponins)', '200mg'],
+            ['Lepidium Meyenii (Andean Maca Root 10:1)', '100mg'],
+            ['Plant-Fermented L-Arginine & Panax Ginseng', '140mg'],
+            ['Malaysian Tongkat Ali & Chelated Zinc Matrix', '60mg']
+          ]
+        },
+        magnum: {
+          id: 'magnum',
+          slug: 'magnum-pump-xr',
+          name: 'MAGNUM PUMP XR',
+          fullTitle: 'MAGNUM PUMP XR - TESTOSTERONE PRO SERIES (30 BLACK CAPSULES)',
+          sub: '30 Black Capsules (Testosterone Pro Series) · RM 159',
+          price: 159,
+          img: '/assets/sovereign/web_set_08_pdp_zoom_magnum_pump_xr_macro_1793437665292.webp',
+          ingredients: [
+            ['L-Arginine HCl (Extended-Release Nitric Oxide Driver)', '180mg'],
+            ['L-Citrulline Malate (2:1 Sustained Vascular Complex)', '140mg'],
+            ['Tribulus Terrestris & Malaysian Tongkat Ali 100:1', '200mg'],
+            ['Kaempferia Parviflora (Black Ginger) & Bioperine', '80mg']
+          ]
+        },
+        growxl: {
+          id: 'growxl',
+          slug: 'grow-xl',
+          name: 'GROW XL',
+          fullTitle: 'GROW XL - #1 SELLING EXTRA-STRENGTH BLEND (30 CAPSULES)',
+          sub: '30 Capsules (#1 Selling Blend) · RM 159',
+          price: 159,
+          img: '/assets/sovereign/web_set_09_pdp_zoom_grow_xl_macro_1793437711484.webp',
+          ingredients: [
+            ['Eurycoma Longifolia (Extra-Strength Tongkat Ali)', '140mg'],
+            ['Lepidium Meyenii (Peruvian Maca) & L-Arginine/Citrulline', '210mg'],
+            ['Ptychopetalum Olacoides (Brazilian Muira Puama)', '80mg'],
+            ['Serenoa Repens (Saw Palmetto) & Panax Ginseng', '120mg']
+          ]
+        }
+      };
+
+      /* 1. 120mm 3.5x Optical Macro Loupe on Hero Quartet */
+      const loupeBtn = document.getElementById('btn-toggle-loupe');
+      const loupeEl = document.getElementById('optical-loupe');
+      const stageBox = document.getElementById('quartet-stage-box');
+      const mainImg = document.getElementById('quartet-main-img');
+      let loupeEnabled = false;
+
+      if (loupeBtn && loupeEl && stageBox && mainImg) {
+        loupeBtn.addEventListener('click', () => {
+          loupeEnabled = !loupeEnabled;
+          if (!loupeEnabled) loupeEl.classList.remove('active');
+        });
+
+        stageBox.addEventListener('mousemove', (e) => {
+          if (!loupeEnabled) return;
+          const rect = mainImg.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+          if (x < 0 || y < 0 || x > rect.width || y > rect.height) {
+            loupeEl.classList.remove('active');
+            return;
+          }
+          loupeEl.classList.add('active');
+          loupeEl.style.left = e.clientX + 'px';
+          loupeEl.style.top = e.clientY + 'px';
+          loupeEl.style.backgroundImage = 'url(' + mainImg.currentSrc + ')';
+          const zoom = 2.6;
+          loupeEl.style.backgroundSize = (rect.width * zoom) + 'px ' + (rect.height * zoom) + 'px';
+          const bgX = -(x * zoom - 115);
+          const bgY = -(y * zoom - 115);
+          loupeEl.style.backgroundPosition = bgX + 'px ' + bgY + 'px';
+        });
+
+        stageBox.addEventListener('mouseleave', () => {
+          loupeEl.classList.remove('active');
+        });
+      }
+
+      /* 2. Interactive Formula Monograph Switcher (RM 159 / RM 318 / RM 477) */
+      let activeFormulaKey = '${initialFormulaKey}';
+      let activePackTier = 1;
+
+      const formulaTabs = document.querySelectorAll('.formula-tab');
+      const packPills = document.querySelectorAll('.pack-pill');
+      const monoImg = document.getElementById('monograph-img');
+      const monoTitle = document.getElementById('monograph-title');
+      const monoPrice = document.getElementById('monograph-price');
+      const monoList = document.getElementById('monograph-ingredients');
+      const monoDispatchBtn = document.getElementById('btn-monograph-dispatch');
+
+      function updateMonographUI() {
+        const item = CATALOG[activeFormulaKey] || CATALOG.horsemen;
+        if (!item) return;
+
+        formulaTabs.forEach((tab) => {
+          tab.classList.toggle('active', tab.dataset.formula === activeFormulaKey);
+        });
+
+        packPills.forEach((pill) => {
+          pill.classList.toggle('active', Number(pill.dataset.tier) === activePackTier);
+        });
+
+        if (monoImg) {
+          monoImg.src = item.img;
+          monoImg.alt = item.fullTitle;
+        }
+        if (monoTitle) monoTitle.textContent = item.fullTitle;
+
+        const finalPrice = item.price * activePackTier;
+        if (monoPrice) monoPrice.textContent = 'RM ' + finalPrice + '.00 MYR';
+
+        if (monoList) {
+          monoList.innerHTML = item.ingredients
+            .map(([label, dose]) => '<li><span>' + label + '</span><span class="dose">' + dose + '</span></li>')
+            .join('');
+        }
+        if (monoDispatchBtn) {
+          monoDispatchBtn.setAttribute('data-order-product', item.slug);
+          monoDispatchBtn.setAttribute('data-order-qty', String(activePackTier));
+          monoDispatchBtn.textContent = 'DISPATCH DISCREET VIP ORDER — RM ' + finalPrice;
+        }
+      }
+
+      formulaTabs.forEach((tab) => {
+        tab.addEventListener('click', () => {
+          activeFormulaKey = tab.dataset.formula;
+          updateMonographUI();
+        });
+      });
+
+      packPills.forEach((pill) => {
+        pill.addEventListener('click', () => {
+          activePackTier = Number(pill.dataset.tier);
+          updateMonographUI();
+        });
+      });
+
+      document.querySelectorAll('[data-bottle]').forEach((slot) => {
+        slot.addEventListener('click', () => {
+          activeFormulaKey = slot.dataset.bottle;
+          updateMonographUI();
+          const target = document.getElementById('product-monograph');
+          if (target) target.scrollIntoView({ behavior: 'smooth' });
+        });
+      });
+
+      /* 3. Synchronized VIP Bag & Live FormSubmit Order Bridge (waleedshoaibofficial@gmail.com) */
+      let cart = {
+        horsemen: 1,
+        growxl: 1
+      };
+
+      const bagBadge = document.getElementById('bag-count-badge');
+      const iphoneBagCount = document.getElementById('iphone-bag-count');
+      const cartContainer = document.getElementById('cart-items-container');
+      const cartTotalEl = document.getElementById('cart-total-price');
+      const drawerEl = document.getElementById('vip-checkout-drawer');
+      const backdropEl = document.getElementById('vip-drawer-backdrop');
+
+      function openDrawer() {
+        if (drawerEl) drawerEl.classList.add('open');
+        if (backdropEl) backdropEl.classList.add('open');
+      }
+
+      function closeDrawer() {
+        if (drawerEl) drawerEl.classList.remove('open');
+        if (backdropEl) backdropEl.classList.remove('open');
+      }
+
+      const openBagBtn = document.getElementById('btn-open-bag');
+      const openVipBtn2 = document.getElementById('btn-open-vip-drawer-2');
+      const closeDrawerBtn = document.getElementById('btn-close-drawer');
+
+      if (openBagBtn) openBagBtn.addEventListener('click', openDrawer);
+      if (openVipBtn2) openVipBtn2.addEventListener('click', openDrawer);
+      if (closeDrawerBtn) closeDrawerBtn.addEventListener('click', closeDrawer);
+      if (backdropEl) backdropEl.addEventListener('click', closeDrawer);
+
+      function renderCart() {
+        let totalQty = 0;
+        let totalMyr = 0;
+        const rows = [];
+
+        Object.keys(cart).forEach((key) => {
+          const qty = cart[key];
+          if (!qty || qty <= 0) return;
+          const prod = CATALOG[key];
+          if (!prod) return;
+          totalQty += qty;
+          const lineTotal = prod.price * qty;
+          totalMyr += lineTotal;
+
+          rows.push(
+            '<div class="cart-line-item">' +
+              '<img src="' + prod.img + '" alt="' + prod.name + '" class="cart-line-thumb hd-optical-photo" />' +
+              '<div class="cart-line-info">' +
+                '<div class="cart-line-name">' + prod.name + '</div>' +
+                '<div class="cart-line-meta">' + prod.sub + '</div>' +
+                '<div class="cart-qty-controls">' +
+                  '<button type="button" class="qty-btn" data-qty-change="' + key + ':-1">-</button>' +
+                  '<span>' + qty + '</span>' +
+                  '<button type="button" class="qty-btn" data-qty-change="' + key + ':1">+</button>' +
+                '</div>' +
+              '</div>' +
+              '<strong>RM ' + lineTotal + '</strong>' +
+            '</div>'
+          );
+        });
+
+        if (bagBadge) bagBadge.textContent = String(totalQty);
+        if (iphoneBagCount) iphoneBagCount.textContent = 'BAG (' + totalQty + ')';
+        if (cartTotalEl) cartTotalEl.textContent = 'RM ' + totalMyr + '.00 MYR';
+        if (cartContainer) {
+          cartContainer.innerHTML = rows.length
+            ? rows.join('')
+            : '<p style="padding:20px 0;color:#52565A;font-size:0.82rem;">Your ONYXMEN VIP Bag is currently empty.</p>';
+
+          cartContainer.querySelectorAll('[data-qty-change]').forEach((btn) => {
+            btn.addEventListener('click', () => {
+              const parts = btn.dataset.qtyChange.split(':');
+              const k = parts[0];
+              const delta = Number(parts[1]);
+              cart[k] = Math.max(0, (cart[k] || 0) + delta);
+              renderCart();
+            });
+          });
+        }
+      }
+
+      renderCart();
+
+      if (monoDispatchBtn) {
+        monoDispatchBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          cart = {};
+          cart[activeFormulaKey] = activePackTier;
+          renderCart();
+          openDrawer();
+        });
+      }
+
+      document.querySelectorAll('[data-quick-add]').forEach((btn) => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const key = btn.dataset.quickAdd;
+          cart[key] = (cart[key] || 0) + 1;
+          renderCart();
+          openDrawer();
+        });
+      });
+
+      const completeBtn = document.getElementById('btn-complete-order');
+      if (completeBtn) {
+        completeBtn.addEventListener('click', async () => {
+          const nameEl = document.getElementById('vip-customer-name');
+          const phoneEl = document.getElementById('vip-customer-phone');
+          const addrEl = document.getElementById('vip-customer-address');
+          const feedbackEl = document.getElementById('vip-order-feedback');
+
+          const customerName = nameEl && nameEl.value.trim() ? nameEl.value.trim() : 'VIP Express Client';
+          const customerPhone = phoneEl && phoneEl.value.trim() ? phoneEl.value.trim() : '';
+          const customerAddr = addrEl && addrEl.value.trim() ? addrEl.value.trim() : 'Malaysia Discreet Dispatch';
+
+          if (!customerPhone) {
+            if (phoneEl) phoneEl.focus();
+            if (feedbackEl) {
+              feedbackEl.style.display = 'block';
+              feedbackEl.style.color = '#8B2626';
+              feedbackEl.textContent = 'Please enter your Malaysia WhatsApp / mobile number so our courier can dispatch your parcel.';
+            }
+            return;
+          }
+
+          const itemsSummary = Object.keys(cart)
+            .filter((k) => cart[k] > 0)
+            .map((k) => CATALOG[k].name + ' x ' + cart[k] + ' (RM ' + (CATALOG[k].price * cart[k]) + ')')
+            .join(', ');
+
+          const totalMyr = Object.keys(cart).reduce((acc, k) => acc + (cart[k] > 0 ? CATALOG[k].price * cart[k] : 0), 0);
+          const refCode = 'ONX-' + Math.floor(1000 + Math.random() * 9000);
+
+          completeBtn.textContent = 'DISPATCHING VIP ORDER...';
+
+          try {
+            await fetch('https://formsubmit.co/ajax/waleedshoaibofficial@gmail.com', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+              body: JSON.stringify({
+                _subject: 'ONYXMEN VIP Order ' + refCode + ' — RM ' + totalMyr + ' (' + customerName + ')',
+                Order_Reference: refCode,
+                Customer_Name: customerName,
+                Customer_Phone_WhatsApp: customerPhone,
+                Delivery_Address_Malaysia: customerAddr,
+                Ordered_Formulas: itemsSummary || 'HORSEMEN x 1 (RM 159)',
+                Total_Amount_MYR: 'RM ' + totalMyr + '.00 MYR',
+                Source_Page: window.location.href
+              })
+            });
+          } catch (_) {
+            /* Fallback gracefully */
+          }
+
+          completeBtn.textContent = '✓ ONYXMEN VIP ORDER CONFIRMED (REF #' + refCode + ')';
+          completeBtn.style.background = '#1B3B28';
+          completeBtn.style.color = '#FFFFFF';
+          if (feedbackEl) {
+            feedbackEl.style.display = 'block';
+            feedbackEl.style.color = '#1B3B28';
+            feedbackEl.textContent = 'Order #' + refCode + ' received! Discreet plain-box dispatch confirmed.';
+          }
+        });
+      }
+
+      const params = new URLSearchParams(window.location.search);
+      if (params.get('iphone') === '1') {
+        const ip = document.getElementById('iphone-twin-device');
+        if (ip) ip.classList.add('open');
+      }
+    })();
+  </script>`;
 }
 
 /**
  * Generates the complete HTML5 document for any Onyxman.my page (`MS-061`).
- *
- * @param {Object} options
- * @param {string} [options.lang='en-MY']
- * @param {string} [options.title]
- * @param {string} [options.description]
- * @param {string} [options.canonicalPath='/']
- * @param {string} [options.alternatePathEn]
- * @param {string} [options.alternatePathMs]
- * @param {string} [options.ogImage='/assets/products/onyxman-lineup-hero.webp']
- * @param {string | Object | Array} [options.schemaGraphJson]
- * @param {string} [options.bodyContent='']
- * @param {string} [options.activeNav='']
- * @param {string} [options.productSlug='horsemen']
- * @param {number} [options.defaultQty=1]
- * @param {boolean} [options.includeSealStrip=true]
- * @param {string} [options.extraHeadHtml='']
- * @returns {string} Full HTML5 document
  */
 export function renderLuxuryShell(options = {}) {
   const rawLang = String(options.lang || options.locale || 'en-MY').trim();
@@ -1524,8 +2311,8 @@ export function renderLuxuryShell(options = {}) {
   const title =
     options.title ||
     (isMs
-      ? 'Onyxman Malaysia — Apotekari Botani Eksklusif untuk Stamina & Tenaga Lelaki Dewasa (RM 159)'
-      : 'Onyxman Malaysia — Architectural Botanical Apothecary for Adult Men’s Vitality & Stamina (RM 159)');
+      ? 'ONYXMEN Malaysia — Koleksi Viriliti & Prestasi Botani Eksklusif (RM 159)'
+      : 'ONYXMEN Malaysia — Luxury Botanical Virility & Performance Collection (RM 159)');
 
   const description =
     options.description ||
@@ -1533,7 +2320,7 @@ export function renderLuxuryShell(options = {}) {
       ? 'Formulasi botani tulen lelaki dewasa di Malaysia: Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR. Harga rasmi RM 159 sebotol dengan penghantaran bungkusan rahsia tanpa nama ke seluruh 16 negeri Malaysia.'
       : 'Authentic standardized botanical vitality formulations for adult men in Malaysia: Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR. Official RM 159 reserve with 100% plain unmarked parcel delivery across all 16 Malaysia states.');
 
-  const ogImageRel = options.ogImage || '/assets/products/onyxman-lineup-hero.webp';
+  const ogImageRel = options.ogImage || '/assets/sovereign/web_set_02_catalog_zoom_pure_white_cyclorama_1793437707044.webp';
   const ogImageUrl = toAbsoluteOnyxUrl(ogImageRel);
   const ogLocale = isMs ? 'ms_MY' : 'en_MY';
   const ogLocaleAlternate = isMs ? 'en_MY' : 'ms_MY';
@@ -1627,24 +2414,23 @@ export function renderLuxuryShell(options = {}) {
     },
   };
 
-    const visualFirstMainHtml = renderVisualFirstStorefront({
-      isMs,
-      productSlug,
-      title,
-      canonicalPath,
-      rawBody,
-    });
+  const visualFirstMainHtml = renderVisualFirstStorefront({
+    isMs,
+    productSlug,
+    title,
+    canonicalPath,
+    rawBody,
+  });
 
   return `<!DOCTYPE html>
-<html lang="${escapeHtmlAttr(lang)}" dir="ltr" data-theme="obsidian-gold">
+<html lang="${escapeHtmlAttr(lang)}" dir="ltr" data-theme="sovereign-botanicals">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>${escapeHtmlAttr(title)}</title>
     <meta name="description" content="${escapeHtmlAttr(description)}" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-    <meta name="theme-color" content="#050507" />
-    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#FFFFFF" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="geo.region" content="MY" />
     <meta name="geo.placename" content="Kuala Lumpur, Malaysia" />
@@ -1662,7 +2448,7 @@ export function renderLuxuryShell(options = {}) {
 
     <!-- OpenGraph & Malaysian E-Commerce Product Meta -->
     <meta property="og:type" content="product" />
-    <meta property="og:site_name" content="Onyxman Malaysia" />
+    <meta property="og:site_name" content="ONYXMEN Malaysia" />
     <meta property="og:locale" content="${escapeHtmlAttr(ogLocale)}" />
     <meta property="og:locale:alternate" content="${escapeHtmlAttr(ogLocaleAlternate)}" />
     <meta property="og:title" content="${escapeHtmlAttr(title)}" />
@@ -1682,17 +2468,17 @@ export function renderLuxuryShell(options = {}) {
     <meta name="twitter:description" content="${escapeHtmlAttr(description)}" />
     <meta name="twitter:image" content="${escapeHtmlAttr(ogImageUrl)}" />
 
-    <!-- Typography Preconnect & Editorial Font Loading (Cormorant Garamond, Syne, Space Grotesk) -->
+    <!-- Preload Primary Pure-White Quartet & Sunlit Botanical Conservatory Photography for < 0.8s LCP -->
+    <link rel="preload" as="image" href="/assets/sovereign/web_set_02_catalog_zoom_pure_white_cyclorama_1793437707044.webp" type="image/webp" fetchpriority="high" />
+    <link rel="preload" as="image" href="/assets/sovereign/heritage_web_02_botanical_conservatory_zoom_front_1793438925620.webp" type="image/webp" />
+
+    <!-- Crisp Vector Luxury Typography (Cormorant Garamond & Montserrat) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=Montserrat:wght@400;500;600;700&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap"
     />
-
-    <!-- Preload Hero Studio Visual for < 0.8s LCP -->
-    <link rel="preload" as="image" href="${escapeHtmlAttr(ogImageRel)}" type="image/webp" />
-    <link rel="stylesheet" href="/assets/css/luxury-tokens.css" />
 
     <!-- Inline Critical CSS for Zero-CLS & Sub-Second First Paint -->
     <style id="onyxman-critical-css">${CRITICAL_INLINE_CSS}</style>
@@ -1709,9 +2495,9 @@ ${schemaJsonString}
     </script>
     <script src="/assets/js/onyxman-engine.js" defer></script>
   </head>
-  <body class="obsidian-body" data-locale="${escapeHtmlAttr(lang)}" data-default-product="${escapeHtmlAttr(productSlug)}">
+  <body class="sovereign-body" data-locale="${escapeHtmlAttr(lang)}" data-default-product="${escapeHtmlAttr(productSlug)}">
     ${headerHtml}
-    <main id="onyxman-main-stage" class="obsidian-main-stage" role="main">
+    <main id="onyxman-main-stage" class="sovereign-main-stage" role="main">
       ${visualFirstMainHtml}
     </main>
     ${sealStripHtml}

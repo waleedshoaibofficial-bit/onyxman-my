@@ -22,7 +22,10 @@ const IGNORE_DIRS = new Set([
   'dist',
   'dist-ts',
   '.git',
+  '.wrangler',
   '.tmp-chrome-profile',
+  '.tmp-chrome-audit-8911',
+  '.tmp-chrome-audit-8911-b',
   'audit-screenshots',
 ]);
 
