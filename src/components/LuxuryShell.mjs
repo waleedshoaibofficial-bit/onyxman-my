@@ -2,7 +2,7 @@
  * ONYXMAN.MY — MASTER HTML5 DOCUMENT GENERATOR & CRITICAL CSS SHELL (MS-061)
  * Enforces:
  * - Sub-second speed (LCP < 0.8s, CLS = 0.00) via inline critical CSS + preloaded studio hero assets
- * - Bidirectional hreflang (en-MY, ms-MY, x-default) & canonical tags on https://onyxman.my
+ * - Bidirectional hreflang (en-MY, ms-MY, x-default) & canonical tags on https://www.onyxmen.my
  * - OpenGraph & Product Commerce Meta (og:locale, og:price:amount = 159.00, og:price:currency = MYR)
  * - Valid @graph JSON-LD structured data injection
  * - Dual-Mode WhatsApp & Express Email Bridge runtime configuration (window.ONYXMAN_CONFIG)
@@ -15,7 +15,7 @@ import { renderExpressOrderDrawer } from './ExpressOrderDrawer.mjs';
 import { renderStickyMobileBar } from './StickyMobileBar.mjs';
 import { renderDiscreetSealStrip } from './DiscreetSealStrip.mjs';
 
-export const DOMAIN_ORIGIN = 'https://onyxman.my';
+export const DOMAIN_ORIGIN = 'https://www.onyxmen.my';
 
 /**
  * Escapes HTML attribute strings safely.
@@ -31,7 +31,7 @@ export function escapeHtmlAttr(raw = '') {
 }
 
 /**
- * Normalizes a relative path into a full https://onyxman.my URL.
+ * Normalizes a relative path into a full https://www.onyxmen.my URL.
  * @param {string} pathOrUrl
  * @returns {string}
  */
@@ -105,7 +105,7 @@ export function normalizeSchemaGraphJson(schemaInput, fallbackMeta = {}) {
     }
   }
 
-  const canonicalUrl = fallbackMeta.canonicalUrl || 'https://onyxman.my/';
+  const canonicalUrl = fallbackMeta.canonicalUrl || 'https://www.onyxmen.my/';
   const title =
     fallbackMeta.title ||
     'Onyxman Malaysia — Architectural Botanical Apothecary for Adult Men’s Vitality';
@@ -120,10 +120,10 @@ export function normalizeSchemaGraphJson(schemaInput, fallbackMeta = {}) {
       '@graph': [
         {
           '@type': 'Organization',
-          '@id': 'https://onyxman.my/#organization',
+          '@id': 'https://www.onyxmen.my/#organization',
           name: 'Onyxman',
           legalName: "Onyxman Malaysia Apothecary & Men's Vitality Vault",
-          url: 'https://onyxman.my',
+          url: 'https://www.onyxmen.my',
           email: 'sales@onyxman.my',
           contactPoint: [
             {
@@ -144,10 +144,10 @@ export function normalizeSchemaGraphJson(schemaInput, fallbackMeta = {}) {
         },
         {
           '@type': 'WebSite',
-          '@id': 'https://onyxman.my/#website',
-          url: 'https://onyxman.my',
+          '@id': 'https://www.onyxmen.my/#website',
+          url: 'https://www.onyxmen.my',
           name: 'Onyxman Malaysia',
-          publisher: { '@id': 'https://onyxman.my/#organization' },
+          publisher: { '@id': 'https://www.onyxmen.my/#organization' },
           inLanguage: ['en-MY', 'ms-MY'],
         },
         {
@@ -157,7 +157,7 @@ export function normalizeSchemaGraphJson(schemaInput, fallbackMeta = {}) {
           name: title,
           description,
           inLanguage,
-          isPartOf: { '@id': 'https://onyxman.my/#website' },
+          isPartOf: { '@id': 'https://www.onyxmen.my/#website' },
         },
       ],
     },
@@ -1602,7 +1602,7 @@ export function renderLuxuryShell(options = {}) {
 
   const runtimeConfig = {
     brand: 'Onyxman',
-    domain: 'https://onyxman.my',
+    domain: 'https://www.onyxmen.my',
     locale: lang,
     currency: 'MYR',
     currencySymbol: 'RM',
@@ -1648,6 +1648,7 @@ export function renderLuxuryShell(options = {}) {
     <meta name="format-detection" content="telephone=no" />
     <meta name="geo.region" content="MY" />
     <meta name="geo.placename" content="Kuala Lumpur, Malaysia" />
+    <meta name="google-site-verification" content="3D9YmY9SMd5RVAdrfKySd2Z5ZsxJOEHtLbQUTNWOKgA" />
 
     <!-- Security & Referrer Policy Meta -->
     <meta http-equiv="X-Content-Type-Options" content="nosniff" />
