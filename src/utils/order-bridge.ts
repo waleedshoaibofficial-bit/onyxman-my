@@ -131,7 +131,7 @@ export function buildMerchantReverseWhatsAppUrl(
 
   const messageLines = [
     `Salam / Hello ${input.customerName},`,
-    `This is the Onyxman Malaysia Private Concierge Desk (https://onyxman.my | ${BRAND_SALES_EMAIL}).`,
+    `This is the Onyxman Malaysia Private Concierge Desk (https://www.onyxmen.my | ${BRAND_SALES_EMAIL}).`,
     ``,
     `We have received your discreet order [${orderRef}]:`,
     `• Formulation: ${input.productName} (${input.bottles} Bottle${input.bottles > 1 ? 's' : ''})`,
@@ -222,7 +222,7 @@ export function buildGoogleCalendarRefillUrl(
     `&text=${encodeURIComponent(eventTitle)}` +
     `&dates=${encodeURIComponent(datesParam)}` +
     `&details=${encodeURIComponent(eventDetails)}` +
-    `&location=${encodeURIComponent('Kuala Lumpur, Malaysia (https://onyxman.my)')}`;
+    `&location=${encodeURIComponent('Kuala Lumpur, Malaysia (https://www.onyxmen.my)')}`;
 
   return {
     refillDayOffset: baseRefillDay,
@@ -271,7 +271,7 @@ export function buildOrderBridgePayload(
     _captcha: 'false',
     _replyto: input.customerEmail || BRAND_SALES_EMAIL,
     order_reference: orderReference,
-    brand_domain: 'https://onyxman.my',
+    brand_domain: 'https://www.onyxmen.my',
     merchant_notification_inbox: MERCHANT_PRIMARY_EMAIL,
     official_brand_aliases: `${BRAND_SALES_EMAIL} | ${BRAND_INFO_EMAIL}`,
     customer_name: input.customerName,

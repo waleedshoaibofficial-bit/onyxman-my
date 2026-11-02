@@ -1,4 +1,4 @@
-﻿name: "MS-193 Â· 24/7 Every-6-Hour Uptime, <800ms TTFB & Order Bridge Monitor"
+name: "MS-193 Â· 24/7 Every-6-Hour Uptime, <800ms TTFB & Order Bridge Monitor"
 
 on:
   schedule:
@@ -47,12 +47,13 @@ jobs:
         with:
           node-version: "20"
 
-      - name: "03 Â· Verify Local Static Build Integrity (--dry-run)"
+      - name: "03 · Build Local Static Artifacts & Verify Integrity (--dry-run)"
         run: |
-          echo "Running local artifact integrity check across / and all 4 flagship product URLs..."
+          echo "Building local static HTML artifacts and running dry-run check..."
+          node scripts/build-site.mjs
           node scripts/cloud-health-monitor.mjs --dry-run
 
-      - name: "04 Â· Execute Production Cloud Health & Order Bridge Monitor"
+      - name: "04 · Execute Production Cloud Health & Order Bridge Monitor"
         run: |
           MODE="${{ github.event.inputs.mode || '--live' }}"
           echo "Executing Onyxman.my Cloud Health & Order Bridge Monitor (${MODE})..."

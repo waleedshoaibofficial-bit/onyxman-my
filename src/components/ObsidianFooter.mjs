@@ -533,7 +533,7 @@ export function renderObsidianFooter(options = {}) {
 
   <div class="obsidian-footer__legal">
     <span>
-      © ${new Date().getFullYear()} Onyxman Malaysia Apothecary &amp; Men’s Vitality Vault (<a href="https://onyxman.my">https://onyxman.my</a>). ${
+      © ${new Date().getFullYear()} Onyxman Malaysia Apothecary &amp; Men’s Vitality Vault (<a href="https://www.onyxmen.my">https://www.onyxmen.my</a>). ${
   isMs ? 'Hak Cipta Terpelihara.' : 'All Rights Reserved.'
 }
     </span>

@@ -704,7 +704,7 @@ export function renderAuthenticityVerificationGatesSection() {
       title: 'Official Uniform MYR Pricing: RM 159 (1B) · RM 318 (2B) · RM 477 (3B)',
       spec: 'Zero RM 25–RM 45 Fake Clearance Listings',
       detail:
-        'Authentic climate-controlled Onyxman Malaysia stock is never dumped on unverified classified portals or third-party flea-market stalls for RM 25 to RM 55. Genuine standardized 100:1 Tongkat Ali, 60%-saponin Tribulus, and 10:1 Black Maca require certified extraction and heavy-metal testing, maintaining a strict official price of RM 159.00 per single bottle, RM 318.00 for 2 bottles, and RM 477.00 for 3 bottles exclusively on https://onyxman.my.',
+        'Authentic climate-controlled Onyxman Malaysia stock is never dumped on unverified classified portals or third-party flea-market stalls for RM 25 to RM 55. Genuine standardized 100:1 Tongkat Ali, 60%-saponin Tribulus, and 10:1 Black Maca require certified extraction and heavy-metal testing, maintaining a strict official price of RM 159.00 per single bottle, RM 318.00 for 2 bottles, and RM 477.00 for 3 bottles exclusively on https://www.onyxmen.my.',
     },
     {
       code: 'AUTH-GATE-02',
@@ -775,7 +775,7 @@ export function renderAuthenticityVerificationGatesSection() {
         </div>
         <div class="guide-section__header-right">
           <p>
-            Protect your cardiovascular and metabolic health from unverified street imitations. Every bottle dispatched from <strong>https://onyxman.my</strong> passes all five authenticity and analytical purity gates below.
+            Protect your cardiovascular and metabolic health from unverified street imitations. Every bottle dispatched from <strong>https://www.onyxmen.my</strong> passes all five authenticity and analytical purity gates below.
           </p>
         </div>
       </header>
@@ -963,7 +963,7 @@ export function renderAll16StatesDeliveryLedgerSection(defaultProductSlug = 'hor
         </div>
         <div class="guide-section__header-right">
           <p>
-            Every bottle ordered on <strong>https://onyxman.my</strong> ships from our climate-controlled Kuala Lumpur vault in a plain matte security carton with zero product names on the airway bill. Select your state hub below to inspect local transit windows and COD / FPX options.
+            Every bottle ordered on <strong>https://www.onyxmen.my</strong> ships from our climate-controlled Kuala Lumpur vault in a plain matte security carton with zero product names on the airway bill. Select your state hub below to inspect local transit windows and COD / FPX options.
           </p>
         </div>
       </header>
@@ -1089,7 +1089,7 @@ export const SHARED_BUYER_GUIDE_FAQS = [
   {
     questionEn: 'Why should Malaysian buyers avoid "RM 25 – RM 45" bottles on unverified online marketplaces?',
     answerEn:
-      'Unverified RM 25 to RM 45 marketplace listings are almost universally counterfeit capsules filled with raw rice starch, unrefined sawdust, or undeclared synthetic PDE5 chemicals that trigger severe headaches and dangerous blood-pressure drops. Authentic HPLC-standardized Onyxman stock is distributed exclusively via https://onyxman.my at RM 159 per bottle.',
+      'Unverified RM 25 to RM 45 marketplace listings are almost universally counterfeit capsules filled with raw rice starch, unrefined sawdust, or undeclared synthetic PDE5 chemicals that trigger severe headaches and dangerous blood-pressure drops. Authentic HPLC-standardized Onyxman stock is distributed exclusively via https://www.onyxmen.my at RM 159 per bottle.',
   },
   {
     questionEn: 'How does Onyxman guarantee 100% discreet parcel delivery to condos, offices, and family homes?',
@@ -1372,16 +1372,16 @@ export const GUIDE_DOSSIERS = [
         title: 'How Warehouse Heat Destroys Grey-Market Stock & How To Verify Your Waybill.',
         paragraphs: [
           'Even if a grey-market peddler acquires expired or parallel-imported herbal capsules, storing them inside non-air-conditioned zinc-roofed warehouses in 38°C Malaysian heat causes rapid Maillard browning, lipid peroxidation of Saw Palmetto fatty acids, and moisture clumping of hygroscopic Tongkat Ali and L-Citrulline powders. Within weeks, capsule shells turn brittle or sticky and lose potency.',
-          'All authentic Onyxman Malaysia inventory is stored inside our climate-controlled Kuala Lumpur apothecary vault at 20°C–24°C and <45% relative humidity. Every order is placed directly on https://onyxman.my, confirmed via sales@onyxman.my / info@onyxman.my / waleedshoaibofficial@gmail.com, and shipped in a 3-layer unmarked parcel under the authorized sender identity "OM Fulfilment Logistics (Kuala Lumpur)".',
+          'All authentic Onyxman Malaysia inventory is stored inside our climate-controlled Kuala Lumpur apothecary vault at 20°C–24°C and <45% relative humidity. Every order is placed directly on https://www.onyxmen.my, confirmed via sales@onyxman.my / info@onyxman.my / waleedshoaibofficial@gmail.com, and shipped in a 3-layer unmarked parcel under the authorized sender identity "OM Fulfilment Logistics (Kuala Lumpur)".',
         ],
       },
     ],
     protocolSteps: [
       {
         code: 'CHECK-01 · SOURCE DOMAIN',
-        title: 'Verify Direct Acquisition From https://onyxman.my',
+        title: 'Verify Direct Acquisition From https://www.onyxmen.my',
         metric: 'Official RM 159 / RM 318 / RM 477 Vault',
-        desc: 'Ensure your order was submitted directly through the Express Discreet Order Drawer on https://onyxman.my and confirmed by sales@onyxman.my or info@onyxman.my.',
+        desc: 'Ensure your order was submitted directly through the Express Discreet Order Drawer on https://www.onyxmen.my and confirmed by sales@onyxman.my or info@onyxman.my.',
       },
       {
         code: 'CHECK-02 · WAYBILL SENDER',
@@ -1412,7 +1412,7 @@ export const GUIDE_DOSSIERS = [
       {
         questionEn: 'Does Onyxman sell on third-party classifieds or unverified RM 35 marketplace shops?',
         answerEn:
-          'No. To protect buyer privacy and prevent counterfeit substitution or tropical heat degradation, authentic Onyxman Malaysia stock is dispatched exclusively through https://onyxman.my at the official price of RM 159 (1 Bottle), RM 318 (2 Bottles), and RM 477 (3 Bottles). Any RM 25–RM 55 listing elsewhere is unauthorized and counterfeit.',
+          'No. To protect buyer privacy and prevent counterfeit substitution or tropical heat degradation, authentic Onyxman Malaysia stock is dispatched exclusively through https://www.onyxmen.my at the official price of RM 159 (1 Bottle), RM 318 (2 Bottles), and RM 477 (3 Bottles). Any RM 25–RM 55 listing elsewhere is unauthorized and counterfeit.',
       },
       {
         questionEn: 'How can I tell if a supplement in Malaysia has been spiked with illicit synthetic chemicals?',
@@ -1469,7 +1469,7 @@ export const GUIDE_DOSSIERS = [
       '04 · RM 0 SURCHARGE COD HANDOVER',
     ],
     executiveSummary:
-      'For Malaysian executives, condominium residents, and family men, parcel privacy is just as critical as botanical potency. Every order placed on https://onyxman.my is engineered around our Zero-Trace Fulfilment Protocol: a 3-layer acoustic-dampened plain box, a neutral "OM Fulfilment Logistics" airway bill, neutral bank statement descriptors, and flexible settlement via FPX Online Banking, DuitNow Instant QR, or Cash on Delivery (COD) across all 16 Malaysian states and federal territories.',
+      'For Malaysian executives, condominium residents, and family men, parcel privacy is just as critical as botanical potency. Every order placed on https://www.onyxmen.my is engineered around our Zero-Trace Fulfilment Protocol: a 3-layer acoustic-dampened plain box, a neutral "OM Fulfilment Logistics" airway bill, neutral bank statement descriptors, and flexible settlement via FPX Online Banking, DuitNow Instant QR, or Cash on Delivery (COD) across all 16 Malaysian states and federal territories.',
     telemetry: [
       {
         key: '01 · EXTERIOR BRANDING',
@@ -2154,7 +2154,7 @@ export function renderIndividualGuidePage(dossier) {
   const schemaGraphJson = buildFullPageGraph({
     pageType: 'guide',
     lang,
-    pageUrl: `https://onyxman.my${canonicalPath}`,
+    pageUrl: `https://www.onyxmen.my${canonicalPath}`,
     title: dossier.seoTitle,
     description: dossier.metaDescription,
     product: dossier.primaryProductSlug,
@@ -2166,7 +2166,7 @@ export function renderIndividualGuidePage(dossier) {
       descriptionMs: dossier.metaDescription,
       datePublished: dossier.publishedDate,
       dateModified: dossier.updatedDate,
-      imageUrl: `https://onyxman.my${dossier.heroImage}`,
+      imageUrl: `https://www.onyxmen.my${dossier.heroImage}`,
       aboutTopics: dossier.taxonomyStrip,
     },
     breadcrumbs,
@@ -2517,7 +2517,7 @@ export function renderMasterGuidesIndexPage() {
   const schemaGraphJson = buildFullPageGraph({
     pageType: 'guide',
     lang,
-    pageUrl: 'https://onyxman.my/guides/',
+    pageUrl: 'https://www.onyxmen.my/guides/',
     title,
     description,
     product: 'horsemen',
@@ -2527,7 +2527,7 @@ export function renderMasterGuidesIndexPage() {
       headlineMs: title,
       descriptionEn: description,
       descriptionMs: description,
-      imageUrl: 'https://onyxman.my/assets/products/onyxman-lineup-hero.webp',
+      imageUrl: 'https://www.onyxmen.my/assets/products/onyxman-lineup-hero.webp',
       aboutTopics: [
         'Optimal Capsule Timing & Tropical Bioavailability in Malaysia',
         'Authentic RM 159 Onyxman Bottle Verification & Anti-Counterfeit Audit',

@@ -4,7 +4,7 @@
   "slug": "horsemen",
   "name": "Horsemen",
   "brand": "Onyxman",
-  "brandUrl": "https://onyxman.my",
+  "brandUrl": "https://www.onyxmen.my",
   "sku": "ONYX-HM-20",
   "skuLegacyAlias": "ONYX-HM-20MY",
   "mpn": "HM-500MG-20MY",
@@ -20,13 +20,13 @@
     "netWeightGrams": 10,
     "capsuleFormatEn": "500mg High-Density Herbal Extract Capsule",
     "capsuleFormatMs": "Kapsul Ekstrak Herba Berkepekatan Tinggi 500mg",
-    "originMarket": "Malaysia Official Apothecary Distribution (https://onyxman.my)"
+    "originMarket": "Malaysia Official Apothecary Distribution (https://www.onyxmen.my)"
   },
   "routes": {
     "enPath": "/products/horsemen/",
     "msPath": "/ms/produk/horsemen/",
-    "canonicalEn": "https://onyxman.my/products/horsemen/",
-    "canonicalMs": "https://onyxman.my/ms/produk/horsemen/"
+    "canonicalEn": "https://www.onyxmen.my/products/horsemen/",
+    "canonicalMs": "https://www.onyxmen.my/ms/produk/horsemen/"
   },
   "images": {
     "primaryWebp": "/assets/products/horsemen.webp",

@@ -5,7 +5,7 @@
   "legacyIdAlias": "Sensitivity-of-thor",
   "name": "Hammer of Thor",
   "brand": "Onyxman",
-  "brandUrl": "https://onyxman.my",
+  "brandUrl": "https://www.onyxmen.my",
   "sku": "ONYX-HT-20",
   "skuLegacyAlias": "ONYX-HT-20MY",
   "mpn": "HT-TRIB-20MY",
@@ -21,15 +21,15 @@
     "netWeightGrams": 10,
     "capsuleFormatEn": "100% Plant-Derived Hypromellose (HPMC) Vegetarian Capsule",
     "capsuleFormatMs": "100% Kapsul Vegetarian Berasaskan Tumbuhan (HPMC)",
-    "originMarket": "Malaysia Official Apothecary Distribution (https://onyxman.my)"
+    "originMarket": "Malaysia Official Apothecary Distribution (https://www.onyxmen.my)"
   },
   "routes": {
     "enPath": "/products/hammer-of-thor/",
     "msPath": "/ms/produk/hammer-of-thor/",
     "i18nRegistryEnPath": "/products/Sensitivity-of-thor/",
     "i18nRegistryMsPath": "/ms/produk/Sensitivity-of-thor/",
-    "canonicalEn": "https://onyxman.my/products/hammer-of-thor/",
-    "canonicalMs": "https://onyxman.my/ms/produk/hammer-of-thor/"
+    "canonicalEn": "https://www.onyxmen.my/products/hammer-of-thor/",
+    "canonicalMs": "https://www.onyxmen.my/ms/produk/hammer-of-thor/"
   },
   "images": {
     "primaryWebp": "/assets/products/hammer-of-thor.webp",

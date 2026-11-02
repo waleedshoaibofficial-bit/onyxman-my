@@ -5,8 +5,8 @@
  * Output Targets:
  *   1. public/ms/grow-xl-malaysia/index.html
  *   2. public/ms/produk/grow-xl/index.html
- * Canonical URL: https://onyxman.my/ms/grow-xl-malaysia/
- * Paired EN URL: https://onyxman.my/grow-xl-malaysia/
+ * Canonical URL: https://www.onyxmen.my/ms/grow-xl-malaysia/
+ * Paired EN URL: https://www.onyxmen.my/grow-xl-malaysia/
  * Product Constants:
  * - Name: Grow XL Malaysia (Produk #1 Terlaris — Diperbuat Daripada Ramuan Semula Jadi — Campuran Peningkatan Prestasi Lelaki Kekuatan Ekstra — 30 Kapsul)
  * - SKU: ONYX-GX-30 | MPN: GXL-30CAP-MY | GTIN-13: 9550000102035
@@ -28,8 +28,8 @@ const ROOT_DIR = path.resolve(__dirname, '..', '..');
 
 const CANONICAL_PATH_MS = '/ms/grow-xl-malaysia/';
 const ALTERNATE_PATH_EN = '/grow-xl-malaysia/';
-const CANONICAL_URL_MS = 'https://onyxman.my/ms/grow-xl-malaysia/';
-const ALTERNATE_URL_EN = 'https://onyxman.my/grow-xl-malaysia/';
+const CANONICAL_URL_MS = 'https://www.onyxmen.my/ms/grow-xl-malaysia/';
+const ALTERNATE_URL_EN = 'https://www.onyxmen.my/grow-xl-malaysia/';
 
 const PAGE_TITLE_MS =
   'Grow XL Malaysia (30 Kapsul) — Produk #1 Terlaris Campuran Peningkatan Prestasi Lelaki Kekuatan Ekstra | RM 159 Onyxman.my';
@@ -104,7 +104,7 @@ const GROWXL_BM_FAQS = [
 
 /**
  * Builds the complete ms-MY @graph JSON-LD structured data specifically anchored to
- * https://onyxman.my/ms/grow-xl-malaysia/ with SKU ONYX-GX-30 & MPN GXL-30CAP-MY.
+ * https://www.onyxmen.my/ms/grow-xl-malaysia/ with SKU ONYX-GX-30 & MPN GXL-30CAP-MY.
  */
 function buildGrowXlMsSchemaJson() {
   const baseGraphObj = buildFullPageGraphObject({
@@ -150,16 +150,16 @@ function buildGrowXlMsSchemaJson() {
       sku: 'ONYX-GX-30',
       mpn: 'GXL-30CAP-MY',
       gtin13: '9550000102035',
-      imageStageWebp: 'https://onyxman.my/assets/products/grow-xl-stage.webp',
-      imageStagePng: 'https://onyxman.my/assets/products/grow-xl-stage.png',
-      imagePortraitWebp: 'https://onyxman.my/assets/products/grow-xl-portrait.webp',
-      imagePortraitPng: 'https://onyxman.my/assets/products/grow-xl-portrait.png',
-      imageCutoutWebp: 'https://onyxman.my/assets/products/grow-xl-cutout.webp',
-      imageCutoutPng: 'https://onyxman.my/assets/products/grow-xl-cutout.png',
+      imageStageWebp: 'https://www.onyxmen.my/assets/products/grow-xl-stage.webp',
+      imageStagePng: 'https://www.onyxmen.my/assets/products/grow-xl-stage.png',
+      imagePortraitWebp: 'https://www.onyxmen.my/assets/products/grow-xl-portrait.webp',
+      imagePortraitPng: 'https://www.onyxmen.my/assets/products/grow-xl-portrait.png',
+      imageCutoutWebp: 'https://www.onyxmen.my/assets/products/grow-xl-cutout.webp',
+      imageCutoutPng: 'https://www.onyxmen.my/assets/products/grow-xl-cutout.png',
     },
     breadcrumbs: [
-      { name: 'Utama Onyxman Malaysia', url: 'https://onyxman.my/ms/' },
-      { name: '4 Formulasi Apotekari', url: 'https://onyxman.my/ms/produk/' },
+      { name: 'Utama Onyxman Malaysia', url: 'https://www.onyxmen.my/ms/' },
+      { name: '4 Formulasi Apotekari', url: 'https://www.onyxmen.my/ms/produk/' },
       {
         name: 'Grow XL Malaysia (30 Kapsul — Kekuatan Ekstra)',
         url: CANONICAL_URL_MS,
@@ -168,7 +168,7 @@ function buildGrowXlMsSchemaJson() {
     faqs: GROWXL_BM_FAQS,
   });
 
-  // Normalize all internal product URLs in the JSON-LD graph to point directly to https://onyxman.my/ms/grow-xl-malaysia/
+  // Normalize all internal product URLs in the JSON-LD graph to point directly to https://www.onyxmen.my/ms/grow-xl-malaysia/
   const rawSerialized = JSON.stringify(baseGraphObj, null, 2).replace(
     /https:\/\/onyxman\.my\/ms\/produk\/grow-xl\//g,
     CANONICAL_URL_MS
@@ -1686,7 +1686,7 @@ function buildGrowXlMsBodyHtml() {
             <p class="editorial-lead-paragraph">
               Jangan terpedaya dengan iklan klasifikasi pihak ketiga yang memaparkan gambar kabur bertera air
               (watermarked) atau menjual stok tiruan pada harga yang meragukan. Setiap botol tulen Grow XL daripada
-              <strong>Onyxman Malaysia (https://onyxman.my)</strong> mematuhi lima piawaian ketulenan berikut:
+              <strong>Onyxman Malaysia (https://www.onyxmen.my)</strong> mematuhi lima piawaian ketulenan berikut:
             </p>
           </header>
 

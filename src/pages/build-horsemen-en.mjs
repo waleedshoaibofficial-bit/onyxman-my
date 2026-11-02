@@ -12,7 +12,7 @@
  * - Authentic Constants:
  *   Product: Horsemen (Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg / 20 Kapsul x 500mg)
  *   SKU: ONYX-HM-20 | MPN: HM-500MG-20MY | GTIN-13: 9550000102011
- *   Canonical: https://onyxman.my/horsemen-malaysia/ (Paired BM: https://onyxman.my/ms/horsemen-malaysia/)
+ *   Canonical: https://www.onyxmen.my/horsemen-malaysia/ (Paired BM: https://www.onyxmen.my/ms/horsemen-malaysia/)
  *   Pricing: 1 Bottle = RM 159 (159.00 MYR), 2 Bottles = RM 318 (318.00 MYR), 3 Bottles = RM 477 (477.00 MYR)
  *   Refill Protocol: Day-18 Refill Reminder Calendar Integration (18-day active cycle)
  *   Emails: waleedshoaibofficial@gmail.com, sales@onyxman.my, info@onyxman.my
@@ -36,9 +36,9 @@ export const HORSEMEN_CONSTANTS = {
   sku: 'ONYX-HM-20',
   mpn: 'HM-500MG-20MY',
   gtin13: '9550000102011',
-  canonicalUrl: 'https://onyxman.my/horsemen-malaysia/',
+  canonicalUrl: 'https://www.onyxmen.my/horsemen-malaysia/',
   canonicalPath: '/horsemen-malaysia/',
-  pairedMsUrl: 'https://onyxman.my/ms/horsemen-malaysia/',
+  pairedMsUrl: 'https://www.onyxmen.my/ms/horsemen-malaysia/',
   pairedMsPath: '/ms/horsemen-malaysia/',
   capsuleCount: 20,
   capsuleWeightMg: 500,
@@ -146,18 +146,18 @@ export function buildHorsemenSchemaGraph() {
   const pageUrl = HORSEMEN_CONSTANTS.canonicalUrl;
   const productId = `${pageUrl}#product`;
   const productGroupId = `${pageUrl}#product-group`;
-  const orgId = 'https://onyxman.my/#organization';
-  const websiteId = 'https://onyxman.my/#website';
-  const shippingId = 'https://onyxman.my/#shipping-my';
-  const returnId = 'https://onyxman.my/#return-policy';
+  const orgId = 'https://www.onyxmen.my/#organization';
+  const websiteId = 'https://www.onyxmen.my/#website';
+  const shippingId = 'https://www.onyxmen.my/#shipping-my';
+  const returnId = 'https://www.onyxmen.my/#return-policy';
 
   const images = [
-    `https://onyxman.my${HORSEMEN_CONSTANTS.assets.stageWebp}`,
-    `https://onyxman.my${HORSEMEN_CONSTANTS.assets.stagePng}`,
-    `https://onyxman.my${HORSEMEN_CONSTANTS.assets.portraitWebp}`,
-    `https://onyxman.my${HORSEMEN_CONSTANTS.assets.portraitPng}`,
-    `https://onyxman.my${HORSEMEN_CONSTANTS.assets.cutoutWebp}`,
-    `https://onyxman.my${HORSEMEN_CONSTANTS.assets.cutoutPng}`,
+    `https://www.onyxmen.my${HORSEMEN_CONSTANTS.assets.stageWebp}`,
+    `https://www.onyxmen.my${HORSEMEN_CONSTANTS.assets.stagePng}`,
+    `https://www.onyxmen.my${HORSEMEN_CONSTANTS.assets.portraitWebp}`,
+    `https://www.onyxmen.my${HORSEMEN_CONSTANTS.assets.portraitPng}`,
+    `https://www.onyxmen.my${HORSEMEN_CONSTANTS.assets.cutoutWebp}`,
+    `https://www.onyxmen.my${HORSEMEN_CONSTANTS.assets.cutoutPng}`,
   ];
 
   const shippingDetailsNode = {
@@ -223,16 +223,16 @@ export function buildHorsemenSchemaGraph() {
 
   const brandNode = {
     '@type': 'Brand',
-    '@id': 'https://onyxman.my/#brand',
+    '@id': 'https://www.onyxmen.my/#brand',
     name: 'Onyxman',
-    url: 'https://onyxman.my',
+    url: 'https://www.onyxmen.my',
   };
 
   const sellerNode = {
     '@type': 'Organization',
     '@id': orgId,
     name: 'Onyxman Malaysia',
-    url: 'https://onyxman.my',
+    url: 'https://www.onyxmen.my',
     email: 'sales@onyxman.my',
   };
 
@@ -305,7 +305,7 @@ export function buildHorsemenSchemaGraph() {
         '@id': orgId,
         name: 'Onyxman Malaysia',
         legalName: "Onyxman Malaysia Apothecary & Men's Vitality Vault",
-        url: 'https://onyxman.my',
+        url: 'https://www.onyxmen.my',
         email: 'sales@onyxman.my',
         contactPoint: [
           {
@@ -334,7 +334,7 @@ export function buildHorsemenSchemaGraph() {
       {
         '@type': 'WebSite',
         '@id': websiteId,
-        url: 'https://onyxman.my',
+        url: 'https://www.onyxmen.my',
         name: 'Onyxman Malaysia',
         inLanguage: 'en-MY',
         publisher: { '@id': orgId },
@@ -437,13 +437,13 @@ export function buildHorsemenSchemaGraph() {
             '@type': 'ListItem',
             position: 1,
             name: 'Onyxman Malaysia',
-            item: 'https://onyxman.my/',
+            item: 'https://www.onyxmen.my/',
           },
           {
             '@type': 'ListItem',
             position: 2,
             name: 'Formulations Vault',
-            item: 'https://onyxman.my/products/',
+            item: 'https://www.onyxmen.my/products/',
           },
           {
             '@type': 'ListItem',
@@ -1461,7 +1461,7 @@ export function buildHorsemenBodyContent() {
 
               <a
                 id="hm-hero-day18-calendar-link"
-                href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Onyxman+Malaysia+%E2%80%94+Horsemen+Day-18+Refill+Check-In+(RM+159)&details=Time+to+reserve+your+next+bottle+of+Horsemen+(20+Capsules+x+500mg,+SKU+ONYX-HM-20)+at+https://onyxman.my/horsemen-malaysia/+or+email+sales@onyxman.my+so+your+cycle+continues+with+zero+gap."
+                href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Onyxman+Malaysia+%E2%80%94+Horsemen+Day-18+Refill+Check-In+(RM+159)&details=Time+to+reserve+your+next+bottle+of+Horsemen+(20+Capsules+x+500mg,+SKU+ONYX-HM-20)+at+https://www.onyxmen.my/horsemen-malaysia/+or+email+sales@onyxman.my+so+your+cycle+continues+with+zero+gap."
                 target="_blank"
                 rel="noopener noreferrer"
                 class="cta-hairline-secondary"
@@ -2586,8 +2586,8 @@ export function writeHorsemenEnPage() {
     'ONYX-HM-20',
     'HM-500MG-20MY',
     '9550000102011',
-    'https://onyxman.my/horsemen-malaysia/',
-    'https://onyxman.my/ms/horsemen-malaysia/',
+    'https://www.onyxmen.my/horsemen-malaysia/',
+    'https://www.onyxmen.my/ms/horsemen-malaysia/',
     '/assets/products/horsemen-stage.webp',
     '/assets/products/horsemen-portrait.webp',
     '/assets/products/horsemen-cutout.webp',

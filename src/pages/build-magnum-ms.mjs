@@ -5,8 +5,8 @@
  * Micro-Step: MS-114B (Turn 15 — Subagent #15)
  * Primary Output Target : public/ms/magnum-pump-xr-malaysia/index.html
  * Mirror Output Target  : public/ms/produk/magnum-pump-xr/index.html
- * Canonical URL         : https://onyxman.my/ms/magnum-pump-xr-malaysia/
- * Paired EN URL         : https://onyxman.my/magnum-pump-xr-malaysia/
+ * Canonical URL         : https://www.onyxmen.my/ms/magnum-pump-xr-malaysia/
+ * Paired EN URL         : https://www.onyxmen.my/magnum-pump-xr-malaysia/
  *
  * Authentic Product & Business Constants:
  *   - Product : Magnum Pump XR Malaysia (Siri Pro Testosteron — Formula Peningkatan Prestasi Lelaki Kekuatan Maksimum — 30 Kapsul Hitam)
@@ -172,7 +172,7 @@ export const MAGNUM_PUMP_XR_MS_FAQS = [
 
 /**
  * Membina struktur penuh @graph JSON-LD khusus untuk halaman utama Bahasa Malaysia Magnum Pump XR:
- * https://onyxman.my/ms/magnum-pump-xr-malaysia/
+ * https://www.onyxmen.my/ms/magnum-pump-xr-malaysia/
  * Menggunakan buildFullPageGraph daripada src/utils/schema-graph.mjs dan memperkayakannya
  * dengan data rasmi src/data/products/magnum-pump-xr.json.
  */
@@ -1862,7 +1862,7 @@ function renderChapter2BotanicalAndBlackCapsule() {
             Pengelasan Positif Rasmi: Suplemen Pemakanan Kapsul Makan (DietarySupplement)
           </h3>
           <p class="architectural-ledger__detail">
-            Di bawah piawaian Schema.org (<code>@type: ["Product", "DietarySupplement"]</code>) dan Google Merchant Center Malaysia, <strong>Magnum Pump XR oleh Onyxman Malaysia (https://onyxman.my)</strong> dikelaskan secara eksklusif di bawah kategori <em>Health &amp; Beauty &gt; Health Care &gt; Fitness &amp; Nutrition &gt; Vitamins &amp; Supplements</em>. Ia mengandungi <strong>30 Kapsul Hitam makan (600mg setiap kapsul)</strong> dengan kod pendaftaran inventori <strong>SKU: ONYX-MP-30</strong>, <strong>MPN: MPXR-30BLK-MY</strong>, dan <strong>GTIN-13: 9550000102042</strong>.
+            Di bawah piawaian Schema.org (<code>@type: ["Product", "DietarySupplement"]</code>) dan Google Merchant Center Malaysia, <strong>Magnum Pump XR oleh Onyxman Malaysia (https://www.onyxmen.my)</strong> dikelaskan secara eksklusif di bawah kategori <em>Health &amp; Beauty &gt; Health Care &gt; Fitness &amp; Nutrition &gt; Vitamins &amp; Supplements</em>. Ia mengandungi <strong>30 Kapsul Hitam makan (600mg setiap kapsul)</strong> dengan kod pendaftaran inventori <strong>SKU: ONYX-MP-30</strong>, <strong>MPN: MPXR-30BLK-MY</strong>, dan <strong>GTIN-13: 9550000102042</strong>.
           </p>
           <span class="architectural-ledger__metric">SKU: ONYX-MP-30</span>
         </div>
@@ -2607,7 +2607,7 @@ function renderChapter3CycleComparisonShippingFaq() {
             6 Senarai Semak Ketulenan Botol Rasmi <span class="foil-champagne-text">Magnum Pump XR Malaysia</span>
           </h2>
           <p class="editorial-lead-paragraph">
-            Bagi memastikan anda menerima formulasi tulen <strong>30 Kapsul Hitam × 600mg</strong> yang mengandungi L-Arginine HCl, L-Citrulline Malate, Kunyit Hitam, dan Bioperine berpiawai, setiap botol rasmi Magnum Pump XR yang diedarkan melalui <strong>https://onyxman.my</strong> memenuhi 6 ciri pengesahan fizikal berikut:
+            Bagi memastikan anda menerima formulasi tulen <strong>30 Kapsul Hitam × 600mg</strong> yang mengandungi L-Arginine HCl, L-Citrulline Malate, Kunyit Hitam, dan Bioperine berpiawai, setiap botol rasmi Magnum Pump XR yang diedarkan melalui <strong>https://www.onyxmen.my</strong> memenuhi 6 ciri pengesahan fizikal berikut:
           </p>
         </div>
 
@@ -2669,7 +2669,7 @@ function renderChapter3CycleComparisonShippingFaq() {
           <span class="architectural-ledger__index">SEMAK 06</span>
           <h3 class="architectural-ledger__title">Pengesahan Terus Melalui Meja Rasmi Onyxman.my</h3>
           <p class="architectural-ledger__detail">
-            Semua tempahan tulen hanya diproses melalui laman web rasmi <strong>https://onyxman.my</strong> dan disahkan menerusi meja operasi <a href="mailto:sales@onyxman.my" style="color: var(--gold-foil-bright);">sales@onyxman.my</a>, <a href="mailto:info@onyxman.my" style="color: var(--gold-foil-bright);">info@onyxman.my</a>, dan <a href="mailto:waleedshoaibofficial@gmail.com" style="color: var(--gold-foil-bright);">waleedshoaibofficial@gmail.com</a>.
+            Semua tempahan tulen hanya diproses melalui laman web rasmi <strong>https://www.onyxmen.my</strong> dan disahkan menerusi meja operasi <a href="mailto:sales@onyxman.my" style="color: var(--gold-foil-bright);">sales@onyxman.my</a>, <a href="mailto:info@onyxman.my" style="color: var(--gold-foil-bright);">info@onyxman.my</a>, dan <a href="mailto:waleedshoaibofficial@gmail.com" style="color: var(--gold-foil-bright);">waleedshoaibofficial@gmail.com</a>.
           </p>
           <span class="architectural-ledger__metric">PENGEDAR SAH MY</span>
         </div>

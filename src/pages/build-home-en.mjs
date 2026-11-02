@@ -14,7 +14,7 @@
  *   * Fonts: 'Cormorant Garamond', 'Syne', 'Space Grotesk'
  *   * ZERO banned tokens, ZERO pill badges, ZERO bordered 3-column card grids
  * - Authentic Business Constants:
- *   * Brand: Onyxman (https://onyxman.my/) | Alternate BM: https://onyxman.my/ms/
+ *   * Brand: Onyxman (https://www.onyxmen.my/) | Alternate BM: https://www.onyxmen.my/ms/
  *   * Prices: 1 Bottle = RM 159 (159.00), 2 Bottles = RM 318 (318.00), 3 Bottles = RM 477 (477.00)
  *   * Emails: waleedshoaibofficial@gmail.com, sales@onyxman.my, info@onyxman.my
  *   * Zero fake KKM/MAL registration claims
@@ -106,7 +106,7 @@ export const HOMEPAGE_EN_FAQS = [
     questionEn:
       'What exactly is Magnum Pump XR (30 Black Capsules) on Onyxman.my? Is it an oral dietary supplement?',
     answerEn:
-      'Yes. Magnum Pump XR distributed by Onyxman Malaysia (https://onyxman.my, SKU ONYX-MP-30, MPN MPXR-30BLK-MY, RM 159) is strictly an oral botanical and amino-acid Dietary Supplement for adult men (18+) containing 30 signature jet-black capsules per bottle under the Testosterone Pro Series. Each 600mg black capsule combines L-Arginine HCl (180mg), L-Citrulline Malate (140mg), Tribulus Terrestris (110mg), Malaysian Tongkat Ali (90mg), Thai Black Ginger / Kunyit Hitam (65mg), and Bioperine (15mg). It has zero affiliation or relation to heavy industrial oilfield slurry/frac fluid pumps or mechanical vacuum devices.',
+      'Yes. Magnum Pump XR distributed by Onyxman Malaysia (https://www.onyxmen.my, SKU ONYX-MP-30, MPN MPXR-30BLK-MY, RM 159) is strictly an oral botanical and amino-acid Dietary Supplement for adult men (18+) containing 30 signature jet-black capsules per bottle under the Testosterone Pro Series. Each 600mg black capsule combines L-Arginine HCl (180mg), L-Citrulline Malate (140mg), Tribulus Terrestris (110mg), Malaysian Tongkat Ali (90mg), Thai Black Ginger / Kunyit Hitam (65mg), and Bioperine (15mg). It has zero affiliation or relation to heavy industrial oilfield slurry/frac fluid pumps or mechanical vacuum devices.',
   },
   {
     id: 'faq-home-07',
@@ -114,7 +114,7 @@ export const HOMEPAGE_EN_FAQS = [
     questionEn:
       'Are Onyxman formulations prescription drugs, and how do I avoid counterfeit marketplace imitations?',
     answerEn:
-      'Onyxman formulations are traditional botanical and amino-acid dietary supplements formulated exclusively for adult men (18+) to support physical stamina, peripheral micro-circulation, and daily vitality. We never print fabricated medical registration codes, never make unrealistic surgical claims, and screen every batch against undeclared synthetic PDE5 adulterants and heavy metals (Pb, As, Hg, Cd). To avoid cheap starch-filled counterfeits or heat-degraded classifieds stock, reserve exclusively through https://onyxman.my at the official RM 159 / RM 318 / RM 477 tariff backed by our Kuala Lumpur desk (sales@onyxman.my / waleedshoaibofficial@gmail.com).',
+      'Onyxman formulations are traditional botanical and amino-acid dietary supplements formulated exclusively for adult men (18+) to support physical stamina, peripheral micro-circulation, and daily vitality. We never print fabricated medical registration codes, never make unrealistic surgical claims, and screen every batch against undeclared synthetic PDE5 adulterants and heavy metals (Pb, As, Hg, Cd). To avoid cheap starch-filled counterfeits or heat-degraded classifieds stock, reserve exclusively through https://www.onyxmen.my at the official RM 159 / RM 318 / RM 477 tariff backed by our Kuala Lumpur desk (sales@onyxman.my / waleedshoaibofficial@gmail.com).',
   },
   {
     id: 'faq-home-08',
@@ -2193,7 +2193,7 @@ function renderMs085AntiCounterfeitAndPrivacy() {
       </div>
       <div style="flex:1 1 440px;display:flex;flex-direction:column;gap:1rem;">
         <p style="color:#B8B3A8;font-size:0.96rem;line-height:1.7;">
-          Unverified online classifieds and street stalls frequently circulate counterfeit capsules filled with raw starch or heat-degraded grey-market bottles. Every bottle dispatched by <strong>https://onyxman.my</strong> passes our 5-Point Kuala Lumpur Vault Verification Protocol.
+          Unverified online classifieds and street stalls frequently circulate counterfeit capsules filled with raw starch or heat-degraded grey-market bottles. Every bottle dispatched by <strong>https://www.onyxmen.my</strong> passes our 5-Point Kuala Lumpur Vault Verification Protocol.
         </p>
         <div style="display:flex;flex-wrap:wrap;gap:0.85rem;">
           <a href="/guides/how-to-verify-authentic-onyxman-bottles-malaysia/" class="cta-foil-primary">
@@ -2249,7 +2249,7 @@ function renderMs085AntiCounterfeitAndPrivacy() {
         <span class="architectural-ledger__index">VERIFY · 05</span>
         <h3 class="architectural-ledger__title">Authorized Kuala Lumpur Dispatch Desk &amp; Zero Fake Registration Claims</h3>
         <p class="architectural-ledger__detail">
-          Every legitimate order on https://onyxman.my is routed through our official merchant desk (<strong>waleedshoaibofficial@gmail.com</strong>, <strong>sales@onyxman.my</strong>, <strong>info@onyxman.my</strong>). We strictly reject fabricated medical registration numbers and screen all botanical batches for heavy-metal and microbial compliance.
+          Every legitimate order on https://www.onyxmen.my is routed through our official merchant desk (<strong>waleedshoaibofficial@gmail.com</strong>, <strong>sales@onyxman.my</strong>, <strong>info@onyxman.my</strong>). We strictly reject fabricated medical registration numbers and screen all botanical batches for heavy-metal and microbial compliance.
         </p>
         <span class="architectural-ledger__metric">SALES@ONYXMAN.MY</span>
       </div>
@@ -2348,7 +2348,7 @@ export function buildHomeEnPage() {
   const pageTitle =
     'Onyxman Malaysia — Architectural Botanical Apothecary for Adult Men’s Vitality & Stamina | Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159)';
   const pageDescription =
-    'Official Onyxman Malaysia (https://onyxman.my) botanical apothecary for adult men: Horsemen (20 Caps x 500mg), Hammer of Thor (20 Veg. Caps Tribulus), Grow XL (30 Caps), and Magnum Pump XR (30 Black Caps Nitric Oxide). Uniform RM 159 (1B), RM 318 (2B), RM 477 (3B) pricing with 100% plain unmarked parcel delivery across all 16 Malaysia states (Same-Day Klang Valley, FPX, DuitNow QR & COD).';
+    'Official Onyxman Malaysia (https://www.onyxmen.my) botanical apothecary for adult men: Horsemen (20 Caps x 500mg), Hammer of Thor (20 Veg. Caps Tribulus), Grow XL (30 Caps), and Magnum Pump XR (30 Black Caps Nitric Oxide). Uniform RM 159 (1B), RM 318 (2B), RM 477 (3B) pricing with 100% plain unmarked parcel delivery across all 16 Malaysia states (Same-Day Klang Valley, FPX, DuitNow QR & COD).';
 
   const chapterConfigs = [
     {
@@ -2407,14 +2407,14 @@ export function buildHomeEnPage() {
   // Build complete @graph JSON-LD (Organization, WebSite, CollectionPage, 4 Product + ProductGroup nodes, ItemList, BreadcrumbList, 12-Question FAQPage)
   const schemaGraphObj = buildFullPageGraphObject({
     lang: 'en-MY',
-    pageUrl: 'https://onyxman.my/',
+    pageUrl: 'https://www.onyxmen.my/',
     pageType: 'home',
     title: pageTitle,
     description: pageDescription,
     breadcrumbs: [
       {
         name: 'Onyxman Malaysia — Official Apothecary Vault (Home)',
-        url: 'https://onyxman.my/',
+        url: 'https://www.onyxmen.my/',
       },
     ],
     faqs: HOMEPAGE_EN_FAQS,

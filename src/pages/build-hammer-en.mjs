@@ -2,8 +2,8 @@
 /**
  * ONYXMAN.MY — HAMMER OF THOR EN-MY FLAGSHIP APOTHECARY BUILDER (MS-103 TO MS-106)
  * Output Target: public/hammer-of-thor-malaysia/index.html
- * Canonical URL: https://onyxman.my/hammer-of-thor-malaysia/
- * Paired BM URL: https://onyxman.my/ms/hammer-of-thor-malaysia/
+ * Canonical URL: https://www.onyxmen.my/hammer-of-thor-malaysia/
+ * Paired BM URL: https://www.onyxmen.my/ms/hammer-of-thor-malaysia/
  *
  * Strictly enforces:
  * - APEX Rule #29 & Rule #30: Paradigm A (100vw x 100vh Full-Bleed Obsidian Hero Stage)
@@ -49,9 +49,9 @@ export const HAMMER_CONSTANTS = {
   totalBottlePotencyMg: 10000,
   refillTriggerDay: 18,
   capsuleShellSpec: '100% Plant-Derived Hypromellose (USP-Grade HPMC Vegetarian Capsule — Zero Bovine or Porcine Gelatin)',
-  canonicalUrl: 'https://onyxman.my/hammer-of-thor-malaysia/',
+  canonicalUrl: 'https://www.onyxmen.my/hammer-of-thor-malaysia/',
   canonicalPath: '/hammer-of-thor-malaysia/',
-  pairedMsUrl: 'https://onyxman.my/ms/hammer-of-thor-malaysia/',
+  pairedMsUrl: 'https://www.onyxmen.my/ms/hammer-of-thor-malaysia/',
   pairedMsPath: '/ms/hammer-of-thor-malaysia/',
   assets: {
     stageWebp: '/assets/products/hammer-of-thor-stage.webp',
@@ -403,7 +403,7 @@ export const HAMMER_FAQS = [
     category: 'AUTHENTICITY VERIFICATION',
     questionEn: 'How can I distinguish authentic Hammer of Thor from Onyxman.my against cheap counterfeit bottles online?',
     answerEn:
-      "Authentic Hammer of Thor distributed exclusively through https://onyxman.my carries SKU ONYX-HT-20, MPN HT-TRIB-20MY, and GTIN-13 9550000102028. Visually, it features a high-gloss obsidian black bottle with a precision-milled metallic gold cap, gold crest emblem, crisp front typography reading 'HAMMER OF THOR — Men's Health — Tribulus Terrestris — 20 Veg. Capsules', a green vegetarian seal badge, an induction heat-sealed mouth, and an internal food-grade silica desiccant canister. Every authentic bottle is priced strictly at RM 159 and verifiable via sales@onyxman.my or info@onyxman.my.",
+      "Authentic Hammer of Thor distributed exclusively through https://www.onyxmen.my carries SKU ONYX-HT-20, MPN HT-TRIB-20MY, and GTIN-13 9550000102028. Visually, it features a high-gloss obsidian black bottle with a precision-milled metallic gold cap, gold crest emblem, crisp front typography reading 'HAMMER OF THOR — Men's Health — Tribulus Terrestris — 20 Veg. Capsules', a green vegetarian seal badge, an induction heat-sealed mouth, and an internal food-grade silica desiccant canister. Every authentic bottle is priced strictly at RM 159 and verifiable via sales@onyxman.my or info@onyxman.my.",
   },
   {
     index: '07',
@@ -436,7 +436,7 @@ export const HAMMER_FAQS = [
 ];
 
 /**
- * Builds the comprehensive @graph JSON-LD specifically for https://onyxman.my/hammer-of-thor-malaysia/
+ * Builds the comprehensive @graph JSON-LD specifically for https://www.onyxmen.my/hammer-of-thor-malaysia/
  * Includes: Organization, WebSite, OfferShippingDetails, MerchantReturnPolicy, ItemPage,
  * Product + DietarySupplement, ProductGroup (1/2/3 Bottles), FAQPage (10 Q&As), and BreadcrumbList.
  */
@@ -451,26 +451,26 @@ export function buildHammerEnSchemaGraph() {
   const returnPolicyNode = buildReturnPolicyNode();
 
   const images = [
-    `https://onyxman.my${HAMMER_CONSTANTS.assets.stageWebp}`,
-    `https://onyxman.my${HAMMER_CONSTANTS.assets.stagePng}`,
-    `https://onyxman.my${HAMMER_CONSTANTS.assets.portraitWebp}`,
-    `https://onyxman.my${HAMMER_CONSTANTS.assets.portraitPng}`,
-    `https://onyxman.my${HAMMER_CONSTANTS.assets.cutoutWebp}`,
-    `https://onyxman.my${HAMMER_CONSTANTS.assets.cutoutPng}`,
+    `https://www.onyxmen.my${HAMMER_CONSTANTS.assets.stageWebp}`,
+    `https://www.onyxmen.my${HAMMER_CONSTANTS.assets.stagePng}`,
+    `https://www.onyxmen.my${HAMMER_CONSTANTS.assets.portraitWebp}`,
+    `https://www.onyxmen.my${HAMMER_CONSTANTS.assets.portraitPng}`,
+    `https://www.onyxmen.my${HAMMER_CONSTANTS.assets.cutoutWebp}`,
+    `https://www.onyxmen.my${HAMMER_CONSTANTS.assets.cutoutPng}`,
   ];
 
   const brandNode = {
     '@type': 'Brand',
     '@id': BRAND_ID,
     name: 'Onyxman',
-    url: 'https://onyxman.my',
+    url: 'https://www.onyxmen.my',
   };
 
   const sellerNode = {
     '@type': 'Organization',
     '@id': ORG_ID,
     name: 'Onyxman Malaysia',
-    url: 'https://onyxman.my',
+    url: 'https://www.onyxmen.my',
     email: 'sales@onyxman.my',
   };
 
@@ -678,13 +678,13 @@ export function buildHammerEnSchemaGraph() {
         '@type': 'ListItem',
         position: 1,
         name: 'Onyxman Malaysia (Home)',
-        item: 'https://onyxman.my/',
+        item: 'https://www.onyxmen.my/',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Apothecary Formulations',
-        item: 'https://onyxman.my/products/',
+        item: 'https://www.onyxmen.my/products/',
       },
       {
         '@type': 'ListItem',

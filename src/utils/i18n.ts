@@ -1,7 +1,7 @@
 /**
  * ONYXMAN.MY — BILINGUAL INTERNATIONALIZATION & HREFLANG ENGINE (MS-005)
  * Locales: English Malaysia (en-MY) & Bahasa Malaysia (ms-MY)
- * Domain: https://onyxman.my
+ * Domain: https://www.onyxmen.my
  */
 
 export type SupportedLocale = 'en-MY' | 'ms-MY';
@@ -22,7 +22,7 @@ export interface RoutePair {
   titleMs: string;
 }
 
-export const DOMAIN_ORIGIN = 'https://onyxman.my';
+export const DOMAIN_ORIGIN = 'https://www.onyxmen.my';
 
 export const ROUTE_REGISTRY: readonly RoutePair[] = [
   // 1. Core Flagship & Vault Hub

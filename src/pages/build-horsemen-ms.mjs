@@ -4,8 +4,8 @@
  * ONYXMAN.MY — BAHASA MALAYSIA FLAGSHIP BUILDER: HORSEMEN MALAYSIA
  * Micro-Steps: MS-100, MS-101, MS-102 (Turn 9 — Subagent #9)
  * Output Target: public/ms/horsemen-malaysia/index.html
- * Canonical URL: https://onyxman.my/ms/horsemen-malaysia/
- * Paired EN URL: https://onyxman.my/horsemen-malaysia/
+ * Canonical URL: https://www.onyxmen.my/ms/horsemen-malaysia/
+ * Paired EN URL: https://www.onyxmen.my/horsemen-malaysia/
  * Product Constants:
  *   - Title: Horsemen Malaysia (Suplemen Herba Vitaliti & Tenaga Lelaki — 20 Kapsul x 500mg)
  *   - SKU: ONYX-HM-20 | MPN: HM-500MG-20MY | GTIN-13: 9550000102011
@@ -154,7 +154,7 @@ export const HORSEMEN_MS_FAQS = [
 
 /**
  * Membina struktur penuh @graph JSON-LD khusus untuk halaman utama Bahasa Malaysia Horsemen:
- * https://onyxman.my/ms/horsemen-malaysia/
+ * https://www.onyxmen.my/ms/horsemen-malaysia/
  */
 function buildHorsemenMsGraphJson() {
   const shippingNode = buildShippingDetailsNode();
@@ -2512,7 +2512,7 @@ function renderChapterMs102() {
             6 Senarai Semak Ketulenan Botol Rasmi <span class="foil-champagne-text">Horsemen Malaysia</span>
           </h2>
           <p class="editorial-lead-paragraph">
-            Bagi melindungi lelaki dewasa di Malaysia daripada produk tiruan berkualiti rendah di pasaran terbuka yang menggunakan botol plastik nipis atau serbuk tidak berpiawai, setiap botol tulen Horsemen Malaysia yang diedarkan melalui <strong>https://onyxman.my</strong> memenuhi 6 piawaian pengesahan fizikal berikut:
+            Bagi melindungi lelaki dewasa di Malaysia daripada produk tiruan berkualiti rendah di pasaran terbuka yang menggunakan botol plastik nipis atau serbuk tidak berpiawai, setiap botol tulen Horsemen Malaysia yang diedarkan melalui <strong>https://www.onyxmen.my</strong> memenuhi 6 piawaian pengesahan fizikal berikut:
           </p>
         </div>
 
@@ -2574,7 +2574,7 @@ function renderChapterMs102() {
           <span class="architectural-ledger__index">SEMAK 06</span>
           <h3 class="architectural-ledger__title">Pelepasan Eksklusif Melalui Meja Rasmi Onyxman.my</h3>
           <p class="architectural-ledger__detail">
-            Semua pesanan tulen hanya diproses melalui laman rasmi <strong>https://onyxman.my</strong> dan disahkan menerusi e-mel rasmi <a href="mailto:sales@onyxman.my" style="color: var(--gold-foil-bright);">sales@onyxman.my</a>, <a href="mailto:info@onyxman.my" style="color: var(--gold-foil-bright);">info@onyxman.my</a>, atau <a href="mailto:waleedshoaibofficial@gmail.com" style="color: var(--gold-foil-bright);">waleedshoaibofficial@gmail.com</a>.
+            Semua pesanan tulen hanya diproses melalui laman rasmi <strong>https://www.onyxmen.my</strong> dan disahkan menerusi e-mel rasmi <a href="mailto:sales@onyxman.my" style="color: var(--gold-foil-bright);">sales@onyxman.my</a>, <a href="mailto:info@onyxman.my" style="color: var(--gold-foil-bright);">info@onyxman.my</a>, atau <a href="mailto:waleedshoaibofficial@gmail.com" style="color: var(--gold-foil-bright);">waleedshoaibofficial@gmail.com</a>.
           </p>
           <span class="architectural-ledger__metric">PENGEDAR SAH MY</span>
         </div>

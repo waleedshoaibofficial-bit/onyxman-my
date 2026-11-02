@@ -4,7 +4,7 @@
   "slug": "grow-xl",
   "name": "Grow XL",
   "brand": "Onyxman",
-  "brandUrl": "https://onyxman.my",
+  "brandUrl": "https://www.onyxmen.my",
   "sku": "ONYX-GX-30",
   "skuLegacyAlias": "ONYX-GX-30MY",
   "mpn": "GXL-30CAP-MY",
@@ -20,13 +20,13 @@
     "netWeightGrams": 16.5,
     "capsuleFormatEn": "30-Day Full-Month Extra-Strength Botanical Capsule",
     "capsuleFormatMs": "Kapsul Botani Kekuatan Ekstra Kitaran Penuh 30 Hari",
-    "originMarket": "Malaysia Official Apothecary Distribution (https://onyxman.my)"
+    "originMarket": "Malaysia Official Apothecary Distribution (https://www.onyxmen.my)"
   },
   "routes": {
     "enPath": "/products/grow-xl/",
     "msPath": "/ms/produk/grow-xl/",
-    "canonicalEn": "https://onyxman.my/products/grow-xl/",
-    "canonicalMs": "https://onyxman.my/ms/produk/grow-xl/"
+    "canonicalEn": "https://www.onyxmen.my/products/grow-xl/",
+    "canonicalMs": "https://www.onyxmen.my/ms/produk/grow-xl/"
   },
   "images": {
     "primaryWebp": "/assets/products/grow-xl.webp",

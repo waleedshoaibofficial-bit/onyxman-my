@@ -3,8 +3,8 @@
  * ============================================================================
  * ONYXMAN.MY — HAMMER OF THOR BAHASA MALAYSIA FLAGSHIP BUILDER (MS-107 TO MS-108)
  * Output Target: public/ms/hammer-of-thor-malaysia/index.html
- * Canonical URL: https://onyxman.my/ms/hammer-of-thor-malaysia/
- * Paired EN URL: https://onyxman.my/hammer-of-thor-malaysia/
+ * Canonical URL: https://www.onyxmen.my/ms/hammer-of-thor-malaysia/
+ * Paired EN URL: https://www.onyxmen.my/hammer-of-thor-malaysia/
  * Product Constants:
  * - Name: Hammer of Thor Malaysia (Kesihatan Lelaki — Tribulus Terrestris — 20 Kapsul Vegetarian)
  * - SKU: ONYX-HT-20 | MPN: HT-TRIB-20MY | GTIN-13: 9550000102028
@@ -25,8 +25,8 @@ const ROOT_DIR = path.resolve(__dirname, '..', '..');
 
 const CANONICAL_PATH_MS = '/ms/hammer-of-thor-malaysia/';
 const ALTERNATE_PATH_EN = '/hammer-of-thor-malaysia/';
-const CANONICAL_URL_MS = 'https://onyxman.my/ms/hammer-of-thor-malaysia/';
-const ALTERNATE_URL_EN = 'https://onyxman.my/hammer-of-thor-malaysia/';
+const CANONICAL_URL_MS = 'https://www.onyxmen.my/ms/hammer-of-thor-malaysia/';
+const ALTERNATE_URL_EN = 'https://www.onyxmen.my/hammer-of-thor-malaysia/';
 
 const PAGE_TITLE_MS =
   'Hammer of Thor Malaysia (20 Kapsul Vegetarian) — Suplemen Kesihatan Lelaki Tribulus Terrestris | RM 159 Onyxman.my';
@@ -91,7 +91,7 @@ const HAMMER_BM_FAQS = [
 
 /**
  * Builds the complete ms-MY @graph JSON-LD structured data specifically anchored to
- * https://onyxman.my/ms/hammer-of-thor-malaysia/ with SKU ONYX-HT-20 & MPN HT-TRIB-20MY.
+ * https://www.onyxmen.my/ms/hammer-of-thor-malaysia/ with SKU ONYX-HT-20 & MPN HT-TRIB-20MY.
  */
 function buildHammerMsSchemaJson() {
   const baseGraphObj = buildFullPageGraphObject({
@@ -135,16 +135,16 @@ function buildHammerMsSchemaJson() {
       sku: 'ONYX-HT-20',
       mpn: 'HT-TRIB-20MY',
       gtin13: '9550000102028',
-      imageStageWebp: 'https://onyxman.my/assets/products/hammer-of-thor-stage.webp',
-      imageStagePng: 'https://onyxman.my/assets/products/hammer-of-thor-stage.png',
-      imagePortraitWebp: 'https://onyxman.my/assets/products/hammer-of-thor-portrait.webp',
-      imagePortraitPng: 'https://onyxman.my/assets/products/hammer-of-thor-portrait.png',
-      imageCutoutWebp: 'https://onyxman.my/assets/products/hammer-of-thor-cutout.webp',
-      imageCutoutPng: 'https://onyxman.my/assets/products/hammer-of-thor-cutout.png',
+      imageStageWebp: 'https://www.onyxmen.my/assets/products/hammer-of-thor-stage.webp',
+      imageStagePng: 'https://www.onyxmen.my/assets/products/hammer-of-thor-stage.png',
+      imagePortraitWebp: 'https://www.onyxmen.my/assets/products/hammer-of-thor-portrait.webp',
+      imagePortraitPng: 'https://www.onyxmen.my/assets/products/hammer-of-thor-portrait.png',
+      imageCutoutWebp: 'https://www.onyxmen.my/assets/products/hammer-of-thor-cutout.webp',
+      imageCutoutPng: 'https://www.onyxmen.my/assets/products/hammer-of-thor-cutout.png',
     },
     breadcrumbs: [
-      { name: 'Utama Onyxman Malaysia', url: 'https://onyxman.my/ms/' },
-      { name: '4 Formulasi Apotekari', url: 'https://onyxman.my/ms/produk/' },
+      { name: 'Utama Onyxman Malaysia', url: 'https://www.onyxmen.my/ms/' },
+      { name: '4 Formulasi Apotekari', url: 'https://www.onyxmen.my/ms/produk/' },
       {
         name: 'Hammer of Thor Malaysia (20 Kapsul Vegetarian)',
         url: CANONICAL_URL_MS,
@@ -153,7 +153,7 @@ function buildHammerMsSchemaJson() {
     faqs: HAMMER_BM_FAQS,
   });
 
-  // Normalize all internal product URLs in the JSON-LD graph to point directly to https://onyxman.my/ms/hammer-of-thor-malaysia/
+  // Normalize all internal product URLs in the JSON-LD graph to point directly to https://www.onyxmen.my/ms/hammer-of-thor-malaysia/
   const rawSerialized = JSON.stringify(baseGraphObj, null, 2).replace(
     /https:\/\/onyxman\.my\/ms\/produk\/hammer-of-thor\//g,
     CANONICAL_URL_MS
@@ -1654,7 +1654,7 @@ function buildHammerMsBodyHtml() {
             <p class="editorial-lead-paragraph">
               Elakkan produk tiruan tidak berlabel di pasaran lambak yang menggunakan kapsul gelatin murah atau
               bahan kimia tersembunyi. Setiap botol rasmi Hammer of Thor yang diedarkan oleh
-              <strong>Onyxman Malaysia (https://onyxman.my)</strong> mematuhi lima spesifikasi fizikal berikut:
+              <strong>Onyxman Malaysia (https://www.onyxmen.my)</strong> mematuhi lima spesifikasi fizikal berikut:
             </p>
           </header>
 
@@ -1717,7 +1717,7 @@ function buildHammerMsBodyHtml() {
                 Pengesahan Terus Melalui Meja Khidmat Rasmi sales@onyxman.my &amp; info@onyxman.my
               </h3>
               <p class="architectural-ledger__detail">
-                Setiap pesanan daripada laman rasmi <code>https://onyxman.my</code> menjana nombor rujukan
+                Setiap pesanan daripada laman rasmi <code>https://www.onyxmen.my</code> menjana nombor rujukan
                 <code>ONYX-MY-XXXXXX</code> yang direkodkan terus melalui meja pengesahan rasmi kami di
                 <a href="mailto:sales@onyxman.my">sales@onyxman.my</a> dan
                 <a href="mailto:info@onyxman.my">info@onyxman.my</a>.

@@ -4,7 +4,7 @@
   "slug": "magnum-pump-xr",
   "name": "Magnum Pump XR",
   "brand": "Onyxman",
-  "brandUrl": "https://onyxman.my",
+  "brandUrl": "https://www.onyxmen.my",
   "sku": "ONYX-MP-30",
   "skuLegacyAlias": "ONYX-MP-30MY",
   "mpn": "MPXR-30BLK-MY",
@@ -13,8 +13,8 @@
   "entityDisambiguation": {
     "entityType": "DietarySupplement",
     "schemaCategory": "Health & Beauty > Health Care > Fitness & Nutrition > Vitamins & Supplements",
-    "positiveClassificationEn": "Magnum Pump XR by Onyxman Malaysia (https://onyxman.my) is strictly an oral botanical and amino-acid Dietary Supplement for adult men (30 Black Capsules per bottle, SKU ONYX-MP-30, MPN MPXR-30BLK-MY) formulated with L-Arginine HCl, L-Citrulline, Tribulus Terrestris, Tongkat Ali, and Bioperine to support nitric oxide vascular flow and physical stamina.",
-    "positiveClassificationMs": "Magnum Pump XR oleh Onyxman Malaysia (https://onyxman.my) adalah Suplemen Pemakanan kapsul botani dan asid amino untuk lelaki dewasa (30 Kapsul Hitam setiap botol, SKU ONYX-MP-30, MPN MPXR-30BLK-MY) yang dirumus dengan L-Arginine HCl, L-Citrulline, Tribulus Terrestris, Tongkat Ali, dan Bioperine bagi menyokong aliran nitrik oksida dan stamina fizikal.",
+    "positiveClassificationEn": "Magnum Pump XR by Onyxman Malaysia (https://www.onyxmen.my) is strictly an oral botanical and amino-acid Dietary Supplement for adult men (30 Black Capsules per bottle, SKU ONYX-MP-30, MPN MPXR-30BLK-MY) formulated with L-Arginine HCl, L-Citrulline, Tribulus Terrestris, Tongkat Ali, and Bioperine to support nitric oxide vascular flow and physical stamina.",
+    "positiveClassificationMs": "Magnum Pump XR oleh Onyxman Malaysia (https://www.onyxmen.my) adalah Suplemen Pemakanan kapsul botani dan asid amino untuk lelaki dewasa (30 Kapsul Hitam setiap botol, SKU ONYX-MP-30, MPN MPXR-30BLK-MY) yang dirumus dengan L-Arginine HCl, L-Citrulline, Tribulus Terrestris, Tongkat Ali, dan Bioperine bagi menyokong aliran nitrik oksida dan stamina fizikal.",
     "negativeDisambiguationEn": "NOT affiliated with, related to, or interchangeable with any mechanical, hydraulic, frac, slurry, or industrial oilfield equipment (such as 'Magnum Pump XR' fluid-end pumps, mud pumps, or SPM/Weir oilfield machinery), nor any mechanical vacuum device.",
     "negativeDisambiguationMs": "TIDAK berkaitan sama sekali dengan sebarang peralatan mekanikal, pam hidraulik, pam industri minyak dan gas (oilfield frac/slurry pump), atau sebarang alat pam mekanikal luaran.",
     "disambiguatingKeywords": [
@@ -34,13 +34,13 @@
     "netWeightGrams": 18,
     "capsuleFormatEn": "Extended-Release (XR) Jet-Black Capsule (30 Black Capsules per Bottle)",
     "capsuleFormatMs": "Kapsul Hitam Pelepasan Lanjutan (XR) (30 Kapsul Hitam setiap Botol)",
-    "originMarket": "Malaysia Official Apothecary Distribution (https://onyxman.my)"
+    "originMarket": "Malaysia Official Apothecary Distribution (https://www.onyxmen.my)"
   },
   "routes": {
     "enPath": "/products/magnum-pump-xr/",
     "msPath": "/ms/produk/magnum-pump-xr/",
-    "canonicalEn": "https://onyxman.my/products/magnum-pump-xr/",
-    "canonicalMs": "https://onyxman.my/ms/produk/magnum-pump-xr/"
+    "canonicalEn": "https://www.onyxmen.my/products/magnum-pump-xr/",
+    "canonicalMs": "https://www.onyxmen.my/ms/produk/magnum-pump-xr/"
   },
   "images": {
     "primaryWebp": "/assets/products/magnum-pump-xr.webp",

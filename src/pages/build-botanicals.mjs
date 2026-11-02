@@ -2456,9 +2456,9 @@ function renderSecondaryCofactorsSection(lang = 'en-MY') {
 export const SHARED_BOTANICAL_FAQS = [
   {
     questionEn: 'How do I verify that my Onyxman bottle (Horsemen, Hammer of Thor, Grow XL, or Magnum Pump XR) contains authentic standardized extracts?',
-    answerEn: 'Authentic Onyxman Malaysia bottles are distributed exclusively through https://onyxman.my and dispatched directly from our Kuala Lumpur fulfilment vault (OM Fulfilment Logistics) with a tamper-evident heat-induction foil seal, crisp metallic label typography, and official SKU/GTIN batch traceability (ONYX-HM-20, ONYX-HT-20, ONYX-GX-30, ONYX-MP-30). You can verify any bottle directly with our concierge at sales@onyxman.my or info@onyxman.my.',
+    answerEn: 'Authentic Onyxman Malaysia bottles are distributed exclusively through https://www.onyxmen.my and dispatched directly from our Kuala Lumpur fulfilment vault (OM Fulfilment Logistics) with a tamper-evident heat-induction foil seal, crisp metallic label typography, and official SKU/GTIN batch traceability (ONYX-HM-20, ONYX-HT-20, ONYX-GX-30, ONYX-MP-30). You can verify any bottle directly with our concierge at sales@onyxman.my or info@onyxman.my.',
     questionMs: 'Bagaimanakah cara mengesahkan botol Onyxman saya (Horsemen, Hammer of Thor, Grow XL, atau Magnum Pump XR) mengandungi ekstrak piawai yang tulen?',
-    answerMs: 'Botol tulen Onyxman Malaysia hanya diedarkan secara rasmi melalui https://onyxman.my dan dihantar terus dari bilik kebal operasi Kuala Lumpur kami (OM Fulfilment Logistics) lengkap dengan penutup induksi haba kedap udara serta kod SKU/GTIN rasmi (ONYX-HM-20, ONYX-HT-20, ONYX-GX-30, ONYX-MP-30). Anda boleh menyemak ketulenan terus melalui sales@onyxman.my atau info@onyxman.my.',
+    answerMs: 'Botol tulen Onyxman Malaysia hanya diedarkan secara rasmi melalui https://www.onyxmen.my dan dihantar terus dari bilik kebal operasi Kuala Lumpur kami (OM Fulfilment Logistics) lengkap dengan penutup induksi haba kedap udara serta kod SKU/GTIN rasmi (ONYX-HM-20, ONYX-HT-20, ONYX-GX-30, ONYX-MP-30). Anda boleh menyemak ketulenan terus melalui sales@onyxman.my atau info@onyxman.my.',
   },
   {
     questionEn: 'Are Onyxman botanical formulations registered prescription drugs or adult dietary supplements?',
@@ -2513,7 +2513,7 @@ export function renderIndividualMonographPage(dossier, lang = 'en-MY') {
   const schemaGraphJson = buildFullPageGraph({
     pageType: 'botanical',
     lang,
-    pageUrl: `https://onyxman.my${canonicalPath}`,
+    pageUrl: `https://www.onyxmen.my${canonicalPath}`,
     title: loc.seoTitle,
     description: loc.metaDescription,
     product: dossier.primaryProductSlug,
@@ -2523,7 +2523,7 @@ export function renderIndividualMonographPage(dossier, lang = 'en-MY') {
       headlineMs: dossier.ms.seoTitle,
       descriptionEn: dossier.en.metaDescription,
       descriptionMs: dossier.ms.metaDescription,
-      imageUrl: `https://onyxman.my${dossier.heroImage}`,
+      imageUrl: `https://www.onyxmen.my${dossier.heroImage}`,
       aboutTopics: [
         dossier.scientificName,
         dossier.activeBioMarker,
@@ -3201,7 +3201,7 @@ export function renderMasterBotanicalIndexPage(lang = 'en-MY') {
   const schemaGraphJson = buildFullPageGraph({
     pageType: 'botanical',
     lang,
-    pageUrl: `https://onyxman.my${canonicalPath}`,
+    pageUrl: `https://www.onyxmen.my${canonicalPath}`,
     title,
     description,
     product: 'horsemen',
@@ -3211,7 +3211,7 @@ export function renderMasterBotanicalIndexPage(lang = 'en-MY') {
       headlineMs: title,
       descriptionEn: description,
       descriptionMs: description,
-      imageUrl: 'https://onyxman.my/assets/products/onyxman-lineup-hero.webp',
+      imageUrl: 'https://www.onyxmen.my/assets/products/onyxman-lineup-hero.webp',
       aboutTopics: [
         'Eurycoma longifolia 100:1 Root Extract (Tongkat Ali Malaysia)',
         'Tribulus terrestris 60% Furostanol Saponins (Protodioscin)',

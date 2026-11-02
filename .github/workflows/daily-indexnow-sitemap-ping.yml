@@ -1,4 +1,4 @@
-﻿name: "MS-192 Â· 24/7 Daily IndexNow & Sitemap Autonomous Ping (09:00 MYT)"
+name: "MS-192 Â· 24/7 Daily IndexNow & Sitemap Autonomous Ping (09:00 MYT)"
 
 on:
   schedule:
@@ -26,9 +26,9 @@ env:
   NODE_ENV: "production"
   SITE_DOMAIN: "https://www.onyxmen.my"
   INDEXNOW_KEY: "onyxman2026myindexnowkey8899aabb"
-  INDEXNOW_KEY_LOCATION: "https://onyxman.my/indexnow-key.txt"
-  SITEMAP_URL: "https://onyxman.my/sitemap.xml"
-  LLMS_TXT_URL: "https://onyxman.my/llms.txt"
+  INDEXNOW_KEY_LOCATION: "https://www.onyxmen.my/indexnow-key.txt"
+  SITEMAP_URL: "https://www.onyxmen.my/sitemap.xml"
+  LLMS_TXT_URL: "https://www.onyxmen.my/llms.txt"
 
 jobs:
   daily-indexnow-seo-ping:
@@ -37,40 +37,38 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: "01 Â· Checkout Onyxman.my Repository"
+      - name: "01 · Checkout Onyxman.my Repository"
         uses: actions/checkout@v4
 
-      - name: "02 Â· Setup Node.js 20 LTS Runtime"
+      - name: "02 · Setup Node.js 20 LTS Runtime"
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      - name: "03 Â· Ensure Built Sitemap & Static Artifacts Are Up to Date"
+      - name: "03 · Ensure Built Sitemap & Static Artifacts Are Up to Date"
         run: |
-          if [ ! -f "public/sitemap.xml" ] && [ -f "scripts/build-site.mjs" ]; then
-            echo "public/sitemap.xml not found; executing build-site.mjs first..."
-            node scripts/build-site.mjs
-          fi
+          echo "Building public/ artifacts via build-site.mjs..."
+          node scripts/build-site.mjs
 
-      - name: "04 Â· Pre-Flight Local Sitemap & IndexNow Key Verification (--dry-run)"
+      - name: "04 · Pre-Flight Local Sitemap & IndexNow Key Verification (--dry-run)"
         run: |
           node scripts/ping-indexnow.mjs --dry-run
 
-      - name: "05 Â· Execute Live IndexNow Multi-Engine Submission (api.indexnow.org, Bing, Yandex, Seznam, Naver)"
+      - name: "05 · Execute Live IndexNow Multi-Engine Submission (api.indexnow.org, Bing, Yandex, Seznam, Naver)"
         run: |
           MODE="${{ github.event.inputs.mode || '--live' }}"
           echo "Executing IndexNow submission in mode: ${MODE}"
           node scripts/ping-indexnow.mjs "${MODE}"
 
-      - name: "06 Â· Verify Live HTTP 200 Reachability for sitemap.xml, llms.txt & indexnow-key.txt"
+      - name: "06 · Verify Live HTTP 200 Reachability for sitemap.xml, llms.txt & indexnow-key.txt"
         if: ${{ (github.event.inputs.mode || '--live') == '--live' }}
         run: |
-          echo "Checking HTTP reachability for https://onyxman.my/sitemap.xml, /llms.txt, and /indexnow-key.txt..."
-          curl -fsSLI "https://onyxman.my/sitemap.xml" | head -n 5
-          curl -fsSLI "https://onyxman.my/llms.txt" | head -n 5
-          KEY_BODY=$(curl -fsSL "https://onyxman.my/indexnow-key.txt" | tr -d '\r\n ')
+          echo "Checking HTTP reachability for https://www.onyxmen.my/sitemap.xml, /llms.txt, and /indexnow-key.txt..."
+          curl -fsSLI "https://www.onyxmen.my/sitemap.xml" | head -n 5
+          curl -fsSLI "https://www.onyxmen.my/llms.txt" | head -n 5
+          KEY_BODY=$(curl -fsSL "https://www.onyxmen.my/indexnow-key.txt" | tr -d '\r\n ')
           if [ "$KEY_BODY" != "onyxman2026myindexnowkey8899aabb" ]; then
-            echo "::error::IndexNow key mismatch at https://onyxman.my/indexnow-key.txt: got '$KEY_BODY'"
+            echo "::error::IndexNow key mismatch at https://www.onyxmen.my/indexnow-key.txt: got '$KEY_BODY'"
             exit 1
           fi
           echo "Verified IndexNow key match: $KEY_BODY"

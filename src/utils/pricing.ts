@@ -156,7 +156,7 @@ export function buildProductOffersSchema(productUrl: string, sku: string): Recor
     seller: {
       '@type': 'Organization',
       name: 'Onyxman',
-      url: 'https://onyxman.my',
+      url: 'https://www.onyxmen.my',
       email: 'sales@onyxman.my',
     },
     shippingDetails: [

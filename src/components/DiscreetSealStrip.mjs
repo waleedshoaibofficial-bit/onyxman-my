@@ -1,7 +1,7 @@
 /**
  * ONYXMAN.MY — ARCHITECTURAL AUTHENTICITY & DISCREET PACKAGING SEAL STRIP (MS-077 to MS-078)
  * Non-Box Hairline Ledger Strip enforcing Rule #29 & Rule #30
- * Domain: https://onyxman.my | Prices: RM 159 (159.00) / RM 318 (318.00) / RM 477 (477.00) MYR
+ * Domain: https://www.onyxmen.my | Prices: RM 159 (159.00) / RM 318 (318.00) / RM 477 (477.00) MYR
  */
 
 /**

@@ -2474,13 +2474,13 @@ export function renderIndividualStateHubPage(dossier, lang = 'en-MY') {
     deliveryWindowEn: dossier.transitWindowEn,
     deliveryWindowMs: dossier.transitWindowMs,
     couriers: dossier.couriers,
-    pageUrl: `https://onyxman.my${canonicalPath}`,
+    pageUrl: `https://www.onyxmen.my${canonicalPath}`,
   };
 
   const schemaGraphJson = buildFullPageGraph({
     pageType: 'state-hub',
     lang,
-    pageUrl: `https://onyxman.my${canonicalPath}`,
+    pageUrl: `https://www.onyxmen.my${canonicalPath}`,
     title,
     description,
     stateHub: stateSchemaObj,
@@ -2918,7 +2918,7 @@ export function renderMasterMalaysiaIndexPage(lang = 'en-MY') {
   const schemaGraphJson = buildFullPageGraph({
     pageType: 'state-hub',
     lang,
-    pageUrl: `https://onyxman.my${canonicalPath}`,
+    pageUrl: `https://www.onyxmen.my${canonicalPath}`,
     title,
     description,
     stateHub: 'kuala-lumpur',

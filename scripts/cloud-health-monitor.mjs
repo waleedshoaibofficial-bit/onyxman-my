@@ -2,7 +2,7 @@
 /**
  * ONYXMAN.MY — 24/7 CLOUD HEALTH, <800ms TTFB & EXPRESS ORDER BRIDGE MONITOR (MS-195B)
  *
- * Audits https://onyxman.my/ and all 4 flagship product URLs:
+ * Audits https://www.onyxmen.my/ and all 4 flagship product URLs:
  *   - / (Homepage & Flagship Apothecary Vault)
  *   - /horsemen-malaysia/ (Horsemen — 20 Capsules x 500mg)
  *   - /hammer-of-thor-malaysia/ (Hammer of Thor — 20 Veg. Capsules)
@@ -143,7 +143,7 @@ function verifyHtmlDocumentIntegrity(target, htmlContent) {
   }
 
   const expectedCanonical1 = `${SITE_ORIGIN}${route}`;
-  const expectedCanonical2 = `https://onyxman.my${route}`;
+  const expectedCanonical2 = `https://www.onyxmen.my${route}`;
   if (
     !htmlContent.includes(`rel="canonical" href="${expectedCanonical1}"`) &&
     !htmlContent.includes(`rel="canonical" href="${expectedCanonical2}"`)
@@ -271,7 +271,7 @@ function runDryRunAudit() {
 }
 
 /**
- * Live cloud HTTP verification against https://onyxman.my
+ * Live cloud HTTP verification against https://www.onyxmen.my
  */
 async function runLiveCloudAudit() {
   for (const target of MONITOR_TARGETS) {
@@ -281,7 +281,7 @@ async function runLiveCloudAudit() {
       const response = await fetch(url, {
         method: 'GET',
         headers: {
-          'User-Agent': 'Onyxman-Cloud-Health-Monitor/1.0 (+https://onyxman.my)',
+          'User-Agent': 'Onyxman-Cloud-Health-Monitor/1.0 (+https://www.onyxmen.my)',
           Accept: 'text/html,application/xhtml+xml',
         },
       });

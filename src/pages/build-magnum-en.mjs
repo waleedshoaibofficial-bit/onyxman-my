@@ -4,8 +4,8 @@
  * Output Targets:
  *   1. public/magnum-pump-xr-malaysia/index.html (Canonical Flagship Route)
  *   2. public/products/magnum-pump-xr/index.html (Catalog Mirror Route)
- * Canonical URL: https://onyxman.my/magnum-pump-xr-malaysia/
- * Paired BM URL: https://onyxman.my/ms/magnum-pump-xr-malaysia/
+ * Canonical URL: https://www.onyxmen.my/magnum-pump-xr-malaysia/
+ * Paired BM URL: https://www.onyxmen.my/ms/magnum-pump-xr-malaysia/
  *
  * Strictly enforces:
  * - APEX Rule #29 & Rule #30:
@@ -64,11 +64,11 @@ export const MAGNUM_CONSTANTS = {
   refillTriggerDay: MAGNUM_PRODUCT_DATA.refillProtocol?.refillReminderDay || 25,
   capsuleFormatSpec:
     'Extended-Release (XR) UV-Shielded Jet-Black Oral Capsule (30 Black Capsules × 600mg = 18,000mg per Bottle)',
-  canonicalUrl: 'https://onyxman.my/magnum-pump-xr-malaysia/',
+  canonicalUrl: 'https://www.onyxmen.my/magnum-pump-xr-malaysia/',
   canonicalPath: '/magnum-pump-xr-malaysia/',
-  pairedMsUrl: 'https://onyxman.my/ms/magnum-pump-xr-malaysia/',
+  pairedMsUrl: 'https://www.onyxmen.my/ms/magnum-pump-xr-malaysia/',
   pairedMsPath: '/ms/magnum-pump-xr-malaysia/',
-  catalogMirrorUrl: 'https://onyxman.my/products/magnum-pump-xr/',
+  catalogMirrorUrl: 'https://www.onyxmen.my/products/magnum-pump-xr/',
   catalogMirrorPath: '/products/magnum-pump-xr/',
   assets: {
     stageWebp: MAGNUM_PRODUCT_DATA.images?.stageWebp || '/assets/products/magnum-pump-xr-stage.webp',
@@ -207,7 +207,7 @@ export const MAGNUM_ENTITY_DISAMBIGUATION_LEDGER = [
     code: 'ONYX-22-01',
     dimension: 'Positive Semantic Classification (@type: DietarySupplement)',
     magnumPumpXrSpec:
-      'Magnum Pump XR by Onyxman Malaysia (https://onyxman.my/magnum-pump-xr-malaysia/) is 100% an oral botanical and amino-acid Dietary Supplement for adult men (18+), packaged as 30 Jet-Black Capsules × 600mg (18g net weight) in an apothecary bottle (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042).',
+      'Magnum Pump XR by Onyxman Malaysia (https://www.onyxmen.my/magnum-pump-xr-malaysia/) is 100% an oral botanical and amino-acid Dietary Supplement for adult men (18+), packaged as 30 Jet-Black Capsules × 600mg (18g net weight) in an apothecary bottle (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042).',
     excludedExternalEntity:
       'Explicitly classified under Schema.org Product + DietarySupplement (Health & Beauty > Health Care > Fitness & Nutrition > Vitamins & Supplements).',
     verificationTag: 'ORAL CAPSULE SUPPLEMENT',
@@ -243,7 +243,7 @@ export const MAGNUM_ENTITY_DISAMBIGUATION_LEDGER = [
     code: 'ONYX-22-05',
     dimension: 'Official Malaysia Commercial & Fulfilment Identity',
     magnumPumpXrSpec:
-      'Sold exclusively in Malaysia at the uniform apothecary reserve price of RM 159 (1 Bottle / 30 Black Capsules), RM 318 (2 Bottles / 60 Black Capsules), and RM 477 (3 Bottles / 90 Black Capsules) via https://onyxman.my.',
+      'Sold exclusively in Malaysia at the uniform apothecary reserve price of RM 159 (1 Bottle / 30 Black Capsules), RM 318 (2 Bottles / 60 Black Capsules), and RM 477 (3 Bottles / 90 Black Capsules) via https://www.onyxmen.my.',
     excludedExternalEntity:
       'Dispatched in 100% plain, unmarked matte parcels under sender "OM Fulfilment Logistics" via waleedshoaibofficial@gmail.com, sales@onyxman.my, and info@onyxman.my.',
     verificationTag: 'RM 159 OFFICIAL RESERVE',
@@ -519,7 +519,7 @@ export const MAGNUM_FAQS = [
 ];
 
 /**
- * Builds the comprehensive @graph JSON-LD specifically for https://onyxman.my/magnum-pump-xr-malaysia/
+ * Builds the comprehensive @graph JSON-LD specifically for https://www.onyxmen.my/magnum-pump-xr-malaysia/
  * Uses buildFullPageGraph from src/utils/schema-graph.mjs + MAGNUM_PRODUCT_DATA from src/data/products/magnum-pump-xr.json
  * and enriches the Product/DietarySupplement node with explicit ONYX-22 entity disambiguation,
  * SKU ONYX-MP-30, MPN MPXR-30BLK-MY, GTIN-13 9550000102042, and 1/2/3-bottle ProductGroup variants.
@@ -561,12 +561,12 @@ export function buildMagnumEnSchemaGraph(canonicalUrlOverride = MAGNUM_CONSTANTS
     sku: MAGNUM_CONSTANTS.sku,
     mpn: MAGNUM_CONSTANTS.mpn,
     gtin13: MAGNUM_CONSTANTS.gtin13,
-    imageStageWebp: `https://onyxman.my${MAGNUM_CONSTANTS.assets.stageWebp}`,
-    imageStagePng: `https://onyxman.my${MAGNUM_CONSTANTS.assets.stagePng}`,
-    imagePortraitWebp: `https://onyxman.my${MAGNUM_CONSTANTS.assets.portraitWebp}`,
-    imagePortraitPng: `https://onyxman.my${MAGNUM_CONSTANTS.assets.portraitPng}`,
-    imageCutoutWebp: `https://onyxman.my${MAGNUM_CONSTANTS.assets.cutoutWebp}`,
-    imageCutoutPng: `https://onyxman.my${MAGNUM_CONSTANTS.assets.cutoutPng}`,
+    imageStageWebp: `https://www.onyxmen.my${MAGNUM_CONSTANTS.assets.stageWebp}`,
+    imageStagePng: `https://www.onyxmen.my${MAGNUM_CONSTANTS.assets.stagePng}`,
+    imagePortraitWebp: `https://www.onyxmen.my${MAGNUM_CONSTANTS.assets.portraitWebp}`,
+    imagePortraitPng: `https://www.onyxmen.my${MAGNUM_CONSTANTS.assets.portraitPng}`,
+    imageCutoutWebp: `https://www.onyxmen.my${MAGNUM_CONSTANTS.assets.cutoutWebp}`,
+    imageCutoutPng: `https://www.onyxmen.my${MAGNUM_CONSTANTS.assets.cutoutPng}`,
   };
 
   const baseGraphJson = buildFullPageGraph({
@@ -579,8 +579,8 @@ export function buildMagnumEnSchemaGraph(canonicalUrlOverride = MAGNUM_CONSTANTS
       'Reserve authentic Magnum Pump XR (Testosterone Pro Series — Male Enhancement Formula Maximum Strength — 30 Black Capsules, SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042) for RM 159 at Onyxman.my. 600mg UV-shielded jet-black oral dietary supplement capsules with L-Arginine HCl, L-Citrulline Malate 2:1, Tribulus Terrestris, Malaysian Tongkat Ali, Thai Black Ginger & Bioperine.',
     product: customProductInput,
     breadcrumbs: [
-      { name: 'Onyxman Malaysia (Home)', url: 'https://onyxman.my/' },
-      { name: 'Apothecary Formulations', url: 'https://onyxman.my/products/' },
+      { name: 'Onyxman Malaysia (Home)', url: 'https://www.onyxmen.my/' },
+      { name: 'Apothecary Formulations', url: 'https://www.onyxmen.my/products/' },
       {
         name: 'Magnum Pump XR (Testosterone Pro Series — 30 Black Capsules · SKU ONYX-MP-30)',
         url: pageUrl,
@@ -597,26 +597,26 @@ export function buildMagnumEnSchemaGraph(canonicalUrlOverride = MAGNUM_CONSTANTS
   const returnPolicyNode = buildReturnPolicyNode();
 
   const images = [
-    `https://onyxman.my${MAGNUM_CONSTANTS.assets.stageWebp}`,
-    `https://onyxman.my${MAGNUM_CONSTANTS.assets.stagePng}`,
-    `https://onyxman.my${MAGNUM_CONSTANTS.assets.portraitWebp}`,
-    `https://onyxman.my${MAGNUM_CONSTANTS.assets.portraitPng}`,
-    `https://onyxman.my${MAGNUM_CONSTANTS.assets.cutoutWebp}`,
-    `https://onyxman.my${MAGNUM_CONSTANTS.assets.cutoutPng}`,
+    `https://www.onyxmen.my${MAGNUM_CONSTANTS.assets.stageWebp}`,
+    `https://www.onyxmen.my${MAGNUM_CONSTANTS.assets.stagePng}`,
+    `https://www.onyxmen.my${MAGNUM_CONSTANTS.assets.portraitWebp}`,
+    `https://www.onyxmen.my${MAGNUM_CONSTANTS.assets.portraitPng}`,
+    `https://www.onyxmen.my${MAGNUM_CONSTANTS.assets.cutoutWebp}`,
+    `https://www.onyxmen.my${MAGNUM_CONSTANTS.assets.cutoutPng}`,
   ];
 
   const brandNode = {
     '@type': 'Brand',
     '@id': BRAND_ID,
     name: 'Onyxman',
-    url: 'https://onyxman.my',
+    url: 'https://www.onyxmen.my',
   };
 
   const sellerNode = {
     '@type': 'Organization',
     '@id': ORG_ID,
     name: 'Onyxman Malaysia',
-    url: 'https://onyxman.my',
+    url: 'https://www.onyxmen.my',
     email: 'sales@onyxman.my',
   };
 
@@ -720,8 +720,8 @@ export function buildMagnumEnSchemaGraph(canonicalUrlOverride = MAGNUM_CONSTANTS
         '@id': productNodeId,
         url: pageUrl,
         sameAs: [
-          'https://onyxman.my/magnum-pump-xr-malaysia/',
-          'https://onyxman.my/products/magnum-pump-xr/',
+          'https://www.onyxmen.my/magnum-pump-xr-malaysia/',
+          'https://www.onyxmen.my/products/magnum-pump-xr/',
         ],
         sku: MAGNUM_CONSTANTS.sku,
         mpn: MAGNUM_CONSTANTS.mpn,

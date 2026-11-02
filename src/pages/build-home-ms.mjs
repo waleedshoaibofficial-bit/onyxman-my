@@ -8,7 +8,7 @@
  * - Rule #29 & Rule #30: Zero #FAF8F5, Zero Plus Jakarta Sans, Zero border-radius: 999px pill badges,
  *   Zero repeat(3, 1fr) bordered card boxes.
  * - Authentic Business Constants:
- *   Brand: Onyxman (https://onyxman.my/ms/, alternate EN https://onyxman.my/)
+ *   Brand: Onyxman (https://www.onyxmen.my/ms/, alternate EN https://www.onyxmen.my/)
  *   Prices: 1 Botol = RM 159 (159.00), 2 Botol = RM 318 (318.00), 3 Botol = RM 477 (477.00)
  *   Emails: waleedshoaibofficial@gmail.com, sales@onyxman.my, info@onyxman.my
  *   Zero fake KKM/MAL claims.
@@ -152,7 +152,7 @@ const HOMEPAGE_BM_FAQS = [
     questionMs:
       'Adakah Magnum Pump XR di Onyxman.my sejenis suplemen kapsul pemakanan atau peralatan pam mekanikal?',
     answerMs:
-      'Magnum Pump XR yang diedarkan secara rasmi di https://onyxman.my/ms/ (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, harga RM 159) adalah 100% Suplemen Pemakanan kapsul botani dan asid amino untuk lelaki dewasa yang mengandungi 30 Kapsul Hitam setiap botol untuk menyokong laluan Nitrik Oksida dan stamina fizikal. Ia sama sekali TIDAK berkaitan dengan sebarang peralatan pam vakum mekanikal mahupun pam lumpur/hidraulik industri minyak dan gas.',
+      'Magnum Pump XR yang diedarkan secara rasmi di https://www.onyxmen.my/ms/ (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, harga RM 159) adalah 100% Suplemen Pemakanan kapsul botani dan asid amino untuk lelaki dewasa yang mengandungi 30 Kapsul Hitam setiap botol untuk menyokong laluan Nitrik Oksida dan stamina fizikal. Ia sama sekali TIDAK berkaitan dengan sebarang peralatan pam vakum mekanikal mahupun pam lumpur/hidraulik industri minyak dan gas.',
   },
   {
     id: 'faq-bm-06',
@@ -1830,7 +1830,7 @@ function renderMs093AuthenticityAndBuyerGuides() {
             <div class="bm-section-header__right">
               <p style="color: var(--text-muted-alabaster); font-size: 0.96rem;">
                 Elakkan produk tiruan murah di iklan tidak sah yang terdedah kepada haba atau dicampur bahan terlarang.
-                Setiap botol rasmi daripada <strong>https://onyxman.my/ms/</strong> dijamin tulen pada harga
+                Setiap botol rasmi daripada <strong>https://www.onyxmen.my/ms/</strong> dijamin tulen pada harga
                 <strong>RM 159</strong> dan disokong terus oleh meja operasi kami di
                 <a href="mailto:sales@onyxman.my" style="color: var(--gold-foil-bright);">sales@onyxman.my</a>,
                 <a href="mailto:info@onyxman.my" style="color: var(--gold-foil-bright);">info@onyxman.my</a>, dan
@@ -1988,13 +1988,13 @@ export function buildHomeMsPage() {
   const schemaGraphJson = buildFullPageGraph({
     pageType: 'home',
     lang: 'ms-MY',
-    pageUrl: 'https://onyxman.my/ms/',
+    pageUrl: 'https://www.onyxmen.my/ms/',
     title: pageTitle,
     description: pageDescription,
     breadcrumbs: [
       {
         name: 'Onyxman Malaysia (Utama BM)',
-        url: 'https://onyxman.my/ms/',
+        url: 'https://www.onyxmen.my/ms/',
       },
     ],
     faqs: HOMEPAGE_BM_FAQS.map((item) => ({

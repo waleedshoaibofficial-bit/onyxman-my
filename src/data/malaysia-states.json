@@ -1,7 +1,7 @@
 {
   "microSteps": ["MS-040", "MS-041", "MS-042"],
   "brand": "Onyxman",
-  "domain": "https://onyxman.my",
+  "domain": "https://www.onyxmen.my",
   "totalHubs": 16,
   "hubIndexRoutes": {
     "enPath": "/malaysia-delivery/",

@@ -3,8 +3,8 @@
  * ONYXMAN.MY — GROW XL EN-MY FLAGSHIP APOTHECARY BUILDER (MS-109 TO MS-111)
  * Primary Output: public/grow-xl-malaysia/index.html
  * Canonical Alias Output: public/products/grow-xl/index.html
- * Canonical URL: https://onyxman.my/grow-xl-malaysia/
- * Paired BM URL: https://onyxman.my/ms/grow-xl-malaysia/
+ * Canonical URL: https://www.onyxmen.my/grow-xl-malaysia/
+ * Paired BM URL: https://www.onyxmen.my/ms/grow-xl-malaysia/
  *
  * Strictly enforces:
  * - APEX Rule #29 & Rule #30:
@@ -60,9 +60,9 @@ export const GROWXL_CONSTANTS = {
   capsuleWeightMg: GROWXL_DATA.labelTranscription?.capsuleWeightMg || 550,
   totalBottlePotencyMg: GROWXL_DATA.usageProtocol?.totalNetPotencyMg || 16500,
   refillTriggerDay: GROWXL_DATA.refillProtocol?.refillReminderDay || 25,
-  canonicalUrl: 'https://onyxman.my/grow-xl-malaysia/',
+  canonicalUrl: 'https://www.onyxmen.my/grow-xl-malaysia/',
   canonicalPath: '/grow-xl-malaysia/',
-  pairedMsUrl: 'https://onyxman.my/ms/grow-xl-malaysia/',
+  pairedMsUrl: 'https://www.onyxmen.my/ms/grow-xl-malaysia/',
   pairedMsPath: '/ms/grow-xl-malaysia/',
   aliasPath: '/products/grow-xl/',
   assets: {
@@ -706,7 +706,7 @@ export const GROWXL_FAQS = [
     category: 'AUTHENTICITY & PHYSICAL LABEL VERIFICATION',
     questionEn: 'Why should I order Grow XL directly from Onyxman.my instead of unverified third-party classified ads?',
     answerEn:
-      'Unverified third-party classified listings frequently circulate watermarked photos, heat-degraded grey-market bottles, or counterfeit stock at inflated prices. Ordering directly from https://onyxman.my guarantees 100% authentic, climate-controlled Kuala Lumpur warehouse stock (SKU: ONYX-GX-30, MPN: GXL-30CAP-MY, GTIN-13: 9550000102035) featuring the gloss obsidian vessel, metallic gold "#1 Selling Product — Made With Natural Ingredient" crest, blue-silver "XL" emblem, crimson "Extra-Strength Enhancement — Male Performance Blend — Dietary Supplement 30 Capsules" band, and tamper-evident neck seal at the official RM 159 price.',
+      'Unverified third-party classified listings frequently circulate watermarked photos, heat-degraded grey-market bottles, or counterfeit stock at inflated prices. Ordering directly from https://www.onyxmen.my guarantees 100% authentic, climate-controlled Kuala Lumpur warehouse stock (SKU: ONYX-GX-30, MPN: GXL-30CAP-MY, GTIN-13: 9550000102035) featuring the gloss obsidian vessel, metallic gold "#1 Selling Product — Made With Natural Ingredient" crest, blue-silver "XL" emblem, crimson "Extra-Strength Enhancement — Male Performance Blend — Dietary Supplement 30 Capsules" band, and tamper-evident neck seal at the official RM 159 price.',
   },
   {
     index: '07',
@@ -743,7 +743,7 @@ export const GROWXL_FAQS = [
 ];
 
 /**
- * Builds the comprehensive @graph JSON-LD specifically for https://onyxman.my/grow-xl-malaysia/
+ * Builds the comprehensive @graph JSON-LD specifically for https://www.onyxmen.my/grow-xl-malaysia/
  * Uses `buildFullPageGraphObject` and `buildFullPageGraph` from `src/utils/schema-graph.mjs`
  * enriched with exact Grow XL (`ONYX-GX-30`, `GXL-30CAP-MY`, `9550000102035`) specifications,
  * `Product` + `DietarySupplement`, `ProductGroup` (1/2/3 bottles), `FAQPage` (10 Q&As), and `BreadcrumbList`.
@@ -784,21 +784,21 @@ export function buildGrowXlEnSchemaGraph() {
       sku: GROWXL_CONSTANTS.sku,
       mpn: GROWXL_CONSTANTS.mpn,
       gtin13: GROWXL_CONSTANTS.gtin13,
-      imageStageWebp: `https://onyxman.my${GROWXL_CONSTANTS.assets.stageWebp}`,
-      imageStagePng: `https://onyxman.my${GROWXL_CONSTANTS.assets.stagePng}`,
-      imagePortraitWebp: `https://onyxman.my${GROWXL_CONSTANTS.assets.portraitWebp}`,
-      imagePortraitPng: `https://onyxman.my${GROWXL_CONSTANTS.assets.portraitPng}`,
-      imageCutoutWebp: `https://onyxman.my${GROWXL_CONSTANTS.assets.cutoutWebp}`,
-      imageCutoutPng: `https://onyxman.my${GROWXL_CONSTANTS.assets.cutoutPng}`,
+      imageStageWebp: `https://www.onyxmen.my${GROWXL_CONSTANTS.assets.stageWebp}`,
+      imageStagePng: `https://www.onyxmen.my${GROWXL_CONSTANTS.assets.stagePng}`,
+      imagePortraitWebp: `https://www.onyxmen.my${GROWXL_CONSTANTS.assets.portraitWebp}`,
+      imagePortraitPng: `https://www.onyxmen.my${GROWXL_CONSTANTS.assets.portraitPng}`,
+      imageCutoutWebp: `https://www.onyxmen.my${GROWXL_CONSTANTS.assets.cutoutWebp}`,
+      imageCutoutPng: `https://www.onyxmen.my${GROWXL_CONSTANTS.assets.cutoutPng}`,
     },
     breadcrumbs: [
       {
         name: 'Onyxman Malaysia (Home)',
-        url: 'https://onyxman.my/',
+        url: 'https://www.onyxmen.my/',
       },
       {
         name: 'Apothecary Formulations',
-        url: 'https://onyxman.my/products/',
+        url: 'https://www.onyxmen.my/products/',
       },
       {
         name: 'Grow XL (30 Capsules — Extra-Strength Male Performance Blend)',
@@ -808,7 +808,7 @@ export function buildGrowXlEnSchemaGraph() {
     faqs: GROWXL_FAQS,
   });
 
-  // Normalize all @id and url references inside Product & ProductGroup nodes so they point to https://onyxman.my/grow-xl-malaysia/
+  // Normalize all @id and url references inside Product & ProductGroup nodes so they point to https://www.onyxmen.my/grow-xl-malaysia/
   const graph = baseGraphObj['@graph'].map((node) => {
     if (node['@type'] === 'ItemPage') {
       return {
@@ -2833,8 +2833,8 @@ export function buildGrowXlEnFlagshipPage() {
     'ONYX-GX-30',
     'GXL-30CAP-MY',
     '9550000102035',
-    'https://onyxman.my/grow-xl-malaysia/',
-    'https://onyxman.my/ms/grow-xl-malaysia/',
+    'https://www.onyxmen.my/grow-xl-malaysia/',
+    'https://www.onyxmen.my/ms/grow-xl-malaysia/',
     '/assets/products/grow-xl-stage.webp',
     '/assets/products/grow-xl-portrait.webp',
     '/assets/products/grow-xl-cutout.webp',

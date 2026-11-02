@@ -1,7 +1,7 @@
 {
   "microSteps": ["MS-036", "MS-037", "MS-038", "MS-039"],
   "brand": "Onyxman",
-  "domain": "https://onyxman.my",
+  "domain": "https://www.onyxmen.my",
   "hubRoutes": {
     "enPath": "/ingredients/",
     "msPath": "/ms/ramuan-botani/",

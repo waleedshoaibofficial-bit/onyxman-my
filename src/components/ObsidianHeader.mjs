@@ -83,11 +83,11 @@ export function resolvePairedLocaleRoutes(canonicalPath = '/', locale = 'en-MY',
   let enHref = explicitEn ? String(explicitEn).trim() : '';
   let msHref = explicitMs ? String(explicitMs).trim() : '';
 
-  if (enHref && enHref.startsWith('https://onyxman.my')) {
-    enHref = enHref.replace('https://onyxman.my', '') || '/';
+  if (enHref && enHref.startsWith('https://www.onyxmen.my')) {
+    enHref = enHref.replace('https://www.onyxmen.my', '') || '/';
   }
-  if (msHref && msHref.startsWith('https://onyxman.my')) {
-    msHref = msHref.replace('https://onyxman.my', '') || '/ms/';
+  if (msHref && msHref.startsWith('https://www.onyxmen.my')) {
+    msHref = msHref.replace('https://www.onyxmen.my', '') || '/ms/';
   }
 
   if (!enHref || !msHref) {

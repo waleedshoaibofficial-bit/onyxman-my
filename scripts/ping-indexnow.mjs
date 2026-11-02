@@ -8,9 +8,9 @@
  *                  and public/llms.txt. Verifies payload schema and URL integrity
  *                  with 0 network dependencies.
  *   2. --live    : Cloud HTTP execution in GitHub Actions. Verifies HTTP 200
- *                  reachability of https://onyxman.my/indexnow-key.txt,
- *                  https://onyxman.my/sitemap.xml, and https://onyxman.my/llms.txt,
- *                  then submits all canonical https://onyxman.my/... URLs via POST
+ *                  reachability of https://www.onyxmen.my/indexnow-key.txt,
+ *                  https://www.onyxmen.my/sitemap.xml, and https://www.onyxmen.my/llms.txt,
+ *                  then submits all canonical https://www.onyxmen.my/... URLs via POST
  *                  to api.indexnow.org, Bing, Yandex, Seznam, and Naver.
  */
 
@@ -93,7 +93,7 @@ function walkHtmlFiles(dirPath, collected = []) {
 }
 
 /**
- * Converts a local public/ HTML file path to its canonical https://onyxman.my/... URL
+ * Converts a local public/ HTML file path to its canonical https://www.onyxmen.my/... URL
  */
 function htmlFileToCanonicalUrl(htmlFilePath) {
   const relPath = path.relative(PUBLIC_DIR, htmlFilePath).replace(/\\/g, '/');
@@ -153,7 +153,7 @@ function verifyIndexNowKeyFile() {
 }
 
 /**
- * Step 2: Collect and validate all canonical https://onyxman.my/... URLs from
+ * Step 2: Collect and validate all canonical https://www.onyxmen.my/... URLs from
  * public/sitemap.xml and built public/ HTML files
  */
 function collectAndVerifyCanonicalUrls() {
@@ -223,7 +223,7 @@ function collectAndVerifyCanonicalUrls() {
     ...remainingUrls,
   ];
 
-  // Validate every URL starts with https://onyxman.my/
+  // Validate every URL starts with https://www.onyxmen.my/
   for (const url of orderedUrls) {
     if (!url.startsWith(`${SITE_ORIGIN}/`)) {
       recordFail('URL-FORMAT', `Non-canonical URL detected in IndexNow list: ${url}`);
@@ -279,7 +279,7 @@ async function executeLiveCloudPings(payload) {
     try {
       const response = await fetch(target.url, {
         method: 'GET',
-        headers: { 'User-Agent': 'Onyxman-Cloud-IndexNow-Monitor/1.0 (+https://onyxman.my)' },
+        headers: { 'User-Agent': 'Onyxman-Cloud-IndexNow-Monitor/1.0 (+https://www.onyxmen.my)' },
       });
       if (!response.ok) {
         recordFail('LIVE-REACHABILITY', `${target.label} (${target.url}) returned HTTP ${response.status}`);
@@ -305,7 +305,7 @@ async function executeLiveCloudPings(payload) {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json; charset=utf-8',
-          'User-Agent': 'Onyxman-Cloud-IndexNow-Dispatcher/1.0 (+https://onyxman.my)',
+          'User-Agent': 'Onyxman-Cloud-IndexNow-Dispatcher/1.0 (+https://www.onyxmen.my)',
         },
         body: JSON.stringify(payload),
       });

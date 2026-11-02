@@ -1,11 +1,11 @@
 /**
  * ONYXMAN.MY — GOOGLE RICH-RESULT & MERCHANT CENTER @GRAPH JSON-LD ENGINE (MS-045 TO MS-056)
  * Direct Node ES Module (.mjs) for zero-step build & validation scripts.
- * Domain: https://onyxman.my
+ * Domain: https://www.onyxmen.my
  * Official Single-Bottle Price: "159.00" MYR | Multi-Bottle Tiers: 1B = "159.00", 2B = "318.00", 3B = "477.00"
  */
 
-export const SCHEMA_DOMAIN = 'https://onyxman.my';
+export const SCHEMA_DOMAIN = 'https://www.onyxmen.my';
 export const ORG_ID = `${SCHEMA_DOMAIN}/#organization`;
 export const WEBSITE_ID = `${SCHEMA_DOMAIN}/#website`;
 export const BRAND_ID = `${SCHEMA_DOMAIN}/#brand`;

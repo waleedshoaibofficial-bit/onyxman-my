@@ -170,7 +170,7 @@ function printBridgeStatusReport(brandData, bannerTitle = 'ONYXMAN.MY — WHATSA
   console.log(bannerTitle);
   console.log('============================================================================');
   console.log(`Config File Path         : ${path.relative(ROOT_DIR, BRAND_JSON_PATH)}`);
-  console.log(`Brand Domain             : ${brandData.brand?.domain || 'https://onyxman.my'}`);
+  console.log(`Brand Domain             : ${brandData.brand?.domain || 'https://www.onyxmen.my'}`);
   console.log(`Active Bridge Mode       : ${activeMode}`);
   console.log(
     `Operational Stage        : ${

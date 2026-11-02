@@ -649,7 +649,7 @@ export const BM_GUIDE_DOSSIERS = [
       },
       {
         label: 'PENGEDAR TUNGGAL SAH',
-        val: 'https://onyxman.my sahaja',
+        val: 'https://www.onyxmen.my sahaja',
         sub: 'Meja operasi: sales@onyxman.my & info@onyxman.my',
       },
       {
@@ -681,7 +681,7 @@ export const BM_GUIDE_DOSSIERS = [
       {
         code: 'BAB 04 · PENGESAHAN SALURAN TEMPAHAN',
         title: 'Penanda Keempat: Tempahan Terus Melalui Onyxman.my & Pengirim OM Fulfilment Logistics',
-        body: 'Stok rasmi Onyxman Malaysia tidak pernah diedarkan melalui penjaja tepi jalan, pasar malam, atau akaun media sosial tanpa identiti. Setiap pesanan tulen hanya dibuat melalui https://onyxman.my dan disahkan oleh pusat operasi Kuala Lumpur kami menerusi e-mel rasmi sales@onyxman.my, info@onyxman.my, atau waleedshoaibofficial@gmail.com. Pada slip kurier NinjaVan, J&T VIP, atau PosLaju, nama pengirim sentiasa dicetak sebagai "OM Fulfilment Logistics (Kuala Lumpur)".',
+        body: 'Stok rasmi Onyxman Malaysia tidak pernah diedarkan melalui penjaja tepi jalan, pasar malam, atau akaun media sosial tanpa identiti. Setiap pesanan tulen hanya dibuat melalui https://www.onyxmen.my dan disahkan oleh pusat operasi Kuala Lumpur kami menerusi e-mel rasmi sales@onyxman.my, info@onyxman.my, atau waleedshoaibofficial@gmail.com. Pada slip kurier NinjaVan, J&T VIP, atau PosLaju, nama pengirim sentiasa dicetak sebagai "OM Fulfilment Logistics (Kuala Lumpur)".',
       },
     ],
     protocolLedgerRows: [
@@ -725,7 +725,7 @@ export const BM_GUIDE_DOSSIERS = [
     faqs: [
       {
         q: 'Mengapakah saya melihat gambar botol yang mempunyai tera air (watermark) laman iklan mudah alih pada harga RM 35?',
-        a: 'Penjual tidak sah di laman iklan klasifikasi sering mencuri foto produk atau menjual botol tiruan buatan kilang belakang rumah yang hanya berisi tepung jagung dan bahan kimia murah. Botol-botol tersebut tidak mempunyai ekstrak Tongkat Ali 100:1 mahupun L-Arginine HCl tulen. Hanya pesanan melalui https://onyxman.my pada harga rasmi RM 159 dijamin tulen.',
+        a: 'Penjual tidak sah di laman iklan klasifikasi sering mencuri foto produk atau menjual botol tiruan buatan kilang belakang rumah yang hanya berisi tepung jagung dan bahan kimia murah. Botol-botol tersebut tidak mempunyai ekstrak Tongkat Ali 100:1 mahupun L-Arginine HCl tulen. Hanya pesanan melalui https://www.onyxmen.my pada harga rasmi RM 159 dijamin tulen.',
       },
       {
         q: 'Bagaimanakah cara saya menyemak sama ada botol Magnum Pump XR saya adalah tulen?',
@@ -737,7 +737,7 @@ export const BM_GUIDE_DOSSIERS = [
       },
       {
         q: 'Apakah yang perlu saya lakukan jika saya ragu-ragu tentang ketulenan sesuatu iklan di luar laman web ini?',
-        a: 'Jangan buat sebarang bayaran kepada akaun peribadi yang meragukan. Hubungi meja pengesahan kami di info@onyxman.my atau sales@onyxman.my, atau terus buat tempahan melalui Laci Tempahan Ekspres di laman rasmi https://onyxman.my.',
+        a: 'Jangan buat sebarang bayaran kepada akaun peribadi yang meragukan. Hubungi meja pengesahan kami di info@onyxman.my atau sales@onyxman.my, atau terus buat tempahan melalui Laci Tempahan Ekspres di laman rasmi https://www.onyxmen.my.',
       },
     ],
   },
@@ -1877,7 +1877,7 @@ export function renderIndividualGuidePageBM(dossier) {
   const schemaGraphJson = buildFullPageGraph({
     pageType: 'guide',
     lang: 'ms-MY',
-    pageUrl: `https://onyxman.my${canonicalPath}`,
+    pageUrl: `https://www.onyxmen.my${canonicalPath}`,
     title: dossier.seoTitle,
     description: dossier.metaDescription,
     product: dossier.defaultProduct,
@@ -1889,7 +1889,7 @@ export function renderIndividualGuidePageBM(dossier) {
       descriptionMs: dossier.metaDescription,
       datePublished: `${dossier.publishedDate}T08:00:00+08:00`,
       dateModified: `${dossier.updatedDate}T08:00:00+08:00`,
-      imageUrl: `https://onyxman.my${dossier.heroVisualWebp}`,
+      imageUrl: `https://www.onyxmen.my${dossier.heroVisualWebp}`,
     },
     breadcrumbs,
     faqs: dossier.faqs,
@@ -2168,7 +2168,7 @@ export function renderMasterGuidesIndexPageBM() {
   const schemaGraphJson = buildFullPageGraph({
     pageType: 'guide',
     lang: 'ms-MY',
-    pageUrl: 'https://onyxman.my/ms/panduan/',
+    pageUrl: 'https://www.onyxmen.my/ms/panduan/',
     title,
     description,
     product: 'horsemen',
@@ -2180,7 +2180,7 @@ export function renderMasterGuidesIndexPageBM() {
       descriptionMs: description,
       datePublished: '2026-01-15T08:00:00+08:00',
       dateModified: '2026-10-30T08:00:00+08:00',
-      imageUrl: 'https://onyxman.my/assets/products/onyxman-lineup-hero.webp',
+      imageUrl: 'https://www.onyxmen.my/assets/products/onyxman-lineup-hero.webp',
     },
     breadcrumbs,
     faqs: combinedFaqs,

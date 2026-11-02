@@ -2918,7 +2918,7 @@ export function renderWestMalaysiaStateHubPage(hub, lang = 'en-MY') {
   const schemaGraphJson = buildFullPageGraph({
     pageType: 'state-hub',
     lang,
-    pageUrl: `https://onyxman.my${canonicalPath}`,
+    pageUrl: `https://www.onyxmen.my${canonicalPath}`,
     title,
     description,
     stateHub: hub.schemaKey,

@@ -1247,22 +1247,22 @@ function buildComparisonPageHtml(config) {
   const breadcrumbs = [
     {
       name: isMs ? 'Utama Onyxman Malaysia' : 'Onyxman Malaysia Home',
-      url: isMs ? 'https://onyxman.my/ms/' : 'https://onyxman.my/',
+      url: isMs ? 'https://www.onyxmen.my/ms/' : 'https://www.onyxmen.my/',
     },
     {
       name: isMs ? 'Matriks Perbandingan' : 'Comparison Matrix',
-      url: isMs ? 'https://onyxman.my/ms/perbandingan/' : 'https://onyxman.my/compare/',
+      url: isMs ? 'https://www.onyxmen.my/ms/perbandingan/' : 'https://www.onyxmen.my/compare/',
     },
     {
       name: headline,
-      url: `https://onyxman.my${canonicalPath}`,
+      url: `https://www.onyxmen.my${canonicalPath}`,
     },
   ];
 
   const schemaGraphJson = buildFullPageGraph({
     pageType: 'comparison',
     lang,
-    pageUrl: `https://onyxman.my${canonicalPath}`,
+    pageUrl: `https://www.onyxmen.my${canonicalPath}`,
     title: pageTitle,
     description: pageDescription,
     allProducts,

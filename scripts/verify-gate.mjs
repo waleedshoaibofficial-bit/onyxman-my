@@ -274,7 +274,7 @@ function runGate5() {
   const bridgeRaw = fs.readFileSync(bridgePath, 'utf8');
 
   const requiredConstants = [
-    { label: 'Domain https://onyxman.my', token: 'https://onyxman.my', target: brandRaw },
+    { label: 'Domain https://www.onyxmen.my', token: 'https://www.onyxmen.my', target: brandRaw },
     { label: 'Single Bottle Schema Price 159.00', token: '"159.00"', target: brandRaw },
     { label: '2-Bottle Tier Price 318.00', token: '"318.00"', target: brandRaw },
     { label: '3-Bottle Tier Price 477.00', token: '"477.00"', target: brandRaw },
