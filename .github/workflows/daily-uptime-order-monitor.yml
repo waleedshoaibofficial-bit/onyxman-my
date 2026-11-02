@@ -1,9 +1,9 @@
-name: "MS-193 · 24/7 Every-6-Hour Uptime, <800ms TTFB, Auto-Heal & Order Bridge Monitor"
+name: "MS-193 · 24/7 Every-30-Minute Real-Time Uptime, <800ms TTFB, Deep 280-Page Audit & Auto-Heal"
 
 on:
   schedule:
-    # Runs autonomously every 6 hours (00:00, 06:00, 12:00, 18:00 UTC)
-    - cron: '0 */6 * * *'
+    # Runs autonomously every 30 minutes (48x/day, 24/7) to detect and auto-heal any issue in real time
+    - cron: '*/30 * * * *'
   workflow_dispatch:
     inputs:
       mode:

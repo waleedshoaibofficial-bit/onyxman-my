@@ -341,6 +341,12 @@ function main() {
   const allHtmlFiles = collectHtmlFiles(PUBLIC_DIR).sort();
   syncBrandRuntimeConfigIntoHtml(allHtmlFiles);
 
+  // Run Autonomous SEO Freshness & Telemetry Optimizer (MS-213)
+  const seoOptScript = path.join(ROOT_DIR, 'scripts', 'seo-auto-optimizer.mjs');
+  if (!summaryOnly && fs.existsSync(seoOptScript)) {
+    spawnSync(process.execPath, [seoOptScript], { cwd: ROOT_DIR, encoding: 'utf8' });
+  }
+
   if (!summaryOnly && !skipDistMirror) {
     mirrorPublicToDist();
   }

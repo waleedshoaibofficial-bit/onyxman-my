@@ -2498,6 +2498,7 @@ ${schemaJsonString}
   <body class="sovereign-body" data-locale="${escapeHtmlAttr(lang)}" data-default-product="${escapeHtmlAttr(productSlug)}">
     ${headerHtml}
     <main id="onyxman-main-stage" class="sovereign-main-stage" role="main">
+      ${options.topBannerHtml || ''}
       ${visualFirstMainHtml}
     </main>
     ${sealStripHtml}

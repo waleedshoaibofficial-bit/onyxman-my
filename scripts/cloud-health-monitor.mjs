@@ -259,8 +259,18 @@ function verifyHtmlDocumentIntegrity(target, htmlContent) {
   );
 }
 
+function walkAllHtmlFiles(dirPath, collected = []) {
+  if (!fs.existsSync(dirPath)) return collected;
+  for (const entry of fs.readdirSync(dirPath, { withFileTypes: true })) {
+    const full = path.join(dirPath, entry.name);
+    if (entry.isDirectory()) walkAllHtmlFiles(full, collected);
+    else if (entry.isFile() && entry.name.endsWith('.html')) collected.push(full);
+  }
+  return collected;
+}
+
 /**
- * Dry-run verification against built public/ files
+ * Dry-run verification against built public/ files (10 Flagship Routes + Deep All-Page & Sitemap/Asset Scan)
  */
 function runDryRunAudit() {
   for (const target of MONITOR_TARGETS) {
@@ -290,6 +300,62 @@ function runDryRunAudit() {
       price: 'RM 159',
       endpoint: PRIMARY_ORDER_EMAIL,
     });
+  }
+
+  // Deep Full-Site Scan across all 280+ HTML pages, 5 XML Sitemaps, and 18 Sovereign Studio Assets
+  const allHtmlFiles = walkAllHtmlFiles(PUBLIC_DIR);
+  if (allHtmlFiles.length < 280) {
+    recordFail('DEEP-SCAN', 'HTML-COUNT', `Expected >= 280 HTML pages in public/, found ${allHtmlFiles.length}`);
+  } else {
+    let deepMistakes = 0;
+    for (const htmlFile of allHtmlFiles) {
+      const rel = path.relative(PUBLIC_DIR, htmlFile).replace(/\\/g, '/');
+      const raw = fs.readFileSync(htmlFile, 'utf8');
+      if (
+        !raw.includes('3D9YmY9SMd5RVAdrfKySd2Z5ZsxJOEHtLbQUTNWOKgA') ||
+        !raw.includes('id="onyxman-critical-css"') ||
+        !raw.includes('RM 159') ||
+        !raw.includes('"@graph"')
+      ) {
+        recordFail('DEEP-SCAN', 'PAGE-INTEGRITY', `public/${rel} missing GSC meta, critical CSS, RM 159, or @graph`);
+        deepMistakes++;
+      }
+    }
+    if (deepMistakes === 0) {
+      recordPass('DEEP-SCAN', 'ALL-PAGES-VERIFIED', `Deep-audited all ${allHtmlFiles.length} HTML pages with 0 mistakes`);
+    }
+  }
+
+  const requiredSeoFiles = [
+    'sitemap.xml',
+    'sitemap-index.xml',
+    'sitemap-en.xml',
+    'sitemap-ms.xml',
+    'sitemap-images.xml',
+    'llms.txt',
+    'llms-full.txt',
+    'seo-health-status.json',
+    'indexnow-key.txt',
+  ];
+  for (const f of requiredSeoFiles) {
+    const p = path.join(PUBLIC_DIR, f);
+    if (!fs.existsSync(p) || fs.statSync(p).size < 10) {
+      recordFail('DEEP-SCAN', 'SEO-ARTIFACT', `Missing or empty public/${f}`);
+    } else {
+      recordPass('DEEP-SCAN', 'SEO-ARTIFACT', `Verified public/${f} (${fs.statSync(p).size} bytes)`);
+    }
+  }
+
+  const sovDir = path.join(PUBLIC_DIR, 'assets', 'sovereign');
+  if (!fs.existsSync(sovDir)) {
+    recordFail('DEEP-SCAN', 'SOVEREIGN-ASSETS', 'Missing public/assets/sovereign directory');
+  } else {
+    const sovFiles = fs.readdirSync(sovDir).filter((x) => /\.(webp|jpg)$/i.test(x));
+    if (sovFiles.length < 18) {
+      recordFail('DEEP-SCAN', 'SOVEREIGN-ASSETS', `Expected 18 studio files in public/assets/sovereign, found ${sovFiles.length}`);
+    } else {
+      recordPass('DEEP-SCAN', 'SOVEREIGN-ASSETS', `Verified ${sovFiles.length} studio .webp/.jpg assets in public/assets/sovereign`);
+    }
   }
 }
 
@@ -359,6 +425,30 @@ async function runLiveCloudAudit() {
       });
     } catch (err) {
       recordFail(target.id, 'NETWORK', `Failed to reach ${url}: ${err.message}`);
+    }
+  }
+
+  // Also verify live HTTP 200 on all 5 XML Sitemaps, llms.txt & seo-health-status.json
+  const liveSeoEndpoints = [
+    '/sitemap.xml',
+    '/sitemap-index.xml',
+    '/sitemap-en.xml',
+    '/sitemap-ms.xml',
+    '/sitemap-images.xml',
+    '/llms.txt',
+    '/seo-health-status.json',
+  ];
+  for (const ep of liveSeoEndpoints) {
+    const epUrl = `${SITE_ORIGIN}${ep}`;
+    try {
+      const r = await fetch(epUrl, { method: 'HEAD' });
+      if (r.status !== 200) {
+        recordFail('LIVE-SEO-FEED', ep, `${epUrl} returned HTTP ${r.status}`);
+      } else {
+        recordPass('LIVE-SEO-FEED', ep, `${epUrl} verified HTTP 200 OK`);
+      }
+    } catch (err) {
+      recordFail('LIVE-SEO-FEED', ep, `${epUrl} network error: ${err.message}`);
     }
   }
 }

@@ -45,10 +45,17 @@ jobs:
         with:
           node-version: "20"
 
-      - name: "03 · Ensure Built Sitemap & Static Artifacts Are Up to Date"
+      - name: "03 · Ensure Built Sitemap, Freshness Signals & Static Artifacts Are Up to Date"
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
-          echo "Building public/ artifacts via build-site.mjs..."
+          echo "Building public/ artifacts and running Autonomous SEO Freshness Optimizer..."
           node scripts/build-site.mjs
+          node scripts/seo-auto-optimizer.mjs
+          if [ -n "${CLOUDFLARE_API_TOKEN}" ] && [ -n "${CLOUDFLARE_ACCOUNT_ID}" ]; then
+            npx --yes wrangler@latest pages deploy public --project-name=onyxman-my --branch=main --commit-dirty=true
+          fi
 
       - name: "04 · Pre-Flight Local Sitemap & IndexNow Key Verification (--dry-run)"
         run: |
