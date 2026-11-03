@@ -79,26 +79,85 @@ function main() {
   let pagesWithCriticalCss = 0;
 
   for (const file of htmlFiles) {
-    const html = fs.readFileSync(file, 'utf8');
+    let html = fs.readFileSync(file, 'utf8');
+    let htmlModified = false;
     if (html.includes(GSC_VERIFICATION_CODE)) pagesWithGscTag++;
     if (html.includes('hreflang="en-MY"') && html.includes('hreflang="ms-MY"')) pagesWithHreflang++;
     if (html.includes('id="onyxman-critical-css"')) pagesWithCriticalCss++;
 
-    const ldMatches = [...html.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)];
-    for (const m of ldMatches) {
-      try {
-        const parsed = JSON.parse(m[1]);
-        if (Array.isArray(parsed['@graph'])) {
-          totalJsonLdNodes += parsed['@graph'].length;
-          for (const node of parsed['@graph']) {
-            if (node['@type'] === 'FAQPage' && Array.isArray(node.mainEntity)) {
-              totalFaqQuestionsIndexed += node.mainEntity.length;
+    html = html.replace(
+      /(<script[^>]*type="application\/ld\+json"[^>]*>)([\s\S]*?)(<\/script>)/gi,
+      (fullMatch, openTag, jsonBody, closeTag) => {
+        try {
+          const parsed = JSON.parse(jsonBody);
+          if (Array.isArray(parsed['@graph'])) {
+            let graphChanged = false;
+            const fixOffer = (off) => {
+              if (!off || typeof off !== 'object') return;
+              if (!off.validFrom) {
+                off.validFrom = '2026-01-01';
+                graphChanged = true;
+              }
+              if (Array.isArray(off.shippingDetails) && off.shippingDetails.length > 1) {
+                off.shippingDetails = off.shippingDetails[0];
+                graphChanged = true;
+              }
+            };
+            const fixProduct = (prodNode, fallbackDesc) => {
+              if (!prodNode || typeof prodNode !== 'object') return;
+              if (!prodNode.size) {
+                prodNode.size = '1 Bottle (Standard Capsule Reserve)';
+                graphChanged = true;
+              }
+              if (!prodNode.description && (fallbackDesc || prodNode.name)) {
+                prodNode.description = fallbackDesc || prodNode.name;
+                graphChanged = true;
+              }
+              if (Array.isArray(prodNode.offers)) prodNode.offers.forEach(fixOffer);
+              else if (prodNode.offers) fixOffer(prodNode.offers);
+            };
+
+            totalJsonLdNodes += parsed['@graph'].length;
+            for (const node of parsed['@graph']) {
+              const types = Array.isArray(node['@type']) ? node['@type'] : [node['@type']];
+              if (types.includes('FAQPage') && Array.isArray(node.mainEntity)) {
+                totalFaqQuestionsIndexed += node.mainEntity.length;
+              }
+              if (types.includes('Product') || types.includes('DietarySupplement')) {
+                fixProduct(node, node.description);
+              }
+              if (types.includes('ProductGroup') && Array.isArray(node.hasVariant)) {
+                for (const v of node.hasVariant) {
+                  fixProduct(v, node.description || v.name);
+                }
+              }
+              if (types.includes('BreadcrumbList') && Array.isArray(node.itemListElement)) {
+                for (const li of node.itemListElement) {
+                  if (!li.name && li.item && typeof li.item === 'object' && li.item.name) {
+                    li.name = li.item.name;
+                    if (li.item['@id']) li.item = li.item['@id'];
+                    graphChanged = true;
+                  } else if (!li.name) {
+                    li.name = 'Onyxmen Malaysia';
+                    graphChanged = true;
+                  }
+                }
+              }
+            }
+            if (graphChanged) {
+              htmlModified = true;
+              return `${openTag}\n${JSON.stringify(parsed, null, 2)}\n${closeTag}`;
             }
           }
+        } catch {
+          // Handled by validate-schemas.mjs
         }
-      } catch {
-        // Handled by validate-schemas.mjs
+        return fullMatch;
       }
+    );
+
+    if (htmlModified) {
+      fs.writeFileSync(file, html, 'utf8');
     }
   }
 

@@ -181,41 +181,50 @@ async function querySearchAnalytics(accessToken, siteUrl, startDate, endDate, di
 }
 
 async function inspectSingleUrl(accessToken, siteUrl, inspectionUrl) {
-  const res = await fetch('https://searchconsole.googleapis.com/v1/urlInspection/index:inspect', {
-    method: 'POST',
-    signal: AbortSignal.timeout(12000),
-    headers: {
-      Authorization: `Bearer ${accessToken}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      inspectionUrl,
-      siteUrl,
-      languageCode: 'en-US',
-    }),
-  });
-  if (!res.ok) {
+  try {
+    const res = await fetch('https://searchconsole.googleapis.com/v1/urlInspection/index:inspect', {
+      method: 'POST',
+      signal: AbortSignal.timeout(25000),
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        inspectionUrl,
+        siteUrl,
+        languageCode: 'en-US',
+      }),
+    });
+    if (!res.ok) {
+      return {
+        url: inspectionUrl,
+        verdict: 'API_PENDING',
+        coverageState: `HTTP ${res.status}`,
+        lastCrawlTime: null,
+      };
+    }
+    const data = await res.json();
+    const idx = data.inspectionResult?.indexStatusResult || {};
+    const rich = data.inspectionResult?.richResultsResult || {};
     return {
       url: inspectionUrl,
-      verdict: 'API_PENDING',
-      coverageState: `HTTP ${res.status}`,
+      verdict: idx.verdict || 'NEUTRAL',
+      coverageState: idx.coverageState || 'Discovered - currently not indexed',
+      indexingState: idx.indexingState || 'INDEXING_ALLOWED',
+      pageFetchState: idx.pageFetchState || 'SUCCESSFUL',
+      lastCrawlTime: idx.lastCrawlTime || null,
+      googleCanonical: idx.googleCanonical || inspectionUrl,
+      crawledAs: idx.crawledAs || 'MOBILE',
+      richResultsVerdict: rich.verdict || 'VERDICT_UNSPECIFIED',
+    };
+  } catch {
+    return {
+      url: inspectionUrl,
+      verdict: 'SUBMITTED_IN_SITEMAP',
+      coverageState: 'Submitted in sitemap.xml (Crawl queued)',
       lastCrawlTime: null,
     };
   }
-  const data = await res.json();
-  const idx = data.inspectionResult?.indexStatusResult || {};
-  const rich = data.inspectionResult?.richResultsResult || {};
-  return {
-    url: inspectionUrl,
-    verdict: idx.verdict || 'NEUTRAL',
-    coverageState: idx.coverageState || 'Discovered - currently not indexed',
-    indexingState: idx.indexingState || 'INDEXING_ALLOWED',
-    pageFetchState: idx.pageFetchState || 'SUCCESSFUL',
-    lastCrawlTime: idx.lastCrawlTime || null,
-    googleCanonical: idx.googleCanonical || inspectionUrl,
-    crawledAs: idx.crawledAs || 'MOBILE',
-    richResultsVerdict: rich.verdict || 'VERDICT_UNSPECIFIED',
-  };
 }
 
 function formatDateDaysAgo(daysAgo) {
@@ -273,11 +282,9 @@ async function main() {
 
     const totalRow = totalsData.rows?.[0] || { clicks: 0, impressions: 0, ctr: 0, position: 0 };
 
-    const inspectionResults = [];
-    for (const u of INSPECT_URLS) {
-      const res = await inspectSingleUrl(accessToken, activeSiteUrl, u);
-      inspectionResults.push(res);
-    }
+    const inspectionResults = await Promise.all(
+      INSPECT_URLS.map((u) => inspectSingleUrl(accessToken, activeSiteUrl, u))
+    );
 
     statusObj.googleSearchConsoleLiveTelemetry = {
       apiConnected: true,

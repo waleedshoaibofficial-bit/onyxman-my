@@ -652,6 +652,7 @@ export function buildProductGraphSchema(productInput, lang = 'en-MY') {
     sku: prod.sku,
     price: OFFICIAL_PRICE_MYR,
     priceCurrency: OFFICIAL_CURRENCY,
+    validFrom: '2026-01-01',
     priceValidUntil: OFFICIAL_PRICE_VALID_UNTIL,
     availability: 'https://schema.org/InStock',
     itemCondition: 'https://schema.org/NewCondition',
@@ -693,6 +694,7 @@ export function buildProductGraphSchema(productInput, lang = 'en-MY') {
     '@type': ['Product', 'DietarySupplement'],
     '@id': `${productUrl}#variant-${tier.bottles}-bottle`,
     name: isMs ? tier.nameMs : tier.nameEn,
+    description: isMs ? prod.descriptionMs : prod.descriptionEn,
     sku: `${prod.sku}-${tier.skuSuffix}`,
     mpn: `${prod.mpn}-${tier.skuSuffix}`,
     gtin13: prod.gtin13,
@@ -713,6 +715,7 @@ export function buildProductGraphSchema(productInput, lang = 'en-MY') {
       sku: `${prod.sku}-${tier.skuSuffix}`,
       price: tier.price,
       priceCurrency: OFFICIAL_CURRENCY,
+      validFrom: '2026-01-01',
       priceValidUntil: OFFICIAL_PRICE_VALID_UNTIL,
       availability: 'https://schema.org/InStock',
       itemCondition: 'https://schema.org/NewCondition',
@@ -748,6 +751,7 @@ export function buildProductGraphSchema(productInput, lang = 'en-MY') {
     image: images,
     category:
       'Health & Beauty > Health Care > Fitness & Nutrition > Vitamins & Supplements > Botanical Dietary Supplements',
+    size: `1 Bottle (${prod.capsuleCount} Capsules)`,
     isVariantOf: {
       '@id': productGroupId,
     },
