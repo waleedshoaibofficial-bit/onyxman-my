@@ -57,9 +57,13 @@ jobs:
           node-version: "20"
 
       - name: "03 Â· Execute Full Bilingual Static Build (EN-MY + MS-MY)"
+        env:
+          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
         run: |
           echo "Building Onyxmen.my bilingual production artifact into public/..."
           node scripts/build-site.mjs
+          node scripts/seo-auto-optimizer.mjs
+          node scripts/fetch-gsc-telemetry.mjs
 
       - name: "04 Â· Validate All @graph JSON-LD Structured Data Schemas"
         run: |

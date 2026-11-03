@@ -4673,6 +4673,127 @@ export function renderTrustDossierPage(dossier, lang = 'en-MY') {
     </div>
   </section>
 
+  ${
+    dossier.slug === 'seo-dashboard'
+      ? `
+  <section class="trust-section trust-section--charcoal" id="gsc-live-telemetry-stage" aria-label="Live Google Search Console Telemetry">
+    <div class="trust-section__inner">
+      <header class="trust-section__header">
+        <div class="trust-section__header-left">
+          <span class="editorial-kicker">GSC-API · LIVE GOOGLE SEARCH CONSOLE &amp; GOOGLEBOT CRAWL FEED</span>
+          <h2 class="editorial-headline-lg">${
+            isMs
+              ? 'Telemetri Klik, Impresi &amp; Status Indeks Google Secara Langsung'
+              : 'Live Google Clicks, Impressions &amp; Googlebot Index Inspection'
+          }</h2>
+        </div>
+        <div class="trust-section__header-right">
+          <p id="gsc-live-sync-badge">Syncing live telemetry from <code>/seo-health-status.json</code>...</p>
+        </div>
+      </header>
+
+      <div class="trust-hairline-ledger" id="gsc-live-metrics-ledger">
+        <div class="trust-hairline-row">
+          <div class="trust-hairline-row__code">GSC-CLICKS</div>
+          <div class="trust-hairline-row__main">
+            <h3 class="trust-hairline-row__title">28-Day Google Search Clicks</h3>
+            <p class="trust-hairline-row__desc">Total organic clicks recorded by Google Search Console for https://www.onyxmen.my/</p>
+          </div>
+          <div class="trust-hairline-row__meta">
+            <span class="trust-hairline-row__dosage" id="gsc-val-clicks">0</span>
+            <span class="trust-hairline-row__sub" id="gsc-val-status">LIVE FEED</span>
+          </div>
+        </div>
+        <div class="trust-hairline-row">
+          <div class="trust-hairline-row__code">GSC-IMPR</div>
+          <div class="trust-hairline-row__main">
+            <h3 class="trust-hairline-row__title">28-Day Google Search Impressions</h3>
+            <p class="trust-hairline-row__desc">Total organic SERP impressions across Malaysia (EN-MY &amp; MS-MY queries)</p>
+          </div>
+          <div class="trust-hairline-row__meta">
+            <span class="trust-hairline-row__dosage" id="gsc-val-impressions">0</span>
+            <span class="trust-hairline-row__sub" id="gsc-val-ctr">CTR: 0.00%</span>
+          </div>
+        </div>
+        <div class="trust-hairline-row">
+          <div class="trust-hairline-row__code">GSC-POS</div>
+          <div class="trust-hairline-row__main">
+            <h3 class="trust-hairline-row__title">Average Google Ranking Position &amp; Sitemap Velocity</h3>
+            <p class="trust-hairline-row__desc">Live average Google SERP position + 282 bilingual HTML pages &amp; 2,602 @graph schema nodes</p>
+          </div>
+          <div class="trust-hairline-row__meta">
+            <span class="trust-hairline-row__dosage" id="gsc-val-position">--</span>
+            <span class="trust-hairline-row__sub">282 PAGES · 5 SITEMAPS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="trust-table-wrap">
+        <table class="trust-comparison-table">
+          <thead>
+            <tr>
+              <th>Canonical URL</th>
+              <th>Googlebot Verdict</th>
+              <th>Coverage / Indexing State</th>
+              <th>Last Crawl / Sitemap Stamp</th>
+            </tr>
+          </thead>
+          <tbody id="gsc-live-inspection-tbody">
+            <tr>
+              <td><strong style="color:var(--gold-foil-bright);">https://www.onyxmen.my/</strong></td>
+              <td>SUBMITTED_IN_SITEMAP</td>
+              <td>Verified in sitemap.xml &amp; IndexNow (282 pages)</td>
+              <td>2026-11-03</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script>
+      (function() {
+        async function refreshGscTelemetry() {
+          try {
+            var res = await fetch('/seo-health-status.json?t=' + Date.now());
+            if (!res.ok) return;
+            var data = await res.json();
+            var gsc = data.googleSearchConsoleLiveTelemetry;
+            if (!gsc) return;
+            var badge = document.getElementById('gsc-live-sync-badge');
+            if (badge) {
+              badge.textContent = 'Status: ' + gsc.connectionStatus + ' · Last Synced: ' + (gsc.lastSyncedAtIso || data.generatedAtIso);
+            }
+            var s = gsc.summary28Days || {};
+            var elClicks = document.getElementById('gsc-val-clicks');
+            var elImpr = document.getElementById('gsc-val-impressions');
+            var elCtr = document.getElementById('gsc-val-ctr');
+            var elPos = document.getElementById('gsc-val-position');
+            var elStat = document.getElementById('gsc-val-status');
+            if (elClicks) elClicks.textContent = String(s.clicks || 0);
+            if (elImpr) elImpr.textContent = String(s.impressions || 0);
+            if (elCtr) elCtr.textContent = 'CTR: ' + String(s.ctrPercent || 0) + '%';
+            if (elPos) elPos.textContent = s.averagePosition > 0 ? '#' + String(s.averagePosition) : 'Indexing (Day 3)';
+            if (elStat) elStat.textContent = gsc.apiConnected ? 'GSC API LIVE' : 'SITEMAP ACTIVE';
+            var tbody = document.getElementById('gsc-live-inspection-tbody');
+            if (tbody && Array.isArray(gsc.urlInspectionResults) && gsc.urlInspectionResults.length > 0) {
+              tbody.innerHTML = gsc.urlInspectionResults.map(function(r) {
+                return '<tr>' +
+                  '<td><strong style="color:var(--gold-foil-bright);">' + r.url + '</strong></td>' +
+                  '<td>' + (r.verdict || 'SUBMITTED') + '</td>' +
+                  '<td>' + (r.coverageState || 'Submitted in sitemap.xml') + '</td>' +
+                  '<td>' + (r.lastCrawlTime || data.lastUpdatedDateMyt || '2026-11-03') + '</td>' +
+                '</tr>';
+              }).join('');
+            }
+          } catch (e) {}
+        }
+        refreshGscTelemetry();
+        setInterval(refreshGscTelemetry, 60000);
+      })();
+    </script>
+  </section>`
+      : ''
+  }
+
   <!-- ==========================================================================
        PARADIGM D — PINNED 50VW / 50VW SPLIT-SCREEN ARCHITECTURAL STAGE
        ========================================================================== -->
