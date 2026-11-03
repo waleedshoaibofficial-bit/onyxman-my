@@ -1,11 +1,11 @@
-# Onyxman.my — Cloudflare DNS, Custom Domain & 100% Free Business Email Runbook
+# Onyxmen.my — Cloudflare DNS, Custom Domain & 100% Free Business Email Runbook
 
 **Micro-Steps Covered:** `MS-181` to `MS-185`  
 **Primary Domain:** `onyxman.my` (`www.onyxman.my`)  
 **Cloudflare Pages Target:** `onyxman-my.pages.dev`  
 **Business Email Addresses (`RM 0 / Free Forever`):**
-- `sales@onyxman.my` → forwards instantly to `waleedshoaibofficial@gmail.com`
-- `info@onyxman.my` → forwards instantly to `waleedshoaibofficial@gmail.com`
+- `sales@onyxmen.my` → forwards instantly to `waleedshoaibofficial@gmail.com`
+- `info@onyxmen.my` → forwards instantly to `waleedshoaibofficial@gmail.com`
 - `*@onyxman.my` (Catch-All) → forwards instantly to `waleedshoaibofficial@gmail.com`
 
 ---
@@ -19,11 +19,11 @@ flowchart LR
     CF_Pages["Cloudflare Pages<br/>(onyxman-my.pages.dev)"]
     CF_Email["Cloudflare Email Routing<br/>(route1/2/3.mx.cloudflare.net)"]
     Gmail_Inbox["Concierge Gmail Inbox<br/>(waleedshoaibofficial@gmail.com)"]
-    Gmail_SMTP["Gmail SMTP (smtp.gmail.com:587)<br/>Send Mail As sales@ / info@onyxman.my"]
+    Gmail_SMTP["Gmail SMTP (smtp.gmail.com:587)<br/>Send Mail As sales@ / info@onyxmen.my"]
 
     Buyer -->|"HTTPS (HTTP/3 + SSL Strict)"| CF_Edge --> CF_Pages
-    Buyer -->|"Inbound Email to sales@ / info@onyxman.my"| CF_Email -->|"Instant Free Forwarding"| Gmail_Inbox
-    Gmail_Inbox -->|"Reply As Onyxman Malaysia Concierge"| Gmail_SMTP -->|"SPF (_spf.google.com) + TLS Pass"| Buyer
+    Buyer -->|"Inbound Email to sales@ / info@onyxmen.my"| CF_Email -->|"Instant Free Forwarding"| Gmail_Inbox
+    Gmail_Inbox -->|"Reply As Onyxmen Malaysia Concierge"| Gmail_SMTP -->|"SPF (_spf.google.com) + TLS Pass"| Buyer
 ```
 
 > [!IMPORTANT]
@@ -61,7 +61,7 @@ flowchart LR
 
 ## Step 2: 1-Click Cloudflare Email Routing Activation (`RM 0 / Free Forever`)
 
-This routes all emails sent to `sales@onyxman.my`, `info@onyxman.my`, and any other `@onyxman.my` address directly into `waleedshoaibofficial@gmail.com` at zero monthly cost.
+This routes all emails sent to `sales@onyxmen.my`, `info@onyxmen.my`, and any other `@onyxman.my` address directly into `waleedshoaibofficial@gmail.com` at zero monthly cost.
 
 ### 2.1 Verify Destination Address (`waleedshoaibofficial@gmail.com`)
 1. In the Cloudflare Dashboard, select **`onyxman.my`** → navigate to **Email** → **Email Routing** in the left sidebar.
@@ -100,9 +100,9 @@ This routes all emails sent to `sales@onyxman.my`, `info@onyxman.my`, and any ot
 
 ---
 
-## Step 3: Configure Gmail "Send Mail As" (`sales@onyxman.my` & `info@onyxman.my`)
+## Step 3: Configure Gmail "Send Mail As" (`sales@onyxmen.my` & `info@onyxmen.my`)
 
-With inbound forwarding active, this step configures your `waleedshoaibofficial@gmail.com` account so you can compose and reply to customers directly from **`Onyxman Malaysia Concierge <sales@onyxman.my>`** and **`Onyxman Malaysia Apothecary <info@onyxman.my>`** for free.
+With inbound forwarding active, this step configures your `waleedshoaibofficial@gmail.com` account so you can compose and reply to customers directly from **`Onyxmen Malaysia Concierge <sales@onyxmen.my>`** and **`Onyxmen Malaysia Apothecary <info@onyxmen.my>`** for free.
 
 ### 3.1 Generate a 16-Character Google App Password
 1. Log in to `waleedshoaibofficial@gmail.com` and open [Google Account Security](https://myaccount.google.com/security).
@@ -110,18 +110,18 @@ With inbound forwarding active, this step configures your `waleedshoaibofficial@
 3. Go directly to [Google App Passwords](https://myaccount.google.com/apppasswords).
 4. Under **App name**, type:
    ```text
-   Onyxman.my Outbound SMTP
+   Onyxmen.my Outbound SMTP
    ```
 5. Click **Create**.
 6. Copy the **16-character App Password** shown in the yellow box (remove spaces when pasting, e.g. `abcd efgh ijkl mnop` → `abcdefghijklmnop`). Keep this window open for Step 3.2.
 
-### 3.2 Add `sales@onyxman.my` in Gmail Settings
+### 3.2 Add `sales@onyxmen.my` in Gmail Settings
 1. Open [Gmail](https://mail.google.com/) while signed in to `waleedshoaibofficial@gmail.com`.
 2. Click the **Gear icon (`⚙️`)** (top right) → **See all settings** → **Accounts and Import** tab.
 3. In the **Send mail as** section, click **Add another email address**.
 4. In the popup window, enter:
-   - **Name:** `Onyxman Malaysia Concierge`
-   - **Email address:** `sales@onyxman.my`
+   - **Name:** `Onyxmen Malaysia Concierge`
+   - **Email address:** `sales@onyxmen.my`
    - **Treat as an alias:** Checked (`✓`)
    - Click **Next Step >>**.
 5. Enter the exact **SMTP Server Configuration**:
@@ -133,14 +133,14 @@ With inbound forwarding active, this step configures your `waleedshoaibofficial@
    | **Password** | *(Paste the 16-character Google App Password from Step 3.1)* |
    | **Secured connection** | **Secured connection using TLS** *(recommended)* |
 6. Click **Add Account**.
-7. Because `sales@onyxman.my` already forwards to `waleedshoaibofficial@gmail.com` via Step 2, the Gmail verification code email will arrive inside your `waleedshoaibofficial@gmail.com` inbox within 5 seconds.
+7. Because `sales@onyxmen.my` already forwards to `waleedshoaibofficial@gmail.com` via Step 2, the Gmail verification code email will arrive inside your `waleedshoaibofficial@gmail.com` inbox within 5 seconds.
 8. Open that email, click the confirmation link (or paste the confirmation code into the popup), and click **Verify**.
 
-### 3.3 Add `info@onyxman.my` in Gmail Settings
+### 3.3 Add `info@onyxmen.my` in Gmail Settings
 1. Still under **Settings** → **Accounts and Import** → **Send mail as**, click **Add another email address** a second time.
 2. Enter:
-   - **Name:** `Onyxman Malaysia Apothecary`
-   - **Email address:** `info@onyxman.my`
+   - **Name:** `Onyxmen Malaysia Apothecary`
+   - **Email address:** `info@onyxmen.my`
    - **Treat as an alias:** Checked (`✓`)
    - Click **Next Step >>**.
 3. Enter the same **SMTP Server Configuration** (`smtp.gmail.com`, Port `587`, Username `waleedshoaibofficial@gmail.com`, and the same 16-character Google App Password, TLS).
@@ -149,7 +149,7 @@ With inbound forwarding active, this step configures your `waleedshoaibofficial@
 ### 3.4 Enable Automatic "Reply from the same address"
 1. Under **Settings** → **Accounts and Import** → **Send mail as**, find the option **"When replying to a message:"**.
 2. Select **"Reply from the same address the message was sent to"**.
-3. Now, whenever a customer emails `sales@onyxman.my` or `info@onyxman.my`, hitting **Reply** in Gmail automatically sends from `sales@onyxman.my` or `info@onyxman.my`!
+3. Now, whenever a customer emails `sales@onyxmen.my` or `info@onyxmen.my`, hitting **Reply** in Gmail automatically sends from `sales@onyxmen.my` or `info@onyxmen.my`!
 
 ---
 

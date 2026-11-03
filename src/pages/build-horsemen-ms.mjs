@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * ============================================================================
- * ONYXMAN.MY — BAHASA MALAYSIA FLAGSHIP BUILDER: HORSEMEN MALAYSIA
+ * ONYXMEN.MY — BAHASA MALAYSIA FLAGSHIP BUILDER: HORSEMEN MALAYSIA
  * Micro-Steps: MS-100, MS-101, MS-102 (Turn 9 — Subagent #9)
  * Output Target: public/ms/horsemen-malaysia/index.html
  * Canonical URL: https://www.onyxmen.my/ms/horsemen-malaysia/
@@ -10,7 +10,7 @@
  *   - Title: Horsemen Malaysia (Suplemen Herba Vitaliti & Tenaga Lelaki — 20 Kapsul x 500mg)
  *   - SKU: ONYX-HM-20 | MPN: HM-500MG-20MY | GTIN-13: 9550000102011
  *   - Official Pricing: 1 Botol = RM 159 (159.00 MYR), 2 Botol = RM 318 (318.00 MYR), 3 Botol = RM 477 (477.00 MYR)
- *   - Merchant Desks: waleedshoaibofficial@gmail.com | sales@onyxman.my | info@onyxman.my
+ *   - Merchant Desks: waleedshoaibofficial@gmail.com | sales@onyxmen.my | info@onyxmen.my
  * Architecture:
  *   - Paradigm A (100vw x 100vh Full-Bleed Obsidian Cinema Stage)
  *   - Paradigm D (50vw / 50vw Pinned Split-Screen Botanical Monograph & 18-Day Cycle Stage)
@@ -74,7 +74,7 @@ export const HORSEMEN_MS_FAQS = [
     id: 'faq-hm-ms-03',
     code: 'HM-FAQ-03',
     category: 'PROTOKOL KITARAN 18 HARI',
-    questionMs: 'Mengapakah Onyxman Malaysia menetapkan Peringatan Isian Semula pada Hari Ke-18 untuk pengguna Horsemen?',
+    questionMs: 'Mengapakah Onyxmen Malaysia menetapkan Peringatan Isian Semula pada Hari Ke-18 untuk pengguna Horsemen?',
     answerMs:
       'Memandangkan sebotol Horsemen Malaysia membekalkan 20 kapsul untuk kitaran 20 hari (pada kadar 1 kapsul sehari), pengguna yang mengamalkan protokol harian akan mempunyai baki tepat 2 kapsul pada pagi Hari Ke-18. Sistem Peringatan Isian Semula Hari Ke-18 melalui Google Calendar dan meja privasi WhatsApp kami direka supaya anda mempunyai tetingkap masa 48 jam (1 hingga 2 hari bekerja) bagi penghantaran kurier ekspres tiba di pintu anda sebelum kapsul ke-20 habis digunakan.',
     clinicalNoteMs:
@@ -86,7 +86,7 @@ export const HORSEMEN_MS_FAQS = [
     category: 'HARGA RASMI & PAKEJ MULTI-BOTOL',
     questionMs: 'Berapakah harga rasmi Horsemen Malaysia dan apakah kelebihan memilih pakej 2 atau 3 botol?',
     answerMs:
-      'Harga rasmi yang ditetapkan oleh Onyxman Malaysia ialah RM 159.00 untuk Pakej 1 Botol (20 kapsul / 10,000mg), RM 318.00 untuk Pakej Dwi-Momentum 2 Botol (40 kapsul / 20,000mg), dan RM 477.00 untuk Pakej Apotekari Lengkap 3 Botol (60 kapsul / 30,000mg). Pakej 1 Botol menikmati penghantaran rahsia percuma di seluruh Semenanjung Malaysia (RM 12 untuk Sabah, Sarawak & Labuan), manakala Pakej 2 Botol (RM 318) dan 3 Botol (RM 477) melayakkan anda menerima Penghantaran Ekspres Rahsia Percuma ke seluruh 16 negeri Malaysia termasuk Sabah, Sarawak dan Labuan.',
+      'Harga rasmi yang ditetapkan oleh Onyxmen Malaysia ialah RM 159.00 untuk Pakej 1 Botol (20 kapsul / 10,000mg), RM 318.00 untuk Pakej Dwi-Momentum 2 Botol (40 kapsul / 20,000mg), dan RM 477.00 untuk Pakej Apotekari Lengkap 3 Botol (60 kapsul / 30,000mg). Pakej 1 Botol menikmati penghantaran rahsia percuma di seluruh Semenanjung Malaysia (RM 12 untuk Sabah, Sarawak & Labuan), manakala Pakej 2 Botol (RM 318) dan 3 Botol (RM 477) melayakkan anda menerima Penghantaran Ekspres Rahsia Percuma ke seluruh 16 negeri Malaysia termasuk Sabah, Sarawak dan Labuan.',
     clinicalNoteMs:
       'Lebih 68% pelanggan di Kuala Lumpur, Selangor, Johor dan Pulau Pinang memilih Pakej 2 Botol (RM 318) untuk melengkapkan kitaran 40 hari penuh (peringatan isian semula pada Hari Ke-36).',
   },
@@ -96,7 +96,7 @@ export const HORSEMEN_MS_FAQS = [
     category: 'JAMINAN BUNGKUSAN RAHSIA KOTAK KOSONG',
     questionMs: 'Adakah penghantar kurier, pengawal keselamatan kondominium, kerani pejabat atau ahli keluarga akan mengetahui kandungan bungkusan saya?',
     answerMs:
-      'Tidak sama sekali. Setiap pesanan Horsemen Malaysia dibungkus di pusat pelepasan Kuala Lumpur kami menggunakan kotak keselamatan legap tanpa sebarang cetakan jenama, warna mencolok, atau gambar produk. Pada slip kurier (airway bill), nama pengirim hanya dicetak sebagai "OM Fulfilment Logistics (Kuala Lumpur)" manakala ruangan keterangan kandungan ditulis secara neutral sebagai "Penjagaan Kesihatan & Nutrisi Harian (Personal Wellness Supplement)". Sifar perkataan Horsemen, Onyxman, atau suplemen lelaki tertera pada bahagian luar bungkusan.',
+      'Tidak sama sekali. Setiap pesanan Horsemen Malaysia dibungkus di pusat pelepasan Kuala Lumpur kami menggunakan kotak keselamatan legap tanpa sebarang cetakan jenama, warna mencolok, atau gambar produk. Pada slip kurier (airway bill), nama pengirim hanya dicetak sebagai "OM Fulfilment Logistics (Kuala Lumpur)" manakala ruangan keterangan kandungan ditulis secara neutral sebagai "Penjagaan Kesihatan & Nutrisi Harian (Personal Wellness Supplement)". Sifar perkataan Horsemen, Onyxmen, atau suplemen lelaki tertera pada bahagian luar bungkusan.',
     clinicalNoteMs:
       'Bungkusan turut dilengkapi pelekat keselamatan kedap udara; jika pelekat luar didapati koyak semasa serahan kurier, kami menggantikan unit baharu secara percuma.',
   },
@@ -136,7 +136,7 @@ export const HORSEMEN_MS_FAQS = [
     category: 'PROSES TEMPAhan EKSPRES 10 SAAT',
     questionMs: 'Bagaimanakah proses tempahan melalui Laci Tempahan Ekspres (Express Order Drawer) berfungsi?',
     answerMs:
-      'Apabila anda mengklik mana-mana butang "Tempah Bungkusan Rahsia — RM 159 / RM 318 / RM 477" di halaman ini, Laci Tempahan Ekspres akan dibuka secara serta-merta tanpa perlu memuat semula halaman atau mendaftar akaun yang rumit. Anda hanya perlu memilih kuantiti botol (1, 2, atau 3 botol), mengisi nama panggilan, nombor WhatsApp Malaysia (format 01X-XXXXXXX), memilih negeri serta alamat penghantaran, dan mengesahkan kaedah bayaran. Pesanan anda dihantar terus secara serentak ke meja operasi utama kami (waleedshoaibofficial@gmail.com, sales@onyxman.my, info@onyxman.my) bersama resit rujukan segera di skrin.',
+      'Apabila anda mengklik mana-mana butang "Tempah Bungkusan Rahsia — RM 159 / RM 318 / RM 477" di halaman ini, Laci Tempahan Ekspres akan dibuka secara serta-merta tanpa perlu memuat semula halaman atau mendaftar akaun yang rumit. Anda hanya perlu memilih kuantiti botol (1, 2, atau 3 botol), mengisi nama panggilan, nombor WhatsApp Malaysia (format 01X-XXXXXXX), memilih negeri serta alamat penghantaran, dan mengesahkan kaedah bayaran. Pesanan anda dihantar terus secara serentak ke meja operasi utama kami (waleedshoaibofficial@gmail.com, sales@onyxmen.my, info@onyxmen.my) bersama resit rujukan segera di skrin.',
     clinicalNoteMs:
       'Pegawai khidmat pelanggan privasi kami akan menghubungi nombor WhatsApp anda untuk mengesahkan jadual pelepasan kurier dan berkongsi pautan Peringatan Kalendar Hari Ke-18.',
   },
@@ -175,16 +175,16 @@ function buildHorsemenMsGraphJson() {
   const brandNode = {
     '@type': 'Brand',
     '@id': BRAND_ID,
-    name: 'Onyxman',
+    name: 'Onyxmen',
     url: SCHEMA_DOMAIN,
   };
 
   const sellerNode = {
     '@type': 'Organization',
     '@id': ORG_ID,
-    name: 'Onyxman Malaysia',
+    name: 'Onyxmen Malaysia',
     url: SCHEMA_DOMAIN,
-    email: 'sales@onyxman.my',
+    email: 'sales@onyxmen.my',
   };
 
   const keyBotanicalsMs = [
@@ -280,11 +280,11 @@ function buildHorsemenMsGraphJson() {
     '@type': ['Product', 'DietarySupplement'],
     '@id': productNodeId,
     name: 'Horsemen Malaysia — Suplemen Herba Vitaliti & Tenaga Lelaki (20 Kapsul x 500mg)',
-    alternateName: 'Horsemen 20 Kapsul x 500mg Onyxman Malaysia',
+    alternateName: 'Horsemen 20 Kapsul x 500mg Onyxmen Malaysia',
     description:
-      'Horsemen Malaysia oleh Onyxman ialah suplemen herba vitaliti dan tenaga lelaki dewasa (20 kapsul x 500mg = 10,000mg sebotol) yang menggabungkan Tongkat Ali Malaysia 100:1 (150mg), Maca Hitam Peru (100mg), Epimedium (80mg), L-Arginine HCl (80mg), Ginseng Merah Korea (60mg), serta Tribulus & Zink (30mg). Harga rasmi RM 159 sebotol dengan penghantaran rahsia kotak kosong ke seluruh 16 negeri Malaysia.',
+      'Horsemen Malaysia oleh Onyxmen ialah suplemen herba vitaliti dan tenaga lelaki dewasa (20 kapsul x 500mg = 10,000mg sebotol) yang menggabungkan Tongkat Ali Malaysia 100:1 (150mg), Maca Hitam Peru (100mg), Epimedium (80mg), L-Arginine HCl (80mg), Ginseng Merah Korea (60mg), serta Tribulus & Zink (30mg). Harga rasmi RM 159 sebotol dengan penghantaran rahsia kotak kosong ke seluruh 16 negeri Malaysia.',
     disambiguatingDescription:
-      'Suplemen kapsul pemakanan botani makan (20 kapsul x 500mg) untuk kecergasan dan stamina lelaki dewasa (18+) di Malaysia oleh Onyxman.my.',
+      'Suplemen kapsul pemakanan botani makan (20 kapsul x 500mg) untuk kecergasan dan stamina lelaki dewasa (18+) di Malaysia oleh Onyxmen.my.',
     url: CANONICAL_URL_MS,
     inLanguage: 'ms-MY',
     sku: 'ONYX-HM-20',
@@ -336,7 +336,7 @@ function buildHorsemenMsGraphJson() {
     '@type': 'ItemPage',
     '@id': `${CANONICAL_URL_MS}#webpage`,
     url: CANONICAL_URL_MS,
-    name: 'Horsemen Malaysia (20 Kapsul x 500mg) — Suplemen Herba Vitaliti & Tenaga Lelaki | RM 159 Onyxman.my',
+    name: 'Horsemen Malaysia (20 Kapsul x 500mg) — Suplemen Herba Vitaliti & Tenaga Lelaki | RM 159 Onyxmen.my',
     description:
       'Tempah Horsemen Malaysia tulen (20 Kapsul x 500mg, SKU ONYX-HM-20, MPN HM-500MG-20MY) pada harga rasmi RM 159 sebotol. Gabungan 6 ekstrak aktif: Tongkat Ali 150mg, Maca Hitam 100mg, Epimedium 80mg, L-Arginine HCl 80mg, Ginseng Merah 60mg & Tribulus/Zink 30mg. Penghantaran rahsia kotak kosong ke seluruh 16 negeri Malaysia.',
     inLanguage: 'ms-MY',
@@ -362,7 +362,7 @@ function buildHorsemenMsGraphJson() {
 
   const breadcrumbNode = buildBreadcrumbSchema(
     [
-      { name: 'Utama Onyxman Malaysia', url: '/ms/' },
+      { name: 'Utama Onyxmen Malaysia', url: '/ms/' },
       { name: 'Koleksi Formulasi', url: '/ms/produk/' },
       {
         name: 'Horsemen Malaysia (20 Kapsul x 500mg)',
@@ -375,7 +375,7 @@ function buildHorsemenMsGraphJson() {
   const faqPageNode = buildFAQPageSchema(HORSEMEN_MS_FAQS, CANONICAL_URL_MS, 'ms-MY');
 
   const orgNode = buildOrganizationSchema();
-  // Ensure waleedshoaibofficial@gmail.com is explicitly represented in contactPoint alongside sales@onyxman.my & info@onyxman.my
+  // Ensure waleedshoaibofficial@gmail.com is explicitly represented in contactPoint alongside sales@onyxmen.my & info@onyxmen.my
   orgNode.contactPoint.push({
     '@type': 'ContactPoint',
     contactType: 'Primary Merchant Fulfilment & Express Order Notification Desk',
@@ -1214,7 +1214,7 @@ function renderChapterMs100() {
     <!-- Bar Telemetri Atas & Laluan Breadcrumb -->
     <div class="hm-ms-cinema-hero__top-strip">
       <nav class="hm-ms-breadcrumb" aria-label="Laluan Navigasi Halaman">
-        <a href="/ms/" class="hm-ms-breadcrumb__link">Utama Onyxman</a>
+        <a href="/ms/" class="hm-ms-breadcrumb__link">Utama Onyxmen</a>
         <span class="hm-ms-breadcrumb__sep" aria-hidden="true">/</span>
         <a href="/ms/produk/" class="hm-ms-breadcrumb__link">4 Formulasi Utama</a>
         <span class="hm-ms-breadcrumb__sep" aria-hidden="true">/</span>
@@ -1399,7 +1399,7 @@ function renderChapterMs100() {
             <source srcset="/assets/products/horsemen-stage.webp" type="image/webp" />
             <img
               src="/assets/products/horsemen-stage.png"
-              alt="Botol Rasmi Horsemen Malaysia — Suplemen Herba Vitaliti & Tenaga Lelaki 20 Kapsul x 500mg (RM 159 Onyxman Malaysia)"
+              alt="Botol Rasmi Horsemen Malaysia — Suplemen Herba Vitaliti & Tenaga Lelaki 20 Kapsul x 500mg (RM 159 Onyxmen Malaysia)"
               width="900"
               height="1125"
               fetchpriority="high"
@@ -1442,7 +1442,7 @@ function renderChapterMs100() {
       <div class="hm-ms-discreet-pledge-col">
         <span class="hm-ms-discreet-pledge-col__kicker">04 · MEJA OPERASI &amp; WHATSAPP PRIVASI</span>
         <p class="hm-ms-discreet-pledge-col__text">
-          Disokong terus oleh meja pelepasan rasmi kami di <a href="mailto:sales@onyxman.my">sales@onyxman.my</a>, <a href="mailto:info@onyxman.my">info@onyxman.my</a> &amp; <a href="mailto:waleedshoaibofficial@gmail.com">waleedshoaibofficial@gmail.com</a>.
+          Disokong terus oleh meja pelepasan rasmi kami di <a href="mailto:sales@onyxmen.my">sales@onyxmen.my</a>, <a href="mailto:info@onyxmen.my">info@onyxmen.my</a> &amp; <a href="mailto:waleedshoaibofficial@gmail.com">waleedshoaibofficial@gmail.com</a>.
         </p>
       </div>
     </div>
@@ -1696,7 +1696,7 @@ function renderChapterMs101() {
           </span>
         </div>
         <p class="hm-ms-botanical-entry__copy">
-          <strong>L-Arginine Hydrochloride (80mg)</strong> ialah asid amino separa penting yang bertindak sebagai bahan mentah biologi langsung untuk penghasilan <strong>nitrik oksida (NO)</strong> di lapisan endotelium saluran darah. Bentuk garam hidroklorida (HCl) dipilih secara khusus oleh ahli formulasi Onyxman kerana kestabilannya terhadap kelembapan iklim tropika Malaysia serta kadar keterlarutannya yang tinggi di dalam perut.
+          <strong>L-Arginine Hydrochloride (80mg)</strong> ialah asid amino separa penting yang bertindak sebagai bahan mentah biologi langsung untuk penghasilan <strong>nitrik oksida (NO)</strong> di lapisan endotelium saluran darah. Bentuk garam hidroklorida (HCl) dipilih secara khusus oleh ahli formulasi Onyxmen kerana kestabilannya terhadap kelembapan iklim tropika Malaysia serta kadar keterlarutannya yang tinggi di dalam perut.
         </p>
         <p class="hm-ms-botanical-entry__copy">
           Penghasilan nitrik oksida yang lancar menyokong keanjalan vaskular serta mempercepatkan pengangkutan oksigen dan fitonutrien Tongkat Ali serta Ginseng Merah ke seluruh tisu otot semasa aktiviti fizikal malam.
@@ -1801,7 +1801,7 @@ function renderChapterMs101() {
             Protokol Kitaran Aktif 18 Hari &amp; Sistem Peringatan Isian Semula <span class="foil-champagne-text">Hari Ke-18</span>
           </h2>
           <p class="editorial-lead-paragraph">
-            Setiap botol Horsemen Malaysia mengandungi tepat <strong>20 kapsul × 500mg</strong>. Bagi memastikan tahap bio-saturasi eurycomanone, macamides, dan ginsenosida di dalam tubuh anda tidak jatuh mendadak apabila botol pertama hampir tamat, sistem kejuruteraan pelanggan Onyxman Malaysia menetapkan <strong>Titik Peringatan Isian Semula pada Hari Ke-18</strong>.
+            Setiap botol Horsemen Malaysia mengandungi tepat <strong>20 kapsul × 500mg</strong>. Bagi memastikan tahap bio-saturasi eurycomanone, macamides, dan ginsenosida di dalam tubuh anda tidak jatuh mendadak apabila botol pertama hampir tamat, sistem kejuruteraan pelanggan Onyxmen Malaysia menetapkan <strong>Titik Peringatan Isian Semula pada Hari Ke-18</strong>.
           </p>
         </div>
 
@@ -1920,7 +1920,7 @@ function renderChapterMs101() {
               Peringatan Isian Semula Hari Ke-18 (Baki 2 Kapsul = Tetingkap Kurier 48 Jam)
             </h3>
             <p class="hm-ms-cycle-stage-row__desc">
-              Pada Hari Ke-18 (atau Hari Ke-36 bagi Pakej 2 Botol / Hari Ke-54 bagi Pakej 3 Botol), anda mempunyai baki tepat <strong>2 kapsul (1,000mg)</strong> di dalam botol. Peringatan Google Calendar dan mesej privasi WhatsApp Onyxman diaktifkan pada jam 10:00 pagi waktu Malaysia. Ini memberikan ruang masa 1 hingga 2 hari bekerja untuk bungkusan rahsia baharu anda dihantar oleh kurier ekspres sebelum kapsul ke-20 diambil.
+              Pada Hari Ke-18 (atau Hari Ke-36 bagi Pakej 2 Botol / Hari Ke-54 bagi Pakej 3 Botol), anda mempunyai baki tepat <strong>2 kapsul (1,000mg)</strong> di dalam botol. Peringatan Google Calendar dan mesej privasi WhatsApp Onyxmen diaktifkan pada jam 10:00 pagi waktu Malaysia. Ini memberikan ruang masa 1 hingga 2 hari bekerja untuk bungkusan rahsia baharu anda dihantar oleh kurier ekspres sebelum kapsul ke-20 diambil.
             </p>
           </div>
           <div class="hm-ms-cycle-stage-row__meta">
@@ -1979,7 +1979,7 @@ function renderChapterMs102() {
           <div class="hm-ms-faq-body">
             <p>${item.answerMs}</p>
             <div class="hm-ms-faq-clinical-note">
-              <strong>NOTA APOTEKARI ONYXMAN:</strong> ${item.clinicalNoteMs}
+              <strong>NOTA APOTEKARI ONYXMEN:</strong> ${item.clinicalNoteMs}
             </div>
           </div>
         </details>`;
@@ -1997,12 +1997,12 @@ function renderChapterMs102() {
     <div class="hm-ms-section-inner">
       <div class="hm-ms-section-header">
         <div class="hm-ms-section-header__left">
-          <span class="editorial-kicker">BAB IV · MATRIKS PERBANDINGAN EMPAT FORMULASI ONYXMAN (MS-102)</span>
+          <span class="editorial-kicker">BAB IV · MATRIKS PERBANDINGAN EMPAT FORMULASI ONYXMEN (MS-102)</span>
           <h2 id="hm-ms-comparison-heading" class="editorial-headline-lg">
             Perbandingan Horsemen Malaysia berbanding <span class="foil-champagne-text">Hammer of Thor, Grow XL &amp; Magnum Pump XR</span>
           </h2>
           <p class="editorial-lead-paragraph">
-            Keempat-empat formulasi utama di Onyxman Malaysia ditawarkan pada harga seragam <strong>RM 159.00 sebotol</strong> (2 Botol RM 318 · 3 Botol RM 477), namun setiap satu kejuruteraan fitokimianya direka untuk sasaran fisiologi lelaki dewasa yang berbeza. Gunakan jadual perbandingan teknikal 12-dimensi di bawah untuk mengesahkan mengapa <strong>Horsemen Malaysia (20 Kapsul × 500mg)</strong> menjadi pilihan utama untuk kesediaan tenaga malam dan fleksibiliti dwi-mod.
+            Keempat-empat formulasi utama di Onyxmen Malaysia ditawarkan pada harga seragam <strong>RM 159.00 sebotol</strong> (2 Botol RM 318 · 3 Botol RM 477), namun setiap satu kejuruteraan fitokimianya direka untuk sasaran fisiologi lelaki dewasa yang berbeza. Gunakan jadual perbandingan teknikal 12-dimensi di bawah untuk mengesahkan mengapa <strong>Horsemen Malaysia (20 Kapsul × 500mg)</strong> menjadi pilihan utama untuk kesediaan tenaga malam dan fleksibiliti dwi-mod.
           </p>
         </div>
 
@@ -2015,7 +2015,7 @@ function renderChapterMs102() {
       </div>
 
       <!-- Jadual Perbandingan 12-Dimensi Merentasi 4 Formulasi -->
-      <div class="hm-ms-table-scroll" role="region" aria-label="Jadual Perbandingan Teknikal 4 Formulasi Onyxman Malaysia" tabindex="0">
+      <div class="hm-ms-table-scroll" role="region" aria-label="Jadual Perbandingan Teknikal 4 Formulasi Onyxmen Malaysia" tabindex="0">
         <table class="hm-ms-architectural-table">
           <thead>
             <tr>
@@ -2565,16 +2565,16 @@ function renderChapterMs102() {
           <span class="architectural-ledger__index">SEMAK 05</span>
           <h3 class="architectural-ledger__title">Harga Rasmi Seragam RM 159.00 Sebotol (Tiada Diskaun Palsu RM 30–RM 50)</h3>
           <p class="architectural-ledger__detail">
-            Ekstrak Tongkat Ali 100:1 (2.2% eurycomanone) dan Maca Hitam Peru terjelatin tulen mempunyai kos bahan mentah yang tinggi. Onyxman Malaysia menetapkan harga rasmi <strong>RM 159 sebotol</strong> (2 botol RM 318 · 3 botol RM 477) secara telus. Berwaspada terhadap lambakan tiruan berharga murah yang menggunakan tepung kanji.
+            Ekstrak Tongkat Ali 100:1 (2.2% eurycomanone) dan Maca Hitam Peru terjelatin tulen mempunyai kos bahan mentah yang tinggi. Onyxmen Malaysia menetapkan harga rasmi <strong>RM 159 sebotol</strong> (2 botol RM 318 · 3 botol RM 477) secara telus. Berwaspada terhadap lambakan tiruan berharga murah yang menggunakan tepung kanji.
           </p>
           <span class="architectural-ledger__metric">RM 159 RASMI</span>
         </div>
 
         <div class="architectural-ledger__row" role="listitem">
           <span class="architectural-ledger__index">SEMAK 06</span>
-          <h3 class="architectural-ledger__title">Pelepasan Eksklusif Melalui Meja Rasmi Onyxman.my</h3>
+          <h3 class="architectural-ledger__title">Pelepasan Eksklusif Melalui Meja Rasmi Onyxmen.my</h3>
           <p class="architectural-ledger__detail">
-            Semua pesanan tulen hanya diproses melalui laman rasmi <strong>https://www.onyxmen.my</strong> dan disahkan menerusi e-mel rasmi <a href="mailto:sales@onyxman.my" style="color: var(--gold-foil-bright);">sales@onyxman.my</a>, <a href="mailto:info@onyxman.my" style="color: var(--gold-foil-bright);">info@onyxman.my</a>, atau <a href="mailto:waleedshoaibofficial@gmail.com" style="color: var(--gold-foil-bright);">waleedshoaibofficial@gmail.com</a>.
+            Semua pesanan tulen hanya diproses melalui laman rasmi <strong>https://www.onyxmen.my</strong> dan disahkan menerusi e-mel rasmi <a href="mailto:sales@onyxmen.my" style="color: var(--gold-foil-bright);">sales@onyxmen.my</a>, <a href="mailto:info@onyxmen.my" style="color: var(--gold-foil-bright);">info@onyxmen.my</a>, atau <a href="mailto:waleedshoaibofficial@gmail.com" style="color: var(--gold-foil-bright);">waleedshoaibofficial@gmail.com</a>.
           </p>
           <span class="architectural-ledger__metric">PENGEDAR SAH MY</span>
         </div>
@@ -2633,12 +2633,12 @@ function renderChapterMs102() {
     <div class="hm-ms-section-inner">
       <div class="hm-ms-section-header" style="border-bottom: none; padding-bottom: 0;">
         <div class="hm-ms-section-header__left">
-          <span class="editorial-kicker">RIZAB APOTEKARI ONYXMAN MALAYSIA · PELEPASAN BUNGKUSAN RAHSIA HARI INI</span>
+          <span class="editorial-kicker">RIZAB APOTEKARI ONYXMEN MALAYSIA · PELEPASAN BUNGKUSAN RAHSIA HARI INI</span>
           <h2 id="hm-ms-closing-heading" class="editorial-headline-xl">
             Sediakan Rizab <span class="foil-champagne-text">Horsemen Malaysia</span> Anda Dalam Kotak Rahsia
           </h2>
           <p class="editorial-lead-paragraph">
-            Pilih kitaran yang paling bertepatan dengan matlamat kecergasan malam dan stamina harian anda. Setiap pesanan dilindungi oleh Jaminan Ketulenan 14 Hari Onyxman Malaysia, Peringatan Isian Semula Hari Ke-18, dan bungkusan tanpa nama produk ke seluruh 16 negeri Malaysia.
+            Pilih kitaran yang paling bertepatan dengan matlamat kecergasan malam dan stamina harian anda. Setiap pesanan dilindungi oleh Jaminan Ketulenan 14 Hari Onyxmen Malaysia, Peringatan Isian Semula Hari Ke-18, dan bungkusan tanpa nama produk ke seluruh 16 negeri Malaysia.
           </p>
         </div>
       </div>
@@ -2693,8 +2693,8 @@ function renderChapterMs102() {
       <div class="hm-ms-hero-cta-cluster" style="justify-content: space-between; padding-top: 1rem; border-top: var(--hairline-subtle);">
         <div style="font-size: 0.84rem; color: var(--text-muted-alabaster);">
           Meja Khidmat Pelanggan &amp; Pengesahan Pesanan Rasmi:
-          <a href="mailto:sales@onyxman.my" style="color: var(--gold-foil-bright); font-weight: 600;">sales@onyxman.my</a> ·
-          <a href="mailto:info@onyxman.my" style="color: var(--gold-foil-bright); font-weight: 600;">info@onyxman.my</a> ·
+          <a href="mailto:sales@onyxmen.my" style="color: var(--gold-foil-bright); font-weight: 600;">sales@onyxmen.my</a> ·
+          <a href="mailto:info@onyxmen.my" style="color: var(--gold-foil-bright); font-weight: 600;">info@onyxmen.my</a> ·
           <a href="mailto:waleedshoaibofficial@gmail.com" style="color: var(--gold-foil-bright); font-weight: 600;">waleedshoaibofficial@gmail.com</a>
         </div>
 
@@ -2751,7 +2751,7 @@ export function buildHorsemenMsPage() {
   const fullHtml = renderLuxuryShell({
     lang: 'ms-MY',
     title:
-      'Horsemen Malaysia (20 Kapsul x 500mg) — Suplemen Herba Vitaliti & Tenaga Lelaki | RM 159 Onyxman.my',
+      'Horsemen Malaysia (20 Kapsul x 500mg) — Suplemen Herba Vitaliti & Tenaga Lelaki | RM 159 Onyxmen.my',
     description:
       'Tempah Horsemen Malaysia tulen (Suplemen Herba Vitaliti & Tenaga Lelaki — 20 Kapsul x 500mg, SKU ONYX-HM-20, MPN HM-500MG-20MY) pada harga rasmi RM 159 sebotol (2 Botol RM 318, 3 Botol RM 477). Gabungan Tongkat Ali 150mg, Maca Hitam 100mg, Epimedium 80mg, L-Arginine HCl 80mg, Ginseng Merah 60mg & Tribulus/Zink 30mg dengan penghantaran rahsia kotak kosong ke seluruh 16 negeri Malaysia.',
     canonicalPath: CANONICAL_PATH_MS,
@@ -2775,7 +2775,7 @@ export function buildHorsemenMsPage() {
   const byteSize = Buffer.byteLength(fullHtml, 'utf8');
 
   console.log('====================================================================');
-  console.log('ONYXMAN.MY — HORSEMEN BAHASA MALAYSIA FLAGSHIP BUILD COMPLETE');
+  console.log('ONYXMEN.MY — HORSEMEN BAHASA MALAYSIA FLAGSHIP BUILD COMPLETE');
   console.log('====================================================================');
   console.log(`Output File    : ${path.relative(ROOT_DIR, outputPath)}`);
   console.log(`Canonical URL  : ${CANONICAL_URL_MS}`);

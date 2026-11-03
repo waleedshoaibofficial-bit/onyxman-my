@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * ============================================================================
- * ONYXMAN.MY — MASTER DETERMINISTIC SITE BUILD ORCHESTRATOR
+ * ONYXMEN.MY — MASTER DETERMINISTIC SITE BUILD ORCHESTRATOR
  * Micro-Step: MS-190
  * ============================================================================
  * Runs all `src/pages/build-*.mjs` page & technical SEO generators in
@@ -260,7 +260,7 @@ function main() {
   const startTime = Date.now();
 
   console.log('====================================================================================');
-  console.log('ONYXMAN.MY — MASTER DETERMINISTIC SITE BUILD ORCHESTRATOR (MS-190)');
+  console.log('ONYXMEN.MY — MASTER DETERMINISTIC SITE BUILD ORCHESTRATOR (MS-190)');
   console.log('====================================================================================');
 
   syncStylesheetsToPublic();

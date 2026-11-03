@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * ONYXMAN.MY — HAMMER OF THOR EN-MY FLAGSHIP APOTHECARY BUILDER (MS-103 TO MS-106)
+ * ONYXMEN.MY — HAMMER OF THOR EN-MY FLAGSHIP APOTHECARY BUILDER (MS-103 TO MS-106)
  * Output Target: public/hammer-of-thor-malaysia/index.html
  * Canonical URL: https://www.onyxmen.my/hammer-of-thor-malaysia/
  * Paired BM URL: https://www.onyxmen.my/ms/hammer-of-thor-malaysia/
@@ -14,7 +14,7 @@
  *   Product: Hammer of Thor (Men's Health — Tribulus Terrestris — 20 Veg. Capsules)
  *   SKU: ONYX-HT-20 | MPN: HT-TRIB-20MY | GTIN-13: 9550000102028
  *   Pricing: 1 Bottle = RM 159 (159.00 MYR), 2 Bottles = RM 318 (318.00 MYR), 3 Bottles = RM 477 (477.00 MYR)
- *   Emails: waleedshoaibofficial@gmail.com, sales@onyxman.my, info@onyxman.my
+ *   Emails: waleedshoaibofficial@gmail.com, sales@onyxmen.my, info@onyxmen.my
  *   Refill Protocol: Day-18 Refill Reminder Calendar Integration (20 plant-origin HPMC vegetarian capsules)
  */
 
@@ -63,8 +63,8 @@ export const HAMMER_CONSTANTS = {
   },
   emails: {
     primaryOrder: 'waleedshoaibofficial@gmail.com',
-    sales: 'sales@onyxman.my',
-    info: 'info@onyxman.my',
+    sales: 'sales@onyxmen.my',
+    info: 'info@onyxmen.my',
   },
 };
 
@@ -389,35 +389,35 @@ export const HAMMER_FAQS = [
     category: 'DAY-18 REFILL PROTOCOL',
     questionEn: 'How does the Day-18 Refill Reminder Calendar Integration work for the 20-capsule bottle?',
     answerEn:
-      "Because each bottle of Hammer of Thor contains exactly 20 plant-origin HPMC vegetarian capsules (a concentrated 20-day cycle at 1 capsule daily), taking 1 capsule per day leaves you with 2 remaining capsules on Day 18. To ensure your steroidal saponin and chelated zinc saturation never drops between bottles, our Day-18 Refill Protocol lets you add a 1-click Google Calendar alert (+18 days for 1 bottle, +36 days for 2 bottles, +54 days for 3 bottles) or request an automated concierge check-in via sales@onyxman.my so your next plain-parcel dispatch arrives before Day 20.",
+      "Because each bottle of Hammer of Thor contains exactly 20 plant-origin HPMC vegetarian capsules (a concentrated 20-day cycle at 1 capsule daily), taking 1 capsule per day leaves you with 2 remaining capsules on Day 18. To ensure your steroidal saponin and chelated zinc saturation never drops between bottles, our Day-18 Refill Protocol lets you add a 1-click Google Calendar alert (+18 days for 1 bottle, +36 days for 2 bottles, +54 days for 3 bottles) or request an automated concierge check-in via sales@onyxmen.my so your next plain-parcel dispatch arrives before Day 20.",
   },
   {
     index: '05',
     category: 'OFFICIAL MALAYSIA PRICING',
-    questionEn: 'What are the official bundle prices for Hammer of Thor on Onyxman.my?',
+    questionEn: 'What are the official bundle prices for Hammer of Thor on Onyxmen.my?',
     answerEn:
-      "Onyxman Malaysia enforces transparent, uniform apothecary pricing across all formulations: 1 Bottle (20 Veg. Capsules / 20-Day Single Cycle Reserve) is RM 159 (159.00 MYR) with Free Discreet Express Shipping across Peninsular Malaysia (RM 12 subsidized air freight to Sabah, Sarawak & Labuan); 2 Bottles (40 Veg. Capsules / 40-Day Sustained Saponin Protocol) is RM 318 (318.00 MYR) with 100% Free Nationwide Malaysia Shipping including Sabah, Sarawak & Labuan; and 3 Bottles (60 Veg. Capsules / 60-Day Complete Vitality Mastery Vault) is RM 477 (477.00 MYR) with Priority Free Nationwide Dispatch and VIP Day-54 Refill Concierge.",
+      "Onyxmen Malaysia enforces transparent, uniform apothecary pricing across all formulations: 1 Bottle (20 Veg. Capsules / 20-Day Single Cycle Reserve) is RM 159 (159.00 MYR) with Free Discreet Express Shipping across Peninsular Malaysia (RM 12 subsidized air freight to Sabah, Sarawak & Labuan); 2 Bottles (40 Veg. Capsules / 40-Day Sustained Saponin Protocol) is RM 318 (318.00 MYR) with 100% Free Nationwide Malaysia Shipping including Sabah, Sarawak & Labuan; and 3 Bottles (60 Veg. Capsules / 60-Day Complete Vitality Mastery Vault) is RM 477 (477.00 MYR) with Priority Free Nationwide Dispatch and VIP Day-54 Refill Concierge.",
   },
   {
     index: '06',
     category: 'AUTHENTICITY VERIFICATION',
-    questionEn: 'How can I distinguish authentic Hammer of Thor from Onyxman.my against cheap counterfeit bottles online?',
+    questionEn: 'How can I distinguish authentic Hammer of Thor from Onyxmen.my against cheap counterfeit bottles online?',
     answerEn:
-      "Authentic Hammer of Thor distributed exclusively through https://www.onyxmen.my carries SKU ONYX-HT-20, MPN HT-TRIB-20MY, and GTIN-13 9550000102028. Visually, it features a high-gloss obsidian black bottle with a precision-milled metallic gold cap, gold crest emblem, crisp front typography reading 'HAMMER OF THOR — Men's Health — Tribulus Terrestris — 20 Veg. Capsules', a green vegetarian seal badge, an induction heat-sealed mouth, and an internal food-grade silica desiccant canister. Every authentic bottle is priced strictly at RM 159 and verifiable via sales@onyxman.my or info@onyxman.my.",
+      "Authentic Hammer of Thor distributed exclusively through https://www.onyxmen.my carries SKU ONYX-HT-20, MPN HT-TRIB-20MY, and GTIN-13 9550000102028. Visually, it features a high-gloss obsidian black bottle with a precision-milled metallic gold cap, gold crest emblem, crisp front typography reading 'HAMMER OF THOR — Men's Health — Tribulus Terrestris — 20 Veg. Capsules', a green vegetarian seal badge, an induction heat-sealed mouth, and an internal food-grade silica desiccant canister. Every authentic bottle is priced strictly at RM 159 and verifiable via sales@onyxmen.my or info@onyxmen.my.",
   },
   {
     index: '07',
     category: 'DISCREET SHIPPING & PRIVACY',
     questionEn: 'Is my Hammer of Thor parcel 100% discreet when delivered to a Kuala Lumpur condo guardhouse or office reception?',
     answerEn:
-      "Yes, 100% discreet. Every Hammer of Thor order is sealed inside an opaque, tear-resistant matte security mailer with zero brand logos, zero bottle illustrations, and zero mention of 'Hammer of Thor', 'Onyxman', or men's supplements on the outer parcel or courier airway bill. The sender is listed neutrally as 'OM Fulfilment Logistics' with description 'Personal Nutritional Goods — Reference #HT20', making it completely private for condominium concierges in Mont Kiara/Bangsar, corporate mailrooms in KLCC/Penang, or family residences nationwide.",
+      "Yes, 100% discreet. Every Hammer of Thor order is sealed inside an opaque, tear-resistant matte security mailer with zero brand logos, zero bottle illustrations, and zero mention of 'Hammer of Thor', 'Onyxmen', or men's supplements on the outer parcel or courier airway bill. The sender is listed neutrally as 'OM Fulfilment Logistics' with description 'Personal Nutritional Goods — Reference #HT20', making it completely private for condominium concierges in Mont Kiara/Bangsar, corporate mailrooms in KLCC/Penang, or family residences nationwide.",
   },
   {
     index: '08',
     category: 'PAYMENT & COD METHODS',
     questionEn: 'Can I pay via Cash on Delivery (COD), DuitNow QR, or FPX Online Banking in Malaysia?',
     answerEn:
-      "Yes. You can reserve Hammer of Thor in 10 seconds using our Express Discreet Order Drawer (which dispatches directly to our fulfilment desk at waleedshoaibofficial@gmail.com and sales@onyxman.my) and choose: (1) Instant DuitNow QR / FPX Online Banking (Maybank2u, CIMB Clicks, Public Bank, RHB, Hong Leong, Bank Islam) for fastest same-day dispatch, or (2) Cash on Delivery (COD Malaysia), where you inspect your sealed plain parcel upon courier arrival before paying.",
+      "Yes. You can reserve Hammer of Thor in 10 seconds using our Express Discreet Order Drawer (which dispatches directly to our fulfilment desk at waleedshoaibofficial@gmail.com and sales@onyxmen.my) and choose: (1) Instant DuitNow QR / FPX Online Banking (Maybank2u, CIMB Clicks, Public Bank, RHB, Hong Leong, Bank Islam) for fastest same-day dispatch, or (2) Cash on Delivery (COD Malaysia), where you inspect your sealed plain parcel upon courier arrival before paying.",
   },
   {
     index: '09',
@@ -462,16 +462,16 @@ export function buildHammerEnSchemaGraph() {
   const brandNode = {
     '@type': 'Brand',
     '@id': BRAND_ID,
-    name: 'Onyxman',
+    name: 'Onyxmen',
     url: 'https://www.onyxmen.my',
   };
 
   const sellerNode = {
     '@type': 'Organization',
     '@id': ORG_ID,
-    name: 'Onyxman Malaysia',
+    name: 'Onyxmen Malaysia',
     url: 'https://www.onyxmen.my',
-    email: 'sales@onyxman.my',
+    email: 'sales@onyxmen.my',
   };
 
   const activeIngredientsList = [
@@ -579,10 +579,10 @@ export function buildHammerEnSchemaGraph() {
     alternateName: [
       'Hammer of Thor Malaysia',
       'Hammer of Thor 20 Veg. Capsules',
-      'Onyxman Hammer of Thor Tribulus Terrestris',
+      'Onyxmen Hammer of Thor Tribulus Terrestris',
     ],
     description:
-      "Authentic Hammer of Thor (Men's Health — Tribulus Terrestris — 20 Veg. Capsules, SKU: ONYX-HT-20, MPN: HT-TRIB-20MY, GTIN-13: 9550000102028) by Onyxman Malaysia. Encapsulated in 100% plant-derived HPMC vegetarian shells (zero animal gelatin), each 500mg capsule delivers 200mg of 60%-Saponin Tribulus Terrestris, 100mg Andean Maca Root, 80mg Plant-Fermented L-Arginine, 60mg Panax Ginseng, 45mg Malaysian Tongkat Ali (100:1), and 15mg Chelated Zinc Bisglycinate. Official price RM 159.00 per bottle with Day-18 refill reminder and 100% plain unmarked parcel delivery across all 16 Malaysia states.",
+      "Authentic Hammer of Thor (Men's Health — Tribulus Terrestris — 20 Veg. Capsules, SKU: ONYX-HT-20, MPN: HT-TRIB-20MY, GTIN-13: 9550000102028) by Onyxmen Malaysia. Encapsulated in 100% plant-derived HPMC vegetarian shells (zero animal gelatin), each 500mg capsule delivers 200mg of 60%-Saponin Tribulus Terrestris, 100mg Andean Maca Root, 80mg Plant-Fermented L-Arginine, 60mg Panax Ginseng, 45mg Malaysian Tongkat Ali (100:1), and 15mg Chelated Zinc Bisglycinate. Official price RM 159.00 per bottle with Day-18 refill reminder and 100% plain unmarked parcel delivery across all 16 Malaysia states.",
     disambiguatingDescription:
       'Oral botanical and chelated mineral dietary supplement in a 20-vegetarian-capsule bottle (HPMC plant-cellulose shells) for adult men (18+) in Malaysia. Not a hardware tool, weapon replica, or synthetic pharmaceutical drug.',
     url: pageUrl,
@@ -645,7 +645,7 @@ export function buildHammerEnSchemaGraph() {
     '@id': productGroupId,
     name: 'Hammer of Thor (20 Veg. Capsules) — Official Multi-Bottle Protocol Collection (1, 2 & 3 Bottles)',
     description:
-      'Official Onyxman Malaysia multi-bottle protocol tiers for Hammer of Thor (SKU: ONYX-HT-20, MPN: HT-TRIB-20MY): 1 Bottle (20 Veg. Capsules) = RM 159.00, 2 Bottles (40 Veg. Capsules) = RM 318.00, 3 Bottles (60 Veg. Capsules) = RM 477.00.',
+      'Official Onyxmen Malaysia multi-bottle protocol tiers for Hammer of Thor (SKU: ONYX-HT-20, MPN: HT-TRIB-20MY): 1 Bottle (20 Veg. Capsules) = RM 159.00, 2 Bottles (40 Veg. Capsules) = RM 318.00, 3 Bottles (60 Veg. Capsules) = RM 477.00.',
     url: pageUrl,
     productGroupID: `${HAMMER_CONSTANTS.sku}-GROUP`,
     brand: brandNode,
@@ -657,9 +657,9 @@ export function buildHammerEnSchemaGraph() {
     '@type': 'ItemPage',
     '@id': `${pageUrl}#webpage`,
     url: pageUrl,
-    name: "Hammer of Thor Malaysia (20 Veg. Capsules) — Men's Health Tribulus Terrestris Supplement | RM 159 Onyxman.my",
+    name: "Hammer of Thor Malaysia (20 Veg. Capsules) — Men's Health Tribulus Terrestris Supplement | RM 159 Onyxmen.my",
     description:
-      "Order authentic Hammer of Thor (Men's Health — Tribulus Terrestris — 20 Veg. Capsules, SKU: ONYX-HT-20, MPN: HT-TRIB-20MY) for RM 159 at Onyxman.my. 100% plant-origin HPMC vegetarian capsules with 60%-Saponin Tribulus, Maca, Plant-Fermented L-Arginine, Panax Ginseng, Malaysian Tongkat Ali & Chelated Zinc.",
+      "Order authentic Hammer of Thor (Men's Health — Tribulus Terrestris — 20 Veg. Capsules, SKU: ONYX-HT-20, MPN: HT-TRIB-20MY) for RM 159 at Onyxmen.my. 100% plant-origin HPMC vegetarian capsules with 60%-Saponin Tribulus, Maca, Plant-Fermented L-Arginine, Panax Ginseng, Malaysian Tongkat Ali & Chelated Zinc.",
     inLanguage: 'en-MY',
     isPartOf: { '@id': WEBSITE_ID },
     mainEntity: { '@id': productNodeId },
@@ -677,7 +677,7 @@ export function buildHammerEnSchemaGraph() {
       {
         '@type': 'ListItem',
         position: 1,
-        name: 'Onyxman Malaysia (Home)',
+        name: 'Onyxmen Malaysia (Home)',
         item: 'https://www.onyxmen.my/',
       },
       {
@@ -1357,7 +1357,7 @@ export function renderMs103HeroStage() {
         <div class="hammer-breadcrumb-bar">
           <nav aria-label="Breadcrumb">
             <ol class="hammer-breadcrumb-list">
-              <li><a href="/">ONYXMAN MALAYSIA</a></li>
+              <li><a href="/">ONYXMEN MALAYSIA</a></li>
               <li aria-hidden="true">/</li>
               <li><a href="/products/">APOTHECARY VAULT</a></li>
               <li aria-hidden="true">/</li>
@@ -1519,7 +1519,7 @@ export function renderMs103HeroStage() {
               />
               <img
                 src="/assets/products/hammer-of-thor-stage.png"
-                alt="Authentic Hammer of Thor Men's Health Tribulus Terrestris — 20 Veg. Capsules Official Onyxman Malaysia Bottle (SKU ONYX-HT-20, RM 159)"
+                alt="Authentic Hammer of Thor Men's Health Tribulus Terrestris — 20 Veg. Capsules Official Onyxmen Malaysia Bottle (SKU ONYX-HT-20, RM 159)"
                 width="900"
                 height="1125"
                 fetchpriority="high"
@@ -1531,7 +1531,7 @@ export function renderMs103HeroStage() {
             <div class="hammer-hero-cinema__caption-strip">
               <span>VESSEL: GLOSS OBSIDIAN &amp; METALLIC GOLD CAP</span>
               <span>SEAL: GREEN &ldquo;20 VEG. CAPSULES&rdquo; CREST</span>
-              <span>ORIGIN: ONYXMAN.MY OFFICIAL</span>
+              <span>ORIGIN: ONYXMEN.MY OFFICIAL</span>
             </div>
           </div>
         </div>
@@ -1565,7 +1565,7 @@ export function renderMs103HeroStage() {
           <div class="hammer-telemetry-node">
             <span class="hammer-telemetry-node__label">DISCREET MALAYSIA DESK</span>
             <strong class="hammer-telemetry-node__value">OM Fulfilment Logistics</strong>
-            <span class="hammer-telemetry-node__sub">sales@onyxman.my · info@onyxman.my · COD &amp; DuitNow QR</span>
+            <span class="hammer-telemetry-node__sub">sales@onyxmen.my · info@onyxmen.my · COD &amp; DuitNow QR</span>
           </div>
         </div>
       </section>
@@ -2033,7 +2033,7 @@ export function renderMs105CycleComparisonAndStatesStage() {
 
             <div class="hammer-refill-concierge-band__actions">
               <a
-                href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Onyxman+Malaysia+%E2%80%94+Hammer+of+Thor+%2820+Veg.+Capsules%29+Day-18+Refill+Check-In+%28RM+159%29&details=Your+20-capsule+Hammer+of+Thor+%28SKU%3A+ONYX-HT-20%2C+Tribulus+Terrestris+20+Veg.+Capsules%29+cycle+has+2+capsules+remaining.+Order+your+next+discreet+bottle+at+https%3A%2F%2Fonyxman.my%2Fhammer-of-thor-malaysia%2F+or+email+sales%40onyxman.my"
+                href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Onyxmen+Malaysia+%E2%80%94+Hammer+of+Thor+%2820+Veg.+Capsules%29+Day-18+Refill+Check-In+%28RM+159%29&details=Your+20-capsule+Hammer+of+Thor+%28SKU%3A+ONYX-HT-20%2C+Tribulus+Terrestris+20+Veg.+Capsules%29+cycle+has+2+capsules+remaining.+Order+your+next+discreet+bottle+at+https%3A%2F%2Fonyxman.my%2Fhammer-of-thor-malaysia%2F+or+email+sales%40onyxman.my"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="cta-hairline-secondary"
@@ -2087,7 +2087,7 @@ export function renderMs105CycleComparisonAndStatesStage() {
             </div>
             <div class="hammer-stage-header__right">
               <p style="color:var(--text-muted-alabaster);font-size:0.96rem;line-height:1.65;">
-                All four Onyxman formulations carry an identical <strong>RM 159 single-bottle price (RM 318 for 2 bottles, RM 477 for 3 bottles)</strong> so you never compromise by budget. Compare capsule shell architecture, active botanical drivers, and physiological timing below.
+                All four Onyxmen formulations carry an identical <strong>RM 159 single-bottle price (RM 318 for 2 bottles, RM 477 for 3 bottles)</strong> so you never compromise by budget. Compare capsule shell architecture, active botanical drivers, and physiological timing below.
               </p>
             </div>
           </div>
@@ -2302,7 +2302,7 @@ export function renderMs106FaqStage() {
                 Begin Your 20-Day <span class="foil-champagne-text">Vegetarian Tribulus</span> Protocol Today
               </h3>
               <p style="color:var(--text-muted-alabaster);font-size:0.95rem;line-height:1.65;">
-                Reserve 1 Bottle (RM 159), 2 Bottles (RM 318 · Free Nationwide Malaysia Shipping), or 3 Bottles (RM 477 · Complete 60-Day Vault). Dispatched in a 100% plain matte security parcel under <strong>OM Fulfilment Logistics</strong>. Direct concierge support: <a href="mailto:sales@onyxman.my" style="color:var(--gold-foil-bright);">sales@onyxman.my</a> | <a href="mailto:info@onyxman.my" style="color:var(--gold-foil-bright);">info@onyxman.my</a>.
+                Reserve 1 Bottle (RM 159), 2 Bottles (RM 318 · Free Nationwide Malaysia Shipping), or 3 Bottles (RM 477 · Complete 60-Day Vault). Dispatched in a 100% plain matte security parcel under <strong>OM Fulfilment Logistics</strong>. Direct concierge support: <a href="mailto:sales@onyxmen.my" style="color:var(--gold-foil-bright);">sales@onyxmen.my</a> | <a href="mailto:info@onyxmen.my" style="color:var(--gold-foil-bright);">info@onyxmen.my</a>.
               </p>
             </div>
 
@@ -2362,9 +2362,9 @@ export function buildHammerEnFlagshipPage() {
   const html = renderLuxuryShell({
     lang: 'en-MY',
     title:
-      "Hammer of Thor Malaysia (20 Veg. Capsules) — Men's Health Tribulus Terrestris Supplement | RM 159 Onyxman.my",
+      "Hammer of Thor Malaysia (20 Veg. Capsules) — Men's Health Tribulus Terrestris Supplement | RM 159 Onyxmen.my",
     description:
-      "Order authentic Hammer of Thor (Men's Health — Tribulus Terrestris — 20 Veg. Capsules, SKU: ONYX-HT-20, MPN: HT-TRIB-20MY) for RM 159 at Onyxman.my. 100% plant-origin HPMC vegetarian capsules with 60%-Saponin Tribulus, Maca, Plant-Fermented L-Arginine, Panax Ginseng, Malaysian Tongkat Ali & Chelated Zinc. Discreet delivery across all 16 Malaysia states.",
+      "Order authentic Hammer of Thor (Men's Health — Tribulus Terrestris — 20 Veg. Capsules, SKU: ONYX-HT-20, MPN: HT-TRIB-20MY) for RM 159 at Onyxmen.my. 100% plant-origin HPMC vegetarian capsules with 60%-Saponin Tribulus, Maca, Plant-Fermented L-Arginine, Panax Ginseng, Malaysian Tongkat Ali & Chelated Zinc. Discreet delivery across all 16 Malaysia states.",
     canonicalPath: HAMMER_CONSTANTS.canonicalPath,
     alternatePathEn: HAMMER_CONSTANTS.canonicalPath,
     alternatePathMs: HAMMER_CONSTANTS.pairedMsPath,

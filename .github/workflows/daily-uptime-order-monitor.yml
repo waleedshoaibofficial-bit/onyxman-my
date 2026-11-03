@@ -27,8 +27,8 @@ env:
   SITE_DOMAIN: "https://www.onyxmen.my"
   TTFB_BUDGET_MS: "800"
   PRIMARY_ORDER_EMAIL: "waleedshoaibofficial@gmail.com"
-  BRAND_SALES_EMAIL: "sales@onyxman.my"
-  BRAND_INFO_EMAIL: "info@onyxman.my"
+  BRAND_SALES_EMAIL: "sales@onyxmen.my"
+  BRAND_INFO_EMAIL: "info@onyxmen.my"
   EXPECTED_SINGLE_PRICE: "RM 159"
   EXPECTED_SCHEMA_PRICE: "159.00"
 
@@ -39,7 +39,7 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: "01 · Checkout Onyxman.my Repository"
+      - name: "01 · Checkout Onyxmen.my Repository"
         uses: actions/checkout@v4
 
       - name: "02 · Setup Node.js 20 LTS Runtime"
@@ -60,7 +60,7 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           MODE="${{ github.event.inputs.mode || '--live' }}"
-          echo "Executing Onyxman.my Cloud Health & Order Bridge Monitor (${MODE})..."
+          echo "Executing Onyxmen.my Cloud Health & Order Bridge Monitor (${MODE})..."
           if ! node scripts/cloud-health-monitor.mjs "${MODE}"; then
             echo "[AUTO-HEAL TRIGGERED] Live drift or error detected — automatically redeploying clean verified 280-page build to Cloudflare Pages..."
             if [ -n "${CLOUDFLARE_API_TOKEN}" ] && [ -n "${CLOUDFLARE_ACCOUNT_ID}" ]; then

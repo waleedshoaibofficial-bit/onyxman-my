@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * ONYXMAN.MY — GROW XL EN-MY FLAGSHIP APOTHECARY BUILDER (MS-109 TO MS-111)
+ * ONYXMEN.MY — GROW XL EN-MY FLAGSHIP APOTHECARY BUILDER (MS-109 TO MS-111)
  * Primary Output: public/grow-xl-malaysia/index.html
  * Canonical Alias Output: public/products/grow-xl/index.html
  * Canonical URL: https://www.onyxmen.my/grow-xl-malaysia/
@@ -21,7 +21,7 @@
  *   - Official Pricing: 1 Bottle (30 Capsules) = RM 159 (159.00 MYR), 2 Bottles (60 Capsules) = RM 318 (318.00 MYR), 3 Bottles (90 Capsules) = RM 477 (477.00 MYR)
  *   - Refill Protocol: Day-25 Automated Refill Reminder Calendar Integration (30-day sustained performance cycle)
  *   - Studio Assets: /assets/products/grow-xl-stage.webp, /assets/products/grow-xl-portrait.webp, /assets/products/grow-xl-cutout.webp
- *   - Emails: waleedshoaibofficial@gmail.com, sales@onyxman.my, info@onyxman.my
+ *   - Emails: waleedshoaibofficial@gmail.com, sales@onyxmen.my, info@onyxmen.my
  */
 
 import fs from 'node:fs';
@@ -75,8 +75,8 @@ export const GROWXL_CONSTANTS = {
   },
   emails: {
     primaryOrder: 'waleedshoaibofficial@gmail.com',
-    sales: 'sales@onyxman.my',
-    info: 'info@onyxman.my',
+    sales: 'sales@onyxmen.my',
+    info: 'info@onyxmen.my',
   },
 };
 
@@ -148,7 +148,7 @@ export const GROWXL_6_BOTANICAL_ACTIVES = [
     extractionOrigin: 'Rio Negro Basin, Brazilian Amazon (Traditional Apothecary Bark & Root Selection)',
     physiologicalPathway: 'Neuromuscular Vigor, Tactile Responsiveness & Dopaminergic Vitality Conditioning',
     clinicalNarrative:
-      'Distinguishing Grow XL from every 20-capsule formula in the Onyxman vault, 80mg of Brazilian Muira Puama ("Marapuama" or "Potency Wood") delivers concentrated sterols and long-chain fatty acid esters revered in South American botanical medicine. Across a continuous 30-day cycle (2,400mg per bottle), Muira Puama supports neuromuscular readiness, mental motivation, and responsive evening confidence.',
+      'Distinguishing Grow XL from every 20-capsule formula in the Onyxmen vault, 80mg of Brazilian Muira Puama ("Marapuama" or "Potency Wood") delivers concentrated sterols and long-chain fatty acid esters revered in South American botanical medicine. Across a continuous 30-day cycle (2,400mg per bottle), Muira Puama supports neuromuscular readiness, mental motivation, and responsive evening confidence.',
     microCirculationSynergy:
       'Works in tandem with 70mg Saw Palmetto Berry Extract (GX-ACT-05) as a dual sterol-lipidosterolic conditioning complex.',
     monographHref: '/ingredients/tongkat-ali/',
@@ -666,7 +666,7 @@ export const GROWXL_FAQS = [
     category: '30-CAPSULE SPECIFICATION & POTENCY',
     questionEn: 'How many capsules are in 1 bottle of Grow XL, what is the milligram potency, and how long does 1 bottle last?',
     answerEn:
-      'Each authentic bottle of Grow XL distributed by Onyxman Malaysia (SKU: ONYX-GX-30, MPN: GXL-30CAP-MY, GTIN-13: 9550000102035) contains exactly 30 extra-strength botanical capsules at 550mg per capsule—delivering 16,500mg (16.5 grams) of active botanicals and amino acids per bottle. At the recommended daily protocol of 1 capsule per morning after breakfast, 1 bottle provides a complete 30-day (1 full calendar month) supply at just RM 5.30 per day (RM 159 per bottle).',
+      'Each authentic bottle of Grow XL distributed by Onyxmen Malaysia (SKU: ONYX-GX-30, MPN: GXL-30CAP-MY, GTIN-13: 9550000102035) contains exactly 30 extra-strength botanical capsules at 550mg per capsule—delivering 16,500mg (16.5 grams) of active botanicals and amino acids per bottle. At the recommended daily protocol of 1 capsule per morning after breakfast, 1 bottle provides a complete 30-day (1 full calendar month) supply at just RM 5.30 per day (RM 159 per bottle).',
   },
   {
     index: '02',
@@ -698,13 +698,13 @@ export const GROWXL_FAQS = [
     category: 'OFFICIAL MALAYSIA PRICING & TIERS',
     questionEn: 'What is the official price for 1, 2, or 3 bottles of Grow XL in Malaysia?',
     answerEn:
-      'Onyxman Malaysia enforces transparent, uniform apothecary pricing: 1 Bottle (30 Capsules / 30-Day Full-Month Cycle, SKU ONYX-GX-30-1B) is RM 159 (159.00 MYR) with Free Discreet Express Shipping across Peninsular Malaysia (RM 12 subsidized air freight for Sabah, Sarawak & Labuan); 2 Bottles (60 Capsules / 60-Day Progressive Conditioning Reserve, SKU ONYX-GX-30-2B) is RM 318 (318.00 MYR) with 100% Free Nationwide Malaysia Shipping including Sabah, Sarawak & Labuan; and 3 Bottles (90 Capsules / Complete 90-Day Extra-Strength Mastery Vault, SKU ONYX-GX-30-3B) is RM 477 (477.00 MYR) with Priority VIP Discreet Dispatch and Day-75 Concierge Refill Check-In.',
+      'Onyxmen Malaysia enforces transparent, uniform apothecary pricing: 1 Bottle (30 Capsules / 30-Day Full-Month Cycle, SKU ONYX-GX-30-1B) is RM 159 (159.00 MYR) with Free Discreet Express Shipping across Peninsular Malaysia (RM 12 subsidized air freight for Sabah, Sarawak & Labuan); 2 Bottles (60 Capsules / 60-Day Progressive Conditioning Reserve, SKU ONYX-GX-30-2B) is RM 318 (318.00 MYR) with 100% Free Nationwide Malaysia Shipping including Sabah, Sarawak & Labuan; and 3 Bottles (90 Capsules / Complete 90-Day Extra-Strength Mastery Vault, SKU ONYX-GX-30-3B) is RM 477 (477.00 MYR) with Priority VIP Discreet Dispatch and Day-75 Concierge Refill Check-In.',
   },
   {
     index: '06',
     code: 'GX-FAQ-06',
     category: 'AUTHENTICITY & PHYSICAL LABEL VERIFICATION',
-    questionEn: 'Why should I order Grow XL directly from Onyxman.my instead of unverified third-party classified ads?',
+    questionEn: 'Why should I order Grow XL directly from Onyxmen.my instead of unverified third-party classified ads?',
     answerEn:
       'Unverified third-party classified listings frequently circulate watermarked photos, heat-degraded grey-market bottles, or counterfeit stock at inflated prices. Ordering directly from https://www.onyxmen.my guarantees 100% authentic, climate-controlled Kuala Lumpur warehouse stock (SKU: ONYX-GX-30, MPN: GXL-30CAP-MY, GTIN-13: 9550000102035) featuring the gloss obsidian vessel, metallic gold "#1 Selling Product — Made With Natural Ingredient" crest, blue-silver "XL" emblem, crimson "Extra-Strength Enhancement — Male Performance Blend — Dietary Supplement 30 Capsules" band, and tamper-evident neck seal at the official RM 159 price.',
   },
@@ -714,7 +714,7 @@ export const GROWXL_FAQS = [
     category: '100% UNMARKED DISCREET SHIPPING',
     questionEn: 'Is Grow XL shipped in a plain box without product names or brand logos?',
     answerEn:
-      'Yes—100% privacy is guaranteed on every parcel. Your Grow XL order leaves our Klang Valley fulfilment vault sealed inside an unmarked, opaque matte security mailer or plain corrugated carton. The courier airway bill lists the sender neutrally as "OM Fulfilment Logistics" with content classification "Personal Nutritional Supplement — Ref #GX30". Zero mention of "Grow XL", "Onyxman", or "Male Performance Blend" ever appears on the exterior, making it completely safe for condo guardhouses, office reception desks, or home delivery.',
+      'Yes—100% privacy is guaranteed on every parcel. Your Grow XL order leaves our Klang Valley fulfilment vault sealed inside an unmarked, opaque matte security mailer or plain corrugated carton. The courier airway bill lists the sender neutrally as "OM Fulfilment Logistics" with content classification "Personal Nutritional Supplement — Ref #GX30". Zero mention of "Grow XL", "Onyxmen", or "Male Performance Blend" ever appears on the exterior, making it completely safe for condo guardhouses, office reception desks, or home delivery.',
   },
   {
     index: '08',
@@ -722,7 +722,7 @@ export const GROWXL_FAQS = [
     category: 'COD, FPX & DUITNOW QR PAYMENTS',
     questionEn: 'Can I pay Cash on Delivery (COD), FPX Online Banking, or DuitNow QR for Grow XL across Malaysia?',
     answerEn:
-      'Yes. Through our 1-Click Express Discreet Order Drawer (routed directly to waleedshoaibofficial@gmail.com and sales@onyxman.my), you can select Cash on Delivery (COD — pay only when the sealed plain parcel is handed to you by the courier), instant FPX Online Banking (Maybank2u, CIMB Clicks, Public Bank, RHB, Hong Leong, Bank Islam), or DuitNow Instant QR across Peninsular Malaysia and major urban centers in Sabah, Sarawak, and Labuan.',
+      'Yes. Through our 1-Click Express Discreet Order Drawer (routed directly to waleedshoaibofficial@gmail.com and sales@onyxmen.my), you can select Cash on Delivery (COD — pay only when the sealed plain parcel is handed to you by the courier), instant FPX Online Banking (Maybank2u, CIMB Clicks, Public Bank, RHB, Hong Leong, Bank Islam), or DuitNow Instant QR across Peninsular Malaysia and major urban centers in Sabah, Sarawak, and Labuan.',
   },
   {
     index: '09',
@@ -730,7 +730,7 @@ export const GROWXL_FAQS = [
     category: 'BOTANICAL INTEGRITY & ZERO SYNTHETIC CLAIMS',
     questionEn: 'Does Grow XL make unrealistic permanent anatomical claims or contain undeclared synthetic drugs?',
     answerEn:
-      'No. At Onyxman Malaysia, we strictly reject exaggerated medical or permanent anatomical modification claims. Grow XL is a clean, standardized botanical and amino-acid dietary supplement formulated for adult men (18+) to support daily physical stamina, peripheral micro-circulation, neuromuscular readiness, and prostate-friendly nutritional wellness. It contains zero synthetic PDE5 pharmaceutical adulterants, zero exogenous hormones, and zero banned stimulants.',
+      'No. At Onyxmen Malaysia, we strictly reject exaggerated medical or permanent anatomical modification claims. Grow XL is a clean, standardized botanical and amino-acid dietary supplement formulated for adult men (18+) to support daily physical stamina, peripheral micro-circulation, neuromuscular readiness, and prostate-friendly nutritional wellness. It contains zero synthetic PDE5 pharmaceutical adulterants, zero exogenous hormones, and zero banned stimulants.',
   },
   {
     index: '10',
@@ -762,9 +762,9 @@ export function buildGrowXlEnSchemaGraph() {
     pageType: 'product',
     pageUrl,
     title:
-      'Grow XL Malaysia (30 Capsules) — #1 Selling Product Extra-Strength Male Performance Blend | RM 159 Onyxman.my',
+      'Grow XL Malaysia (30 Capsules) — #1 Selling Product Extra-Strength Male Performance Blend | RM 159 Onyxmen.my',
     description:
-      'Buy authentic Grow XL (#1 Selling Product — Made With Natural Ingredient — Extra-Strength Enhancement Male Performance Blend — 30 Capsules, SKU: ONYX-GX-30, MPN: GXL-30CAP-MY, GTIN-13: 9550000102035) for RM 159 at Onyxman.my. 550mg per capsule (16,500mg per bottle) with Extra-Strength Tongkat Ali 140mg, Peruvian Maca 110mg, L-Arginine & L-Citrulline 100mg, Brazilian Muira Puama 80mg, Saw Palmetto 70mg & Panax Ginseng/Ginkgo Biloba 50mg.',
+      'Buy authentic Grow XL (#1 Selling Product — Made With Natural Ingredient — Extra-Strength Enhancement Male Performance Blend — 30 Capsules, SKU: ONYX-GX-30, MPN: GXL-30CAP-MY, GTIN-13: 9550000102035) for RM 159 at Onyxmen.my. 550mg per capsule (16,500mg per bottle) with Extra-Strength Tongkat Ali 140mg, Peruvian Maca 110mg, L-Arginine & L-Citrulline 100mg, Brazilian Muira Puama 80mg, Saw Palmetto 70mg & Panax Ginseng/Ginkgo Biloba 50mg.',
     product: {
       id: 'grow-xl',
       slug: 'grow-xl',
@@ -772,7 +772,7 @@ export function buildGrowXlEnSchemaGraph() {
       fullTitleEn:
         'Grow XL — #1 Selling Product Extra-Strength Enhancement Male Performance Blend (30 Capsules × 550mg)',
       descriptionEn:
-        'Grow XL by Onyxman Malaysia (SKU: ONYX-GX-30, MPN: GXL-30CAP-MY, GTIN-13: 9550000102035) is a 30-capsule extra-strength adult men’s botanical dietary supplement delivering 550mg per capsule (16,500mg per bottle): Extra-Strength Malaysian Tongkat Ali (140mg), Peruvian Maca Root (110mg), L-Arginine HCl & L-Citrulline Malate Matrix (100mg), Brazilian Muira Puama (80mg), Saw Palmetto Berry Extract (70mg), and Aged Panax Ginseng & Ginkgo Biloba (50mg) for a complete 30-day cycle with Day-25 automated refill reminder.',
+        'Grow XL by Onyxmen Malaysia (SKU: ONYX-GX-30, MPN: GXL-30CAP-MY, GTIN-13: 9550000102035) is a 30-capsule extra-strength adult men’s botanical dietary supplement delivering 550mg per capsule (16,500mg per bottle): Extra-Strength Malaysian Tongkat Ali (140mg), Peruvian Maca Root (110mg), L-Arginine HCl & L-Citrulline Malate Matrix (100mg), Brazilian Muira Puama (80mg), Saw Palmetto Berry Extract (70mg), and Aged Panax Ginseng & Ginkgo Biloba (50mg) for a complete 30-day cycle with Day-25 automated refill reminder.',
       disambiguatingDescriptionEn:
         'Oral 30-capsule × 550mg botanical and amino-acid dietary supplement for adult men (18+) in Malaysia. Marked with the gold "#1 Selling Product — Made With Natural Ingredient" crest and metallic blue-silver "XL" emblem. Not a plant fertilizer, agricultural chemical, or synthetic pharmaceutical drug.',
       capsuleCount: 30,
@@ -793,7 +793,7 @@ export function buildGrowXlEnSchemaGraph() {
     },
     breadcrumbs: [
       {
-        name: 'Onyxman Malaysia (Home)',
+        name: 'Onyxmen Malaysia (Home)',
         url: 'https://www.onyxmen.my/',
       },
       {
@@ -1743,7 +1743,7 @@ export function renderMs109HeroStage() {
         <div class="growxl-breadcrumb-bar">
           <nav aria-label="Breadcrumb">
             <ol class="growxl-breadcrumb-list">
-              <li><a href="/">ONYXMAN MALAYSIA</a></li>
+              <li><a href="/">ONYXMEN MALAYSIA</a></li>
               <li aria-hidden="true">/</li>
               <li><a href="/products/">APOTHECARY VAULT</a></li>
               <li aria-hidden="true">/</li>
@@ -1905,7 +1905,7 @@ export function renderMs109HeroStage() {
               />
               <img
                 src="/assets/products/grow-xl-stage.png"
-                alt="Grow XL #1 Selling Product Extra-Strength Enhancement Male Performance Blend — 30 Capsules Official Onyxman Malaysia Bottle (SKU ONYX-GX-30, RM 159)"
+                alt="Grow XL #1 Selling Product Extra-Strength Enhancement Male Performance Blend — 30 Capsules Official Onyxmen Malaysia Bottle (SKU ONYX-GX-30, RM 159)"
                 width="900"
                 height="1125"
                 fetchpriority="high"
@@ -1951,7 +1951,7 @@ export function renderMs109HeroStage() {
           <div class="growxl-telemetry-node">
             <span class="growxl-telemetry-node__label">DISCREET MALAYSIA DESK</span>
             <strong class="growxl-telemetry-node__value">OM Fulfilment Logistics</strong>
-            <span class="growxl-telemetry-node__sub">sales@onyxman.my · info@onyxman.my · waleedshoaibofficial@gmail.com</span>
+            <span class="growxl-telemetry-node__sub">sales@onyxmen.my · info@onyxmen.my · waleedshoaibofficial@gmail.com</span>
           </div>
         </div>
       </section>
@@ -2366,7 +2366,7 @@ export function renderMs110BotanicalAndChronologyStage() {
 
             <div class="growxl-refill-concierge-band__actions">
               <a
-                href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Onyxman+Malaysia+%E2%80%94+Grow+XL+Day-25+Refill+Check-In+%28RM+159%29&details=Your+30-capsule+Grow+XL+%28SKU%3A+ONYX-GX-30%2C+Extra-Strength+Male+Performance+Blend%29+cycle+has+5+capsules+remaining.+Order+your+next+discreet+bottle+at+https%3A%2F%2Fonyxman.my%2Fgrow-xl-malaysia%2F+or+email+sales%40onyxman.my"
+                href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Onyxmen+Malaysia+%E2%80%94+Grow+XL+Day-25+Refill+Check-In+%28RM+159%29&details=Your+30-capsule+Grow+XL+%28SKU%3A+ONYX-GX-30%2C+Extra-Strength+Male+Performance+Blend%29+cycle+has+5+capsules+remaining.+Order+your+next+discreet+bottle+at+https%3A%2F%2Fonyxman.my%2Fgrow-xl-malaysia%2F+or+email+sales%40onyxman.my"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="cta-hairline-secondary"
@@ -2508,7 +2508,7 @@ export function renderMs111ComparisonStatesAndFaqStage() {
             </div>
             <div class="growxl-stage-header__right">
               <p style="color:var(--text-muted-alabaster);font-size:0.96rem;line-height:1.65;">
-                Every formulation in the Onyxman Malaysia vault shares a uniform <strong>RM 159 single-bottle price (RM 318 for 2 bottles, RM 477 for 3 bottles)</strong>. Compare Grow XL&rsquo;s 30-capsule extra-strength daily blend against Magnum Pump XR, Horsemen, and Hammer of Thor below.
+                Every formulation in the Onyxmen Malaysia vault shares a uniform <strong>RM 159 single-bottle price (RM 318 for 2 bottles, RM 477 for 3 bottles)</strong>. Compare Grow XL&rsquo;s 30-capsule extra-strength daily blend against Magnum Pump XR, Horsemen, and Hammer of Thor below.
               </p>
             </div>
           </div>
@@ -2725,7 +2725,7 @@ export function renderMs111ComparisonStatesAndFaqStage() {
                 Begin Your 30-Day <span class="foil-champagne-text">Grow XL Extra-Strength</span> Protocol Today
               </h3>
               <p style="color:var(--text-muted-alabaster);font-size:0.95rem;line-height:1.65;">
-                Reserve <strong>1 Bottle (30 Capsules · RM 159)</strong>, <strong>2 Bottles (60 Capsules · RM 318 · Free Nationwide Malaysia Shipping)</strong>, or <strong>3 Bottles (90 Capsules · RM 477 · Complete 90-Day Mastery Vault)</strong>. Shipped in a 100% plain matte security parcel under <strong>OM Fulfilment Logistics</strong>. Direct concierge desk: <a href="mailto:sales@onyxman.my" style="color:var(--gold-foil-bright);">sales@onyxman.my</a> | <a href="mailto:info@onyxman.my" style="color:var(--gold-foil-bright);">info@onyxman.my</a> | <a href="mailto:waleedshoaibofficial@gmail.com" style="color:var(--gold-foil-bright);">waleedshoaibofficial@gmail.com</a>.
+                Reserve <strong>1 Bottle (30 Capsules · RM 159)</strong>, <strong>2 Bottles (60 Capsules · RM 318 · Free Nationwide Malaysia Shipping)</strong>, or <strong>3 Bottles (90 Capsules · RM 477 · Complete 90-Day Mastery Vault)</strong>. Shipped in a 100% plain matte security parcel under <strong>OM Fulfilment Logistics</strong>. Direct concierge desk: <a href="mailto:sales@onyxmen.my" style="color:var(--gold-foil-bright);">sales@onyxmen.my</a> | <a href="mailto:info@onyxmen.my" style="color:var(--gold-foil-bright);">info@onyxmen.my</a> | <a href="mailto:waleedshoaibofficial@gmail.com" style="color:var(--gold-foil-bright);">waleedshoaibofficial@gmail.com</a>.
               </p>
             </div>
 
@@ -2786,9 +2786,9 @@ export function buildGrowXlEnFlagshipPage() {
   const html = renderLuxuryShell({
     lang: 'en-MY',
     title:
-      'Grow XL Malaysia (30 Capsules) — #1 Selling Product Extra-Strength Male Performance Blend | RM 159 Onyxman.my',
+      'Grow XL Malaysia (30 Capsules) — #1 Selling Product Extra-Strength Male Performance Blend | RM 159 Onyxmen.my',
     description:
-      'Buy authentic Grow XL (#1 Selling Product — Made With Natural Ingredient — Extra-Strength Enhancement Male Performance Blend — 30 Capsules, SKU: ONYX-GX-30, MPN: GXL-30CAP-MY, GTIN-13: 9550000102035) for RM 159 at Onyxman.my. 550mg per capsule (16,500mg per bottle) with Extra-Strength Tongkat Ali 140mg, Peruvian Maca 110mg, L-Arginine & L-Citrulline 100mg, Brazilian Muira Puama 80mg, Saw Palmetto 70mg & Panax Ginseng/Ginkgo Biloba 50mg.',
+      'Buy authentic Grow XL (#1 Selling Product — Made With Natural Ingredient — Extra-Strength Enhancement Male Performance Blend — 30 Capsules, SKU: ONYX-GX-30, MPN: GXL-30CAP-MY, GTIN-13: 9550000102035) for RM 159 at Onyxmen.my. 550mg per capsule (16,500mg per bottle) with Extra-Strength Tongkat Ali 140mg, Peruvian Maca 110mg, L-Arginine & L-Citrulline 100mg, Brazilian Muira Puama 80mg, Saw Palmetto 70mg & Panax Ginseng/Ginkgo Biloba 50mg.',
     canonicalPath: GROWXL_CONSTANTS.canonicalPath,
     alternatePathEn: GROWXL_CONSTANTS.canonicalPath,
     alternatePathMs: GROWXL_CONSTANTS.pairedMsPath,
@@ -2845,8 +2845,8 @@ export function buildGrowXlEnFlagshipPage() {
     '318.00',
     '477.00',
     'waleedshoaibofficial@gmail.com',
-    'sales@onyxman.my',
-    'info@onyxman.my',
+    'sales@onyxmen.my',
+    'info@onyxmen.my',
     'data-order-product="grow-xl"',
     '#1 Selling Product',
     'Made With Natural Ingredient',

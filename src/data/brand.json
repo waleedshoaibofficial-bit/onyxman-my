@@ -1,9 +1,9 @@
 {
   "brand": {
-    "name": "Onyxman",
-    "legalEntityName": "Onyxman Malaysia Apothecary & Men's Vitality Vault",
+    "name": "Onyxmen",
+    "legalEntityName": "Onyxmen Malaysia Apothecary & Men's Vitality Vault",
     "domain": "https://www.onyxmen.my",
-    "domainHost": "onyxman.my",
+    "domainHost": "onyxmen.my",
     "registrar": "Namecheap",
     "dnsProvider": "Cloudflare",
     "hostingPlatform": "Cloudflare Pages",
@@ -24,8 +24,8 @@
   "contact": {
     "primaryOrderNotificationEmail": "waleedshoaibofficial@gmail.com",
     "officialAliases": {
-      "sales": "sales@onyxman.my",
-      "info": "info@onyxman.my"
+      "sales": "sales@onyxmen.my",
+      "info": "info@onyxmen.my"
     },
     "emailRoutingProvider": "Cloudflare Email Routing",
     "emailRoutingDestination": "waleedshoaibofficial@gmail.com",
@@ -302,12 +302,12 @@
     }
   ],
   "eeatCompliance": {
-    "positioningEn": "All Onyxman formulations are traditional botanical and amino-acid dietary supplements crafted for adult men (18+) seeking nutritional support for physical stamina, vitality, and active performance.",
-    "positioningMs": "Semua formulasi Onyxman adalah suplemen pemakanan botani dan asid amino untuk lelaki dewasa (18+) bagi menyokong stamina fizikal, kecergasan, dan tenaga harian.",
+    "positioningEn": "All Onyxmen formulations are traditional botanical and amino-acid dietary supplements crafted for adult men (18+) seeking nutritional support for physical stamina, vitality, and active performance.",
+    "positioningMs": "Semua formulasi Onyxmen adalah suplemen pemakanan botani dan asid amino untuk lelaki dewasa (18+) bagi menyokong stamina fizikal, kecergasan, dan tenaga harian.",
     "disclaimerEn": "Important Compliance Notice: These botanical dietary supplements are not intended to diagnose, treat, cure, or prevent any disease or medical condition. Statements represent traditional botanical nutrition research. Consult a licensed healthcare practitioner in Malaysia if you have cardiovascular conditions, hypertension, or take prescription nitrates.",
     "disclaimerMs": "Notis Penting: Suplemen pemakanan botani ini tidak bertujuan untuk mendiagnosis, merawat, menyembuhkan, atau mencegah sebarang penyakit. Sila rujuk pengamal perubatan bertauliah sekiranya anda mempunyai masalah jantung, tekanan darah tinggi, atau sedang mengambil ubat preskripsi.",
     "editorialReviewer": {
-      "name": "Onyxman Botanical Research & Quality Assurance Board",
+      "name": "Onyxmen Botanical Research & Quality Assurance Board",
       "credentialsEn": "Formulation Phytochemistry & Standardized Herbal Extract Auditing Panel (Kuala Lumpur)",
       "credentialsMs": "Panel Kajian Fitokimia & Jaminan Kualiti Ekstrak Herba (Kuala Lumpur)"
     },

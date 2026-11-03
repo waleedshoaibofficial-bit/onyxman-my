@@ -1,4 +1,4 @@
-# Onyxman.my — Malaysia Luxury Botanical Apothecary & 24/7 Autonomous Cloud SEO Platform
+# Onyxmen.my — Malaysia Luxury Botanical Apothecary & 24/7 Autonomous Cloud SEO Platform
 
 ## 1. Final Production Build & Verification Statistics (`MS-001` to `MS-200`)
 
@@ -15,7 +15,7 @@
 ---
 
 ## 2. Authentic Business & Infrastructure Constants
-- **Brand Name:** `Onyxman`
+- **Brand Name:** `Onyxmen`
 - **Production Domain:** `https://onyxman.my` (Registered on Namecheap, routed via Cloudflare DNS & Cloudflare Pages)
 - **Official Single-Bottle Price:** `RM 159` (`"159.00"`, `"priceCurrency": "MYR"`)
 - **Official Multi-Bottle Tiers:**
@@ -23,7 +23,7 @@
   - **2 Bottles (Dual Momentum Protocol):** `RM 318` (`318.00 MYR`) — Free Nationwide Malaysia Shipping (including Sabah, Sarawak & Labuan)
   - **3 Bottles (Complete 90-Day Mastery Vault):** `RM 477` (`477.00 MYR`) — Priority Discreet Dispatch + Free Nationwide Shipping + VIP Refill Concierge
 - **Primary Order Notification Inbox:** `waleedshoaibofficial@gmail.com`
-- **Official Brand Email Aliases:** `sales@onyxman.my` and `info@onyxman.my` (routed via Cloudflare Email Routing directly to `waleedshoaibofficial@gmail.com`)
+- **Official Brand Email Aliases:** `sales@onyxmen.my` and `info@onyxmen.my` (routed via Cloudflare Email Routing directly to `waleedshoaibofficial@gmail.com`)
 - **Four Core Formulations:**
   1. **Horsemen** (`20` Capsules — Day-18 Refill Reminder Protocol)
   2. **Sensitivity of Thor** (`20` Capsules — Day-18 Refill Reminder Protocol)
@@ -57,21 +57,21 @@ The **4 Autonomous 24/7 Cloud Workflows** in `.github/workflows/` execute automa
 
 ---
 
-## 4. Cloudflare DNS & Email Routing (`sales@onyxman.my` & `info@onyxman.my` -> `waleedshoaibofficial@gmail.com`)
+## 4. Cloudflare DNS & Email Routing (`sales@onyxmen.my` & `info@onyxmen.my` -> `waleedshoaibofficial@gmail.com`)
 
 ### 1-Command Automated DNS & Email Routing Provisioning
 ```bash
 # Preview all DNS & Email Routing changes safely (Dry-Run Mode, exits 0 without network writes)
 npm run dns:dry-run
 
-# Provision CNAME, MX, SPF, DMARC, and Email Routing rules (sales@onyxman.my & info@onyxman.my -> waleedshoaibofficial@gmail.com)
+# Provision CNAME, MX, SPF, DMARC, and Email Routing rules (sales@onyxmen.my & info@onyxmen.my -> waleedshoaibofficial@gmail.com)
 CLOUDFLARE_API_TOKEN=your_token CLOUDFLARE_ZONE_ID=your_zone_id CLOUDFLARE_ACCOUNT_ID=your_account_id npm run cloudflare:setup
 ```
 
 ### Namecheap Nameserver Cutover & Manual Import Fallback
 1. **Namecheap Nameservers:** In Namecheap Domain List -> `onyxman.my` -> **Nameservers**, switch to **Custom DNS** and paste the two Cloudflare nameservers assigned to your `onyxman.my` zone.
 2. **BIND Zone File Import (Optional Manual Fallback):** Import `config/cloudflare-dns-records.bind` in **Cloudflare Dashboard -> DNS -> Records -> Import and Export**.
-3. **Email Routing Verification:** In **Cloudflare Dashboard -> Email -> Email Routing**, confirm the verification email sent to `waleedshoaibofficial@gmail.com` so both `sales@onyxman.my` and `info@onyxman.my` forward instantaneously. Full step-by-step instructions are in `docs/CLOUDFLARE-EMAIL-ROUTING-RUNBOOK.md`.
+3. **Email Routing Verification:** In **Cloudflare Dashboard -> Email -> Email Routing**, confirm the verification email sent to `waleedshoaibofficial@gmail.com` so both `sales@onyxmen.my` and `info@onyxmen.my` forward instantaneously. Full step-by-step instructions are in `docs/CLOUDFLARE-EMAIL-ROUTING-RUNBOOK.md`.
 
 ---
 

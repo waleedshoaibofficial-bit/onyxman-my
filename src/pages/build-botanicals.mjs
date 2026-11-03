@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * ONYXMAN.MY — BILINGUAL BOTANICAL MONOGRAPH HUB & APOTHECARY BUILDER (MS-123 TO MS-130)
+ * ONYXMEN.MY — BILINGUAL BOTANICAL MONOGRAPH HUB & APOTHECARY BUILDER (MS-123 TO MS-130)
  * Generates all 10 Primary Bilingual Botanical Monograph Hub Pages + Route Aliases:
  *
  * English (en-MY):
@@ -22,7 +22,7 @@
  * - Obsidian & Liquid Champagne Gold palette (#050507, #0B0C10, #12141C, #D4AF37, #EAE6DF)
  * - Typography: 'Cormorant Garamond', 'Syne', 'Space Grotesk'
  * - Every generated HTML file >= 2,200+ lines of uncompressed semantic HTML5 with 1-Click Express Order Drawer triggers,
- *   exact Onyxman bottle linkages (RM 159 / RM 318 / RM 477), FAQs, and @graph JSON-LD.
+ *   exact Onyxmen bottle linkages (RM 159 / RM 318 / RM 477), FAQs, and @graph JSON-LD.
  */
 
 import fs from 'node:fs';
@@ -551,12 +551,12 @@ export const MONOGRAPH_DOSSIERS = [
       },
     ],
     en: {
-      seoTitle: 'Malaysian Tongkat Ali (Eurycoma Longifolia 100:1) Monograph — Eurycomanone, Free Testosterone & SHBG Modulation | Onyxman Malaysia',
-      metaDescription: 'Official Onyxman Malaysia monograph on Malaysian Eurycoma longifolia 100:1 Root Extract (≥2.2% Eurycomanone). Explore SHBG modulation, cortisol resilience, and exact dosages in Horsemen (150mg), Grow XL (140mg), Magnum Pump XR (90mg) & Hammer of Thor (45mg). RM 159 discreet delivery.',
+      seoTitle: 'Malaysian Tongkat Ali (Eurycoma Longifolia 100:1) Monograph — Eurycomanone, Free Testosterone & SHBG Modulation | Onyxmen Malaysia',
+      metaDescription: 'Official Onyxmen Malaysia monograph on Malaysian Eurycoma longifolia 100:1 Root Extract (≥2.2% Eurycomanone). Explore SHBG modulation, cortisol resilience, and exact dosages in Horsemen (150mg), Grow XL (140mg), Magnum Pump XR (90mg) & Hammer of Thor (45mg). RM 159 discreet delivery.',
       eyebrow: 'MS-123 · BOTANICAL MONOGRAPH I · SIMAROUBACEAE QUASSINOID DOSSIER',
       headline: 'Malaysian Eurycoma Longifolia 100:1 Root Extract — Eurycomanone Standardization & Free Vitality Modulation',
-      subheadline: 'Why Onyxman Malaysia rejects raw ground wood fiber in favor of HPLC-verified 100:1 aqueous root extract standardized to ≥ 2.0%–2.2% Eurycomanone, anchoring Horsemen (150mg), Grow XL (140mg), Magnum Pump XR (90mg), and Hammer of Thor (45mg).',
-      executiveSummary: 'Known across Peninsular Malaysia and Borneo as Pasak Bumi ("Bedrock of the Earth"), Eurycoma longifolia Jack is Malaysia’s crown ethnobotanical vitality root. However, 90% of commercial capsules sold in casual marketplaces contain unextracted, pulverized root bark or stem sawdust—material that is 85% indigestible cellulose wood fiber and frequently contaminated with soil heavy metals. Onyxman Malaysia utilizes exclusively mature 7-to-10-year taproots harvested from Pahang, Perak, and Terengganu, processed via ultrasonic pressurized hot-water extraction at a strict 100:1 concentration ratio and verified by High-Performance Liquid Chromatography (HPLC) to deliver ≥ 2.0%–2.2% bioactive Eurycomanone.',
+      subheadline: 'Why Onyxmen Malaysia rejects raw ground wood fiber in favor of HPLC-verified 100:1 aqueous root extract standardized to ≥ 2.0%–2.2% Eurycomanone, anchoring Horsemen (150mg), Grow XL (140mg), Magnum Pump XR (90mg), and Hammer of Thor (45mg).',
+      executiveSummary: 'Known across Peninsular Malaysia and Borneo as Pasak Bumi ("Bedrock of the Earth"), Eurycoma longifolia Jack is Malaysia’s crown ethnobotanical vitality root. However, 90% of commercial capsules sold in casual marketplaces contain unextracted, pulverized root bark or stem sawdust—material that is 85% indigestible cellulose wood fiber and frequently contaminated with soil heavy metals. Onyxmen Malaysia utilizes exclusively mature 7-to-10-year taproots harvested from Pahang, Perak, and Terengganu, processed via ultrasonic pressurized hot-water extraction at a strict 100:1 concentration ratio and verified by High-Performance Liquid Chromatography (HPLC) to deliver ≥ 2.0%–2.2% bioactive Eurycomanone.',
       mechanisms: [
         {
           code: 'MECH-TA-01',
@@ -611,11 +611,11 @@ export const MONOGRAPH_DOSSIERS = [
       ],
       faqs: [
         {
-          questionEn: 'Why does Onyxman use a 100:1 water-soluble Tongkat Ali extract instead of raw root powder?',
-          answerEn: 'Raw crushed Eurycoma longifolia root powder consists of over 85% lignified cellulose wood fiber that the human stomach cannot break down, yielding erratic eurycomanone absorption and frequent gastric bloating. Onyxman’s 100:1 ultrasonic aqueous extraction concentrates 100 kilograms of mature Malaysian taproot into 1 kilogram of pure water-soluble bioactives standardized to ≥ 2.0%–2.2% Eurycomanone, dissolving completely in warm water within 20–30 minutes.',
+          questionEn: 'Why does Onyxmen use a 100:1 water-soluble Tongkat Ali extract instead of raw root powder?',
+          answerEn: 'Raw crushed Eurycoma longifolia root powder consists of over 85% lignified cellulose wood fiber that the human stomach cannot break down, yielding erratic eurycomanone absorption and frequent gastric bloating. Onyxmen’s 100:1 ultrasonic aqueous extraction concentrates 100 kilograms of mature Malaysian taproot into 1 kilogram of pure water-soluble bioactives standardized to ≥ 2.0%–2.2% Eurycomanone, dissolving completely in warm water within 20–30 minutes.',
         },
         {
-          questionEn: 'Which Onyxman bottle contains the highest milligram dosage of Malaysian Tongkat Ali per capsule?',
+          questionEn: 'Which Onyxmen bottle contains the highest milligram dosage of Malaysian Tongkat Ali per capsule?',
           answerEn: 'Horsemen (20 Capsules × 500mg, SKU ONYX-HM-20) delivers our highest single-capsule concentration at 150mg of 100:1 Eurycoma longifolia (2.2% Eurycomanone) per 500mg capsule—engineered for rapid evening readiness. Grow XL (30 Capsules, SKU ONYX-GX-30) follows closely at 140mg per capsule for a full 30-day daily conditioning cycle, while Magnum Pump XR contains 90mg per black capsule and Hammer of Thor contains 45mg alongside 200mg Tribulus Terrestris.',
         },
         {
@@ -623,26 +623,26 @@ export const MONOGRAPH_DOSSIERS = [
           answerEn: 'Unlike caffeine or synthetic central nervous system stimulants that artificially spike heart rate and blood pressure, Eurycoma longifolia works through nutritional endocrine pathways—supporting healthy cortisol balance under stress and helping release bound vitality from Sex Hormone-Binding Globulin (SHBG). You experience calm, grounded physical drive and stamina without jitteriness or insomnia.',
         },
         {
-          questionEn: 'Is Onyxman’s Malaysian Tongkat Ali screened for heavy metals like mercury, lead, and arsenic?',
-          answerEn: 'Yes. Because wild forest taproots absorb minerals from tropical soil, unscreened raw Tongkat Ali often fails heavy metal thresholds. Every batch of Onyxman’s 100:1 aqueous extract undergoes ICP-MS screening for Lead (Pb), Arsenic (As), Mercury (Hg), and Cadmium (Cd), as well as microbial safety testing, prior to encapsulation.',
+          questionEn: 'Is Onyxmen’s Malaysian Tongkat Ali screened for heavy metals like mercury, lead, and arsenic?',
+          answerEn: 'Yes. Because wild forest taproots absorb minerals from tropical soil, unscreened raw Tongkat Ali often fails heavy metal thresholds. Every batch of Onyxmen’s 100:1 aqueous extract undergoes ICP-MS screening for Lead (Pb), Arsenic (As), Mercury (Hg), and Cadmium (Cd), as well as microbial safety testing, prior to encapsulation.',
         },
         {
           questionEn: 'Can I stack a Tongkat Ali-rich formula like Horsemen or Grow XL with Magnum Pump XR?',
           answerEn: 'Many adult men in Malaysia follow a structured day-and-evening protocol: taking 1 capsule of Grow XL (140mg Tongkat Ali + Muira Puama + Saw Palmetto) after breakfast for 30-day baseline conditioning, or using Magnum Pump XR / Horsemen 45 minutes prior to evening physical activity. Do not exceed 2 total capsules within any 24-hour window.',
         },
         {
-          questionEn: 'What is the official price of Onyxman Tongkat Ali formulations and how discreet is Malaysia shipping?',
-          answerEn: 'All four Onyxman formulations (Horsemen, Grow XL, Magnum Pump XR, and Hammer of Thor) share our transparent official Malaysia pricing: 1 Bottle = RM 159 (159.00 MYR), 2 Bottles = RM 318 (318.00 MYR with Free Nationwide Malaysia Shipping), and 3 Bottles = RM 477 (477.00 MYR Complete 90-Day Vault). Every order ships in a 100% plain unmarked parcel from OM Fulfilment Logistics with FPX, DuitNow QR, and COD supported.',
+          questionEn: 'What is the official price of Onyxmen Tongkat Ali formulations and how discreet is Malaysia shipping?',
+          answerEn: 'All four Onyxmen formulations (Horsemen, Grow XL, Magnum Pump XR, and Hammer of Thor) share our transparent official Malaysia pricing: 1 Bottle = RM 159 (159.00 MYR), 2 Bottles = RM 318 (318.00 MYR with Free Nationwide Malaysia Shipping), and 3 Bottles = RM 477 (477.00 MYR Complete 90-Day Vault). Every order ships in a 100% plain unmarked parcel from OM Fulfilment Logistics with FPX, DuitNow QR, and COD supported.',
         },
       ],
     },
     ms: {
-      seoTitle: 'Monograf Tongkat Ali Malaysia (Eurycoma Longifolia 100:1) — Piawaian Eurycomanone & Stamina Lelaki | Onyxman Malaysia',
-      metaDescription: 'Monograf fitokimia rasmi Onyxman Malaysia mengenai Ekstrak Akar Tongkat Ali 100:1 (Eurycoma longifolia ≥2.2% Eurycomanone). Ketahui mekanisme keseimbangan SHBG, kawalan kortisol & dos tepat dalam Horsemen (150mg), Grow XL (140mg), Magnum Pump XR (90mg) & Hammer of Thor (45mg). RM 159 bungkusan rahsia.',
+      seoTitle: 'Monograf Tongkat Ali Malaysia (Eurycoma Longifolia 100:1) — Piawaian Eurycomanone & Stamina Lelaki | Onyxmen Malaysia',
+      metaDescription: 'Monograf fitokimia rasmi Onyxmen Malaysia mengenai Ekstrak Akar Tongkat Ali 100:1 (Eurycoma longifolia ≥2.2% Eurycomanone). Ketahui mekanisme keseimbangan SHBG, kawalan kortisol & dos tepat dalam Horsemen (150mg), Grow XL (140mg), Magnum Pump XR (90mg) & Hammer of Thor (45mg). RM 159 bungkusan rahsia.',
       eyebrow: 'MS-127 · MONOGRAF BOTANI I · DOSSIER QUASSINOID SIMAROUBACEAE',
       headline: 'Ekstrak Akar Tongkat Ali Malaysia 100:1 (Eurycoma Longifolia) — Piawaian Eurycomanone & Keseimbangan Tenaga Lelaki',
-      subheadline: 'Mengapa Onyxman Malaysia menolak serbuk kayu akar mentah dan hanya menggunakan ekstrak air tulen 100:1 yang disahkan HPLC (≥ 2.0%–2.2% Eurycomanone) sebagai teras Horsemen (150mg), Grow XL (140mg), Magnum Pump XR (90mg), dan Hammer of Thor (45mg).',
-      executiveSummary: 'Diiktiraf di seluruh Semenanjung Malaysia dan Borneo sebagai khazanah etnobotani negara, Eurycoma longifolia Jack menyimpan sebatian bioaktif utamanya di dalam akar tunjang matang berusia 7 hingga 10 tahun. Namun, kebanyakan kapsul murah di pasaran hanya mengandungi serbuk kayu akar mentah yang terdiri daripada 85% serat selulosa yang sukar dihadam dan berisiko dicemari logam berat tanah. Onyxman Malaysia hanya menggunakan ekstrak air bertekanan ultrasonik bernisbah 100:1 daripada akar matang Pahang, Perak, dan Terengganu yang diuji secara kromatografi cecair berprestasi tinggi (HPLC) untuk menjamin kepekatan ≥ 2.0%–2.2% Eurycomanone.',
+      subheadline: 'Mengapa Onyxmen Malaysia menolak serbuk kayu akar mentah dan hanya menggunakan ekstrak air tulen 100:1 yang disahkan HPLC (≥ 2.0%–2.2% Eurycomanone) sebagai teras Horsemen (150mg), Grow XL (140mg), Magnum Pump XR (90mg), dan Hammer of Thor (45mg).',
+      executiveSummary: 'Diiktiraf di seluruh Semenanjung Malaysia dan Borneo sebagai khazanah etnobotani negara, Eurycoma longifolia Jack menyimpan sebatian bioaktif utamanya di dalam akar tunjang matang berusia 7 hingga 10 tahun. Namun, kebanyakan kapsul murah di pasaran hanya mengandungi serbuk kayu akar mentah yang terdiri daripada 85% serat selulosa yang sukar dihadam dan berisiko dicemari logam berat tanah. Onyxmen Malaysia hanya menggunakan ekstrak air bertekanan ultrasonik bernisbah 100:1 daripada akar matang Pahang, Perak, dan Terengganu yang diuji secara kromatografi cecair berprestasi tinggi (HPLC) untuk menjamin kepekatan ≥ 2.0%–2.2% Eurycomanone.',
       mechanisms: [
         {
           code: 'MECH-TA-01',
@@ -697,28 +697,28 @@ export const MONOGRAPH_DOSSIERS = [
       ],
       faqs: [
         {
-          questionMs: 'Mengapa Onyxman menggunakan ekstrak Tongkat Ali 100:1 larut air dan bukannya serbuk akar kayu biasa?',
-          answerMs: 'Serbuk akar Tongkat Ali mentah yang dikisar mengandungi lebih 85% serat kayu selulosa yang tidak dapat dihadam oleh perut manusia, menyebabkan penyerapan eurycomanone yang sangat rendah dan perut mudah kembung. Ekstrak air ultrasonik 100:1 Onyxman memekatkan 100 kg akar matang kepada 1 kg ekstrak tulen berpiawaian ≥ 2.0%–2.2% Eurycomanone yang larut sepenuhnya bersama air suam dalam 20–30 minit.',
+          questionMs: 'Mengapa Onyxmen menggunakan ekstrak Tongkat Ali 100:1 larut air dan bukannya serbuk akar kayu biasa?',
+          answerMs: 'Serbuk akar Tongkat Ali mentah yang dikisar mengandungi lebih 85% serat kayu selulosa yang tidak dapat dihadam oleh perut manusia, menyebabkan penyerapan eurycomanone yang sangat rendah dan perut mudah kembung. Ekstrak air ultrasonik 100:1 Onyxmen memekatkan 100 kg akar matang kepada 1 kg ekstrak tulen berpiawaian ≥ 2.0%–2.2% Eurycomanone yang larut sepenuhnya bersama air suam dalam 20–30 minit.',
         },
         {
-          questionMs: 'Botol Onyxman yang manakah mempunyai dos Tongkat Ali Malaysia tertinggi bagi setiap kapsul?',
+          questionMs: 'Botol Onyxmen yang manakah mempunyai dos Tongkat Ali Malaysia tertinggi bagi setiap kapsul?',
           answerMs: 'Horsemen (20 Kapsul × 500mg, SKU ONYX-HM-20) membekalkan kepekatan tertinggi bagi setiap kapsul iaitu 150mg Ekstrak Tongkat Ali 100:1 (2.2% Eurycomanone)—dirumus khas untuk kesediaan malam yang pantas. Grow XL (30 Kapsul, SKU ONYX-GX-30) pula mengandungi 140mg setiap kapsul untuk penjagaan harian 30 hari, diikuti oleh Magnum Pump XR (90mg) dan Hammer of Thor (45mg bersama 200mg Tribulus Terrestris).',
         },
         {
-          questionMs: 'Adakah ekstrak Tongkat Ali dalam produk Onyxman menyebabkan debaran jantung atau sukar tidur?',
+          questionMs: 'Adakah ekstrak Tongkat Ali dalam produk Onyxmen menyebabkan debaran jantung atau sukar tidur?',
           answerMs: 'Tidak. Ekstrak Eurycoma longifolia 100:1 adalah 100% bebas kafein dan bebas bahan perangsang saraf sintetik. Ia bertindak secara adaptogenik dengan mengawal hormon tekanan kortisol dan menyokong tenaga dalaman semula jadi, membolehkan anda menikmati stamina malam yang mantap serta tidur yang lena.',
         },
         {
-          questionMs: 'Adakah ekstrak Tongkat Ali Onyxman disaring daripada logam berat seperti merkuri dan plumbum?',
-          answerMs: 'Ya. Oleh sebab akar hutan menyerap mineral daripada tanah, setiap kelompok ekstrak 100:1 Onyxman wajib melalui ujian saringan ICP-MS bagi memastikan ia bebas daripada pencemaran Plumbum (Pb), Arsenik (As), Merkuri (Hg), dan Kadmium (Cd) sebelum dikapsulkan.',
+          questionMs: 'Adakah ekstrak Tongkat Ali Onyxmen disaring daripada logam berat seperti merkuri dan plumbum?',
+          answerMs: 'Ya. Oleh sebab akar hutan menyerap mineral daripada tanah, setiap kelompok ekstrak 100:1 Onyxmen wajib melalui ujian saringan ICP-MS bagi memastikan ia bebas daripada pencemaran Plumbum (Pb), Arsenik (As), Merkuri (Hg), dan Kadmium (Cd) sebelum dikapsulkan.',
         },
         {
           questionMs: 'Bagaimanakah cara memilih antara Horsemen (150mg Tongkat Ali) dan Grow XL (140mg Tongkat Ali)?',
           answerMs: 'Pilih Horsemen (20 Kapsul × 500mg, kitaran 18–20 hari) jika keutamaan anda ialah kesediaan tenaga malam yang pantas (diambil 45–60 minit sebelum aktiviti malam). Pilih Grow XL (30 Kapsul × 550mg, kitaran 30 hari penuh) jika anda mahukan rutin 1 kapsul setiap pagi bersama Saw Palmetto dan Muira Puama untuk penjagaan stamina sepanjang hari.',
         },
         {
-          questionMs: 'Berapakah harga rasmi botol Onyxman di Malaysia dan adakah penghantarannya rahsia?',
-          answerMs: 'Semua 4 formulasi Onyxman dijual pada harga rasmi yang seragam: 1 Botol = RM 159 (159.00 MYR), 2 Botol = RM 318 (318.00 MYR dengan Penghantaran Percuma ke seluruh Malaysia termasuk Sabah & Sarawak), dan 3 Botol = RM 477 (477.00 MYR Pakej Lengkap 90 Hari). Setiap bungkusan dihantar tanpa sebarang nama produk atau logo di luar kotak, dengan pilihan FPX, DuitNow QR, dan COD.',
+          questionMs: 'Berapakah harga rasmi botol Onyxmen di Malaysia dan adakah penghantarannya rahsia?',
+          answerMs: 'Semua 4 formulasi Onyxmen dijual pada harga rasmi yang seragam: 1 Botol = RM 159 (159.00 MYR), 2 Botol = RM 318 (318.00 MYR dengan Penghantaran Percuma ke seluruh Malaysia termasuk Sabah & Sarawak), dan 3 Botol = RM 477 (477.00 MYR Pakej Lengkap 90 Hari). Setiap bungkusan dihantar tanpa sebarang nama produk atau logo di luar kotak, dengan pilihan FPX, DuitNow QR, dan COD.',
         },
       ],
     },
@@ -812,12 +812,12 @@ export const MONOGRAPH_DOSSIERS = [
       },
     ],
     en: {
-      seoTitle: '60%-Saponin Tribulus Terrestris & Panax Ginseng Monograph — Protodioscin & Physical Drive | Onyxman Malaysia',
-      metaDescription: 'Technical botanical monograph on 60%-Saponin Tribulus Terrestris (Protodioscin) and 6-Year Korean Red Panax Ginseng in Hammer of Thor (200mg + 60mg in 20 Veg. Capsules) and Magnum Pump XR (110mg). Official RM 159 Onyxman Malaysia vault.',
+      seoTitle: '60%-Saponin Tribulus Terrestris & Panax Ginseng Monograph — Protodioscin & Physical Drive | Onyxmen Malaysia',
+      metaDescription: 'Technical botanical monograph on 60%-Saponin Tribulus Terrestris (Protodioscin) and 6-Year Korean Red Panax Ginseng in Hammer of Thor (200mg + 60mg in 20 Veg. Capsules) and Magnum Pump XR (110mg). Official RM 159 Onyxmen Malaysia vault.',
       eyebrow: 'MS-124 · BOTANICAL MONOGRAPH II · PROTODIOSCIN SAPONIN & GINSENOSIDE MATRIX',
       headline: '60%-Saponin Tribulus Terrestris & Panax Ginseng Matrix — Protodioscin Phytosterols & Physical Drive',
       subheadline: 'Inside the furostanol steroidal saponin chemistry that powers Hammer of Thor (200mg Tribulus + 60mg Panax Ginseng in 100% Vegetarian HPMC Capsules) and Magnum Pump XR (110mg Tribulus).',
-      executiveSummary: 'Emblazoned directly across the front label of Onyxman Malaysia’s Hammer of Thor ("Men’s Health — Tribulus Terrestris — 20 Veg. Capsules"), Tribulus terrestris L. is only as effective as its verified concentration of steroidal furostanol saponins—specifically Protodioscin. Generic Indian or Chinese whole-weed powders often contain less than 15% total saponins and almost zero protodioscin. Onyxman sources Eastern Mediterranean and Balkan highland aerial fruit extracts standardized to 60% furostanol saponins in Hammer of Thor (200mg per capsule) and 45% in Magnum Pump XR (110mg), synergized with 6-year aged Panax ginseng standardized to 8%–10% protopanaxadiol and protopanaxatriol ginsenosides.',
+      executiveSummary: 'Emblazoned directly across the front label of Onyxmen Malaysia’s Hammer of Thor ("Men’s Health — Tribulus Terrestris — 20 Veg. Capsules"), Tribulus terrestris L. is only as effective as its verified concentration of steroidal furostanol saponins—specifically Protodioscin. Generic Indian or Chinese whole-weed powders often contain less than 15% total saponins and almost zero protodioscin. Onyxmen sources Eastern Mediterranean and Balkan highland aerial fruit extracts standardized to 60% furostanol saponins in Hammer of Thor (200mg per capsule) and 45% in Magnum Pump XR (110mg), synergized with 6-year aged Panax ginseng standardized to 8%–10% protopanaxadiol and protopanaxatriol ginsenosides.',
       mechanisms: [
         {
           code: 'MECH-TT-01',
@@ -873,11 +873,11 @@ export const MONOGRAPH_DOSSIERS = [
       faqs: [
         {
           questionEn: 'Why does the front label of Hammer of Thor explicitly state "Tribulus Terrestris — 20 Veg. Capsules"?',
-          answerEn: 'Hammer of Thor (SKU ONYX-HT-20) is engineered specifically as Onyxman Malaysia’s high-saponin Tribulus Terrestris specialist inside 100% plant-derived vegetarian (HPMC) capsules. Each 500mg capsule delivers 200mg of 60%-saponin Tribulus Terrestris plus 100mg Peruvian Maca, 80mg plant-fermented L-Arginine, 60mg Panax Ginseng, 45mg Malaysian Tongkat Ali, and 15mg Chelated Zinc.',
+          answerEn: 'Hammer of Thor (SKU ONYX-HT-20) is engineered specifically as Onyxmen Malaysia’s high-saponin Tribulus Terrestris specialist inside 100% plant-derived vegetarian (HPMC) capsules. Each 500mg capsule delivers 200mg of 60%-saponin Tribulus Terrestris plus 100mg Peruvian Maca, 80mg plant-fermented L-Arginine, 60mg Panax Ginseng, 45mg Malaysian Tongkat Ali, and 15mg Chelated Zinc.',
         },
         {
           questionEn: 'What is the difference between 60%-saponin Balkan Tribulus and cheap unstandardized Tribulus powder?',
-          answerEn: 'The physiological activity of Tribulus terrestris depends on its concentration of furostanol steroidal saponins, particularly protodioscin. Low-grade stem powders contain under 15% total saponins with negligible protodioscin. Onyxman’s 60%-saponin fruit extract provides four times the steroidal saponin density per milligram.',
+          answerEn: 'The physiological activity of Tribulus terrestris depends on its concentration of furostanol steroidal saponins, particularly protodioscin. Low-grade stem powders contain under 15% total saponins with negligible protodioscin. Onyxmen’s 60%-saponin fruit extract provides four times the steroidal saponin density per milligram.',
         },
         {
           questionEn: 'Why are Tribulus Terrestris and Korean Red Panax Ginseng combined in the same matrix?',
@@ -898,12 +898,12 @@ export const MONOGRAPH_DOSSIERS = [
       ],
     },
     ms: {
-      seoTitle: 'Monograf Tribulus Terrestris 60% Saponin & Panax Ginseng — Saponin Protodioscin & Kekuatan Fizikal | Onyxman Malaysia',
-      metaDescription: 'Monograf teknikal Onyxman Malaysia mengenai Tribulus Terrestris 60% Saponin (Protodioscin) dan Panax Ginseng 6 Tahun dalam Hammer of Thor (200mg + 60mg dalam 20 Kapsul Veg.) serta Magnum Pump XR (110mg). Harga rasmi RM 159 bungkusan rahsia.',
+      seoTitle: 'Monograf Tribulus Terrestris 60% Saponin & Panax Ginseng — Saponin Protodioscin & Kekuatan Fizikal | Onyxmen Malaysia',
+      metaDescription: 'Monograf teknikal Onyxmen Malaysia mengenai Tribulus Terrestris 60% Saponin (Protodioscin) dan Panax Ginseng 6 Tahun dalam Hammer of Thor (200mg + 60mg dalam 20 Kapsul Veg.) serta Magnum Pump XR (110mg). Harga rasmi RM 159 bungkusan rahsia.',
       eyebrow: 'MS-128 · MONOGRAF BOTANI II · MATRIKS SAPONIN PROTODIOSCIN & GINSENOSIDA',
       headline: 'Matriks Tribulus Terrestris 60% Saponin & Panax Ginseng — Fitosterol Protodioscin & Daya Tahan Fizikal',
       subheadline: 'Kenali kimia saponin furostanol steroid yang memacu Hammer of Thor (200mg Tribulus + 60mg Panax Ginseng di dalam Kapsul Vegetarian HPMC) dan Magnum Pump XR (110mg Tribulus).',
-      executiveSummary: 'Tertera dengan jelas pada label hadapan botol Hammer of Thor ("Men’s Health — Tribulus Terrestris — 20 Veg. Capsules"), keberkesanan Tribulus terrestris L. bergantung sepenuhnya kepada kepekatan saponin steroid furostanol—khususnya sebatian Protodioscin. Serbuk herba biasa di pasaran selalunya hanya mengandungi kurang daripada 15% saponin. Onyxman menggunakan ekstrak buah piawai 60% saponin furostanol dalam Hammer of Thor (200mg setiap kapsul) dan 45% dalam Magnum Pump XR (110mg), digabungkan bersama akar Panax ginseng berusia 6 tahun (8%–10% ginsenosida).',
+      executiveSummary: 'Tertera dengan jelas pada label hadapan botol Hammer of Thor ("Men’s Health — Tribulus Terrestris — 20 Veg. Capsules"), keberkesanan Tribulus terrestris L. bergantung sepenuhnya kepada kepekatan saponin steroid furostanol—khususnya sebatian Protodioscin. Serbuk herba biasa di pasaran selalunya hanya mengandungi kurang daripada 15% saponin. Onyxmen menggunakan ekstrak buah piawai 60% saponin furostanol dalam Hammer of Thor (200mg setiap kapsul) dan 45% dalam Magnum Pump XR (110mg), digabungkan bersama akar Panax ginseng berusia 6 tahun (8%–10% ginsenosida).',
       mechanisms: [
         {
           code: 'MECH-TT-01',
@@ -963,7 +963,7 @@ export const MONOGRAPH_DOSSIERS = [
         },
         {
           questionMs: 'Apakah perbezaan antara ekstrak Tribulus 60% saponin berbanding serbuk Tribulus biasa?',
-          answerMs: 'Keberkesanan Tribulus terrestris bergantung pada kepekatan saponin furostanol terutamanya protodioscin. Serbuk herba biasa hanya mempunyai kurang daripada 15% saponin. Ekstrak piawai 60% saponin yang digunakan oleh Onyxman memberikan kepekatan sebatian aktif 4 kali ganda lebih tinggi bagi setiap miligram.',
+          answerMs: 'Keberkesanan Tribulus terrestris bergantung pada kepekatan saponin furostanol terutamanya protodioscin. Serbuk herba biasa hanya mempunyai kurang daripada 15% saponin. Ekstrak piawai 60% saponin yang digunakan oleh Onyxmen memberikan kepekatan sebatian aktif 4 kali ganda lebih tinggi bagi setiap miligram.',
         },
         {
           questionMs: 'Mengapakah Tribulus Terrestris digabungkan bersama Panax Ginseng Merah Korea?',
@@ -1058,12 +1058,12 @@ export const MONOGRAPH_DOSSIERS = [
       },
     ],
     en: {
-      seoTitle: 'Gelatinized Peruvian Black Maca Root (Lepidium Meyenii) Monograph — Macamides & Non-Stimulant Stamina | Onyxman Malaysia',
-      metaDescription: 'Explore Onyxman Malaysia’s monograph on 10:1 Gelatinized Peruvian Black Maca Root (Lepidium meyenii, ≥0.6% Macamides). Learn how starch-free black maca powers non-stimulant male endurance in Grow XL (110mg), Horsemen (100mg) & Hammer of Thor (100mg). RM 159 discreet shipping.',
+      seoTitle: 'Gelatinized Peruvian Black Maca Root (Lepidium Meyenii) Monograph — Macamides & Non-Stimulant Stamina | Onyxmen Malaysia',
+      metaDescription: 'Explore Onyxmen Malaysia’s monograph on 10:1 Gelatinized Peruvian Black Maca Root (Lepidium meyenii, ≥0.6% Macamides). Learn how starch-free black maca powers non-stimulant male endurance in Grow XL (110mg), Horsemen (100mg) & Hammer of Thor (100mg). RM 159 discreet shipping.',
       eyebrow: 'MS-125 · BOTANICAL MONOGRAPH III · ANDEAN MACAMIDE ADAPTOGEN DOSSIER',
       headline: 'Gelatinized Peruvian Black Maca Root (Lepidium Meyenii) — Macamides & Non-Stimulant Evening Stamina',
-      subheadline: 'Why Onyxman selects the rare 4,200-meter Peruvian Black Maca phenotype and removes 99% of raw indigestible starch via 10:1 gelatinization for Grow XL (110mg), Horsemen (100mg), and Hammer of Thor (100mg).',
-      executiveSummary: 'Grown exclusively on the freezing, wind-swept limestone plateaus of Junín and Pasco in the Peruvian Andes above 4,100 meters, Lepidium meyenii Walp. survives extreme UV radiation and sub-zero nights by synthesizing unique secondary metabolites called macamides (N-benzylamides of long-chain fatty acids) and macaenes. Among the three primary root colors—Yellow (60% of harvest), Red (25%), and Black (15%)—the rare Black Maca phenotype demonstrates the strongest clinical nutrition support for male physical endurance, stamina, and reproductive vitality. Because raw maca root is 70% dense amylose starch that causes gastric fermentation and bloating, Onyxman utilizes a 10:1 starch-cleaved gelatinized Black Maca extract standardized to ≥ 0.6% macamides and macaenes.',
+      subheadline: 'Why Onyxmen selects the rare 4,200-meter Peruvian Black Maca phenotype and removes 99% of raw indigestible starch via 10:1 gelatinization for Grow XL (110mg), Horsemen (100mg), and Hammer of Thor (100mg).',
+      executiveSummary: 'Grown exclusively on the freezing, wind-swept limestone plateaus of Junín and Pasco in the Peruvian Andes above 4,100 meters, Lepidium meyenii Walp. survives extreme UV radiation and sub-zero nights by synthesizing unique secondary metabolites called macamides (N-benzylamides of long-chain fatty acids) and macaenes. Among the three primary root colors—Yellow (60% of harvest), Red (25%), and Black (15%)—the rare Black Maca phenotype demonstrates the strongest clinical nutrition support for male physical endurance, stamina, and reproductive vitality. Because raw maca root is 70% dense amylose starch that causes gastric fermentation and bloating, Onyxmen utilizes a 10:1 starch-cleaved gelatinized Black Maca extract standardized to ≥ 0.6% macamides and macaenes.',
       mechanisms: [
         {
           code: 'MECH-MC-01',
@@ -1126,7 +1126,7 @@ export const MONOGRAPH_DOSSIERS = [
           answerEn: 'While Yellow Maca makes up 60% of the Andean harvest and is used as a general food flour, the rare Black Maca phenotype (only ~15% of harvest) contains a higher density of lipophilic macamides and aromatic glucosinolates specifically researched for male physical endurance, muscular stamina, and reproductive vitality.',
         },
         {
-          questionEn: 'Which Onyxman formulations feature Peruvian Black Maca Root and at what dosages?',
+          questionEn: 'Which Onyxmen formulations feature Peruvian Black Maca Root and at what dosages?',
           answerEn: 'Peruvian Black Maca anchors three of our four flagship formulations: Grow XL (30 Capsules, SKU ONYX-GX-30) delivers our highest daily dose at 110mg per capsule for 30-day conditioning; Horsemen (20 Capsules × 500mg, SKU ONYX-HM-20) delivers 100mg per capsule alongside 150mg Tongkat Ali for evening readiness; and Hammer of Thor (20 Veg. Capsules, SKU ONYX-HT-20) delivers 100mg per capsule alongside 200mg Tribulus Terrestris.',
         },
         {
@@ -1139,17 +1139,17 @@ export const MONOGRAPH_DOSSIERS = [
         },
         {
           questionEn: 'What are the official Malaysia multi-bottle prices for Grow XL, Horsemen, and Hammer of Thor?',
-          answerEn: 'All Onyxman bottles are RM 159 for 1 Bottle, RM 318 for 2 Bottles (with Free Nationwide Discreet Shipping across Peninsular & East Malaysia), and RM 477 for the 3-Bottle Complete Vault. Orders are dispatched in 100% unmarked parcels with FPX, DuitNow QR, and COD.',
+          answerEn: 'All Onyxmen bottles are RM 159 for 1 Bottle, RM 318 for 2 Bottles (with Free Nationwide Discreet Shipping across Peninsular & East Malaysia), and RM 477 for the 3-Bottle Complete Vault. Orders are dispatched in 100% unmarked parcels with FPX, DuitNow QR, and COD.',
         },
       ],
     },
     ms: {
-      seoTitle: 'Monograf Akar Maca Hitam Peru Tergelatinisasi (Lepidium Meyenii) — Macamides & Stamina Bebas Kafein | Onyxman Malaysia',
-      metaDescription: 'Baca monograf rasmi Onyxman Malaysia mengenai Ekstrak Akar Maca Hitam Peru Tergelatinisasi 10:1 (Lepidium meyenii ≥0.6% Macamides). Ketahui peranan macamides dalam Grow XL (110mg), Horsemen (100mg) & Hammer of Thor (100mg). Harga rasmi RM 159.',
+      seoTitle: 'Monograf Akar Maca Hitam Peru Tergelatinisasi (Lepidium Meyenii) — Macamides & Stamina Bebas Kafein | Onyxmen Malaysia',
+      metaDescription: 'Baca monograf rasmi Onyxmen Malaysia mengenai Ekstrak Akar Maca Hitam Peru Tergelatinisasi 10:1 (Lepidium meyenii ≥0.6% Macamides). Ketahui peranan macamides dalam Grow XL (110mg), Horsemen (100mg) & Hammer of Thor (100mg). Harga rasmi RM 159.',
       eyebrow: 'MS-129 · MONOGRAF BOTANI III · DOSSIER ADAPTOGEN MACAMIDES ANDES',
       headline: 'Akar Maca Hitam Peru Tergelatinisasi (Lepidium Meyenii) — Macamides & Stamina Malam Bebas Kafein',
-      subheadline: 'Mengapa Onyxman memilih varieti jarang Maca Hitam dari altitud 4,200 meter di Peru dan menyingkirkan 99% kanji mentah melalui proses gelatinisasi 10:1 untuk Grow XL (110mg), Horsemen (100mg), dan Hammer of Thor (100mg).',
-      executiveSummary: 'Ditanam secara eksklusif di dataran tinggi Junín dan Pasco di Pergunungan Andes, Peru pada ketinggian melebihi 4,100 meter, Lepidium meyenii Walp. bertahan dalam cuaca sejuk melampau dan sinaran UV tinggi dengan menghasilkan sebatian metabolit unik yang dipanggil macamides dan macaenes. Antara tiga warna utama akar maca—Kuning (60% hasil tuaian), Merah (25%), dan Hitam (15%)—varieti Maca Hitam mempunyai kepekatan fitokimia tertinggi untuk ketahanan fizikal dan kecergasan lelaki dewasa. Memandangkan akar maca mentah mengandungi 70% kanji amilosa tebal yang menyebabkan perut kembung, Onyxman menggunakan ekstrak Maca Hitam tergelatinisasi 10:1 bebas kanji yang dipiawaikan kepada ≥ 0.6% macamides.',
+      subheadline: 'Mengapa Onyxmen memilih varieti jarang Maca Hitam dari altitud 4,200 meter di Peru dan menyingkirkan 99% kanji mentah melalui proses gelatinisasi 10:1 untuk Grow XL (110mg), Horsemen (100mg), dan Hammer of Thor (100mg).',
+      executiveSummary: 'Ditanam secara eksklusif di dataran tinggi Junín dan Pasco di Pergunungan Andes, Peru pada ketinggian melebihi 4,100 meter, Lepidium meyenii Walp. bertahan dalam cuaca sejuk melampau dan sinaran UV tinggi dengan menghasilkan sebatian metabolit unik yang dipanggil macamides dan macaenes. Antara tiga warna utama akar maca—Kuning (60% hasil tuaian), Merah (25%), dan Hitam (15%)—varieti Maca Hitam mempunyai kepekatan fitokimia tertinggi untuk ketahanan fizikal dan kecergasan lelaki dewasa. Memandangkan akar maca mentah mengandungi 70% kanji amilosa tebal yang menyebabkan perut kembung, Onyxmen menggunakan ekstrak Maca Hitam tergelatinisasi 10:1 bebas kanji yang dipiawaikan kepada ≥ 0.6% macamides.',
       mechanisms: [
         {
           code: 'MECH-MC-01',
@@ -1212,7 +1212,7 @@ export const MONOGRAPH_DOSSIERS = [
           answerMs: 'Maca Kuning merangkumi 60% hasil tuaian dan biasanya digunakan sebagai tepung makanan biasa, manakala varieti Maca Hitam yang jarang ditemui (~15% hasil tuaian) mempunyai kepekatan macamides dan glukosinolat tertinggi yang dikaji khusus untuk daya tahan fizikal dan stamina lelaki dewasa.',
         },
         {
-          questionMs: 'Botol Onyxman yang manakah mengandungi Akar Maca Hitam Peru dan berapakah dosnya?',
+          questionMs: 'Botol Onyxmen yang manakah mengandungi Akar Maca Hitam Peru dan berapakah dosnya?',
           answerMs: 'Maca Hitam Peru menjadi teras dalam tiga formulasi utama kami: Grow XL (30 Kapsul, SKU ONYX-GX-30) membekalkan dos harian tertinggi iaitu 110mg setiap kapsul; Horsemen (20 Kapsul × 500mg, SKU ONYX-HM-20) mengandungi 100mg bersama 150mg Tongkat Ali; dan Hammer of Thor (20 Kapsul Veg, SKU ONYX-HT-20) mengandungi 100mg bersama 200mg Tribulus Terrestris.',
         },
         {
@@ -1317,12 +1317,12 @@ export const MONOGRAPH_DOSSIERS = [
       },
     ],
     en: {
-      seoTitle: 'L-Arginine HCl, L-Citrulline Malate & Bioperine Nitric Oxide Monograph — Endothelial eNOS Vasodilation | Onyxman Malaysia',
-      metaDescription: 'Scientific monograph on Onyxman Malaysia’s Extended-Release (XR) Nitric Oxide Pathway: L-Arginine HCl, L-Citrulline Malate, Thai Black Ginger & Bioperine in Magnum Pump XR (320mg NO matrix) and Grow XL (100mg). Oral dietary supplement at RM 159.',
+      seoTitle: 'L-Arginine HCl, L-Citrulline Malate & Bioperine Nitric Oxide Monograph — Endothelial eNOS Vasodilation | Onyxmen Malaysia',
+      metaDescription: 'Scientific monograph on Onyxmen Malaysia’s Extended-Release (XR) Nitric Oxide Pathway: L-Arginine HCl, L-Citrulline Malate, Thai Black Ginger & Bioperine in Magnum Pump XR (320mg NO matrix) and Grow XL (100mg). Oral dietary supplement at RM 159.',
       eyebrow: 'MS-126 · BOTANICAL & AMINO MONOGRAPH IV · ENDOTHELIAL eNOS VASODILATION DOSSIER',
       headline: 'L-Arginine HCl, L-Citrulline Malate & Bioperine Nitric Oxide Pathway — Dual-Phase Endothelial Vasodilation',
-      subheadline: 'How Onyxman’s Extended-Release (XR) amino-botanical architecture overcomes hepatic arginase breakdown—anchoring Magnum Pump XR (320mg combined L-Arginine + L-Citrulline matrix), Grow XL (100mg), Horsemen (80mg), and Hammer of Thor (80mg).',
-      executiveSummary: 'Nitric Oxide (NO) is the master gaseous signaling molecule produced by the vascular endothelium to relax smooth muscle, widen arterial lumen diameter, and govern hemodynamic blood flow during both resistance training and evening male performance. However, taking standard L-Arginine alone suffers from a well-documented pharmacokinetic bottleneck: intestinal and hepatic arginase-I enzymes degrade up to 40% of oral L-Arginine during first-pass metabolism. Onyxman Malaysia solves this in Magnum Pump XR (30 Black Capsules, SKU ONYX-MP-30) and Grow XL (30 Capsules, SKU ONYX-GX-30) by engineering a Dual-Stage Nitric Oxide Precursor Matrix that pairs 99.5% pure L-Arginine HCl with 2:1 L-Citrulline Malate, 5%-PMF Thai Black Ginger (Kaempferia parviflora), and 95% Piperine (Bioperine).',
+      subheadline: 'How Onyxmen’s Extended-Release (XR) amino-botanical architecture overcomes hepatic arginase breakdown—anchoring Magnum Pump XR (320mg combined L-Arginine + L-Citrulline matrix), Grow XL (100mg), Horsemen (80mg), and Hammer of Thor (80mg).',
+      executiveSummary: 'Nitric Oxide (NO) is the master gaseous signaling molecule produced by the vascular endothelium to relax smooth muscle, widen arterial lumen diameter, and govern hemodynamic blood flow during both resistance training and evening male performance. However, taking standard L-Arginine alone suffers from a well-documented pharmacokinetic bottleneck: intestinal and hepatic arginase-I enzymes degrade up to 40% of oral L-Arginine during first-pass metabolism. Onyxmen Malaysia solves this in Magnum Pump XR (30 Black Capsules, SKU ONYX-MP-30) and Grow XL (30 Capsules, SKU ONYX-GX-30) by engineering a Dual-Stage Nitric Oxide Precursor Matrix that pairs 99.5% pure L-Arginine HCl with 2:1 L-Citrulline Malate, 5%-PMF Thai Black Ginger (Kaempferia parviflora), and 95% Piperine (Bioperine).',
       mechanisms: [
         {
           code: 'MECH-NO-01',
@@ -1382,7 +1382,7 @@ export const MONOGRAPH_DOSSIERS = [
         },
         {
           questionEn: 'What is Magnum Pump XR—is it an oral capsule supplement or a mechanical device?',
-          answerEn: 'Magnum Pump XR by Onyxman Malaysia (SKU ONYX-MP-30, MPN MPXR-30BLK-MY, GTIN-13 9550000102042) is strictly an oral botanical and amino-acid Dietary Supplement containing 30 signature jet-black capsules per bottle (600mg per capsule). The word "Pump" refers to physiological nitric oxide vascularity and gym muscle pump—it is NOT a mechanical vacuum pump or industrial fluid pump.',
+          answerEn: 'Magnum Pump XR by Onyxmen Malaysia (SKU ONYX-MP-30, MPN MPXR-30BLK-MY, GTIN-13 9550000102042) is strictly an oral botanical and amino-acid Dietary Supplement containing 30 signature jet-black capsules per bottle (600mg per capsule). The word "Pump" refers to physiological nitric oxide vascularity and gym muscle pump—it is NOT a mechanical vacuum pump or industrial fluid pump.',
         },
         {
           questionEn: 'How does the L-Arginine & L-Citrulline matrix in Grow XL (100mg) differ from Magnum Pump XR (320mg)?',
@@ -1390,7 +1390,7 @@ export const MONOGRAPH_DOSSIERS = [
         },
         {
           questionEn: 'Does the L-Arginine and L-Citrulline Nitric Oxide matrix contain caffeine or cause a post-workout crash?',
-          answerEn: 'No. Onyxman’s Nitric Oxide pathway relies purely on vasoactive amino acids (L-Arginine HCl, L-Citrulline Malate), polymethoxyflavones (Kunyit Hitam), and Piperine—with 0mg of caffeine or synthetic stimulants. It can be taken before a late-evening gym session or at 21:00 MYT without disturbing sleep.',
+          answerEn: 'No. Onyxmen’s Nitric Oxide pathway relies purely on vasoactive amino acids (L-Arginine HCl, L-Citrulline Malate), polymethoxyflavones (Kunyit Hitam), and Piperine—with 0mg of caffeine or synthetic stimulants. It can be taken before a late-evening gym session or at 21:00 MYT without disturbing sleep.',
         },
         {
           questionEn: 'Who should consult a physician before taking high-potency L-Arginine and Nitric Oxide supplements?',
@@ -1398,17 +1398,17 @@ export const MONOGRAPH_DOSSIERS = [
         },
         {
           questionEn: 'What is the official price of Magnum Pump XR and Grow XL in Malaysia?',
-          answerEn: 'Every authentic Onyxman bottle is RM 159 (159.00 MYR) for 1 Bottle, RM 318 (318.00 MYR) for 2 Bottles with Free Nationwide Discreet Shipping across all 16 Malaysian states, and RM 477 (477.00 MYR) for the 3-Bottle Complete 90-Day Vault. Order in 10 seconds via our Express Discreet Order Drawer.',
+          answerEn: 'Every authentic Onyxmen bottle is RM 159 (159.00 MYR) for 1 Bottle, RM 318 (318.00 MYR) for 2 Bottles with Free Nationwide Discreet Shipping across all 16 Malaysian states, and RM 477 (477.00 MYR) for the 3-Bottle Complete 90-Day Vault. Order in 10 seconds via our Express Discreet Order Drawer.',
         },
       ],
     },
     ms: {
-      seoTitle: 'Monograf Laluan Nitrik Oksida L-Arginine HCl, L-Citrulline Malate & Bioperine — Aliran Vaskular eNOS | Onyxman Malaysia',
-      metaDescription: 'Monograf saintifik Onyxman Malaysia mengenai Laluan Nitrik Oksida Pelepasan Lanjutan (XR): L-Arginine HCl, L-Citrulline Malate, Kunyit Hitam & Bioperine dalam Magnum Pump XR (320mg matriks NO) dan Grow XL (100mg). Kapsul suplemen RM 159.',
+      seoTitle: 'Monograf Laluan Nitrik Oksida L-Arginine HCl, L-Citrulline Malate & Bioperine — Aliran Vaskular eNOS | Onyxmen Malaysia',
+      metaDescription: 'Monograf saintifik Onyxmen Malaysia mengenai Laluan Nitrik Oksida Pelepasan Lanjutan (XR): L-Arginine HCl, L-Citrulline Malate, Kunyit Hitam & Bioperine dalam Magnum Pump XR (320mg matriks NO) dan Grow XL (100mg). Kapsul suplemen RM 159.',
       eyebrow: 'MS-130 · MONOGRAF BOTANI & ASID AMINO IV · DOSSIER ALIRAN VASKULAR eNOS',
       headline: 'Laluan Nitrik Oksida L-Arginine HCl, L-Citrulline Malate & Bioperine — Kelancaran Vaskular Dwi-Fasa',
-      subheadline: 'Bagaimana seni bina asid amino Pelepasan Lanjutan (XR) Onyxman mengatasi penguraian enzim arginase hati—menjadi teras Magnum Pump XR (320mg matriks L-Arginine + L-Citrulline), Grow XL (100mg), Horsemen (80mg), dan Hammer of Thor (80mg).',
-      executiveSummary: 'Nitrik Oksida (NO) ialah molekul isyarat biologi utama yang dihasilkan oleh lapisan endotelium saluran darah untuk melancarkan aliran darah dan pengangkutan oksigen semasa latihan bebanan di gimnasium mahupun aktiviti fizikal waktu malam. Namun, pengambilan L-Arginine biasa secara tunggal sering terhad kerana enzim arginase-I di dalam usus dan hati menguraikan sehingga 40% L-Arginine sebelum ia sempat memasuki aliran darah. Onyxman Malaysia menyelesaikan kekangan ini di dalam Magnum Pump XR (30 Kapsul Hitam, SKU ONYX-MP-30) dan Grow XL (30 Kapsul, SKU ONYX-GX-30) melalui Matriks Dwi-Fasa yang menggabungkan L-Arginine HCl 99.5% tulen bersama L-Citrulline Malate 2:1, Kunyit Hitam (Kaempferia parviflora), dan 95% Piperine (Bioperine).',
+      subheadline: 'Bagaimana seni bina asid amino Pelepasan Lanjutan (XR) Onyxmen mengatasi penguraian enzim arginase hati—menjadi teras Magnum Pump XR (320mg matriks L-Arginine + L-Citrulline), Grow XL (100mg), Horsemen (80mg), dan Hammer of Thor (80mg).',
+      executiveSummary: 'Nitrik Oksida (NO) ialah molekul isyarat biologi utama yang dihasilkan oleh lapisan endotelium saluran darah untuk melancarkan aliran darah dan pengangkutan oksigen semasa latihan bebanan di gimnasium mahupun aktiviti fizikal waktu malam. Namun, pengambilan L-Arginine biasa secara tunggal sering terhad kerana enzim arginase-I di dalam usus dan hati menguraikan sehingga 40% L-Arginine sebelum ia sempat memasuki aliran darah. Onyxmen Malaysia menyelesaikan kekangan ini di dalam Magnum Pump XR (30 Kapsul Hitam, SKU ONYX-MP-30) dan Grow XL (30 Kapsul, SKU ONYX-GX-30) melalui Matriks Dwi-Fasa yang menggabungkan L-Arginine HCl 99.5% tulen bersama L-Citrulline Malate 2:1, Kunyit Hitam (Kaempferia parviflora), dan 95% Piperine (Bioperine).',
       mechanisms: [
         {
           code: 'MECH-NO-01',
@@ -1468,7 +1468,7 @@ export const MONOGRAPH_DOSSIERS = [
         },
         {
           questionMs: 'Apakah sebenarnya Magnum Pump XR—adakah ia suplemen kapsul makan atau alat mekanikal?',
-          answerMs: 'Magnum Pump XR oleh Onyxman Malaysia (SKU ONYX-MP-30, MPN MPXR-30BLK-MY, GTIN-13 9550000102042) adalah 100% Suplemen Pemakanan kapsul makan yang mengandungi 30 kapsul hitam eksklusif setiap botol (600mg setiap kapsul). Perkataan "Pump" merujuk kepada aliran darah nitrik oksida dan "muscle pump" semasa bersenam—ia BUKAN pam mekanikal, pam vakum, atau peralatan industri.',
+          answerMs: 'Magnum Pump XR oleh Onyxmen Malaysia (SKU ONYX-MP-30, MPN MPXR-30BLK-MY, GTIN-13 9550000102042) adalah 100% Suplemen Pemakanan kapsul makan yang mengandungi 30 kapsul hitam eksklusif setiap botol (600mg setiap kapsul). Perkataan "Pump" merujuk kepada aliran darah nitrik oksida dan "muscle pump" semasa bersenam—ia BUKAN pam mekanikal, pam vakum, atau peralatan industri.',
         },
         {
           questionMs: 'Apakah perbezaan antara matriks L-Arginine dalam Grow XL (100mg) dan Magnum Pump XR (320mg)?',
@@ -1476,7 +1476,7 @@ export const MONOGRAPH_DOSSIERS = [
         },
         {
           questionMs: 'Adakah matriks Nitrik Oksida dalam Magnum Pump XR mengandungi kafein?',
-          answerMs: 'Tidak. Laluan Nitrik Oksida Onyxman bergantung sepenuhnya pada asid amino vaskular (L-Arginine HCl, L-Citrulline Malate), Kunyit Hitam, dan Bioperine—dengan 0mg kafein. Ia boleh diambil sebelum sesi gimnasium petang atau pada waktu malam tanpa menyebabkan sukar tidur.',
+          answerMs: 'Tidak. Laluan Nitrik Oksida Onyxmen bergantung sepenuhnya pada asid amino vaskular (L-Arginine HCl, L-Citrulline Malate), Kunyit Hitam, dan Bioperine—dengan 0mg kafein. Ia boleh diambil sebelum sesi gimnasium petang atau pada waktu malam tanpa menyebabkan sukar tidur.',
         },
         {
           questionMs: 'Siapakah yang perlu mendapatkan nasihat doktor sebelum mengambil suplemen L-Arginine dan Nitrik Oksida?',
@@ -1484,7 +1484,7 @@ export const MONOGRAPH_DOSSIERS = [
         },
         {
           questionMs: 'Berapakah harga rasmi Magnum Pump XR dan Grow XL di Malaysia?',
-          answerMs: 'Setiap botol tulen Onyxman berharga RM 159 (159.00 MYR) untuk 1 Botol, RM 318 (318.00 MYR) untuk Pakej 2 Botol dengan Penghantaran Rahsia Percuma ke seluruh 16 negeri Malaysia, dan RM 477 (477.00 MYR) untuk Pakej Lengkap 3 Botol (90 Hari).',
+          answerMs: 'Setiap botol tulen Onyxmen berharga RM 159 (159.00 MYR) untuk 1 Botol, RM 318 (318.00 MYR) untuk Pakej 2 Botol dengan Penghantaran Rahsia Percuma ke seluruh 16 negeri Malaysia, dan RM 477 (477.00 MYR) untuk Pakej Lengkap 3 Botol (90 Hari).',
         },
       ],
     },
@@ -1492,7 +1492,7 @@ export const MONOGRAPH_DOSSIERS = [
 ];
 
 /**
- * Six Synergistic Secondary Botanical & Mineral Cofactors featured across the 4 Onyxman formulations.
+ * Six Synergistic Secondary Botanical & Mineral Cofactors featured across the 4 Onyxmen formulations.
  * Used to enrich both the Master Botanical Index and Individual Monograph Cross-Pollinations.
  */
 export const SECONDARY_COFACTORS = [
@@ -1589,8 +1589,8 @@ export const LAB_PURITY_CHECKPOINTS = [
     titleMs: 'Saringan Logam Berat ICP-MS (Plumbum, Arsenik, Merkuri, Kadmium)',
     specEn: 'Pb < 0.5 ppm · As < 0.5 ppm · Hg < 0.1 ppm · Cd < 0.3 ppm (Strict Compliance)',
     specMs: 'Pb < 0.5 ppm · As < 0.5 ppm · Hg < 0.1 ppm · Cd < 0.3 ppm (Pematuhan Ketat)',
-    detailEn: 'Because wild rainforest taproots and high-altitude tubers absorb soil minerals, Onyxman filters all aqueous extracts through multi-stage membrane deionization and verifies heavy metal clearance via Inductively Coupled Plasma Mass Spectrometry (ICP-MS).',
-    detailMs: 'Memandangkan akar hutan hujan dan ubi tanah tinggi menyerap mineral tanah, Onyxman menapis semua ekstrak melalui penyahionan membran berbilang peringkat dan mengesahkan ketiadaan logam berat melalui ujian ICP-MS.',
+    detailEn: 'Because wild rainforest taproots and high-altitude tubers absorb soil minerals, Onyxmen filters all aqueous extracts through multi-stage membrane deionization and verifies heavy metal clearance via Inductively Coupled Plasma Mass Spectrometry (ICP-MS).',
+    detailMs: 'Memandangkan akar hutan hujan dan ubi tanah tinggi menyerap mineral tanah, Onyxmen menapis semua ekstrak melalui penyahionan membran berbilang peringkat dan mengesahkan ketiadaan logam berat melalui ujian ICP-MS.',
   },
   {
     code: 'QA-LAB-03',
@@ -1598,8 +1598,8 @@ export const LAB_PURITY_CHECKPOINTS = [
     titleMs: '100% Bebas Bahan Kimia Sintetik Terlarang atau Perangsang Tiruan',
     specEn: '0.00% Sildenafil / Tadalafil / Vardenafil / Sibutramine / Synthetic Caffeine',
     specMs: '0.00% Sildenafil / Tadalafil / Vardenafil / Sibutramine / Kafein Sintetik',
-    detailEn: 'Street-market "instant candy" and unverified packets often spike cheap flour with undeclared prescription PDE5 chemicals that cause severe headaches, visual disturbances, and cardiac risk. Onyxman formulations are 100% pure botanical and amino-acid supplements.',
-    detailMs: 'Produk jalanan atau gula-gula tenaga murah sering mencampurkan bahan kimia sintetik terlarang yang menyebabkan sakit kepala teruk dan risiko jantung. Formulasi Onyxman adalah 100% suplemen botani dan asid amino tulen.',
+    detailEn: 'Street-market "instant candy" and unverified packets often spike cheap flour with undeclared prescription PDE5 chemicals that cause severe headaches, visual disturbances, and cardiac risk. Onyxmen formulations are 100% pure botanical and amino-acid supplements.',
+    detailMs: 'Produk jalanan atau gula-gula tenaga murah sering mencampurkan bahan kimia sintetik terlarang yang menyebabkan sakit kepala teruk dan risiko jantung. Formulasi Onyxmen adalah 100% suplemen botani dan asid amino tulen.',
   },
   {
     code: 'QA-LAB-04',
@@ -1607,8 +1607,8 @@ export const LAB_PURITY_CHECKPOINTS = [
     titleMs: 'Pengekstrakan Air Tulen & Hidro-Botani (Bebas Pelarut Toksik)',
     specEn: 'Zero Hexane, Benzene, Toluene, or Chlorinated Solvent Residue',
     specMs: 'Bebas Sisa Heksana, Benzena, Toluena, atau Pelarut Berbahaya',
-    detailEn: 'Onyxman utilizes pressurized ultrasonic hot-water extraction for Tongkat Ali, low-heat extrusion gelatinization for Black Maca, and plant fermentation for L-Arginine—leaving zero toxic petrochemical solvent residues.',
-    detailMs: 'Onyxman menggunakan pengekstrakan air panas ultrasonik untuk Tongkat Ali, gelatinisasi haba rendah untuk Maca Hitam, dan fermentasi tumbuhan untuk L-Arginine—tanpa sebarang sisa pelarut kimia berbahaya.',
+    detailEn: 'Onyxmen utilizes pressurized ultrasonic hot-water extraction for Tongkat Ali, low-heat extrusion gelatinization for Black Maca, and plant fermentation for L-Arginine—leaving zero toxic petrochemical solvent residues.',
+    detailMs: 'Onyxmen menggunakan pengekstrakan air panas ultrasonik untuk Tongkat Ali, gelatinisasi haba rendah untuk Maca Hitam, dan fermentasi tumbuhan untuk L-Arginine—tanpa sebarang sisa pelarut kimia berbahaya.',
   },
   {
     code: 'QA-LAB-05',
@@ -1625,8 +1625,8 @@ export const LAB_PURITY_CHECKPOINTS = [
     titleMs: 'Botol Obsidian Tahan Lembap Iklim Malaysia & Penutup Induksi Kedap Udara',
     specEn: 'UV-Opaque Obsidian HDPE/PET + Aluminum Foil Heat-Induction Inner Seal',
     specMs: 'Botol Hitam Legap UV + Penutup Dalam Kerajang Aluminium Kedap Udara',
-    detailEn: 'High-ratio 100:1 herbal extracts are naturally hygroscopic (moisture-attracting). Every Onyxman bottle is sealed with a hermetic heat-induction foil liner inside a UV-blocking obsidian vessel to protect potency across all 16 Malaysian states.',
-    detailMs: 'Ekstrak herba nisbah tinggi 100:1 bersifat higroskopik (mudah menyerap lembapan udara). Setiap botol Onyxman dilengkapi penutup induksi haba kedap udara di dalam botol hitam legap UV bagi melindungi potensi herba.',
+    detailEn: 'High-ratio 100:1 herbal extracts are naturally hygroscopic (moisture-attracting). Every Onyxmen bottle is sealed with a hermetic heat-induction foil liner inside a UV-blocking obsidian vessel to protect potency across all 16 Malaysian states.',
+    detailMs: 'Ekstrak herba nisbah tinggi 100:1 bersifat higroskopik (mudah menyerap lembapan udara). Setiap botol Onyxmen dilengkapi penutup induksi haba kedap udara di dalam botol hitam legap UV bagi melindungi potensi herba.',
   },
   {
     code: 'QA-LAB-07',
@@ -1634,8 +1634,8 @@ export const LAB_PURITY_CHECKPOINTS = [
     titleMs: 'Kinetik Pelarutan Kapsul Pantas (< 25 Minit Bersama Air Suam)',
     specEn: 'Zero Chalky Tablet Binders, Titanium Dioxide, or Synthetic Shellac Coatings',
     specMs: 'Bebas Bahan Pengikat Tablet Kapur atau Salutan Sintetik Sukar Larut',
-    detailEn: 'Compressed tablets often pass through the digestive tract only partially dissolved. Onyxman uses fine-mesh encapsulated powders (including 100% Vegetarian HPMC shells in Hammer of Thor and XR Black Capsules in Magnum Pump XR) that disperse within 20–25 minutes.',
-    detailMs: 'Tablet mampat biasa sering gagal larut sepenuhnya di dalam perut. Onyxman menggunakan serbuk ekstrak halus di dalam kapsul (termasuk kapsul vegetarian HPMC dalam Hammer of Thor dan kapsul hitam XR dalam Magnum Pump XR) yang larut dalam 20–25 minit.',
+    detailEn: 'Compressed tablets often pass through the digestive tract only partially dissolved. Onyxmen uses fine-mesh encapsulated powders (including 100% Vegetarian HPMC shells in Hammer of Thor and XR Black Capsules in Magnum Pump XR) that disperse within 20–25 minutes.',
+    detailMs: 'Tablet mampat biasa sering gagal larut sepenuhnya di dalam perut. Onyxmen menggunakan serbuk ekstrak halus di dalam kapsul (termasuk kapsul vegetarian HPMC dalam Hammer of Thor dan kapsul hitam XR dalam Magnum Pump XR) yang larut dalam 20–25 minit.',
   },
   {
     code: 'QA-LAB-08',
@@ -1649,7 +1649,7 @@ export const LAB_PURITY_CHECKPOINTS = [
 ];
 
 /**
- * 8-Dimension Comparison between Onyxman Standardized Extracts and Unstandardized Street Powders
+ * 8-Dimension Comparison between Onyxmen Standardized Extracts and Unstandardized Street Powders
  */
 export const EXTRACTION_COMPARISON_ROWS = [
   {
@@ -1753,10 +1753,10 @@ export const TROPICAL_TIMING_PROTOCOLS = [
     code: 'TIME-04',
     windowEn: 'Kopi O, Teh Tarik & Dietary Tannin Spacing Rule (45-Minute Buffer)',
     windowMs: 'Jarak Masa Kopi O, Teh Tarik & Tanin Makanan (Sela Masa 45 Minit)',
-    bottlesEn: 'Mandatory Across All 4 Onyxman Botanical & Amino Formulations',
-    bottlesMs: 'Wajib Untuk Kesemua 4 Formulasi Botani & Asid Amino Onyxman',
-    instructionEn: 'Roasted Malaysian coffee (kopi O) and condensed-milk black tea (teh tarik) are rich in polyphenolic tannins that can chelate Zinc Bisglycinate and precipitate botanical alkaloids (eurycomanone, macamides, ginsenosides) in the gut. Always leave a 45-minute buffer between coffee/tea and your Onyxman capsule.',
-    instructionMs: 'Kopi O dan teh tarik mengandungi tanin polifenol yang boleh mengikat mineral Zink serta memperlahankan penyerapan alkaloid herba (eurycomanone, macamides, ginsenosida) di dalam usus. Pastikan jarak masa sekurang-kurangnya 45 minit antara minuman berkafein/teh dan kapsul Onyxman anda.',
+    bottlesEn: 'Mandatory Across All 4 Onyxmen Botanical & Amino Formulations',
+    bottlesMs: 'Wajib Untuk Kesemua 4 Formulasi Botani & Asid Amino Onyxmen',
+    instructionEn: 'Roasted Malaysian coffee (kopi O) and condensed-milk black tea (teh tarik) are rich in polyphenolic tannins that can chelate Zinc Bisglycinate and precipitate botanical alkaloids (eurycomanone, macamides, ginsenosides) in the gut. Always leave a 45-minute buffer between coffee/tea and your Onyxmen capsule.',
+    instructionMs: 'Kopi O dan teh tarik mengandungi tanin polifenol yang boleh mengikat mineral Zink serta memperlahankan penyerapan alkaloid herba (eurycomanone, macamides, ginsenosida) di dalam usus. Pastikan jarak masa sekurang-kurangnya 45 minit antara minuman berkafein/teh dan kapsul Onyxmen anda.',
   },
   {
     code: 'TIME-05',
@@ -2025,8 +2025,8 @@ function renderMultiBottleAcquisitionSection(lang = 'en-MY', primarySlug = 'hors
           <p>
             ${
               isMs
-                ? 'Setiap pesanan disahkan serta-merta melalui meja operasi Kuala Lumpur kami (sales@onyxman.my / info@onyxman.my / waleedshoaibofficial@gmail.com) dengan sokongan pembayaran FPX, DuitNow QR, dan Bayar Waktu Terima (COD).'
-                : 'Every reserve is routed directly to our Kuala Lumpur fulfilment desk (sales@onyxman.my / info@onyxman.my / waleedshoaibofficial@gmail.com) with instant WhatsApp dispatch coordination and FPX, DuitNow QR, or COD settlement.'
+                ? 'Setiap pesanan disahkan serta-merta melalui meja operasi Kuala Lumpur kami (sales@onyxmen.my / info@onyxmen.my / waleedshoaibofficial@gmail.com) dengan sokongan pembayaran FPX, DuitNow QR, dan Bayar Waktu Terima (COD).'
+                : 'Every reserve is routed directly to our Kuala Lumpur fulfilment desk (sales@onyxmen.my / info@onyxmen.my / waleedshoaibofficial@gmail.com) with instant WhatsApp dispatch coordination and FPX, DuitNow QR, or COD settlement.'
             }
           </p>
         </div>
@@ -2067,8 +2067,8 @@ function renderQuantitativeFormulationMatrixSection(lang = 'en-MY') {
           <h2 id="heading-quantitative-matrix" class="editorial-headline-lg">
             ${
               isMs
-                ? 'Matriks Dos Tepat Merentasi <span class="foil-champagne-text">Keempat-Empat Botol Onyxman (RM 159).</span>'
-                : 'Exact Milligram Architecture Across <span class="foil-champagne-text">All Four Onyxman Reserves (RM 159).</span>'
+                ? 'Matriks Dos Tepat Merentasi <span class="foil-champagne-text">Keempat-Empat Botol Onyxmen (RM 159).</span>'
+                : 'Exact Milligram Architecture Across <span class="foil-champagne-text">All Four Onyxmen Reserves (RM 159).</span>'
             }
           </h2>
         </div>
@@ -2076,8 +2076,8 @@ function renderQuantitativeFormulationMatrixSection(lang = 'en-MY') {
           <p>
             ${
               isMs
-                ? 'Onyxman Malaysia tidak menggunakan istilah kabur "campuran proprietari" yang menyembunyikan dos sebenar. Setiap kapsul 500mg hingga 600mg mempunyai pecahan miligram ekstrak piawai yang dinyatakan dengan tepat.'
-                : 'Onyxman Malaysia refuses to hide behind opaque "proprietary blends." Every 500mg to 600mg capsule discloses its exact milligram allocation of standardized botanical extracts, amino-acid precursors, and mineral cofactors.'
+                ? 'Onyxmen Malaysia tidak menggunakan istilah kabur "campuran proprietari" yang menyembunyikan dos sebenar. Setiap kapsul 500mg hingga 600mg mempunyai pecahan miligram ekstrak piawai yang dinyatakan dengan tepat.'
+                : 'Onyxmen Malaysia refuses to hide behind opaque "proprietary blends." Every 500mg to 600mg capsule discloses its exact milligram allocation of standardized botanical extracts, amino-acid precursors, and mineral cofactors.'
             }
           </p>
         </div>
@@ -2289,7 +2289,7 @@ function renderLabPuritySection(lang = 'en-MY') {
           <thead>
             <tr>
               <th>${isMs ? 'Dimensi Kualiti &amp; Bioketersediaan' : 'Analytical Quality &amp; Bioavailability Dimension'}</th>
-              <th>${isMs ? 'Ekstrak Piawai Apotekari Onyxman Malaysia (RM 159)' : 'Onyxman Malaysia Standardized Apothecary Extracts (RM 159)'}</th>
+              <th>${isMs ? 'Ekstrak Piawai Apotekari Onyxmen Malaysia (RM 159)' : 'Onyxmen Malaysia Standardized Apothecary Extracts (RM 159)'}</th>
               <th>${isMs ? 'Serbuk Akar Mentah / Produk Tanpa Piawaian di Pasaran' : 'Unstandardized Street Root Powder / Generic Listings'}</th>
             </tr>
           </thead>
@@ -2436,8 +2436,8 @@ function renderSecondaryCofactorsSection(lang = 'en-MY') {
           <p>
             ${
               isMs
-                ? 'Selain empat teras utama (Tongkat Ali, Tribulus, Maca Hitam, dan L-Arginine / L-Citrulline), setiap botol Onyxman diperkukuhkan dengan kofaktor khusus mengikut fungsi fisiologinya.'
-                : 'Alongside our four foundational actives (Tongkat Ali, Tribulus, Black Maca, and L-Arginine / L-Citrulline), each Onyxman reserve integrates targeted cofactors engineered to amplify absorption and receptor response.'
+                ? 'Selain empat teras utama (Tongkat Ali, Tribulus, Maca Hitam, dan L-Arginine / L-Citrulline), setiap botol Onyxmen diperkukuhkan dengan kofaktor khusus mengikut fungsi fisiologinya.'
+                : 'Alongside our four foundational actives (Tongkat Ali, Tribulus, Black Maca, and L-Arginine / L-Citrulline), each Onyxmen reserve integrates targeted cofactors engineered to amplify absorption and receptor response.'
             }
           </p>
         </div>
@@ -2455,16 +2455,16 @@ function renderSecondaryCofactorsSection(lang = 'en-MY') {
  */
 export const SHARED_BOTANICAL_FAQS = [
   {
-    questionEn: 'How do I verify that my Onyxman bottle (Horsemen, Hammer of Thor, Grow XL, or Magnum Pump XR) contains authentic standardized extracts?',
-    answerEn: 'Authentic Onyxman Malaysia bottles are distributed exclusively through https://www.onyxmen.my and dispatched directly from our Kuala Lumpur fulfilment vault (OM Fulfilment Logistics) with a tamper-evident heat-induction foil seal, crisp metallic label typography, and official SKU/GTIN batch traceability (ONYX-HM-20, ONYX-HT-20, ONYX-GX-30, ONYX-MP-30). You can verify any bottle directly with our concierge at sales@onyxman.my or info@onyxman.my.',
-    questionMs: 'Bagaimanakah cara mengesahkan botol Onyxman saya (Horsemen, Hammer of Thor, Grow XL, atau Magnum Pump XR) mengandungi ekstrak piawai yang tulen?',
-    answerMs: 'Botol tulen Onyxman Malaysia hanya diedarkan secara rasmi melalui https://www.onyxmen.my dan dihantar terus dari bilik kebal operasi Kuala Lumpur kami (OM Fulfilment Logistics) lengkap dengan penutup induksi haba kedap udara serta kod SKU/GTIN rasmi (ONYX-HM-20, ONYX-HT-20, ONYX-GX-30, ONYX-MP-30). Anda boleh menyemak ketulenan terus melalui sales@onyxman.my atau info@onyxman.my.',
+    questionEn: 'How do I verify that my Onyxmen bottle (Horsemen, Hammer of Thor, Grow XL, or Magnum Pump XR) contains authentic standardized extracts?',
+    answerEn: 'Authentic Onyxmen Malaysia bottles are distributed exclusively through https://www.onyxmen.my and dispatched directly from our Kuala Lumpur fulfilment vault (OM Fulfilment Logistics) with a tamper-evident heat-induction foil seal, crisp metallic label typography, and official SKU/GTIN batch traceability (ONYX-HM-20, ONYX-HT-20, ONYX-GX-30, ONYX-MP-30). You can verify any bottle directly with our concierge at sales@onyxmen.my or info@onyxmen.my.',
+    questionMs: 'Bagaimanakah cara mengesahkan botol Onyxmen saya (Horsemen, Hammer of Thor, Grow XL, atau Magnum Pump XR) mengandungi ekstrak piawai yang tulen?',
+    answerMs: 'Botol tulen Onyxmen Malaysia hanya diedarkan secara rasmi melalui https://www.onyxmen.my dan dihantar terus dari bilik kebal operasi Kuala Lumpur kami (OM Fulfilment Logistics) lengkap dengan penutup induksi haba kedap udara serta kod SKU/GTIN rasmi (ONYX-HM-20, ONYX-HT-20, ONYX-GX-30, ONYX-MP-30). Anda boleh menyemak ketulenan terus melalui sales@onyxmen.my atau info@onyxmen.my.',
   },
   {
-    questionEn: 'Are Onyxman botanical formulations registered prescription drugs or adult dietary supplements?',
-    answerEn: 'All Onyxman formulations (Horsemen, Hammer of Thor, Grow XL, and Magnum Pump XR) are 100% natural botanical and amino-acid dietary supplements formulated for adult men (18+) to support physical stamina, vitality, and vascular nutrition. They are not prescription pharmaceuticals, do not contain synthetic drugs, and are not intended to diagnose, treat, cure, or prevent any disease.',
-    questionMs: 'Adakah formulasi botani Onyxman merupakan ubat preskripsi hospital atau suplemen pemakanan lelaki dewasa?',
-    answerMs: 'Semua formulasi Onyxman (Horsemen, Hammer of Thor, Grow XL, dan Magnum Pump XR) ialah suplemen pemakanan botani dan asid amino semula jadi untuk lelaki dewasa (18+) bagi menyokong stamina fizikal, kecergasan, dan nutrisi vaskular. Ia bukan ubat preskripsi dan tidak bertujuan untuk mendiagnosis, merawat, atau menyembuhkan sebarang penyakit.',
+    questionEn: 'Are Onyxmen botanical formulations registered prescription drugs or adult dietary supplements?',
+    answerEn: 'All Onyxmen formulations (Horsemen, Hammer of Thor, Grow XL, and Magnum Pump XR) are 100% natural botanical and amino-acid dietary supplements formulated for adult men (18+) to support physical stamina, vitality, and vascular nutrition. They are not prescription pharmaceuticals, do not contain synthetic drugs, and are not intended to diagnose, treat, cure, or prevent any disease.',
+    questionMs: 'Adakah formulasi botani Onyxmen merupakan ubat preskripsi hospital atau suplemen pemakanan lelaki dewasa?',
+    answerMs: 'Semua formulasi Onyxmen (Horsemen, Hammer of Thor, Grow XL, dan Magnum Pump XR) ialah suplemen pemakanan botani dan asid amino semula jadi untuk lelaki dewasa (18+) bagi menyokong stamina fizikal, kecergasan, dan nutrisi vaskular. Ia bukan ubat preskripsi dan tidak bertujuan untuk mendiagnosis, merawat, atau menyembuhkan sebarang penyakit.',
   },
   {
     questionEn: 'How fast is discreet delivery to Kuala Lumpur, Selangor, Penang, Johor Bahru, Sabah, and Sarawak?',
@@ -2474,9 +2474,9 @@ export const SHARED_BOTANICAL_FAQS = [
   },
   {
     questionEn: 'How does the 10-Second Express Discreet Order Drawer work without exposing my privacy?',
-    answerEn: 'Clicking any "Acquire" or "Reserve" button on this monograph opens our encrypted Express Discreet Order Drawer. You simply select your formulation, choose 1 Bottle (RM 159), 2 Bottles (RM 318 — Free Nationwide Shipping), or 3 Bottles (RM 477), enter your recipient name or initials, delivery address, and preferred payment (FPX, DuitNow QR, or COD). Your order is routed straight to waleedshoaibofficial@gmail.com and sales@onyxman.my with a 1-click WhatsApp confirmation link and automated refill calendar reminder.',
+    answerEn: 'Clicking any "Acquire" or "Reserve" button on this monograph opens our encrypted Express Discreet Order Drawer. You simply select your formulation, choose 1 Bottle (RM 159), 2 Bottles (RM 318 — Free Nationwide Shipping), or 3 Bottles (RM 477), enter your recipient name or initials, delivery address, and preferred payment (FPX, DuitNow QR, or COD). Your order is routed straight to waleedshoaibofficial@gmail.com and sales@onyxmen.my with a 1-click WhatsApp confirmation link and automated refill calendar reminder.',
     questionMs: 'Bagaimanakah Laci Tempahan Ekspres Rahsia 10 Saat berfungsi untuk menjaga privasi saya?',
-    answerMs: 'Klik mana-mana butang tempahan pada halaman ini untuk membuka Laci Tempahan Ekspres Rahsia. Pilih formulasi pilihan anda, kuantiti 1 Botol (RM 159), 2 Botol (RM 318 — Pos Percuma Seluruh Malaysia), atau 3 Botol (RM 477), masukkan nama atau singkatan nama, alamat, dan kaedah bayaran (FPX, DuitNow QR, atau COD). Pesanan dihantar terus ke waleedshoaibofficial@gmail.com dan sales@onyxman.my bersama pautan pengesahan WhatsApp serta peringatan kalendar automatik.',
+    answerMs: 'Klik mana-mana butang tempahan pada halaman ini untuk membuka Laci Tempahan Ekspres Rahsia. Pilih formulasi pilihan anda, kuantiti 1 Botol (RM 159), 2 Botol (RM 318 — Pos Percuma Seluruh Malaysia), atau 3 Botol (RM 477), masukkan nama atau singkatan nama, alamat, dan kaedah bayaran (FPX, DuitNow QR, atau COD). Pesanan dihantar terus ke waleedshoaibofficial@gmail.com dan sales@onyxmen.my bersama pautan pengesahan WhatsApp serta peringatan kalendar automatik.',
   },
 ];
 
@@ -2500,12 +2500,12 @@ export function renderIndividualMonographPage(dossier, lang = 'en-MY') {
 
   const breadcrumbs = isMs
     ? [
-        { name: 'Utama Onyxman Malaysia', url: '/ms/' },
+        { name: 'Utama Onyxmen Malaysia', url: '/ms/' },
         { name: 'Monograf Apotekari Botani', url: '/ms/ingredients/' },
         { name: baseLoc.commonTitle, url: canonicalPath },
       ]
     : [
-        { name: 'Onyxman Malaysia Home', url: '/' },
+        { name: 'Onyxmen Malaysia Home', url: '/' },
         { name: 'Botanical Apothecary Monographs', url: '/ingredients/' },
         { name: baseLoc.commonTitle, url: canonicalPath },
       ];
@@ -2528,14 +2528,14 @@ export function renderIndividualMonographPage(dossier, lang = 'en-MY') {
         dossier.scientificName,
         dossier.activeBioMarker,
         "Adult Men's Botanical Vitality Supplement Malaysia",
-        'Onyxman Malaysia Apothecary Standardization',
+        'Onyxmen Malaysia Apothecary Standardization',
       ],
     },
     breadcrumbs,
     faqs: allFaqs,
   });
 
-  // Render Anchor Dosages across the 4 Onyxman products
+  // Render Anchor Dosages across the 4 Onyxmen products
   const anchorDosagesHtml = dossier.anchorDosages
     .map((ad, idx) => {
       const prodObj = productsById[ad.productSlug] || allProducts[0];
@@ -2704,7 +2704,7 @@ export function renderIndividualMonographPage(dossier, lang = 'en-MY') {
 
     <nav class="botanical-cinema-hero__breadcrumb-bar" aria-label="${isMs ? 'Jejak Navigasi Monograf' : 'Monograph Breadcrumb Navigation'}">
       <div class="botanical-cinema-hero__crumbs">
-        <a href="${isMs ? '/ms/' : '/'}">${isMs ? 'Apotekari Onyxman' : 'Onyxman Apothecary'}</a>
+        <a href="${isMs ? '/ms/' : '/'}">${isMs ? 'Apotekari Onyxmen' : 'Onyxmen Apothecary'}</a>
         <span aria-hidden="true">/</span>
         <a href="${isMs ? '/ms/ingredients/' : '/ingredients/'}">${isMs ? 'Monograf Botani' : 'Botanical Monographs'}</a>
         <span aria-hidden="true">/</span>
@@ -2782,7 +2782,7 @@ export function renderIndividualMonographPage(dossier, lang = 'en-MY') {
         </div>
         <div style="text-align:center;max-width:460px;">
           <span style="font-size:0.68rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold-champagne);">
-            ${isMs ? 'PIAWAian MAKMAL RASMI ONYXMAN MALAYSIA' : 'OFFICIAL ONYXMAN MALAYSIA APOTHECARY STANDARD'}
+            ${isMs ? 'PIAWAian MAKMAL RASMI ONYXMEN MALAYSIA' : 'OFFICIAL ONYXMEN MALAYSIA APOTHECARY STANDARD'}
           </span>
           <p style="font-size:0.82rem;color:var(--text-muted-alabaster);margin-top:0.3rem;">
             ${esc(dossier.standardization)}
@@ -2862,7 +2862,7 @@ export function renderIndividualMonographPage(dossier, lang = 'en-MY') {
           <source srcset="${esc(dossier.portraitImage)}" type="image/webp" />
           <img
             src="${esc(dossier.portraitImage.replace('.webp', '.png'))}"
-            alt="${esc(baseLoc.commonTitle)} — Onyxman Malaysia"
+            alt="${esc(baseLoc.commonTitle)} — Onyxmen Malaysia"
             width="800"
             height="1000"
             loading="lazy"
@@ -2911,7 +2911,7 @@ export function renderIndividualMonographPage(dossier, lang = 'en-MY') {
           ${
             isMs
               ? 'Mengapa Kami Menolak Serbuk Mentah &amp; Memilih Ekstrak Piawai Berkepekatan Tinggi.'
-              : 'Why Onyxman Rejects Raw Pulverized Bark In Favor Of Standardized Bio-Active Extracts.'
+              : 'Why Onyxmen Rejects Raw Pulverized Bark In Favor Of Standardized Bio-Active Extracts.'
           }
         </h3>
         <p style="color:var(--text-muted-alabaster);font-size:0.98rem;line-height:1.76;">
@@ -2944,7 +2944,7 @@ export function renderIndividualMonographPage(dossier, lang = 'en-MY') {
 
       <article class="botanical-split-5050__chapter">
         <span class="editorial-kicker">
-          ${isMs ? 'BAB 03 · SINERGI MERENTASI FORMULASI ONYXMAN' : 'CHAPTER 03 · SYNERGY ACROSS ONYXMAN FORMULATIONS'}
+          ${isMs ? 'BAB 03 · SINERGI MERENTASI FORMULASI ONYXMEN' : 'CHAPTER 03 · SYNERGY ACROSS ONYXMEN FORMULATIONS'}
         </span>
         <h3 class="editorial-headline-lg" style="font-size:clamp(1.65rem,2.4vw,2.35rem);">
           ${
@@ -2954,14 +2954,14 @@ export function renderIndividualMonographPage(dossier, lang = 'en-MY') {
           }
         </h3>
         <p style="color:var(--text-muted-alabaster);font-size:0.98rem;line-height:1.76;" class="protocol-key-takeaways">
-          ${esc(baseLoc.synergyInOnyxman)}
+          ${esc(baseLoc.synergyInOnyxmen)}
         </p>
       </article>
     </div>
   </section>
 
   <!-- ==========================================================================
-       CHAPTER III — EXACT MILLIGRAM DOSAGE LEDGER ACROSS ONYXMAN BOTTLES
+       CHAPTER III — EXACT MILLIGRAM DOSAGE LEDGER ACROSS ONYXMEN BOTTLES
        ========================================================================== -->
   <section
     id="monograph-bottle-dosages"
@@ -2981,8 +2981,8 @@ export function renderIndividualMonographPage(dossier, lang = 'en-MY') {
           <h2 id="heading-monograph-bottle-dosages" class="editorial-headline-lg">
             ${
               isMs
-                ? `Dos Tepat ${esc(baseLoc.commonTitle)} Dalam <span class="foil-champagne-text">Setiap Botol Onyxman Malaysia.</span>`
-                : `How ${esc(baseLoc.commonTitle)} Anchors <span class="foil-champagne-text">Each Onyxman Malaysia Bottle.</span>`
+                ? `Dos Tepat ${esc(baseLoc.commonTitle)} Dalam <span class="foil-champagne-text">Setiap Botol Onyxmen Malaysia.</span>`
+                : `How ${esc(baseLoc.commonTitle)} Anchors <span class="foil-champagne-text">Each Onyxmen Malaysia Bottle.</span>`
             }
           </h2>
         </div>
@@ -3095,8 +3095,8 @@ export function renderIndividualMonographPage(dossier, lang = 'en-MY') {
           <p>
             ${
               isMs
-                ? 'Perlukan panduan peribadi memilih antara Horsemen, Hammer of Thor, Grow XL, atau Magnum Pump XR? Hubungi meja privasi kami di sales@onyxman.my atau info@onyxman.my.'
-                : 'Need private guidance selecting between Horsemen, Hammer of Thor, Grow XL, or Magnum Pump XR? Contact our Kuala Lumpur concierge desk at sales@onyxman.my or info@onyxman.my.'
+                ? 'Perlukan panduan peribadi memilih antara Horsemen, Hammer of Thor, Grow XL, atau Magnum Pump XR? Hubungi meja privasi kami di sales@onyxmen.my atau info@onyxmen.my.'
+                : 'Need private guidance selecting between Horsemen, Hammer of Thor, Grow XL, or Magnum Pump XR? Contact our Kuala Lumpur concierge desk at sales@onyxmen.my or info@onyxmen.my.'
             }
           </p>
         </div>
@@ -3122,8 +3122,8 @@ export function renderIndividualMonographPage(dossier, lang = 'en-MY') {
           <span class="editorial-kicker">
             ${
               isMs
-                ? 'ENSIKLOPEDIA FITOKIMIA ONYXMAN · TEROKA SEMUA 4 MONOGRAF UTAMA'
-                : 'ONYXMAN PHYTOCHEMICAL ENCYCLOPEDIA · EXPLORE ALL 4 MASTER MONOGRAPHS'
+                ? 'ENSIKLOPEDIA FITOKIMIA ONYXMEN · TEROKA SEMUA 4 MONOGRAF UTAMA'
+                : 'ONYXMEN PHYTOCHEMICAL ENCYCLOPEDIA · EXPLORE ALL 4 MASTER MONOGRAPHS'
             }
           </span>
           <h2 id="heading-all-monographs-nav" class="editorial-headline-lg">
@@ -3175,12 +3175,12 @@ export function renderMasterBotanicalIndexPage(lang = 'en-MY') {
   const alternatePathMs = '/ms/ingredients/';
 
   const title = isMs
-    ? 'Monograf Apotekari Botani Onyxman Malaysia — Sains Ekstrak Tongkat Ali 100:1, Tribulus 60% Saponin, Maca Hitam & L-Arginine | RM 159'
-    : 'Onyxman Malaysia Botanical Apothecary Monographs — Standardized Tongkat Ali 100:1, 60%-Saponin Tribulus, Black Maca & L-Arginine Science | RM 159';
+    ? 'Monograf Apotekari Botani Onyxmen Malaysia — Sains Ekstrak Tongkat Ali 100:1, Tribulus 60% Saponin, Maca Hitam & L-Arginine | RM 159'
+    : 'Onyxmen Malaysia Botanical Apothecary Monographs — Standardized Tongkat Ali 100:1, 60%-Saponin Tribulus, Black Maca & L-Arginine Science | RM 159';
 
   const description = isMs
-    ? 'Ensiklopedia fitokimia dan asid amino rasmi Onyxman Malaysia: teroka monograf penuh Akar Tongkat Ali 100:1 (Eurycomanone), Tribulus Terrestris 60% Saponin, Akar Maca Hitam Peru, dan Laluan Nitrik Oksida L-Arginine + L-Citrulline dalam Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR.'
-    : 'Official Onyxman Malaysia botanical and amino-acid monograph encyclopedia: explore HPLC-standardized Malaysian Tongkat Ali 100:1 (Eurycomanone), 60%-Saponin Tribulus Terrestris, Gelatinized Peruvian Black Maca, and Extended-Release L-Arginine + L-Citrulline across Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR.';
+    ? 'Ensiklopedia fitokimia dan asid amino rasmi Onyxmen Malaysia: teroka monograf penuh Akar Tongkat Ali 100:1 (Eurycomanone), Tribulus Terrestris 60% Saponin, Akar Maca Hitam Peru, dan Laluan Nitrik Oksida L-Arginine + L-Citrulline dalam Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR.'
+    : 'Official Onyxmen Malaysia botanical and amino-acid monograph encyclopedia: explore HPLC-standardized Malaysian Tongkat Ali 100:1 (Eurycomanone), 60%-Saponin Tribulus Terrestris, Gelatinized Peruvian Black Maca, and Extended-Release L-Arginine + L-Citrulline across Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR.';
 
   const indexFaqs = [
     ...MONOGRAPH_DOSSIERS.map((d) => (isMs ? d.ms.faqs[0] : d.en.faqs[0])),
@@ -3190,11 +3190,11 @@ export function renderMasterBotanicalIndexPage(lang = 'en-MY') {
 
   const breadcrumbs = isMs
     ? [
-        { name: 'Utama Onyxman Malaysia', url: '/ms/' },
+        { name: 'Utama Onyxmen Malaysia', url: '/ms/' },
         { name: 'Indeks Monograf Apotekari Botani', url: '/ms/ingredients/' },
       ]
     : [
-        { name: 'Onyxman Malaysia Home', url: '/' },
+        { name: 'Onyxmen Malaysia Home', url: '/' },
         { name: 'Master Botanical Apothecary Index', url: '/ingredients/' },
       ];
 
@@ -3270,7 +3270,7 @@ export function renderMasterBotanicalIndexPage(lang = 'en-MY') {
 
         <div style="border-top:1px solid rgba(212,175,55,0.28);margin-top:0.5rem;padding-top:0.5rem;">
           <div style="font-size:0.72rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold-champagne);margin-bottom:0.35rem;">
-            ${isMs ? 'DOS TERAS DALAM FORMULASI ONYXMAN:' : 'ANCHOR DOSAGES ACROSS ONYXMAN BOTTLES:'}
+            ${isMs ? 'DOS TERAS DALAM FORMULASI ONYXMEN:' : 'ANCHOR DOSAGES ACROSS ONYXMEN BOTTLES:'}
           </div>
           ${anchorRows}
         </div>
@@ -3376,7 +3376,7 @@ export function renderMasterBotanicalIndexPage(lang = 'en-MY') {
 
     <nav class="botanical-cinema-hero__breadcrumb-bar" aria-label="${isMs ? 'Navigasi Jejak Apotekari' : 'Apothecary Breadcrumb Navigation'}">
       <div class="botanical-cinema-hero__crumbs">
-        <a href="${isMs ? '/ms/' : '/'}">${isMs ? 'Apotekari Onyxman Malaysia' : 'Onyxman Malaysia Apothecary'}</a>
+        <a href="${isMs ? '/ms/' : '/'}">${isMs ? 'Apotekari Onyxmen Malaysia' : 'Onyxmen Malaysia Apothecary'}</a>
         <span aria-hidden="true">/</span>
         <span style="color:var(--gold-foil-bright);">
           ${isMs ? 'Indeks Monograf Fitokimia &amp; Asid Amino' : 'Master Botanical &amp; Amino-Acid Monograph Vault'}
@@ -3400,8 +3400,8 @@ export function renderMasterBotanicalIndexPage(lang = 'en-MY') {
         <h1 id="master-botanical-hero-title" class="editorial-headline-xl">
           ${
             isMs
-              ? 'Monograf Apotekari Botani Onyxman — <span class="foil-champagne-text">Sains Ekstrak Piawai Tanpa Serbuk Kayu Mentah.</span>'
-              : 'Onyxman Botanical Apothecary Monographs — <span class="foil-champagne-text">Standardized Phytochemistry Without Raw Bark Fillers.</span>'
+              ? 'Monograf Apotekari Botani Onyxmen — <span class="foil-champagne-text">Sains Ekstrak Piawai Tanpa Serbuk Kayu Mentah.</span>'
+              : 'Onyxmen Botanical Apothecary Monographs — <span class="foil-champagne-text">Standardized Phytochemistry Without Raw Bark Fillers.</span>'
           }
         </h1>
 
@@ -3418,8 +3418,8 @@ export function renderMasterBotanicalIndexPage(lang = 'en-MY') {
         <p class="botanical-cinema-hero__lead article-executive-summary">
           ${
             isMs
-              ? 'Kebanyakan kapsul herba biasa di pasaran jalanan hanya mengandungi serbuk akar kayu mentah yang terdiri daripada 85% serat selulosa sukar hadam. Di Onyxman Malaysia, setiap kapsul Horsemen, Hammer of Thor, Grow XL, dan Magnum Pump XR dirumus dengan ekstrak air ultrasonik bernisbah tinggi (100:1), saponin steroid furostanol 60%, ubi Maca Hitam tergelatinisasi bebas kanji, serta asid amino L-Arginine HCl dan L-Citrulline Malate gred farmaseutikal.'
-              : 'Unstandardized street capsules contain mostly pulverized wood bark—85% indigestible cellulose fiber that never crosses the intestinal wall. At Onyxman Malaysia, every capsule of Horsemen, Hammer of Thor, Grow XL, and Magnum Pump XR is formulated exclusively with HPLC-standardized aqueous extracts (100:1 Eurycoma longifolia), 60%-protodioscin Tribulus terrestris, starch-cleaved 10:1 Peruvian Black Maca, and Extended-Release L-Arginine HCl + L-Citrulline Malate.'
+              ? 'Kebanyakan kapsul herba biasa di pasaran jalanan hanya mengandungi serbuk akar kayu mentah yang terdiri daripada 85% serat selulosa sukar hadam. Di Onyxmen Malaysia, setiap kapsul Horsemen, Hammer of Thor, Grow XL, dan Magnum Pump XR dirumus dengan ekstrak air ultrasonik bernisbah tinggi (100:1), saponin steroid furostanol 60%, ubi Maca Hitam tergelatinisasi bebas kanji, serta asid amino L-Arginine HCl dan L-Citrulline Malate gred farmaseutikal.'
+              : 'Unstandardized street capsules contain mostly pulverized wood bark—85% indigestible cellulose fiber that never crosses the intestinal wall. At Onyxmen Malaysia, every capsule of Horsemen, Hammer of Thor, Grow XL, and Magnum Pump XR is formulated exclusively with HPLC-standardized aqueous extracts (100:1 Eurycoma longifolia), 60%-protodioscin Tribulus terrestris, starch-cleaved 10:1 Peruvian Black Maca, and Extended-Release L-Arginine HCl + L-Citrulline Malate.'
           }
         </p>
 
@@ -3431,7 +3431,7 @@ export function renderMasterBotanicalIndexPage(lang = 'en-MY') {
             data-order-product="horsemen"
             data-order-qty="1"
           >
-            <span>${isMs ? 'TEMPAH FORMULASI ONYXMAN · RM 159' : 'RESERVE ONYXMAN FORMULATION · RM 159'}</span>
+            <span>${isMs ? 'TEMPAH FORMULASI ONYXMEN · RM 159' : 'RESERVE ONYXMEN FORMULATION · RM 159'}</span>
             <span aria-hidden="true">→</span>
           </button>
           <a href="#master-paradigm-d-monograph-curtain" class="cta-hairline-secondary">
@@ -3507,7 +3507,7 @@ export function renderMasterBotanicalIndexPage(lang = 'en-MY') {
           ${
             isMs
               ? 'Empat Teras Fitokimia &amp; Prekursor Nitrik Oksida <span class="foil-champagne-text">Berpiawaian Makmal.</span>'
-              : 'Four Standardized Botanical &amp; Vascular Pillars <span class="foil-champagne-text">Powering Onyxman.my.</span>'
+              : 'Four Standardized Botanical &amp; Vascular Pillars <span class="foil-champagne-text">Powering Onyxmen.my.</span>'
           }
         </h2>
       </div>
@@ -3517,7 +3517,7 @@ export function renderMasterBotanicalIndexPage(lang = 'en-MY') {
           <source srcset="/assets/products/horsemen-stage.webp" type="image/webp" />
           <img
             src="/assets/products/horsemen-stage.png"
-            alt="Onyxman Malaysia Botanical Monographs"
+            alt="Onyxmen Malaysia Botanical Monographs"
             width="1000"
             height="750"
             loading="lazy"
@@ -3613,7 +3613,7 @@ export function renderMasterBotanicalIndexPage(lang = 'en-MY') {
           <h2 id="heading-master-16-fractions" class="editorial-headline-lg">
             ${
               isMs
-                ? 'Jadual Induk 16 Fraksi Fitokimia &amp; <span class="foil-champagne-text">Penanda Bioaktif Onyxman.</span>'
+                ? 'Jadual Induk 16 Fraksi Fitokimia &amp; <span class="foil-champagne-text">Penanda Bioaktif Onyxmen.</span>'
                 : 'Master Assay Table Of All 16 <span class="foil-champagne-text">Standardized Bioactive Fractions.</span>'
             }
           </h2>
@@ -3658,8 +3658,8 @@ export function renderMasterBotanicalIndexPage(lang = 'en-MY') {
           <span class="editorial-kicker">
             ${
               isMs
-                ? 'SOALAN LAZIM ENSIKLOPEDIA BOTANI ONYXMAN MALAYSIA'
-                : 'ONYXMAN MALAYSIA BOTANICAL ENCYCLOPEDIA FAQ LEDGER'
+                ? 'SOALAN LAZIM ENSIKLOPEDIA BOTANI ONYXMEN MALAYSIA'
+                : 'ONYXMEN MALAYSIA BOTANICAL ENCYCLOPEDIA FAQ LEDGER'
             }
           </span>
           <h2 id="heading-master-botanical-faqs" class="editorial-headline-lg">
@@ -3749,7 +3749,7 @@ export function buildAllBotanicalMonographs() {
 if (process.argv[1] && path.resolve(process.argv[1]) === __filename) {
   const builtFiles = buildAllBotanicalMonographs();
   console.log('================================================================================');
-  console.log('ONYXMAN.MY — BILINGUAL BOTANICAL MONOGRAPHS BUILD COMPLETE (MS-123 TO MS-130)');
+  console.log('ONYXMEN.MY — BILINGUAL BOTANICAL MONOGRAPHS BUILD COMPLETE (MS-123 TO MS-130)');
   console.log('================================================================================');
   const bannedTokens = [
     '#' + 'FAF8F5',

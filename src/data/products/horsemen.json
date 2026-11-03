@@ -3,7 +3,7 @@
   "id": "horsemen",
   "slug": "horsemen",
   "name": "Horsemen",
-  "brand": "Onyxman",
+  "brand": "Onyxmen",
   "brandUrl": "https://www.onyxmen.my",
   "sku": "ONYX-HM-20",
   "skuLegacyAlias": "ONYX-HM-20MY",
@@ -37,8 +37,8 @@
     "stagePng": "/assets/products/horsemen-stage.png",
     "portraitWebp": "/assets/products/horsemen-portrait.webp",
     "portraitPng": "/assets/products/horsemen-portrait.png",
-    "altEn": "Horsemen Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg Official Onyxman Malaysia Bottle (RM 159)",
-    "altMs": "Horsemen Suplemen Herba Stamina Lelaki — 20 Kapsul x 500mg Botol Rasmi Onyxman Malaysia (RM 159)"
+    "altEn": "Horsemen Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg Official Onyxmen Malaysia Bottle (RM 159)",
+    "altMs": "Horsemen Suplemen Herba Stamina Lelaki — 20 Kapsul x 500mg Botol Rasmi Onyxmen Malaysia (RM 159)"
   },
   "pricing": {
     "currency": "MYR",
@@ -107,29 +107,29 @@
     "capsuleCount": 20,
     "capsuleStrengthMg": 500,
     "refillReminderDay": 18,
-    "calendarAlertTitleEn": "Onyxman Malaysia — Horsemen Day-18 Refill Check-In (RM 159)",
-    "calendarAlertTitleMs": "Onyxman Malaysia — Peringatan Bekalan Hari Ke-18 Horsemen (RM 159)",
+    "calendarAlertTitleEn": "Onyxmen Malaysia — Horsemen Day-18 Refill Check-In (RM 159)",
+    "calendarAlertTitleMs": "Onyxmen Malaysia — Peringatan Bekalan Hari Ke-18 Horsemen (RM 159)",
     "protocolSummaryEn": "Designed around a 20-capsule x 500mg precision reserve. Our automated Google Calendar and WhatsApp concierge triggers a discreet refill reminder on Day 18 so your botanical momentum experiences zero interruption while courier transit completes within 1–2 business days.",
     "protocolSummaryMs": "Dirangka khusus untuk kitaran 20 kapsul x 500mg. Sistem peringatan Google Calendar dan WhatsApp kami menetapkan notis bekalan semula pada Hari Ke-18 supaya kesinambungan tenaga botani anda tidak terputus sementara penghantaran ekspres tiba dalam 1–2 hari bekerja."
   },
   "locales": {
     "en-MY": {
-      "seoTitle": "Horsemen (20 Capsules x 500mg) — Man Virility Enhancement Herbal Supplement | RM 159 Onyxman Malaysia",
-      "metaDescription": "Reserve authentic Horsemen (20 Capsules x 500mg, SKU ONYX-HM-20) at RM 159 on Onyxman.my. Formulated with Tongkat Ali 100:1, Black Maca, Panax Ginseng & L-Arginine. 100% discreet unmarked shipping across Malaysia with FPX, DuitNow QR & COD.",
+      "seoTitle": "Horsemen (20 Capsules x 500mg) — Man Virility Enhancement Herbal Supplement | RM 159 Onyxmen Malaysia",
+      "metaDescription": "Reserve authentic Horsemen (20 Capsules x 500mg, SKU ONYX-HM-20) at RM 159 on Onyxmen.my. Formulated with Tongkat Ali 100:1, Black Maca, Panax Ginseng & L-Arginine. 100% discreet unmarked shipping across Malaysia with FPX, DuitNow QR & COD.",
       "heroEyebrow": "FORMULATION I • 20 CAPSULES × 500MG HERBAL APOTHECARY RESERVE",
       "heroHeadline": "Horsemen — High-Density 500mg Botanical Virility & Evening Stamina Protocol",
       "heroSubheadline": "Engineered for adult men in Malaysia demanding rapid evening readiness and sustained physical endurance. Each 500mg capsule unites standardized Malaysian Eurycoma longifolia (Tongkat Ali), Peruvian Black Maca, Korean Red Ginseng, and L-Arginine HCl.",
-      "positioningSummary": "Horsemen is Onyxman Malaysia's flagship 20-capsule x 500mg herbal supplement crafted for men who prefer a concentrated, dual-mode botanical reserve. Whether taken 45–60 minutes prior to high-output evening activity or on a structured 20-day daily conditioning schedule, its 500mg botanical matrix supports natural vitality, physical stamina, and post-work energy resilience without jittery synthetic stimulants.",
+      "positioningSummary": "Horsemen is Onyxmen Malaysia's flagship 20-capsule x 500mg herbal supplement crafted for men who prefer a concentrated, dual-mode botanical reserve. Whether taken 45–60 minutes prior to high-output evening activity or on a structured 20-day daily conditioning schedule, its 500mg botanical matrix supports natural vitality, physical stamina, and post-work energy resilience without jittery synthetic stimulants.",
       "idealUserProfile": "Corporate professionals, entrepreneurs, and active adult men (18+) in Malaysia experiencing late-evening fatigue who want a concentrated 500mg herbal capsule that supports both evening readiness and full-body physical endurance.",
       "sensoryAndCraftNotes": "Encapsulated at 500mg per serving inside a tamper-evident obsidian-black apothecary bottle with metallic crimson-and-gold crest detailing. Zero chalky tablet binders; rapid warm-water dissolution within 20–30 minutes."
     },
     "ms-MY": {
-      "seoTitle": "Horsemen (20 Kapsul x 500mg) — Suplemen Herba Kecergasan & Stamina Lelaki | RM 159 Onyxman Malaysia",
-      "metaDescription": "Dapatkan Horsemen tulen (20 Kapsul x 500mg, SKU ONYX-HM-20) pada harga rasmi RM 159 di Onyxman.my. Gabungan Tongkat Ali 100:1, Maca Hitam, Panax Ginseng & L-Arginine. Penghantaran rahsia tanpa nama produk ke seluruh Malaysia (FPX, DuitNow & COD).",
+      "seoTitle": "Horsemen (20 Kapsul x 500mg) — Suplemen Herba Kecergasan & Stamina Lelaki | RM 159 Onyxmen Malaysia",
+      "metaDescription": "Dapatkan Horsemen tulen (20 Kapsul x 500mg, SKU ONYX-HM-20) pada harga rasmi RM 159 di Onyxmen.my. Gabungan Tongkat Ali 100:1, Maca Hitam, Panax Ginseng & L-Arginine. Penghantaran rahsia tanpa nama produk ke seluruh Malaysia (FPX, DuitNow & COD).",
       "heroEyebrow": "FORMULASI I • 20 KAPSUL × 500MG RIZAB APOTEKARI HERBA",
       "heroHeadline": "Horsemen — Protokol Herba Berkepekatan Tinggi 500mg untuk Stamina & Tenaga Malam",
       "heroSubheadline": "Dirumus khas untuk lelaki dewasa di Malaysia yang mengutamakan kesediaan tenaga malam dan ketahanan fizikal berpanjangan. Setiap kapsul 500mg menggabungkan ekstrak Tongkat Ali Malaysia, Maca Hitam Peru, Ginseng Merah Korea, dan L-Arginine HCl.",
-      "positioningSummary": "Horsemen ialah formulasi 20 kapsul x 500mg pilihan utama di Onyxman Malaysia bagi lelaki yang mahukan kapsul herba padat dengan fleksibiliti penggunaan. Sama ada diambil 45–60 minit sebelum aktiviti malam atau diamalkan secara harian selama 20 hari, matriks 500mg ini menyokong kecergasan semula jadi, stamina fizikal, dan pemulihan tenaga selepas waktu kerja yang panjang.",
+      "positioningSummary": "Horsemen ialah formulasi 20 kapsul x 500mg pilihan utama di Onyxmen Malaysia bagi lelaki yang mahukan kapsul herba padat dengan fleksibiliti penggunaan. Sama ada diambil 45–60 minit sebelum aktiviti malam atau diamalkan secara harian selama 20 hari, matriks 500mg ini menyokong kecergasan semula jadi, stamina fizikal, dan pemulihan tenaga selepas waktu kerja yang panjang.",
       "idealUserProfile": "Golongan profesional, usahawan, dan lelaki dewasa aktif (18+) di Malaysia yang sering keletihan pada waktu malam dan memerlukan kapsul herba 500mg berkepekatan tinggi untuk menyokong tenaga serta ketahanan fizikal.",
       "sensoryAndCraftNotes": "Dikapsulkan tepat pada 500mg setiap biji di dalam botol hitam obsidian kedap udara dengan kemasan merah metalik dan emas. Tanpa bahan pengikat tablet kapur; mudah larut bersama air suam dalam masa 20–30 minit."
     }
@@ -238,13 +238,13 @@
       "stage": "Days 15–20 (Day-18 Refill Trigger)",
       "titleEn": "Full 20-Capsule Cycle Peak & Seamless Transition",
       "titleMs": "Hari 15–20 (Notis Bekalan Hari Ke-18): Kemuncak Kitaran 20 Kapsul",
-      "detailEn": "Peak botanical conditioning achieved across all 6 actives. On Day 18, Onyxman's automated calendar/WhatsApp reminder alerts you to secure your next bottle so your cycle continues without a gap.",
-      "detailMs": "Tahap kecergasan botani mencapai keseimbangan penuh. Pada Hari Ke-18, peringatan automatik Onyxman memastikan botol seterusnya sempat tiba tanpa gangguan kitaran."
+      "detailEn": "Peak botanical conditioning achieved across all 6 actives. On Day 18, Onyxmen's automated calendar/WhatsApp reminder alerts you to secure your next bottle so your cycle continues without a gap.",
+      "detailMs": "Tahap kecergasan botani mencapai keseimbangan penuh. Pada Hari Ke-18, peringatan automatik Onyxmen memastikan botol seterusnya sempat tiba tanpa gangguan kitaran."
     }
   ],
   "discreetShippingAndCheckout": {
-    "unmarkedParcelEn": "Shipped in a 100% plain, unbranded matte security parcel. The outer courier label lists only 'OM Fulfilment Logistics (Kuala Lumpur)' with zero mention of Horsemen, Onyxman, or men's supplements.",
-    "unmarkedParcelMs": "Dihantar di dalam bungkusan keselamatan legap tanpa sebarang logo atau jenama. Slip kurier hanya memaparkan 'OM Fulfilment Logistics (Kuala Lumpur)' tanpa menyebut nama Horsemen, Onyxman, atau suplemen lelaki.",
+    "unmarkedParcelEn": "Shipped in a 100% plain, unbranded matte security parcel. The outer courier label lists only 'OM Fulfilment Logistics (Kuala Lumpur)' with zero mention of Horsemen, Onyxmen, or men's supplements.",
+    "unmarkedParcelMs": "Dihantar di dalam bungkusan keselamatan legap tanpa sebarang logo atau jenama. Slip kurier hanya memaparkan 'OM Fulfilment Logistics (Kuala Lumpur)' tanpa menyebut nama Horsemen, Onyxmen, atau suplemen lelaki.",
     "westMalaysiaEtaEn": "1–2 Business Days via NinjaVan Discreet, J&T VIP, or PosLaju Priority (Free Shipping on 1, 2, or 3 bottles).",
     "westMalaysiaEtaMs": "1–2 Hari Bekerja melalui NinjaVan, J&T VIP, atau PosLaju (Penghantaran Percuma untuk 1, 2, atau 3 botol).",
     "eastMalaysiaEtaEn": "2–4 Business Days to Sabah, Sarawak & Labuan via Discreet Air Freight (RM 12 for 1 bottle; Free on 2+ bottles).",
@@ -268,16 +268,16 @@
       "aMs": "Horsemen dirumus dengan tumpuan ekstrak Tongkat Ali 100:1, Maca Hitam Peru, Epimedium dan Ginseng Merah Korea untuk kesediaan tenaga malam yang pantas serta penggunaan dwi-mod. Hammer of Thor pula menumpukan kepada Tribulus Terrestris bersaponin tinggi di dalam kapsul vegetarian untuk bina stamina fizikal harian."
     },
     {
-      "qEn": "Why does Onyxman set a Day-18 refill reminder for Horsemen?",
+      "qEn": "Why does Onyxmen set a Day-18 refill reminder for Horsemen?",
       "aEn": "Because Horsemen contains 20 capsules, a customer taking 1 capsule daily has 2 capsules remaining on Day 18. Triggering a discreet reminder on Day 18 allows 1–2 business days for Peninsular Malaysia courier delivery so your next bottle arrives on Day 20 with zero gap in your routine.",
-      "qMs": "Mengapakah Onyxman menetapkan peringatan bekalan semula pada Hari Ke-18 untuk Horsemen?",
+      "qMs": "Mengapakah Onyxmen menetapkan peringatan bekalan semula pada Hari Ke-18 untuk Horsemen?",
       "aMs": "Memandangkan Horsemen mengandungi 20 kapsul, pengguna yang mengambil 1 kapsul sehari akan mempunyai baki 2 kapsul pada Hari Ke-18. Peringatan pada Hari Ke-18 memberi ruang 1–2 hari bekerja untuk penghantaran kurier supaya botol baharu tiba tepat pada Hari Ke-20 tanpa sebarang gangguan kitaran."
     },
     {
       "qEn": "What is the official price of Horsemen in Malaysia and are multi-bottle bundles available?",
-      "aEn": "The official Onyxman Malaysia price is RM 159 for 1 bottle (20 capsules), RM 318 for 2 bottles (40 capsules + Free Nationwide Shipping including Sabah & Sarawak), and RM 477 for the 3-bottle 60-capsule Mastery Vault.",
+      "aEn": "The official Onyxmen Malaysia price is RM 159 for 1 bottle (20 capsules), RM 318 for 2 bottles (40 capsules + Free Nationwide Shipping including Sabah & Sarawak), and RM 477 for the 3-bottle 60-capsule Mastery Vault.",
       "qMs": "Berapakah harga rasmi Horsemen di Malaysia dan adakah pakej lebih daripada satu botol ditawarkan?",
-      "aMs": "Harga rasmi di Onyxman Malaysia ialah RM 159 untuk 1 botol (20 kapsul), RM 318 untuk 2 botol (40 kapsul + Penghantaran Percuma ke seluruh Malaysia termasuk Sabah & Sarawak), dan RM 477 untuk pakej lengkap 3 botol (60 kapsul)."
+      "aMs": "Harga rasmi di Onyxmen Malaysia ialah RM 159 untuk 1 botol (20 kapsul), RM 318 untuk 2 botol (40 kapsul + Penghantaran Percuma ke seluruh Malaysia termasuk Sabah & Sarawak), dan RM 477 untuk pakej lengkap 3 botol (60 kapsul)."
     },
     {
       "qEn": "Will the courier driver or my family/office receptionist know what is inside the parcel?",
@@ -305,9 +305,9 @@
     },
     {
       "qEn": "How do I place an order if I prefer email or WhatsApp confirmation?",
-      "aEn": "Click 'Reserve Discreet Dispatch — RM 159' on any page to open the Express Discreet Order Drawer. Your order routes immediately to our Kuala Lumpur fulfilment desk (waleedshoaibofficial@gmail.com / sales@onyxman.my), and our concierge messages your Malaysian WhatsApp number directly to confirm dispatch.",
+      "aEn": "Click 'Reserve Discreet Dispatch — RM 159' on any page to open the Express Discreet Order Drawer. Your order routes immediately to our Kuala Lumpur fulfilment desk (waleedshoaibofficial@gmail.com / sales@onyxmen.my), and our concierge messages your Malaysian WhatsApp number directly to confirm dispatch.",
       "qMs": "Bagaimanakah cara membuat tempahan jika saya mahukan pengesahan melalui e-mel atau WhatsApp?",
-      "aMs": "Klik butang 'Tempah Bungkusan Rahsia — RM 159' untuk membuka borang tempahan pantas. Pesanan anda dihantar terus ke meja operasi Kuala Lumpur kami (waleedshoaibofficial@gmail.com / sales@onyxman.my) dan pegawai khidmat pelanggan kami akan menghubungi WhatsApp anda dengan segera."
+      "aMs": "Klik butang 'Tempah Bungkusan Rahsia — RM 159' untuk membuka borang tempahan pantas. Pesanan anda dihantar terus ke meja operasi Kuala Lumpur kami (waleedshoaibofficial@gmail.com / sales@onyxmen.my) dan pegawai khidmat pelanggan kami akan menghubungi WhatsApp anda dengan segera."
     },
     {
       "qEn": "Who should consult a doctor before taking Horsemen?",

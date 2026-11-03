@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * ONYXMAN.MY — WEST MALAYSIA STATE & CITY HUB BUILDER (MS-131 TO MS-138)
+ * ONYXMEN.MY — WEST MALAYSIA STATE & CITY HUB BUILDER (MS-131 TO MS-138)
  * Generates all 8 West Malaysia State & City Hubs in BOTH English (`en-MY`) and Bahasa Malaysia (`ms-MY`)
  * plus all route aliases used across the site:
  *
@@ -34,7 +34,7 @@
  * - Obsidian & Liquid Champagne Gold palette (#050507, #0B0C10, #12141C, #D4AF37, #EAE6DF)
  * - Typography: 'Cormorant Garamond', 'Syne', 'Space Grotesk'
  * - Every generated HTML file >= 2,200+ lines of uncompressed semantic HTML5 with 1-Click Express Order Drawer buttons
- *   pre-selecting that state, localized postcode & district delivery tables, all 4 Onyxman bottles at RM 159 / RM 318 / RM 477,
+ *   pre-selecting that state, localized postcode & district delivery tables, all 4 Onyxmen bottles at RM 159 / RM 318 / RM 477,
  *   plain-box privacy specification ('OM Fulfilment Logistics'), 10 localized FAQs, and valid @graph JSON-LD.
  */
 
@@ -778,7 +778,7 @@ export const WEST_MALAYSIA_HUBS = [
     extraFaqsEn: [
       {
         q: 'Can my parcel be dropped off at a KLCC, TRX, or Bangsar South corporate reception desk without exposing the contents?',
-        a: 'Yes. Every Kuala Lumpur parcel is sealed inside a rigid matte-black security box inside an opaque waterproof courier flyer. The shipping label states only "OM Fulfilment Logistics — Commercial Document / Nutritional Goods" with zero mention of Onyxman, Horsemen, Hammer of Thor, Grow XL, or men’s supplements.',
+        a: 'Yes. Every Kuala Lumpur parcel is sealed inside a rigid matte-black security box inside an opaque waterproof courier flyer. The shipping label states only "OM Fulfilment Logistics — Commercial Document / Nutritional Goods" with zero mention of Onyxmen, Horsemen, Hammer of Thor, Grow XL, or men’s supplements.',
       },
       {
         q: 'How does the 3–5 Hour Same-Day Private Discreet Runner work in Kuala Lumpur?',
@@ -796,7 +796,7 @@ export const WEST_MALAYSIA_HUBS = [
     extraFaqsMs: [
       {
         q: 'Bolehkah bungkusan saya diserahkan di kaunter penyambut tetamu pejabat KLCC, TRX, atau Bangsar South tanpa mendedahkan kandungan?',
-        a: 'Ya. Setiap bungkusan Kuala Lumpur ditutup rapat di dalam kotak keselamatan legap bersama sampul kalis air tanpa sebarang penjenamaan. Slip penghantaran hanya memaparkan "OM Fulfilment Logistics" tanpa menyebut Onyxman, Horsemen, Hammer of Thor, Grow XL, atau suplemen lelaki.',
+        a: 'Ya. Setiap bungkusan Kuala Lumpur ditutup rapat di dalam kotak keselamatan legap bersama sampul kalis air tanpa sebarang penjenamaan. Slip penghantaran hanya memaparkan "OM Fulfilment Logistics" tanpa menyebut Onyxmen, Horsemen, Hammer of Thor, Grow XL, atau suplemen lelaki.',
       },
       {
         q: 'Bagaimanakah servis Penghantar Persendirian Rahsia Hari Sama (3–5 Jam) beroperasi di Kuala Lumpur?',
@@ -966,7 +966,7 @@ export const WEST_MALAYSIA_HUBS = [
         a: 'Yes. Every parcel is sealed in an opaque security box with "OM Fulfilment Logistics" as the sender name. Security guards and household members cannot identify the contents or brand.',
       },
       {
-        q: 'Which Onyxman formulation is most frequently ordered across Selangor fitness and corporate hubs?',
+        q: 'Which Onyxmen formulation is most frequently ordered across Selangor fitness and corporate hubs?',
         a: 'Magnum Pump XR (30 Black Capsules — L-Arginine, L-Citrulline & Thai Black Ginger) and Horsemen (20 Capsules × 500mg — Tongkat Ali & Black Maca) are the two highest-volume formulations across PJ, Subang Jaya, Damansara, and Shah Alam.',
       },
     ],
@@ -984,7 +984,7 @@ export const WEST_MALAYSIA_HUBS = [
         a: 'Ya. Setiap bungkusan ditutup rapat di dalam kotak keselamatan legap dengan nama pengirim "OM Fulfilment Logistics". Pengawal keselamatan dan ahli keluarga tidak dapat mengetahui kandungan atau jenama produk.',
       },
       {
-        q: 'Formulasi Onyxman manakah yang paling kerap ditempah di sekitar hab korporat dan kecergasan Selangor?',
+        q: 'Formulasi Onyxmen manakah yang paling kerap ditempah di sekitar hab korporat dan kecergasan Selangor?',
         a: 'Magnum Pump XR (30 Kapsul Hitam — L-Arginine, L-Citrulline & Kunyit Hitam) dan Horsemen (20 Kapsul × 500mg — Tongkat Ali & Maca Hitam) merupakan dua pilihan paling popular di PJ, Subang Jaya, Damansara, dan Shah Alam.',
       },
     ],
@@ -1147,7 +1147,7 @@ export const WEST_MALAYSIA_HUBS = [
         a: 'Yes. Full Cash on Delivery (COD), DuitNow QR, and FPX online banking are available across all Johor districts from 79000 to 86900 with RM 0 free shipping on 1, 2, or 3 bottles.',
       },
       {
-        q: 'What is the most popular Onyxman protocol ordered in Johor?',
+        q: 'What is the most popular Onyxmen protocol ordered in Johor?',
         a: 'Grow XL (30 Capsules — 30-Day Daily Botanical Vitality Protocol) and the 2-Bottle Reserve (RM 318) of Horsemen are the highest-demand selections across Johor Bahru and Iskandar Puteri.',
       },
     ],
@@ -1165,7 +1165,7 @@ export const WEST_MALAYSIA_HUBS = [
         a: 'Ya. Perkhidmatan COD penuh, DuitNow QR, dan FPX tersedia di seluruh daerah Johor dari poskod 79000 hingga 86900 dengan penghantaran percuma (RM 0) untuk 1, 2, atau 3 botol.',
       },
       {
-        q: 'Apakah protokol Onyxman yang paling mendapat sambutan di negeri Johor?',
+        q: 'Apakah protokol Onyxmen yang paling mendapat sambutan di negeri Johor?',
         a: 'Grow XL (30 Kapsul — Protokol Kecergasan Harian 30 Hari) dan Pakej 2 Botol (RM 318) Horsemen merupakan pilihan paling tinggi permintaannya di Johor Bahru dan Iskandar Puteri.',
       },
     ],
@@ -1498,7 +1498,7 @@ WEST_MALAYSIA_HUBS.push(
     ],
     extraFaqsEn: [
       {
-        q: 'How quickly do Onyxman parcels reach Ipoh, Taiping, and Seri Manjung?',
+        q: 'How quickly do Onyxmen parcels reach Ipoh, Taiping, and Seri Manjung?',
         a: 'Because Ipoh is only 2 hours north of our Klang Valley sorting vault via the PLUS Expressway (and Seri Manjung/Teluk Intan connect directly via the West Coast Expressway WCE), orders confirmed before 17:00 MYT typically arrive in Ipoh within 24 hours and across wider Perak towns within 1–2 business days.',
       },
       {
@@ -1516,7 +1516,7 @@ WEST_MALAYSIA_HUBS.push(
     ],
     extraFaqsMs: [
       {
-        q: 'Berapa cepat bungkusan Onyxman tiba di Ipoh, Taiping, dan Seri Manjung?',
+        q: 'Berapa cepat bungkusan Onyxmen tiba di Ipoh, Taiping, dan Seri Manjung?',
         a: 'Memandangkan Ipoh hanya 2 jam di utara hab Lembah Klang kami melalui Lebuhraya PLUS (dan Seri Manjung/Teluk Intan dihubungkan terus melalui Lebuhraya Pantai Barat WCE), pesanan sebelum jam 5:00 petang lazimnya tiba di Ipoh dalam masa 24 jam dan di seluruh Perak dalam 1–2 hari bekerja.',
       },
       {
@@ -2104,19 +2104,19 @@ function buildLocalizedStateFaqs(hub, vaultState, lang = 'en-MY') {
     })),
     {
       question: isMs
-        ? `Apakah harga rasmi bagi kesemua 4 botol Onyxman untuk penghantaran ke ${stateName}?`
-        : `What is the official price for all 4 Onyxman formulations delivered to ${stateName}?`,
+        ? `Apakah harga rasmi bagi kesemua 4 botol Onyxmen untuk penghantaran ke ${stateName}?`
+        : `What is the official price for all 4 Onyxmen formulations delivered to ${stateName}?`,
       answer: isMs
-        ? `Kesemua 4 formulasi utama Onyxman—Horsemen (20 Kapsul × 500mg), Hammer of Thor (20 Kapsul Vegetarian), Grow XL (30 Kapsul Harian), dan Magnum Pump XR (30 Kapsul Hitam)—ditawarkan pada harga rasmi seragam RM 159.00 sebotol, RM 318.00 untuk Pakej 2 Botol, dan RM 477.00 untuk Pakej Lengkap 3 Botol (90 Hari) termasuk penghantaran ekspres rahsia percuma ke ${stateName}.`
-        : `All 4 flagship Onyxman formulations—Horsemen (20 Capsules × 500mg), Hammer of Thor (20 Vegetarian Capsules), Grow XL (30 Daily Capsules), and Magnum Pump XR (30 Black Capsules)—carry our standardized official Malaysia reserve price of RM 159.00 for 1 Bottle, RM 318.00 for 2 Bottles, and RM 477.00 for the 3-Bottle 90-Day Vault, inclusive of Free Express Discreet Shipping across ${stateName}.`,
+        ? `Kesemua 4 formulasi utama Onyxmen—Horsemen (20 Kapsul × 500mg), Hammer of Thor (20 Kapsul Vegetarian), Grow XL (30 Kapsul Harian), dan Magnum Pump XR (30 Kapsul Hitam)—ditawarkan pada harga rasmi seragam RM 159.00 sebotol, RM 318.00 untuk Pakej 2 Botol, dan RM 477.00 untuk Pakej Lengkap 3 Botol (90 Hari) termasuk penghantaran ekspres rahsia percuma ke ${stateName}.`
+        : `All 4 flagship Onyxmen formulations—Horsemen (20 Capsules × 500mg), Hammer of Thor (20 Vegetarian Capsules), Grow XL (30 Daily Capsules), and Magnum Pump XR (30 Black Capsules)—carry our standardized official Malaysia reserve price of RM 159.00 for 1 Bottle, RM 318.00 for 2 Bottles, and RM 477.00 for the 3-Bottle 90-Day Vault, inclusive of Free Express Discreet Shipping across ${stateName}.`,
     },
     {
       question: isMs
         ? `Apakah yang tertulis pada slip kurier ("OM Fulfilment Logistics") apabila bungkusan dihantar ke ${districtSample}?`
         : `What appears on the exterior courier waybill ("OM Fulfilment Logistics") when delivered to ${districtSample}?`,
       answer: isMs
-        ? `Untuk melindungi privasi anda 100%, slip kurier hanya memaparkan nama pengirim neutral "OM Fulfilment Logistics", kod rujukan logistik, nama/samaran anda, dan nombor telefon anda. Tiada sebarang perkataan Onyxman, Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR, atau "suplemen lelaki" dicetak pada luar kotak.`
-        : `To guarantee 100% privacy, the exterior courier waybill displays only the neutral sender name "OM Fulfilment Logistics", an encrypted logistics reference code, your recipient name or pseudonym, and your contact number. Zero mention of Onyxman, Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR, or "men’s vitality supplements" ever appears on the parcel.`,
+        ? `Untuk melindungi privasi anda 100%, slip kurier hanya memaparkan nama pengirim neutral "OM Fulfilment Logistics", kod rujukan logistik, nama/samaran anda, dan nombor telefon anda. Tiada sebarang perkataan Onyxmen, Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR, atau "suplemen lelaki" dicetak pada luar kotak.`
+        : `To guarantee 100% privacy, the exterior courier waybill displays only the neutral sender name "OM Fulfilment Logistics", an encrypted logistics reference code, your recipient name or pseudonym, and your contact number. Zero mention of Onyxmen, Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR, or "men’s vitality supplements" ever appears on the parcel.`,
     },
     {
       question: isMs
@@ -2136,11 +2136,11 @@ function buildLocalizedStateFaqs(hub, vaultState, lang = 'en-MY') {
     },
     {
       question: isMs
-        ? `Bagaimanakah saya boleh mengesahkan ketulenan botol Onyxman yang diterima di ${stateName}?`
-        : `How do I verify the authenticity of my Onyxman bottle upon arrival in ${stateName}?`,
+        ? `Bagaimanakah saya boleh mengesahkan ketulenan botol Onyxmen yang diterima di ${stateName}?`
+        : `How do I verify the authenticity of my Onyxmen bottle upon arrival in ${stateName}?`,
       answer: isMs
-        ? `Setiap botol rasmi Onyxman yang dihantar dari hab kami dilengkapi penutup keselamatan berlakri foil emas, nombor kelompok pengeluaran (Batch Lot), tarikh luput yang jelas, serta spesifikasi berat kapsul yang tepat (500mg bagi Horsemen, Hammer of Thor & Grow XL; 550mg kapsul hitam bagi Magnum Pump XR). Pesanan terus melalui onyxman.my menjamin 100% stok tulen.`
-        : `Every authentic Onyxman bottle dispatched from our vault features a tamper-evident metallic gold induction seal, laser-printed batch lot number, expiration date, and exact capsule weight standardization (500mg for Horsemen, Hammer of Thor & Grow XL; 550mg black capsules for Magnum Pump XR). Ordering directly from onyxman.my guarantees 100% genuine vault stock.`,
+        ? `Setiap botol rasmi Onyxmen yang dihantar dari hab kami dilengkapi penutup keselamatan berlakri foil emas, nombor kelompok pengeluaran (Batch Lot), tarikh luput yang jelas, serta spesifikasi berat kapsul yang tepat (500mg bagi Horsemen, Hammer of Thor & Grow XL; 550mg kapsul hitam bagi Magnum Pump XR). Pesanan terus melalui onyxman.my menjamin 100% stok tulen.`
+        : `Every authentic Onyxmen bottle dispatched from our vault features a tamper-evident metallic gold induction seal, laser-printed batch lot number, expiration date, and exact capsule weight standardization (500mg for Horsemen, Hammer of Thor & Grow XL; 550mg black capsules for Magnum Pump XR). Ordering directly from onyxman.my guarantees 100% genuine vault stock.`,
     },
   ];
 
@@ -2183,7 +2183,7 @@ function renderStateSplit5050Section(hub, vaultState, featuredProduct, lang = 'e
         {
           num: `PROTOKOL KETULENAN 04 · TERUS DARI BILIK KEBAL APOTEKARI`,
           title: `Jaminan Botol Tulen Berlakri Emas & KitaranIsian Semula Pintar`,
-          body: `Mengelakkan risiko produk tiruan di pasaran terbuka adalah keutamaan kami. Setiap botol Horsemen (20 Kapsul), Hammer of Thor (20 Kapsul Veg.), Grow XL (30 Kapsul), dan Magnum Pump XR (30 Kapsul Hitam) dihantar terus dari bilik kebal kawalan suhu Onyxman Malaysia bersama pautan peringatan isian semula Google Calendar (+18 hari atau +25 hari).`,
+          body: `Mengelakkan risiko produk tiruan di pasaran terbuka adalah keutamaan kami. Setiap botol Horsemen (20 Kapsul), Hammer of Thor (20 Kapsul Veg.), Grow XL (30 Kapsul), dan Magnum Pump XR (30 Kapsul Hitam) dihantar terus dari bilik kebal kawalan suhu Onyxmen Malaysia bersama pautan peringatan isian semula Google Calendar (+18 hari atau +25 hari).`,
           specLeft: `HARGA RASMI: RM 159 / RM 318 / RM 477`,
           specRight: `STATUS STOK ${hub.isoCode}: SEDIA DIHANTAR`,
         },
@@ -2213,7 +2213,7 @@ function renderStateSplit5050Section(hub, vaultState, featuredProduct, lang = 'e
         {
           num: `AUTHENTICITY PROTOCOL 04 · DIRECT APOTHECARY VAULT`,
           title: `Tamper-Evident Gold Induction Seal & Automated Refill Concierge`,
-          body: `Counterfeit capsules on third-party marketplaces compromise both safety and efficacy. Every bottle of Horsemen (20 Capsules), Hammer of Thor (20 Veg. Capsules), Grow XL (30 Capsules), and Magnum Pump XR (30 Black Capsules) ships directly from the official Onyxman Malaysia vault with a 1-click Google Calendar refill schedule (+18 days or +25 days).`,
+          body: `Counterfeit capsules on third-party marketplaces compromise both safety and efficacy. Every bottle of Horsemen (20 Capsules), Hammer of Thor (20 Veg. Capsules), Grow XL (30 Capsules), and Magnum Pump XR (30 Black Capsules) ships directly from the official Onyxmen Malaysia vault with a 1-click Google Calendar refill schedule (+18 days or +25 days).`,
           specLeft: `OFFICIAL RESERVE: RM 159 / RM 318 / RM 477`,
           specRight: `${hub.isoCode} INVENTORY: IN STOCK · READY`,
         },
@@ -2458,7 +2458,7 @@ function renderDistrictPostcodeSection(hub, vaultState, lang = 'en-MY') {
 }
 
 /**
- * Renders Chapter IV — All 4 Onyxman Flagship Formulations Showcase (RM 159 / RM 318 / RM 477)
+ * Renders Chapter IV — All 4 Onyxmen Flagship Formulations Showcase (RM 159 / RM 318 / RM 477)
  * with 1-Click Express Order Drawer buttons pre-selecting the current state.
  */
 function renderStateFourFormulationsSection(hub, vaultState, lang = 'en-MY') {
@@ -2598,7 +2598,7 @@ function renderStateFourFormulationsSection(hub, vaultState, lang = 'en-MY') {
 
   return `
   <!-- ==========================================================================
-       CHAPTER IV — ALL 4 ONYXMAN BOTTLES AT RM 159 / RM 318 / RM 477 FOR THIS STATE
+       CHAPTER IV — ALL 4 ONYXMEN BOTTLES AT RM 159 / RM 318 / RM 477 FOR THIS STATE
        ========================================================================== -->
   <section
     id="state-four-bottles-catalog"
@@ -2611,7 +2611,7 @@ function renderStateFourFormulationsSection(hub, vaultState, lang = 'en-MY') {
           <span class="editorial-kicker">
             ${
               isMs
-                ? `KOLEKSI LENGKAP 4 FORMULASI ONYXMAN · SEDIA DIHANTAR KE ${esc(stateName.toUpperCase())}`
+                ? `KOLEKSI LENGKAP 4 FORMULASI ONYXMEN · SEDIA DIHANTAR KE ${esc(stateName.toUpperCase())}`
                 : `COMPLETE 4-FORMULATION VAULT · READY FOR ${esc(stateName.toUpperCase())} DISPATCH`
             }
           </span>
@@ -2672,7 +2672,7 @@ function renderPlainBoxPrivacyLedgerSection(hub, vaultState, lang = 'en-MY') {
           code: 'LAPISAN 04 · SAMPUL KURIER LEGAP "OM FULFILMENT LOGISTICS"',
           title: 'Slip Penghantaran Komersial Neutral Tanpa Nama Produk Atau Jenama',
           sub: 'SELAMAT UNTUK KAUNTER PEJABAT, KONDO & RUMAH KELUARGA',
-          desc: `Bahagian luar bungkusan hanya memaparkan nama pengirim neutral "OM FULFILMENT LOGISTICS — KUALA LUMPUR HUB" bersama kod rujukan logistik. Perkataan Onyxman, Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR, atau "suplemen lelaki" tidak pernah dicetak pada slip.`,
+          desc: `Bahagian luar bungkusan hanya memaparkan nama pengirim neutral "OM FULFILMENT LOGISTICS — KUALA LUMPUR HUB" bersama kod rujukan logistik. Perkataan Onyxmen, Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR, atau "suplemen lelaki" tidak pernah dicetak pada slip.`,
         },
       ]
     : [
@@ -2698,7 +2698,7 @@ function renderPlainBoxPrivacyLedgerSection(hub, vaultState, lang = 'en-MY') {
           code: 'LAYER 04 · OPAQUE WAYBILL ("OM FULFILMENT LOGISTICS")',
           title: 'Neutral Commercial Waybill With Zero Supplement Or Brand Text',
           sub: '100% SAFE FOR CORPORATE TOWERS, CONDO CONCIERGES & HOMES',
-          desc: `The outer tear-proof flyer lists only "OM FULFILMENT LOGISTICS — KUALA LUMPUR HUB" and an encrypted tracking reference. Never once does the word Onyxman, Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR, or "men’s vitality" appear on the exterior.`,
+          desc: `The outer tear-proof flyer lists only "OM FULFILMENT LOGISTICS — KUALA LUMPUR HUB" and an encrypted tracking reference. Never once does the word Onyxmen, Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR, or "men’s vitality" appear on the exterior.`,
         },
       ];
 
@@ -2905,12 +2905,12 @@ export function renderWestMalaysiaStateHubPage(hub, lang = 'en-MY') {
 
   const breadcrumbs = isMs
     ? [
-        { name: 'Onyxman Malaysia', url: '/ms/' },
+        { name: 'Onyxmen Malaysia', url: '/ms/' },
         { name: 'Hab Penghantaran 16 Negeri', url: '/ms/penghantaran-malaysia/' },
         { name: stateName, url: canonicalPath },
       ]
     : [
-        { name: 'Onyxman Malaysia', url: '/' },
+        { name: 'Onyxmen Malaysia', url: '/' },
         { name: '16 Malaysia Delivery Hubs', url: '/malaysia-delivery/' },
         { name: stateName, url: canonicalPath },
       ];
@@ -2946,7 +2946,7 @@ export function renderWestMalaysiaStateHubPage(hub, lang = 'en-MY') {
 
     <div class="state-cinema-hero__breadcrumb-bar">
       <nav class="state-cinema-hero__crumbs" aria-label="${isMs ? 'Laluan Halaman' : 'Breadcrumb'}">
-        <a href="${isMs ? '/ms/' : '/'}">${isMs ? 'Onyxman Malaysia' : 'Onyxman Malaysia'}</a>
+        <a href="${isMs ? '/ms/' : '/'}">${isMs ? 'Onyxmen Malaysia' : 'Onyxmen Malaysia'}</a>
         <span aria-hidden="true">/</span>
         <a href="${isMs ? '/ms/penghantaran-malaysia/' : '/malaysia-delivery/'}">
           ${isMs ? 'Hab Penghantaran Malaysia' : 'Malaysia Delivery Hubs'}
@@ -3136,7 +3136,7 @@ export function buildAllWestMalaysiaStateHubs() {
 if (process.argv[1] && path.resolve(process.argv[1]) === __filename) {
   const builtFiles = buildAllWestMalaysiaStateHubs();
   console.log('================================================================================');
-  console.log('ONYXMAN.MY — WEST MALAYSIA STATE HUBS BUILD COMPLETE (MS-131 TO MS-138)');
+  console.log('ONYXMEN.MY — WEST MALAYSIA STATE HUBS BUILD COMPLETE (MS-131 TO MS-138)');
   console.log('================================================================================');
   const bannedTokens = [
     '#' + 'FAF8F5',

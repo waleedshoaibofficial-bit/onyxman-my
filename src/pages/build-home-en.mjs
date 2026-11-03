@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * ============================================================================
- * ONYXMAN.MY — ENGLISH FLAGSHIP HOMEPAGE CINEMA BUILDER (MS-079 TO MS-086)
+ * ONYXMEN.MY — ENGLISH FLAGSHIP HOMEPAGE CINEMA BUILDER (MS-079 TO MS-086)
  * ============================================================================
  * Generates: public/index.html (2,600 to 3,500+ lines of uncompressed semantic HTML5,
  * bespoke luxury CSS choreography, interactive telemetry, and @graph JSON-LD)
@@ -14,9 +14,9 @@
  *   * Fonts: 'Cormorant Garamond', 'Syne', 'Space Grotesk'
  *   * ZERO banned tokens, ZERO pill badges, ZERO bordered 3-column card grids
  * - Authentic Business Constants:
- *   * Brand: Onyxman (https://www.onyxmen.my/) | Alternate BM: https://www.onyxmen.my/ms/
+ *   * Brand: Onyxmen (https://www.onyxmen.my/) | Alternate BM: https://www.onyxmen.my/ms/
  *   * Prices: 1 Bottle = RM 159 (159.00), 2 Bottles = RM 318 (318.00), 3 Bottles = RM 477 (477.00)
- *   * Emails: waleedshoaibofficial@gmail.com, sales@onyxman.my, info@onyxman.my
+ *   * Emails: waleedshoaibofficial@gmail.com, sales@onyxmen.my, info@onyxmen.my
  *   * Zero fake KKM/MAL registration claims
  * ============================================================================
  */
@@ -64,9 +64,9 @@ export const HOMEPAGE_EN_FAQS = [
     id: 'faq-home-01',
     category: 'PRICING & RESERVES',
     questionEn:
-      'What is the official Malaysia price for Horsemen, Hammer of Thor, Grow XL, and Magnum Pump XR on Onyxman.my?',
+      'What is the official Malaysia price for Horsemen, Hammer of Thor, Grow XL, and Magnum Pump XR on Onyxmen.my?',
     answerEn:
-      'Every authentic Onyxman formulation shares a uniform, transparent Malaysian Ringgit reserve structure so you can select strictly by physiological objective rather than price differences: 1 Bottle (Single Cycle Reserve) is RM 159 (159.00 MYR), 2 Bottles (Dual Momentum Protocol with Free Nationwide Malaysia Express Shipping including Sabah, Sarawak & Labuan) is RM 318 (318.00 MYR), and 3 Bottles (Complete 90-Day Apothecary Mastery Vault with Priority Dispatch & VIP Refill Concierge) is RM 477 (477.00 MYR).',
+      'Every authentic Onyxmen formulation shares a uniform, transparent Malaysian Ringgit reserve structure so you can select strictly by physiological objective rather than price differences: 1 Bottle (Single Cycle Reserve) is RM 159 (159.00 MYR), 2 Bottles (Dual Momentum Protocol with Free Nationwide Malaysia Express Shipping including Sabah, Sarawak & Labuan) is RM 318 (318.00 MYR), and 3 Bottles (Complete 90-Day Apothecary Mastery Vault with Priority Dispatch & VIP Refill Concierge) is RM 477 (477.00 MYR).',
   },
   {
     id: 'faq-home-02',
@@ -82,7 +82,7 @@ export const HOMEPAGE_EN_FAQS = [
     questionEn:
       'How discreet is the parcel packaging? Will courier riders, condominium guards, or office receptionists know what is inside?',
     answerEn:
-      'Never. Every Onyxman Malaysia order is packed inside our 3-layer blind-waybill architecture: each factory-sealed bottle is wrapped in high-density acoustic bubble cushioning (eliminating capsule rattling noise) and sealed inside an unbranded, opaque matte security carton or poly-mailer. The exterior airway bill lists the sender strictly as "OM Fulfilment Logistics (Kuala Lumpur)" and declares the contents generically as "Personal Nutritional Wellness". Zero brand logos, zero product titles, and zero supplement descriptions appear anywhere on the outside of the parcel.',
+      'Never. Every Onyxmen Malaysia order is packed inside our 3-layer blind-waybill architecture: each factory-sealed bottle is wrapped in high-density acoustic bubble cushioning (eliminating capsule rattling noise) and sealed inside an unbranded, opaque matte security carton or poly-mailer. The exterior airway bill lists the sender strictly as "OM Fulfilment Logistics (Kuala Lumpur)" and declares the contents generically as "Personal Nutritional Wellness". Zero brand logos, zero product titles, and zero supplement descriptions appear anywhere on the outside of the parcel.',
   },
   {
     id: 'faq-home-04',
@@ -104,23 +104,23 @@ export const HOMEPAGE_EN_FAQS = [
     id: 'faq-home-06',
     category: 'ENTITY DISAMBIGUATION',
     questionEn:
-      'What exactly is Magnum Pump XR (30 Black Capsules) on Onyxman.my? Is it an oral dietary supplement?',
+      'What exactly is Magnum Pump XR (30 Black Capsules) on Onyxmen.my? Is it an oral dietary supplement?',
     answerEn:
-      'Yes. Magnum Pump XR distributed by Onyxman Malaysia (https://www.onyxmen.my, SKU ONYX-MP-30, MPN MPXR-30BLK-MY, RM 159) is strictly an oral botanical and amino-acid Dietary Supplement for adult men (18+) containing 30 signature jet-black capsules per bottle under the Testosterone Pro Series. Each 600mg black capsule combines L-Arginine HCl (180mg), L-Citrulline Malate (140mg), Tribulus Terrestris (110mg), Malaysian Tongkat Ali (90mg), Thai Black Ginger / Kunyit Hitam (65mg), and Bioperine (15mg). It has zero affiliation or relation to heavy industrial oilfield slurry/frac fluid pumps or mechanical vacuum devices.',
+      'Yes. Magnum Pump XR distributed by Onyxmen Malaysia (https://www.onyxmen.my, SKU ONYX-MP-30, MPN MPXR-30BLK-MY, RM 159) is strictly an oral botanical and amino-acid Dietary Supplement for adult men (18+) containing 30 signature jet-black capsules per bottle under the Testosterone Pro Series. Each 600mg black capsule combines L-Arginine HCl (180mg), L-Citrulline Malate (140mg), Tribulus Terrestris (110mg), Malaysian Tongkat Ali (90mg), Thai Black Ginger / Kunyit Hitam (65mg), and Bioperine (15mg). It has zero affiliation or relation to heavy industrial oilfield slurry/frac fluid pumps or mechanical vacuum devices.',
   },
   {
     id: 'faq-home-07',
     category: 'AUTHENTICITY & SAFETY',
     questionEn:
-      'Are Onyxman formulations prescription drugs, and how do I avoid counterfeit marketplace imitations?',
+      'Are Onyxmen formulations prescription drugs, and how do I avoid counterfeit marketplace imitations?',
     answerEn:
-      'Onyxman formulations are traditional botanical and amino-acid dietary supplements formulated exclusively for adult men (18+) to support physical stamina, peripheral micro-circulation, and daily vitality. We never print fabricated medical registration codes, never make unrealistic surgical claims, and screen every batch against undeclared synthetic PDE5 adulterants and heavy metals (Pb, As, Hg, Cd). To avoid cheap starch-filled counterfeits or heat-degraded classifieds stock, reserve exclusively through https://www.onyxmen.my at the official RM 159 / RM 318 / RM 477 tariff backed by our Kuala Lumpur desk (sales@onyxman.my / waleedshoaibofficial@gmail.com).',
+      'Onyxmen formulations are traditional botanical and amino-acid dietary supplements formulated exclusively for adult men (18+) to support physical stamina, peripheral micro-circulation, and daily vitality. We never print fabricated medical registration codes, never make unrealistic surgical claims, and screen every batch against undeclared synthetic PDE5 adulterants and heavy metals (Pb, As, Hg, Cd). To avoid cheap starch-filled counterfeits or heat-degraded classifieds stock, reserve exclusively through https://www.onyxmen.my at the official RM 159 / RM 318 / RM 477 tariff backed by our Kuala Lumpur desk (sales@onyxmen.my / waleedshoaibofficial@gmail.com).',
   },
   {
     id: 'faq-home-08',
     category: 'VEGETARIAN SHELLS',
     questionEn:
-      'Which Onyxman formulation uses 100% plant-derived vegetarian capsules?',
+      'Which Onyxmen formulation uses 100% plant-derived vegetarian capsules?',
     answerEn:
       'Hammer of Thor ("Men\'s Health — Tribulus Terrestris — 20 Veg. Capsules", SKU ONYX-HT-20) is encapsulated in 100% plant-derived hypromellose (HPMC) vegetarian capsules—completely free from bovine or porcine gelatin. Its plant-cellulose shell resists sticking in Malaysia\'s humid tropical climate and dissolves cleanly within 20–30 minutes after an evening meal.',
   },
@@ -136,9 +136,9 @@ export const HOMEPAGE_EN_FAQS = [
     id: 'faq-home-10',
     category: 'DIETARY TIMING',
     questionEn:
-      'Can I take Onyxman capsules if I drink kopi, teh tarik, or pre-workout beverages?',
+      'Can I take Onyxmen capsules if I drink kopi, teh tarik, or pre-workout beverages?',
     answerEn:
-      'All four Onyxman formulations are 100% anhydrous-caffeine-free and stimulant-free, meaning they will not cause rapid heart-rate spikes, hand tremors, or midnight insomnia. However, because polyphenols and tannins in strong kopi O or teh tarik can bind to botanical alkaloids and trace minerals like Chelated Zinc in the digestive tract, always leave a 45-minute buffer between coffee/tea and your capsule, and swallow capsules with 250ml–300ml of plain warm or room-temperature water.',
+      'All four Onyxmen formulations are 100% anhydrous-caffeine-free and stimulant-free, meaning they will not cause rapid heart-rate spikes, hand tremors, or midnight insomnia. However, because polyphenols and tannins in strong kopi O or teh tarik can bind to botanical alkaloids and trace minerals like Chelated Zinc in the digestive tract, always leave a 45-minute buffer between coffee/tea and your capsule, and swallow capsules with 250ml–300ml of plain warm or room-temperature water.',
   },
   {
     id: 'faq-home-11',
@@ -146,7 +146,7 @@ export const HOMEPAGE_EN_FAQS = [
     questionEn:
       'Can I combine two different formulations in a 2-Bottle (RM 318) or 3-Bottle (RM 477) protocol?',
     answerEn:
-      'Yes. Many experienced Malaysian clients combine a morning baseline bottle of Grow XL (1 capsule after breakfast) with an evening or pre-gym bottle of Horsemen or Magnum Pump XR at the RM 318 (2-Bottle) or RM 477 (3-Bottle) tier. Simply select the 2-Bottle or 3-Bottle tier in the Express Order Drawer and mention your preferred bottle combination in the delivery address/notes field, or reply to our concierge confirmation from sales@onyxman.my.',
+      'Yes. Many experienced Malaysian clients combine a morning baseline bottle of Grow XL (1 capsule after breakfast) with an evening or pre-gym bottle of Horsemen or Magnum Pump XR at the RM 318 (2-Bottle) or RM 477 (3-Bottle) tier. Simply select the 2-Bottle or 3-Bottle tier in the Express Order Drawer and mention your preferred bottle combination in the delivery address/notes field, or reply to our concierge confirmation from sales@onyxmen.my.',
   },
   {
     id: 'faq-home-12',
@@ -154,7 +154,7 @@ export const HOMEPAGE_EN_FAQS = [
     questionEn:
       'How does the 10-Second Express Discreet Order Drawer work without requiring account registration?',
     answerEn:
-      'We eliminated public user accounts so your personal purchase history is never stored on a public cloud profile. Click any "Acquire Discreet Reserve — RM 159" button to open the slide-over Express Order Drawer, select your formulation and 1/2/3-bottle tier, and enter your recipient name (or initials/pseudonym), Malaysian WhatsApp number (01X-XXXXXXX), state, and address. Your encrypted order dispatches immediately to our Kuala Lumpur fulfilment inbox (waleedshoaibofficial@gmail.com / sales@onyxman.my / info@onyxman.my) and displays your instant Order Reference ID on screen.',
+      'We eliminated public user accounts so your personal purchase history is never stored on a public cloud profile. Click any "Acquire Discreet Reserve — RM 159" button to open the slide-over Express Order Drawer, select your formulation and 1/2/3-bottle tier, and enter your recipient name (or initials/pseudonym), Malaysian WhatsApp number (01X-XXXXXXX), state, and address. Your encrypted order dispatches immediately to our Kuala Lumpur fulfilment inbox (waleedshoaibofficial@gmail.com / sales@onyxmen.my / info@onyxmen.my) and displays your instant Order Reference ID on screen.',
   },
 ];
 
@@ -970,7 +970,7 @@ function renderMs079HeroStage() {
   aria-labelledby="home-hero-main-heading"
   data-micro-step="MS-079"
 >
-  <div class="home-hero-cinema__ambient-watermark" aria-hidden="true">ONYXMAN</div>
+  <div class="home-hero-cinema__ambient-watermark" aria-hidden="true">ONYXMEN</div>
 
   <!-- Top Telemetry Horizon Ribbon -->
   <div class="home-hero-cinema__top-telemetry">
@@ -1073,7 +1073,7 @@ function renderMs079HeroStage() {
           <source srcset="/assets/products/onyxman-lineup-hero.webp" type="image/webp" />
           <img
             src="/assets/products/onyxman-lineup-hero.png"
-            alt="Official Onyxman Malaysia 4-Formulation Lineup: Horsemen (20 Capsules x 500mg), Hammer of Thor (20 Veg. Capsules), Grow XL (30 Capsules), and Magnum Pump XR (30 Black Capsules) — RM 159 per bottle"
+            alt="Official Onyxmen Malaysia 4-Formulation Lineup: Horsemen (20 Capsules x 500mg), Hammer of Thor (20 Veg. Capsules), Grow XL (30 Capsules), and Magnum Pump XR (30 Black Capsules) — RM 159 per bottle"
             width="1920"
             height="1080"
             fetchpriority="high"
@@ -1185,7 +1185,7 @@ function renderMs079HeroStage() {
     </div>
     <div class="home-hero-cinema__telemetry-col">
       <span class="home-hero-cinema__telemetry-label">04 · DIRECT KUALA LUMPUR CONCIERGE DESK</span>
-      <span class="home-hero-cinema__telemetry-val">sales@onyxman.my · info@onyxman.my · Bahasa Malaysia: <a href="/ms/" style="color:#F3E5AB;text-decoration:underline;">onyxman.my/ms/</a></span>
+      <span class="home-hero-cinema__telemetry-val">sales@onyxmen.my · info@onyxmen.my · Bahasa Malaysia: <a href="/ms/" style="color:#F3E5AB;text-decoration:underline;">onyxman.my/ms/</a></span>
     </div>
   </div>
 </section>
@@ -1464,7 +1464,7 @@ function renderMs081DiagnosticSelector() {
       </div>
       <div style="flex:1 1 440px;">
         <p style="color:#B8B3A8;font-size:0.98rem;line-height:1.7;">
-          Because all four Onyxman formulations are priced identically at <strong>RM 159 (1 Bottle)</strong>, <strong>RM 318 (2 Bottles)</strong>, and <strong>RM 477 (3 Bottles)</strong>, your selection depends purely on your primary physiological goal, capsule shell preference, and intake timing. Select your primary objective below to calibrate your protocol:
+          Because all four Onyxmen formulations are priced identically at <strong>RM 159 (1 Bottle)</strong>, <strong>RM 318 (2 Bottles)</strong>, and <strong>RM 477 (3 Bottles)</strong>, your selection depends purely on your primary physiological goal, capsule shell preference, and intake timing. Select your primary objective below to calibrate your protocol:
         </p>
       </div>
     </div>
@@ -1723,10 +1723,10 @@ function renderMs082BotanicalMonographCurtain() {
         </p>
 
         <p style="color:#B8B3A8;font-size:0.96rem;line-height:1.72;">
-          <strong style="color:#EAE6DF;">Synergy Across Onyxman Formulations:</strong> ${esc(loc.synergyInOnyxman)}
+          <strong style="color:#EAE6DF;">Synergy Across Onyxmen Formulations:</strong> ${esc(loc.synergyInOnyxmen)}
         </p>
 
-        <div class="architectural-ledger" aria-label="Dosage per Onyxman Formulation">
+        <div class="architectural-ledger" aria-label="Dosage per Onyxmen Formulation">
           ${featuredListHtml}
         </div>
 
@@ -1767,7 +1767,7 @@ function renderMs082BotanicalMonographCurtain() {
         Standardized Aqueous Extracts &amp; Pharmaceutical Amino Acids. <span class="foil-champagne-text">Zero Raw Bark Fillers.</span>
       </h2>
       <p style="color:#B8B3A8;font-size:0.95rem;line-height:1.68;margin-top:1rem;max-width:52ch;">
-        Unstandardized street herbs contain mostly indigestible cellulose wood fiber. Onyxman formulates exclusively with HPLC-verified botanical extracts and free-form nitric oxide precursors.
+        Unstandardized street herbs contain mostly indigestible cellulose wood fiber. Onyxmen formulates exclusively with HPLC-verified botanical extracts and free-form nitric oxide precursors.
       </p>
     </div>
 
@@ -1775,7 +1775,7 @@ function renderMs082BotanicalMonographCurtain() {
       <span class="split-stage-5050__index-watermark" data-split-watermark="true" aria-hidden="true">01</span>
       <img
         src="/assets/products/horsemen-portrait.webp"
-        alt="Onyxman Malaysia Standardized Botanical Apothecary Formulation"
+        alt="Onyxmen Malaysia Standardized Botanical Apothecary Formulation"
         width="900"
         height="1125"
         loading="lazy"
@@ -2188,7 +2188,7 @@ function renderMs085AntiCounterfeitAndPrivacy() {
           MS-085 · OFFICIAL RM 159 ANTI-COUNTERFEIT VERIFICATION &amp; BLIND-WAYBILL PRIVACY ARCHITECTURE
         </span>
         <h2 id="heading-ms-085-authenticity" class="editorial-headline-lg">
-          How To Verify Authentic Climate-Controlled Onyxman Stock &amp; How Our 3-Layer Unmarked Parcel Protects Your Privacy
+          How To Verify Authentic Climate-Controlled Onyxmen Stock &amp; How Our 3-Layer Unmarked Parcel Protects Your Privacy
         </h2>
       </div>
       <div style="flex:1 1 440px;display:flex;flex-direction:column;gap:1rem;">
@@ -2213,7 +2213,7 @@ function renderMs085AntiCounterfeitAndPrivacy() {
         <span class="architectural-ledger__index">VERIFY · 01</span>
         <h3 class="architectural-ledger__title">Official Uniform MYR Tariff (RM 159 / RM 318 / RM 477)</h3>
         <p class="architectural-ledger__detail">
-          Authentic Onyxman Malaysia formulations never sell for "RM 25–RM 45 clearance prices" on unverified marketplaces. Official pricing across Malaysia is strictly <strong>RM 159.00 (1 Bottle)</strong>, <strong>RM 318.00 (2 Bottles)</strong>, and <strong>RM 477.00 (3 Bottles)</strong>.
+          Authentic Onyxmen Malaysia formulations never sell for "RM 25–RM 45 clearance prices" on unverified marketplaces. Official pricing across Malaysia is strictly <strong>RM 159.00 (1 Bottle)</strong>, <strong>RM 318.00 (2 Bottles)</strong>, and <strong>RM 477.00 (3 Bottles)</strong>.
         </p>
         <span class="architectural-ledger__metric">159.00 / 318.00 / 477.00 MYR</span>
       </div>
@@ -2249,16 +2249,16 @@ function renderMs085AntiCounterfeitAndPrivacy() {
         <span class="architectural-ledger__index">VERIFY · 05</span>
         <h3 class="architectural-ledger__title">Authorized Kuala Lumpur Dispatch Desk &amp; Zero Fake Registration Claims</h3>
         <p class="architectural-ledger__detail">
-          Every legitimate order on https://www.onyxmen.my is routed through our official merchant desk (<strong>waleedshoaibofficial@gmail.com</strong>, <strong>sales@onyxman.my</strong>, <strong>info@onyxman.my</strong>). We strictly reject fabricated medical registration numbers and screen all botanical batches for heavy-metal and microbial compliance.
+          Every legitimate order on https://www.onyxmen.my is routed through our official merchant desk (<strong>waleedshoaibofficial@gmail.com</strong>, <strong>sales@onyxmen.my</strong>, <strong>info@onyxmen.my</strong>). We strictly reject fabricated medical registration numbers and screen all botanical batches for heavy-metal and microbial compliance.
         </p>
-        <span class="architectural-ledger__metric">SALES@ONYXMAN.MY</span>
+        <span class="architectural-ledger__metric">SALES@ONYXMEN.MY</span>
       </div>
     </div>
 
     <!-- Complete 6 Buyer & Vitality Protocol Guides Directory -->
     <div>
       <span class="product-cinema-chapter__subheading">
-        COMPLETE ONYXMAN MALAYSIA BUYER GUIDES &amp; ABSORPTION PROTOCOL LIBRARY (/guides/)
+        COMPLETE ONYXMEN MALAYSIA BUYER GUIDES &amp; ABSORPTION PROTOCOL LIBRARY (/guides/)
       </span>
       <div class="architectural-ledger" role="list" style="margin-top:0.75rem;">
         ${guidesLedgerHtml}
@@ -2315,7 +2315,7 @@ function renderMs086FaqAccordion() {
       </div>
       <div style="flex:1 1 420px;display:flex;flex-direction:column;gap:1rem;">
         <p style="color:#B8B3A8;font-size:0.96rem;line-height:1.7;">
-          Need personalized guidance selecting between a 20-capsule evening reserve and a 30-capsule daily cycle? Contact our private Kuala Lumpur concierge desk at <a href="mailto:sales@onyxman.my" style="color:#F3E5AB;text-decoration:underline;">sales@onyxman.my</a> or <a href="mailto:info@onyxman.my" style="color:#F3E5AB;text-decoration:underline;">info@onyxman.my</a>, or open the 10-Second Express Order Drawer below.
+          Need personalized guidance selecting between a 20-capsule evening reserve and a 30-capsule daily cycle? Contact our private Kuala Lumpur concierge desk at <a href="mailto:sales@onyxmen.my" style="color:#F3E5AB;text-decoration:underline;">sales@onyxmen.my</a> or <a href="mailto:info@onyxmen.my" style="color:#F3E5AB;text-decoration:underline;">info@onyxmen.my</a>, or open the 10-Second Express Order Drawer below.
         </p>
         <div>
           <button
@@ -2346,9 +2346,9 @@ function renderMs086FaqAccordion() {
  */
 export function buildHomeEnPage() {
   const pageTitle =
-    'Onyxman Malaysia — Architectural Botanical Apothecary for Adult Men’s Vitality & Stamina | Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159)';
+    'Onyxmen Malaysia — Architectural Botanical Apothecary for Adult Men’s Vitality & Stamina | Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159)';
   const pageDescription =
-    'Official Onyxman Malaysia (https://www.onyxmen.my) botanical apothecary for adult men: Horsemen (20 Caps x 500mg), Hammer of Thor (20 Veg. Caps Tribulus), Grow XL (30 Caps), and Magnum Pump XR (30 Black Caps Nitric Oxide). Uniform RM 159 (1B), RM 318 (2B), RM 477 (3B) pricing with 100% plain unmarked parcel delivery across all 16 Malaysia states (Same-Day Klang Valley, FPX, DuitNow QR & COD).';
+    'Official Onyxmen Malaysia (https://www.onyxmen.my) botanical apothecary for adult men: Horsemen (20 Caps x 500mg), Hammer of Thor (20 Veg. Caps Tribulus), Grow XL (30 Caps), and Magnum Pump XR (30 Black Caps Nitric Oxide). Uniform RM 159 (1B), RM 318 (2B), RM 477 (3B) pricing with 100% plain unmarked parcel delivery across all 16 Malaysia states (Same-Day Klang Valley, FPX, DuitNow QR & COD).';
 
   const chapterConfigs = [
     {
@@ -2413,7 +2413,7 @@ export function buildHomeEnPage() {
     description: pageDescription,
     breadcrumbs: [
       {
-        name: 'Onyxman Malaysia — Official Apothecary Vault (Home)',
+        name: 'Onyxmen Malaysia — Official Apothecary Vault (Home)',
         url: 'https://www.onyxmen.my/',
       },
     ],
@@ -2444,7 +2444,7 @@ export function buildHomeEnPage() {
   const byteSize = Buffer.byteLength(fullHtml, 'utf8');
 
   console.log('====================================================================');
-  console.log('ONYXMAN.MY — ENGLISH HOMEPAGE CINEMA BUILD COMPLETE (MS-079..MS-086)');
+  console.log('ONYXMEN.MY — ENGLISH HOMEPAGE CINEMA BUILD COMPLETE (MS-079..MS-086)');
   console.log('====================================================================');
   console.log(`Output File  : ${OUTPUT_HTML_PATH}`);
   console.log(`Total Lines  : ${lineCount} lines (Requirement: >= 2,600 lines)`);

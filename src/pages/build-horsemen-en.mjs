@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * ONYXMAN.MY — FLAGSHIP PRODUCT BUILDER: HORSEMEN EN (MS-095 TO MS-099)
+ * ONYXMEN.MY — FLAGSHIP PRODUCT BUILDER: HORSEMEN EN (MS-095 TO MS-099)
  * Generates: public/horsemen-malaysia/index.html
  *
  * Architectural Constitution (Rule #29 & Rule #30):
@@ -15,7 +15,7 @@
  *   Canonical: https://www.onyxmen.my/horsemen-malaysia/ (Paired BM: https://www.onyxmen.my/ms/horsemen-malaysia/)
  *   Pricing: 1 Bottle = RM 159 (159.00 MYR), 2 Bottles = RM 318 (318.00 MYR), 3 Bottles = RM 477 (477.00 MYR)
  *   Refill Protocol: Day-18 Refill Reminder Calendar Integration (18-day active cycle)
- *   Emails: waleedshoaibofficial@gmail.com, sales@onyxman.my, info@onyxman.my
+ *   Emails: waleedshoaibofficial@gmail.com, sales@onyxmen.my, info@onyxmen.my
  */
 
 import fs from 'node:fs';
@@ -54,8 +54,8 @@ export const HORSEMEN_CONSTANTS = {
   },
   emails: {
     primaryOrder: 'waleedshoaibofficial@gmail.com',
-    sales: 'sales@onyxman.my',
-    info: 'info@onyxman.my',
+    sales: 'sales@onyxmen.my',
+    info: 'info@onyxmen.my',
   },
 };
 
@@ -66,15 +66,15 @@ export const HORSEMEN_FAQS = [
     category: 'Specification & Potency',
     questionEn: 'What is the exact capsule count, milligram density, and bilingual bottle specification of authentic Horsemen in Malaysia?',
     answerEn:
-      'Every authentic bottle of Horsemen distributed by Onyxman Malaysia (SKU: ONYX-HM-20, MPN: HM-500MG-20MY, GTIN-13: 9550000102011) contains exactly 20 high-density herbal capsules at 500mg per capsule (20 Capsules x 500mg / 20 Kapsul x 500mg), yielding 10,000mg (10 grams) of standardized botanical and amino-acid actives per bottle. Each 500mg capsule combines 150mg Malaysian Tongkat Ali (100:1), 100mg Black Peruvian Maca, 80mg Epimedium Sagittatum, 80mg L-Arginine HCl, 60mg Korean Red Panax Ginseng, and 30mg Tribulus Terrestris with Zinc Picolinate.',
+      'Every authentic bottle of Horsemen distributed by Onyxmen Malaysia (SKU: ONYX-HM-20, MPN: HM-500MG-20MY, GTIN-13: 9550000102011) contains exactly 20 high-density herbal capsules at 500mg per capsule (20 Capsules x 500mg / 20 Kapsul x 500mg), yielding 10,000mg (10 grams) of standardized botanical and amino-acid actives per bottle. Each 500mg capsule combines 150mg Malaysian Tongkat Ali (100:1), 100mg Black Peruvian Maca, 80mg Epimedium Sagittatum, 80mg L-Arginine HCl, 60mg Korean Red Panax Ginseng, and 30mg Tribulus Terrestris with Zinc Picolinate.',
   },
   {
     id: 'faq-hm-02',
     code: 'HM-FAQ-02',
     category: 'Pricing & Multi-Bottle Tiers',
-    questionEn: 'What is the official Malaysia price for 1, 2, and 3 bottles of Horsemen on Onyxman.my?',
+    questionEn: 'What is the official Malaysia price for 1, 2, and 3 bottles of Horsemen on Onyxmen.my?',
     answerEn:
-      'Onyxman Malaysia maintains a strict, transparent single-tier pricing architecture: 1 Bottle (20 Capsules / 18-Day Active Cycle) is RM 159 (159.00 MYR) with Free Discreet Express Shipping across Peninsular Malaysia; 2 Bottles (40 Capsules / 36-Day Dual Momentum Protocol) is RM 318 (318.00 MYR) with Free Nationwide Discreet Shipping including Sabah, Sarawak, and Labuan; and 3 Bottles (60 Capsules / 54-Day Complete Apothecary Vault) is RM 477 (477.00 MYR) with Priority Discreet Dispatch and VIP Refill Concierge service.',
+      'Onyxmen Malaysia maintains a strict, transparent single-tier pricing architecture: 1 Bottle (20 Capsules / 18-Day Active Cycle) is RM 159 (159.00 MYR) with Free Discreet Express Shipping across Peninsular Malaysia; 2 Bottles (40 Capsules / 36-Day Dual Momentum Protocol) is RM 318 (318.00 MYR) with Free Nationwide Discreet Shipping including Sabah, Sarawak, and Labuan; and 3 Bottles (60 Capsules / 54-Day Complete Apothecary Vault) is RM 477 (477.00 MYR) with Priority Discreet Dispatch and VIP Refill Concierge service.',
   },
   {
     id: 'faq-hm-03',
@@ -98,7 +98,7 @@ export const HORSEMEN_FAQS = [
     category: 'Formulation Comparison',
     questionEn: 'How does Horsemen compare to Hammer of Thor, Grow XL, and Magnum Pump XR?',
     answerEn:
-      'All four Onyxman formulations are RM 159 per bottle, but each serves a distinct physiological specialization: Horsemen (20 Capsules x 500mg, SKU ONYX-HM-20) is engineered around 150mg Malaysian Tongkat Ali 100:1 + 100mg Black Maca + 80mg Epimedium for rapid evening readiness and dual-mode stamina. Hammer of Thor (20 Veg. Capsules, SKU ONYX-HT-20) features 200mg high-saponin Tribulus Terrestris inside 100% plant-based HPMC vegetarian capsules. Grow XL (30 Capsules, SKU ONYX-GX-30) is a 30-day morning micro-circulation and Saw Palmetto + Muira Puama baseline protocol. Magnum Pump XR (30 Black Capsules, SKU ONYX-MP-30) is an extended-release L-Arginine HCl + L-Citrulline Nitric Oxide vascular formula for pre-gym and evening output.',
+      'All four Onyxmen formulations are RM 159 per bottle, but each serves a distinct physiological specialization: Horsemen (20 Capsules x 500mg, SKU ONYX-HM-20) is engineered around 150mg Malaysian Tongkat Ali 100:1 + 100mg Black Maca + 80mg Epimedium for rapid evening readiness and dual-mode stamina. Hammer of Thor (20 Veg. Capsules, SKU ONYX-HT-20) features 200mg high-saponin Tribulus Terrestris inside 100% plant-based HPMC vegetarian capsules. Grow XL (30 Capsules, SKU ONYX-GX-30) is a 30-day morning micro-circulation and Saw Palmetto + Muira Puama baseline protocol. Magnum Pump XR (30 Black Capsules, SKU ONYX-MP-30) is an extended-release L-Arginine HCl + L-Citrulline Nitric Oxide vascular formula for pre-gym and evening output.',
   },
   {
     id: 'faq-hm-06',
@@ -106,7 +106,7 @@ export const HORSEMEN_FAQS = [
     category: 'Discreet Packaging & Privacy',
     questionEn: 'Is the parcel 100% unmarked when delivered to my home, condo guardhouse, or Kuala Lumpur office?',
     answerEn:
-      'Yes—100% privacy is mandatory on every dispatch. Your Horsemen bottle is sealed inside a shock-absorbent protective sleeve and packed into an unbranded, opaque matte security carton. The outer courier airway bill displays the sender strictly as "OM Fulfilment Logistics (Kuala Lumpur)" and classifies contents generically as "Personal Nutritional Wellness". Neither "Horsemen", "Onyxman", nor any reference to men’s virility supplements ever appears on the parcel exterior.',
+      'Yes—100% privacy is mandatory on every dispatch. Your Horsemen bottle is sealed inside a shock-absorbent protective sleeve and packed into an unbranded, opaque matte security carton. The outer courier airway bill displays the sender strictly as "OM Fulfilment Logistics (Kuala Lumpur)" and classifies contents generically as "Personal Nutritional Wellness". Neither "Horsemen", "Onyxmen", nor any reference to men’s virility supplements ever appears on the parcel exterior.',
   },
   {
     id: 'faq-hm-07',
@@ -136,9 +136,9 @@ export const HORSEMEN_FAQS = [
     id: 'faq-hm-10',
     code: 'HM-FAQ-10',
     category: 'Safety, Authenticity & Support',
-    questionEn: 'Who should consult a physician before taking Horsemen, and how do I contact Onyxman Malaysia support?',
+    questionEn: 'Who should consult a physician before taking Horsemen, and how do I contact Onyxmen Malaysia support?',
     answerEn:
-      'Horsemen is a botanical and amino-acid dietary supplement formulated strictly for adult men aged 18 and above. It is not a prescription pharmaceutical and is not intended to diagnose, treat, cure, or prevent any disease. Adult men with cardiovascular conditions, uncontrolled hypertension, renal or hepatic impairment, or those prescribed nitrates or antihypertensive medications should consult a licensed Malaysian medical practitioner before use. For direct authenticity verification or order assistance, contact our Kuala Lumpur desk at sales@onyxman.my, info@onyxman.my, or waleedshoaibofficial@gmail.com.',
+      'Horsemen is a botanical and amino-acid dietary supplement formulated strictly for adult men aged 18 and above. It is not a prescription pharmaceutical and is not intended to diagnose, treat, cure, or prevent any disease. Adult men with cardiovascular conditions, uncontrolled hypertension, renal or hepatic impairment, or those prescribed nitrates or antihypertensive medications should consult a licensed Malaysian medical practitioner before use. For direct authenticity verification or order assistance, contact our Kuala Lumpur desk at sales@onyxmen.my, info@onyxmen.my, or waleedshoaibofficial@gmail.com.',
   },
 ];
 
@@ -218,22 +218,22 @@ export function buildHorsemenSchemaGraph() {
     returnFees: 'https://schema.org/FreeReturn',
     itemCondition: 'https://schema.org/NewCondition',
     description:
-      '14-day unopened tamper-evident seal guarantee across Malaysia. Contact sales@onyxman.my, info@onyxman.my, or waleedshoaibofficial@gmail.com for direct concierge assistance.',
+      '14-day unopened tamper-evident seal guarantee across Malaysia. Contact sales@onyxmen.my, info@onyxmen.my, or waleedshoaibofficial@gmail.com for direct concierge assistance.',
   };
 
   const brandNode = {
     '@type': 'Brand',
     '@id': 'https://www.onyxmen.my/#brand',
-    name: 'Onyxman',
+    name: 'Onyxmen',
     url: 'https://www.onyxmen.my',
   };
 
   const sellerNode = {
     '@type': 'Organization',
     '@id': orgId,
-    name: 'Onyxman Malaysia',
+    name: 'Onyxmen Malaysia',
     url: 'https://www.onyxmen.my',
-    email: 'sales@onyxman.my',
+    email: 'sales@onyxmen.my',
   };
 
   const variantDefinitions = [
@@ -303,21 +303,21 @@ export function buildHorsemenSchemaGraph() {
       {
         '@type': ['Organization', 'OnlineStore'],
         '@id': orgId,
-        name: 'Onyxman Malaysia',
-        legalName: "Onyxman Malaysia Apothecary & Men's Vitality Vault",
+        name: 'Onyxmen Malaysia',
+        legalName: "Onyxmen Malaysia Apothecary & Men's Vitality Vault",
         url: 'https://www.onyxmen.my',
-        email: 'sales@onyxman.my',
+        email: 'sales@onyxmen.my',
         contactPoint: [
           {
             '@type': 'ContactPoint',
-            email: 'sales@onyxman.my',
+            email: 'sales@onyxmen.my',
             contactType: 'sales',
             areaServed: 'MY',
             availableLanguage: ['en-MY', 'ms-MY'],
           },
           {
             '@type': 'ContactPoint',
-            email: 'info@onyxman.my',
+            email: 'info@onyxmen.my',
             contactType: 'customer support',
             areaServed: 'MY',
             availableLanguage: ['en-MY', 'ms-MY'],
@@ -335,7 +335,7 @@ export function buildHorsemenSchemaGraph() {
         '@type': 'WebSite',
         '@id': websiteId,
         url: 'https://www.onyxmen.my',
-        name: 'Onyxman Malaysia',
+        name: 'Onyxmen Malaysia',
         inLanguage: 'en-MY',
         publisher: { '@id': orgId },
       },
@@ -345,7 +345,7 @@ export function buildHorsemenSchemaGraph() {
         '@type': 'ItemPage',
         '@id': `${pageUrl}#webpage`,
         url: pageUrl,
-        name: 'Horsemen Malaysia (20 Capsules x 500mg) — Man Virility Enhancement Herbal Supplement | RM 159 Onyxman.my',
+        name: 'Horsemen Malaysia (20 Capsules x 500mg) — Man Virility Enhancement Herbal Supplement | RM 159 Onyxmen.my',
         description:
           'Official Horsemen Malaysia flagship reserve (SKU: ONYX-HM-20, MPN: HM-500MG-20MY, GTIN-13: 9550000102011). 20 Capsules x 500mg (20 Kapsul x 500mg) with Tongkat Ali 150mg, Black Maca 100mg, Epimedium 80mg, L-Arginine HCl 80mg, Korean Red Ginseng 60mg & Tribulus/Zinc 30mg. RM 159 (1 bottle), RM 318 (2 bottles), RM 477 (3 bottles).',
         inLanguage: 'en-MY',
@@ -357,9 +357,9 @@ export function buildHorsemenSchemaGraph() {
         '@type': ['Product', 'DietarySupplement'],
         '@id': productId,
         name: 'Horsemen — Man Virility Enhancement Herbal Supplement (20 Capsules x 500mg / 20 Kapsul x 500mg)',
-        alternateName: 'Horsemen 20 Capsules x 500mg Onyxman Malaysia',
+        alternateName: 'Horsemen 20 Capsules x 500mg Onyxmen Malaysia',
         description:
-          'Horsemen by Onyxman Malaysia is an authentic 20-capsule x 500mg (10,000mg total potency) adult men’s botanical dietary supplement combining Malaysian Tongkat Ali (150mg), Black Peruvian Maca (100mg), Epimedium Sagittatum (80mg), L-Arginine HCl (80mg), Korean Red Panax Ginseng (60mg), and Tribulus Terrestris with Zinc Picolinate (30mg) for evening readiness and sustained physical stamina.',
+          'Horsemen by Onyxmen Malaysia is an authentic 20-capsule x 500mg (10,000mg total potency) adult men’s botanical dietary supplement combining Malaysian Tongkat Ali (150mg), Black Peruvian Maca (100mg), Epimedium Sagittatum (80mg), L-Arginine HCl (80mg), Korean Red Panax Ginseng (60mg), and Tribulus Terrestris with Zinc Picolinate (30mg) for evening readiness and sustained physical stamina.',
         disambiguatingDescription:
           'Oral botanical and amino-acid dietary supplement in a 20-capsule x 500mg obsidian apothecary bottle for adult men (18+) in Malaysia. Distinct from equestrian equipment.',
         url: pageUrl,
@@ -436,7 +436,7 @@ export function buildHorsemenSchemaGraph() {
           {
             '@type': 'ListItem',
             position: 1,
-            name: 'Onyxman Malaysia',
+            name: 'Onyxmen Malaysia',
             item: 'https://www.onyxmen.my/',
           },
           {
@@ -1309,7 +1309,7 @@ export function buildHorsemenBodyContent() {
         <div class="hm-cinema-hero__top-telemetry">
           <nav aria-label="Breadcrumb">
             <ol class="hm-breadcrumb-trail">
-              <li><a href="/">Onyxman Malaysia</a></li>
+              <li><a href="/">Onyxmen Malaysia</a></li>
               <li aria-hidden="true">/</li>
               <li><a href="/products/">Formulations Vault</a></li>
               <li aria-hidden="true">/</li>
@@ -1461,7 +1461,7 @@ export function buildHorsemenBodyContent() {
 
               <a
                 id="hm-hero-day18-calendar-link"
-                href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Onyxman+Malaysia+%E2%80%94+Horsemen+Day-18+Refill+Check-In+(RM+159)&details=Time+to+reserve+your+next+bottle+of+Horsemen+(20+Capsules+x+500mg,+SKU+ONYX-HM-20)+at+https://www.onyxmen.my/horsemen-malaysia/+or+email+sales@onyxman.my+so+your+cycle+continues+with+zero+gap."
+                href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Onyxmen+Malaysia+%E2%80%94+Horsemen+Day-18+Refill+Check-In+(RM+159)&details=Time+to+reserve+your+next+bottle+of+Horsemen+(20+Capsules+x+500mg,+SKU+ONYX-HM-20)+at+https://www.onyxmen.my/horsemen-malaysia/+or+email+sales@onyxmen.my+so+your+cycle+continues+with+zero+gap."
                 target="_blank"
                 rel="noopener noreferrer"
                 class="cta-hairline-secondary"
@@ -1486,7 +1486,7 @@ export function buildHorsemenBodyContent() {
                   <img
                     id="hm-hero-stage-main-img"
                     src="/assets/products/horsemen-stage.png"
-                    alt="Horsemen Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg Official Onyxman Malaysia Bottle (SKU ONYX-HM-20, RM 159)"
+                    alt="Horsemen Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg Official Onyxmen Malaysia Bottle (SKU ONYX-HM-20, RM 159)"
                     width="900"
                     height="900"
                     fetchpriority="high"
@@ -1828,7 +1828,7 @@ export function buildHorsemenChapterMS097() {
             The 18-Day Active Cycle: Why Capsule #18 Triggers Your Seamless Refill Window
           </h2>
           <p style="font-family:'Space Grotesk',sans-serif;font-size:0.98rem;line-height:1.75;color:#B8B3A8;">
-            Each bottle of <strong>Horsemen</strong> houses <strong>20 capsules × 500mg</strong>. Rather than waiting until an empty bottle on Day 20—which creates a 2-to-3-day gap while waiting for courier transit—Onyxman engineers Horsemen around an <strong>18-Day Active Conditioning Cycle</strong>. On Day 18, while you still hold <strong>2 reserve capsules (Capsules #19 and #20)</strong>, your automated Google Calendar or WhatsApp concierge reminder fires so your fresh bottle arrives at your doorstep with zero interruption in botanical bio-saturation.
+            Each bottle of <strong>Horsemen</strong> houses <strong>20 capsules × 500mg</strong>. Rather than waiting until an empty bottle on Day 20—which creates a 2-to-3-day gap while waiting for courier transit—Onyxmen engineers Horsemen around an <strong>18-Day Active Conditioning Cycle</strong>. On Day 18, while you still hold <strong>2 reserve capsules (Capsules #19 and #20)</strong>, your automated Google Calendar or WhatsApp concierge reminder fires so your fresh bottle arrives at your doorstep with zero interruption in botanical bio-saturation.
           </p>
         </div>
 
@@ -1919,7 +1919,7 @@ export function buildHorsemenChapterMS097() {
 export function buildHorsemenChapterMS098() {
   return `
       <!-- ====================================================================
-           CHAPTER IV (MS-098): HORSEMEN VS. OTHER ONYXMAN FORMULATIONS MATRIX
+           CHAPTER IV (MS-098): HORSEMEN VS. OTHER ONYXMEN FORMULATIONS MATRIX
            + 16-STATE MALAYSIA SAME-DAY / NEXT-DAY DISCREET DELIVERY TABLE
            ==================================================================== -->
       <section
@@ -1935,12 +1935,12 @@ export function buildHorsemenChapterMS098() {
             Horsemen vs. Hammer of Thor vs. Grow XL vs. Magnum Pump XR
           </h2>
           <p style="font-family:'Space Grotesk',sans-serif;font-size:0.96rem;line-height:1.75;color:#B8B3A8;">
-            Every formulation in the Onyxman Malaysia vault is priced identically at <strong>RM 159 for 1 bottle</strong>, <strong>RM 318 for 2 bottles</strong>, and <strong>RM 477 for 3 bottles</strong>. This uniform pricing architecture ensures you select your reserve strictly by physiological mechanism, capsule count (20 vs. 30 capsules), and intake timing.
+            Every formulation in the Onyxmen Malaysia vault is priced identically at <strong>RM 159 for 1 bottle</strong>, <strong>RM 318 for 2 bottles</strong>, and <strong>RM 477 for 3 bottles</strong>. This uniform pricing architecture ensures you select your reserve strictly by physiological mechanism, capsule count (20 vs. 30 capsules), and intake timing.
           </p>
         </div>
 
         <!-- 4-Formulation Architectural Comparison Table -->
-        <div class="hm-table-scroll-container" role="region" aria-label="Onyxman 4-Formulation Comparison Table" tabindex="0">
+        <div class="hm-table-scroll-container" role="region" aria-label="Onyxmen 4-Formulation Comparison Table" tabindex="0">
           <table class="hm-architectural-table">
             <thead>
               <tr>
@@ -2208,7 +2208,7 @@ export function buildHorsemenChapterMS099() {
             10-Point Horsemen Malaysia Technical &amp; Fulfilment Intelligence
           </h2>
           <p style="font-family:'Space Grotesk',sans-serif;font-size:0.96rem;line-height:1.75;color:#B8B3A8;">
-            Complete specifications covering capsule density (<strong>20 Capsules × 500mg / 20 Kapsul × 500mg</strong>), the <strong>Day-18 Refill Reminder Protocol</strong>, unmarked parcel privacy, and nationwide Malaysia courier dispatch. For direct concierge inquiries, email <a href="mailto:sales@onyxman.my" style="color:#F3E5AB;text-decoration:underline;">sales@onyxman.my</a>, <a href="mailto:info@onyxman.my" style="color:#F3E5AB;text-decoration:underline;">info@onyxman.my</a>, or <a href="mailto:waleedshoaibofficial@gmail.com" style="color:#F3E5AB;text-decoration:underline;">waleedshoaibofficial@gmail.com</a>.
+            Complete specifications covering capsule density (<strong>20 Capsules × 500mg / 20 Kapsul × 500mg</strong>), the <strong>Day-18 Refill Reminder Protocol</strong>, unmarked parcel privacy, and nationwide Malaysia courier dispatch. For direct concierge inquiries, email <a href="mailto:sales@onyxmen.my" style="color:#F3E5AB;text-decoration:underline;">sales@onyxmen.my</a>, <a href="mailto:info@onyxmen.my" style="color:#F3E5AB;text-decoration:underline;">info@onyxmen.my</a>, or <a href="mailto:waleedshoaibofficial@gmail.com" style="color:#F3E5AB;text-decoration:underline;">waleedshoaibofficial@gmail.com</a>.
           </p>
         </div>
 
@@ -2542,7 +2542,7 @@ export function generateHorsemenEnHtml() {
   return renderLuxuryShell({
     lang: 'en-MY',
     title:
-      'Horsemen Malaysia (20 Capsules x 500mg) — Man Virility Enhancement Herbal Supplement | RM 159 Onyxman.my',
+      'Horsemen Malaysia (20 Capsules x 500mg) — Man Virility Enhancement Herbal Supplement | RM 159 Onyxmen.my',
     description:
       'Official Horsemen Malaysia flagship reserve (20 Capsules x 500mg / 20 Kapsul x 500mg, SKU ONYX-HM-20, MPN HM-500MG-20MY, GTIN 9550000102011). 150mg Tongkat Ali, 100mg Black Maca, 80mg Epimedium, 80mg L-Arginine HCl, 60mg Red Ginseng & 30mg Tribulus/Zinc. 1 Bottle RM 159, 2 Bottles RM 318, 3 Bottles RM 477 with 100% discreet delivery across all 16 Malaysia states.',
     canonicalPath: '/horsemen-malaysia/',
@@ -2598,8 +2598,8 @@ export function writeHorsemenEnPage() {
     '318.00',
     '477.00',
     'waleedshoaibofficial@gmail.com',
-    'sales@onyxman.my',
-    'info@onyxman.my',
+    'sales@onyxmen.my',
+    'info@onyxmen.my',
     'data-order-product="horsemen"',
     '20 Capsules x 500mg',
     '20 Kapsul x 500mg',

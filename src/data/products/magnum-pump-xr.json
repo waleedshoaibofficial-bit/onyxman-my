@@ -3,7 +3,7 @@
   "id": "magnum-pump-xr",
   "slug": "magnum-pump-xr",
   "name": "Magnum Pump XR",
-  "brand": "Onyxman",
+  "brand": "Onyxmen",
   "brandUrl": "https://www.onyxmen.my",
   "sku": "ONYX-MP-30",
   "skuLegacyAlias": "ONYX-MP-30MY",
@@ -13,15 +13,15 @@
   "entityDisambiguation": {
     "entityType": "DietarySupplement",
     "schemaCategory": "Health & Beauty > Health Care > Fitness & Nutrition > Vitamins & Supplements",
-    "positiveClassificationEn": "Magnum Pump XR by Onyxman Malaysia (https://www.onyxmen.my) is strictly an oral botanical and amino-acid Dietary Supplement for adult men (30 Black Capsules per bottle, SKU ONYX-MP-30, MPN MPXR-30BLK-MY) formulated with L-Arginine HCl, L-Citrulline, Tribulus Terrestris, Tongkat Ali, and Bioperine to support nitric oxide vascular flow and physical stamina.",
-    "positiveClassificationMs": "Magnum Pump XR oleh Onyxman Malaysia (https://www.onyxmen.my) adalah Suplemen Pemakanan kapsul botani dan asid amino untuk lelaki dewasa (30 Kapsul Hitam setiap botol, SKU ONYX-MP-30, MPN MPXR-30BLK-MY) yang dirumus dengan L-Arginine HCl, L-Citrulline, Tribulus Terrestris, Tongkat Ali, dan Bioperine bagi menyokong aliran nitrik oksida dan stamina fizikal.",
+    "positiveClassificationEn": "Magnum Pump XR by Onyxmen Malaysia (https://www.onyxmen.my) is strictly an oral botanical and amino-acid Dietary Supplement for adult men (30 Black Capsules per bottle, SKU ONYX-MP-30, MPN MPXR-30BLK-MY) formulated with L-Arginine HCl, L-Citrulline, Tribulus Terrestris, Tongkat Ali, and Bioperine to support nitric oxide vascular flow and physical stamina.",
+    "positiveClassificationMs": "Magnum Pump XR oleh Onyxmen Malaysia (https://www.onyxmen.my) adalah Suplemen Pemakanan kapsul botani dan asid amino untuk lelaki dewasa (30 Kapsul Hitam setiap botol, SKU ONYX-MP-30, MPN MPXR-30BLK-MY) yang dirumus dengan L-Arginine HCl, L-Citrulline, Tribulus Terrestris, Tongkat Ali, dan Bioperine bagi menyokong aliran nitrik oksida dan stamina fizikal.",
     "negativeDisambiguationEn": "NOT affiliated with, related to, or interchangeable with any mechanical, hydraulic, frac, slurry, or industrial oilfield equipment (such as 'Magnum Pump XR' fluid-end pumps, mud pumps, or SPM/Weir oilfield machinery), nor any mechanical vacuum device.",
     "negativeDisambiguationMs": "TIDAK berkaitan sama sekali dengan sebarang peralatan mekanikal, pam hidraulik, pam industri minyak dan gas (oilfield frac/slurry pump), atau sebarang alat pam mekanikal luaran.",
     "disambiguatingKeywords": [
       "Magnum Pump XR 30 Black Capsules Malaysia",
       "Magnum Pump XR Testosterone Pro Series Supplement",
       "Magnum Pump XR Nitric Oxide L-Arginine Capsules RM 159",
-      "Onyxman Magnum Pump XR Dietary Supplement"
+      "Onyxmen Magnum Pump XR Dietary Supplement"
     ]
   },
   "labelTranscription": {
@@ -51,8 +51,8 @@
     "stagePng": "/assets/products/magnum-pump-xr-stage.png",
     "portraitWebp": "/assets/products/magnum-pump-xr-portrait.webp",
     "portraitPng": "/assets/products/magnum-pump-xr-portrait.png",
-    "altEn": "Magnum Pump XR Testosterone Pro Series Male Enhancement Formula Maximum Strength — 30 Black Capsules Official Onyxman Malaysia Bottle (RM 159)",
-    "altMs": "Magnum Pump XR Testosterone Pro Series Formula Prestasi Lelaki — 30 Kapsul Hitam Botol Rasmi Onyxman Malaysia (RM 159)"
+    "altEn": "Magnum Pump XR Testosterone Pro Series Male Enhancement Formula Maximum Strength — 30 Black Capsules Official Onyxmen Malaysia Bottle (RM 159)",
+    "altMs": "Magnum Pump XR Testosterone Pro Series Formula Prestasi Lelaki — 30 Kapsul Hitam Botol Rasmi Onyxmen Malaysia (RM 159)"
   },
   "pricing": {
     "currency": "MYR",
@@ -121,29 +121,29 @@
     "capsuleCount": 30,
     "capsuleStrengthMg": 600,
     "refillReminderDay": 25,
-    "calendarAlertTitleEn": "Onyxman Malaysia — Magnum Pump XR Day-25 Refill Check-In (RM 159)",
-    "calendarAlertTitleMs": "Onyxman Malaysia — Peringatan Bekalan Hari Ke-25 Magnum Pump XR (RM 159)",
+    "calendarAlertTitleEn": "Onyxmen Malaysia — Magnum Pump XR Day-25 Refill Check-In (RM 159)",
+    "calendarAlertTitleMs": "Onyxmen Malaysia — Peringatan Bekalan Hari Ke-25 Magnum Pump XR (RM 159)",
     "protocolSummaryEn": "Magnum Pump XR contains 30 signature jet-black capsules per bottle. Whether used daily before training or prior to evening physical output, our Day-25 automated refill alert ensures your next bottle is dispatched while you still have 5 black capsules in reserve.",
     "protocolSummaryMs": "Magnum Pump XR mengandungi 30 kapsul hitam eksklusif setiap botol. Sama ada diambil setiap hari sebelum senaman atau sebelum aktiviti malam, peringatan automatik pada Hari Ke-25 memastikan botol seterusnya dihantar ketika anda masih mempunyai baki 5 kapsul hitam."
   },
   "locales": {
     "en-MY": {
-      "seoTitle": "Magnum Pump XR (30 Black Capsules) — Testosterone Pro Series Nitric Oxide Supplement | RM 159 Onyxman Malaysia",
-      "metaDescription": "Reserve authentic Magnum Pump XR (Testosterone Pro Series — Male Enhancement Formula Maximum Strength — 30 Black Capsules, SKU ONYX-MP-30) for RM 159 at Onyxman.my. L-Arginine HCl, L-Citrulline, Tribulus, Tongkat Ali & Bioperine dietary supplement.",
+      "seoTitle": "Magnum Pump XR (30 Black Capsules) — Testosterone Pro Series Nitric Oxide Supplement | RM 159 Onyxmen Malaysia",
+      "metaDescription": "Reserve authentic Magnum Pump XR (Testosterone Pro Series — Male Enhancement Formula Maximum Strength — 30 Black Capsules, SKU ONYX-MP-30) for RM 159 at Onyxmen.my. L-Arginine HCl, L-Citrulline, Tribulus, Tongkat Ali & Bioperine dietary supplement.",
       "heroEyebrow": "FORMULATION IV • 30 BLACK CAPSULES • NITRIC OXIDE & TESTOSTERONE PRO SERIES",
       "heroHeadline": "Magnum Pump XR — Extended-Release Nitric Oxide & Maximum Strength Black Capsules",
       "heroSubheadline": "Engineered with 30 signature jet-black capsules per bottle, Magnum Pump XR combines dual nitric oxide amino precursors (L-Arginine HCl + L-Citrulline) with Tribulus Terrestris, Malaysian Tongkat Ali, Thai Black Ginger, and Piperine (Bioperine).",
-      "positioningSummary": "Magnum Pump XR is Onyxman Malaysia's dedicated vascular-flow and physical-output dietary supplement. Recognizable by its distinctive jet-black capsules and 'Testosterone Pro Series — Maximum Strength' crest, it bridges the gap between high-intensity gym vascularity and evening physical stamina without synthetic stimulants or energy crashes.",
+      "positioningSummary": "Magnum Pump XR is Onyxmen Malaysia's dedicated vascular-flow and physical-output dietary supplement. Recognizable by its distinctive jet-black capsules and 'Testosterone Pro Series — Maximum Strength' crest, it bridges the gap between high-intensity gym vascularity and evening physical stamina without synthetic stimulants or energy crashes.",
       "idealUserProfile": "Active men, resistance-training athletes, and busy executives (18+) in Malaysia who want a 30-black-capsule Nitric Oxide + Botanical formula that supports both pre-workout muscular pump and confident evening stamina.",
       "sensoryAndCraftNotes": "Features 30 distinctive jet-black capsules housed in an obsidian-and-crimson bottle. Formulated with standardized Black Pepper Piperine (Bioperine) to enhance intestinal bioavailability of amino acids and root extracts."
     },
     "ms-MY": {
-      "seoTitle": "Magnum Pump XR (30 Kapsul Hitam) — Suplemen Nitrik Oksida Testosterone Pro Series | RM 159 Onyxman Malaysia",
-      "metaDescription": "Tempah Magnum Pump XR tulen (Testosterone Pro Series — Formula Prestasi Lelaki Kekuatan Maksimum — 30 Kapsul Hitam, SKU ONYX-MP-30) pada harga RM 159 di Onyxman.my. Suplemen L-Arginine HCl, L-Citrulline, Tribulus, Tongkat Ali & Bioperine.",
+      "seoTitle": "Magnum Pump XR (30 Kapsul Hitam) — Suplemen Nitrik Oksida Testosterone Pro Series | RM 159 Onyxmen Malaysia",
+      "metaDescription": "Tempah Magnum Pump XR tulen (Testosterone Pro Series — Formula Prestasi Lelaki Kekuatan Maksimum — 30 Kapsul Hitam, SKU ONYX-MP-30) pada harga RM 159 di Onyxmen.my. Suplemen L-Arginine HCl, L-Citrulline, Tribulus, Tongkat Ali & Bioperine.",
       "heroEyebrow": "FORMULASI IV • 30 KAPSUL HITAM • SIRI PRO NITRIK OKSIDA & KECERGASAN LELAKI",
       "heroHeadline": "Magnum Pump XR — Kapsul Hitam Pelepasan Lanjutan untuk Aliran Nitrik Oksida & Stamina",
       "heroSubheadline": "Menampilkan 30 kapsul hitam eksklusif setiap botol, Magnum Pump XR menggabungkan dwi-prekursor asid amino nitrik oksida (L-Arginine HCl + L-Citrulline) bersama Tribulus Terrestris, Tongkat Ali Malaysia, Kunyit Hitam, dan Bioperine.",
-      "positioningSummary": "Magnum Pump XR ialah suplemen pemakanan berprestasi tinggi di Onyxman Malaysia yang memfokuskan kepada kelancaran aliran vaskular dan daya tahan fizikal. Dikenali dengan kapsul hitam ikonik serta lencana 'Testosterone Pro Series — Maximum Strength', ia menyokong prestasi senaman di gimnasium dan stamina waktu malam tanpa bahan perangsang sintetik.",
+      "positioningSummary": "Magnum Pump XR ialah suplemen pemakanan berprestasi tinggi di Onyxmen Malaysia yang memfokuskan kepada kelancaran aliran vaskular dan daya tahan fizikal. Dikenali dengan kapsul hitam ikonik serta lencana 'Testosterone Pro Series — Maximum Strength', ia menyokong prestasi senaman di gimnasium dan stamina waktu malam tanpa bahan perangsang sintetik.",
       "idealUserProfile": "Lelaki aktif, pengamal senaman bebanan, dan golongan profesional dewasa (18+) di Malaysia yang mahukan formulasi 30 kapsul hitam berasaskan Nitrik Oksida + Herba untuk sokongan tenaga senaman dan kecergasan malam.",
       "sensoryAndCraftNotes": "Mengandungi 30 kapsul berwarna hitam pekat di dalam botol hitam-merah eksklusif. Diperkaya dengan ekstrak Lada Hitam Piawai (Bioperine) bagi mempercepatkan penyerapan asid amino dan ekstrak herba di dalam badan."
     }
@@ -252,8 +252,8 @@
       "stage": "Days 16–30 (Day-25 Refill Trigger)",
       "titleEn": "Full 30-Black-Capsule Pro Series Peak & Day-25 Refill Alert",
       "titleMs": "Hari 16–30 (Peringatan Hari Ke-25): Kemuncak Kitaran 30 Kapsul Hitam",
-      "detailEn": "Peak nitric oxide and adaptogenic synergy across the full 30-day cycle. On Day 25, your automated Onyxman reminder triggers so your next bottle arrives before your 30th black capsule is finished.",
-      "detailMs": "Sinergi penuh nitrik oksida dan herba adaptogenik dicapai. Pada Hari Ke-25, peringatan automatik Onyxman memastikan botol baharu tiba sebelum kapsul hitam ke-30 anda habis."
+      "detailEn": "Peak nitric oxide and adaptogenic synergy across the full 30-day cycle. On Day 25, your automated Onyxmen reminder triggers so your next bottle arrives before your 30th black capsule is finished.",
+      "detailMs": "Sinergi penuh nitrik oksida dan herba adaptogenik dicapai. Pada Hari Ke-25, peringatan automatik Onyxmen memastikan botol baharu tiba sebelum kapsul hitam ke-30 anda habis."
     }
   ],
   "discreetShippingAndCheckout": {
@@ -270,10 +270,10 @@
   },
   "faqs": [
     {
-      "qEn": "What is Magnum Pump XR on Onyxman.my? Is it a dietary supplement or mechanical equipment?",
-      "aEn": "Magnum Pump XR on Onyxman.my (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY) is 100% an oral botanical and amino-acid Dietary Supplement for adult men containing 30 Black Capsules per bottle. It has zero relation to industrial oilfield fluid/slurry pumps or mechanical devices that happen to share the word 'Magnum' in heavy industry.",
-      "qMs": "Apakah sebenarnya Magnum Pump XR di Onyxman.my? Adakah ia suplemen kapsul atau alat mekanikal?",
-      "aMs": "Magnum Pump XR di Onyxman.my (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY) adalah 100% Suplemen Pemakanan kapsul herba dan asid amino untuk lelaki dewasa yang mengandungi 30 Kapsul Hitam setiap botol. Ia langsung tidak berkaitan dengan pam industri minyak/gas atau sebarang alat pam mekanikal luaran."
+      "qEn": "What is Magnum Pump XR on Onyxmen.my? Is it a dietary supplement or mechanical equipment?",
+      "aEn": "Magnum Pump XR on Onyxmen.my (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY) is 100% an oral botanical and amino-acid Dietary Supplement for adult men containing 30 Black Capsules per bottle. It has zero relation to industrial oilfield fluid/slurry pumps or mechanical devices that happen to share the word 'Magnum' in heavy industry.",
+      "qMs": "Apakah sebenarnya Magnum Pump XR di Onyxmen.my? Adakah ia suplemen kapsul atau alat mekanikal?",
+      "aMs": "Magnum Pump XR di Onyxmen.my (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY) adalah 100% Suplemen Pemakanan kapsul herba dan asid amino untuk lelaki dewasa yang mengandungi 30 Kapsul Hitam setiap botol. Ia langsung tidak berkaitan dengan pam industri minyak/gas atau sebarang alat pam mekanikal luaran."
     },
     {
       "qEn": "Why does Magnum Pump XR come in 30 Black Capsules?",

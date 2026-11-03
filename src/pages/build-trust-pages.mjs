@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 /**
  * ============================================================================
- * ONYXMAN.MY — BILINGUAL TRUST, PDPA, E-E-A-T, FAQ HUB & PRODUCTS VAULT BUILDER
+ * ONYXMEN.MY — BILINGUAL TRUST, PDPA, E-E-A-T, FAQ HUB & PRODUCTS VAULT BUILDER
  * Turn 22: Micro-Steps MS-161 through MS-170
  * ============================================================================
  * Generates all 34 Bilingual Trust, Authenticity, Discreet Packaging, Malaysia
  * PDPA Act 709 Privacy Policy, Terms of Service & 14/30-Day Return Policy,
- * Kuala Lumpur Concierge Contact Desk, About Onyxman Apothecary, Master FAQ Hubs,
+ * Kuala Lumpur Concierge Contact Desk, About Onyxmen Apothecary, Master FAQ Hubs,
  * and /products/ + /ms/produk/ Catalog Vault Index Pages (plus all route aliases
  * referenced across i18n.ts, ObsidianHeader.mjs, ObsidianFooter.mjs,
  * DiscreetSealStrip.mjs, public/index.html, and public/ms/index.html).
@@ -658,9 +658,9 @@ export const TRUST_LAB_CHECKPOINTS = [
     specEn: '≥2.2% Eurycomanone · 60% Saponins',
     specMs: '≥2.2% Eurycomanone · 60% Saponin',
     detailEn:
-      'Rather than encapsulating unstandardized raw wood sawdust, Onyxman enforces quantitative HPLC-DAD assays verifying ≥2.2% eurycomanone in Tongkat Ali 100:1, 45%–60% furostanol saponins (protodioscin) in Tribulus, ≥0.6% macamides in Black Maca, and ≥99.5% pharmaceutical purity in L-Arginine HCl and L-Citrulline Malate.',
+      'Rather than encapsulating unstandardized raw wood sawdust, Onyxmen enforces quantitative HPLC-DAD assays verifying ≥2.2% eurycomanone in Tongkat Ali 100:1, 45%–60% furostanol saponins (protodioscin) in Tribulus, ≥0.6% macamides in Black Maca, and ≥99.5% pharmaceutical purity in L-Arginine HCl and L-Citrulline Malate.',
     detailMs:
-      'Daripada mengkapsulkan serbuk kayu mentah tanpa piawaian, Onyxman menguatkuasakan ujian kuantitatif HPLC-DAD yang mengesahkan ≥2.2% eurycomanone dalam Tongkat Ali 100:1, 45%–60% saponin furostanol dalam Tribulus, ≥0.6% macamides dalam Maca Hitam, dan ≥99.5% ketulenan farmaseutikal dalam L-Arginine HCl serta L-Citrulline Malate.',
+      'Daripada mengkapsulkan serbuk kayu mentah tanpa piawaian, Onyxmen menguatkuasakan ujian kuantitatif HPLC-DAD yang mengesahkan ≥2.2% eurycomanone dalam Tongkat Ali 100:1, 45%–60% saponin furostanol dalam Tribulus, ≥0.6% macamides dalam Maca Hitam, dan ≥99.5% ketulenan farmaseutikal dalam L-Arginine HCl serta L-Citrulline Malate.',
   },
   {
     code: 'QA-STAGE-03',
@@ -680,9 +680,9 @@ export const TRUST_LAB_CHECKPOINTS = [
     specEn: '0.00% Synthetic Drugs / Analogues',
     specMs: '0.00% Dadah Sintetik Terlarang',
     detailEn:
-      'Illicit street stimulants and cheap marketplace counterfeits often spike capsules with undeclared sildenafil, tadalafil, or vardenafil analogues that trigger severe migraines, visual disturbances, and dangerous blood-pressure drops. Every Onyxman production batch undergoes LC-MS/MS screening to guarantee 100% pure botanical and amino-acid composition.',
+      'Illicit street stimulants and cheap marketplace counterfeits often spike capsules with undeclared sildenafil, tadalafil, or vardenafil analogues that trigger severe migraines, visual disturbances, and dangerous blood-pressure drops. Every Onyxmen production batch undergoes LC-MS/MS screening to guarantee 100% pure botanical and amino-acid composition.',
     detailMs:
-      'Produk jalanan haram dan tiruan murah sering mencampurkan bahan sintetik terlarang (analog sildenafil atau tadalafil) yang mengakibatkan sakit kepala melampau, gangguan penglihatan, dan penurunan tekanan darah berbahaya. Setiap kumpulan pengeluaran Onyxman disaring melalui LC-MS/MS untuk menjamin 100% komposisi botani dan asid amino tulen.',
+      'Produk jalanan haram dan tiruan murah sering mencampurkan bahan sintetik terlarang (analog sildenafil atau tadalafil) yang mengakibatkan sakit kepala melampau, gangguan penglihatan, dan penurunan tekanan darah berbahaya. Setiap kumpulan pengeluaran Onyxmen disaring melalui LC-MS/MS untuk menjamin 100% komposisi botani dan asid amino tulen.',
   },
   {
     code: 'QA-STAGE-05',
@@ -702,9 +702,9 @@ export const TRUST_LAB_CHECKPOINTS = [
     specEn: '22°C–24°C KL Vault + Desiccant Core',
     specMs: 'Bilik Kebal 22°C–24°C + Gel Silika',
     detailEn:
-      'Concentrated 100:1 herbal extracts and free-form amino acids are highly hygroscopic in Malaysia’s 80%+ relative humidity. Every Onyxman bottle features a food-grade silica desiccant canister, a factory heat-induction aluminum inner seal, and a serialized outer security shrink band.',
+      'Concentrated 100:1 herbal extracts and free-form amino acids are highly hygroscopic in Malaysia’s 80%+ relative humidity. Every Onyxmen bottle features a food-grade silica desiccant canister, a factory heat-induction aluminum inner seal, and a serialized outer security shrink band.',
     detailMs:
-      'Ekstrak herba 100:1 dan asid amino tulen sangat sensitif terhadap kelembapan udara Malaysia yang melebihi 80%. Setiap botol Onyxman dilengkapi penyerap kelembapan gred makanan, penutup aluminium induksi haba kilang, dan jalur keselamatan luar berkod siri.',
+      'Ekstrak herba 100:1 dan asid amino tulen sangat sensitif terhadap kelembapan udara Malaysia yang melebihi 80%. Setiap botol Onyxmen dilengkapi penyerap kelembapan gred makanan, penutup aluminium induksi haba kilang, dan jalur keselamatan luar berkod siri.',
   },
   {
     code: 'QA-STAGE-07',
@@ -724,9 +724,9 @@ export const TRUST_LAB_CHECKPOINTS = [
     specEn: '100% Open-Label Milligram Disclosure',
     specMs: '100% Pendedahan Dos Miligram Sebenar',
     detailEn:
-      'Onyxman Malaysia strictly prohibits printing fake or borrowed registration strings on bottle labels or digital pages. We position all four formulations transparently as adult men’s botanical and amino-acid dietary supplements with 100% disclosed milligram weights per capsule.',
+      'Onyxmen Malaysia strictly prohibits printing fake or borrowed registration strings on bottle labels or digital pages. We position all four formulations transparently as adult men’s botanical and amino-acid dietary supplements with 100% disclosed milligram weights per capsule.',
     detailMs:
-      'Onyxman Malaysia melarang keras cetakan nombor pendaftaran palsu pada botol atau laman web. Kami mempersembahkan keempat-empat formulasi secara jujur dan telus sebagai suplemen pemakanan botani dan asid amino lelaki dewasa (18+) dengan pendedahan miligram tepat.',
+      'Onyxmen Malaysia melarang keras cetakan nombor pendaftaran palsu pada botol atau laman web. Kami mempersembahkan keempat-empat formulasi secara jujur dan telus sebagai suplemen pemakanan botani dan asid amino lelaki dewasa (18+) dengan pendedahan miligram tepat.',
   },
 ];
 
@@ -763,9 +763,9 @@ export const TRUST_TIMING_PROTOCOLS = [
     bottlesEn: 'Primary Window for Horsemen (20 Capsules × 500mg) & Hammer of Thor (20 Veg. Capsules)',
     bottlesMs: 'Waktu Utama untuk Horsemen (20 Kapsul × 500mg) & Hammer of Thor (20 Kapsul Veg.)',
     instructionEn:
-      'Take 1 capsule of Horsemen or Hammer of Thor 45 to 60 minutes before evening activity, or 30 minutes after dinner with 250ml of warm water. Because all four Onyxman formulations are 100% caffeine-free and stimulant-free, evening administration supports physical stamina and mental composure without causing midnight insomnia or rapid heart-rate spikes.',
+      'Take 1 capsule of Horsemen or Hammer of Thor 45 to 60 minutes before evening activity, or 30 minutes after dinner with 250ml of warm water. Because all four Onyxmen formulations are 100% caffeine-free and stimulant-free, evening administration supports physical stamina and mental composure without causing midnight insomnia or rapid heart-rate spikes.',
     instructionMs:
-      'Ambil 1 kapsul Horsemen atau Hammer of Thor 45 hingga 60 minit sebelum aktiviti malam, atau 30 minit selepas makan malam bersama 250ml air suam. Memandangkan semua formulasi Onyxman adalah 100% bebas kafein, pengambilan waktu malam menyokong stamina fizikal tanpa menyebabkan masalah sukar tidur atau debaran jantung.',
+      'Ambil 1 kapsul Horsemen atau Hammer of Thor 45 hingga 60 minit sebelum aktiviti malam, atau 30 minit selepas makan malam bersama 250ml air suam. Memandangkan semua formulasi Onyxmen adalah 100% bebas kafein, pengambilan waktu malam menyokong stamina fizikal tanpa menyebabkan masalah sukar tidur atau debaran jantung.',
   },
   {
     code: 'TIMING · 04',
@@ -774,9 +774,9 @@ export const TRUST_TIMING_PROTOCOLS = [
     bottlesEn: 'Applies Across All 4 Formulations (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR)',
     bottlesMs: 'Terpakai untuk Keempat-Empat Formulasi (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR)',
     instructionEn:
-      'Polyphenols and tannins in strong kopi O, teh tarik, or matcha can chelate trace minerals like Zinc Bisglycinate and bind herbal quassinoids in the stomach. Always maintain a 45-minute buffer between coffee/tea and your Onyxman capsule, and avoid taking pre-evening capsules immediately after heavy deep-fried suppers that delay gastric emptying.',
+      'Polyphenols and tannins in strong kopi O, teh tarik, or matcha can chelate trace minerals like Zinc Bisglycinate and bind herbal quassinoids in the stomach. Always maintain a 45-minute buffer between coffee/tea and your Onyxmen capsule, and avoid taking pre-evening capsules immediately after heavy deep-fried suppers that delay gastric emptying.',
     instructionMs:
-      'Polifenol dan tanin di dalam kopi O pekat atau teh tarik boleh mengikat mineral Zink serta quassinoid herba di dalam perut. Pastikan jarak masa sekurang-kurangnya 45 minit antara minuman berkafein/teh dengan pengambilan kapsul Onyxman, dan elakkan mengambil kapsul sejurus selepas makan malam bergoreng yang sangat berat.',
+      'Polifenol dan tanin di dalam kopi O pekat atau teh tarik boleh mengikat mineral Zink serta quassinoid herba di dalam perut. Pastikan jarak masa sekurang-kurangnya 45 minit antara minuman berkafein/teh dengan pengambilan kapsul Onyxmen, dan elakkan mengambil kapsul sejurus selepas makan malam bergoreng yang sangat berat.',
   },
 ];
 
@@ -787,50 +787,50 @@ export const SHARED_TRUST_FAQS = [
   {
     questionEn: 'What is the official Malaysia price for Horsemen, Hammer of Thor, Grow XL, and Magnum Pump XR?',
     answerEn:
-      'Every authentic Onyxman formulation is priced uniformly in Malaysian Ringgit (MYR): 1 Bottle (Single Cycle Reserve) is RM 159 (159.00 MYR), 2 Bottles (Dual Momentum Protocol with Free Nationwide Malaysia Express Shipping including Sabah, Sarawak & Labuan) is RM 318 (318.00 MYR), and 3 Bottles (Complete 90-Day Apothecary Mastery Vault with Priority Dispatch & VIP Refill Concierge) is RM 477 (477.00 MYR).',
+      'Every authentic Onyxmen formulation is priced uniformly in Malaysian Ringgit (MYR): 1 Bottle (Single Cycle Reserve) is RM 159 (159.00 MYR), 2 Bottles (Dual Momentum Protocol with Free Nationwide Malaysia Express Shipping including Sabah, Sarawak & Labuan) is RM 318 (318.00 MYR), and 3 Bottles (Complete 90-Day Apothecary Mastery Vault with Priority Dispatch & VIP Refill Concierge) is RM 477 (477.00 MYR).',
     questionMs: 'Berapakah harga rasmi Malaysia untuk Horsemen, Hammer of Thor, Grow XL, dan Magnum Pump XR?',
     answerMs:
-      'Setiap formulasi tulen Onyxman ditawarkan pada harga rasmi seragam dalam Ringgit Malaysia (MYR): 1 Botol (Bekalan Satu Kitaran) berharga RM 159 (159.00 MYR), 2 Botol (Protokol Dwi-Momentum dengan Penghantaran Ekspres Percuma ke seluruh Malaysia termasuk Sabah, Sarawak & Labuan) berharga RM 318 (318.00 MYR), dan 3 Botol (Pakej Lengkap 90 Hari dengan Pelepasan Keutamaan VIP) berharga RM 477 (477.00 MYR).',
+      'Setiap formulasi tulen Onyxmen ditawarkan pada harga rasmi seragam dalam Ringgit Malaysia (MYR): 1 Botol (Bekalan Satu Kitaran) berharga RM 159 (159.00 MYR), 2 Botol (Protokol Dwi-Momentum dengan Penghantaran Ekspres Percuma ke seluruh Malaysia termasuk Sabah, Sarawak & Labuan) berharga RM 318 (318.00 MYR), dan 3 Botol (Pakej Lengkap 90 Hari dengan Pelepasan Keutamaan VIP) berharga RM 477 (477.00 MYR).',
   },
   {
-    questionEn: 'How does Onyxman guarantee 100% parcel privacy on courier airway bills and condo/office deliveries?',
+    questionEn: 'How does Onyxmen guarantee 100% parcel privacy on courier airway bills and condo/office deliveries?',
     answerEn:
-      'Every order is packed inside our 3-layer blind-waybill architecture: each factory-sealed bottle is wrapped in high-density acoustic bubble wrap (preventing capsule rattling noise) and sealed inside an unbranded, opaque matte security box or poly-mailer. The courier airway bill lists the sender strictly as "OM Fulfilment Logistics (Kuala Lumpur 50450)" and declares contents generically as "Personal Nutritional Wellness" with zero mention of Onyxman or men’s supplements.',
-    questionMs: 'Bagaimanakah Onyxman menjamin privasi 100% pada slip kurier serta penghantaran ke kondominium atau pejabat?',
+      'Every order is packed inside our 3-layer blind-waybill architecture: each factory-sealed bottle is wrapped in high-density acoustic bubble wrap (preventing capsule rattling noise) and sealed inside an unbranded, opaque matte security box or poly-mailer. The courier airway bill lists the sender strictly as "OM Fulfilment Logistics (Kuala Lumpur 50450)" and declares contents generically as "Personal Nutritional Wellness" with zero mention of Onyxmen or men’s supplements.',
+    questionMs: 'Bagaimanakah Onyxmen menjamin privasi 100% pada slip kurier serta penghantaran ke kondominium atau pejabat?',
     answerMs:
       'Setiap pesanan dibungkus menggunakan seni bina privasi 3-lapisan: botol dibalut dengan pelindung gelembung anti-bunyi (supaya tidak berbunyi apabila digoncang) dan dimasukkan ke dalam kotak keselamatan legap tanpa sebarang logo. Slip kurier hanya memaparkan nama pengirim "OM Fulfilment Logistics (Kuala Lumpur 50450)" dan keterangan "Penjagaan Kesihatan Harian" tanpa menyebut nama produk.',
   },
   {
     questionEn: 'How is my personal data protected under the Malaysia Personal Data Protection Act 2010 (PDPA Act 709)?',
     answerEn:
-      'Onyxman Malaysia complies strictly with all seven Data Protection Principles of the Malaysian Personal Data Protection Act 2010 (Act 709). We do not force public account registration, never sell or rent customer phone numbers to third-party marketing lists, allow initials or pseudonyms on courier labels, and purge or anonymize delivery records upon request via info@onyxman.my or sales@onyxman.my.',
+      'Onyxmen Malaysia complies strictly with all seven Data Protection Principles of the Malaysian Personal Data Protection Act 2010 (Act 709). We do not force public account registration, never sell or rent customer phone numbers to third-party marketing lists, allow initials or pseudonyms on courier labels, and purge or anonymize delivery records upon request via info@onyxmen.my or sales@onyxmen.my.',
     questionMs: 'Bagaimanakah data peribadi saya dilindungi di bawah Akta Perlindungan Data Peribadi Malaysia 2010 (PDPA Akta 709)?',
     answerMs:
-      'Onyxman Malaysia mematuhi sepenuhnya ketujuh-tujuh Prinsip Perlindungan Data di bawah Akta Perlindungan Data Peribadi Malaysia 2010 (Akta 709). Kami tidak mewajibkan pendaftaran akaun awam, tidak sesekali menjual atau berkongsi nombor telefon pelanggan kepada pihak ketiga, membenarkan penggunaan nama samaran pada label kurier, serta memadam rekod penghantaran atas permintaan melalui info@onyxman.my atau sales@onyxman.my.',
+      'Onyxmen Malaysia mematuhi sepenuhnya ketujuh-tujuh Prinsip Perlindungan Data di bawah Akta Perlindungan Data Peribadi Malaysia 2010 (Akta 709). Kami tidak mewajibkan pendaftaran akaun awam, tidak sesekali menjual atau berkongsi nombor telefon pelanggan kepada pihak ketiga, membenarkan penggunaan nama samaran pada label kurier, serta memadam rekod penghantaran atas permintaan melalui info@onyxmen.my atau sales@onyxmen.my.',
   },
   {
-    questionEn: 'What is the official Onyxman return, exchange, and damaged-in-transit replacement policy?',
+    questionEn: 'What is the official Onyxmen return, exchange, and damaged-in-transit replacement policy?',
     answerEn:
-      'We provide a 14-to-30-Day Unopened Tamper-Seal Return & Exchange Guarantee across Malaysia. If you wish to return or exchange an unopened bottle with its factory heat-induction seal and holographic security band intact within 14 days (extended to 30 days for 3-Bottle RM 477 Vault orders), or if a parcel arrives damaged in transit, contact sales@onyxman.my or info@onyxman.my for priority replacement or refund.',
-    questionMs: 'Apakah polisi rasmi pemulangan, pertukaran, dan penggantian kerosakan transit Onyxman?',
+      'We provide a 14-to-30-Day Unopened Tamper-Seal Return & Exchange Guarantee across Malaysia. If you wish to return or exchange an unopened bottle with its factory heat-induction seal and holographic security band intact within 14 days (extended to 30 days for 3-Bottle RM 477 Vault orders), or if a parcel arrives damaged in transit, contact sales@onyxmen.my or info@onyxmen.my for priority replacement or refund.',
+    questionMs: 'Apakah polisi rasmi pemulangan, pertukaran, dan penggantian kerosakan transit Onyxmen?',
     answerMs:
-      'Kami menyediakan Jaminan Pemulangan & Pertukaran Botol Belum Dibuka selama 14 hingga 30 Hari di seluruh Malaysia. Sekiranya anda ingin memulangkan atau menukar botol yang masih mempunyai pelekat keselamatan asal dalam tempoh 14 hari (dilanjutkan kepada 30 hari bagi pakej 3 Botol RM 477), atau jika bungkusan rosak semasa penghantaran, hubungi sales@onyxman.my atau info@onyxman.my untuk penggantian segera.',
+      'Kami menyediakan Jaminan Pemulangan & Pertukaran Botol Belum Dibuka selama 14 hingga 30 Hari di seluruh Malaysia. Sekiranya anda ingin memulangkan atau menukar botol yang masih mempunyai pelekat keselamatan asal dalam tempoh 14 hari (dilanjutkan kepada 30 hari bagi pakej 3 Botol RM 477), atau jika bungkusan rosak semasa penghantaran, hubungi sales@onyxmen.my atau info@onyxmen.my untuk penggantian segera.',
   },
   {
-    questionEn: 'What exactly is Magnum Pump XR (30 Black Capsules) on Onyxman.my? Is it an oral dietary supplement?',
+    questionEn: 'What exactly is Magnum Pump XR (30 Black Capsules) on Onyxmen.my? Is it an oral dietary supplement?',
     answerEn:
-      'Yes. Magnum Pump XR distributed by Onyxman Malaysia (https://www.onyxmen.my, SKU ONYX-MP-30, MPN MPXR-30BLK-MY, RM 159) is strictly an oral botanical and amino-acid Dietary Supplement for adult men (18+) containing 30 jet-black capsules per bottle (180mg L-Arginine HCl, 140mg L-Citrulline Malate, 110mg Tribulus, 90mg Tongkat Ali, 65mg Thai Black Ginger, 15mg Bioperine). It has zero connection to industrial fluid pumps or mechanical vacuum devices.',
-    questionMs: 'Apakah sebenarnya Magnum Pump XR (30 Kapsul Hitam) di Onyxman.my? Adakah ia suplemen kapsul makan?',
+      'Yes. Magnum Pump XR distributed by Onyxmen Malaysia (https://www.onyxmen.my, SKU ONYX-MP-30, MPN MPXR-30BLK-MY, RM 159) is strictly an oral botanical and amino-acid Dietary Supplement for adult men (18+) containing 30 jet-black capsules per bottle (180mg L-Arginine HCl, 140mg L-Citrulline Malate, 110mg Tribulus, 90mg Tongkat Ali, 65mg Thai Black Ginger, 15mg Bioperine). It has zero connection to industrial fluid pumps or mechanical vacuum devices.',
+    questionMs: 'Apakah sebenarnya Magnum Pump XR (30 Kapsul Hitam) di Onyxmen.my? Adakah ia suplemen kapsul makan?',
     answerMs:
-      'Ya. Magnum Pump XR yang diedarkan oleh Onyxman Malaysia (https://www.onyxmen.my, SKU ONYX-MP-30, MPN MPXR-30BLK-MY, RM 159) adalah 100% Suplemen Pemakanan kapsul botani dan asid amino untuk lelaki dewasa (18+) yang mengandungi 30 kapsul hitam setiap botol. Ia sama sekali TIDAK berkaitan dengan sebarang pam air industri atau alat pam vakum mekanikal.',
+      'Ya. Magnum Pump XR yang diedarkan oleh Onyxmen Malaysia (https://www.onyxmen.my, SKU ONYX-MP-30, MPN MPXR-30BLK-MY, RM 159) adalah 100% Suplemen Pemakanan kapsul botani dan asid amino untuk lelaki dewasa (18+) yang mengandungi 30 kapsul hitam setiap botol. Ia sama sekali TIDAK berkaitan dengan sebarang pam air industri atau alat pam vakum mekanikal.',
   },
   {
     questionEn: 'How do I contact the Kuala Lumpur Private Concierge Desk for order tracking or formulation advice?',
     answerEn:
-      'Our Kuala Lumpur Private Concierge & Fulfilment Desk operates 7 days a week from 09:00 to 23:00 MYT (UTC+8). You can reach our team directly at sales@onyxman.my (Express Orders, Payment & Courier Tracking), info@onyxman.my (Botanical Formulation Guidance & PDPA Privacy Requests), orwaleedshoaibofficial@gmail.com (Primary Merchant Dispatch Desk), or via the 10-Second Express Order Drawer on any page.',
+      'Our Kuala Lumpur Private Concierge & Fulfilment Desk operates 7 days a week from 09:00 to 23:00 MYT (UTC+8). You can reach our team directly at sales@onyxmen.my (Express Orders, Payment & Courier Tracking), info@onyxmen.my (Botanical Formulation Guidance & PDPA Privacy Requests), orwaleedshoaibofficial@gmail.com (Primary Merchant Dispatch Desk), or via the 10-Second Express Order Drawer on any page.',
     questionMs: 'Bagaimanakah cara menghubungi Meja Khidmat Pelanggan Privasi Kuala Lumpur untuk semakan pesanan atau nasihat formulasi?',
     answerMs:
-      'Meja Khidmat Pelanggan & Operasi Kuala Lumpur kami beroperasi setiap hari dari jam 09:00 pagi hingga 23:00 malam MYT (UTC+8). Anda boleh menghubungi kami terus melalui sales@onyxman.my (Tempahan, Pembayaran & Nombor Tracking), info@onyxman.my (Panduan Formulasi Botani & Privasi PDPA), atau waleedshoaibofficial@gmail.com, mahupun menerusi Laci Tempahan Ekspres 10 Saat di laman ini.',
+      'Meja Khidmat Pelanggan & Operasi Kuala Lumpur kami beroperasi setiap hari dari jam 09:00 pagi hingga 23:00 malam MYT (UTC+8). Anda boleh menghubungi kami terus melalui sales@onyxmen.my (Tempahan, Pembayaran & Nombor Tracking), info@onyxmen.my (Panduan Formulasi Botani & Privasi PDPA), atau waleedshoaibofficial@gmail.com, mahupun menerusi Laci Tempahan Ekspres 10 Saat di laman ini.',
   },
 ];
 
@@ -862,8 +862,8 @@ export function renderTrustQuantitativeMatrixSection(lang = 'en-MY') {
           <h2 id="heading-trust-quantitative-matrix" class="editorial-headline-lg">
             ${
               isMs
-                ? 'Matriks Dos Tepat Merentasi <span class="foil-champagne-text">Keempat-Empat Botol Onyxman (RM 159).</span>'
-                : 'Exact Milligram Architecture Across <span class="foil-champagne-text">All Four Onyxman Reserves (RM 159).</span>'
+                ? 'Matriks Dos Tepat Merentasi <span class="foil-champagne-text">Keempat-Empat Botol Onyxmen (RM 159).</span>'
+                : 'Exact Milligram Architecture Across <span class="foil-champagne-text">All Four Onyxmen Reserves (RM 159).</span>'
             }
           </h2>
         </div>
@@ -871,8 +871,8 @@ export function renderTrustQuantitativeMatrixSection(lang = 'en-MY') {
           <p>
             ${
               isMs
-                ? 'Onyxman Malaysia menolak penggunaan istilah kabur "campuran proprietari" yang menyembunyikan dos sebenar. Setiap kapsul 500mg hingga 600mg memaparkan pecahan miligram ekstrak piawai yang disahkan secara makmal.'
-                : 'Onyxman Malaysia refuses to hide behind opaque "proprietary blends." Every 500mg to 600mg capsule discloses its exact milligram allocation of standardized botanical extracts, amino-acid precursors, and mineral cofactors.'
+                ? 'Onyxmen Malaysia menolak penggunaan istilah kabur "campuran proprietari" yang menyembunyikan dos sebenar. Setiap kapsul 500mg hingga 600mg memaparkan pecahan miligram ekstrak piawai yang disahkan secara makmal.'
+                : 'Onyxmen Malaysia refuses to hide behind opaque "proprietary blends." Every 500mg to 600mg capsule discloses its exact milligram allocation of standardized botanical extracts, amino-acid precursors, and mineral cofactors.'
             }
           </p>
         </div>
@@ -1270,8 +1270,8 @@ export function renderTrustMultiBottleSection(lang = 'en-MY', primarySlug = 'hor
           <p>
             ${
               isMs
-                ? 'Setiap pesanan disahkan serta-merta melalui meja operasi Kuala Lumpur kami (sales@onyxman.my / info@onyxman.my / waleedshoaibofficial@gmail.com) dengan sokongan pembayaran FPX, DuitNow QR, dan Bayar Waktu Terima (COD).'
-                : 'Every reserve is routed directly to our Kuala Lumpur fulfilment desk (sales@onyxman.my / info@onyxman.my / waleedshoaibofficial@gmail.com) with instant WhatsApp dispatch coordination and FPX, DuitNow QR, or COD settlement.'
+                ? 'Setiap pesanan disahkan serta-merta melalui meja operasi Kuala Lumpur kami (sales@onyxmen.my / info@onyxmen.my / waleedshoaibofficial@gmail.com) dengan sokongan pembayaran FPX, DuitNow QR, dan Bayar Waktu Terima (COD).'
+                : 'Every reserve is routed directly to our Kuala Lumpur fulfilment desk (sales@onyxmen.my / info@onyxmen.my / waleedshoaibofficial@gmail.com) with instant WhatsApp dispatch coordination and FPX, DuitNow QR, or COD settlement.'
             }
           </p>
         </div>
@@ -1425,9 +1425,9 @@ export function renderTrustDirectoryNavSection(lang = 'en-MY') {
       titleEn: 'Malaysia PDPA Act 709 Privacy Policy & Zero-Account Buyer Confidentiality Charter',
       titleMs: 'Polisi Privasi Akta PDPA Malaysia 709 & Piagam Kerahsiaan Pembeli Tanpa Akaun',
       descEn:
-        'How Onyxman Malaysia enforces all 7 Personal Data Protection Principles under Malaysian Act 709, zero third-party data sharing, pseudonym waybills, and data erasure rights.',
+        'How Onyxmen Malaysia enforces all 7 Personal Data Protection Principles under Malaysian Act 709, zero third-party data sharing, pseudonym waybills, and data erasure rights.',
       descMs:
-        'Bagaimana Onyxman Malaysia mematuhi 7 Prinsip Perlindungan Data Peribadi di bawah Akta 709 Malaysia, sifar perkongsian data pihak ketiga, dan hak pemadaman rekod.',
+        'Bagaimana Onyxmen Malaysia mematuhi 7 Prinsip Perlindungan Data Peribadi di bawah Akta 709 Malaysia, sifar perkongsian data pihak ketiga, dan hak pemadaman rekod.',
       enHref: '/privacy-policy/',
       msHref: '/ms/polisi-privasi/',
       aliasEn: '/pdpa/',
@@ -1448,8 +1448,8 @@ export function renderTrustDirectoryNavSection(lang = 'en-MY') {
     },
     {
       code: 'MS-169 · ABOUT',
-      titleEn: 'About Onyxman Malaysia Apothecary & Botanical Quality Assurance Board',
-      titleMs: 'Tentang Apotekari Onyxman Malaysia & Lembaga Jaminan Kualiti Botani',
+      titleEn: 'About Onyxmen Malaysia Apothecary & Botanical Quality Assurance Board',
+      titleMs: 'Tentang Apotekari Onyxmen Malaysia & Lembaga Jaminan Kualiti Botani',
       descEn:
         'Discover our Kuala Lumpur architectural botanical apothecary, standardized extraction philosophy, climate-controlled vault operations, and E-E-A-T editorial governance.',
       descMs:
@@ -1461,8 +1461,8 @@ export function renderTrustDirectoryNavSection(lang = 'en-MY') {
     },
     {
       code: 'MS-169 · CONTACT',
-      titleEn: 'Kuala Lumpur Private Concierge & Discreet Order Desk (sales@onyxman.my · info@onyxman.my)',
-      titleMs: 'Meja Khidmat Pelanggan Privasi & Tempahan Kuala Lumpur (sales@onyxman.my · info@onyxman.my)',
+      titleEn: 'Kuala Lumpur Private Concierge & Discreet Order Desk (sales@onyxmen.my · info@onyxmen.my)',
+      titleMs: 'Meja Khidmat Pelanggan Privasi & Tempahan Kuala Lumpur (sales@onyxmen.my · info@onyxmen.my)',
       descEn:
         'Direct communication channels for order confirmation, same-day Klang Valley runner coordination, courier tracking, and confidential formulation consultation (09:00–23:00 MYT).',
       descMs:
@@ -1501,7 +1501,7 @@ export function renderTrustDirectoryNavSection(lang = 'en-MY') {
 
   return `
   <!-- ==========================================================================
-       COMPLETE ONYXMAN MALAYSIA TRUST, PDPA, LEGAL & CONCIERGE DIRECTORY
+       COMPLETE ONYXMEN MALAYSIA TRUST, PDPA, LEGAL & CONCIERGE DIRECTORY
        ========================================================================== -->
   <section
     id="trust-governance-directory-navigation"
@@ -1530,8 +1530,8 @@ export function renderTrustDirectoryNavSection(lang = 'en-MY') {
           <p>
             ${
               isMs
-                ? 'Terokai semua dokumen rasmi Onyxman Malaysia merangkumi jaminan ketulenan RM 159, seni bina bungkusan rahsia tanpa nama, pematuhan Akta PDPA 709, terma pemulangan 14/30 hari, dan meja bantuan Kuala Lumpur.'
-                : 'Explore every official Onyxman Malaysia governance dossier covering our RM 159 authenticity guarantee, blind-waybill discreet packaging, PDPA Act 709 data protection, 14/30-day unopened return policy, and Kuala Lumpur concierge desk.'
+                ? 'Terokai semua dokumen rasmi Onyxmen Malaysia merangkumi jaminan ketulenan RM 159, seni bina bungkusan rahsia tanpa nama, pematuhan Akta PDPA 709, terma pemulangan 14/30 hari, dan meja bantuan Kuala Lumpur.'
+                : 'Explore every official Onyxmen Malaysia governance dossier covering our RM 159 authenticity guarantee, blind-waybill discreet packaging, PDPA Act 709 data protection, 14/30-day unopened return policy, and Kuala Lumpur concierge desk.'
             }
           </p>
         </div>
@@ -1575,9 +1575,9 @@ export const TRUST_DOSSIERS = [
     activeNav: 'guides',
     en: {
       seoTitle:
-        'Official RM 159 Authenticity Guarantee & Anti-Counterfeit Verification Protocol | Onyxman Malaysia',
+        'Official RM 159 Authenticity Guarantee & Anti-Counterfeit Verification Protocol | Onyxmen Malaysia',
       metaDescription:
-        'Verify authentic Onyxman Malaysia botanical formulations (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) at the official RM 159 / RM 318 / RM 477 tariff. 8-point holographic seal, SKU/GTIN registry, and zero synthetic adulteration guarantee.',
+        'Verify authentic Onyxmen Malaysia botanical formulations (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) at the official RM 159 / RM 318 / RM 477 tariff. 8-point holographic seal, SKU/GTIN registry, and zero synthetic adulteration guarantee.',
       eyebrow:
         'MS-161 · OFFICIAL RM 159 ANTI-COUNTERFEIT GUARANTEE & HOLOGRAPHIC SEAL VERIFICATION',
       headline:
@@ -1585,7 +1585,7 @@ export const TRUST_DOSSIERS = [
       subheadline:
         'Every genuine bottle of Horsemen (20 Caps), Hammer of Thor (20 Veg. Caps), Grow XL (30 Caps), and Magnum Pump XR (30 Black Caps) is dispatched exclusively from our climate-controlled Kuala Lumpur vault (22°C–24°C) with serialized tamper-evident seals.',
       executiveSummary:
-        'Unverified online classifieds, auction listings, and roadside stalls frequently circulate counterfeit bottles priced at suspiciously cheap clearance rates (RM 25–RM 55) that contain either inert cornstarch or dangerous undeclared synthetic pharmaceuticals. Onyxman Malaysia enforces a strict direct-to-client distribution model through https://www.onyxmen.my at our uniform official tariff—1 Bottle RM 159 (159.00 MYR), 2 Bottles RM 318 (318.00 MYR), and 3 Bottles RM 477 (477.00 MYR)—backed by 8-stage HPLC/ICP-MS batch screening and direct verification via sales@onyxman.my.',
+        'Unverified online classifieds, auction listings, and roadside stalls frequently circulate counterfeit bottles priced at suspiciously cheap clearance rates (RM 25–RM 55) that contain either inert cornstarch or dangerous undeclared synthetic pharmaceuticals. Onyxmen Malaysia enforces a strict direct-to-client distribution model through https://www.onyxmen.my at our uniform official tariff—1 Bottle RM 159 (159.00 MYR), 2 Bottles RM 318 (318.00 MYR), and 3 Bottles RM 477 (477.00 MYR)—backed by 8-stage HPLC/ICP-MS batch screening and direct verification via sales@onyxmen.my.',
       telemetry: [
         {
           key: '01 · OFFICIAL MALAYSIA TARIFF',
@@ -1611,7 +1611,7 @@ export const TRUST_DOSSIERS = [
       splitChapters: [
         {
           kicker: 'CHAPTER 01 · THE COUNTERFEIT & GREY-MARKET HAZARD IN MALAYSIA',
-          title: 'Why Below-Tariff Marketplace Listings Are Never Authentic Onyxman Stock.',
+          title: 'Why Below-Tariff Marketplace Listings Are Never Authentic Onyxmen Stock.',
           body1:
             'Standardized 100:1 Malaysian Eurycoma longifolia (≥2.2% eurycomanone), 60%-protodioscin Tribulus terrestris, 10:1 gelatinized Peruvian Black Maca, and pharmaceutical-grade L-Arginine HCl + L-Citrulline Malate require expensive multi-stage aqueous extraction and analytical testing. Counterfeiters cannot replicate these extracts at "RM 30–RM 50 bargain prices." Instead, unauthorized sellers fill recycled or imitation plastic bottles with raw sawdust, rice flour, or illicit synthetic sildenafil/tadalafil analogues that trigger severe headaches, flushing, and cardiovascular strain.',
           body2:
@@ -1619,7 +1619,7 @@ export const TRUST_DOSSIERS = [
         },
         {
           kicker: 'CHAPTER 02 · PHYSICAL BOTTLE, CAP & CAPSULE AUTHENTICATION',
-          title: 'How To Inspect Your Onyxman Bottle Seal, Typography & Capsule Shell.',
+          title: 'How To Inspect Your Onyxmen Bottle Seal, Typography & Capsule Shell.',
           body1:
             'Every authentic bottle released from our Kuala Lumpur fulfilment center (Postcode 50450) carries three physical security layers: (1) an exterior perforated shrink-wrap neck band with metallic foil reflection; (2) a factory heat-induction aluminum inner liner hermetically fused to the bottle rim; and (3) an internal food-grade silica gel desiccant canister that keeps relative humidity inside the bottle below 35%.',
           body2:
@@ -1629,19 +1629,19 @@ export const TRUST_DOSSIERS = [
           kicker: 'CHAPTER 03 · INSTANT CONCIERGE BATCH & WAYBILL VERIFICATION',
           title: 'Direct Lot Verification With Our Kuala Lumpur Quality Assurance Desk.',
           body1:
-            'Because Onyxman Malaysia operates zero unauthorized retail kiosks and zero third-party discount liquidators, every legitimate acquisition generates an official Order Reference ID logged in our central dispatch ledger (sales@onyxman.my / info@onyxman.my / waleedshoaibofficial@gmail.com) and arrives under the courier sender name "OM Fulfilment Logistics (Kuala Lumpur)".',
+            'Because Onyxmen Malaysia operates zero unauthorized retail kiosks and zero third-party discount liquidators, every legitimate acquisition generates an official Order Reference ID logged in our central dispatch ledger (sales@onyxmen.my / info@onyxmen.my / waleedshoaibofficial@gmail.com) and arrives under the courier sender name "OM Fulfilment Logistics (Kuala Lumpur)".',
           body2:
-            'Clients can email their Order Reference ID, courier tracking number, or bottle lot code to info@onyxman.my or sales@onyxman.my between 09:00 and 23:00 MYT any day of the week to receive immediate confirmation of production batch date, expiration date, and analytical clearance status.',
+            'Clients can email their Order Reference ID, courier tracking number, or bottle lot code to info@onyxmen.my or sales@onyxmen.my between 09:00 and 23:00 MYT any day of the week to receive immediate confirmation of production batch date, expiration date, and analytical clearance status.',
         },
       ],
       ledgerTitle: '8-Point Anti-Counterfeit & Physical Bottle Verification Protocol',
       ledgerSub:
-        'Use this 8-point checklist to verify that your bottle of Horsemen, Hammer of Thor, Grow XL, or Magnum Pump XR is 100% genuine Onyxman Malaysia stock.',
+        'Use this 8-point checklist to verify that your bottle of Horsemen, Hammer of Thor, Grow XL, or Magnum Pump XR is 100% genuine Onyxmen Malaysia stock.',
       ledgerRows: [
         {
           code: 'AUTH-CHECK · 01',
           title: 'Authorized Domain & Order Desk Origin (https://www.onyxmen.my)',
-          desc: 'Authentic stock is reserved exclusively via https://www.onyxmen.my (EN) or https://www.onyxmen.my/ms/ (BM) and confirmed by sales@onyxman.my, info@onyxman.my, or waleedshoaibofficial@gmail.com.',
+          desc: 'Authentic stock is reserved exclusively via https://www.onyxmen.my (EN) or https://www.onyxmen.my/ms/ (BM) and confirmed by sales@onyxmen.my, info@onyxmen.my, or waleedshoaibofficial@gmail.com.',
           metric: 'OFFICIAL VAULT ONLY',
         },
         {
@@ -1683,11 +1683,11 @@ export const TRUST_DOSSIERS = [
         {
           code: 'AUTH-CHECK · 08',
           title: 'Honest Supplement Labelling (Zero Fake Registration Strings)',
-          desc: 'Authentic Onyxman bottles disclose exact milligram botanical weights and never print fabricated or borrowed pharmaceutical registration codes.',
+          desc: 'Authentic Onyxmen bottles disclose exact milligram botanical weights and never print fabricated or borrowed pharmaceutical registration codes.',
           metric: '100% HONEST LABEL',
         },
       ],
-      tableTitle: 'Official Onyxman Malaysia SKU, GTIN-13, Capsule & Label Registry vs Counterfeit Red Flags',
+      tableTitle: 'Official Onyxmen Malaysia SKU, GTIN-13, Capsule & Label Registry vs Counterfeit Red Flags',
       tableHeaders: [
         'Formulation & Official SKU',
         'GS1 GTIN-13 & MPN',
@@ -1722,32 +1722,32 @@ export const TRUST_DOSSIERS = [
       ],
       faqs: [
         {
-          questionEn: 'Why does Onyxman Malaysia maintain a strict RM 159 single-bottle price across all four formulations?',
+          questionEn: 'Why does Onyxmen Malaysia maintain a strict RM 159 single-bottle price across all four formulations?',
           answerEn:
-            'Standardizing all four formulations at RM 159.00 (1 Bottle), RM 318.00 (2 Bottles), and RM 477.00 (3 Bottles) protects our pharmaceutical-grade ingredient sourcing (100:1 Tongkat Ali, 60%-saponin Tribulus, 10:1 Black Maca, and 99.5% L-Arginine/L-Citrulline) while giving buyers an unmistakable benchmark: any listing advertising Onyxman bottles for RM 30 or RM 60 on third-party marketplaces is immediately identifiable as counterfeit.',
+            'Standardizing all four formulations at RM 159.00 (1 Bottle), RM 318.00 (2 Bottles), and RM 477.00 (3 Bottles) protects our pharmaceutical-grade ingredient sourcing (100:1 Tongkat Ali, 60%-saponin Tribulus, 10:1 Black Maca, and 99.5% L-Arginine/L-Citrulline) while giving buyers an unmistakable benchmark: any listing advertising Onyxmen bottles for RM 30 or RM 60 on third-party marketplaces is immediately identifiable as counterfeit.',
         },
         {
           questionEn: 'How can I verify my bottle lot number or Order Reference ID?',
           answerEn:
-            'Simply forward your Order Reference ID (e.g., ONYX-MY-XXXXXX), courier waybill number, or a photo of your bottle seal to info@onyxman.my or sales@onyxman.my. Our Kuala Lumpur Quality Assurance desk (09:00–23:00 MYT daily) will verify your batch against our master dispatch ledger within minutes.',
+            'Simply forward your Order Reference ID (e.g., ONYX-MY-XXXXXX), courier waybill number, or a photo of your bottle seal to info@onyxmen.my or sales@onyxmen.my. Our Kuala Lumpur Quality Assurance desk (09:00–23:00 MYT daily) will verify your batch against our master dispatch ledger within minutes.',
         },
         {
           questionEn: 'What should I do if my parcel arrives with a damaged outer box or broken seal?',
           answerEn:
-            'Do not consume capsules from any bottle whose inner heat-induction aluminum foil liner has been punctured during transit. Photograph the parcel and waybill within 48 hours of delivery and email sales@onyxman.my—we will dispatch a brand-new replacement bottle from our Kuala Lumpur vault at zero cost to you.',
+            'Do not consume capsules from any bottle whose inner heat-induction aluminum foil liner has been punctured during transit. Photograph the parcel and waybill within 48 hours of delivery and email sales@onyxmen.my—we will dispatch a brand-new replacement bottle from our Kuala Lumpur vault at zero cost to you.',
         },
         {
-          questionEn: 'Does Onyxman authorize Shopee, Lazada, TikTok Shop, or roadside kiosk resellers?',
+          questionEn: 'Does Onyxmen authorize Shopee, Lazada, TikTok Shop, or roadside kiosk resellers?',
           answerEn:
-            'No. To guarantee 22°C–24°C climate-controlled storage, batch freshness, and 100% PDPA buyer privacy, Onyxman Malaysia distributes exclusively through https://www.onyxmen.my and our direct Kuala Lumpur concierge desk (sales@onyxman.my / waleedshoaibofficial@gmail.com).',
+            'No. To guarantee 22°C–24°C climate-controlled storage, batch freshness, and 100% PDPA buyer privacy, Onyxmen Malaysia distributes exclusively through https://www.onyxmen.my and our direct Kuala Lumpur concierge desk (sales@onyxmen.my / waleedshoaibofficial@gmail.com).',
         },
       ],
     },
     ms: {
       seoTitle:
-        'Jaminan Ketulenan Rasmi RM 159 & Saringan Anti-Produk Tiruan | Onyxman Malaysia',
+        'Jaminan Ketulenan Rasmi RM 159 & Saringan Anti-Produk Tiruan | Onyxmen Malaysia',
       metaDescription:
-        'Sahkan ketulenan formulasi botani Onyxman Malaysia (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) pada harga rasmi RM 159 / RM 318 / RM 477. Senarai semak meterai holografik 8 perkara, pendaftaran SKU/GTIN & jaminan sifar bahan terlarang.',
+        'Sahkan ketulenan formulasi botani Onyxmen Malaysia (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) pada harga rasmi RM 159 / RM 318 / RM 477. Senarai semak meterai holografik 8 perkara, pendaftaran SKU/GTIN & jaminan sifar bahan terlarang.',
       eyebrow:
         'MS-162 · JAMINAN KETULENAN RASMI RM 159 & PROTOKOL PENGESAHAN ANTI-TIRUAN MALAYSIA',
       headline:
@@ -1755,7 +1755,7 @@ export const TRUST_DOSSIERS = [
       subheadline:
         'Setiap botol tulen Horsemen (20 Kapsul), Hammer of Thor (20 Kapsul Veg.), Grow XL (30 Kapsul), dan Magnum Pump XR (30 Kapsul Hitam) dihantar terus dari bilik kebal kawalan suhu Kuala Lumpur kami (22°C–24°C) dengan meterai keselamatan kedap udara.',
       executiveSummary:
-        'Iklan lambakan di platform tidak sah dan gerai tepi jalan sering mengedarkan botol tiruan pada harga murah yang meragukan (RM 25–RM 55) yang hanya berisi tepung kanji atau dicampur bahan kimia sintetik berbahaya. Onyxman Malaysia menguatkuasakan pengedaran terus kepada pelanggan melalui https://www.onyxmen.my/ms/ pada harga rasmi seragam—1 Botol RM 159 (159.00 MYR), 2 Botol RM 318 (318.00 MYR), dan 3 Botol RM 477 (477.00 MYR)—disokong oleh saringan makmal HPLC/ICP-MS 8 peringkat serta pengesahan terus melalui sales@onyxman.my.',
+        'Iklan lambakan di platform tidak sah dan gerai tepi jalan sering mengedarkan botol tiruan pada harga murah yang meragukan (RM 25–RM 55) yang hanya berisi tepung kanji atau dicampur bahan kimia sintetik berbahaya. Onyxmen Malaysia menguatkuasakan pengedaran terus kepada pelanggan melalui https://www.onyxmen.my/ms/ pada harga rasmi seragam—1 Botol RM 159 (159.00 MYR), 2 Botol RM 318 (318.00 MYR), dan 3 Botol RM 477 (477.00 MYR)—disokong oleh saringan makmal HPLC/ICP-MS 8 peringkat serta pengesahan terus melalui sales@onyxmen.my.',
       telemetry: [
         {
           key: '01 · HARGA RASMI MALAYSIA',
@@ -1781,7 +1781,7 @@ export const TRUST_DOSSIERS = [
       splitChapters: [
         {
           kicker: 'BAB 01 · BAHAYA PRODUK TIRUAN & STOK PASARAN GELAP DI MALAYSIA',
-          title: 'Mengapa Iklan Murah Di Bawah Harga RM 159 Bukan Stok Tulen Onyxman.',
+          title: 'Mengapa Iklan Murah Di Bawah Harga RM 159 Bukan Stok Tulen Onyxmen.',
           body1:
             'Ekstrak piawai Akar Tongkat Ali Malaysia 100:1 (≥2.2% eurycomanone), Tribulus terrestris 60% saponin protodioscin, Maca Hitam Peru 10:1 tergelatinisasi, serta asid amino L-Arginine HCl dan L-Citrulline Malate gred farmaseutikal memerlukan kos pengekstrakan air ultrasonik dan ujian makmal yang tinggi. Pengilang tiruan mustahil dapat meniru kualiti ini pada harga "lelong RM 30–RM 50." Sebaliknya, mereka mengisi botol tiruan dengan habuk kayu mentah, tepung beras, atau bahan kimia sildenafil sintetik tidak diisytihar yang menyebabkan sakit kepala melampau dan risiko jantung.',
           body2:
@@ -1799,19 +1799,19 @@ export const TRUST_DOSSIERS = [
           kicker: 'BAB 03 · PENGESAHAN SEGERA NOMBOR LOT & SLIP KURIER',
           title: 'Semakan Terus Bersama Meja Jaminan Kualiti Kuala Lumpur Kami.',
           body1:
-            'Memandangkan Onyxman Malaysia tidak melantik sebarang ejen jalanan atau kedai diskaun pihak ketiga, setiap pembelian sah mempunyai ID Rujukan Pesanan rasmi di dalam sistem kami (sales@onyxman.my / info@onyxman.my / waleedshoaibofficial@gmail.com) dan dihantar menggunakan nama pengirim "OM Fulfilment Logistics (Kuala Lumpur)".',
+            'Memandangkan Onyxmen Malaysia tidak melantik sebarang ejen jalanan atau kedai diskaun pihak ketiga, setiap pembelian sah mempunyai ID Rujukan Pesanan rasmi di dalam sistem kami (sales@onyxmen.my / info@onyxmen.my / waleedshoaibofficial@gmail.com) dan dihantar menggunakan nama pengirim "OM Fulfilment Logistics (Kuala Lumpur)".',
           body2:
-            'Pelanggan boleh menghantar ID Rujukan Pesanan, nombor tracking kurier, atau gambar kod lot botol ke info@onyxman.my atau sales@onyxman.my setiap hari (09:00–23:00 MYT) untuk pengesahan tarikh pengeluaran dan status ujian makmal secara percuma.',
+            'Pelanggan boleh menghantar ID Rujukan Pesanan, nombor tracking kurier, atau gambar kod lot botol ke info@onyxmen.my atau sales@onyxmen.my setiap hari (09:00–23:00 MYT) untuk pengesahan tarikh pengeluaran dan status ujian makmal secara percuma.',
         },
       ],
       ledgerTitle: 'Protokol Pengesahan Ketulenan 8 Perkara & Senarai Semak Fizikal Botol',
       ledgerSub:
-        'Gunakan senarai semak 8 perkara ini untuk memastikan botol Horsemen, Hammer of Thor, Grow XL, atau Magnum Pump XR anda adalah 100% stok tulen Onyxman Malaysia.',
+        'Gunakan senarai semak 8 perkara ini untuk memastikan botol Horsemen, Hammer of Thor, Grow XL, atau Magnum Pump XR anda adalah 100% stok tulen Onyxmen Malaysia.',
       ledgerRows: [
         {
           code: 'SEMAKAN · 01',
           title: 'Laman Web & Meja Tempahan Rasmi (https://www.onyxmen.my)',
-          desc: 'Stok tulen hanya ditempah melalui https://www.onyxmen.my atau https://www.onyxmen.my/ms/ dan disahkan oleh sales@onyxman.my, info@onyxman.my, atau waleedshoaibofficial@gmail.com.',
+          desc: 'Stok tulen hanya ditempah melalui https://www.onyxmen.my atau https://www.onyxmen.my/ms/ dan disahkan oleh sales@onyxmen.my, info@onyxmen.my, atau waleedshoaibofficial@gmail.com.',
           metric: 'BILIK KEBAL RASMI',
         },
         {
@@ -1853,11 +1853,11 @@ export const TRUST_DOSSIERS = [
         {
           code: 'SEMAKAN · 08',
           title: 'Pelabelan Suplemen Jujur (Sifar Nombor Pendaftaran Palsu)',
-          desc: 'Botol tulen Onyxman menyatakan berat miligram ekstrak botani dengan tepat dan tidak sesekali mencetak nombor pendaftaran perubatan palsu.',
+          desc: 'Botol tulen Onyxmen menyatakan berat miligram ekstrak botani dengan tepat dan tidak sesekali mencetak nombor pendaftaran perubatan palsu.',
           metric: '100% LABEL TELUS',
         },
       ],
-      tableTitle: 'Pendaftaran SKU, GTIN-13, Kapsul & Label Rasmi Onyxman vs Tanda Amaran Produk Tiruan',
+      tableTitle: 'Pendaftaran SKU, GTIN-13, Kapsul & Label Rasmi Onyxmen vs Tanda Amaran Produk Tiruan',
       tableHeaders: [
         'Formulasi & SKU Rasmi',
         'GS1 GTIN-13 & MPN',
@@ -1892,24 +1892,24 @@ export const TRUST_DOSSIERS = [
       ],
       faqs: [
         {
-          questionMs: 'Mengapakah Onyxman Malaysia menetapkan harga seragam RM 159 sebotol untuk keempat-empat formulasi?',
+          questionMs: 'Mengapakah Onyxmen Malaysia menetapkan harga seragam RM 159 sebotol untuk keempat-empat formulasi?',
           answerMs:
             'Penetapan harga rasmi RM 159.00 (1 Botol), RM 318.00 (2 Botol), dan RM 477.00 (3 Botol) melindungi kualiti bahan mentah gred farmaseutikal kami (Tongkat Ali 100:1, Tribulus 60% saponin, Maca Hitam 10:1, dan L-Arginine/L-Citrulline 99.5%) serta memudahkan pembeli mengenal pasti penipuan: sebarang iklan yang menjual botol pada harga RM 30 atau RM 60 sudah pasti produk tiruan.',
         },
         {
           questionMs: 'Bagaimanakah cara untuk saya menyemak ketulenan nombor lot botol atau ID Rujukan Pesanan saya?',
           answerMs:
-            'Hantarkan ID Rujukan Pesanan anda (cth: ONYX-MY-XXXXXX), nombor tracking kurier, atau gambar meterai botol anda ke info@onyxman.my atau sales@onyxman.my. Meja Jaminan Kualiti Kuala Lumpur kami (09:00–23:00 MYT setiap hari) akan mengesahkan rekod kumpulan pengeluaran anda dengan segera.',
+            'Hantarkan ID Rujukan Pesanan anda (cth: ONYX-MY-XXXXXX), nombor tracking kurier, atau gambar meterai botol anda ke info@onyxmen.my atau sales@onyxmen.my. Meja Jaminan Kualiti Kuala Lumpur kami (09:00–23:00 MYT setiap hari) akan mengesahkan rekod kumpulan pengeluaran anda dengan segera.',
         },
         {
           questionMs: 'Apakah yang perlu saya lakukan sekiranya bungkusan tiba dalam keadaan kotak kemek atau meterai terbuka?',
           answerMs:
-            'Jangan makan kapsul daripada botol yang telah koyak penutup aluminium induksi habanya semasa transit. Ambil gambar bungkusan dan slip kurier dalam tempoh 48 jam selepas penerimaan dan e-mel kepada sales@onyxman.my—kami akan menghantar botol gantian baharu secara percuma dari bilik kebal Kuala Lumpur kami.',
+            'Jangan makan kapsul daripada botol yang telah koyak penutup aluminium induksi habanya semasa transit. Ambil gambar bungkusan dan slip kurier dalam tempoh 48 jam selepas penerimaan dan e-mel kepada sales@onyxmen.my—kami akan menghantar botol gantian baharu secara percuma dari bilik kebal Kuala Lumpur kami.',
         },
         {
-          questionMs: 'Adakah Onyxman melantik penjual semula di Shopee, Lazada, TikTok Shop, atau kedai tepi jalan?',
+          questionMs: 'Adakah Onyxmen melantik penjual semula di Shopee, Lazada, TikTok Shop, atau kedai tepi jalan?',
           answerMs:
-            'Tidak. Demi menjamin penyimpanan kawalan suhu 22°C–24°C, kesegaran ekstrak, dan privasi penuh pelanggan di bawah Akta PDPA, Onyxman Malaysia hanya mengedar secara eksklusif melalui https://www.onyxmen.my dan meja operasi Kuala Lumpur kami (sales@onyxman.my / waleedshoaibofficial@gmail.com).',
+            'Tidak. Demi menjamin penyimpanan kawalan suhu 22°C–24°C, kesegaran ekstrak, dan privasi penuh pelanggan di bawah Akta PDPA, Onyxmen Malaysia hanya mengedar secara eksklusif melalui https://www.onyxmen.my dan meja operasi Kuala Lumpur kami (sales@onyxmen.my / waleedshoaibofficial@gmail.com).',
         },
       ],
     },
@@ -1944,9 +1944,9 @@ export const TRUST_DOSSIERS = [
     activeNav: 'locations',
     en: {
       seoTitle:
-        '100% Unmarked Discreet Packaging, Blind Waybill & Malaysia Shipping Policy | Onyxman Malaysia',
+        '100% Unmarked Discreet Packaging, Blind Waybill & Malaysia Shipping Policy | Onyxmen Malaysia',
       metaDescription:
-        'Official Onyxman Malaysia discreet plain-box packaging and nationwide shipping policy: 3-layer acoustic & visual parcel shielding, OM Fulfilment Logistics blind waybill, 3–5h Same-Day Klang Valley runner, 1–2 day Peninsular courier, 2–4 day Borneo air freight, FPX, DuitNow QR & COD.',
+        'Official Onyxmen Malaysia discreet plain-box packaging and nationwide shipping policy: 3-layer acoustic & visual parcel shielding, OM Fulfilment Logistics blind waybill, 3–5h Same-Day Klang Valley runner, 1–2 day Peninsular courier, 2–4 day Borneo air freight, FPX, DuitNow QR & COD.',
       eyebrow:
         'MS-163 · 3-LAYER BLIND-WAYBILL PARCEL ARCHITECTURE & 16-STATE MALAYSIA SHIPPING POLICY',
       headline:
@@ -1954,7 +1954,7 @@ export const TRUST_DOSSIERS = [
       subheadline:
         'Engineered for absolute personal confidentiality at condominium guardhouses, corporate reception desks, parcel lockers, and residential doorsteps across all 16 Malaysian states and federal territories.',
       executiveSummary:
-        'Every Onyxman Malaysia acquisition—whether 1 Bottle (RM 159), 2 Bottles (RM 318 — Free Nationwide Shipping including Sabah, Sarawak & Labuan), or 3 Bottles (RM 477)—is dispatched from our central Kuala Lumpur vault (Postcode 50450) inside a triple-sealed, opaque matte security carton. The courier airway bill prints the sender strictly as "OM Fulfilment Logistics (Kuala Lumpur)" and declares the contents as "Personal Nutritional Wellness" with zero brand logos, zero product titles, and zero supplement terminology.',
+        'Every Onyxmen Malaysia acquisition—whether 1 Bottle (RM 159), 2 Bottles (RM 318 — Free Nationwide Shipping including Sabah, Sarawak & Labuan), or 3 Bottles (RM 477)—is dispatched from our central Kuala Lumpur vault (Postcode 50450) inside a triple-sealed, opaque matte security carton. The courier airway bill prints the sender strictly as "OM Fulfilment Logistics (Kuala Lumpur)" and declares the contents as "Personal Nutritional Wellness" with zero brand logos, zero product titles, and zero supplement terminology.',
       telemetry: [
         {
           key: '01 · WAYBILL SENDER IDENTITY',
@@ -1982,7 +1982,7 @@ export const TRUST_DOSSIERS = [
           kicker: 'CHAPTER 01 · 3-LAYER ACOUSTIC & VISUAL PARCEL SHIELDING',
           title: 'Eliminating Both Visual Branding & Capsule Rattling Noise.',
           body1:
-            'Ordinary e-commerce sellers slip supplement bottles into thin plastic courier flyers where the bottle shape is visible and the capsules rattle loudly whenever a courier rider or office receptionist handles the package. Onyxman Malaysia eliminates both risks through our 3-layer packaging engineering.',
+            'Ordinary e-commerce sellers slip supplement bottles into thin plastic courier flyers where the bottle shape is visible and the capsules rattle loudly whenever a courier rider or office receptionist handles the package. Onyxmen Malaysia eliminates both risks through our 3-layer packaging engineering.',
           body2:
             'Layer 1 is the factory heat-induction sealed apothecary bottle with an internal silica desiccant core. Layer 2 wraps the bottle tightly in high-density double-wall acoustic bubble cushioning so the bottle cannot shift or rattle when shaken. Layer 3 seals the cushioned unit inside a rigid unbranded corrugated box enclosed within an opaque matte waterproof tamper-evident security pouch.',
         },
@@ -1990,7 +1990,7 @@ export const TRUST_DOSSIERS = [
           kicker: 'CHAPTER 02 · BLIND WAYBILL & CONDO / OFFICE RECEPTION PROTOCOL',
           title: 'What Appears On Your PosLaju, NinjaVan, J&T VIP Or Private Runner Label.',
           body1:
-            'Your printed thermal airway bill never displays "Onyxman", "Horsemen", "Hammer of Thor", "Grow XL", "Magnum Pump XR", or any phrase related to male vitality. The sender field reads strictly: "OM Fulfilment Logistics, KL Dispatch Hub, 50450 Kuala Lumpur". The item description reads: "Personal Nutritional Wellness — Fragile Keep Cool".',
+            'Your printed thermal airway bill never displays "Onyxmen", "Horsemen", "Hammer of Thor", "Grow XL", "Magnum Pump XR", or any phrase related to male vitality. The sender field reads strictly: "OM Fulfilment Logistics, KL Dispatch Hub, 50450 Kuala Lumpur". The item description reads: "Personal Nutritional Wellness — Fragile Keep Cool".',
           body2:
             'When paying via FPX Online Banking or DuitNow Instant QR, you may instruct our dispatch desk to authorize contactless drop-off at your condominium concierge desk, security guardhouse, PopBox/Pgeon parcel locker, or corporate mailroom—or select Cash on Delivery (COD) for direct hand-to-hand settlement.',
         },
@@ -2093,7 +2093,7 @@ export const TRUST_DOSSIERS = [
         {
           questionEn: 'What exact words are printed on the courier airway bill?',
           answerEn:
-            'The sender is printed as "OM Fulfilment Logistics (Kuala Lumpur 50450)" and the parcel description is printed as "Personal Nutritional Wellness". No product names (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) or brand names (Onyxman) appear anywhere on the label.',
+            'The sender is printed as "OM Fulfilment Logistics (Kuala Lumpur 50450)" and the parcel description is printed as "Personal Nutritional Wellness". No product names (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) or brand names (Onyxmen) appear anywhere on the label.',
         },
         {
           questionEn: 'Can I request delivery to a PosLaju EziBox, NinjaVan Point, or condo guardhouse?',
@@ -2108,15 +2108,15 @@ export const TRUST_DOSSIERS = [
         {
           questionEn: 'When will I receive my tracking number after placing an order?',
           answerEn:
-            'Orders placed before 16:00 MYT receive their tracking number on the same afternoon via WhatsApp and/or email from sales@onyxman.my. Evening orders after 16:00 MYT are dispatched in the next morning’s first courier wave.',
+            'Orders placed before 16:00 MYT receive their tracking number on the same afternoon via WhatsApp and/or email from sales@onyxmen.my. Evening orders after 16:00 MYT are dispatched in the next morning’s first courier wave.',
         },
       ],
     },
     ms: {
       seoTitle:
-        'Polisi Bungkusan Rahsia Tanpa Nama, Slip Kurier Neutral & Penghantaran Malaysia | Onyxman Malaysia',
+        'Polisi Bungkusan Rahsia Tanpa Nama, Slip Kurier Neutral & Penghantaran Malaysia | Onyxmen Malaysia',
       metaDescription:
-        'Polisi rasmi bungkusan rahsia tanpa label dan penghantaran seluruh Malaysia Onyxman: pelindung bunyi & visual 3-lapisan, pengirim OM Fulfilment Logistics, penghantar hari sama Lembah Klang 3–5 jam, kurier ekspres 1–2 hari Semenanjung, kargo udara Sabah/Sarawak, FPX, DuitNow QR & COD.',
+        'Polisi rasmi bungkusan rahsia tanpa label dan penghantaran seluruh Malaysia Onyxmen: pelindung bunyi & visual 3-lapisan, pengirim OM Fulfilment Logistics, penghantar hari sama Lembah Klang 3–5 jam, kurier ekspres 1–2 hari Semenanjung, kargo udara Sabah/Sarawak, FPX, DuitNow QR & COD.',
       eyebrow:
         'MS-164 · SENI BINA BUNGKUSAN PRIVASI 3-LAPISAN & POLISI PENGHANTARAN 16 NEGERI MALAYSIA',
       headline:
@@ -2124,7 +2124,7 @@ export const TRUST_DOSSIERS = [
       subheadline:
         'Direka khas untuk kerahsiaan mutlak semasa diserahkan di pondok pengawal kondominium, kaunter penyambut tetamu pejabat, loker bungkusan, mahupun di pintu rumah anda di semua 16 negeri Malaysia.',
       executiveSummary:
-        'Setiap tempahan Onyxman Malaysia—sama ada 1 Botol (RM 159), 2 Botol (RM 318 — Penghantaran Percuma Seluruh Negara termasuk Sabah, Sarawak & Labuan), atau 3 Botol (RM 477)—dihantar terus dari bilik kebal Kuala Lumpur kami (Poskod 50450) di dalam kotak keselamatan legap tiga lapisan. Slip kurier hanya memaparkan nama pengirim "OM Fulfilment Logistics (Kuala Lumpur)" dan keterangan kandungan "Penjagaan Kesihatan Harian" tanpa sebarang logo jenama, nama produk, atau istilah suplemen lelaki.',
+        'Setiap tempahan Onyxmen Malaysia—sama ada 1 Botol (RM 159), 2 Botol (RM 318 — Penghantaran Percuma Seluruh Negara termasuk Sabah, Sarawak & Labuan), atau 3 Botol (RM 477)—dihantar terus dari bilik kebal Kuala Lumpur kami (Poskod 50450) di dalam kotak keselamatan legap tiga lapisan. Slip kurier hanya memaparkan nama pengirim "OM Fulfilment Logistics (Kuala Lumpur)" dan keterangan kandungan "Penjagaan Kesihatan Harian" tanpa sebarang logo jenama, nama produk, atau istilah suplemen lelaki.',
       telemetry: [
         {
           key: '01 · NAMA PENGIRIM SLIP KURIER',
@@ -2152,7 +2152,7 @@ export const TRUST_DOSSIERS = [
           kicker: 'BAB 01 · SENI BINA PELINDUNG VISUAL & BUNYI 3-LAPISAN',
           title: 'Menghapuskan Cetakan Luar Serta Bunyi Goncangan Kapsul.',
           body1:
-            'Penjual dalam talian biasa sering memasukkan botol suplemen terus ke dalam plastik kurier nipis sehingga bentuk botol kelihatan jelas dan kapsul di dalamnya berbunyi kuat apabila digoncang oleh posmen atau kerani pejabat. Onyxman Malaysia menghapuskan kedua-dua risiko ini melalui kejuruteraan bungkusan 3-lapisan.',
+            'Penjual dalam talian biasa sering memasukkan botol suplemen terus ke dalam plastik kurier nipis sehingga bentuk botol kelihatan jelas dan kapsul di dalamnya berbunyi kuat apabila digoncang oleh posmen atau kerani pejabat. Onyxmen Malaysia menghapuskan kedua-dua risiko ini melalui kejuruteraan bungkusan 3-lapisan.',
           body2:
             'Lapisan 1 ialah botol apotekari kedap udara dengan teras gel silika dalaman. Lapisan 2 membalut botol secara padat menggunakan pelindung gelembung akustik tebal supaya botol tidak bergerak atau mengeluarkan bunyi apabila digoncang. Lapisan 3 menutup kotak kaku tanpa jenama di dalam beg kurier keselamatan legap kalis air.',
         },
@@ -2160,7 +2160,7 @@ export const TRUST_DOSSIERS = [
           kicker: 'BAB 02 · SLIP KURIER NEUTRAL & PROTOKOL KONDO / PEJABAT',
           title: 'Apa Yang Tercetak Pada Slip PosLaju, NinjaVan, J&T VIP Atau Runner Anda.',
           body1:
-            'Slip haba kurier anda tidak sesekali memaparkan perkataan "Onyxman", "Horsemen", "Hammer of Thor", "Grow XL", "Magnum Pump XR", atau sebarang istilah kesihatan lelaki. Ruangan pengirim hanya mencetak: "OM Fulfilment Logistics, KL Dispatch Hub, 50450 Kuala Lumpur". Keterangan barangan pula ditulis: "Personal Nutritional Wellness — Fragile Keep Cool".',
+            'Slip haba kurier anda tidak sesekali memaparkan perkataan "Onyxmen", "Horsemen", "Hammer of Thor", "Grow XL", "Magnum Pump XR", atau sebarang istilah kesihatan lelaki. Ruangan pengirim hanya mencetak: "OM Fulfilment Logistics, KL Dispatch Hub, 50450 Kuala Lumpur". Keterangan barangan pula ditulis: "Personal Nutritional Wellness — Fragile Keep Cool".',
           body2:
             'Jika anda membuat bayaran melalui FPX atau DuitNow QR, anda boleh meminta bungkusan ditinggalkan secara senyap di pondok pengawal kondominium, kaunter pejabat, atau loker bungkusan—atau pilih Bayar Waktu Terima (COD) untuk penyerahan terus ke tangan anda.',
         },
@@ -2263,7 +2263,7 @@ export const TRUST_DOSSIERS = [
         {
           questionMs: 'Apakah perkataan tepat yang dicetak pada slip bungkusan kurier saya?',
           answerMs:
-            'Nama pengirim dicetak sebagai "OM Fulfilment Logistics (Kuala Lumpur 50450)" dan keterangan bungkusan dicetak sebagai "Personal Nutritional Wellness" (Penjagaan Kesihatan Harian). Tiada sebarang nama produk (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) atau nama jenama (Onyxman) tertera pada slip.',
+            'Nama pengirim dicetak sebagai "OM Fulfilment Logistics (Kuala Lumpur 50450)" dan keterangan bungkusan dicetak sebagai "Personal Nutritional Wellness" (Penjagaan Kesihatan Harian). Tiada sebarang nama produk (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) atau nama jenama (Onyxmen) tertera pada slip.',
         },
         {
           questionMs: 'Bolehkah saya meminta penghantaran ke pondok pengawal kondominium atau kaunter pejabat?',
@@ -2278,7 +2278,7 @@ export const TRUST_DOSSIERS = [
         {
           questionMs: 'Bilakah saya akan menerima nombor tracking selepas membuat pesanan?',
           answerMs:
-            'Pesanan yang disahkan sebelum jam 16:00 MYT akan menerima nombor tracking kurier pada petang hari yang sama melalui WhatsApp dan/atau e-mel daripada sales@onyxman.my.',
+            'Pesanan yang disahkan sebelum jam 16:00 MYT akan menerima nombor tracking kurier pada petang hari yang sama melalui WhatsApp dan/atau e-mel daripada sales@onyxmen.my.',
         },
       ],
     },
@@ -2311,17 +2311,17 @@ export const TRUST_DOSSIERS = [
     activeNav: 'guides',
     en: {
       seoTitle:
-        'Malaysia PDPA Act 709 Privacy Policy & Buyer Confidentiality Charter | Onyxman Malaysia',
+        'Malaysia PDPA Act 709 Privacy Policy & Buyer Confidentiality Charter | Onyxmen Malaysia',
       metaDescription:
-        'Official Onyxman Malaysia Personal Data Protection Act 2010 (PDPA Act 709) privacy policy: zero mandatory public accounts, pseudonym waybill support, encrypted order routing to sales@onyxman.my, zero third-party data sharing, and instant data erasure rights.',
+        'Official Onyxmen Malaysia Personal Data Protection Act 2010 (PDPA Act 709) privacy policy: zero mandatory public accounts, pseudonym waybill support, encrypted order routing to sales@onyxmen.my, zero third-party data sharing, and instant data erasure rights.',
       eyebrow:
         'MS-165 · MALAYSIA PERSONAL DATA PROTECTION ACT 2010 (ACT 709) PRIVACY & ANONYMITY CHARTER',
       headline:
         'Malaysia PDPA Act 709 Privacy Policy & Zero-Account Buyer Confidentiality Charter.',
       subheadline:
-        'How Onyxman Malaysia protects your personal identity, mobile number, and delivery coordinates under all seven statutory principles of the Malaysian Personal Data Protection Act 2010 (Act 709).',
+        'How Onyxmen Malaysia protects your personal identity, mobile number, and delivery coordinates under all seven statutory principles of the Malaysian Personal Data Protection Act 2010 (Act 709).',
       executiveSummary:
-        'Acquiring adult men’s botanical vitality formulations requires banking-grade privacy. Unlike conventional online stores that force buyers to register permanent cloud accounts or install tracking-heavy shopping apps, Onyxman Malaysia engineered a Zero-Account Express Order Architecture. Your shipping details are used strictly to dispatch your unmarked parcel from our Kuala Lumpur hub (OM Fulfilment Logistics) and can be permanently purged upon delivery completion via a single email to info@onyxman.my or sales@onyxman.my.',
+        'Acquiring adult men’s botanical vitality formulations requires banking-grade privacy. Unlike conventional online stores that force buyers to register permanent cloud accounts or install tracking-heavy shopping apps, Onyxmen Malaysia engineered a Zero-Account Express Order Architecture. Your shipping details are used strictly to dispatch your unmarked parcel from our Kuala Lumpur hub (OM Fulfilment Logistics) and can be permanently purged upon delivery completion via a single email to info@onyxmen.my or sales@onyxmen.my.',
       telemetry: [
         {
           key: '01 · STATUTORY FRAMEWORK',
@@ -2341,7 +2341,7 @@ export const TRUST_DOSSIERS = [
         {
           key: '04 · RIGHT TO ERASURE',
           val: '24-Hour Purge SLA',
-          sub: 'Request immediate record deletion anytime at info@onyxman.my',
+          sub: 'Request immediate record deletion anytime at info@onyxmen.my',
         },
       ],
       splitChapters: [
@@ -2349,7 +2349,7 @@ export const TRUST_DOSSIERS = [
           kicker: 'CHAPTER 01 · ZERO-ACCOUNT CHECKOUT & MINIMAL DATA COLLECTION',
           title: 'Why We Eliminated Mandatory User Accounts & Password Profiles.',
           body1:
-            'Under the General Principle and Notice & Choice Principle of Malaysia’s Personal Data Protection Act 2010 (Act 709), a data user may only collect personal data that is directly necessary for the lawful commercial transaction requested by the data subject. When you submit an order through the Onyxman 10-Second Express Discreet Order Drawer, we collect only four minimal fields: (1) Recipient Name or Pseudonym/Initials, (2) Malaysian Mobile/WhatsApp Number (01X-XXXXXXX), (3) Delivery State & Address, and (4) Selected Formulation & Settlement Mode.',
+            'Under the General Principle and Notice & Choice Principle of Malaysia’s Personal Data Protection Act 2010 (Act 709), a data user may only collect personal data that is directly necessary for the lawful commercial transaction requested by the data subject. When you submit an order through the Onyxmen 10-Second Express Discreet Order Drawer, we collect only four minimal fields: (1) Recipient Name or Pseudonym/Initials, (2) Malaysian Mobile/WhatsApp Number (01X-XXXXXXX), (3) Delivery State & Address, and (4) Selected Formulation & Settlement Mode.',
           body2:
             'We never collect MyKad/IC numbers, date of birth, marital status, or credit card numbers on our servers. All FPX Online Banking and DuitNow QR settlements occur directly inside your own Malaysian banking application (Maybank2u, CIMB Clicks, Public Bank, RHB, Hong Leong).',
         },
@@ -2367,10 +2367,10 @@ export const TRUST_DOSSIERS = [
           body1:
             'Under the Retention Principle and Access Principle of PDPA Act 709, delivery records are retained only for the duration required to verify safe parcel arrival and honor our 14/30-day unopened return guarantee, plus optional Day-18 or Day-25 refill reminders if requested by the client.',
           body2:
-            'At any moment after your parcel arrives, you may email info@onyxman.my or sales@onyxman.my with the subject line "PDPA Purge Request" and your Order Reference ID or phone number. Our Data Protection Officer will permanently scrub your name, phone number, and address from our active dispatch ledger within 24 hours.',
+            'At any moment after your parcel arrives, you may email info@onyxmen.my or sales@onyxmen.my with the subject line "PDPA Purge Request" and your Order Reference ID or phone number. Our Data Protection Officer will permanently scrub your name, phone number, and address from our active dispatch ledger within 24 hours.',
         },
       ],
-      ledgerTitle: 'The 7 Statutory Principles of Malaysia PDPA Act 709 Applied at Onyxman.my',
+      ledgerTitle: 'The 7 Statutory Principles of Malaysia PDPA Act 709 Applied at Onyxmen.my',
       ledgerSub:
         'Below is our formal statutory compliance mapping across all seven principles of the Malaysian Personal Data Protection Act 2010 (Act 709) plus our Zero-Cookie Surveillance commitment.',
       ledgerRows: [
@@ -2395,7 +2395,7 @@ export const TRUST_DOSSIERS = [
         {
           code: 'PDPA-709 · 04',
           title: 'Principle 4 — Security Principle (HTTPS TLS 1.3 & Encrypted Inbox)',
-          desc: 'All order transmissions across https://www.onyxmen.my use Cloudflare TLS 1.3 encryption routed directly to waleedshoaibofficial@gmail.com and sales@onyxman.my.',
+          desc: 'All order transmissions across https://www.onyxmen.my use Cloudflare TLS 1.3 encryption routed directly to waleedshoaibofficial@gmail.com and sales@onyxmen.my.',
           metric: 'TLS 1.3 ENCRYPTED',
         },
         {
@@ -2407,23 +2407,23 @@ export const TRUST_DOSSIERS = [
         {
           code: 'PDPA-709 · 06',
           title: 'Principle 6 — Data Integrity Principle (Real-Time Address Updates)',
-          desc: 'Clients may update or amend delivery addresses, condo drop-off instructions, or phone numbers prior to courier dispatch via sales@onyxman.my.',
+          desc: 'Clients may update or amend delivery addresses, condo drop-off instructions, or phone numbers prior to courier dispatch via sales@onyxmen.my.',
           metric: 'INSTANT AMENDMENT',
         },
         {
           code: 'PDPA-709 · 07',
           title: 'Principle 7 — Access Principle (Free Subject Access Requests)',
           desc: 'You have the statutory right to request a copy of any personal data held about your order and command its immediate correction or erasure at zero fee.',
-          metric: 'INFO@ONYXMAN.MY',
+          metric: 'INFO@ONYXMEN.MY',
         },
         {
           code: 'PDPA-709 · 08',
           title: 'Zero Intrusive Ad-Retargeting Pixels',
-          desc: 'We never install intrusive behavioral ad-retargeting pixels that follow you across social media with supplement banners after visiting Onyxman.my.',
+          desc: 'We never install intrusive behavioral ad-retargeting pixels that follow you across social media with supplement banners after visiting Onyxmen.my.',
           metric: 'ZERO AD STALKING',
         },
       ],
-      tableTitle: 'Onyxman Malaysia Data Lifecycle & Confidentiality Matrix (PDPA Act 709)',
+      tableTitle: 'Onyxmen Malaysia Data Lifecycle & Confidentiality Matrix (PDPA Act 709)',
       tableHeaders: [
         'Data Field Collected',
         'Purpose of Processing',
@@ -2435,12 +2435,12 @@ export const TRUST_DOSSIERS = [
           'Recipient Name or Pseudonym / Initials',
           'Addressing your unmarked parcel for courier or runner handover.',
           'KL Dispatch Vault & assigned courier rider (sees only "OM Fulfilment Logistics").',
-          'Purged within 24 hours upon client request to info@onyxman.my or after 90-day cycle.',
+          'Purged within 24 hours upon client request to info@onyxmen.my or after 90-day cycle.',
         ],
         [
           'Malaysian Mobile / WhatsApp Number (01X-XXXXXXX)',
           'Sending your encrypted Order Reference ID, courier tracking link & rider arrival call.',
-          'KL Concierge Desk (sales@onyxman.my) & delivering courier rider.',
+          'KL Concierge Desk (sales@onyxmen.my) & delivering courier rider.',
           'Never used for unsolicited spam; deleted immediately upon client PDPA purge request.',
         ],
         [
@@ -2463,35 +2463,35 @@ export const TRUST_DOSSIERS = [
             'Yes. Under our PDPA buyer anonymity protocol, you may enter initials or a preferred nickname (e.g., "En. Amir" or "K.L. Tan") in the Recipient Name field of the Express Order Drawer, provided your Malaysian mobile number (01X-XXXXXXX) and address are accurate for courier handover.',
         },
         {
-          questionEn: 'Will visiting Onyxman.my cause supplement ads to follow me on Facebook, Instagram, or Google?',
+          questionEn: 'Will visiting Onyxmen.my cause supplement ads to follow me on Facebook, Instagram, or Google?',
           answerEn:
             'No. We strictly prohibit third-party behavioral ad-retargeting pixels on https://www.onyxmen.my. Your browsing session remains completely private and isolated.',
         },
         {
           questionEn: 'How do I request complete deletion of my order details after my parcel arrives?',
           answerEn:
-            'Simply send an email to info@onyxman.my or sales@onyxman.my quoting your Order Reference ID or phone number with the phrase "Delete My Record". Our team will permanently erase your delivery details within 24 hours and send you a final confirmation.',
+            'Simply send an email to info@onyxmen.my or sales@onyxmen.my quoting your Order Reference ID or phone number with the phrase "Delete My Record". Our team will permanently erase your delivery details within 24 hours and send you a final confirmation.',
         },
         {
           questionEn: 'What appears on my bank statement when I pay via FPX or DuitNow QR?',
           answerEn:
-            'FPX and DuitNow QR transfers display only our neutral corporate merchant/fulfilment reference—never the words "Onyxman", "Horsemen", "Hammer of Thor", "Grow XL", or "Magnum Pump XR".',
+            'FPX and DuitNow QR transfers display only our neutral corporate merchant/fulfilment reference—never the words "Onyxmen", "Horsemen", "Hammer of Thor", "Grow XL", or "Magnum Pump XR".',
         },
       ],
     },
     ms: {
       seoTitle:
-        'Polisi Privasi Akta PDPA Malaysia 709 & Piagam Kerahsiaan Pembeli | Onyxman Malaysia',
+        'Polisi Privasi Akta PDPA Malaysia 709 & Piagam Kerahsiaan Pembeli | Onyxmen Malaysia',
       metaDescription:
-        'Polisi privasi rasmi Akta Perlindungan Data Peribadi Malaysia 2010 (PDPA Akta 709) Onyxman Malaysia: sifar pendaftaran akaun awam, sokongan nama samaran pada slip kurier, sifar perkongsian data pihak ketiga, dan hak pemadaman data 24 jam.',
+        'Polisi privasi rasmi Akta Perlindungan Data Peribadi Malaysia 2010 (PDPA Akta 709) Onyxmen Malaysia: sifar pendaftaran akaun awam, sokongan nama samaran pada slip kurier, sifar perkongsian data pihak ketiga, dan hak pemadaman data 24 jam.',
       eyebrow:
         'MS-166 · POLISI PRIVASI AKTA PERLINDUNGAN DATA PERIBADI MALAYSIA 2010 (AKTA 709)',
       headline:
         'Polisi Privasi Akta PDPA Malaysia 709 & Piagam Kerahsiaan Pembeli Tanpa Akaun.',
       subheadline:
-        'Bagaimana Onyxman Malaysia melindungi identiti peribadi, nombor telefon bimbit, dan alamat penghantaran anda di bawah ketujuh-tujuh prinsip berkanun Akta Perlindungan Data Peribadi Malaysia 2010 (Akta 709).',
+        'Bagaimana Onyxmen Malaysia melindungi identiti peribadi, nombor telefon bimbit, dan alamat penghantaran anda di bawah ketujuh-tujuh prinsip berkanun Akta Perlindungan Data Peribadi Malaysia 2010 (Akta 709).',
       executiveSummary:
-        'Pembelian suplemen kecergasan lelaki dewasa menuntut tahap kerahsiaan setaraf perbankan. Berbeza dengan kedai dalam talian biasa yang memaksa pembeli mendaftar akaun kekal atau memuat turun aplikasi yang menjejak data, Onyxman Malaysia membangunkan Seni Bina Tempahan Ekspres Tanpa Akaun. Butiran penghantaran anda hanya digunakan untuk menghantar bungkusan rahsia dari hab Kuala Lumpur kami (OM Fulfilment Logistics) dan boleh dipadamkan sepenuhnya selepas bungkusan tiba melalui satu e-mel kepada info@onyxman.my atau sales@onyxman.my.',
+        'Pembelian suplemen kecergasan lelaki dewasa menuntut tahap kerahsiaan setaraf perbankan. Berbeza dengan kedai dalam talian biasa yang memaksa pembeli mendaftar akaun kekal atau memuat turun aplikasi yang menjejak data, Onyxmen Malaysia membangunkan Seni Bina Tempahan Ekspres Tanpa Akaun. Butiran penghantaran anda hanya digunakan untuk menghantar bungkusan rahsia dari hab Kuala Lumpur kami (OM Fulfilment Logistics) dan boleh dipadamkan sepenuhnya selepas bungkusan tiba melalui satu e-mel kepada info@onyxmen.my atau sales@onyxmen.my.',
       telemetry: [
         {
           key: '01 · UNDANG-UNDANG MALAYSIA',
@@ -2511,7 +2511,7 @@ export const TRUST_DOSSIERS = [
         {
           key: '04 · HAK PEMADAMAN DATA',
           val: 'Pemadaman 24 Jam',
-          sub: 'Mohon pemadaman rekod serta-merta pada bila-bila masa di info@onyxman.my',
+          sub: 'Mohon pemadaman rekod serta-merta pada bila-bila masa di info@onyxmen.my',
         },
       ],
       splitChapters: [
@@ -2519,7 +2519,7 @@ export const TRUST_DOSSIERS = [
           kicker: 'BAB 01 · TEMPAHAN TANPA AKAUN & PENGUMPULAN DATA MINIMUM',
           title: 'Mengapa Kami Menghapuskan Pendaftaran Akaun & Profil Kata Laluan.',
           body1:
-            'Di bawah Prinsip Am serta Prinsip Notis dan Pilihan dalam Akta Perlindungan Data Peribadi Malaysia 2010 (Akta 709), pengguna data hanya boleh mengumpul maklumat yang benar-benar perlu bagi menyempurnakan transaksi yang diminta oleh subjek data. Apabila anda menghantar pesanan melalui Laci Tempahan Ekspres 10 Saat Onyxman, kami hanya mengumpul empat maklumat minimum: (1) Nama Penerima atau Nama Samaran/Singkatan, (2) Nombor Telefon WhatsApp Malaysia (01X-XXXXXXX), (3) Negeri & Alamat Penghantaran, serta (4) Formulasi & Kaedah Pembayaran Pilihan.',
+            'Di bawah Prinsip Am serta Prinsip Notis dan Pilihan dalam Akta Perlindungan Data Peribadi Malaysia 2010 (Akta 709), pengguna data hanya boleh mengumpul maklumat yang benar-benar perlu bagi menyempurnakan transaksi yang diminta oleh subjek data. Apabila anda menghantar pesanan melalui Laci Tempahan Ekspres 10 Saat Onyxmen, kami hanya mengumpul empat maklumat minimum: (1) Nama Penerima atau Nama Samaran/Singkatan, (2) Nombor Telefon WhatsApp Malaysia (01X-XXXXXXX), (3) Negeri & Alamat Penghantaran, serta (4) Formulasi & Kaedah Pembayaran Pilihan.',
           body2:
             'Kami tidak pernah meminta nombor MyKad/IC, tarikh lahir, status perkahwinan, atau menyimpan nombor kad kredit/debit di pelayan kami. Semua pembayaran FPX dan DuitNow QR dilakukan terus di dalam aplikasi perbankan rasmi anda sendiri (Maybank2u, CIMB Clicks, Public Bank, RHB, Hong Leong).',
         },
@@ -2537,10 +2537,10 @@ export const TRUST_DOSSIERS = [
           body1:
             'Di bawah Prinsip Penyimpanan dan Prinsip Akses Akta PDPA 709, rekod penghantaran hanya disimpan sepanjang tempoh yang diperlukan untuk mengesahkan bungkusan selamat tiba dan melindungi jaminan pemulangan 14/30 hari anda, serta peringatan bekalan Hari Ke-18 atau Hari Ke-25 jika diminta.',
           body2:
-            'Pada bila-bila masa selepas bungkusan anda tiba, anda boleh menghantar e-mel ke info@onyxman.my atau sales@onyxman.my dengan tajuk "Permohonan Pemadaman PDPA" berserta ID Rujukan Pesanan anda. Pegawai Perlindungan Data kami akan memadamkan nama, nombor telefon, dan alamat anda daripada rekod aktif dalam tempoh 24 jam.',
+            'Pada bila-bila masa selepas bungkusan anda tiba, anda boleh menghantar e-mel ke info@onyxmen.my atau sales@onyxmen.my dengan tajuk "Permohonan Pemadaman PDPA" berserta ID Rujukan Pesanan anda. Pegawai Perlindungan Data kami akan memadamkan nama, nombor telefon, dan alamat anda daripada rekod aktif dalam tempoh 24 jam.',
         },
       ],
-      ledgerTitle: '7 Prinsip Berkanun Akta PDPA Malaysia 709 Yang Dikuatkuasakan Di Onyxman.my',
+      ledgerTitle: '7 Prinsip Berkanun Akta PDPA Malaysia 709 Yang Dikuatkuasakan Di Onyxmen.my',
       ledgerSub:
         'Berikut ialah jadual pematuhan rasmi kami merangkumi ketujuh-tujuh prinsip Akta Perlindungan Data Peribadi Malaysia 2010 (Akta 709) serta jaminan Sifar Penjejakan Iklan.',
       ledgerRows: [
@@ -2565,7 +2565,7 @@ export const TRUST_DOSSIERS = [
         {
           code: 'PDPA-709 · 04',
           title: 'Prinsip 4 — Prinsip Keselamatan (Penyulitan HTTPS TLS 1.3)',
-          desc: 'Semua penghantaran pesanan di https://www.onyxmen.my dilindungi penyulitan Cloudflare TLS 1.3 terus ke meja operasi waleedshoaibofficial@gmail.com dan sales@onyxman.my.',
+          desc: 'Semua penghantaran pesanan di https://www.onyxmen.my dilindungi penyulitan Cloudflare TLS 1.3 terus ke meja operasi waleedshoaibofficial@gmail.com dan sales@onyxmen.my.',
           metric: 'PENYULITAN TLS 1.3',
         },
         {
@@ -2577,23 +2577,23 @@ export const TRUST_DOSSIERS = [
         {
           code: 'PDPA-709 · 06',
           title: 'Prinsip 6 — Prinsip Integriti Data (Kemas Kini Alamat Segera)',
-          desc: 'Pelanggan boleh mengemas kini atau meminda alamat penghantaran, arahan pondok pengawal kondo, atau nombor telefon sebelum pelepasan kurier melalui sales@onyxman.my.',
+          desc: 'Pelanggan boleh mengemas kini atau meminda alamat penghantaran, arahan pondok pengawal kondo, atau nombor telefon sebelum pelepasan kurier melalui sales@onyxmen.my.',
           metric: 'PINDAAN SEGERA',
         },
         {
           code: 'PDPA-709 · 07',
           title: 'Prinsip 7 — Prinsip Akses (Akses & Pembetulan Tanpa Caj)',
           desc: 'Anda mempunyai hak berkanun untuk meminta salinan rekod pesanan anda dan mengarahkan pembetulan atau pemadaman serta-merta secara percuma.',
-          metric: 'INFO@ONYXMAN.MY',
+          metric: 'INFO@ONYXMEN.MY',
         },
         {
           code: 'PDPA-709 · 08',
           title: 'Sifar Piksel Penjejakan Iklan Media Sosial',
-          desc: 'Kami tidak memasang piksel iklan penjejakan semula (retargeting) yang mengekor anda di media sosial dengan iklan suplemen selepas melayari Onyxman.my.',
+          desc: 'Kami tidak memasang piksel iklan penjejakan semula (retargeting) yang mengekor anda di media sosial dengan iklan suplemen selepas melayari Onyxmen.my.',
           metric: 'TIADA IKLAN MENGEKOR',
         },
       ],
-      tableTitle: 'Matriks Kitaran Hayat Data & Kerahsiaan Pelanggan Onyxman Malaysia (Akta PDPA 709)',
+      tableTitle: 'Matriks Kitaran Hayat Data & Kerahsiaan Pelanggan Onyxmen Malaysia (Akta PDPA 709)',
       tableHeaders: [
         'Maklumat Yang Dikumpul',
         'Tujuan Pemprosesan',
@@ -2605,12 +2605,12 @@ export const TRUST_DOSSIERS = [
           'Nama Penerima atau Nama Samaran / Singkatan',
           'Mencetak label bungkusan rahsia untuk serahan kurier atau runner.',
           'Bilik Kebal KL & penghantar kurier (hanya melihat pengirim "OM Fulfilment Logistics").',
-          'Dipadamkan dalam 24 jam atas permintaan pelanggan ke info@onyxman.my atau selepas kitaran 90 hari.',
+          'Dipadamkan dalam 24 jam atas permintaan pelanggan ke info@onyxmen.my atau selepas kitaran 90 hari.',
         ],
         [
           'Nombor Telefon Bimbit / WhatsApp Malaysia (01X-XXXXXXX)',
           'Menghantar ID Rujukan Pesanan, pautan nombor tracking & panggilan serahan posmen.',
-          'Meja Operasi KL (sales@onyxman.my) & posmen penghantar.',
+          'Meja Operasi KL (sales@onyxmen.my) & posmen penghantar.',
           'Tidak pernah digunakan untuk spam; dipadamkan serta-merta apabila diminta oleh pelanggan.',
         ],
         [
@@ -2633,19 +2633,19 @@ export const TRUST_DOSSIERS = [
             'Ya. Di bawah protokol kerahsiaan pembeli PDPA kami, anda boleh memasukkan singkatan nama atau nama panggilan (cth: "En. Amir" atau "K.L. Tan") di ruangan Nama Penerima pada Laci Tempahan Ekspres, asalkan nombor telefon WhatsApp Malaysia (01X-XXXXXXX) dan alamat penghantaran adalah tepat.',
         },
         {
-          questionMs: 'Adakah iklan suplemen akan mengekor saya di Facebook, Instagram, atau Google selepas melayari Onyxman.my?',
+          questionMs: 'Adakah iklan suplemen akan mengekor saya di Facebook, Instagram, atau Google selepas melayari Onyxmen.my?',
           answerMs:
             'Tidak sama sekali. Kami melarang penggunaan piksel iklan penjejakan semula (ad-retargeting) pihak ketiga di https://www.onyxmen.my. Sesi pelayaran anda kekal peribadi sepenuhnya.',
         },
         {
           questionMs: 'Bagaimanakah cara memohon pemadaman penuh rekod pesanan saya selepas bungkusan diterima?',
           answerMs:
-            'Hantarkan e-mel ringkas ke info@onyxman.my atau sales@onyxman.my dengan menyatakan ID Rujukan Pesanan atau nombor telefon anda berserta arahan "Padam Rekod Saya". Pasukan kami akan memadamkan butiran penghantaran anda secara kekal dalam masa 24 jam.',
+            'Hantarkan e-mel ringkas ke info@onyxmen.my atau sales@onyxmen.my dengan menyatakan ID Rujukan Pesanan atau nombor telefon anda berserta arahan "Padam Rekod Saya". Pasukan kami akan memadamkan butiran penghantaran anda secara kekal dalam masa 24 jam.',
         },
         {
           questionMs: 'Apakah nama yang tertera pada penyata bank saya apabila membayar melalui FPX atau DuitNow QR?',
           answerMs:
-            'Penyata transaksi FPX dan DuitNow QR hanya memaparkan rujukan syarikat pengurusan/logistik neutral kami—tidak sesekali memaparkan perkataan "Onyxman", "Horsemen", "Hammer of Thor", "Grow XL", atau "Magnum Pump XR".',
+            'Penyata transaksi FPX dan DuitNow QR hanya memaparkan rujukan syarikat pengurusan/logistik neutral kami—tidak sesekali memaparkan perkataan "Onyxmen", "Horsemen", "Hammer of Thor", "Grow XL", atau "Magnum Pump XR".',
         },
       ],
     },
@@ -2680,9 +2680,9 @@ export const TRUST_DOSSIERS = [
     activeNav: 'guides',
     en: {
       seoTitle:
-        'Terms of Service, Supplement Compliance & 14/30-Day Return Policy | Onyxman Malaysia',
+        'Terms of Service, Supplement Compliance & 14/30-Day Return Policy | Onyxmen Malaysia',
       metaDescription:
-        'Official Onyxman Malaysia Terms of Service and 14/30-Day Unopened Tamper-Seal Return & Refund Policy: adult 18+ dietary supplement positioning, uniform RM 159 / RM 318 / RM 477 MYR pricing, transit damage replacement, and Malaysian Consumer Protection compliance.',
+        'Official Onyxmen Malaysia Terms of Service and 14/30-Day Unopened Tamper-Seal Return & Refund Policy: adult 18+ dietary supplement positioning, uniform RM 159 / RM 318 / RM 477 MYR pricing, transit damage replacement, and Malaysian Consumer Protection compliance.',
       eyebrow:
         'MS-167 · COMMERCIAL TERMS OF SALE, SUPPLEMENT COMPLIANCE & 14/30-DAY RETURN GUARANTEE',
       headline:
@@ -2690,7 +2690,7 @@ export const TRUST_DOSSIERS = [
       subheadline:
         'Transparent commercial governance under Malaysian law (Sale of Goods Act 1957 & Consumer Protection Act 1999) covering RM 159 / RM 318 / RM 477 acquisitions, transit damage protection, and sealed bottle returns.',
       executiveSummary:
-        'Every acquisition on https://www.onyxmen.my is backed by clear, non-ambiguous Malaysian commercial terms: uniform Ringgit Malaysia pricing (1 Bottle RM 159.00, 2 Bottles RM 318.00, 3 Bottles RM 477.00), zero recurring subscription traps, immediate free replacement for any parcel damaged in courier transit, and a 14-Day Unopened Tamper-Seal Return & Exchange Window (extended to 30 Days for 3-Bottle RM 477 Mastery Vault clients) managed directly by our Kuala Lumpur desk at sales@onyxman.my and info@onyxman.my.',
+        'Every acquisition on https://www.onyxmen.my is backed by clear, non-ambiguous Malaysian commercial terms: uniform Ringgit Malaysia pricing (1 Bottle RM 159.00, 2 Bottles RM 318.00, 3 Bottles RM 477.00), zero recurring subscription traps, immediate free replacement for any parcel damaged in courier transit, and a 14-Day Unopened Tamper-Seal Return & Exchange Window (extended to 30 Days for 3-Bottle RM 477 Mastery Vault clients) managed directly by our Kuala Lumpur desk at sales@onyxmen.my and info@onyxmen.my.',
       telemetry: [
         {
           key: '01 · RETURN & EXCHANGE WINDOW',
@@ -2700,7 +2700,7 @@ export const TRUST_DOSSIERS = [
         {
           key: '02 · TRANSIT DAMAGE PROTECTION',
           val: '100% Free Replacement',
-          sub: 'Report crushed cartons or broken seals within 48h to sales@onyxman.my',
+          sub: 'Report crushed cartons or broken seals within 48h to sales@onyxmen.my',
         },
         {
           key: '03 · SUBSCRIPTION POLICY',
@@ -2718,7 +2718,7 @@ export const TRUST_DOSSIERS = [
           kicker: 'CHAPTER 01 · ADULT 18+ BOTANICAL DIETARY SUPPLEMENT POSITIONING',
           title: 'Honest Nutritional Scope & Medical Consultation Responsibility.',
           body1:
-            'All products offered by Onyxman Malaysia—Horsemen (20 Capsules × 500mg), Hammer of Thor (20 Veg. Capsules × 500mg), Grow XL (30 Capsules × 550mg), and Magnum Pump XR (30 Black Capsules × 600mg)—are traditional botanical and amino-acid dietary supplements formulated exclusively for adult men aged 18 years and above.',
+            'All products offered by Onyxmen Malaysia—Horsemen (20 Capsules × 500mg), Hammer of Thor (20 Veg. Capsules × 500mg), Grow XL (30 Capsules × 550mg), and Magnum Pump XR (30 Black Capsules × 600mg)—are traditional botanical and amino-acid dietary supplements formulated exclusively for adult men aged 18 years and above.',
           body2:
             'These formulations are designed to provide nutritional support for physical stamina, peripheral micro-circulation, and active male vitality. They are not prescription pharmaceuticals and are not intended to diagnose, treat, cure, or prevent any medical disease. Clients with pre-existing cardiovascular conditions, uncontrolled hypertension, renal/hepatic impairment, or those taking prescription nitrates or alpha-blockers must consult a licensed Malaysian medical practitioner before use.',
         },
@@ -2726,17 +2726,17 @@ export const TRUST_DOSSIERS = [
           kicker: 'CHAPTER 02 · 14/30-DAY UNOPENED TAMPER-SEAL RETURN & EXCHANGE POLICY',
           title: 'How Our Hygiene-Safe Apothecary Return & Formulation Exchange Works.',
           body1:
-            'Because oral dietary supplements are hygiene-sensitive ingestible products, returns and exchanges are governed by the integrity of the bottle’s factory heat-induction aluminum foil liner and outer perforated shrink seal. Any unopened bottle in its original sealed condition may be returned or exchanged for a different Onyxman formulation within 14 calendar days of delivery (or within 30 calendar days for clients who acquired the 3-Bottle RM 477 Mastery Vault).',
+            'Because oral dietary supplements are hygiene-sensitive ingestible products, returns and exchanges are governed by the integrity of the bottle’s factory heat-induction aluminum foil liner and outer perforated shrink seal. Any unopened bottle in its original sealed condition may be returned or exchanged for a different Onyxmen formulation within 14 calendar days of delivery (or within 30 calendar days for clients who acquired the 3-Bottle RM 477 Mastery Vault).',
           body2:
-            'For example, if you ordered a 3-Bottle RM 477 protocol of Horsemen and wish to exchange your second or third unopened bottle for Grow XL or Magnum Pump XR, simply email sales@onyxman.my with your Order Reference ID. Refunds on approved unopened returns are credited back via DuitNow / Malaysian bank transfer within 3–5 business days of vault inspection.',
+            'For example, if you ordered a 3-Bottle RM 477 protocol of Horsemen and wish to exchange your second or third unopened bottle for Grow XL or Magnum Pump XR, simply email sales@onyxmen.my with your Order Reference ID. Refunds on approved unopened returns are credited back via DuitNow / Malaysian bank transfer within 3–5 business days of vault inspection.',
         },
         {
           kicker: 'CHAPTER 03 · 48-HOUR TRANSIT DAMAGE & INCORRECT SKU GUARANTEE',
           title: 'Zero-Cost Priority Replacement If Courier Handling Compromises Your Parcel.',
           body1:
-            'In the rare event that a courier parcel arrives with a crushed bottle, punctured inner foil liner, or an incorrect formulation SKU, Onyxman Malaysia assumes 100% of the replacement and reshipping cost.',
+            'In the rare event that a courier parcel arrives with a crushed bottle, punctured inner foil liner, or an incorrect formulation SKU, Onyxmen Malaysia assumes 100% of the replacement and reshipping cost.',
           body2:
-            'Notify sales@onyxman.my or info@onyxman.my within 48 hours of courier delivery timestamp with a clear photo of the outer unmarked box, waybill, and bottle neck seal. Our Kuala Lumpur vault will dispatch a fresh replacement parcel within 24 hours at RM 0 charge.',
+            'Notify sales@onyxmen.my or info@onyxmen.my within 48 hours of courier delivery timestamp with a clear photo of the outer unmarked box, waybill, and bottle neck seal. Our Kuala Lumpur vault will dispatch a fresh replacement parcel within 24 hours at RM 0 charge.',
         },
       ],
       ledgerTitle: '8-Clause Commercial Terms of Sale & Return Governance Ledger',
@@ -2792,7 +2792,7 @@ export const TRUST_DOSSIERS = [
           metric: 'MALAYSIA LAW',
         },
       ],
-      tableTitle: 'Onyxman Malaysia Return, Exchange & Refund Eligibility Matrix',
+      tableTitle: 'Onyxmen Malaysia Return, Exchange & Refund Eligibility Matrix',
       tableHeaders: [
         'Scenario / Request Type',
         'Condition Requirement',
@@ -2814,7 +2814,7 @@ export const TRUST_DOSSIERS = [
         ],
         [
           'Damaged in Transit / Broken Seal Upon Arrival',
-          'Photo of outer parcel, waybill & damaged bottle sent to sales@onyxman.my.',
+          'Photo of outer parcel, waybill & damaged bottle sent to sales@onyxmen.my.',
           'Within 48 hours of courier delivery timestamp.',
           'Immediate RM 0 priority replacement dispatched from Kuala Lumpur vault within 24h.',
         ],
@@ -2829,7 +2829,7 @@ export const TRUST_DOSSIERS = [
         {
           questionEn: 'How do I initiate a return or formulation exchange?',
           answerEn:
-            'Email sales@onyxman.my or info@onyxman.my with your Order Reference ID and a photo showing that the bottle’s outer security band and heat-induction seal remain unopened. Our Kuala Lumpur desk will issue a return authorization code and return address instructions within 24 hours.',
+            'Email sales@onyxmen.my or info@onyxmen.my with your Order Reference ID and a photo showing that the bottle’s outer security band and heat-induction seal remain unopened. Our Kuala Lumpur desk will issue a return authorization code and return address instructions within 24 hours.',
         },
         {
           questionEn: 'Why can’t opened supplement bottles with broken seals be returned?',
@@ -2839,20 +2839,20 @@ export const TRUST_DOSSIERS = [
         {
           questionEn: 'Are there any recurring charges or automatic monthly subscriptions?',
           answerEn:
-            'Never. Onyxman Malaysia operates strictly on a one-time acquisition basis. You will never be billed automatically.',
+            'Never. Onyxmen Malaysia operates strictly on a one-time acquisition basis. You will never be billed automatically.',
         },
         {
           questionEn: 'Can I cancel or modify my order before the courier picks it up?',
           answerEn:
-            'Yes. Contact sales@onyxman.my immediately with your Order Reference ID. If your parcel has not yet been handed over to the courier or private runner, we can modify the formulation, update the delivery address, or cancel and refund 100% immediately.',
+            'Yes. Contact sales@onyxmen.my immediately with your Order Reference ID. If your parcel has not yet been handed over to the courier or private runner, we can modify the formulation, update the delivery address, or cancel and refund 100% immediately.',
         },
       ],
     },
     ms: {
       seoTitle:
-        'Terma Perkhidmatan, Pematuhan Suplemen & Polisi Pemulangan 14/30 Hari | Onyxman Malaysia',
+        'Terma Perkhidmatan, Pematuhan Suplemen & Polisi Pemulangan 14/30 Hari | Onyxmen Malaysia',
       metaDescription:
-        'Terma Perkhidmatan rasmi dan Polisi Pemulangan & Bayaran Balik Botol Belum Dibuka 14/30 Hari Onyxman Malaysia: pematuhan suplemen pemakanan lelaki dewasa 18+, harga tetap RM 159 / RM 318 / RM 477, dan jaminan ganti kerosakan transit.',
+        'Terma Perkhidmatan rasmi dan Polisi Pemulangan & Bayaran Balik Botol Belum Dibuka 14/30 Hari Onyxmen Malaysia: pematuhan suplemen pemakanan lelaki dewasa 18+, harga tetap RM 159 / RM 318 / RM 477, dan jaminan ganti kerosakan transit.',
       eyebrow:
         'MS-168 · TERMA JUALAN KOMERSIAL, PEMATUHAN SUPLEMEN & JAMINAN PEMULANGAN 14/30 HARI',
       headline:
@@ -2860,7 +2860,7 @@ export const TRUST_DOSSIERS = [
       subheadline:
         'Tadbir urus komersial yang telus di bawah undang-undang Malaysia (Akta Jualan Barang 1957 & Akta Pelindungan Pengguna 1999) merangkumi pembelian RM 159 / RM 318 / RM 477, perlindungan kerosakan kurier, dan pemulangan botol.',
       executiveSummary:
-        'Setiap pembelian di https://www.onyxmen.my/ms/ dilindungi oleh terma komersial Malaysia yang jelas: harga seragam dalam Ringgit Malaysia (1 Botol RM 159.00, 2 Botol RM 318.00, 3 Botol RM 477.00), sifar langganan potong gaji/kad automatik, penggantian percuma serta-merta bagi sebarang bungkusan yang rosak semasa transit kurier, serta Jaminan Pemulangan & Pertukaran Botol Belum Dibuka Selama 14 Hari (dilanjutkan kepada 30 Hari bagi pelanggan pakej 3 Botol RM 477) melalui meja operasi kami di sales@onyxman.my dan info@onyxman.my.',
+        'Setiap pembelian di https://www.onyxmen.my/ms/ dilindungi oleh terma komersial Malaysia yang jelas: harga seragam dalam Ringgit Malaysia (1 Botol RM 159.00, 2 Botol RM 318.00, 3 Botol RM 477.00), sifar langganan potong gaji/kad automatik, penggantian percuma serta-merta bagi sebarang bungkusan yang rosak semasa transit kurier, serta Jaminan Pemulangan & Pertukaran Botol Belum Dibuka Selama 14 Hari (dilanjutkan kepada 30 Hari bagi pelanggan pakej 3 Botol RM 477) melalui meja operasi kami di sales@onyxmen.my dan info@onyxmen.my.',
       telemetry: [
         {
           key: '01 · TEMPOH PEMULANGAN & TUKAR',
@@ -2870,7 +2870,7 @@ export const TRUST_DOSSIERS = [
         {
           key: '02 · JAMINAN ROSAK TRANSIT',
           val: '100% Gantian Percuma',
-          sub: 'Laporkan kotak kemek atau meterai rosak dalam 48 jam ke sales@onyxman.my',
+          sub: 'Laporkan kotak kemek atau meterai rosak dalam 48 jam ke sales@onyxmen.my',
         },
         {
           key: '03 · POLISI LANGGANAN',
@@ -2888,7 +2888,7 @@ export const TRUST_DOSSIERS = [
           kicker: 'BAB 01 · SKOP SUPLEMEN PEMAKANAN BOTANI LELAKI DEWASA (18+)',
           title: 'Penjelasan Nutrisi Jujur & Tanggungjawab Rujukan Perubatan.',
           body1:
-            'Semua produk yang ditawarkan oleh Onyxman Malaysia—Horsemen (20 Kapsul × 500mg), Hammer of Thor (20 Kapsul Veg. × 500mg), Grow XL (30 Kapsul × 550mg), dan Magnum Pump XR (30 Kapsul Hitam × 600mg)—adalah suplemen pemakanan botani tradisional dan asid amino yang dirumus khas untuk lelaki dewasa berumur 18 tahun ke atas.',
+            'Semua produk yang ditawarkan oleh Onyxmen Malaysia—Horsemen (20 Kapsul × 500mg), Hammer of Thor (20 Kapsul Veg. × 500mg), Grow XL (30 Kapsul × 550mg), dan Magnum Pump XR (30 Kapsul Hitam × 600mg)—adalah suplemen pemakanan botani tradisional dan asid amino yang dirumus khas untuk lelaki dewasa berumur 18 tahun ke atas.',
           body2:
             'Formulasi ini bertujuan memberi sokongan nutrisi untuk stamina fizikal, peredaran darah mikro, dan kecergasan lelaki. Ia bukan ubat preskripsi hospital dan tidak bertujuan untuk mendiagnosis, merawat, menyembuhkan, atau mencegah sebarang penyakit. Pelanggan yang mempunyai masalah jantung, tekanan darah tinggi tidak terkawal, masalah buah pinggang/hati, atau sedang mengambil ubat nitrat wajib mendapatkan nasihat doktor bertauliah sebelum penggunaan.',
         },
@@ -2896,20 +2896,20 @@ export const TRUST_DOSSIERS = [
           kicker: 'BAB 02 · POLISI PEMULANGAN & PERTUKARAN BOTOL BELUM DIBUKA 14/30 HARI',
           title: 'Bagaimana Prosedur Pemulangan & Pertukaran Formulasi Kami Berfungsi.',
           body1:
-            'Memandangkan suplemen kapsul makan tertakluk kepada piawaian kebersihan dan keselamatan makanan yang ketat, kelayakan pemulangan atau pertukaran bergantung pada keutuhan meterai aluminium induksi haba kilang dan jalur keselamatan luar botol. Mana-mana botol yang belum dibuka dalam keadaan asal boleh dipulangkan atau ditukar kepada formulasi Onyxman yang lain dalam tempoh 14 hari kalendar selepas diterima (atau 30 hari kalendar bagi pembeli Pakej 3 Botol RM 477).',
+            'Memandangkan suplemen kapsul makan tertakluk kepada piawaian kebersihan dan keselamatan makanan yang ketat, kelayakan pemulangan atau pertukaran bergantung pada keutuhan meterai aluminium induksi haba kilang dan jalur keselamatan luar botol. Mana-mana botol yang belum dibuka dalam keadaan asal boleh dipulangkan atau ditukar kepada formulasi Onyxmen yang lain dalam tempoh 14 hari kalendar selepas diterima (atau 30 hari kalendar bagi pembeli Pakej 3 Botol RM 477).',
           body2:
-            'Sebagai contoh, jika anda membeli Pakej 3 Botol RM 477 Horsemen dan ingin menukar botol kedua atau ketiga yang belum dibuka kepada Grow XL atau Magnum Pump XR, hantarkan e-mel kepada sales@onyxman.my bersama ID Rujukan Pesanan anda. Bayaran balik yang diluluskan akan dikreditkan semula melalui DuitNow / pindahan bank Malaysia dalam masa 3–5 hari bekerja.',
+            'Sebagai contoh, jika anda membeli Pakej 3 Botol RM 477 Horsemen dan ingin menukar botol kedua atau ketiga yang belum dibuka kepada Grow XL atau Magnum Pump XR, hantarkan e-mel kepada sales@onyxmen.my bersama ID Rujukan Pesanan anda. Bayaran balik yang diluluskan akan dikreditkan semula melalui DuitNow / pindahan bank Malaysia dalam masa 3–5 hari bekerja.',
         },
         {
           kicker: 'BAB 03 · JAMINAN GANTIAN PERCUMA 48 JAM BAGI KEROSAKAN TRANSIT',
           title: 'Penggantian Segera Tanpa Kos Jika Bungkusan Rosak Semasa Penghantaran Kurier.',
           body1:
-            'Sekiranya berlaku kes terpencil di mana bungkusan kurier tiba dalam keadaan botol pecah/kemek, meterai dalam terkoyak, atau tersalah hantar kod SKU, Onyxman Malaysia menanggung 100% kos penggantian dan penghantaran semula.',
+            'Sekiranya berlaku kes terpencil di mana bungkusan kurier tiba dalam keadaan botol pecah/kemek, meterai dalam terkoyak, atau tersalah hantar kod SKU, Onyxmen Malaysia menanggung 100% kos penggantian dan penghantaran semula.',
           body2:
-            'Maklumkan kepada sales@onyxman.my atau info@onyxman.my dalam tempoh 48 jam selepas waktu serahan kurier berserta gambar kotak luar, slip kurier, dan leher botol. Bilik kebal Kuala Lumpur kami akan menghantar bungkusan gantian baharu dalam masa 24 jam secara percuma (RM 0).',
+            'Maklumkan kepada sales@onyxmen.my atau info@onyxmen.my dalam tempoh 48 jam selepas waktu serahan kurier berserta gambar kotak luar, slip kurier, dan leher botol. Bilik kebal Kuala Lumpur kami akan menghantar bungkusan gantian baharu dalam masa 24 jam secara percuma (RM 0).',
         },
       ],
-      ledgerTitle: '8 Klausa Utama Terma Jualan Komersial & Polisi Pemulangan Onyxman.my',
+      ledgerTitle: '8 Klausa Utama Terma Jualan Komersial & Polisi Pemulangan Onyxmen.my',
       ledgerSub:
         'Ringkasan lapan klausa kontrak utama yang mengawal setiap pesanan di https://www.onyxmen.my/ms/ dan https://www.onyxmen.my.',
       ledgerRows: [
@@ -2962,7 +2962,7 @@ export const TRUST_DOSSIERS = [
           metric: 'UNDANG-UNDANG MY',
         },
       ],
-      tableTitle: 'Matriks Kelayakan Pemulangan, Pertukaran & Bayaran Balik Onyxman Malaysia',
+      tableTitle: 'Matriks Kelayakan Pemulangan, Pertukaran & Bayaran Balik Onyxmen Malaysia',
       tableHeaders: [
         'Situasi / Jenis Permohonan',
         'Syarat Keadaan Botol',
@@ -2984,7 +2984,7 @@ export const TRUST_DOSSIERS = [
         ],
         [
           'Rosak Semasa Penghantaran Kurier / Meterai Koyak Semasa Tiba',
-          'Gambar kotak luar, slip kurier & botol dihantar ke sales@onyxman.my.',
+          'Gambar kotak luar, slip kurier & botol dihantar ke sales@onyxmen.my.',
           'Dalam tempoh 48 jam selepas waktu serahan kurier.',
           'Penghantaran botol gantian baharu secara percuma (RM 0) dari hab KL dalam 24 jam.',
         ],
@@ -2999,7 +2999,7 @@ export const TRUST_DOSSIERS = [
         {
           questionMs: 'Bagaimanakah cara untuk memulakan permohonan pemulangan atau pertukaran formulasi?',
           answerMs:
-            'Hantarkan e-mel ke sales@onyxman.my atau info@onyxman.my bersama ID Rujukan Pesanan anda dan gambar yang menunjukkan jalur keselamatan luar serta meterai botol masih belum dibuka. Meja operasi Kuala Lumpur kami akan memberikan kod kebenaran pemulangan dan alamat hab dalam masa 24 jam.',
+            'Hantarkan e-mel ke sales@onyxmen.my atau info@onyxmen.my bersama ID Rujukan Pesanan anda dan gambar yang menunjukkan jalur keselamatan luar serta meterai botol masih belum dibuka. Meja operasi Kuala Lumpur kami akan memberikan kod kebenaran pemulangan dan alamat hab dalam masa 24 jam.',
         },
         {
           questionMs: 'Mengapakah botol yang telah dibuka meterai dalamnya tidak boleh dipulangkan?',
@@ -3009,12 +3009,12 @@ export const TRUST_DOSSIERS = [
         {
           questionMs: 'Adakah terdapat sebarang caj bulanan tersembunyi atau langganan automatik?',
           answerMs:
-            'Tidak sama sekali. Onyxman Malaysia beroperasi 100% atas dasar pembelian sekali sahaja.',
+            'Tidak sama sekali. Onyxmen Malaysia beroperasi 100% atas dasar pembelian sekali sahaja.',
         },
         {
           questionMs: 'Bolehkah saya membatalkan atau menukar pesanan sebelum diserahkan kepada kurier?',
           answerMs:
-            'Boleh. Hubungi sales@onyxman.my dengan segera berserta ID Rujukan Pesanan anda. Jika bungkusan belum diserahkan kepada syarikat kurier atau runner, kami boleh menukar formulasi, mengemas kini alamat, atau membatalkan pesanan dengan bayaran balik penuh.',
+            'Boleh. Hubungi sales@onyxmen.my dengan segera berserta ID Rujukan Pesanan anda. Jika bungkusan belum diserahkan kepada syarikat kurier atau runner, kami boleh menukar formulasi, mengemas kini alamat, atau membatalkan pesanan dengan bayaran balik penuh.',
         },
       ],
     },
@@ -3043,9 +3043,9 @@ export const TRUST_DOSSIERS = [
     activeNav: 'contact',
     en: {
       seoTitle:
-        'Private Kuala Lumpur Concierge & Discreet Order Desk — sales@onyxman.my & info@onyxman.my | Onyxman Malaysia',
+        'Private Kuala Lumpur Concierge & Discreet Order Desk — sales@onyxmen.my & info@onyxmen.my | Onyxmen Malaysia',
       metaDescription:
-        'Contact the Onyxman Malaysia Private Kuala Lumpur Concierge & Fulfilment Desk (09:00–23:00 MYT daily): sales@onyxman.my, info@onyxman.my & waleedshoaibofficial@gmail.com. Instant 10-second discreet order dispatch, Same-Day Klang Valley runner & tracking support.',
+        'Contact the Onyxmen Malaysia Private Kuala Lumpur Concierge & Fulfilment Desk (09:00–23:00 MYT daily): sales@onyxmen.my, info@onyxmen.my & waleedshoaibofficial@gmail.com. Instant 10-second discreet order dispatch, Same-Day Klang Valley runner & tracking support.',
       eyebrow:
         'MS-169 · PRIVATE KUALA LUMPUR CONCIERGE, FORMULATION GUIDANCE & DISCREET DISPATCH DESK',
       headline:
@@ -3053,16 +3053,16 @@ export const TRUST_DOSSIERS = [
       subheadline:
         'Direct, confidential communication with our Kuala Lumpur apothecary fulfilment team for express orders, Same-Day Klang Valley runner dispatch, courier tracking, and formulation selection.',
       executiveSummary:
-        'Onyxman Malaysia operates a dedicated, human-staffed Private Concierge Desk in Kuala Lumpur (Postcode 50450) seven days a week from 09:00 to 23:00 MYT (UTC+8). Whether you want to reserve a 1-Bottle (RM 159), 2-Bottle (RM 318), or 3-Bottle (RM 477) protocol via our 10-Second Express Discreet Order Drawer, coordinate a 3–5 hour unmarked runner in Kuala Lumpur or Selangor, verify an authentic bottle seal, or request a PDPA data purge, our team responds promptly through sales@onyxman.my, info@onyxman.my, and waleedshoaibofficial@gmail.com.',
+        'Onyxmen Malaysia operates a dedicated, human-staffed Private Concierge Desk in Kuala Lumpur (Postcode 50450) seven days a week from 09:00 to 23:00 MYT (UTC+8). Whether you want to reserve a 1-Bottle (RM 159), 2-Bottle (RM 318), or 3-Bottle (RM 477) protocol via our 10-Second Express Discreet Order Drawer, coordinate a 3–5 hour unmarked runner in Kuala Lumpur or Selangor, verify an authentic bottle seal, or request a PDPA data purge, our team responds promptly through sales@onyxmen.my, info@onyxmen.my, and waleedshoaibofficial@gmail.com.',
       telemetry: [
         {
           key: '01 · OFFICIAL SALES & ORDERS',
-          val: 'sales@onyxman.my',
+          val: 'sales@onyxmen.my',
           sub: 'Express orders, FPX/DuitNow QR, COD & Same-Day KL runner dispatch',
         },
         {
           key: '02 · FORMULATION & PDPA DESK',
-          val: 'info@onyxman.my',
+          val: 'info@onyxmen.my',
           sub: 'Botanical protocol guidance, batch verification & PDPA privacy requests',
         },
         {
@@ -3081,9 +3081,9 @@ export const TRUST_DOSSIERS = [
           kicker: 'CHAPTER 01 · THREE DIRECT CONCIERGE & FULFILMENT CHANNELS',
           title: 'How Our Kuala Lumpur Dispatch Desk Handles Your Inquiry With 100% Discretion.',
           body1:
-            'Every inquiry and order submitted to Onyxman Malaysia is handled exclusively by our internal Kuala Lumpur fulfilment specialists—never outsourced to offshore call centers. For new acquisitions, payment confirmations (FPX Online Banking, DuitNow Instant QR, or Cash on Delivery COD), and courier tracking updates, contact sales@onyxman.my.',
+            'Every inquiry and order submitted to Onyxmen Malaysia is handled exclusively by our internal Kuala Lumpur fulfilment specialists—never outsourced to offshore call centers. For new acquisitions, payment confirmations (FPX Online Banking, DuitNow Instant QR, or Cash on Delivery COD), and courier tracking updates, contact sales@onyxmen.my.',
           body2:
-            'For personalized guidance on choosing between our 20-capsule evening reserves (Horsemen & Hammer of Thor) and our 30-capsule full-month protocols (Grow XL & Magnum Pump XR), or for batch authenticity checks and PDPA record erasure requests, contact info@onyxman.my. All Express Order Drawer submissions also route simultaneously to our primary merchant dispatch inbox at waleedshoaibofficial@gmail.com.',
+            'For personalized guidance on choosing between our 20-capsule evening reserves (Horsemen & Hammer of Thor) and our 30-capsule full-month protocols (Grow XL & Magnum Pump XR), or for batch authenticity checks and PDPA record erasure requests, contact info@onyxmen.my. All Express Order Drawer submissions also route simultaneously to our primary merchant dispatch inbox at waleedshoaibofficial@gmail.com.',
         },
         {
           kicker: 'CHAPTER 02 · DUAL-MODE REVERSE WHATSAPP & 10-SECOND ORDER BRIDGE',
@@ -3099,7 +3099,7 @@ export const TRUST_DOSSIERS = [
           body1:
             'Many of our clients in KLCC, Mont Kiara, Bangsar, Damansara, Petaling Jaya, Penang, and Johor Bahru prefer their unmarked parcel left quietly with a condominium concierge, security guardhouse, or office receptionist while they are in meetings.',
           body2:
-            'Simply note your special handover instruction in the Delivery Address field of the Express Order Drawer or email sales@onyxman.my quoting your Order Reference ID prior to 16:00 MYT.',
+            'Simply note your special handover instruction in the Delivery Address field of the Express Order Drawer or email sales@onyxmen.my quoting your Order Reference ID prior to 16:00 MYT.',
         },
       ],
       ledgerTitle: '8-Channel Kuala Lumpur Concierge Service Level Agreement (SLA) Ledger',
@@ -3109,18 +3109,18 @@ export const TRUST_DOSSIERS = [
         {
           code: 'DESK-SLA · 01',
           title: '10-Second Express Discreet Order Drawer (All Pages)',
-          desc: 'Instant on-screen Order Reference ID + automated dispatch routing to waleedshoaibofficial@gmail.com and sales@onyxman.my.',
+          desc: 'Instant on-screen Order Reference ID + automated dispatch routing to waleedshoaibofficial@gmail.com and sales@onyxmen.my.',
           metric: 'INSTANT (<10 SECS)',
         },
         {
           code: 'DESK-SLA · 02',
-          title: 'Official Sales & Express Dispatch Desk (sales@onyxman.my)',
+          title: 'Official Sales & Express Dispatch Desk (sales@onyxmen.my)',
           desc: 'Dedicated channel for 1/2/3-bottle reservations (RM 159 / RM 318 / RM 477), FPX/DuitNow QR settlement, and COD confirmation.',
           metric: '15–30 MIN RESPONSE',
         },
         {
           code: 'DESK-SLA · 03',
-          title: 'Botanical Protocol & Advisory Desk (info@onyxman.my)',
+          title: 'Botanical Protocol & Advisory Desk (info@onyxmen.my)',
           desc: 'Private consultation on selecting Horsemen, Hammer of Thor, Grow XL, or Magnum Pump XR, or stacking 2–3 bottle protocols.',
           metric: '30–60 MIN RESPONSE',
         },
@@ -3139,7 +3139,7 @@ export const TRUST_DOSSIERS = [
         {
           code: 'DESK-SLA · 06',
           title: 'Authenticity Seal & Batch Lot Verification',
-          desc: 'Send your bottle SKU/lot code or waybill photo to info@onyxman.my for instant confirmation against our KL vault ledger.',
+          desc: 'Send your bottle SKU/lot code or waybill photo to info@onyxmen.my for instant confirmation against our KL vault ledger.',
           metric: 'UNDER 60 MINS',
         },
         {
@@ -3151,11 +3151,11 @@ export const TRUST_DOSSIERS = [
         {
           code: 'DESK-SLA · 08',
           title: 'PDPA Act 709 Data Privacy & 24-Hour Record Purge Desk',
-          desc: 'Command immediate permanent deletion of your name, phone number, and address after parcel arrival via info@onyxman.my.',
+          desc: 'Command immediate permanent deletion of your name, phone number, and address after parcel arrival via info@onyxmen.my.',
           metric: '24H DATA PURGE',
         },
       ],
-      tableTitle: 'Onyxman Malaysia Official Contact Endpoints, Operating Hours & Jurisdiction Matrix',
+      tableTitle: 'Onyxmen Malaysia Official Contact Endpoints, Operating Hours & Jurisdiction Matrix',
       tableHeaders: [
         'Concierge Desk / Endpoint',
         'Official Address / Identifier',
@@ -3165,13 +3165,13 @@ export const TRUST_DOSSIERS = [
       tableRows: [
         [
           'Official Sales & Fulfilment Desk',
-          'sales@onyxman.my',
+          'sales@onyxmen.my',
           'New orders (RM 159 / RM 318 / RM 477), FPX/DuitNow QR links, COD dispatch & tracking numbers.',
           '09:00 – 23:00 MYT Daily (15–30 min average response).',
         ],
         [
           'Botanical Advisory & PDPA Privacy Desk',
-          'info@onyxman.my',
+          'info@onyxmen.my',
           'Formulation comparison guidance, capsule timing questions, batch checks & PDPA data erasure.',
           '09:00 – 23:00 MYT Daily (Under 60 min response).',
         ],
@@ -3192,15 +3192,15 @@ export const TRUST_DOSSIERS = [
         {
           questionEn: 'What is the fastest way to place a discreet order right now?',
           answerEn:
-            'Click any "Acquire Discreet Reserve — RM 159" button on this page to open the 10-Second Express Discreet Order Drawer. Select your formulation (Horsemen, Hammer of Thor, Grow XL, or Magnum Pump XR), choose 1 Bottle (RM 159), 2 Bottles (RM 318), or 3 Bottles (RM 477), and submit your delivery details. Your order routes immediately to waleedshoaibofficial@gmail.com and sales@onyxman.my.',
+            'Click any "Acquire Discreet Reserve — RM 159" button on this page to open the 10-Second Express Discreet Order Drawer. Select your formulation (Horsemen, Hammer of Thor, Grow XL, or Magnum Pump XR), choose 1 Bottle (RM 159), 2 Bottles (RM 318), or 3 Bottles (RM 477), and submit your delivery details. Your order routes immediately to waleedshoaibofficial@gmail.com and sales@onyxmen.my.',
         },
         {
-          questionEn: 'Can I email sales@onyxman.my directly to place an order or ask for a custom multi-bottle combination?',
+          questionEn: 'Can I email sales@onyxmen.my directly to place an order or ask for a custom multi-bottle combination?',
           answerEn:
-            'Yes. You can email sales@onyxman.my or info@onyxman.my at any time with your preferred bottle combination (for example, 1 bottle of Grow XL + 1 bottle of Horsemen at the RM 318 2-Bottle tier), recipient name/initials, Malaysian WhatsApp number, and delivery address.',
+            'Yes. You can email sales@onyxmen.my or info@onyxmen.my at any time with your preferred bottle combination (for example, 1 bottle of Grow XL + 1 bottle of Horsemen at the RM 318 2-Bottle tier), recipient name/initials, Malaysian WhatsApp number, and delivery address.',
         },
         {
-          questionEn: 'Does Onyxman Malaysia have a walk-in retail shop in Kuala Lumpur?',
+          questionEn: 'Does Onyxmen Malaysia have a walk-in retail shop in Kuala Lumpur?',
           answerEn:
             'To protect client anonymity and maintain strict 22°C–24°C cleanroom storage standards, our Kuala Lumpur facility (Postcode 50450) operates strictly as a closed-access fulfilment vault. Clients in Kuala Lumpur and Selangor who want rapid delivery can select our 3–5 Hour Same-Day Unmarked Private Runner.',
         },
@@ -3213,9 +3213,9 @@ export const TRUST_DOSSIERS = [
     },
     ms: {
       seoTitle:
-        'Meja Khidmat Pelanggan Privasi & Tempahan Kuala Lumpur — sales@onyxman.my & info@onyxman.my | Onyxman Malaysia',
+        'Meja Khidmat Pelanggan Privasi & Tempahan Kuala Lumpur — sales@onyxmen.my & info@onyxmen.my | Onyxmen Malaysia',
       metaDescription:
-        'Hubungi Meja Khidmat Pelanggan Privasi & Operasi Kuala Lumpur Onyxman Malaysia (09:00–23:00 MYT setiap hari): sales@onyxman.my, info@onyxman.my & waleedshoaibofficial@gmail.com. Tempahan ekspres 10 saat, runner hari sama Lembah Klang & sokongan tracking.',
+        'Hubungi Meja Khidmat Pelanggan Privasi & Operasi Kuala Lumpur Onyxmen Malaysia (09:00–23:00 MYT setiap hari): sales@onyxmen.my, info@onyxmen.my & waleedshoaibofficial@gmail.com. Tempahan ekspres 10 saat, runner hari sama Lembah Klang & sokongan tracking.',
       eyebrow:
         'MS-170 · MEJA KHIDMAT PELANGGAN PRIVASI KUALA LUMPUR, KONSULTASI FORMULASI & TEMPAHAN RAHSIA',
       headline:
@@ -3223,16 +3223,16 @@ export const TRUST_DOSSIERS = [
       subheadline:
         'Komunikasi terus dan sulit bersama pasukan operasi apotekari Kuala Lumpur kami untuk tempahan ekspres, penghantar hari sama Lembah Klang, semakan nombor tracking, dan pemilihan formulasi.',
       executiveSummary:
-        'Onyxman Malaysia mengendalikan Meja Khidmat Pelanggan Privasi di Kuala Lumpur (Poskod 50450) tujuh hari seminggu dari jam 09:00 pagi hingga 23:00 malam MYT (UTC+8). Sama ada anda ingin menempah pakej 1 Botol (RM 159), 2 Botol (RM 318), atau 3 Botol (RM 477) melalui Laci Tempahan Ekspres 10 Saat, mengatur penghantar rahsia 3–5 jam di Kuala Lumpur atau Selangor, mengesahkan ketulenan botol, atau memohon pemadaman data PDPA, pasukan kami sedia membantu melalui sales@onyxman.my, info@onyxman.my, dan waleedshoaibofficial@gmail.com.',
+        'Onyxmen Malaysia mengendalikan Meja Khidmat Pelanggan Privasi di Kuala Lumpur (Poskod 50450) tujuh hari seminggu dari jam 09:00 pagi hingga 23:00 malam MYT (UTC+8). Sama ada anda ingin menempah pakej 1 Botol (RM 159), 2 Botol (RM 318), atau 3 Botol (RM 477) melalui Laci Tempahan Ekspres 10 Saat, mengatur penghantar rahsia 3–5 jam di Kuala Lumpur atau Selangor, mengesahkan ketulenan botol, atau memohon pemadaman data PDPA, pasukan kami sedia membantu melalui sales@onyxmen.my, info@onyxmen.my, dan waleedshoaibofficial@gmail.com.',
       telemetry: [
         {
           key: '01 · MEJA JUALAN & TEMPAHAN',
-          val: 'sales@onyxman.my',
+          val: 'sales@onyxmen.my',
           sub: 'Tempahan ekspres, FPX/DuitNow QR, COD & runner hari sama KL',
         },
         {
           key: '02 · KONSULTASI & PRIVASI PDPA',
-          val: 'info@onyxman.my',
+          val: 'info@onyxmen.my',
           sub: 'Panduan protokol botani, semakan lot & permohonan privasi PDPA',
         },
         {
@@ -3251,9 +3251,9 @@ export const TRUST_DOSSIERS = [
           kicker: 'BAB 01 · TIGA SALURAN TERUS MEJA KHIDMAT PELANGGAN KUALA LUMPUR',
           title: 'Bagaimana Pasukan Operasi Kami Mengendalikan Pertanyaan Anda Secara Sulit.',
           body1:
-            'Setiap pertanyaan dan pesanan yang dihantar ke Onyxman Malaysia dikendalikan sepenuhnya oleh pegawai operasi dalaman kami di Kuala Lumpur—tidak sesekali diserahkan kepada pusat panggilan pihak ketiga. Untuk tempahan baharu, pengesahan bayaran (FPX, DuitNow QR, atau COD), serta semakan nombor tracking kurier, sila hubungi sales@onyxman.my.',
+            'Setiap pertanyaan dan pesanan yang dihantar ke Onyxmen Malaysia dikendalikan sepenuhnya oleh pegawai operasi dalaman kami di Kuala Lumpur—tidak sesekali diserahkan kepada pusat panggilan pihak ketiga. Untuk tempahan baharu, pengesahan bayaran (FPX, DuitNow QR, atau COD), serta semakan nombor tracking kurier, sila hubungi sales@onyxmen.my.',
           body2:
-            'Untuk mendapatkan panduan memilih antara formulasi 20 kapsul malam (Horsemen & Hammer of Thor) dan formulasi 30 kapsul bulanan (Grow XL & Magnum Pump XR), atau untuk semakan ketulenan kod lot dan pemadaman rekod PDPA, sila hubungi info@onyxman.my. Semua pesanan daripada Laci Tempahan Ekspres juga dihantar serentak ke peti masuk utama kami di waleedshoaibofficial@gmail.com.',
+            'Untuk mendapatkan panduan memilih antara formulasi 20 kapsul malam (Horsemen & Hammer of Thor) dan formulasi 30 kapsul bulanan (Grow XL & Magnum Pump XR), atau untuk semakan ketulenan kod lot dan pemadaman rekod PDPA, sila hubungi info@onyxmen.my. Semua pesanan daripada Laci Tempahan Ekspres juga dihantar serentak ke peti masuk utama kami di waleedshoaibofficial@gmail.com.',
         },
         {
           kicker: 'BAB 02 · JAMBATAN WHATSAPP DUA HALA & LACI TEMPAHAN 10 SAAT',
@@ -3269,7 +3269,7 @@ export const TRUST_DOSSIERS = [
           body1:
             'Ramai pelanggan kami di KLCC, Mont Kiara, Bangsar, Damansara, Petaling Jaya, Pulau Pinang, dan Johor Bahru memilih supaya bungkusan tanpa nama mereka ditinggalkan secara senyap di pondok pengawal kondominium atau kaunter penyambut tetamu pejabat.',
           body2:
-            'Anda hanya perlu menyatakan arahan serahan khas tersebut di ruangan Alamat Penghantaran pada Laci Tempahan Ekspres atau menghantar e-mel ke sales@onyxman.my bersama ID Rujukan Pesanan anda sebelum jam 16:00 MYT.',
+            'Anda hanya perlu menyatakan arahan serahan khas tersebut di ruangan Alamat Penghantaran pada Laci Tempahan Ekspres atau menghantar e-mel ke sales@onyxmen.my bersama ID Rujukan Pesanan anda sebelum jam 16:00 MYT.',
         },
       ],
       ledgerTitle: '8 Saluran Jaminan Tahap Perkhidmatan (SLA) Meja Operasi Kuala Lumpur',
@@ -3279,18 +3279,18 @@ export const TRUST_DOSSIERS = [
         {
           code: 'SLA-MEJA · 01',
           title: 'Laci Tempahan Ekspres Rahsia 10 Saat (Semua Halaman)',
-          desc: 'Paparan segera ID Rujukan Pesanan di skrin + penghantaran automatik ke waleedshoaibofficial@gmail.com dan sales@onyxman.my.',
+          desc: 'Paparan segera ID Rujukan Pesanan di skrin + penghantaran automatik ke waleedshoaibofficial@gmail.com dan sales@onyxmen.my.',
           metric: 'SERTA-MERTA (<10 SAAT)',
         },
         {
           code: 'SLA-MEJA · 02',
-          title: 'Meja Jualan & Pelepasan Ekspres Rasmi (sales@onyxman.my)',
+          title: 'Meja Jualan & Pelepasan Ekspres Rasmi (sales@onyxmen.my)',
           desc: 'Saluran khusus untuk tempahan 1/2/3 botol (RM 159 / RM 318 / RM 477), bayaran FPX/DuitNow QR, dan pengesahan COD.',
           metric: 'MAKLUM BALAS 15–30 MIN',
         },
         {
           code: 'SLA-MEJA · 03',
-          title: 'Meja Konsultasi Protokol Botani (info@onyxman.my)',
+          title: 'Meja Konsultasi Protokol Botani (info@onyxmen.my)',
           desc: 'Nasihat peribadi pemilihan Horsemen, Hammer of Thor, Grow XL, atau Magnum Pump XR serta gabungan pakej 2–3 botol.',
           metric: 'MAKLUM BALAS 30–60 MIN',
         },
@@ -3309,7 +3309,7 @@ export const TRUST_DOSSIERS = [
         {
           code: 'SLA-MEJA · 06',
           title: 'Pengesahan Meterai Ketulenan & Nombor Lot Botol',
-          desc: 'Hantarkan kod SKU/lot botol atau gambar slip kurier ke info@onyxman.my untuk semakan segera.',
+          desc: 'Hantarkan kod SKU/lot botol atau gambar slip kurier ke info@onyxmen.my untuk semakan segera.',
           metric: 'BAWAH 60 MINIT',
         },
         {
@@ -3321,11 +3321,11 @@ export const TRUST_DOSSIERS = [
         {
           code: 'SLA-MEJA · 08',
           title: 'Meja Privasi Akta PDPA 709 & Pemadaman Data 24 Jam',
-          desc: 'Arahkan pemadaman kekal nama, nombor telefon, dan alamat anda selepas bungkusan tiba melalui info@onyxman.my.',
+          desc: 'Arahkan pemadaman kekal nama, nombor telefon, dan alamat anda selepas bungkusan tiba melalui info@onyxmen.my.',
           metric: 'PADAM DATA 24 JAM',
         },
       ],
-      tableTitle: 'Matriks Saluran Hubungan Rasmi, Waktu Operasi & Bidang Tugas Onyxman Malaysia',
+      tableTitle: 'Matriks Saluran Hubungan Rasmi, Waktu Operasi & Bidang Tugas Onyxmen Malaysia',
       tableHeaders: [
         'Meja Perkhidmatan / Saluran',
         'Alamat E-mel / Lokasi Rasmi',
@@ -3335,13 +3335,13 @@ export const TRUST_DOSSIERS = [
       tableRows: [
         [
           'Meja Jualan & Pelepasan Pesanan Rasmi',
-          'sales@onyxman.my',
+          'sales@onyxmen.my',
           'Tempahan baharu (RM 159 / RM 318 / RM 477), pautan FPX/DuitNow QR, pengesahan COD & nombor tracking.',
           '09:00 – 23:00 MYT Setiap Hari (Purata respons 15–30 minit).',
         ],
         [
           'Meja Konsultasi Botani & Privasi PDPA',
-          'info@onyxman.my',
+          'info@onyxmen.my',
           'Panduan perbandingan formulasi, cara makan kapsul, semakan ketulenan & pemadaman rekod PDPA.',
           '09:00 – 23:00 MYT Setiap Hari (Respons bawah 60 minit).',
         ],
@@ -3362,15 +3362,15 @@ export const TRUST_DOSSIERS = [
         {
           questionMs: 'Apakah cara paling pantas untuk membuat tempahan bungkusan rahsia sekarang?',
           answerMs:
-            'Klik mana-mana butang "Tempah Bungkusan Rahsia — RM 159" pada halaman ini untuk membuka Laci Tempahan Ekspres 10 Saat. Pilih formulasi anda (Horsemen, Hammer of Thor, Grow XL, atau Magnum Pump XR), pilih kuantiti 1 Botol (RM 159), 2 Botol (RM 318), atau 3 Botol (RM 477), dan lengkapkan alamat anda. Pesanan akan dihantar terus ke waleedshoaibofficial@gmail.com dan sales@onyxman.my.',
+            'Klik mana-mana butang "Tempah Bungkusan Rahsia — RM 159" pada halaman ini untuk membuka Laci Tempahan Ekspres 10 Saat. Pilih formulasi anda (Horsemen, Hammer of Thor, Grow XL, atau Magnum Pump XR), pilih kuantiti 1 Botol (RM 159), 2 Botol (RM 318), atau 3 Botol (RM 477), dan lengkapkan alamat anda. Pesanan akan dihantar terus ke waleedshoaibofficial@gmail.com dan sales@onyxmen.my.',
         },
         {
-          questionMs: 'Bolehkah saya menghantar e-mel terus ke sales@onyxman.my untuk memesan gabungan botol berbeza?',
+          questionMs: 'Bolehkah saya menghantar e-mel terus ke sales@onyxmen.my untuk memesan gabungan botol berbeza?',
           answerMs:
-            'Ya. Anda boleh menghantar e-mel ke sales@onyxman.my atau info@onyxman.my pada bila-bila masa dengan menyatakan gabungan botol pilihan anda (contohnya 1 botol Grow XL + 1 botol Horsemen pada harga pakej 2 Botol RM 318), nama/singkatan penerima, nombor WhatsApp Malaysia, dan alamat penuh.',
+            'Ya. Anda boleh menghantar e-mel ke sales@onyxmen.my atau info@onyxmen.my pada bila-bila masa dengan menyatakan gabungan botol pilihan anda (contohnya 1 botol Grow XL + 1 botol Horsemen pada harga pakej 2 Botol RM 318), nama/singkatan penerima, nombor WhatsApp Malaysia, dan alamat penuh.',
         },
         {
-          questionMs: 'Adakah Onyxman Malaysia mempunyai kedai fizikal terbuka untuk walk-in di Kuala Lumpur?',
+          questionMs: 'Adakah Onyxmen Malaysia mempunyai kedai fizikal terbuka untuk walk-in di Kuala Lumpur?',
           answerMs:
             'Demi melindungi privasi pelanggan 100% dan mengekalkan piawaian bilik bersih kawalan suhu 22°C–24°C, fasiliti Kuala Lumpur kami (Poskod 50450) beroperasi sebagai bilik kebal pelepasan tertutup. Pelanggan di KL dan Selangor yang mahukan serahan segera boleh memilih Penghantar Persendirian Rahsia Hari Sama 3–5 Jam.',
         },
@@ -3384,7 +3384,7 @@ export const TRUST_DOSSIERS = [
   },
 
   // --------------------------------------------------------------------------
-  // DOSSIER 6: MS-169 & MS-170 — About Onyxman Malaysia Apothecary & Botanical Quality Board
+  // DOSSIER 6: MS-169 & MS-170 — About Onyxmen Malaysia Apothecary & Botanical Quality Board
   // --------------------------------------------------------------------------
   {
     key: 'about',
@@ -3406,17 +3406,17 @@ export const TRUST_DOSSIERS = [
     activeNav: 'home',
     en: {
       seoTitle:
-        'About Onyxman Malaysia — Luxury Men’s Botanical Vitality Apothecary & Quality Assurance Board | Onyxman Malaysia',
+        'About Onyxmen Malaysia — Luxury Men’s Botanical Vitality Apothecary & Quality Assurance Board | Onyxmen Malaysia',
       metaDescription:
-        'Discover Onyxman Malaysia: Kuala Lumpur’s private botanical apothecary for Horsemen, Hammer of Thor, Grow XL, and Magnum Pump XR. Standardized 100:1 extraction, 22°C–24°C climate-controlled vault, PDPA Act 709 confidentiality, and official RM 159 direct tariff.',
+        'Discover Onyxmen Malaysia: Kuala Lumpur’s private botanical apothecary for Horsemen, Hammer of Thor, Grow XL, and Magnum Pump XR. Standardized 100:1 extraction, 22°C–24°C climate-controlled vault, PDPA Act 709 confidentiality, and official RM 159 direct tariff.',
       eyebrow:
-        'MS-169 · ABOUT ONYXMAN MALAYSIA APOTHECARY & BOTANICAL QUALITY ASSURANCE BOARD',
+        'MS-169 · ABOUT ONYXMEN MALAYSIA APOTHECARY & BOTANICAL QUALITY ASSURANCE BOARD',
       headline:
-        'About Onyxman Malaysia — Architectural Men’s Botanical Vitality Apothecary & Quality Assurance Vault.',
+        'About Onyxmen Malaysia — Architectural Men’s Botanical Vitality Apothecary & Quality Assurance Vault.',
       subheadline:
         'Founded to elevate men’s vitality supplementation in Malaysia from unregulated grey-market guesswork to clinical-grade botanical standardization, climate-controlled vault stewardship, and uncompromising buyer privacy.',
       executiveSummary:
-        'Onyxman Malaysia (https://www.onyxmen.my) is a premier direct-to-client men’s botanical vitality house headquartered in Kuala Lumpur (Postcode 50450). We curate four distinct, laboratory-screened herbal formulations—Horsemen (20 Caps × 500mg), Hammer of Thor (20 Veg. Caps × 500mg), Grow XL (30 Caps × 550mg), and Magnum Pump XR (30 Black Caps × 600mg)—at our uniform transparent Malaysia tariff of RM 159 (1 Bottle), RM 318 (2 Bottles), and RM 477 (3 Bottles). Every formulation is overseen by the Onyxman Malaysia Botanical Formulation & Quality Assurance Board with zero undeclared synthetic chemicals and 100% blind-waybill delivery.',
+        'Onyxmen Malaysia (https://www.onyxmen.my) is a premier direct-to-client men’s botanical vitality house headquartered in Kuala Lumpur (Postcode 50450). We curate four distinct, laboratory-screened herbal formulations—Horsemen (20 Caps × 500mg), Hammer of Thor (20 Veg. Caps × 500mg), Grow XL (30 Caps × 550mg), and Magnum Pump XR (30 Black Caps × 600mg)—at our uniform transparent Malaysia tariff of RM 159 (1 Bottle), RM 318 (2 Bottles), and RM 477 (3 Bottles). Every formulation is overseen by the Onyxmen Malaysia Botanical Formulation & Quality Assurance Board with zero undeclared synthetic chemicals and 100% blind-waybill delivery.',
       telemetry: [
         {
           key: '01 · APOTHECARY HEADQUARTERS',
@@ -3441,12 +3441,12 @@ export const TRUST_DOSSIERS = [
       ],
       splitChapters: [
         {
-          kicker: 'CHAPTER 01 · WHY WE BUILT ONYXMAN MALAYSIA',
+          kicker: 'CHAPTER 01 · WHY WE BUILT ONYXMEN MALAYSIA',
           title: 'Ending The Era Of Unstandardized Herbs & Grey-Market Counterfeits.',
           body1:
             'For years, men in Malaysia seeking natural stamina, endocrine vitality, or nitric oxide vascular support faced an unacceptable dilemma: cheap unstandardized root powders with negligible active glycosides on one hand, or hazardous street counterfeits laced with undeclared synthetic drugs on the other. Neither respected the intelligence, physiology, or privacy of the modern Malaysian gentleman.',
           body2:
-            'Onyxman Malaysia was established to build an obsidian standard of trust. By combining high-ratio aqueous botanical extracts—led by Malaysian 100:1 Eurycoma longifolia (≥2.2% eurycomanone), 60%-protodioscin Tribulus terrestris, 10:1 gelatinized Peruvian Black Maca, and pharmaceutical-grade L-Arginine HCl + L-Citrulline Malate—with 8-stage laboratory screening and direct vault-to-door fulfilment, we eliminate every middleman risk.',
+            'Onyxmen Malaysia was established to build an obsidian standard of trust. By combining high-ratio aqueous botanical extracts—led by Malaysian 100:1 Eurycoma longifolia (≥2.2% eurycomanone), 60%-protodioscin Tribulus terrestris, 10:1 gelatinized Peruvian Black Maca, and pharmaceutical-grade L-Arginine HCl + L-Citrulline Malate—with 8-stage laboratory screening and direct vault-to-door fulfilment, we eliminate every middleman risk.',
         },
         {
           kicker: 'CHAPTER 02 · OUR FOUR SPECIALIZED FORMULATION PILLARS',
@@ -3460,14 +3460,14 @@ export const TRUST_DOSSIERS = [
           kicker: 'CHAPTER 03 · E-E-A-T GOVERNANCE, HONEST LABELLING & CLIENT CONFIDENTIALITY',
           title: 'Scientific Transparency Without Fabricated Claims Or Privacy Compromise.',
           body1:
-            'Every monograph, dosage protocol, and botanical breakdown on onyxman.my is reviewed by the Onyxman Malaysia Botanical Formulation & Quality Assurance Board. We enforce a strict truth-in-labelling constitution: we publish exact milligram active profiles, cite peer-reviewed phytomedicine mechanisms, clearly distinguish oral dietary supplements from prescription medicines, and never invent fake regulatory registration numbers.',
+            'Every monograph, dosage protocol, and botanical breakdown on onyxman.my is reviewed by the Onyxmen Malaysia Botanical Formulation & Quality Assurance Board. We enforce a strict truth-in-labelling constitution: we publish exact milligram active profiles, cite peer-reviewed phytomedicine mechanisms, clearly distinguish oral dietary supplements from prescription medicines, and never invent fake regulatory registration numbers.',
           body2:
             'Equally foundational is our commitment to the Malaysian Personal Data Protection Act 2010 (Act 709). Every order is processed without mandatory account creation and dispatched under the neutral sender name "OM Fulfilment Logistics" in triple-sealed plain packaging.',
         },
       ],
-      ledgerTitle: '8-Pillar Onyxman Malaysia Apothecary & E-E-A-T Governance Charter',
+      ledgerTitle: '8-Pillar Onyxmen Malaysia Apothecary & E-E-A-T Governance Charter',
       ledgerSub:
-        'The eight institutional standards that govern every formulation, batch inspection, editorial publication, and parcel dispatch at Onyxman Malaysia.',
+        'The eight institutional standards that govern every formulation, batch inspection, editorial publication, and parcel dispatch at Onyxmen Malaysia.',
       ledgerRows: [
         {
           code: 'CHARTER · 01',
@@ -3514,14 +3514,14 @@ export const TRUST_DOSSIERS = [
         {
           code: 'CHARTER · 08',
           title: '7-Day Kuala Lumpur Private Concierge (09:00–23:00 MYT)',
-          desc: 'Direct human support via sales@onyxman.my, info@onyxman.my, and waleedshoaibofficial@gmail.com across English and Bahasa Melayu.',
+          desc: 'Direct human support via sales@onyxmen.my, info@onyxmen.my, and waleedshoaibofficial@gmail.com across English and Bahasa Melayu.',
           metric: 'KL CONCIERGE DESK',
         },
       ],
-      tableTitle: 'Onyxman Malaysia Institutional Profile & Governance Overview',
+      tableTitle: 'Onyxmen Malaysia Institutional Profile & Governance Overview',
       tableHeaders: [
         'Institutional Dimension',
-        'Onyxman Malaysia Standard',
+        'Onyxmen Malaysia Standard',
         'Operational Detail & Verification',
         'Client Benefit',
       ],
@@ -3534,7 +3534,7 @@ export const TRUST_DOSSIERS = [
         ],
         [
           'Editorial & Quality Review Board',
-          'Onyxman Malaysia Botanical Formulation & Quality Assurance Board',
+          'Onyxmen Malaysia Botanical Formulation & Quality Assurance Board',
           'Reviews all ingredient dosages, HPLC/ICP-MS batch logs, and bilingual educational monographs.',
           'Accurate, science-backed dosage timing & honest supplement guidance.',
         ],
@@ -3546,29 +3546,29 @@ export const TRUST_DOSSIERS = [
         ],
         [
           'Official Communication Channels',
-          'sales@onyxman.my · info@onyxman.my · waleedshoaibofficial@gmail.com',
+          'sales@onyxmen.my · info@onyxmen.my · waleedshoaibofficial@gmail.com',
           'Direct encrypted AJAX order drawer + 09:00–23:00 MYT bilingual concierge support.',
           'Zero third-party middlemen, instant authenticity verification & PDPA privacy.',
         ],
       ],
       faqs: [
         {
-          questionEn: 'Where is Onyxman Malaysia located and where do parcels ship from?',
+          questionEn: 'Where is Onyxmen Malaysia located and where do parcels ship from?',
           answerEn:
-            'Onyxman Malaysia is headquartered in Kuala Lumpur (Postcode 50450, Wilayah Persekutuan Kuala Lumpur). Every order is packed and dispatched directly from our climate-controlled Kuala Lumpur fulfilment vault under the neutral courier sender name "OM Fulfilment Logistics".',
+            'Onyxmen Malaysia is headquartered in Kuala Lumpur (Postcode 50450, Wilayah Persekutuan Kuala Lumpur). Every order is packed and dispatched directly from our climate-controlled Kuala Lumpur fulfilment vault under the neutral courier sender name "OM Fulfilment Logistics".',
         },
         {
           questionEn: 'Who oversees the formulation and editorial standards on onyxman.my?',
           answerEn:
-            'All formulation specifications, batch analytical verification (HPLC bioactive assay, ICP-MS heavy metal limits, USP <61>/<62> microbiology, and LC-MS/MS synthetic adulterant screening), and bilingual educational dossiers are reviewed by the Onyxman Malaysia Botanical Formulation & Quality Assurance Board.',
+            'All formulation specifications, batch analytical verification (HPLC bioactive assay, ICP-MS heavy metal limits, USP <61>/<62> microbiology, and LC-MS/MS synthetic adulterant screening), and bilingual educational dossiers are reviewed by the Onyxmen Malaysia Botanical Formulation & Quality Assurance Board.',
         },
         {
-          questionEn: 'Why does Onyxman Malaysia sell only directly through onyxman.my?',
+          questionEn: 'Why does Onyxmen Malaysia sell only directly through onyxman.my?',
           answerEn:
             'Direct-to-client distribution allows us to guarantee 100% batch authenticity at the official RM 159 / RM 318 / RM 477 tariff, prevent tropical warehouse heat damage, and maintain strict Malaysia PDPA Act 709 buyer confidentiality from order placement to doorstep delivery.',
         },
         {
-          questionEn: 'How can I explore all four Onyxman formulations in detail?',
+          questionEn: 'How can I explore all four Onyxmen formulations in detail?',
           answerEn:
             'You can inspect the complete side-by-side matrix above, visit our Master Formulations Vault (/products/), or explore each dedicated monograph directly: Horsemen (/products/horsemen/), Hammer of Thor (/products/hammer-of-thor/), Grow XL (/products/grow-xl/), and Magnum Pump XR (/products/magnum-pump-xr/).',
         },
@@ -3576,17 +3576,17 @@ export const TRUST_DOSSIERS = [
     },
     ms: {
       seoTitle:
-        'Tentang Onyxman Malaysia — Apotekari Vitaliti Botani Lelaki & Lembaga Jaminan Kualiti | Onyxman Malaysia',
+        'Tentang Onyxmen Malaysia — Apotekari Vitaliti Botani Lelaki & Lembaga Jaminan Kualiti | Onyxmen Malaysia',
       metaDescription:
-        'Kenali Onyxman Malaysia: apotekari botani lelaki di Kuala Lumpur untuk Horsemen, Hammer of Thor, Grow XL, dan Magnum Pump XR. Pengekstrakan piawai 100:1, bilik kebal kawalan suhu 22°C–24°C, kerahsiaan Akta PDPA 709 & harga rasmi RM 159.',
+        'Kenali Onyxmen Malaysia: apotekari botani lelaki di Kuala Lumpur untuk Horsemen, Hammer of Thor, Grow XL, dan Magnum Pump XR. Pengekstrakan piawai 100:1, bilik kebal kawalan suhu 22°C–24°C, kerahsiaan Akta PDPA 709 & harga rasmi RM 159.',
       eyebrow:
-        'MS-170 · TENTANG APOTEKARI ONYXMAN MALAYSIA & LEMBAGA JAMINAN KUALITI BOTANI',
+        'MS-170 · TENTANG APOTEKARI ONYXMEN MALAYSIA & LEMBAGA JAMINAN KUALITI BOTANI',
       headline:
-        'Tentang Onyxman Malaysia — Apotekari Vitaliti Botani Lelaki & Bilik Kebal Jaminan Kualiti.',
+        'Tentang Onyxmen Malaysia — Apotekari Vitaliti Botani Lelaki & Bilik Kebal Jaminan Kualiti.',
       subheadline:
         'Ditubuhkan bagi mengangkat piawaian suplemen kecergasan lelaki di Malaysia daripada risiko produk tiruan pasaran gelap kepada pengekstrakan botani berpiawai makmal, bilik kebal kawalan suhu, dan privasi pelanggan mutlak.',
       executiveSummary:
-        'Onyxman Malaysia (https://www.onyxmen.my/ms/) ialah gedung apotekari vitaliti botani lelaki eksklusif yang berpusat di Kuala Lumpur (Poskod 50450). Kami menyediakan empat formulasi herba terpiawai yang disaring makmal—Horsemen (20 Kapsul × 500mg), Hammer of Thor (20 Kapsul Veg. × 500mg), Grow XL (30 Kapsul × 550mg), dan Magnum Pump XR (30 Kapsul Hitam × 600mg)—pada harga rasmi seragam Malaysia iaitu RM 159 (1 Botol), RM 318 (2 Botol), dan RM 477 (3 Botol). Setiap formulasi diselia oleh Lembaga Formulasi Botani & Jaminan Kualiti Onyxman Malaysia dengan jaminan sifar bahan kimia sintetik terlarang dan penghantaran bungkusan rahsia 100%.',
+        'Onyxmen Malaysia (https://www.onyxmen.my/ms/) ialah gedung apotekari vitaliti botani lelaki eksklusif yang berpusat di Kuala Lumpur (Poskod 50450). Kami menyediakan empat formulasi herba terpiawai yang disaring makmal—Horsemen (20 Kapsul × 500mg), Hammer of Thor (20 Kapsul Veg. × 500mg), Grow XL (30 Kapsul × 550mg), dan Magnum Pump XR (30 Kapsul Hitam × 600mg)—pada harga rasmi seragam Malaysia iaitu RM 159 (1 Botol), RM 318 (2 Botol), dan RM 477 (3 Botol). Setiap formulasi diselia oleh Lembaga Formulasi Botani & Jaminan Kualiti Onyxmen Malaysia dengan jaminan sifar bahan kimia sintetik terlarang dan penghantaran bungkusan rahsia 100%.',
       telemetry: [
         {
           key: '01 · IBU PEJABAT APOTEKARI',
@@ -3611,12 +3611,12 @@ export const TRUST_DOSSIERS = [
       ],
       splitChapters: [
         {
-          kicker: 'BAB 01 · MENGAPA KAMI MENUBUHKAN ONYXMAN MALAYSIA',
+          kicker: 'BAB 01 · MENGAPA KAMI MENUBUHKAN ONYXMEN MALAYSIA',
           title: 'Menamatkan Era Herba Mentah Tidak Terpiawai & Produk Tiruan Berbahaya.',
           body1:
             'Selama bertahun-tahun, lelaki dewasa di Malaysia yang mencari sokongan stamina semula jadi, tenaga dalaman, atau peredaran darah nitrik oksida berdepan dilema: sama ada membeli kapsul serbuk akar mentah murahan yang hampir tiada kandungan bioaktif, atau terdedah kepada produk tiruan jalanan yang dicampur bahan kimia sintetik terlarang. Kedua-duanya mengabaikan keselamatan fisiologi dan privasi lelaki moden.',
           body2:
-            'Onyxman Malaysia diasaskan untuk membina penanda aras ketulenan tertinggi. Dengan menggabungkan ekstrak botani berkepekatan tinggi—diterajui oleh Akar Tongkat Ali Malaysia 100:1 (≥2.2% eurycomanone), Tribulus terrestris 60% protodioscin, Maca Hitam Peru 10:1 tergelatinisasi, serta asid amino L-Arginine HCl + L-Citrulline Malate gred farmaseutikal—bersama saringan makmal 8 peringkat dan penghantaran terus dari bilik kebal Kuala Lumpur, kami menghapuskan semua risiko orang tengah.',
+            'Onyxmen Malaysia diasaskan untuk membina penanda aras ketulenan tertinggi. Dengan menggabungkan ekstrak botani berkepekatan tinggi—diterajui oleh Akar Tongkat Ali Malaysia 100:1 (≥2.2% eurycomanone), Tribulus terrestris 60% protodioscin, Maca Hitam Peru 10:1 tergelatinisasi, serta asid amino L-Arginine HCl + L-Citrulline Malate gred farmaseutikal—bersama saringan makmal 8 peringkat dan penghantaran terus dari bilik kebal Kuala Lumpur, kami menghapuskan semua risiko orang tengah.',
         },
         {
           kicker: 'BAB 02 · EMPAT TUNJANG FORMULASI KHUSUS KAMI',
@@ -3630,14 +3630,14 @@ export const TRUST_DOSSIERS = [
           kicker: 'BAB 03 · TADBIR URUS E-E-A-T, PELABELAN JUJUR & KERAHSIAAN PELANGGAN',
           title: 'Ketelusan Saintifik Tanpa Tuntutan Palsu Atau Kompromi Privasi.',
           body1:
-            'Setiap monograf, jadual dos, dan analisis botani di onyxman.my disemak oleh Lembaga Formulasi Botani & Jaminan Kualiti Onyxman Malaysia. Kami mengamalkan prinsip ketelusan mutlak: menyiarkan berat miligram bahan aktif secara tepat, merujuk kajian fitoperubatan berwasit, membezakan suplemen pemakanan daripada ubat preskripsi, dan tidak sesekali mereka-reka nombor pendaftaran palsu.',
+            'Setiap monograf, jadual dos, dan analisis botani di onyxman.my disemak oleh Lembaga Formulasi Botani & Jaminan Kualiti Onyxmen Malaysia. Kami mengamalkan prinsip ketelusan mutlak: menyiarkan berat miligram bahan aktif secara tepat, merujuk kajian fitoperubatan berwasit, membezakan suplemen pemakanan daripada ubat preskripsi, dan tidak sesekali mereka-reka nombor pendaftaran palsu.',
           body2:
             'Sama pentingnya ialah komitmen kami terhadap Akta Perlindungan Data Peribadi Malaysia 2010 (Akta 709). Setiap pesanan diproses tanpa paksaan membuka akaun dan dihantar menggunakan nama pengirim neutral "OM Fulfilment Logistics" di dalam kotak rahsia 3-lapisan.',
         },
       ],
-      ledgerTitle: 'Piagam 8 Tunjang Apotekari & Tadbir Urus E-E-A-T Onyxman Malaysia',
+      ledgerTitle: 'Piagam 8 Tunjang Apotekari & Tadbir Urus E-E-A-T Onyxmen Malaysia',
       ledgerSub:
-        'Lapan piawaian institusi yang mengawal setiap formulasi, ujian makmal, penerbitan ilmiah, dan pelepasan bungkusan di Onyxman Malaysia.',
+        'Lapan piawaian institusi yang mengawal setiap formulasi, ujian makmal, penerbitan ilmiah, dan pelepasan bungkusan di Onyxmen Malaysia.',
       ledgerRows: [
         {
           code: 'PIAGAM · 01',
@@ -3684,14 +3684,14 @@ export const TRUST_DOSSIERS = [
         {
           code: 'PIAGAM · 08',
           title: 'Meja Bantuan Privasi Kuala Lumpur 7 Hari (09:00–23:00 MYT)',
-          desc: 'Sokongan terus melalui sales@onyxman.my, info@onyxman.my, dan waleedshoaibofficial@gmail.com dalam Bahasa Melayu dan Inggeris.',
+          desc: 'Sokongan terus melalui sales@onyxmen.my, info@onyxmen.my, dan waleedshoaibofficial@gmail.com dalam Bahasa Melayu dan Inggeris.',
           metric: 'MEJA BANTUAN KL',
         },
       ],
-      tableTitle: 'Profil Institusi & Ringkasan Tadbir Urus Onyxman Malaysia',
+      tableTitle: 'Profil Institusi & Ringkasan Tadbir Urus Onyxmen Malaysia',
       tableHeaders: [
         'Dimensi Institusi',
-        'Piawaian Onyxman Malaysia',
+        'Piawaian Onyxmen Malaysia',
         'Butiran Operasi & Pengesahan',
         'Manfaat Kepada Pelanggan',
       ],
@@ -3704,7 +3704,7 @@ export const TRUST_DOSSIERS = [
         ],
         [
           'Lembaga Semakan Kualiti & Ilmiah',
-          'Lembaga Formulasi Botani & Jaminan Kualiti Onyxman Malaysia',
+          'Lembaga Formulasi Botani & Jaminan Kualiti Onyxmen Malaysia',
           'Menyemak semua dos bahan aktif, rekod makmal HPLC/ICP-MS & monograf dwibahasa.',
           'Panduan pemakanan tepat, berlandaskan sains & jujur.',
         ],
@@ -3716,29 +3716,29 @@ export const TRUST_DOSSIERS = [
         ],
         [
           'Saluran Komunikasi Rasmi',
-          'sales@onyxman.my · info@onyxman.my · waleedshoaibofficial@gmail.com',
+          'sales@onyxmen.my · info@onyxmen.my · waleedshoaibofficial@gmail.com',
           'Laci tempahan ekspres AJAX disulitkan + khidmat pelanggan dwibahasa 09:00–23:00 MYT.',
           'Tiada orang tengah, semakan ketulenan segera & perlindungan PDPA.',
         ],
       ],
       faqs: [
         {
-          questionMs: 'Di manakah lokasi ibu pejabat Onyxman Malaysia dan dari manakah bungkusan dihantar?',
+          questionMs: 'Di manakah lokasi ibu pejabat Onyxmen Malaysia dan dari manakah bungkusan dihantar?',
           answerMs:
-            'Onyxman Malaysia berpusat di Kuala Lumpur (Poskod 50450, Wilayah Persekutuan Kuala Lumpur). Setiap pesanan dibungkus dan dihantar terus dari bilik kebal kawalan suhu Kuala Lumpur kami menggunakan nama pengirim kurier neutral "OM Fulfilment Logistics".',
+            'Onyxmen Malaysia berpusat di Kuala Lumpur (Poskod 50450, Wilayah Persekutuan Kuala Lumpur). Setiap pesanan dibungkus dan dihantar terus dari bilik kebal kawalan suhu Kuala Lumpur kami menggunakan nama pengirim kurier neutral "OM Fulfilment Logistics".',
         },
         {
           questionMs: 'Siapakah yang menyelia piawaian formulasi dan maklumat ilmiah di onyxman.my?',
           answerMs:
-            'Semua spesifikasi formulasi, pengesahan ujian makmal kumpulan (ujian bioaktif HPLC, had logam berat ICP-MS, mikrobiologi USP <61>/<62>, dan saringan bebas bahan sintetik LC-MS/MS), serta monograf pendidikan dwibahasa disemak oleh Lembaga Formulasi Botani & Jaminan Kualiti Onyxman Malaysia.',
+            'Semua spesifikasi formulasi, pengesahan ujian makmal kumpulan (ujian bioaktif HPLC, had logam berat ICP-MS, mikrobiologi USP <61>/<62>, dan saringan bebas bahan sintetik LC-MS/MS), serta monograf pendidikan dwibahasa disemak oleh Lembaga Formulasi Botani & Jaminan Kualiti Onyxmen Malaysia.',
         },
         {
-          questionMs: 'Mengapakah Onyxman Malaysia hanya menjual secara terus melalui laman web rasmi onyxman.my?',
+          questionMs: 'Mengapakah Onyxmen Malaysia hanya menjual secara terus melalui laman web rasmi onyxman.my?',
           answerMs:
             'Pengedaran terus kepada pelanggan membolehkan kami menjamin ketulenan 100% pada harga rasmi RM 159 / RM 318 / RM 477, mengelakkan kerosakan kapsul akibat stor panas, dan melindungi kerahsiaan peribadi pembeli di bawah Akta PDPA 709 dari saat tempahan sehingga bungkusan tiba.',
         },
         {
-          questionMs: 'Bagaimanakah cara untuk saya melihat perbandingan penuh keempat-empat formulasi Onyxman?',
+          questionMs: 'Bagaimanakah cara untuk saya melihat perbandingan penuh keempat-empat formulasi Onyxmen?',
           answerMs:
             'Anda boleh menyemak jadual perbandingan kuantitatif di atas, melayari Indeks Katalog Produk (/ms/produk/), atau membuka setiap halaman produk rasmi: Horsemen (/ms/produk/horsemen/), Hammer of Thor (/ms/produk/hammer-of-thor/), Grow XL (/ms/produk/grow-xl/), dan Magnum Pump XR (/ms/produk/magnum-pump-xr/).',
         },
@@ -3769,9 +3769,9 @@ export const TRUST_DOSSIERS = [
     activeNav: 'guides',
     en: {
       seoTitle:
-        'Master Frequently Asked Questions (FAQ) — Formulations, Dosage, Discreet Shipping, COD & PDPA | Onyxman Malaysia',
+        'Master Frequently Asked Questions (FAQ) — Formulations, Dosage, Discreet Shipping, COD & PDPA | Onyxmen Malaysia',
       metaDescription:
-        'Complete answers to every question about Onyxman Malaysia: comparing Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR, official RM 159 / RM 318 / RM 477 pricing, capsule dosage timing, 100% unmarked discreet packaging, COD/FPX/DuitNow, and Malaysia PDPA privacy.',
+        'Complete answers to every question about Onyxmen Malaysia: comparing Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR, official RM 159 / RM 318 / RM 477 pricing, capsule dosage timing, 100% unmarked discreet packaging, COD/FPX/DuitNow, and Malaysia PDPA privacy.',
       eyebrow:
         'MS-169 · MASTER FREQUENTLY ASKED QUESTIONS (FAQ) & CONCIERGE KNOWLEDGEBASE',
       headline:
@@ -3804,7 +3804,7 @@ export const TRUST_DOSSIERS = [
       ],
       splitChapters: [
         {
-          kicker: 'CHAPTER 01 · HOW TO CHOOSE YOUR IDEAL ONYXMAN FORMULATION',
+          kicker: 'CHAPTER 01 · HOW TO CHOOSE YOUR IDEAL ONYXMEN FORMULATION',
           title: 'Matching Your Physiological Goal To The Right Botanical Matrix.',
           body1:
             'Every gentleman’s baseline schedule and performance priority is unique. If your primary objective is peak evening stamina, vitality, and stress resilience with a flexible 1–2 capsule serving, choose Horsemen (ONYX-HM-20, 20 Capsules × 500mg, anchored by 100:1 Tongkat Ali and Panax Ginseng). If you require 100% plant-derived vegetarian capsules (HPMC) focused on steroidal saponins (60% protodioscin Tribulus terrestris) for physical drive and gym/evening endurance, choose Hammer of Thor (ONYX-HT-20, 20 Veg. Capsules × 500mg).',
@@ -3876,12 +3876,12 @@ export const TRUST_DOSSIERS = [
         },
         {
           code: 'FAQ-REF · 08',
-          title: 'Are Onyxman Capsules Free From Headaches & Synthetic Drugs?',
+          title: 'Are Onyxmen Capsules Free From Headaches & Synthetic Drugs?',
           desc: 'Yes. Every batch is LC-MS/MS screened for 0.00% synthetic PDE5 inhibitors (no sildenafil/tadalafil), preventing chemical headaches or heart racing.',
           metric: '0.00% SYNTHETICS',
         },
       ],
-      tableTitle: 'Quick Decision Matrix: Selecting & Using Your Onyxman Formulation',
+      tableTitle: 'Quick Decision Matrix: Selecting & Using Your Onyxmen Formulation',
       tableHeaders: [
         'Client Goal / Scenario',
         'Recommended Formulation',
@@ -3916,14 +3916,14 @@ export const TRUST_DOSSIERS = [
       ],
       faqs: [
         {
-          questionEn: 'How quickly will I notice the benefits of Onyxman botanical formulations?',
+          questionEn: 'How quickly will I notice the benefits of Onyxmen botanical formulations?',
           answerEn:
-            'Because Onyxman formulations use natural standardized botanical extracts and amino acids rather than synthetic drugs, they work through two complementary phases: Phase 1 (Days 1–7) delivers acute nitric oxide blood-flow support and reduced evening fatigue within 45–60 minutes of ingestion; Phase 2 (Weeks 2–8) builds cumulative endocrine vitality, free-testosterone unbinding, and sustained stamina through consistent daily supplementation.',
+            'Because Onyxmen formulations use natural standardized botanical extracts and amino acids rather than synthetic drugs, they work through two complementary phases: Phase 1 (Days 1–7) delivers acute nitric oxide blood-flow support and reduced evening fatigue within 45–60 minutes of ingestion; Phase 2 (Weeks 2–8) builds cumulative endocrine vitality, free-testosterone unbinding, and sustained stamina through consistent daily supplementation.',
         },
         {
-          questionEn: 'Can I take Onyxman capsules if I drink coffee, tea, or pre-workout beverages?',
+          questionEn: 'Can I take Onyxmen capsules if I drink coffee, tea, or pre-workout beverages?',
           answerEn:
-            'Yes, provided you separate your Onyxman capsule from coffee (Kopi O, Nescafe, espresso), Teh Tarik, or caffeinated energy drinks by at least 60 minutes, and avoid taking high-stimulant pre-workouts simultaneously. Adequate plain water (2.5L–3.0L daily) maximizes herbal extraction and nitric oxide vasodilation.',
+            'Yes, provided you separate your Onyxmen capsule from coffee (Kopi O, Nescafe, espresso), Teh Tarik, or caffeinated energy drinks by at least 60 minutes, and avoid taking high-stimulant pre-workouts simultaneously. Adequate plain water (2.5L–3.0L daily) maximizes herbal extraction and nitric oxide vasodilation.',
         },
         {
           questionEn: 'Is Magnum Pump XR an oral capsule supplement or a mechanical pump device?',
@@ -3933,15 +3933,15 @@ export const TRUST_DOSSIERS = [
         {
           questionEn: 'How do I place a mix-and-match 2-Bottle (RM 318) or 3-Bottle (RM 477) order?',
           answerEn:
-            'Open the 10-Second Express Order Drawer on this page, select the 2-Bottle (RM 318) or 3-Bottle (RM 477) tier, and note your preferred bottle combination in the delivery instructions—or email sales@onyxman.my directly.',
+            'Open the 10-Second Express Order Drawer on this page, select the 2-Bottle (RM 318) or 3-Bottle (RM 477) tier, and note your preferred bottle combination in the delivery instructions—or email sales@onyxmen.my directly.',
         },
       ],
     },
     ms: {
       seoTitle:
-        'Soalan Lazim Utama (FAQ) — Formulasi, Cara Makan, Penghantaran Rahsia, COD & PDPA | Onyxman Malaysia',
+        'Soalan Lazim Utama (FAQ) — Formulasi, Cara Makan, Penghantaran Rahsia, COD & PDPA | Onyxmen Malaysia',
       metaDescription:
-        'Jawapan lengkap untuk semua soalan mengenai Onyxman Malaysia: perbandingan Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR, harga rasmi RM 159 / RM 318 / RM 477, cara makan kapsul, bungkusan rahsia tanpa nama, COD/FPX/DuitNow & privasi PDPA.',
+        'Jawapan lengkap untuk semua soalan mengenai Onyxmen Malaysia: perbandingan Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR, harga rasmi RM 159 / RM 318 / RM 477, cara makan kapsul, bungkusan rahsia tanpa nama, COD/FPX/DuitNow & privasi PDPA.',
       eyebrow:
         'MS-170 · PUSAT SOALAN LAZIM UTAMA (FAQ) & PANGKALAN ILMU PELANGGAN MALAYSIA',
       headline:
@@ -3974,7 +3974,7 @@ export const TRUST_DOSSIERS = [
       ],
       splitChapters: [
         {
-          kicker: 'BAB 01 · CARA MEMILIH FORMULASI ONYXMAN YANG PALING SESUAI',
+          kicker: 'BAB 01 · CARA MEMILIH FORMULASI ONYXMEN YANG PALING SESUAI',
           title: 'Memadankan Matlamat Fisiologi Anda Dengan Matriks Botani Yang Tepat.',
           body1:
             'Setiap lelaki mempunyai jadual harian dan keutamaan prestasi yang tersendiri. Jika sasaran utama anda ialah stamina puncak waktu malam, pemulihan tenaga, dan ketahanan tekanan dengan hidangan fleksibel 1–2 kapsul, pilih Horsemen (ONYX-HM-20, 20 Kapsul × 500mg, berasaskan Tongkat Ali 100:1 dan Panax Ginseng). Jika anda mengutamakan sarung kapsul vegetarian 100% tumbuhan (HPMC) yang memfokuskan saponin steroid (Tribulus terrestris 60% protodioscin) untuk daya tahan fizikal, pilih Hammer of Thor (ONYX-HT-20, 20 Kapsul Veg. × 500mg).',
@@ -4046,12 +4046,12 @@ export const TRUST_DOSSIERS = [
         },
         {
           code: 'RUJUKAN · 08',
-          title: 'Adakah Kapsul Onyxman Bebas Sakit Kepala & Dadah Sintetik?',
+          title: 'Adakah Kapsul Onyxmen Bebas Sakit Kepala & Dadah Sintetik?',
           desc: 'Ya. Setiap kumpulan disaring LC-MS/MS untuk 0.00% perencat PDE5 sintetik (tiada sildenafil/tadalafil), mengelakkan sakit kepala atau debaran jantung.',
           metric: '0.00% SINTETIK',
         },
       ],
-      tableTitle: 'Matriks Keputusan Pantas: Memilih & Mengambil Formulasi Onyxman Anda',
+      tableTitle: 'Matriks Keputusan Pantas: Memilih & Mengambil Formulasi Onyxmen Anda',
       tableHeaders: [
         'Matlamat / Situasi Pelanggan',
         'Formulasi Disyorkan',
@@ -4086,14 +4086,14 @@ export const TRUST_DOSSIERS = [
       ],
       faqs: [
         {
-          questionMs: 'Berapa cepatkah saya akan merasai kesan positif formulasi botani Onyxman?',
+          questionMs: 'Berapa cepatkah saya akan merasai kesan positif formulasi botani Onyxmen?',
           answerMs:
-            'Memandangkan formulasi Onyxman menggunakan ekstrak botani terpiawai dan asid amino semula jadi (bukan bahan kimia sintetik), ia bertindak melalui dua fasa: Fasa 1 (Hari 1–7) menyokong pengaliran darah nitrik oksida dan mengurangkan keletihan malam dalam masa 45–60 minit selepas diambil; Fasa 2 (Minggu 2–8) membina keseimbangan endokrin, pembebasan testosteron bebas, dan daya tahan berterusan melalui pengambilan konsisten.',
+            'Memandangkan formulasi Onyxmen menggunakan ekstrak botani terpiawai dan asid amino semula jadi (bukan bahan kimia sintetik), ia bertindak melalui dua fasa: Fasa 1 (Hari 1–7) menyokong pengaliran darah nitrik oksida dan mengurangkan keletihan malam dalam masa 45–60 minit selepas diambil; Fasa 2 (Minggu 2–8) membina keseimbangan endokrin, pembebasan testosteron bebas, dan daya tahan berterusan melalui pengambilan konsisten.',
         },
         {
-          questionMs: 'Bolehkah saya mengambil kapsul Onyxman jika saya minum kopi, teh tarik, atau minuman pra-senaman?',
+          questionMs: 'Bolehkah saya mengambil kapsul Onyxmen jika saya minum kopi, teh tarik, atau minuman pra-senaman?',
           answerMs:
-            'Boleh, dengan syarat anda menjarakkan pengambilan kapsul Onyxman sekurang-kurangnya 60 minit daripada minuman berkafein seperti Kopi O, Nescafe, atau Teh Tarik. Minum air kosong yang mencukupi (2.5L–3.0L sehari) untuk memaksimumkan penyerapan herba dan kesan nitrik oksida.',
+            'Boleh, dengan syarat anda menjarakkan pengambilan kapsul Onyxmen sekurang-kurangnya 60 minit daripada minuman berkafein seperti Kopi O, Nescafe, atau Teh Tarik. Minum air kosong yang mencukupi (2.5L–3.0L sehari) untuk memaksimumkan penyerapan herba dan kesan nitrik oksida.',
         },
         {
           questionMs: 'Adakah Magnum Pump XR sejenis suplemen kapsul makan atau alat pam mekanikal?',
@@ -4103,7 +4103,7 @@ export const TRUST_DOSSIERS = [
         {
           questionMs: 'Bagaimanakah cara untuk saya membuat pesanan gabungan 2 Botol (RM 318) atau 3 Botol (RM 477)?',
           answerMs:
-            'Buka Laci Tempahan Ekspres 10 Saat pada halaman ini, pilih pakej 2 Botol (RM 318) atau 3 Botol (RM 477), dan nyatakan gabungan botol pilihan anda pada ruangan nota penghantaran—atau hantar e-mel terus ke sales@onyxman.my.',
+            'Buka Laci Tempahan Ekspres 10 Saat pada halaman ini, pilih pakej 2 Botol (RM 318) atau 3 Botol (RM 477), dan nyatakan gabungan botol pilihan anda pada ruangan nota penghantaran—atau hantar e-mel terus ke sales@onyxmen.my.',
         },
       ],
     },
@@ -4133,17 +4133,17 @@ export const TRUST_DOSSIERS = [
     activeNav: 'products',
     en: {
       seoTitle:
-        'Official Formulations Vault — Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159) | Onyxman Malaysia',
+        'Official Formulations Vault — Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159) | Onyxmen Malaysia',
       metaDescription:
-        'Explore the complete Onyxman Malaysia botanical formulations catalog: Horsemen (20 Caps), Hammer of Thor (20 Veg. Caps), Grow XL (30 Caps), and Magnum Pump XR (30 Black Caps). Official RM 159 / RM 318 / RM 477 pricing, full milligram profiles, and 100% discreet Malaysia delivery.',
+        'Explore the complete Onyxmen Malaysia botanical formulations catalog: Horsemen (20 Caps), Hammer of Thor (20 Veg. Caps), Grow XL (30 Caps), and Magnum Pump XR (30 Black Caps). Official RM 159 / RM 318 / RM 477 pricing, full milligram profiles, and 100% discreet Malaysia delivery.',
       eyebrow:
-        'MS-169 · OFFICIAL ONYXMAN MALAYSIA FORMULATIONS VAULT & COMPLETE PRODUCT CATALOG',
+        'MS-169 · OFFICIAL ONYXMEN MALAYSIA FORMULATIONS VAULT & COMPLETE PRODUCT CATALOG',
       headline:
-        'The Complete Onyxman Malaysia Botanical Formulations Vault — Four Precision Reserves At RM 159.',
+        'The Complete Onyxmen Malaysia Botanical Formulations Vault — Four Precision Reserves At RM 159.',
       subheadline:
         'Compare our four laboratory-screened men’s vitality formulations side by side: Horsemen (20 Caps × 500mg), Hammer of Thor (20 Veg. Caps × 500mg), Grow XL (30 Caps × 550mg), and Magnum Pump XR (30 Black Caps × 600mg).',
       executiveSummary:
-        'Every formulation in the Onyxman Malaysia Vault is engineered around high-ratio standardized botanical extracts and amino acids, stored in our 22°C–24°C Kuala Lumpur apothecary vault (Postcode 50450), and offered at our uniform transparent Malaysia tariff: 1 Bottle RM 159 (159.00 MYR), 2 Bottles RM 318 (318.00 MYR — Free Nationwide Shipping including Sabah, Sarawak & Labuan), and 3 Bottles RM 477 (477.00 MYR). Inspect each formulation’s exact milligram breakdown, capsule count, and clinical timing below, then open its full monograph or reserve directly via our 10-Second Express Order Drawer.',
+        'Every formulation in the Onyxmen Malaysia Vault is engineered around high-ratio standardized botanical extracts and amino acids, stored in our 22°C–24°C Kuala Lumpur apothecary vault (Postcode 50450), and offered at our uniform transparent Malaysia tariff: 1 Bottle RM 159 (159.00 MYR), 2 Bottles RM 318 (318.00 MYR — Free Nationwide Shipping including Sabah, Sarawak & Labuan), and 3 Bottles RM 477 (477.00 MYR). Inspect each formulation’s exact milligram breakdown, capsule count, and clinical timing below, then open its full monograph or reserve directly via our 10-Second Express Order Drawer.',
       telemetry: [
         {
           key: '01 · COMPLETE VAULT LINEUP',
@@ -4192,9 +4192,9 @@ export const TRUST_DOSSIERS = [
             'You can click into any individual product monograph below to read its complete botanical breakdown, or trigger the 10-Second Express Order Drawer directly from any product card in the matrix above.',
         },
       ],
-      ledgerTitle: 'Complete Onyxman Malaysia Catalog Index & Direct Monograph Directory',
+      ledgerTitle: 'Complete Onyxmen Malaysia Catalog Index & Direct Monograph Directory',
       ledgerSub:
-        'Direct links, official GS1 identifiers, capsule architectures, and active milligram payloads for all four Onyxman Malaysia formulations plus our botanical comparison guides.',
+        'Direct links, official GS1 identifiers, capsule architectures, and active milligram payloads for all four Onyxmen Malaysia formulations plus our botanical comparison guides.',
       ledgerRows: [
         {
           code: 'ONYX-HM-20 · RM 159',
@@ -4280,7 +4280,7 @@ export const TRUST_DOSSIERS = [
       ],
       faqs: [
         {
-          questionEn: 'Are all four Onyxman Malaysia formulations currently in stock for immediate dispatch?',
+          questionEn: 'Are all four Onyxmen Malaysia formulations currently in stock for immediate dispatch?',
           answerEn:
             'Yes. Horsemen (ONYX-HM-20), Hammer of Thor (ONYX-HT-20), Grow XL (ONYX-GX-30), and Magnum Pump XR (ONYX-MP-30) are all stocked in our 22°C–24°C climate-controlled Kuala Lumpur vault and ready for same-day dispatch on orders confirmed before 16:00 MYT.',
         },
@@ -4303,17 +4303,17 @@ export const TRUST_DOSSIERS = [
     },
     ms: {
       seoTitle:
-        'Katalog Rasmi Formulasi — Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159) | Onyxman Malaysia',
+        'Katalog Rasmi Formulasi — Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159) | Onyxmen Malaysia',
       metaDescription:
-        'Terokai katalog penuh formulasi botani Onyxman Malaysia: Horsemen (20 Kapsul), Hammer of Thor (20 Kapsul Veg.), Grow XL (30 Kapsul), dan Magnum Pump XR (30 Kapsul Hitam). Harga rasmi RM 159 / RM 318 / RM 477, profil miligram penuh & penghantaran rahsia seluruh Malaysia.',
+        'Terokai katalog penuh formulasi botani Onyxmen Malaysia: Horsemen (20 Kapsul), Hammer of Thor (20 Kapsul Veg.), Grow XL (30 Kapsul), dan Magnum Pump XR (30 Kapsul Hitam). Harga rasmi RM 159 / RM 318 / RM 477, profil miligram penuh & penghantaran rahsia seluruh Malaysia.',
       eyebrow:
-        'MS-170 · BILIK KEBAL FORMULASI RASMI ONYXMAN MALAYSIA & INDEKS KATALOG PRODUK',
+        'MS-170 · BILIK KEBAL FORMULASI RASMI ONYXMEN MALAYSIA & INDEKS KATALOG PRODUK',
       headline:
-        'Bilik Kebal Formulasi Botani Lengkap Onyxman Malaysia — Empat Formulasi Utama Pada Harga RM 159.',
+        'Bilik Kebal Formulasi Botani Lengkap Onyxmen Malaysia — Empat Formulasi Utama Pada Harga RM 159.',
       subheadline:
         'Bandingkan keempat-empat formulasi kecergasan lelaki kami yang disaring makmal secara bersebelahan: Horsemen (20 Kapsul × 500mg), Hammer of Thor (20 Kapsul Veg. × 500mg), Grow XL (30 Kapsul × 550mg), dan Magnum Pump XR (30 Kapsul Hitam × 600mg).',
       executiveSummary:
-        'Setiap formulasi di dalam Bilik Kebal Onyxman Malaysia dibangunkan berasaskan ekstrak botani terpiawai bernisbah tinggi dan asid amino tulen, disimpan di dalam bilik kebal kawalan suhu 22°C–24°C kami di Kuala Lumpur (Poskod 50450), serta ditawarkan pada harga rasmi seragam Malaysia: 1 Botol RM 159 (159.00 MYR), 2 Botol RM 318 (318.00 MYR — Penghantaran Percuma Seluruh Malaysia termasuk Sabah, Sarawak & Labuan), dan 3 Botol RM 477 (477.00 MYR). Semak pecahan miligram tepat, bilangan kapsul, dan jadual makan bagi setiap produk di bawah, kemudian buka monograf penuh atau buat tempahan terus melalui Laci Tempahan Ekspres 10 Saat kami.',
+        'Setiap formulasi di dalam Bilik Kebal Onyxmen Malaysia dibangunkan berasaskan ekstrak botani terpiawai bernisbah tinggi dan asid amino tulen, disimpan di dalam bilik kebal kawalan suhu 22°C–24°C kami di Kuala Lumpur (Poskod 50450), serta ditawarkan pada harga rasmi seragam Malaysia: 1 Botol RM 159 (159.00 MYR), 2 Botol RM 318 (318.00 MYR — Penghantaran Percuma Seluruh Malaysia termasuk Sabah, Sarawak & Labuan), dan 3 Botol RM 477 (477.00 MYR). Semak pecahan miligram tepat, bilangan kapsul, dan jadual makan bagi setiap produk di bawah, kemudian buka monograf penuh atau buat tempahan terus melalui Laci Tempahan Ekspres 10 Saat kami.',
       telemetry: [
         {
           key: '01 · BARISAN PRODUK PENUH',
@@ -4362,9 +4362,9 @@ export const TRUST_DOSSIERS = [
             'Anda boleh klik pada mana-mana pautan monograf produk di bawah untuk membaca analisis botani lengkap, atau membuka Laci Tempahan Ekspres 10 Saat terus daripada jadual perbandingan produk di atas.',
         },
       ],
-      ledgerTitle: 'Indeks Katalog Lengkap Onyxman Malaysia & Direktori Monograf Produk',
+      ledgerTitle: 'Indeks Katalog Lengkap Onyxmen Malaysia & Direktori Monograf Produk',
       ledgerSub:
-        'Pautan terus, kod pengenalan GS1 rasmi, seni bina kapsul, dan kandungan miligram aktif bagi keempat-empat formulasi Onyxman Malaysia serta panduan perbandingan botani kami.',
+        'Pautan terus, kod pengenalan GS1 rasmi, seni bina kapsul, dan kandungan miligram aktif bagi keempat-empat formulasi Onyxmen Malaysia serta panduan perbandingan botani kami.',
       ledgerRows: [
         {
           code: 'ONYX-HM-20 · RM 159',
@@ -4450,7 +4450,7 @@ export const TRUST_DOSSIERS = [
       ],
       faqs: [
         {
-          questionMs: 'Adakah keempat-empat formulasi Onyxman Malaysia mempunyai stok sedia ada untuk pelepasan segera?',
+          questionMs: 'Adakah keempat-empat formulasi Onyxmen Malaysia mempunyai stok sedia ada untuk pelepasan segera?',
           answerMs:
             'Ya. Horsemen (ONYX-HM-20), Hammer of Thor (ONYX-HT-20), Grow XL (ONYX-GX-30), dan Magnum Pump XR (ONYX-MP-30) semuanya tersedia di dalam bilik kebal kawalan suhu 22°C–24°C Kuala Lumpur kami dan sedia untuk pelepasan hari sama bagi pesanan yang disahkan sebelum jam 16:00 MYT.',
         },
@@ -4500,7 +4500,7 @@ export function renderTrustDossierPage(dossier, lang = 'en-MY') {
 
   const breadcrumbs = [
     {
-      name: isMs ? 'Utama Onyxman Malaysia' : 'Onyxman Malaysia Home',
+      name: isMs ? 'Utama Onyxmen Malaysia' : 'Onyxmen Malaysia Home',
       url: isMs ? '/ms/' : '/',
     },
     {
@@ -4602,7 +4602,7 @@ export function renderTrustDossierPage(dossier, lang = 'en-MY') {
 
     <nav class="trust-cinema-hero__breadcrumb-bar" aria-label="${isMs ? 'Jejak Navigasi' : 'Breadcrumb'}">
       <div class="trust-cinema-hero__crumbs">
-        <a href="${isMs ? '/ms/' : '/'}">${isMs ? 'UTAMA ONYXMAN.MY' : 'ONYXMAN.MY HOME'}</a>
+        <a href="${isMs ? '/ms/' : '/'}">${isMs ? 'UTAMA ONYXMEN.MY' : 'ONYXMEN.MY HOME'}</a>
         <span>/</span>
         <span style="color:var(--gold-foil-bright);">${esc(microStep)} · ${esc(dossier.code)}</span>
       </div>
@@ -4618,9 +4618,9 @@ export function renderTrustDossierPage(dossier, lang = 'en-MY') {
         <div class="trust-cinema-hero__taxonomy-strip">
           <span>${esc(microStep)}</span>
           <span>·</span>
-          <span>sales@onyxman.my</span>
+          <span>sales@onyxmen.my</span>
           <span>·</span>
-          <span>info@onyxman.my</span>
+          <span>info@onyxmen.my</span>
           <span>·</span>
           <span>OM Fulfilment Logistics (KL 50450)</span>
         </div>
@@ -4702,7 +4702,7 @@ export function renderTrustDossierPage(dossier, lang = 'en-MY') {
           ${isMs ? 'MEJA PELEPASAN KUALA LUMPUR · 09:00–23:00 MYT' : 'KUALA LUMPUR FULFILMENT DESK · 09:00–23:00 MYT'}
         </div>
         <p style="font-size:0.88rem;color:var(--text-muted-alabaster);margin-top:0.45rem;">
-          sales@onyxman.my · info@onyxman.my · waleedshoaibofficial@gmail.com
+          sales@onyxmen.my · info@onyxmen.my · waleedshoaibofficial@gmail.com
         </p>
       </div>
     </div>
@@ -4837,7 +4837,7 @@ export function buildAllTrustPages() {
 if (process.argv[1] && path.resolve(process.argv[1]) === __filename) {
   const generated = buildAllTrustPages();
   console.log('====================================================================');
-  console.log(`ONYXMAN.MY TRUST, PDPA, LEGAL, FAQ & VAULT BUILDER COMPLETE (${generated.length} FILES)`);
+  console.log(`ONYXMEN.MY TRUST, PDPA, LEGAL, FAQ & VAULT BUILDER COMPLETE (${generated.length} FILES)`);
   console.log('====================================================================');
   let minLines = Infinity;
   for (const item of generated) {

@@ -1,5 +1,5 @@
 /**
- * ONYXMAN.MY — ARCHITECTURAL AUTHENTICITY & DISCREET PACKAGING SEAL STRIP (MS-077 to MS-078)
+ * ONYXMEN.MY — ARCHITECTURAL AUTHENTICITY & DISCREET PACKAGING SEAL STRIP (MS-077 to MS-078)
  * Non-Box Hairline Ledger Strip enforcing Rule #29 & Rule #30
  * Domain: https://www.onyxmen.my | Prices: RM 159 (159.00) / RM 318 (318.00) / RM 477 (477.00) MYR
  */
@@ -22,7 +22,7 @@ export const DISCREET_SEAL_ITEMS = {
       title: '100% Unmarked Matte Parcel Architecture',
       metric: 'ZERO PRODUCT LABELS',
       detail:
-        'Dispatched in plain triple-sealed matte security packaging. Airway bill lists only "OM Fulfilment Logistics (Kuala Lumpur)" with zero mention of Onyxman or botanical supplements.',
+        'Dispatched in plain triple-sealed matte security packaging. Airway bill lists only "OM Fulfilment Logistics (Kuala Lumpur)" with zero mention of Onyxmen or botanical supplements.',
     },
     {
       index: 'SEAL · 02',
@@ -111,8 +111,8 @@ export function renderDiscreetSealStrip(options = {}) {
     : 'Absolute Discretion From Our Kuala Lumpur Vault To Your Doorstep';
 
   const subheadingText = isMs
-    ? 'Setiap pesanan RM 159 (1 Botol), RM 318 (2 Botol), atau RM 477 (3 Botol) diproses melalui sistem pembungkusan rahsia berlapis dengan pengesahan segera ke meja operasi kami (sales@onyxman.my).'
-    : 'Every RM 159 (1 Bottle), RM 318 (2 Bottles), or RM 477 (3 Bottles) acquisition is processed under strict blind-waybill protocols with direct confirmation from our Kuala Lumpur concierge desk (sales@onyxman.my).';
+    ? 'Setiap pesanan RM 159 (1 Botol), RM 318 (2 Botol), atau RM 477 (3 Botol) diproses melalui sistem pembungkusan rahsia berlapis dengan pengesahan segera ke meja operasi kami (sales@onyxmen.my).'
+    : 'Every RM 159 (1 Bottle), RM 318 (2 Bottles), or RM 477 (3 Bottles) acquisition is processed under strict blind-waybill protocols with direct confirmation from our Kuala Lumpur concierge desk (sales@onyxmen.my).';
 
   const ctaLabel = isMs
     ? 'TEMPAH BUNGKUSAN RAHSIA SEKARANG · RM 159'
@@ -230,7 +230,7 @@ export function renderDiscreetSealStrip(options = {}) {
         <span class="discreet-seal-strip__waybill-label">${
           isMs ? 'MEJA BANTUAN PRIVASI' : 'DIRECT CONCIERGE DESK'
         }</span>
-        <strong class="discreet-seal-strip__waybill-value">sales@onyxman.my • info@onyxman.my</strong>
+        <strong class="discreet-seal-strip__waybill-value">sales@onyxmen.my • info@onyxmen.my</strong>
       </div>
     </div>
   </div>

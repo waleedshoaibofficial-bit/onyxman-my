@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * ONYXMAN.MY — 24/7 AUTONOMOUS INDEXNOW & SITEMAP SUBMISSION ENGINE (MS-195A)
+ * ONYXMEN.MY — 24/7 AUTONOMOUS INDEXNOW & SITEMAP SUBMISSION ENGINE (MS-195A)
  *
  * Supports two deterministic execution modes:
  *   1. --dry-run : Local offline verification against public/indexnow-key.txt,
@@ -272,14 +272,14 @@ async function executeLiveCloudPings(payload) {
   const reachabilityTargets = [
     { label: 'IndexNow Key File', url: KEY_LOCATION_URL, expectText: EXPECTED_INDEXNOW_KEY },
     { label: 'XML Sitemap', url: SITEMAP_URL, expectText: '<urlset' },
-    { label: 'LLMs AI Discovery File', url: LLMS_TXT_URL, expectText: 'Onyxman' },
+    { label: 'LLMs AI Discovery File', url: LLMS_TXT_URL, expectText: 'Onyxmen' },
   ];
 
   for (const target of reachabilityTargets) {
     try {
       const response = await fetch(target.url, {
         method: 'GET',
-        headers: { 'User-Agent': 'Onyxman-Cloud-IndexNow-Monitor/1.0 (+https://www.onyxmen.my)' },
+        headers: { 'User-Agent': 'Onyxmen-Cloud-IndexNow-Monitor/1.0 (+https://www.onyxmen.my)' },
       });
       if (!response.ok) {
         recordFail('LIVE-REACHABILITY', `${target.label} (${target.url}) returned HTTP ${response.status}`);
@@ -305,7 +305,7 @@ async function executeLiveCloudPings(payload) {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json; charset=utf-8',
-          'User-Agent': 'Onyxman-Cloud-IndexNow-Dispatcher/1.0 (+https://www.onyxmen.my)',
+          'User-Agent': 'Onyxmen-Cloud-IndexNow-Dispatcher/1.0 (+https://www.onyxmen.my)',
         },
         body: JSON.stringify(payload),
       });
@@ -353,7 +353,7 @@ async function main() {
   }
 
   console.log('====================================================================');
-  console.log(`ONYXMAN.MY INDEXNOW & SITEMAP DISPATCH REPORT (${isLiveMode ? 'LIVE CLOUD' : 'DRY-RUN'})`);
+  console.log(`ONYXMEN.MY INDEXNOW & SITEMAP DISPATCH REPORT (${isLiveMode ? 'LIVE CLOUD' : 'DRY-RUN'})`);
   console.log('====================================================================');
   console.log(`Host Domain             : ${SITE_ORIGIN}`);
   console.log(`IndexNow Key            : ${EXPECTED_INDEXNOW_KEY}`);

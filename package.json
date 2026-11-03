@@ -2,7 +2,7 @@
   "name": "onyxman-malaysia-luxury-cloud",
   "version": "1.0.0",
   "private": true,
-  "description": "Onyxman.my — Malaysia Luxury Botanical Apothecary & 24/7 Autonomous Cloud SEO Platform",
+  "description": "Onyxmen.my — Malaysia Luxury Botanical Apothecary & 24/7 Autonomous Cloud SEO Platform",
   "type": "module",
   "engines": {
     "node": ">=20.0.0"
@@ -38,6 +38,6 @@
     "magnum-pump-xr",
     "cloudflare-pages"
   ],
-  "author": "Onyxman Malaysia Apothecary <sales@onyxman.my>",
+  "author": "Onyxmen Malaysia Apothecary <sales@onyxmen.my>",
   "license": "UNLICENSED"
 }

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * ONYXMAN.MY — 6-GATE DETERMINISTIC VERIFICATION & REVOCATION ENGINE (MS-011)
+ * ONYXMEN.MY — 6-GATE DETERMINISTIC VERIFICATION & REVOCATION ENGINE (MS-011)
  * Audits Foundation Configs (--phase=A) and Full Built HTML/CSS/JSON Artifacts (--phase=ALL)
  *
  * THE 6 MANDATORY GATES:
@@ -8,7 +8,7 @@
  * - Gate 2: Line-Count Thresholds, Zero Truncation Markers, & Zero Rule #30 Violations
  * - Gate 3: Zero Broken Internal Links & Route Integrity
  * - Gate 4: Bilingual Hreflang Reciprocity (en-MY, ms-MY, x-default)
- * - Gate 5: Authentic Business Constants (159.00, 318.00, 477.00, MYR, waleedshoaibofficial@gmail.com, sales@onyxman.my, info@onyxman.my, Zero fake medical registrations)
+ * - Gate 5: Authentic Business Constants (159.00, 318.00, 477.00, MYR, waleedshoaibofficial@gmail.com, sales@onyxmen.my, info@onyxmen.my, Zero fake medical registrations)
  * - Gate 6: Valid JSON & @graph JSON-LD Schema Syntax
  */
 
@@ -280,8 +280,8 @@ function runGate5() {
     { label: '3-Bottle Tier Price 477.00', token: '"477.00"', target: brandRaw },
     { label: 'Currency MYR', token: '"MYR"', target: brandRaw },
     { label: 'Primary Merchant Email', token: 'waleedshoaibofficial@gmail.com', target: brandRaw },
-    { label: 'Official Sales Alias', token: 'sales@onyxman.my', target: brandRaw },
-    { label: 'Official Info Alias', token: 'info@onyxman.my', target: brandRaw },
+    { label: 'Official Sales Alias', token: 'sales@onyxmen.my', target: brandRaw },
+    { label: 'Official Info Alias', token: 'info@onyxmen.my', target: brandRaw },
     { label: 'IndexNow Verification Key', token: 'onyxman2026myindexnowkey8899aabb', target: brandRaw },
     { label: 'Pricing Engine 159.00', token: '159.00', target: pricingRaw },
     { label: 'Pricing Engine 318.00', token: '318.00', target: pricingRaw },
@@ -382,7 +382,7 @@ runGate5();
 runGate6(phaseArg);
 
 console.log('====================================================================');
-console.log(`ONYXMAN.MY 6-GATE VERIFICATION REPORT (PHASE: ${phaseArg})`);
+console.log(`ONYXMEN.MY 6-GATE VERIFICATION REPORT (PHASE: ${phaseArg})`);
 console.log('====================================================================');
 console.log(`Total Checks Passed : ${passedChecks.length}`);
 console.log(`Total Gate Failures : ${errors.length}`);

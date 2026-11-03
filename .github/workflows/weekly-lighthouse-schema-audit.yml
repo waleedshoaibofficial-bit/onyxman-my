@@ -34,7 +34,7 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      - name: "01 Â· Checkout Onyxman.my Repository"
+      - name: "01 Â· Checkout Onyxmen.my Repository"
         uses: actions/checkout@v4
 
       - name: "02 Â· Setup Node.js 20 LTS Runtime"

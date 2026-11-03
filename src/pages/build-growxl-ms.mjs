@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * ============================================================================
- * ONYXMAN.MY — GROW XL BAHASA MALAYSIA FLAGSHIP BUILDER (MS-112 TO MS-113)
+ * ONYXMEN.MY — GROW XL BAHASA MALAYSIA FLAGSHIP BUILDER (MS-112 TO MS-113)
  * Output Targets:
  *   1. public/ms/grow-xl-malaysia/index.html
  *   2. public/ms/produk/grow-xl/index.html
@@ -12,7 +12,7 @@
  * - SKU: ONYX-GX-30 | MPN: GXL-30CAP-MY | GTIN-13: 9550000102035
  * - Official Pricing: 1 Botol = RM 159 | 2 Botol = RM 318 | 3 Botol = RM 477
  * - Refill Protocol: Peringatan Isian Semula Hari Ke-25 (Kitaran Bulanan 30 Hari)
- * - Emails: waleedshoaibofficial@gmail.com | sales@onyxman.my | info@onyxman.my
+ * - Emails: waleedshoaibofficial@gmail.com | sales@onyxmen.my | info@onyxmen.my
  * ============================================================================
  */
 
@@ -32,9 +32,9 @@ const CANONICAL_URL_MS = 'https://www.onyxmen.my/ms/grow-xl-malaysia/';
 const ALTERNATE_URL_EN = 'https://www.onyxmen.my/grow-xl-malaysia/';
 
 const PAGE_TITLE_MS =
-  'Grow XL Malaysia (30 Kapsul) — Produk #1 Terlaris Campuran Peningkatan Prestasi Lelaki Kekuatan Ekstra | RM 159 Onyxman.my';
+  'Grow XL Malaysia (30 Kapsul) — Produk #1 Terlaris Campuran Peningkatan Prestasi Lelaki Kekuatan Ekstra | RM 159 Onyxmen.my';
 const PAGE_DESCRIPTION_MS =
-  'Beli Grow XL Malaysia tulen (Produk #1 Terlaris — Diperbuat Daripada Ramuan Semula Jadi — Campuran Peningkatan Prestasi Lelaki Kekuatan Ekstra — 30 Kapsul, SKU: ONYX-GX-30, MPN: GXL-30CAP-MY, GTIN-13: 9550000102035) pada harga rasmi RM 159 (1 Botol), RM 318 (2 Botol) atau RM 477 (3 Botol) di Onyxman.my. Kitaran penuh 30 hari (550mg × 30 kapsul = 16,500mg) dengan Tongkat Ali Kekuatan Ekstra 140mg, Akar Maca Peru 110mg, L-Arginine & L-Citrulline 100mg, Muira Puama Brazil 80mg, Saw Palmetto 70mg & Panax Ginseng + Ginkgo Biloba 50mg.';
+  'Beli Grow XL Malaysia tulen (Produk #1 Terlaris — Diperbuat Daripada Ramuan Semula Jadi — Campuran Peningkatan Prestasi Lelaki Kekuatan Ekstra — 30 Kapsul, SKU: ONYX-GX-30, MPN: GXL-30CAP-MY, GTIN-13: 9550000102035) pada harga rasmi RM 159 (1 Botol), RM 318 (2 Botol) atau RM 477 (3 Botol) di Onyxmen.my. Kitaran penuh 30 hari (550mg × 30 kapsul = 16,500mg) dengan Tongkat Ali Kekuatan Ekstra 140mg, Akar Maca Peru 110mg, L-Arginine & L-Citrulline 100mg, Muira Puama Brazil 80mg, Saw Palmetto 70mg & Panax Ginseng + Ginkgo Biloba 50mg.';
 
 /**
  * 10 Comprehensive Bahasa Malaysia FAQs for Grow XL Malaysia (MS-113)
@@ -74,31 +74,31 @@ const GROWXL_BM_FAQS = [
     question:
       'Mengapakah Peringatan Isian Semula (Refill Protocol) untuk Grow XL ditetapkan pada Hari Ke-25 dan bukannya Hari Ke-18?',
     answer:
-      'Kerana Grow XL membekalkan 30 kapsul penuh sebotol untuk kitaran 30 hari (berbanding 20 kapsul bagi Horsemen dan Hammer of Thor). Apabila anda mengambil 1 kapsul sehari, anda akan mempunyai baki 5 kapsul pada Hari Ke-25. Sistem peringatan automatik Google Calendar dan WhatsApp Onyxman pada Hari Ke-25 memberi ruang masa 5 hari yang selesa supaya penghantaran kurier ekspres 1–2 hari bekerja tiba sebelum kapsul ke-30 anda habis.',
+      'Kerana Grow XL membekalkan 30 kapsul penuh sebotol untuk kitaran 30 hari (berbanding 20 kapsul bagi Horsemen dan Hammer of Thor). Apabila anda mengambil 1 kapsul sehari, anda akan mempunyai baki 5 kapsul pada Hari Ke-25. Sistem peringatan automatik Google Calendar dan WhatsApp Onyxmen pada Hari Ke-25 memberi ruang masa 5 hari yang selesa supaya penghantaran kurier ekspres 1–2 hari bekerja tiba sebelum kapsul ke-30 anda habis.',
   },
   {
     question:
       'Berapakah harga rasmi untuk pakej 1 Botol, 2 Botol, dan 3 Botol Grow XL di Malaysia?',
     answer:
-      'Harga rasmi Grow XL di Onyxman.my adalah telus dan tetap: 1 Botol (30 Kapsul / Kitaran 30 Hari) berharga RM 159 (bersamaan RM 5.30 sehari) dengan penghantaran ekspres rahsia percuma di Semenanjung Malaysia; 2 Botol (60 Kapsul / Kitaran 60 Hari Paling Laris) berharga RM 318 dengan penghantaran ekspres rahsia percuma ke seluruh Malaysia termasuk Sabah, Sarawak & Labuan; dan 3 Botol (90 Kapsul / Kitaran Optimum 90 Hari) berharga RM 477 dengan keutamaan pelepasan kurier VIP.',
+      'Harga rasmi Grow XL di Onyxmen.my adalah telus dan tetap: 1 Botol (30 Kapsul / Kitaran 30 Hari) berharga RM 159 (bersamaan RM 5.30 sehari) dengan penghantaran ekspres rahsia percuma di Semenanjung Malaysia; 2 Botol (60 Kapsul / Kitaran 60 Hari Paling Laris) berharga RM 318 dengan penghantaran ekspres rahsia percuma ke seluruh Malaysia termasuk Sabah, Sarawak & Labuan; dan 3 Botol (90 Kapsul / Kitaran Optimum 90 Hari) berharga RM 477 dengan keutamaan pelepasan kurier VIP.',
   },
   {
     question:
       'Adakah Grow XL dihantar di dalam kotak kosong rahsia tanpa sebarang nama produk?',
     answer:
-      'Ya, 100% rahsia. Setiap bungkusan Grow XL meninggalkan hab logistik kami di dalam kotak kurier legap tanpa logo Onyxman, tanpa gambar botol, dan tanpa perkataan "Grow XL" atau "Prestasi Lelaki". Pada slip alamat kurier (airway bill), nama pengirim hanya dicetak sebagai "OM Fulfilment Logistics" demi melindungi privasi anda di rumah, pejabat, atau pondok pengawal kondominium.',
+      'Ya, 100% rahsia. Setiap bungkusan Grow XL meninggalkan hab logistik kami di dalam kotak kurier legap tanpa logo Onyxmen, tanpa gambar botol, dan tanpa perkataan "Grow XL" atau "Prestasi Lelaki". Pada slip alamat kurier (airway bill), nama pengirim hanya dicetak sebagai "OM Fulfilment Logistics" demi melindungi privasi anda di rumah, pejabat, atau pondok pengawal kondominium.',
   },
   {
     question:
       'Bolehkah saya membuat bayaran secara COD (Bayar Waktu Terima), FPX, atau DuitNow QR di seluruh Malaysia?',
     answer:
-      'Ya. Onyxman Malaysia menyokong pembayaran segera melalui Perbankan Dalam Talian FPX (Maybank2u, CIMB Clicks, Public Bank, RHB, Hong Leong, Bank Islam), imbasan DuitNow QR segera, serta perkhidmatan Bayar Waktu Terima (Cash on Delivery / COD Malaysia) di seluruh Semenanjung Malaysia dan bandar-bandar utama di Sabah serta Sarawak.',
+      'Ya. Onyxmen Malaysia menyokong pembayaran segera melalui Perbankan Dalam Talian FPX (Maybank2u, CIMB Clicks, Public Bank, RHB, Hong Leong, Bank Islam), imbasan DuitNow QR segera, serta perkhidmatan Bayar Waktu Terima (Cash on Delivery / COD Malaysia) di seluruh Semenanjung Malaysia dan bandar-bandar utama di Sabah serta Sarawak.',
   },
   {
     question:
       'Adakah Grow XL membuat tuntutan anatomi kekal yang melampau atau mengandungi bahan kimia sintetik?',
     answer:
-      'Tidak sama sekali. Di Onyxman Malaysia, kami menolak sebarang tuntutan perubatan atau anatomi kekal yang tidak realistik. Grow XL ialah suplemen pemakanan botani dan asid amino tulen (Tongkat Ali, Maca, L-Arginine, L-Citrulline, Muira Puama, Saw Palmetto, Panax Ginseng, Ginkgo Biloba) yang dirumus secara saintifik untuk menyokong stamina fizikal harian, kelancaran peredaran darah mikro periferi, dan kecergasan semula jadi lelaki dewasa berumur 18 tahun ke atas.',
+      'Tidak sama sekali. Di Onyxmen Malaysia, kami menolak sebarang tuntutan perubatan atau anatomi kekal yang tidak realistik. Grow XL ialah suplemen pemakanan botani dan asid amino tulen (Tongkat Ali, Maca, L-Arginine, L-Citrulline, Muira Puama, Saw Palmetto, Panax Ginseng, Ginkgo Biloba) yang dirumus secara saintifik untuk menyokong stamina fizikal harian, kelancaran peredaran darah mikro periferi, dan kecergasan semula jadi lelaki dewasa berumur 18 tahun ke atas.',
   },
 ];
 
@@ -122,9 +122,9 @@ function buildGrowXlMsSchemaJson() {
       fullTitleMs:
         'Grow XL Malaysia — Produk #1 Terlaris Diperbuat Daripada Ramuan Semula Jadi Campuran Peningkatan Prestasi Lelaki Kekuatan Ekstra (30 Kapsul)',
       descriptionEn:
-        'Grow XL by Onyxman Malaysia (SKU: ONYX-GX-30, MPN: GXL-30CAP-MY, GTIN-13: 9550000102035) is a 30-capsule extra-strength daily botanical dietary supplement (550mg per capsule, 16,500mg per bottle) formulated with Extra-Strength Malaysian Tongkat Ali (140mg), Peruvian Maca Root (110mg), L-Arginine & L-Citrulline Matrix (100mg), Brazilian Muira Puama (80mg), Saw Palmetto Berry (70mg), and Panax Ginseng + Ginkgo Biloba Complex (50mg).',
+        'Grow XL by Onyxmen Malaysia (SKU: ONYX-GX-30, MPN: GXL-30CAP-MY, GTIN-13: 9550000102035) is a 30-capsule extra-strength daily botanical dietary supplement (550mg per capsule, 16,500mg per bottle) formulated with Extra-Strength Malaysian Tongkat Ali (140mg), Peruvian Maca Root (110mg), L-Arginine & L-Citrulline Matrix (100mg), Brazilian Muira Puama (80mg), Saw Palmetto Berry (70mg), and Panax Ginseng + Ginkgo Biloba Complex (50mg).',
       descriptionMs:
-        'Grow XL oleh Onyxman Malaysia (SKU: ONYX-GX-30, MPN: GXL-30CAP-MY, GTIN-13: 9550000102035) ialah suplemen pemakanan botani kekuatan ekstra 30 kapsul (550mg setiap kapsul, 16,500mg sebotol) yang dirumus dengan Tongkat Ali Malaysia Kekuatan Ekstra (140mg), Akar Maca Peru (110mg), Matriks L-Arginine & L-Citrulline (100mg), Muira Puama Brazil (80mg), Beri Saw Palmetto (70mg), serta Kompleks Panax Ginseng & Ginkgo Biloba (50mg) untuk kitaran bulanan 30 hari penuh.',
+        'Grow XL oleh Onyxmen Malaysia (SKU: ONYX-GX-30, MPN: GXL-30CAP-MY, GTIN-13: 9550000102035) ialah suplemen pemakanan botani kekuatan ekstra 30 kapsul (550mg setiap kapsul, 16,500mg sebotol) yang dirumus dengan Tongkat Ali Malaysia Kekuatan Ekstra (140mg), Akar Maca Peru (110mg), Matriks L-Arginine & L-Citrulline (100mg), Muira Puama Brazil (80mg), Beri Saw Palmetto (70mg), serta Kompleks Panax Ginseng & Ginkgo Biloba (50mg) untuk kitaran bulanan 30 hari penuh.',
       disambiguatingDescriptionEn:
         'Oral 30-capsule botanical and amino-acid dietary supplement for adult men (18+) in Malaysia. Official price RM 159 per bottle.',
       disambiguatingDescriptionMs:
@@ -158,7 +158,7 @@ function buildGrowXlMsSchemaJson() {
       imageCutoutPng: 'https://www.onyxmen.my/assets/products/grow-xl-cutout.png',
     },
     breadcrumbs: [
-      { name: 'Utama Onyxman Malaysia', url: 'https://www.onyxmen.my/ms/' },
+      { name: 'Utama Onyxmen Malaysia', url: 'https://www.onyxmen.my/ms/' },
       { name: '4 Formulasi Apotekari', url: 'https://www.onyxmen.my/ms/produk/' },
       {
         name: 'Grow XL Malaysia (30 Kapsul — Kekuatan Ekstra)',
@@ -713,7 +713,7 @@ function buildGrowXlMsBodyHtml() {
         <div class="growxl-hero-stage__breadcrumb-bar">
           <nav aria-label="Laluan Navigasi Breadcrumb">
             <ol class="growxl-breadcrumb-list">
-              <li><a href="/ms/">Utama Onyxman</a></li>
+              <li><a href="/ms/">Utama Onyxmen</a></li>
               <li class="growxl-breadcrumb-sep" aria-hidden="true">/</li>
               <li><a href="/ms/produk/">4 Formulasi Apotekari</a></li>
               <li class="growxl-breadcrumb-sep" aria-hidden="true">/</li>
@@ -755,7 +755,7 @@ function buildGrowXlMsBodyHtml() {
             <!-- Exact Physical Bottle Label Transcription Ledger -->
             <div class="growxl-label-transcription-strip" role="region" aria-label="Transkripsi Rasmi Label Botol Grow XL Malaysia">
               <span class="growxl-label-transcription-strip__eyebrow">
-                TRANSKRIPSI TEPAT LABEL BOTOL RASMI ONYXMAN MALAYSIA
+                TRANSKRIPSI TEPAT LABEL BOTOL RASMI ONYXMEN MALAYSIA
               </span>
               <p class="growxl-label-transcription-strip__exact">
                 “GROW XL · #1 Selling Product — Made With Natural Ingredient — Extra-Strength Enhancement Male Performance Blend — 30 Capsules”
@@ -917,7 +917,7 @@ function buildGrowXlMsBodyHtml() {
                 <source srcset="/assets/products/grow-xl-stage.webp" type="image/webp" />
                 <img
                   src="/assets/products/grow-xl-stage.png"
-                  alt="Grow XL Produk #1 Terlaris Campuran Peningkatan Prestasi Lelaki Kekuatan Ekstra — 30 Kapsul Botol Rasmi Onyxman Malaysia (RM 159)"
+                  alt="Grow XL Produk #1 Terlaris Campuran Peningkatan Prestasi Lelaki Kekuatan Ekstra — 30 Kapsul Botol Rasmi Onyxmen Malaysia (RM 159)"
                   width="640"
                   height="820"
                   fetchpriority="high"
@@ -945,8 +945,8 @@ function buildGrowXlMsBodyHtml() {
               </span>
             </div>
             <div class="cinema-stage-100vh__price-meta">
-              MEJA KHIDMAT PELANGGAN: <a href="mailto:sales@onyxman.my">sales@onyxman.my</a> ·
-              <a href="mailto:info@onyxman.my">info@onyxman.my</a> ·
+              MEJA KHIDMAT PELANGGAN: <a href="mailto:sales@onyxmen.my">sales@onyxmen.my</a> ·
+              <a href="mailto:info@onyxmen.my">info@onyxmen.my</a> ·
               <a href="/grow-xl-malaysia/" hreflang="en-MY">VIEW IN ENGLISH (EN-MY) →</a>
             </div>
           </div>
@@ -1185,7 +1185,7 @@ function buildGrowXlMsBodyHtml() {
             </p>
             <p class="growxl-botanical-monograph-block__synergy">
               <strong>Sinergi Formulasi:</strong> Menjadikan Grow XL satu-satunya suplemen harian 30 kapsul dalam
-              rangkaian Onyxman yang menggabungkan sokongan prestasi fizikal dengan penjagaan kesejahteraan prostat/urinari.
+              rangkaian Onyxmen yang menggabungkan sokongan prestasi fizikal dengan penjagaan kesejahteraan prostat/urinari.
             </p>
           </article>
 
@@ -1236,7 +1236,7 @@ function buildGrowXlMsBodyHtml() {
               <span aria-hidden="true">→</span>
             </button>
             <a href="/ms/ramuan-botani/" class="cta-hairline-secondary">
-              <span>LIHAT ENSIKLOPEDIA RAMUAN BOTANI ONYXMAN</span>
+              <span>LIHAT ENSIKLOPEDIA RAMUAN BOTANI ONYXMEN</span>
             </a>
           </div>
         </div>
@@ -1309,7 +1309,7 @@ function buildGrowXlMsBodyHtml() {
                 Gabungan Eksklusif Muira Puama Brazil (80mg) &amp; Saw Palmetto (70mg)
               </h3>
               <p class="architectural-ledger__detail">
-                Grow XL ialah satu-satunya formulasi di dalam koleksi Onyxman Malaysia yang menggabungkan
+                Grow XL ialah satu-satunya formulasi di dalam koleksi Onyxmen Malaysia yang menggabungkan
                 <strong>Muira Puama Brazil (12:1 fitosterol)</strong> dan <strong>Beri Saw Palmetto (45% asid lemak bebas)</strong>
                 bersama Tongkat Ali Malaysia 140mg dan Maca Peru 110mg—memberikan penjagaan menyeluruh untuk
                 kecergasan neuromuskular serta kesejahteraan lelaki dewasa berusia 30 tahun ke atas.
@@ -1460,7 +1460,7 @@ function buildGrowXlMsBodyHtml() {
               </h4>
               <p class="architectural-ledger__detail">
                 Pada <strong>Hari Ke-25</strong>, botol Grow XL anda masih mempunyai <strong>baki 5 kapsul</strong>
-                (untuk Hari Ke-26 hingga Hari Ke-30). Sistem Onyxman menjadualkan peringatan automatik Google
+                (untuk Hari Ke-26 hingga Hari Ke-30). Sistem Onyxmen menjadualkan peringatan automatik Google
                 Calendar &amp; WhatsApp pada Hari Ke-25 supaya pesanan botol bulan kedua anda dapat dihantar melalui
                 kurier ekspres rahsia (1–2 hari bekerja) dan tiba sebelum kapsul ke-30 anda habis.
               </p>
@@ -1484,7 +1484,7 @@ function buildGrowXlMsBodyHtml() {
           <!-- Day-25 Refill Continuity Callout Box -->
           <div class="growxl-label-transcription-strip" style="margin-top: 2.5rem;">
             <span class="growxl-label-transcription-strip__eyebrow">
-              PROTOKOL KESINAMBUNGAN BULANAN ONYXMAN MALAYSIA (ZERO CYCLE INTERRUPTION)
+              PROTOKOL KESINAMBUNGAN BULANAN ONYXMEN MALAYSIA (ZERO CYCLE INTERRUPTION)
             </span>
             <p class="growxl-label-transcription-strip__exact">
               Jimat Masa &amp; Nikmati Penghantaran Percuma Seluruh Malaysia dengan Pakej 2 Botol (60 Kapsul — RM 318) atau 3 Botol (90 Kapsul — RM 477)
@@ -1521,7 +1521,7 @@ function buildGrowXlMsBodyHtml() {
       </section>
 
       <!-- =====================================================================
-           CHAPTER V (MS-113D): JADUAL PERBANDINGAN 4 FORMULA RASMI ONYXMAN
+           CHAPTER V (MS-113D): JADUAL PERBANDINGAN 4 FORMULA RASMI ONYXMEN
            GROW XL VS HORSEMEN VS HAMMER OF THOR VS MAGNUM PUMP XR
            ===================================================================== -->
       <section
@@ -1533,7 +1533,7 @@ function buildGrowXlMsBodyHtml() {
           <header class="growxl-chapter-header">
             <div class="growxl-chapter-header__meta-row">
               <span class="growxl-chapter-number">
-                BAB V · JADUAL PERBANDINGAN 4 FORMULA APOTEKARI ONYXMAN (RM 159 SEBOTOL)
+                BAB V · JADUAL PERBANDINGAN 4 FORMULA APOTEKARI ONYXMEN (RM 159 SEBOTOL)
               </span>
               <a href="/ms/perbandingan/" class="editorial-kicker">
                 BUKA PORTAL PERBANDINGAN LENGKAP →
@@ -1544,7 +1544,7 @@ function buildGrowXlMsBodyHtml() {
               Berbanding Horsemen, Hammer of Thor &amp; Magnum Pump XR
             </h2>
             <p class="editorial-lead-paragraph comparison-summary">
-              Setiap formulasi di bawah jenama Onyxman Malaysia ditawarkan pada harga seragam
+              Setiap formulasi di bawah jenama Onyxmen Malaysia ditawarkan pada harga seragam
               <strong>RM 159 sebotol (2 Botol RM 318 · 3 Botol RM 477)</strong>. Gunakan jadual perbandingan
               saintifik di bawah untuk mengesahkan mengapa Grow XL ialah pilihan tepat bagi rutin penjagaan bulanan
               30 hari anda:
@@ -1552,7 +1552,7 @@ function buildGrowXlMsBodyHtml() {
           </header>
 
           <!-- Full Semantic 4-Product Comparison Table -->
-          <div class="growxl-comparison-table-wrap" role="region" aria-label="Jadual Perbandingan 4 Formula Onyxman Malaysia" tabindex="0">
+          <div class="growxl-comparison-table-wrap" role="region" aria-label="Jadual Perbandingan 4 Formula Onyxmen Malaysia" tabindex="0">
             <table class="growxl-comparison-table">
               <thead>
                 <tr>
@@ -1630,7 +1630,7 @@ function buildGrowXlMsBodyHtml() {
                   <td>Hari Ke-25 (Kitaran 30 Hari)</td>
                 </tr>
                 <tr>
-                  <th scope="row">Harga Rasmi Onyxman.my</th>
+                  <th scope="row">Harga Rasmi Onyxmen.my</th>
                   <td class="growxl-comparison-table__highlight-col">
                     <strong>1B: RM 159 · 2B: RM 318 · 3B: RM 477</strong>
                   </td>
@@ -1664,7 +1664,7 @@ function buildGrowXlMsBodyHtml() {
 
       <!-- =====================================================================
            CHAPTER VI (MS-113E): PENGESAHAN KETULENAN 5-TITIK GROW XL MALAYSIA
-           CARA MEMASTIKAN BOTOL GROW XL ANDA 100% TULEN DARI ONYXMAN.MY
+           CARA MEMASTIKAN BOTOL GROW XL ANDA 100% TULEN DARI ONYXMEN.MY
            ===================================================================== -->
       <section
         id="pengesahan-ketulenan-grow-xl"
@@ -1675,7 +1675,7 @@ function buildGrowXlMsBodyHtml() {
           <header class="growxl-chapter-header">
             <div class="growxl-chapter-header__meta-row">
               <span class="growxl-chapter-number">
-                BAB VI · PROTOKOL PENGESAHAN KETULENAN 5-TITIK ONYXMAN MALAYSIA
+                BAB VI · PROTOKOL PENGESAHAN KETULENAN 5-TITIK ONYXMEN MALAYSIA
               </span>
               <span class="editorial-kicker">SKU: ONYX-GX-30 · MPN: GXL-30CAP-MY · GTIN: 9550000102035</span>
             </div>
@@ -1686,7 +1686,7 @@ function buildGrowXlMsBodyHtml() {
             <p class="editorial-lead-paragraph">
               Jangan terpedaya dengan iklan klasifikasi pihak ketiga yang memaparkan gambar kabur bertera air
               (watermarked) atau menjual stok tiruan pada harga yang meragukan. Setiap botol tulen Grow XL daripada
-              <strong>Onyxman Malaysia (https://www.onyxmen.my)</strong> mematuhi lima piawaian ketulenan berikut:
+              <strong>Onyxmen Malaysia (https://www.onyxmen.my)</strong> mematuhi lima piawaian ketulenan berikut:
             </p>
           </header>
 
@@ -1711,7 +1711,7 @@ function buildGrowXlMsBodyHtml() {
                 Pendaftaran SKU ONYX-GX-30, MPN GXL-30CAP-MY &amp; GTIN-13 9550000102035
               </h3>
               <p class="architectural-ledger__detail">
-                Setiap botol dalam inventori rasmi Onyxman Malaysia direkodkan di bawah SKU <code>ONYX-GX-30</code>,
+                Setiap botol dalam inventori rasmi Onyxmen Malaysia direkodkan di bawah SKU <code>ONYX-GX-30</code>,
                 nombor bahagian pengeluar <code>GXL-30CAP-MY</code>, dan kod bar GS1 Malaysia
                 <code>9550000102035</code>.
               </p>
@@ -1746,13 +1746,13 @@ function buildGrowXlMsBodyHtml() {
             <div class="architectural-ledger__row" role="listitem">
               <span class="architectural-ledger__index">SAH-05</span>
               <h3 class="architectural-ledger__title">
-                Pengesahan Pesanan Terus Melalui sales@onyxman.my &amp; info@onyxman.my
+                Pengesahan Pesanan Terus Melalui sales@onyxmen.my &amp; info@onyxmen.my
               </h3>
               <p class="architectural-ledger__detail">
-                Setiap tempahan yang dihantar melalui Laci Tempahan Ekspres Onyxman mengeluarkan kod rujukan rasmi
+                Setiap tempahan yang dihantar melalui Laci Tempahan Ekspres Onyxmen mengeluarkan kod rujukan rasmi
                 dan disokong terus oleh meja khidmat pelanggan kami di
-                <a href="mailto:sales@onyxman.my">sales@onyxman.my</a> serta
-                <a href="mailto:info@onyxman.my">info@onyxman.my</a>.
+                <a href="mailto:sales@onyxmen.my">sales@onyxmen.my</a> serta
+                <a href="mailto:info@onyxmen.my">info@onyxmen.my</a>.
               </p>
               <span class="architectural-ledger__metric">JAMINAN APOTEKARI RASMI</span>
             </div>
@@ -2122,11 +2122,11 @@ function buildGrowXlMsBodyHtml() {
               <span>BUKA LACI TEMPAHAN EKSPRES RAHSIA · RM 159 / BOTOL</span>
               <span aria-hidden="true">→</span>
             </button>
-            <a href="mailto:sales@onyxman.my?subject=Pertanyaan%20Rasmi%20Grow%20XL%20Malaysia%20(ONYX-GX-30)" class="cta-hairline-secondary">
-              <span>E-MEL MEJA JUALAN: sales@onyxman.my</span>
+            <a href="mailto:sales@onyxmen.my?subject=Pertanyaan%20Rasmi%20Grow%20XL%20Malaysia%20(ONYX-GX-30)" class="cta-hairline-secondary">
+              <span>E-MEL MEJA JUALAN: sales@onyxmen.my</span>
             </a>
-            <a href="mailto:info@onyxman.my?subject=Pertanyaan%20Formulasi%20Grow%20XL%20(GXL-30CAP-MY)" class="cta-hairline-secondary">
-              <span>MEJA MAKLUMAT BOTANI: info@onyxman.my</span>
+            <a href="mailto:info@onyxmen.my?subject=Pertanyaan%20Formulasi%20Grow%20XL%20(GXL-30CAP-MY)" class="cta-hairline-secondary">
+              <span>MEJA MAKLUMAT BOTANI: info@onyxmen.my</span>
             </a>
           </div>
         </div>

@@ -1,5 +1,5 @@
 /**
- * ONYXMAN.MY — HEAD-TO-HEAD & 4-FORMULATION COMPARISON HUB BUILDER (MS-115 TO MS-122)
+ * ONYXMEN.MY — HEAD-TO-HEAD & 4-FORMULATION COMPARISON HUB BUILDER (MS-115 TO MS-122)
  * Generates all 8 Primary Bilingual Comparison Hub Pages + 9 Route Aliases (17 HTML files total).
  * Each generated HTML file is >= 2,400+ lines with:
  * - Paradigm A (100vw x 100vh Full-Bleed Cinema Hero) + Paradigm D (50vw/50vw Split-Screen Duel Stage) + Paradigm F (Editorial Ledger)
@@ -840,8 +840,8 @@ function renderChronobiologyTimelineSection(isMs) {
       <p class="cmp-section-desc">
         ${
           isMs
-            ? 'Setiap formulasi Onyxman ditala untuk tingkap metabolik tertentu—sama ada rutin pagi selepas sarapan, pra-senaman petang, atau kesediaan malam 45–60 minit.'
-            : 'Every Onyxman formulation is engineered for a specific metabolic window—whether morning post-breakfast conditioning, pre-workout nitric oxide loading, or 45–60 minute evening readiness.'
+            ? 'Setiap formulasi Onyxmen ditala untuk tingkap metabolik tertentu—sama ada rutin pagi selepas sarapan, pra-senaman petang, atau kesediaan malam 45–60 minit.'
+            : 'Every Onyxmen formulation is engineered for a specific metabolic window—whether morning post-breakfast conditioning, pre-workout nitric oxide loading, or 45–60 minute evening readiness.'
         }
       </p>
     </div>
@@ -888,8 +888,8 @@ function renderBotanicalPharmacologyLedger(productList, isMs) {
       <p class="cmp-section-desc">
         ${
           isMs
-            ? 'Semua formulasi Onyxman menggunakan ekstrak botani piawai berkepekatan tinggi tanpa bahan sintetik tersembunyi. Semak pecahan tepat setiap bahan aktif di bawah.'
-            : 'All Onyxman formulations utilize standardized botanical extracts and pure amino-acid cofactors with zero undisclosed synthetic stimulants. Inspect exact milligram dosages below.'
+            ? 'Semua formulasi Onyxmen menggunakan ekstrak botani piawai berkepekatan tinggi tanpa bahan sintetik tersembunyi. Semak pecahan tepat setiap bahan aktif di bawah.'
+            : 'All Onyxmen formulations utilize standardized botanical extracts and pure amino-acid cofactors with zero undisclosed synthetic stimulants. Inspect exact milligram dosages below.'
         }
       </p>
     </div>
@@ -968,7 +968,7 @@ function renderMaster4FormulaMatrixSection(isMs) {
     <div class="cmp-section-header">
       <div>
         <span class="editorial-kicker">${isMs ? 'MATRIKS PERBANDINGAN 12 DIMENSI' : '12-DIMENSION APOTHECARY SELECTION LEDGER'}</span>
-        <h2 class="cmp-section-title">${isMs ? 'Perbandingan Bersebelahan: Horsemen vs Hammer of Thor vs Grow XL vs Magnum Pump XR' : 'Side-by-Side Architectural Ledger: All 4 Onyxman Malaysia Formulations'}</h2>
+        <h2 class="cmp-section-title">${isMs ? 'Perbandingan Bersebelahan: Horsemen vs Hammer of Thor vs Grow XL vs Magnum Pump XR' : 'Side-by-Side Architectural Ledger: All 4 Onyxmen Malaysia Formulations'}</h2>
       </div>
       <p class="cmp-section-desc">
         ${
@@ -1246,7 +1246,7 @@ function buildComparisonPageHtml(config) {
 
   const breadcrumbs = [
     {
-      name: isMs ? 'Utama Onyxman Malaysia' : 'Onyxman Malaysia Home',
+      name: isMs ? 'Utama Onyxmen Malaysia' : 'Onyxmen Malaysia Home',
       url: isMs ? 'https://www.onyxmen.my/ms/' : 'https://www.onyxmen.my/',
     },
     {
@@ -1277,7 +1277,7 @@ function buildComparisonPageHtml(config) {
   <!-- PARADIGM A — 100VW X 100VH FULL-BLEED CINEMA COMPARISON HERO -->
   <section class="cmp-cinema-hero" aria-labelledby="cmp-page-h1">
     <nav class="cmp-breadcrumb-strip" aria-label="Breadcrumb">
-      <a href="${isMs ? '/ms/' : '/'}">${isMs ? 'UTAMA ONYXMAN' : 'ONYXMAN VAULT'}</a>
+      <a href="${isMs ? '/ms/' : '/'}">${isMs ? 'UTAMA ONYXMEN' : 'ONYXMEN VAULT'}</a>
       <span>/</span>
       <a href="${isMs ? '/ms/perbandingan/' : '/compare/'}">${isMs ? 'PERBANDINGAN FORMULASI' : 'COMPARISON MATRIX'}</a>
       <span>/</span>
@@ -1631,10 +1631,10 @@ export function buildAllComparisonPages() {
       alternatePathMs: '/ms/perbandingan/semua-4-formula/',
       mode: 'matrix',
       duelObj: duel30,
-      pageTitle: '20 Capsules vs 30 Capsules & All 4 Onyxman Formulas Comparison Matrix | RM 159 Malaysia',
+      pageTitle: '20 Capsules vs 30 Capsules & All 4 Onyxmen Formulas Comparison Matrix | RM 159 Malaysia',
       pageDescription: 'Compare 20-Capsule concentrated botanical reserves (Horsemen & Hammer of Thor, Day-18 Refill) vs 30-Capsule full-month formulas (Grow XL & Magnum Pump XR, Day-25 Refill) at RM 159.',
       headline: '20 Capsules vs 30 Capsules — Complete 4-Formulation Apothecary Decision Matrix',
-      subheadline: 'Understand why Onyxman Malaysia prices both 20-capsule concentrated reserves and 30-capsule full-month protocols at an identical RM 159.00—and how to select or stack them.',
+      subheadline: 'Understand why Onyxmen Malaysia prices both 20-capsule concentrated reserves and 30-capsule full-month protocols at an identical RM 159.00—and how to select or stack them.',
       executiveVerdict: `${duel20.locales['en-MY'].executiveVerdict} ${duel30.locales['en-MY'].executiveVerdict}`,
       primaryProductSlug: 'grow-xl',
       secondaryProductSlug: 'horsemen',
@@ -1709,9 +1709,9 @@ export function buildAllComparisonPages() {
       alternatePathMs: '/ms/perbandingan/semua-4-formula/',
       mode: 'matrix',
       duelObj: duel30,
-      pageTitle: 'Perbandingan 20 Kapsul vs 30 Kapsul & Semua 4 Formula Onyxman | RM 159 Malaysia',
+      pageTitle: 'Perbandingan 20 Kapsul vs 30 Kapsul & Semua 4 Formula Onyxmen | RM 159 Malaysia',
       pageDescription: 'Bandingkan botol 20 kapsul berkepekatan tinggi (Horsemen & Hammer of Thor, Hari Ke-18) berbanding botol 30 kapsul sebulan penuh (Grow XL & Magnum Pump XR, Hari Ke-25) pada harga RM 159.',
-      headline: '20 Kapsul vs 30 Kapsul — Matriks Keputusan Lengkap 4 Formulasi Onyxman Malaysia',
+      headline: '20 Kapsul vs 30 Kapsul — Matriks Keputusan Lengkap 4 Formulasi Onyxmen Malaysia',
       subheadline: 'Fahami mengapa kedua-dua formulasi 20 kapsul padat dan 30 kapsul sebulan penuh ditawarkan pada harga seragam RM 159.00—serta cara menggabungkannya.',
       executiveVerdict: `${duel20.locales['ms-MY'].executiveVerdict} ${duel30.locales['ms-MY'].executiveVerdict}`,
       primaryProductSlug: 'grow-xl',

@@ -1,4 +1,4 @@
-name: "MS-191 Â· Deploy Onyxman.my to Cloudflare Pages & Instant IndexNow Ping"
+name: "MS-191 Â· Deploy Onyxmen.my to Cloudflare Pages & Instant IndexNow Ping"
 
 on:
   push:
@@ -36,8 +36,8 @@ env:
   CF_PAGES_PROJECT: "onyxman-my"
   INDEXNOW_KEY: "onyxman2026myindexnowkey8899aabb"
   PRIMARY_ORDER_EMAIL: "waleedshoaibofficial@gmail.com"
-  BRAND_SALES_EMAIL: "sales@onyxman.my"
-  BRAND_INFO_EMAIL: "info@onyxman.my"
+  BRAND_SALES_EMAIL: "sales@onyxmen.my"
+  BRAND_INFO_EMAIL: "info@onyxmen.my"
 
 jobs:
   build-verify-deploy:
@@ -46,7 +46,7 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      - name: "01 Â· Checkout Onyxman.my Repository"
+      - name: "01 Â· Checkout Onyxmen.my Repository"
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -58,7 +58,7 @@ jobs:
 
       - name: "03 Â· Execute Full Bilingual Static Build (EN-MY + MS-MY)"
         run: |
-          echo "Building Onyxman.my bilingual production artifact into public/..."
+          echo "Building Onyxmen.my bilingual production artifact into public/..."
           node scripts/build-site.mjs
 
       - name: "04 Â· Validate All @graph JSON-LD Structured Data Schemas"

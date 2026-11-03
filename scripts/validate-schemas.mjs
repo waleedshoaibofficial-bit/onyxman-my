@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * ONYXMAN.MY — GOOGLE MERCHANT CENTER & RICH-RESULT @GRAPH VALIDATION SUITE (MS-057 TO MS-060)
+ * ONYXMEN.MY — GOOGLE MERCHANT CENTER & RICH-RESULT @GRAPH VALIDATION SUITE (MS-057 TO MS-060)
  * Generates and audits all @graph JSON-LD payloads across:
  * - Homepage & Vault Index (EN + BM)
  * - All 4 Flagship Products (EN + BM: Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR)
@@ -59,7 +59,7 @@ function assertCondition(condition, category, message) {
  * - Valid JSON parse
  * - @context === "https://schema.org"
  * - @graph non-empty array
- * - Organization & OnlineStore node (#organization) with sales@onyxman.my & info@onyxman.my
+ * - Organization & OnlineStore node (#organization) with sales@onyxmen.my & info@onyxmen.my
  * - WebSite node (#website) with matching inLanguage
  * - OfferShippingDetails (#shipping-my) & MerchantReturnPolicy (#return-policy)
  * - BreadcrumbList with sequential ListItem positions
@@ -97,12 +97,12 @@ function validateFullGraphPayload(rawJsonString, expectedLang, label, extraAsser
       Array.isArray(orgNode['@type']) &&
       orgNode['@type'].includes('Organization') &&
       orgNode['@type'].includes('OnlineStore') &&
-      orgNode.email === 'sales@onyxman.my' &&
+      orgNode.email === 'sales@onyxmen.my' &&
       Array.isArray(orgNode.contactPoint) &&
-      orgNode.contactPoint.some((c) => c.email === 'sales@onyxman.my') &&
-      orgNode.contactPoint.some((c) => c.email === 'info@onyxman.my'),
+      orgNode.contactPoint.some((c) => c.email === 'sales@onyxmen.my') &&
+      orgNode.contactPoint.some((c) => c.email === 'info@onyxmen.my'),
     label,
-    'Organization & OnlineStore node verified with sales@onyxman.my and info@onyxman.my'
+    'Organization & OnlineStore node verified with sales@onyxmen.my and info@onyxmen.my'
   );
 
   // 2. WebSite check
@@ -219,7 +219,7 @@ function validateFullGraphPayload(rawJsonString, expectedLang, label, extraAsser
 const orgUnit = buildOrganizationSchema();
 assertCondition(
   orgUnit['@id'] === ORG_ID &&
-    orgUnit.name === 'Onyxman Malaysia' &&
+    orgUnit.name === 'Onyxmen Malaysia' &&
     Array.isArray(orgUnit.knowsAbout) &&
     orgUnit.knowsAbout.length >= 5,
   'UNIT:buildOrganizationSchema',
@@ -271,7 +271,7 @@ for (const lang of ['en-MY', 'ms-MY']) {
     pageType: 'home',
     lang,
     pageUrl: homeUrl,
-    breadcrumbs: [{ name: isMs ? 'Utama Onyxman' : 'Onyxman Home', url: homeUrl }],
+    breadcrumbs: [{ name: isMs ? 'Utama Onyxmen' : 'Onyxmen Home', url: homeUrl }],
   });
   validateFullGraphPayload(homeJson, lang, `HOMEPAGE (${lang})`, (graph) => {
     const itemList = graph.find((n) => n['@type'] === 'ItemList');
@@ -318,7 +318,7 @@ for (const slug of productSlugs) {
         Boolean(prodNode) &&
           typeof prodNode.sku === 'string' &&
           typeof prodNode.mpn === 'string' &&
-          prodNode.brand?.name === 'Onyxman' &&
+          prodNode.brand?.name === 'Onyxmen' &&
           Array.isArray(prodNode.image) &&
           prodNode.image.some((img) => img.endsWith('-stage.webp')) &&
           prodNode.image.some((img) => img.endsWith('-stage.png')) &&
@@ -363,8 +363,8 @@ const comparisonRoutes = [
     slug: 'compare-index',
     enUrl: `${SCHEMA_DOMAIN}/compare/`,
     msUrl: `${SCHEMA_DOMAIN}/ms/perbandingan/`,
-    titleEn: 'Onyxman Formulation Comparison Matrix',
-    titleMs: 'Jadual Perbandingan Formulasi Onyxman',
+    titleEn: 'Onyxmen Formulation Comparison Matrix',
+    titleMs: 'Jadual Perbandingan Formulasi Onyxmen',
   },
   {
     slug: 'horsemen-vs-hammer-of-thor',
@@ -510,8 +510,8 @@ const guideRoutes = [
     slug: 'how-to-verify-authentic-onyxman-bottles-malaysia',
     enUrl: `${SCHEMA_DOMAIN}/guides/how-to-verify-authentic-onyxman-bottles-malaysia/`,
     msUrl: `${SCHEMA_DOMAIN}/ms/panduan/cara-semak-ketulenan-botol-onyxman-malaysia/`,
-    headlineEn: 'How to Verify Authentic Onyxman Formulations & Avoid Counterfeit Listings in Malaysia',
-    headlineMs: 'Cara Semak Ketulenan Botol Onyxman & Elak Produk Tiruan di Malaysia',
+    headlineEn: 'How to Verify Authentic Onyxmen Formulations & Avoid Counterfeit Listings in Malaysia',
+    headlineMs: 'Cara Semak Ketulenan Botol Onyxmen & Elak Produk Tiruan di Malaysia',
   },
 ];
 
@@ -555,7 +555,7 @@ for (const guide of guideRoutes) {
 // SUMMARY REPORT
 // ============================================================================
 console.log('====================================================================');
-console.log('ONYXMAN.MY — @GRAPH JSON-LD SCHEMA VALIDATION REPORT (MS-045..MS-060)');
+console.log('ONYXMEN.MY — @GRAPH JSON-LD SCHEMA VALIDATION REPORT (MS-045..MS-060)');
 console.log('====================================================================');
 console.log(`Total Schema Assertions Passed : ${passedChecks.length}`);
 console.log(`Total Schema Assertions Failed : ${failedChecks.length}`);

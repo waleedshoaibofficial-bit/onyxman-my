@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * ============================================================================
- * ONYXMAN.MY — BAHASA MALAYSIA FLAGSHIP BUILDER: MAGNUM PUMP XR MALAYSIA
+ * ONYXMEN.MY — BAHASA MALAYSIA FLAGSHIP BUILDER: MAGNUM PUMP XR MALAYSIA
  * Micro-Step: MS-114B (Turn 15 — Subagent #15)
  * Primary Output Target : public/ms/magnum-pump-xr-malaysia/index.html
  * Mirror Output Target  : public/ms/produk/magnum-pump-xr/index.html
@@ -18,7 +18,7 @@
  *               2 Botol (60 Kapsul Hitam) = RM 318 (318.00 MYR)
  *               3 Botol (90 Kapsul Hitam) = RM 477 (477.00 MYR)
  *   - Cycle   : Kitaran Nitrik Oksida 30 Hari & Peringatan Isian Semula Hari Ke-25
- *   - Desks   : waleedshoaibofficial@gmail.com | sales@onyxman.my | info@onyxman.my
+ *   - Desks   : waleedshoaibofficial@gmail.com | sales@onyxmen.my | info@onyxmen.my
  *
  * Spatial Architecture (Rules #29 & #30):
  *   - Paradigm A : 100vw x 100vh Pentas Sinematik Obsidian
@@ -63,9 +63,9 @@ export const MAGNUM_PUMP_XR_MS_FAQS = [
     code: 'MP-FAQ-01',
     category: 'PENJELASAN ENTITI SUPLEMEN KAPSUL MAKAN',
     questionMs:
-      'Apakah sebenarnya Magnum Pump XR Malaysia di Onyxman.my? Adakah ia suplemen kapsul pemakanan atau alat pam mekanikal?',
+      'Apakah sebenarnya Magnum Pump XR Malaysia di Onyxmen.my? Adakah ia suplemen kapsul pemakanan atau alat pam mekanikal?',
     answerMs:
-      'Magnum Pump XR Malaysia di Onyxman.my (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042) adalah 100% Suplemen Pemakanan kapsul asid amino dan botani makan (Oral Dietary Supplement) untuk lelaki dewasa berumur 18 tahun ke atas yang mengandungi 30 Kapsul Hitam × 600mg setiap botol. Ia langsung TIDAK berkaitan sama sekali dengan sebarang peralatan mekanikal, pam hidraulik, pam vakum luaran, atau jentera pam industri minyak dan gas (oilfield frac/slurry pump) yang kebetulan berkongsi perkataan "Magnum" dalam sektor perindustrian.',
+      'Magnum Pump XR Malaysia di Onyxmen.my (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042) adalah 100% Suplemen Pemakanan kapsul asid amino dan botani makan (Oral Dietary Supplement) untuk lelaki dewasa berumur 18 tahun ke atas yang mengandungi 30 Kapsul Hitam × 600mg setiap botol. Ia langsung TIDAK berkaitan sama sekali dengan sebarang peralatan mekanikal, pam hidraulik, pam vakum luaran, atau jentera pam industri minyak dan gas (oilfield frac/slurry pump) yang kebetulan berkongsi perkataan "Magnum" dalam sektor perindustrian.',
     clinicalNoteMs:
       'Perkataan "Pump" pada label rasmi Magnum Pump XR merujuk kepada fisiologi aliran vaskular ("vascular & muscular nitric oxide pump") yang dipacu oleh L-Arginine HCl (180mg) dan L-Citrulline Malate (140mg).',
   },
@@ -98,9 +98,9 @@ export const MAGNUM_PUMP_XR_MS_FAQS = [
     questionMs:
       'Apakah pecahan miligram sebenar bagi kesemua 6 ramuan aktif di dalam setiap kapsul hitam 600mg Magnum Pump XR?',
     answerMs:
-      'Onyxman Malaysia mengamalkan ketelusan label 100% tanpa campuran proprietari tersembunyi. Setiap kapsul hitam 600mg Magnum Pump XR mengandungi: (1) L-Arginine Hydrochloride Gred Farmaseutikal 99.5% sebanyak 180mg (30.0%), (2) L-Citrulline Malate Nisbah Bio-Aktif 2:1 sebanyak 140mg (23.3%), (3) Ekstrak Buah Tribulus Terrestris Piawai 45% Saponin Steroid sebanyak 110mg (18.3%), (4) Ekstrak Akar Tongkat Ali Malaysia 100:1 (2.2% Eurycomanone) sebanyak 90mg (15.0%), (5) Ekstrak Rizom Kunyit Hitam / Halia Hitam (Kaempferia parviflora 5% PMF) sebanyak 65mg (10.8%), dan (6) Ekstrak Lada Hitam Piawai Bioperine (95% Piperine) sebanyak 15mg (2.5%).',
+      'Onyxmen Malaysia mengamalkan ketelusan label 100% tanpa campuran proprietari tersembunyi. Setiap kapsul hitam 600mg Magnum Pump XR mengandungi: (1) L-Arginine Hydrochloride Gred Farmaseutikal 99.5% sebanyak 180mg (30.0%), (2) L-Citrulline Malate Nisbah Bio-Aktif 2:1 sebanyak 140mg (23.3%), (3) Ekstrak Buah Tribulus Terrestris Piawai 45% Saponin Steroid sebanyak 110mg (18.3%), (4) Ekstrak Akar Tongkat Ali Malaysia 100:1 (2.2% Eurycomanone) sebanyak 90mg (15.0%), (5) Ekstrak Rizom Kunyit Hitam / Halia Hitam (Kaempferia parviflora 5% PMF) sebanyak 65mg (10.8%), dan (6) Ekstrak Lada Hitam Piawai Bioperine (95% Piperine) sebanyak 15mg (2.5%).',
     clinicalNoteMs:
-      'Jumlah keseluruhan sebotol (30 kapsul hitam) ialah 18,000mg (18.0 gram) bahan aktif tulen—menjadikannya formulasi berjisim tertinggi dalam koleksi Onyxman Malaysia.',
+      'Jumlah keseluruhan sebotol (30 kapsul hitam) ialah 18,000mg (18.0 gram) bahan aktif tulen—menjadikannya formulasi berjisim tertinggi dalam koleksi Onyxmen Malaysia.',
   },
   {
     id: 'faq-mp-ms-05',
@@ -131,7 +131,7 @@ export const MAGNUM_PUMP_XR_MS_FAQS = [
     questionMs:
       'Berapakah harga rasmi Magnum Pump XR di Malaysia dan pakej manakah yang paling berbaloi?',
     answerMs:
-      'Harga rasmi seragam Magnum Pump XR di Onyxman.my ialah: (1) Pakej 1 Botol (30 Kapsul Hitam / 18,000mg / Kitaran 30 Hari) pada harga RM 159.00 dengan Penghantaran Ekspres Rahsia Percuma di Semenanjung Malaysia (RM 12 untuk Sabah/Sarawak/Labuan); (2) Pakej 2 Botol (60 Kapsul Hitam / 36,000mg / Protokol Dwi-Aliran Vaskular & Senaman 60 Hari) pada harga RM 318.00 dengan Penghantaran Ekspres Rahsia Percuma ke seluruh 16 negeri Malaysia termasuk Sabah, Sarawak & Labuan; dan (3) Pakej 3 Botol (90 Kapsul Hitam / 54,000mg / Pakej Lengkap Siri Pro 90 Hari) pada harga RM 477.00 dengan Pelepasan Keutamaan VIP serta Khidmat Peringatan Hari Ke-75.',
+      'Harga rasmi seragam Magnum Pump XR di Onyxmen.my ialah: (1) Pakej 1 Botol (30 Kapsul Hitam / 18,000mg / Kitaran 30 Hari) pada harga RM 159.00 dengan Penghantaran Ekspres Rahsia Percuma di Semenanjung Malaysia (RM 12 untuk Sabah/Sarawak/Labuan); (2) Pakej 2 Botol (60 Kapsul Hitam / 36,000mg / Protokol Dwi-Aliran Vaskular & Senaman 60 Hari) pada harga RM 318.00 dengan Penghantaran Ekspres Rahsia Percuma ke seluruh 16 negeri Malaysia termasuk Sabah, Sarawak & Labuan; dan (3) Pakej 3 Botol (90 Kapsul Hitam / 54,000mg / Pakej Lengkap Siri Pro 90 Hari) pada harga RM 477.00 dengan Pelepasan Keutamaan VIP serta Khidmat Peringatan Hari Ke-75.',
     clinicalNoteMs:
       'Pakej 2 Botol (RM 318) adalah pilihan paling popular kerana ia merangkumi 60 kapsul hitam penuh untuk kegunaan pra-gimnasium dan malam serta pengecualian caj kargo udara ke Malaysia Timur.',
   },
@@ -182,12 +182,12 @@ function buildMagnumMsGraphJson() {
     pageType: 'product',
     pageUrl: CANONICAL_URL_MS,
     title:
-      'Magnum Pump XR Malaysia (30 Kapsul Hitam × 600mg) — Siri Pro Testosteron & Formula Nitrik Oksida Kekuatan Maksimum | RM 159 Onyxman.my',
+      'Magnum Pump XR Malaysia (30 Kapsul Hitam × 600mg) — Siri Pro Testosteron & Formula Nitrik Oksida Kekuatan Maksimum | RM 159 Onyxmen.my',
     description:
       'Tempah Magnum Pump XR Malaysia tulen (Siri Pro Testosteron — Formula Peningkatan Prestasi Lelaki Kekuatan Maksimum — 30 Kapsul Hitam, SKU ONYX-MP-30, MPN MPXR-30BLK-MY, GTIN-13 9550000102042) pada harga rasmi RM 159 sebotol. Mengandungi L-Arginine HCl 180mg, L-Citrulline Malate 140mg, Tribulus Terrestris 110mg, Tongkat Ali Malaysia 90mg, Kunyit Hitam 65mg & Bioperine 15mg.',
     product: 'magnum-pump-xr',
     breadcrumbs: [
-      { name: 'Utama Onyxman Malaysia', url: '/ms/' },
+      { name: 'Utama Onyxmen Malaysia', url: '/ms/' },
       { name: 'Koleksi Formulasi', url: '/ms/produk/' },
       {
         name: 'Magnum Pump XR Malaysia (30 Kapsul Hitam × 600mg)',
@@ -216,16 +216,16 @@ function buildMagnumMsGraphJson() {
   const brandNode = {
     '@type': 'Brand',
     '@id': BRAND_ID,
-    name: 'Onyxman',
+    name: 'Onyxmen',
     url: SCHEMA_DOMAIN,
   };
 
   const sellerNode = {
     '@type': 'Organization',
     '@id': ORG_ID,
-    name: 'Onyxman Malaysia',
+    name: 'Onyxmen Malaysia',
     url: SCHEMA_DOMAIN,
-    email: 'sales@onyxman.my',
+    email: 'sales@onyxmen.my',
   };
 
   const keyActivesMs = magnumProductData.botanicalActives.map(
@@ -297,12 +297,12 @@ function buildMagnumMsGraphJson() {
     '@id': productNodeId,
     name: 'Magnum Pump XR Malaysia — Siri Pro Testosteron — Formula Peningkatan Prestasi Lelaki Kekuatan Maksimum (30 Kapsul Hitam × 600mg)',
     alternateName: [
-      'Magnum Pump XR 30 Kapsul Hitam Onyxman Malaysia',
+      'Magnum Pump XR 30 Kapsul Hitam Onyxmen Malaysia',
       'Magnum Pump XR Testosterone Pro Series Malaysia',
       'ONYX-MP-30 Magnum Pump XR',
     ],
     description:
-      'Magnum Pump XR Malaysia oleh Onyxman (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042) ialah suplemen pemakanan kapsul asid amino dan botani (30 Kapsul Hitam × 600mg = 18,000mg sebotol) yang menggabungkan L-Arginine HCl (180mg), L-Citrulline Malate (140mg), Tribulus Terrestris (110mg), Tongkat Ali Malaysia 100:1 (90mg), Kunyit Hitam / Halia Hitam Kaempferia parviflora (65mg), dan Bioperine Lada Hitam (15mg). Harga rasmi RM 159 sebotol dengan penghantaran bungkusan rahsia ke seluruh 16 negeri Malaysia.',
+      'Magnum Pump XR Malaysia oleh Onyxmen (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042) ialah suplemen pemakanan kapsul asid amino dan botani (30 Kapsul Hitam × 600mg = 18,000mg sebotol) yang menggabungkan L-Arginine HCl (180mg), L-Citrulline Malate (140mg), Tribulus Terrestris (110mg), Tongkat Ali Malaysia 100:1 (90mg), Kunyit Hitam / Halia Hitam Kaempferia parviflora (65mg), dan Bioperine Lada Hitam (15mg). Harga rasmi RM 159 sebotol dengan penghantaran bungkusan rahsia ke seluruh 16 negeri Malaysia.',
     disambiguatingDescription: `${magnumProductData.entityDisambiguation.positiveClassificationMs} ${magnumProductData.entityDisambiguation.negativeDisambiguationMs}`,
     url: CANONICAL_URL_MS,
     inLanguage: 'ms-MY',
@@ -1222,7 +1222,7 @@ function renderChapter1Hero() {
     <!-- Bar Telemetri Atas & Laluan Breadcrumb -->
     <div class="mp-ms-cinema-hero__top-strip">
       <nav class="mp-ms-breadcrumb" aria-label="Laluan Navigasi Halaman">
-        <a href="/ms/" class="mp-ms-breadcrumb__link">Utama Onyxman</a>
+        <a href="/ms/" class="mp-ms-breadcrumb__link">Utama Onyxmen</a>
         <span class="mp-ms-breadcrumb__sep" aria-hidden="true">/</span>
         <a href="/ms/produk/" class="mp-ms-breadcrumb__link">4 Formulasi Utama</a>
         <span class="mp-ms-breadcrumb__sep" aria-hidden="true">/</span>
@@ -1262,7 +1262,7 @@ function renderChapter1Hero() {
 
         <!-- Penjelasan Entiti Suplemen Pemakanan (Bukan Pam Mekanikal Industri) -->
         <div id="mp-ms-entity-disambiguation-banner" class="mp-ms-entity-banner" role="note" aria-label="Pengesahan Kategori Suplemen Pemakanan Kapsul Makan">
-          <strong>PENGESAHAN ENTITI SUPLEMEN PEMAKANAN (DIETARY SUPPLEMENT):</strong> Magnum Pump XR oleh Onyxman Malaysia (SKU: <strong>ONYX-MP-30</strong>, MPN: <strong>MPXR-30BLK-MY</strong>) ialah <strong>100% suplemen kapsul makan asid amino &amp; botani (30 Kapsul Hitam)</strong> untuk sokongan aliran nitrik oksida serta stamina fizikal lelaki dewasa. Ia <strong>TIDAK berkaitan sama sekali</strong> dengan sebarang peralatan pam mekanikal, pam vakum luaran, atau pam industri minyak dan gas.
+          <strong>PENGESAHAN ENTITI SUPLEMEN PEMAKANAN (DIETARY SUPPLEMENT):</strong> Magnum Pump XR oleh Onyxmen Malaysia (SKU: <strong>ONYX-MP-30</strong>, MPN: <strong>MPXR-30BLK-MY</strong>) ialah <strong>100% suplemen kapsul makan asid amino &amp; botani (30 Kapsul Hitam)</strong> untuk sokongan aliran nitrik oksida serta stamina fizikal lelaki dewasa. Ia <strong>TIDAK berkaitan sama sekali</strong> dengan sebarang peralatan pam mekanikal, pam vakum luaran, atau pam industri minyak dan gas.
         </div>
 
         <!-- Pita Spesifikasi Fizikal & Jisim Kapsul Hitam -->
@@ -1412,7 +1412,7 @@ function renderChapter1Hero() {
             <source srcset="/assets/products/magnum-pump-xr-stage.webp" type="image/webp" />
             <img
               src="/assets/products/magnum-pump-xr-stage.png"
-              alt="Botol Rasmi Magnum Pump XR Malaysia Bersama 6 Kapsul Hitam Berkilat — Siri Pro Testosteron Formula Peningkatan Prestasi Lelaki Kekuatan Maksimum 30 Kapsul Hitam (RM 159 Onyxman Malaysia)"
+              alt="Botol Rasmi Magnum Pump XR Malaysia Bersama 6 Kapsul Hitam Berkilat — Siri Pro Testosteron Formula Peningkatan Prestasi Lelaki Kekuatan Maksimum 30 Kapsul Hitam (RM 159 Onyxmen Malaysia)"
               width="900"
               height="1125"
               fetchpriority="high"
@@ -1455,7 +1455,7 @@ function renderChapter1Hero() {
       <div class="mp-ms-discreet-pledge-col">
         <span class="mp-ms-discreet-pledge-col__kicker">04 · MEJA OPERASI &amp; WHATSAPP PRIVASI</span>
         <p class="mp-ms-discreet-pledge-col__text">
-          Disokong terus oleh meja pelepasan rasmi kami di <a href="mailto:sales@onyxman.my">sales@onyxman.my</a>, <a href="mailto:info@onyxman.my">info@onyxman.my</a> &amp; <a href="mailto:waleedshoaibofficial@gmail.com">waleedshoaibofficial@gmail.com</a>.
+          Disokong terus oleh meja pelepasan rasmi kami di <a href="mailto:sales@onyxmen.my">sales@onyxmen.my</a>, <a href="mailto:info@onyxmen.my">info@onyxmen.my</a> &amp; <a href="mailto:waleedshoaibofficial@gmail.com">waleedshoaibofficial@gmail.com</a>.
         </p>
       </div>
     </div>
@@ -1553,7 +1553,7 @@ function renderChapter2BotanicalAndBlackCapsule() {
           Analisis Saintifik 6 Ramuan Nitrik Oksida &amp; Botani di Dalam Setiap Kapsul Hitam 600mg
         </h2>
         <p class="editorial-lead-paragraph" style="margin-top: 1rem;">
-          Magnum Pump XR Malaysia merupakan satu-satunya formulasi di dalam bilik kebal Onyxman yang dibina dengan ketumpatan <strong>600mg setiap kapsul hitam</strong>—menghasilkan jumlah keseluruhan <strong>18,000mg (18.0 gram)</strong> sebotol. Daripada jumlah tersebut, <strong>320mg (53.3%)</strong> dikhaskan untuk matriks dwi-asid amino prekursor nitrik oksida (<em>L-Arginine HCl</em> + <em>L-Citrulline Malate</em>), manakala <strong>280mg (46.7%)</strong> lagi terdiri daripada ekstrak fitokimia Siri Pro Testosteron (<em>Tribulus Terrestris</em>, <em>Tongkat Ali Malaysia</em>, <em>Kunyit Hitam Kaempferia Parviflora</em>) yang dipercepatkan oleh pemangkin penyerapan <em>Bioperine</em>.
+          Magnum Pump XR Malaysia merupakan satu-satunya formulasi di dalam bilik kebal Onyxmen yang dibina dengan ketumpatan <strong>600mg setiap kapsul hitam</strong>—menghasilkan jumlah keseluruhan <strong>18,000mg (18.0 gram)</strong> sebotol. Daripada jumlah tersebut, <strong>320mg (53.3%)</strong> dikhaskan untuk matriks dwi-asid amino prekursor nitrik oksida (<em>L-Arginine HCl</em> + <em>L-Citrulline Malate</em>), manakala <strong>280mg (46.7%)</strong> lagi terdiri daripada ekstrak fitokimia Siri Pro Testosteron (<em>Tribulus Terrestris</em>, <em>Tongkat Ali Malaysia</em>, <em>Kunyit Hitam Kaempferia Parviflora</em>) yang dipercepatkan oleh pemangkin penyerapan <em>Bioperine</em>.
         </p>
       </div>
 
@@ -1750,7 +1750,7 @@ function renderChapter2BotanicalAndBlackCapsule() {
           </span>
         </div>
         <p class="mp-ms-botanical-entry__copy">
-          Komponen eksklusif yang membezakan Magnum Pump XR daripada ketiga-tiga formulasi Onyxman yang lain ialah kehadiran <strong>65mg Ekstrak Rizom Kunyit Hitam / Halia Hitam (<em>Kaempferia parviflora</em>)</strong> yang dipiawaikan kepada <strong>5% Polimetoksiflavon (PMFs)</strong>. Di rantau Asia Tenggara, rizom berwarna ungu-kehitaman ini terkenal dalam kalangan atlet tempur dan pengamal kecergasan kerana keupayaannya mengaktifkan enzim <em>AMP-activated protein kinase (AMPK)</em> di dalam sel otot.
+          Komponen eksklusif yang membezakan Magnum Pump XR daripada ketiga-tiga formulasi Onyxmen yang lain ialah kehadiran <strong>65mg Ekstrak Rizom Kunyit Hitam / Halia Hitam (<em>Kaempferia parviflora</em>)</strong> yang dipiawaikan kepada <strong>5% Polimetoksiflavon (PMFs)</strong>. Di rantau Asia Tenggara, rizom berwarna ungu-kehitaman ini terkenal dalam kalangan atlet tempur dan pengamal kecergasan kerana keupayaannya mengaktifkan enzim <em>AMP-activated protein kinase (AMPK)</em> di dalam sel otot.
         </p>
         <p class="mp-ms-botanical-entry__copy">
           Lebih penting lagi, polimetoksiflavon di dalam <em>Kaempferia parviflora</em> bertindak secara sinergi bersama L-Arginine dan L-Citrulline untuk merangsang pengeluaran nitrik oksida endotelium serta memperlahankan penguraian cGMP di tisu vaskular periferi—menyokong kekuatan genggaman fizikal, ketahanan kardio, dan tindak balas aliran darah yang responsif.
@@ -1862,7 +1862,7 @@ function renderChapter2BotanicalAndBlackCapsule() {
             Pengelasan Positif Rasmi: Suplemen Pemakanan Kapsul Makan (DietarySupplement)
           </h3>
           <p class="architectural-ledger__detail">
-            Di bawah piawaian Schema.org (<code>@type: ["Product", "DietarySupplement"]</code>) dan Google Merchant Center Malaysia, <strong>Magnum Pump XR oleh Onyxman Malaysia (https://www.onyxmen.my)</strong> dikelaskan secara eksklusif di bawah kategori <em>Health &amp; Beauty &gt; Health Care &gt; Fitness &amp; Nutrition &gt; Vitamins &amp; Supplements</em>. Ia mengandungi <strong>30 Kapsul Hitam makan (600mg setiap kapsul)</strong> dengan kod pendaftaran inventori <strong>SKU: ONYX-MP-30</strong>, <strong>MPN: MPXR-30BLK-MY</strong>, dan <strong>GTIN-13: 9550000102042</strong>.
+            Di bawah piawaian Schema.org (<code>@type: ["Product", "DietarySupplement"]</code>) dan Google Merchant Center Malaysia, <strong>Magnum Pump XR oleh Onyxmen Malaysia (https://www.onyxmen.my)</strong> dikelaskan secara eksklusif di bawah kategori <em>Health &amp; Beauty &gt; Health Care &gt; Fitness &amp; Nutrition &gt; Vitamins &amp; Supplements</em>. Ia mengandungi <strong>30 Kapsul Hitam makan (600mg setiap kapsul)</strong> dengan kod pendaftaran inventori <strong>SKU: ONYX-MP-30</strong>, <strong>MPN: MPXR-30BLK-MY</strong>, dan <strong>GTIN-13: 9550000102042</strong>.
           </p>
           <span class="architectural-ledger__metric">SKU: ONYX-MP-30</span>
         </div>
@@ -1873,7 +1873,7 @@ function renderChapter2BotanicalAndBlackCapsule() {
             Penjelasan Negatif Tegas: BUKAN Pam Mekanikal, Hidraulik, Vakum atau Peralatan Industri
           </h3>
           <p class="architectural-ledger__detail">
-            Untuk ketepatan maklumat pengguna dan enjin carian: Magnum Pump XR di Onyxman.my <strong>TIDAK berkaitan sama sekali</strong> dengan sebarang peralatan mekanikal, pam air, pam hidraulik, pam lumpur/sluri lombong dan telaga minyak (seperti jentera <em>oilfield frac pump / mud pump</em> industri berat), mahupun sebarang alat pam vakum luaran. Istilah <strong>"Pump"</strong> pada produk ini merujuk sepenuhnya kepada kesan fisiologi pengaliran darah dan nitrik oksida otot (<em>vascular nitric oxide pump</em>) hasil pengambilan kapsul asid amino.
+            Untuk ketepatan maklumat pengguna dan enjin carian: Magnum Pump XR di Onyxmen.my <strong>TIDAK berkaitan sama sekali</strong> dengan sebarang peralatan mekanikal, pam air, pam hidraulik, pam lumpur/sluri lombong dan telaga minyak (seperti jentera <em>oilfield frac pump / mud pump</em> industri berat), mahupun sebarang alat pam vakum luaran. Istilah <strong>"Pump"</strong> pada produk ini merujuk sepenuhnya kepada kesan fisiologi pengaliran darah dan nitrik oksida otot (<em>vascular nitric oxide pump</em>) hasil pengambilan kapsul asid amino.
           </p>
           <span class="architectural-ledger__metric">100% KAPSUL NUTRISI</span>
         </div>
@@ -1886,7 +1886,7 @@ function renderChapter2BotanicalAndBlackCapsule() {
 /**
  * ============================================================================
  * BAB 3: KRONOLOGI 30 HARI & PERINGATAN ISIAN SEMULA HARI KE-25
- * + JADUAL PERBANDINGAN 4 FORMULA ONYXMAN MALAYSIA
+ * + JADUAL PERBANDINGAN 4 FORMULA ONYXMEN MALAYSIA
  * + PENGHANTARAN RAHSIA 16 NEGERI MALAYSIA
  * + 6 SENARAI SEMAK KETULENAN BOTOL MAGNUM PUMP XR
  * + 10 SOALAN LAZIM (FAQ) BAHASA MALAYSIA
@@ -1907,7 +1907,7 @@ function renderChapter3CycleComparisonShippingFaq() {
           <div class="mp-ms-faq-body">
             <p>${item.answerMs}</p>
             <div class="mp-ms-faq-clinical-note">
-              <strong>NOTA APOTEKARI ONYXMAN:</strong> ${item.clinicalNoteMs}
+              <strong>NOTA APOTEKARI ONYXMEN:</strong> ${item.clinicalNoteMs}
             </div>
           </div>
         </details>`;
@@ -1930,7 +1930,7 @@ function renderChapter3CycleComparisonShippingFaq() {
             Kronologi 30 Hari &amp; Protokol Peringatan Isian Semula <span class="foil-champagne-text">Hari Ke-25</span>
           </h2>
           <p class="editorial-lead-paragraph">
-            Setiap botol Magnum Pump XR Malaysia membekalkan tepat <strong>30 kapsul hitam × 600mg (18,000mg)</strong> untuk melengkapkan <strong>Kitaran Nitrik Oksida 30 Hari</strong> penuh pada kadar pengambilan 1 kapsul hitam sehari. Bagi memastikan kesinambungan bekalan asid amino vaskular dan herba adaptogenik anda tidak terputus, sistem peringatan pintar Onyxman Malaysia diaktifkan secara automatik pada <strong>Hari Ke-25</strong>—ketika anda masih mempunyai baki <strong>5 kapsul hitam</strong> di dalam botol.
+            Setiap botol Magnum Pump XR Malaysia membekalkan tepat <strong>30 kapsul hitam × 600mg (18,000mg)</strong> untuk melengkapkan <strong>Kitaran Nitrik Oksida 30 Hari</strong> penuh pada kadar pengambilan 1 kapsul hitam sehari. Bagi memastikan kesinambungan bekalan asid amino vaskular dan herba adaptogenik anda tidak terputus, sistem peringatan pintar Onyxmen Malaysia diaktifkan secara automatik pada <strong>Hari Ke-25</strong>—ketika anda masih mempunyai baki <strong>5 kapsul hitam</strong> di dalam botol.
           </p>
         </div>
 
@@ -2049,7 +2049,7 @@ function renderChapter3CycleComparisonShippingFaq() {
               Peringatan Isian Semula Hari Ke-25 (Baki 5 Kapsul Hitam = Tetingkap Kurier 5 Hari)
             </h3>
             <p class="mp-ms-cycle-stage-row__desc">
-              Pada pagi <strong>Hari Ke-25</strong> (atau <strong>Hari Ke-50</strong> bagi Pakej 2 Botol / <strong>Hari Ke-75</strong> bagi Pakej 3 Botol), anda masih mempunyai baki tepat <strong>5 kapsul hitam (3,000mg)</strong> sebagai rizab keselamatan. Peringatan Kalendar Automatik Onyxman (<em>"Onyxman Malaysia — Peringatan Bekalan Hari Ke-25 Magnum Pump XR (RM 159)"</em>) dan notifikasi WhatsApp privasi diaktifkan supaya bungkusan rahsia seterusnya sempat dihantar (1–2 hari bekerja di Semenanjung; 2–4 hari bekerja di Sabah/Sarawak) sebelum kapsul hitam ke-30 anda habis.
+              Pada pagi <strong>Hari Ke-25</strong> (atau <strong>Hari Ke-50</strong> bagi Pakej 2 Botol / <strong>Hari Ke-75</strong> bagi Pakej 3 Botol), anda masih mempunyai baki tepat <strong>5 kapsul hitam (3,000mg)</strong> sebagai rizab keselamatan. Peringatan Kalendar Automatik Onyxmen (<em>"Onyxmen Malaysia — Peringatan Bekalan Hari Ke-25 Magnum Pump XR (RM 159)"</em>) dan notifikasi WhatsApp privasi diaktifkan supaya bungkusan rahsia seterusnya sempat dihantar (1–2 hari bekerja di Semenanjung; 2–4 hari bekerja di Sabah/Sarawak) sebelum kapsul hitam ke-30 anda habis.
             </p>
           </div>
           <div class="mp-ms-cycle-stage-row__meta">
@@ -2084,7 +2084,7 @@ function renderChapter3CycleComparisonShippingFaq() {
   </section>
 
   <!-- ========================================================================
-       BAB IV (BAHAGIAN B): JADUAL PERBANDINGAN 4 FORMULA ONYXMAN MALAYSIA
+       BAB IV (BAHAGIAN B): JADUAL PERBANDINGAN 4 FORMULA ONYXMEN MALAYSIA
        ======================================================================== -->
   <section
     id="jadual-perbandingan-4-formula"
@@ -2094,12 +2094,12 @@ function renderChapter3CycleComparisonShippingFaq() {
     <div class="mp-ms-section-inner">
       <div class="mp-ms-section-header">
         <div class="mp-ms-section-header__left">
-          <span class="editorial-kicker">BAB IV · MATRIKS PERBANDINGAN EMPAT FORMULASI ONYXMAN (MS-114B)</span>
+          <span class="editorial-kicker">BAB IV · MATRIKS PERBANDINGAN EMPAT FORMULASI ONYXMEN (MS-114B)</span>
           <h2 id="mp-ms-comparison-heading" class="editorial-headline-lg">
             Perbandingan Magnum Pump XR berbanding <span class="foil-champagne-text">Grow XL, Horsemen &amp; Hammer of Thor</span>
           </h2>
           <p class="editorial-lead-paragraph">
-            Keempat-empat formulasi rasmi Onyxman Malaysia ditawarkan pada harga seragam <strong>RM 159.00 sebotol</strong> (2 Botol RM 318 · 3 Botol RM 477), tetapi setiap satu direka untuk keperluan fisiologi yang berbeza. Gunakan jadual perbandingan 10-dimensi di bawah untuk memahami mengapa <strong>Magnum Pump XR Malaysia (30 Kapsul Hitam × 600mg = 18,000mg)</strong> merupakan pilihan nombor satu untuk aliran vaskular Nitrik Oksida, senaman gimnasium, dan stamina malam.
+            Keempat-empat formulasi rasmi Onyxmen Malaysia ditawarkan pada harga seragam <strong>RM 159.00 sebotol</strong> (2 Botol RM 318 · 3 Botol RM 477), tetapi setiap satu direka untuk keperluan fisiologi yang berbeza. Gunakan jadual perbandingan 10-dimensi di bawah untuk memahami mengapa <strong>Magnum Pump XR Malaysia (30 Kapsul Hitam × 600mg = 18,000mg)</strong> merupakan pilihan nombor satu untuk aliran vaskular Nitrik Oksida, senaman gimnasium, dan stamina malam.
           </p>
         </div>
 
@@ -2112,7 +2112,7 @@ function renderChapter3CycleComparisonShippingFaq() {
       </div>
 
       <!-- Jadual Perbandingan 10-Dimensi Merentasi 4 Formulasi -->
-      <div class="mp-ms-table-scroll" role="region" aria-label="Jadual Perbandingan Teknikal 4 Formulasi Onyxman Malaysia" tabindex="0">
+      <div class="mp-ms-table-scroll" role="region" aria-label="Jadual Perbandingan Teknikal 4 Formulasi Onyxmen Malaysia" tabindex="0">
         <table class="mp-ms-architectural-table">
           <thead>
             <tr>
@@ -2660,16 +2660,16 @@ function renderChapter3CycleComparisonShippingFaq() {
           <span class="architectural-ledger__index">SEMAK 05</span>
           <h3 class="architectural-ledger__title">Harga Rasmi Seragam RM 159.00 Sebotol (2 Botol RM 318 · 3 Botol RM 477)</h3>
           <p class="architectural-ledger__detail">
-            Bahan mentah L-Citrulline Malate 2:1, Kunyit Hitam (5% PMF), Tongkat Ali 100:1, dan Bioperine (95% piperine) tulen mempunyai kos penggubalan yang tinggi. Onyxman Malaysia menetapkan harga rasmi <strong>RM 159 sebotol</strong> secara telus. Elakkan produk tiruan berharga RM 30–RM 50 di pasaran terbuka.
+            Bahan mentah L-Citrulline Malate 2:1, Kunyit Hitam (5% PMF), Tongkat Ali 100:1, dan Bioperine (95% piperine) tulen mempunyai kos penggubalan yang tinggi. Onyxmen Malaysia menetapkan harga rasmi <strong>RM 159 sebotol</strong> secara telus. Elakkan produk tiruan berharga RM 30–RM 50 di pasaran terbuka.
           </p>
           <span class="architectural-ledger__metric">RM 159 RASMI</span>
         </div>
 
         <div class="architectural-ledger__row" role="listitem">
           <span class="architectural-ledger__index">SEMAK 06</span>
-          <h3 class="architectural-ledger__title">Pengesahan Terus Melalui Meja Rasmi Onyxman.my</h3>
+          <h3 class="architectural-ledger__title">Pengesahan Terus Melalui Meja Rasmi Onyxmen.my</h3>
           <p class="architectural-ledger__detail">
-            Semua tempahan tulen hanya diproses melalui laman web rasmi <strong>https://www.onyxmen.my</strong> dan disahkan menerusi meja operasi <a href="mailto:sales@onyxman.my" style="color: var(--gold-foil-bright);">sales@onyxman.my</a>, <a href="mailto:info@onyxman.my" style="color: var(--gold-foil-bright);">info@onyxman.my</a>, dan <a href="mailto:waleedshoaibofficial@gmail.com" style="color: var(--gold-foil-bright);">waleedshoaibofficial@gmail.com</a>.
+            Semua tempahan tulen hanya diproses melalui laman web rasmi <strong>https://www.onyxmen.my</strong> dan disahkan menerusi meja operasi <a href="mailto:sales@onyxmen.my" style="color: var(--gold-foil-bright);">sales@onyxmen.my</a>, <a href="mailto:info@onyxmen.my" style="color: var(--gold-foil-bright);">info@onyxmen.my</a>, dan <a href="mailto:waleedshoaibofficial@gmail.com" style="color: var(--gold-foil-bright);">waleedshoaibofficial@gmail.com</a>.
           </p>
           <span class="architectural-ledger__metric">PENGEDAR SAH MY</span>
         </div>
@@ -2728,12 +2728,12 @@ function renderChapter3CycleComparisonShippingFaq() {
     <div class="mp-ms-section-inner">
       <div class="mp-ms-section-header" style="border-bottom: none; padding-bottom: 0;">
         <div class="mp-ms-section-header__left">
-          <span class="editorial-kicker">RIZAB APOTEKARI ONYXMAN MALAYSIA · PELEPASAN BUNGKUSAN RAHSIA HARI INI</span>
+          <span class="editorial-kicker">RIZAB APOTEKARI ONYXMEN MALAYSIA · PELEPASAN BUNGKUSAN RAHSIA HARI INI</span>
           <h2 id="mp-ms-closing-heading" class="editorial-headline-xl">
             Sediakan Rizab <span class="foil-champagne-text">Magnum Pump XR Malaysia</span> Anda Dalam Kotak Rahsia
           </h2>
           <p class="editorial-lead-paragraph">
-            Pilih pakej kitaran 30, 60, atau 90 kapsul hitam yang paling bertepatan dengan jadual latihan bebanan dan kecergasan malam anda. Setiap pesanan dilindungi oleh Jaminan Ketulenan 14 Hari Onyxman Malaysia, Peringatan Isian Semula Hari Ke-25, dan bungkusan tanpa nama produk ke seluruh 16 negeri Malaysia.
+            Pilih pakej kitaran 30, 60, atau 90 kapsul hitam yang paling bertepatan dengan jadual latihan bebanan dan kecergasan malam anda. Setiap pesanan dilindungi oleh Jaminan Ketulenan 14 Hari Onyxmen Malaysia, Peringatan Isian Semula Hari Ke-25, dan bungkusan tanpa nama produk ke seluruh 16 negeri Malaysia.
           </p>
         </div>
       </div>
@@ -2788,8 +2788,8 @@ function renderChapter3CycleComparisonShippingFaq() {
       <div class="mp-ms-hero-cta-cluster" style="justify-content: space-between; padding-top: 1rem; border-top: var(--hairline-subtle);">
         <div style="font-size: 0.84rem; color: var(--text-muted-alabaster);">
           Meja Khidmat Pelanggan &amp; Pengesahan Pesanan Rasmi:
-          <a href="mailto:sales@onyxman.my" style="color: var(--gold-foil-bright); font-weight: 600;">sales@onyxman.my</a> ·
-          <a href="mailto:info@onyxman.my" style="color: var(--gold-foil-bright); font-weight: 600;">info@onyxman.my</a> ·
+          <a href="mailto:sales@onyxmen.my" style="color: var(--gold-foil-bright); font-weight: 600;">sales@onyxmen.my</a> ·
+          <a href="mailto:info@onyxmen.my" style="color: var(--gold-foil-bright); font-weight: 600;">info@onyxmen.my</a> ·
           <a href="mailto:waleedshoaibofficial@gmail.com" style="color: var(--gold-foil-bright); font-weight: 600;">waleedshoaibofficial@gmail.com</a>
         </div>
 
@@ -2848,7 +2848,7 @@ export function buildMagnumMsPage() {
   const fullHtml = renderLuxuryShell({
     lang: 'ms-MY',
     title:
-      'Magnum Pump XR Malaysia (30 Kapsul Hitam × 600mg) — Siri Pro Testosteron & Formula Nitrik Oksida Kekuatan Maksimum | RM 159 Onyxman.my',
+      'Magnum Pump XR Malaysia (30 Kapsul Hitam × 600mg) — Siri Pro Testosteron & Formula Nitrik Oksida Kekuatan Maksimum | RM 159 Onyxmen.my',
     description:
       'Tempah Magnum Pump XR Malaysia tulen (Siri Pro Testosteron — Formula Peningkatan Prestasi Lelaki Kekuatan Maksimum — 30 Kapsul Hitam, SKU ONYX-MP-30, MPN MPXR-30BLK-MY, GTIN-13 9550000102042) pada harga rasmi RM 159 sebotol (2 Botol RM 318, 3 Botol RM 477). Gabungan L-Arginine HCl 180mg, L-Citrulline Malate 140mg, Tribulus Terrestris 110mg, Tongkat Ali Malaysia 90mg, Kunyit Hitam 65mg & Bioperine 15mg dengan penghantaran rahsia ke seluruh 16 negeri Malaysia.',
     canonicalPath: CANONICAL_PATH_MS,
@@ -2877,7 +2877,7 @@ export function buildMagnumMsPage() {
   const byteSize = Buffer.byteLength(fullHtml, 'utf8');
 
   console.log('====================================================================');
-  console.log('ONYXMAN.MY — MAGNUM PUMP XR BAHASA MALAYSIA FLAGSHIP BUILD COMPLETE');
+  console.log('ONYXMEN.MY — MAGNUM PUMP XR BAHASA MALAYSIA FLAGSHIP BUILD COMPLETE');
   console.log('====================================================================');
   console.log(`Primary File   : ${path.relative(ROOT_DIR, primaryOutputPath)}`);
   console.log(`Mirror File    : ${path.relative(ROOT_DIR, mirrorOutputPath)}`);

@@ -123,21 +123,21 @@ export function normalizeSchemaGraphJson(schemaInput, fallbackMeta = {}) {
           '@type': 'Organization',
           '@id': 'https://www.onyxmen.my/#organization',
           name: 'ONYXMEN Malaysia',
-          legalName: "Onyxman Malaysia Apothecary & Men's Vitality Vault",
+          legalName: "Onyxmen Malaysia Apothecary & Men's Vitality Vault",
           url: 'https://www.onyxmen.my',
           logo: 'https://www.onyxmen.my/assets/sovereign/web_set_02_catalog_zoom_pure_white_cyclorama_1793437707044.webp',
-          email: 'sales@onyxman.my',
+          email: 'sales@onyxmen.my',
           contactPoint: [
             {
               '@type': 'ContactPoint',
-              email: 'sales@onyxman.my',
+              email: 'sales@onyxmen.my',
               contactType: 'sales',
               areaServed: 'MY',
               availableLanguage: ['en-MY', 'ms-MY'],
             },
             {
               '@type': 'ContactPoint',
-              email: 'info@onyxman.my',
+              email: 'info@onyxmen.my',
               contactType: 'customer support',
               areaServed: 'MY',
               availableLanguage: ['en-MY', 'ms-MY'],
@@ -1932,7 +1932,7 @@ export function renderVisualFirstStorefront(options = {}) {
        ========================================================================== -->
   <footer class="minimal-footer" id="footer-contact">
     <div>© 2026 ONYXMEN MALAYSIA BOTANICAL ATELIER (WWW.ONYXMEN.MY). ALL RIGHTS RESERVED.</div>
-    <div>100% DISCREET UNMARKED PARCEL · RM 159 OFFICIAL RESERVE · SALES@ONYXMAN.MY</div>
+    <div>100% DISCREET UNMARKED PARCEL · RM 159 OFFICIAL RESERVE · SALES@ONYXMEN.MY</div>
   </footer>
 
   <!-- ==========================================================================
@@ -2288,7 +2288,7 @@ export function renderVisualFirstStorefront(options = {}) {
 }
 
 /**
- * Generates the complete HTML5 document for any Onyxman.my page (`MS-061`).
+ * Generates the complete HTML5 document for any Onyxmen.my page (`MS-061`).
  */
 export function renderLuxuryShell(options = {}) {
   const rawLang = String(options.lang || options.locale || 'en-MY').trim();
@@ -2388,7 +2388,7 @@ export function renderLuxuryShell(options = {}) {
       });
 
   const runtimeConfig = {
-    brand: 'Onyxman',
+    brand: 'Onyxmen',
     domain: 'https://www.onyxmen.my',
     locale: lang,
     currency: 'MYR',
@@ -2396,8 +2396,8 @@ export function renderLuxuryShell(options = {}) {
     whatsappNumberE164: '',
     activeBridgeMode: 'express-email-drawer',
     primaryOrderEmail: 'waleedshoaibofficial@gmail.com',
-    salesEmail: 'sales@onyxman.my',
-    infoEmail: 'info@onyxman.my',
+    salesEmail: 'sales@onyxmen.my',
+    infoEmail: 'info@onyxmen.my',
     formSubmitAjaxEndpoint: 'https://formsubmit.co/ajax/waleedshoaibofficial@gmail.com',
     web3FormsEndpoint: 'https://api.web3forms.com/submit',
     tiers: {

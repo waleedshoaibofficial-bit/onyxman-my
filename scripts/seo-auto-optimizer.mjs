@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * ============================================================================
- * ONYXMAN.MY — AUTONOMOUS SEO FRESHNESS, <LASTMOD> VELOCITY & CTR OPTIMIZER (MS-213)
+ * ONYXMEN.MY — AUTONOMOUS SEO FRESHNESS, <LASTMOD> VELOCITY & CTR OPTIMIZER (MS-213)
  * ============================================================================
  * Runs during every build and daily at 09:00 MYT via GitHub Actions (MS-192):
  *   1. Refreshes <lastmod> across all 5 XML sitemaps (sitemap.xml, sitemap-index.xml,
@@ -211,7 +211,7 @@ function main() {
   }
 
   console.log('====================================================================');
-  console.log('ONYXMAN.MY AUTONOMOUS SEO FRESHNESS & TELEMETRY OPTIMIZER (MS-213)');
+  console.log('ONYXMEN.MY AUTONOMOUS SEO FRESHNESS & TELEMETRY OPTIMIZER (MS-213)');
   console.log('====================================================================');
   console.log(`MYT Freshness Date        : ${todayMyt}`);
   console.log(`XML Sitemaps Refreshed    : ${updatedSitemaps}/5 (${totalSitemapLocs} canonical URLs)`);

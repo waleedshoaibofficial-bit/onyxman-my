@@ -1,12 +1,12 @@
 {
   "microSteps": ["MS-036", "MS-037", "MS-038", "MS-039"],
-  "brand": "Onyxman",
+  "brand": "Onyxmen",
   "domain": "https://www.onyxmen.my",
   "hubRoutes": {
     "enPath": "/ingredients/",
     "msPath": "/ms/ramuan-botani/",
-    "titleEn": "Onyxman Botanical Apothecary Monographs — Standardized Extracts & Amino-Acid Science",
-    "titleMs": "Monograf Apotekari Botani Onyxman — Sains Ekstrak Herba Piawai & Asid Amino"
+    "titleEn": "Onyxmen Botanical Apothecary Monographs — Standardized Extracts & Amino-Acid Science",
+    "titleMs": "Monograf Apotekari Botani Onyxmen — Sains Ekstrak Herba Piawai & Asid Amino"
   },
   "monographs": [
     {
@@ -50,22 +50,22 @@
       ],
       "locales": {
         "en-MY": {
-          "seoTitle": "Malaysian Tongkat Ali (Eurycoma longifolia) Monograph — Eurycomanone & Male Vitality | Onyxman Malaysia",
-          "metaDescription": "Explore Onyxman Malaysia's botanical monograph on standardized Eurycoma longifolia (Tongkat Ali 100:1 root extract). Learn how quassinoids and eurypeptides support adult male stamina in Horsemen, Grow XL & Magnum Pump XR.",
+          "seoTitle": "Malaysian Tongkat Ali (Eurycoma longifolia) Monograph — Eurycomanone & Male Vitality | Onyxmen Malaysia",
+          "metaDescription": "Explore Onyxmen Malaysia's botanical monograph on standardized Eurycoma longifolia (Tongkat Ali 100:1 root extract). Learn how quassinoids and eurypeptides support adult male stamina in Horsemen, Grow XL & Magnum Pump XR.",
           "commonTitle": "Malaysian Tongkat Ali Root (Eurycoma longifolia)",
           "subtitle": "Malaysia’s Crown Botanical Heritage — Standardized 100:1 Eurycomanone Quassinoid Complex",
-          "heritageAndExtraction": "Revered across Malaysia as 'Pasak Bumi' or Malaysia's national ethnobotanical treasure, Eurycoma longifolia stores its prized bioactive compounds exclusively in mature taproots aged 5 to 10+ years. Raw crushed root bark sold in unstandardized street stalls contains mostly indigestible cellulose fiber. Onyxman utilizes a clean 100:1 aqueous extraction process that concentrates bitter quassinoids (specifically Eurycomanone), eurypeptides (4.3 kDa), and glycosaponins while screening out heavy metals (lead, mercury, arsenic, cadmium).",
+          "heritageAndExtraction": "Revered across Malaysia as 'Pasak Bumi' or Malaysia's national ethnobotanical treasure, Eurycoma longifolia stores its prized bioactive compounds exclusively in mature taproots aged 5 to 10+ years. Raw crushed root bark sold in unstandardized street stalls contains mostly indigestible cellulose fiber. Onyxmen utilizes a clean 100:1 aqueous extraction process that concentrates bitter quassinoids (specifically Eurycomanone), eurypeptides (4.3 kDa), and glycosaponins while screening out heavy metals (lead, mercury, arsenic, cadmium).",
           "physiologicalMechanism": "Standardized Eurycoma longifolia supports adult male vitality through three complementary nutritional pathways: (1) supporting healthy endocrine balance and free vitality bio-availability, (2) moderating elevated cortisol responses caused by sleep debt and urban Kuala Lumpur work stress, and (3) supporting skeletal muscle ATP turnover during evening physical exertion.",
-          "synergyInOnyxman": "In Horsemen (150mg per 500mg capsule), Tongkat Ali pairs with Peruvian Black Maca and Epimedium for rapid evening readiness. In Grow XL (140mg per capsule), it forms the backbone of a 30-day morning conditioning cycle alongside Muira Puama and Saw Palmetto."
+          "synergyInOnyxmen": "In Horsemen (150mg per 500mg capsule), Tongkat Ali pairs with Peruvian Black Maca and Epimedium for rapid evening readiness. In Grow XL (140mg per capsule), it forms the backbone of a 30-day morning conditioning cycle alongside Muira Puama and Saw Palmetto."
         },
         "ms-MY": {
-          "seoTitle": "Monograf Tongkat Ali Malaysia (Eurycoma longifolia) — Eurycomanone & Stamina Lelaki | Onyxman Malaysia",
-          "metaDescription": "Baca monograf fitokimia Onyxman Malaysia mengenai ekstrak piawai 100:1 Akar Tongkat Ali (Eurycoma longifolia). Ketahui peranan quassinoid dan eurypeptide dalam Horsemen, Grow XL & Magnum Pump XR.",
+          "seoTitle": "Monograf Tongkat Ali Malaysia (Eurycoma longifolia) — Eurycomanone & Stamina Lelaki | Onyxmen Malaysia",
+          "metaDescription": "Baca monograf fitokimia Onyxmen Malaysia mengenai ekstrak piawai 100:1 Akar Tongkat Ali (Eurycoma longifolia). Ketahui peranan quassinoid dan eurypeptide dalam Horsemen, Grow XL & Magnum Pump XR.",
           "commonTitle": "Akar Tongkat Ali Malaysia (Eurycoma longifolia)",
           "subtitle": "Khazanah Herba Kebangsaan Malaysia — Kompleks Quassinoid Eurycomanone Piawai 100:1",
-          "heritageAndExtraction": "Dikenali di seluruh Nusantara sebagai herba ulung untuk tenaga lelaki, Eurycoma longifolia menyimpan sebatian aktifnya di dalam akar tunjang matang yang berusia 5 hingga 10 tahun ke atas. Serbuk akar mentah biasa di pasaran jalanan kebanyakannya hanya mengandungi serat kayu yang sukar diserap. Onyxman menggunakan kaedah pengekstrakan air tulen nisbah 100:1 untuk memekatkan sebatian quassinoid (terutamanya Eurycomanone), eurypeptide, dan glikosaponin serta disaring bebas daripada logam berat.",
+          "heritageAndExtraction": "Dikenali di seluruh Nusantara sebagai herba ulung untuk tenaga lelaki, Eurycoma longifolia menyimpan sebatian aktifnya di dalam akar tunjang matang yang berusia 5 hingga 10 tahun ke atas. Serbuk akar mentah biasa di pasaran jalanan kebanyakannya hanya mengandungi serat kayu yang sukar diserap. Onyxmen menggunakan kaedah pengekstrakan air tulen nisbah 100:1 untuk memekatkan sebatian quassinoid (terutamanya Eurycomanone), eurypeptide, dan glikosaponin serta disaring bebas daripada logam berat.",
           "physiologicalMechanism": "Ekstrak piawai Eurycoma longifolia menyokong kecergasan lelaki dewasa melalui tiga laluan nutrisi utama: (1) menyokong keseimbangan tenaga dalaman semula jadi lelaki, (2) membantu mengawal kesan kelesuan akibat tekanan kerja harian dan kurang rehat, serta (3) menyokong penghasilan tenaga selular ATP semasa aktiviti fizikal waktu malam.",
-          "synergyInOnyxman": "Dalam Horsemen (150mg setiap kapsul 500mg), Tongkat Ali digabungkan bersama Maca Hitam Peru dan Epimedium untuk kesediaan malam yang pantas. Dalam Grow XL (140mg setiap kapsul), ia menjadi teras rutin penjagaan harian selama 30 hari bersama Muira Puama dan Saw Palmetto."
+          "synergyInOnyxmen": "Dalam Horsemen (150mg setiap kapsul 500mg), Tongkat Ali digabungkan bersama Maca Hitam Peru dan Epimedium untuk kesediaan malam yang pantas. Dalam Grow XL (140mg setiap kapsul), ia menjadi teras rutin penjagaan harian selama 30 hari bersama Muira Puama dan Saw Palmetto."
         }
       },
       "qualityMarkers": [
@@ -112,22 +112,22 @@
       ],
       "locales": {
         "en-MY": {
-          "seoTitle": "Tribulus Terrestris & Panax Ginseng Monograph — Steroidal Saponins & Physical Drive | Onyxman Malaysia",
-          "metaDescription": "Discover the phytochemistry of high-saponin Tribulus Terrestris (60% furostanol saponins) and Korean Red Panax Ginseng in Hammer of Thor (20 Veg. Capsules) and Magnum Pump XR at Onyxman Malaysia.",
+          "seoTitle": "Tribulus Terrestris & Panax Ginseng Monograph — Steroidal Saponins & Physical Drive | Onyxmen Malaysia",
+          "metaDescription": "Discover the phytochemistry of high-saponin Tribulus Terrestris (60% furostanol saponins) and Korean Red Panax Ginseng in Hammer of Thor (20 Veg. Capsules) and Magnum Pump XR at Onyxmen Malaysia.",
           "commonTitle": "Tribulus Terrestris & Panax Ginseng Complex",
           "subtitle": "High-Saponin Protodioscin Phytosterols & Ginsenoside Physical Endurance Matrix",
-          "heritageAndExtraction": "Tribulus terrestris is the signature botanical emblazoned on the front label of Onyxman's Hammer of Thor ('Men's Health — Tribulus Terrestris — 20 Veg. Capsules'). Its potency depends entirely on its concentration of steroidal saponins—specifically protodioscin. Onyxman sources aerial fruit extracts standardized to 60% furostanol saponins in Hammer of Thor (200mg) and 45% saponins in Magnum Pump XR (110mg), paired with aged Panax ginseng standardized to 8%–10% ginsenosides.",
+          "heritageAndExtraction": "Tribulus terrestris is the signature botanical emblazoned on the front label of Onyxmen's Hammer of Thor ('Men's Health — Tribulus Terrestris — 20 Veg. Capsules'). Its potency depends entirely on its concentration of steroidal saponins—specifically protodioscin. Onyxmen sources aerial fruit extracts standardized to 60% furostanol saponins in Hammer of Thor (200mg) and 45% saponins in Magnum Pump XR (110mg), paired with aged Panax ginseng standardized to 8%–10% ginsenosides.",
           "physiologicalMechanism": "Furostanol saponins (protodioscin) and Panax ginsenosides work in tandem to support androgen receptor sensitivity, nitric oxide synthase activity in vascular endothelium, and physical resistance against muscular fatigue during heavy resistance training or evening exertion.",
-          "synergyInOnyxman": "Hammer of Thor pairs 200mg of 60%-saponin Tribulus Terrestris with 60mg Panax Ginseng and 15mg Chelated Zinc inside a 100% vegetarian HPMC capsule. Magnum Pump XR integrates 110mg of Tribulus alongside L-Arginine HCl and L-Citrulline inside its 30 black capsules."
+          "synergyInOnyxmen": "Hammer of Thor pairs 200mg of 60%-saponin Tribulus Terrestris with 60mg Panax Ginseng and 15mg Chelated Zinc inside a 100% vegetarian HPMC capsule. Magnum Pump XR integrates 110mg of Tribulus alongside L-Arginine HCl and L-Citrulline inside its 30 black capsules."
         },
         "ms-MY": {
-          "seoTitle": "Monograf Tribulus Terrestris & Panax Ginseng — Saponin Steroid & Kekuatan Fizikal | Onyxman Malaysia",
-          "metaDescription": "Kenali sains fitokimia Tribulus Terrestris bersaponin tinggi (60% saponin furostanol) dan Panax Ginseng dalam Hammer of Thor (20 Kapsul Veg) serta Magnum Pump XR di Onyxman Malaysia.",
+          "seoTitle": "Monograf Tribulus Terrestris & Panax Ginseng — Saponin Steroid & Kekuatan Fizikal | Onyxmen Malaysia",
+          "metaDescription": "Kenali sains fitokimia Tribulus Terrestris bersaponin tinggi (60% saponin furostanol) dan Panax Ginseng dalam Hammer of Thor (20 Kapsul Veg) serta Magnum Pump XR di Onyxmen Malaysia.",
           "commonTitle": "Kompleks Tribulus Terrestris & Panax Ginseng",
           "subtitle": "Fitosterol Saponin Protodioscin Berkepekatan Tinggi & Ginsenosida Ketahanan Fizikal",
-          "heritageAndExtraction": "Tribulus terrestris merupakan herba utama yang tertera dengan jelas pada label hadapan botol Hammer of Thor ('Men's Health — Tribulus Terrestris — 20 Veg. Capsules'). Keberkesanannya bergantung kepada kepekatan saponin steroid khususnya protodioscin. Onyxman menggunakan ekstrak buah piawai 60% saponin furostanol dalam Hammer of Thor (200mg) dan 45% saponin dalam Magnum Pump XR (110mg), digandingkan bersama Panax ginseng tua (8%–10% ginsenosida).",
+          "heritageAndExtraction": "Tribulus terrestris merupakan herba utama yang tertera dengan jelas pada label hadapan botol Hammer of Thor ('Men's Health — Tribulus Terrestris — 20 Veg. Capsules'). Keberkesanannya bergantung kepada kepekatan saponin steroid khususnya protodioscin. Onyxmen menggunakan ekstrak buah piawai 60% saponin furostanol dalam Hammer of Thor (200mg) dan 45% saponin dalam Magnum Pump XR (110mg), digandingkan bersama Panax ginseng tua (8%–10% ginsenosida).",
           "physiologicalMechanism": "Saponin furostanol (protodioscin) dan ginsenosida Panax ginseng bertindak bersama untuk menyokong kecergasan reseptor tenaga lelaki, aktiviti nitrik oksida pada saluran darah, serta ketahanan otot daripada cepat lesu semasa latihan bebanan atau aktiviti malam.",
-          "synergyInOnyxman": "Hammer of Thor menggabungkan 200mg Tribulus Terrestris (60% saponin) bersama 60mg Panax Ginseng dan 15mg Zink Terkelat di dalam kapsul vegetarian HPMC. Magnum Pump XR pula memuatkan 110mg Tribulus bersama L-Arginine HCl dan L-Citrulline di dalam 30 kapsul hitamnya."
+          "synergyInOnyxmen": "Hammer of Thor menggabungkan 200mg Tribulus Terrestris (60% saponin) bersama 60mg Panax Ginseng dan 15mg Zink Terkelat di dalam kapsul vegetarian HPMC. Magnum Pump XR pula memuatkan 110mg Tribulus bersama L-Arginine HCl dan L-Citrulline di dalam 30 kapsul hitamnya."
         }
       },
       "qualityMarkers": [
@@ -172,22 +172,22 @@
       ],
       "locales": {
         "en-MY": {
-          "seoTitle": "Peruvian Black Maca Root (Lepidium meyenii) Monograph — Adaptogenic Stamina | Onyxman Malaysia",
-          "metaDescription": "Read Onyxman Malaysia's botanical monograph on Gelatinized Peruvian Black Maca Root (Lepidium meyenii). Learn how macamides and macaenes support non-stimulant male endurance in Horsemen, Hammer of Thor & Grow XL.",
+          "seoTitle": "Peruvian Black Maca Root (Lepidium meyenii) Monograph — Adaptogenic Stamina | Onyxmen Malaysia",
+          "metaDescription": "Read Onyxmen Malaysia's botanical monograph on Gelatinized Peruvian Black Maca Root (Lepidium meyenii). Learn how macamides and macaenes support non-stimulant male endurance in Horsemen, Hammer of Thor & Grow XL.",
           "commonTitle": "Peruvian Black Maca Root (Lepidium meyenii)",
           "subtitle": "High-Altitude Andean Adaptogen — Starch-Gelatinized Macamides & Macaenes",
-          "heritageAndExtraction": "Cultivated above 4,000 meters in the freezing winds and intense UV radiation of the Peruvian Andes, Lepidium meyenii (specifically the rare Black Maca phenotype) synthesizes unique lipid-alkaloid compounds known as macamides and macaenes. Because raw maca root contains dense amylose starches that can cause bloating, Onyxman uses a low-heat extrusion gelatinization process that removes raw starch chains while concentrating active macamides at a 10:1 ratio.",
+          "heritageAndExtraction": "Cultivated above 4,000 meters in the freezing winds and intense UV radiation of the Peruvian Andes, Lepidium meyenii (specifically the rare Black Maca phenotype) synthesizes unique lipid-alkaloid compounds known as macamides and macaenes. Because raw maca root contains dense amylose starches that can cause bloating, Onyxmen uses a low-heat extrusion gelatinization process that removes raw starch chains while concentrating active macamides at a 10:1 ratio.",
           "physiologicalMechanism": "Unlike synthetic stimulants or caffeine that spike heart rate and blood pressure, Peruvian Black Maca acts as a true metabolic adaptogen. Clinical nutrition studies demonstrate that standardized macamides support physical stamina, subjective vitality drive, and cellular resilience without altering resting pulse or disrupting REM sleep.",
-          "synergyInOnyxman": "Featured across Grow XL (110mg), Horsemen (100mg), and Hammer of Thor (100mg), Peruvian Maca bridges Malaysian Tongkat Ali with sustained Andean endurance—ideal for men who want strong evening stamina while still sleeping deeply afterwards."
+          "synergyInOnyxmen": "Featured across Grow XL (110mg), Horsemen (100mg), and Hammer of Thor (100mg), Peruvian Maca bridges Malaysian Tongkat Ali with sustained Andean endurance—ideal for men who want strong evening stamina while still sleeping deeply afterwards."
         },
         "ms-MY": {
-          "seoTitle": "Monograf Akar Maca Hitam Peru (Lepidium meyenii) — Stamina Adaptogenik | Onyxman Malaysia",
-          "metaDescription": "Pelajari sains fitokimia Akar Maca Hitam Peru (Lepidium meyenii) dalam formulasi Horsemen, Hammer of Thor & Grow XL di Onyxman Malaysia. Sokongan stamina bebas kafein.",
+          "seoTitle": "Monograf Akar Maca Hitam Peru (Lepidium meyenii) — Stamina Adaptogenik | Onyxmen Malaysia",
+          "metaDescription": "Pelajari sains fitokimia Akar Maca Hitam Peru (Lepidium meyenii) dalam formulasi Horsemen, Hammer of Thor & Grow XL di Onyxmen Malaysia. Sokongan stamina bebas kafein.",
           "commonTitle": "Akar Maca Hitam Peru (Lepidium meyenii)",
           "subtitle": "Adaptogen Altitud Tinggi Andes — Sebatian Macamides & Macaenes Mudah Serap",
-          "heritageAndExtraction": "Ditanam pada ketinggian melebihi 4,000 meter di kawasan pergunungan Andes, Peru yang sejuk melampau, Lepidium meyenii (khususnya varieti Maca Hitam yang jarang ditemui) menghasilkan sebatian lipid-alkaloid unik yang dikenali sebagai macamides dan macaenes. Memandangkan akar maca mentah mengandungi kanji tebal yang boleh menyebabkan kembung perut, Onyxman menggunakan ekstrak Maca tergelatinisasi nisbah 10:1 yang menyingkirkan kanji mentah bagi memudahkan penghadaman.",
+          "heritageAndExtraction": "Ditanam pada ketinggian melebihi 4,000 meter di kawasan pergunungan Andes, Peru yang sejuk melampau, Lepidium meyenii (khususnya varieti Maca Hitam yang jarang ditemui) menghasilkan sebatian lipid-alkaloid unik yang dikenali sebagai macamides dan macaenes. Memandangkan akar maca mentah mengandungi kanji tebal yang boleh menyebabkan kembung perut, Onyxmen menggunakan ekstrak Maca tergelatinisasi nisbah 10:1 yang menyingkirkan kanji mentah bagi memudahkan penghadaman.",
           "physiologicalMechanism": "Berbeza dengan kafein atau bahan perangsang sintetik yang melajukan degupan jantung, Maca Hitam Peru bertindak sebagai adaptogen metabolik semula jadi. Ia menyokong daya tahan fizikal, kecergasan tenaga lelaki, dan ketahanan mental tanpa menyebabkan debaran jantung atau mengganggu kualiti tidur malam.",
-          "synergyInOnyxman": "Dimuatkan di dalam Grow XL (110mg), Horsemen (100mg), dan Hammer of Thor (100mg), Maca Peru melengkapkan fungsi Tongkat Ali Malaysia untuk memberikan stamina malam yang mantap di samping tidur yang lena selepas aktiviti."
+          "synergyInOnyxmen": "Dimuatkan di dalam Grow XL (110mg), Horsemen (100mg), dan Hammer of Thor (100mg), Maca Peru melengkapkan fungsi Tongkat Ali Malaysia untuk memberikan stamina malam yang mantap di samping tidur yang lena selepas aktiviti."
         }
       },
       "qualityMarkers": [
@@ -238,22 +238,22 @@
       ],
       "locales": {
         "en-MY": {
-          "seoTitle": "L-Arginine & L-Citrulline Nitric Oxide Monograph — Vascular Flow & Endurance | Onyxman Malaysia",
-          "metaDescription": "Understand how L-Arginine HCl, L-Citrulline Malate, and Bioperine drive Extended-Release (XR) Nitric Oxide vascular flow in Magnum Pump XR (30 Black Capsules) and across the Onyxman Malaysia lineup.",
+          "seoTitle": "L-Arginine & L-Citrulline Nitric Oxide Monograph — Vascular Flow & Endurance | Onyxmen Malaysia",
+          "metaDescription": "Understand how L-Arginine HCl, L-Citrulline Malate, and Bioperine drive Extended-Release (XR) Nitric Oxide vascular flow in Magnum Pump XR (30 Black Capsules) and across the Onyxmen Malaysia lineup.",
           "commonTitle": "L-Arginine & L-Citrulline Nitric Oxide Precursors",
           "subtitle": "Dual-Phase Endothelial Vasodilation, Nutrient Transport & Peak Physical Output",
-          "heritageAndExtraction": "Nitric Oxide (NO) is the primary signaling molecule responsible for relaxing smooth vascular muscle and promoting healthy blood flow during both athletic training and evening male performance. When L-Arginine is taken alone, hepatic arginase enzymes break down a portion of it during first-pass metabolism. By combining pharmaceutical-grade L-Arginine HCl with L-Citrulline Malate and 95% Piperine (Bioperine), Onyxman achieves both rapid onset and extended-release plasma arginine elevation.",
+          "heritageAndExtraction": "Nitric Oxide (NO) is the primary signaling molecule responsible for relaxing smooth vascular muscle and promoting healthy blood flow during both athletic training and evening male performance. When L-Arginine is taken alone, hepatic arginase enzymes break down a portion of it during first-pass metabolism. By combining pharmaceutical-grade L-Arginine HCl with L-Citrulline Malate and 95% Piperine (Bioperine), Onyxmen achieves both rapid onset and extended-release plasma arginine elevation.",
           "physiologicalMechanism": "Phase 1 (30–45 minutes): L-Arginine HCl catalyzed by Bioperine directly fuels endothelial nitric oxide synthase (eNOS) for immediate vascular warmth and readiness. Phase 2 (1–6 hours): L-Citrulline bypasses hepatic breakdown and converts steadily into endogenous L-Arginine in the kidneys, maintaining elevated nitric oxide bioavailability throughout your workout or evening.",
-          "synergyInOnyxman": "Magnum Pump XR (30 Black Capsules) delivers our highest amino-acid load (180mg L-Arginine HCl + 140mg L-Citrulline Malate + 65mg Thai Black Ginger + 15mg Bioperine = 400mg vascular complex per 600mg black capsule), while Grow XL, Horsemen, and Hammer of Thor each include targeted L-Arginine cofactors to enhance botanical nutrient delivery."
+          "synergyInOnyxmen": "Magnum Pump XR (30 Black Capsules) delivers our highest amino-acid load (180mg L-Arginine HCl + 140mg L-Citrulline Malate + 65mg Thai Black Ginger + 15mg Bioperine = 400mg vascular complex per 600mg black capsule), while Grow XL, Horsemen, and Hammer of Thor each include targeted L-Arginine cofactors to enhance botanical nutrient delivery."
         },
         "ms-MY": {
-          "seoTitle": "Monograf L-Arginine & L-Citrulline Nitrik Oksida — Aliran Vaskular & Stamina | Onyxman Malaysia",
-          "metaDescription": "Fahami bagaimana L-Arginine HCl, L-Citrulline Malate, dan Bioperine memacu aliran vaskular Nitrik Oksida Pelepasan Lanjutan (XR) di dalam Magnum Pump XR (30 Kapsul Hitam) di Onyxman Malaysia.",
+          "seoTitle": "Monograf L-Arginine & L-Citrulline Nitrik Oksida — Aliran Vaskular & Stamina | Onyxmen Malaysia",
+          "metaDescription": "Fahami bagaimana L-Arginine HCl, L-Citrulline Malate, dan Bioperine memacu aliran vaskular Nitrik Oksida Pelepasan Lanjutan (XR) di dalam Magnum Pump XR (30 Kapsul Hitam) di Onyxmen Malaysia.",
           "commonTitle": "Prekursor Nitrik Oksida L-Arginine & L-Citrulline",
           "subtitle": "Kelancaran Vaskular Dwi-Fasa, Pengangkutan Oksigen & Prestasi Fizikal Kemuncak",
-          "heritageAndExtraction": "Nitrik Oksida (NO) ialah molekul isyarat biologi utama yang membantu melancarkan saluran darah semasa latihan bebanan mahupun aktiviti fizikal waktu malam. Apabila L-Arginine diambil secara tunggal, sebahagian daripadanya diuraikan oleh enzim hati. Dengan menggabungkan L-Arginine HCl gred farmaseutikal bersama L-Citrulline Malate dan 95% Piperine (Bioperine), Onyxman menghasilkan peningkatan aliran vaskular yang pantas serta bertahan lebih lama.",
+          "heritageAndExtraction": "Nitrik Oksida (NO) ialah molekul isyarat biologi utama yang membantu melancarkan saluran darah semasa latihan bebanan mahupun aktiviti fizikal waktu malam. Apabila L-Arginine diambil secara tunggal, sebahagian daripadanya diuraikan oleh enzim hati. Dengan menggabungkan L-Arginine HCl gred farmaseutikal bersama L-Citrulline Malate dan 95% Piperine (Bioperine), Onyxmen menghasilkan peningkatan aliran vaskular yang pantas serta bertahan lebih lama.",
           "physiologicalMechanism": "Fasa 1 (30–45 minit): L-Arginine HCl yang dipercepatkan oleh Bioperine terus menyokong penghasilan nitrik oksida untuk kesediaan fizikal yang cepat. Fasa 2 (1–6 jam): L-Citrulline melepasi penguraian awal hati dan ditukar secara berperingkat kepada L-Arginine di dalam plasma darah, mengekalkan sokongan stamina sepanjang sesi senaman atau waktu malam.",
-          "synergyInOnyxman": "Magnum Pump XR (30 Kapsul Hitam) membekalkan dos asid amino tertinggi kami (180mg L-Arginine HCl + 140mg L-Citrulline Malate + 65mg Kunyit Hitam + 15mg Bioperine setiap kapsul hitam 600mg), manakala Grow XL, Horsemen, dan Hammer of Thor turut mengandungi L-Arginine sebagai kofaktor pengangkutan nutrien herba."
+          "synergyInOnyxmen": "Magnum Pump XR (30 Kapsul Hitam) membekalkan dos asid amino tertinggi kami (180mg L-Arginine HCl + 140mg L-Citrulline Malate + 65mg Kunyit Hitam + 15mg Bioperine setiap kapsul hitam 600mg), manakala Grow XL, Horsemen, dan Hammer of Thor turut mengandungi L-Arginine sebagai kofaktor pengangkutan nutrien herba."
         }
       },
       "qualityMarkers": [

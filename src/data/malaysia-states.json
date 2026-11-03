@@ -1,13 +1,13 @@
 {
   "microSteps": ["MS-040", "MS-041", "MS-042"],
-  "brand": "Onyxman",
+  "brand": "Onyxmen",
   "domain": "https://www.onyxmen.my",
   "totalHubs": 16,
   "hubIndexRoutes": {
     "enPath": "/malaysia-delivery/",
     "msPath": "/ms/penghantaran-malaysia/",
-    "titleEn": "Discreet Men’s Vitality Delivery Across All 16 Malaysian State & City Hubs | Onyxman Malaysia",
-    "titleMs": "Penghantaran Rahsia Suplemen Lelaki ke Semua 16 Negeri & Hab Bandar Malaysia | Onyxman Malaysia"
+    "titleEn": "Discreet Men’s Vitality Delivery Across All 16 Malaysian State & City Hubs | Onyxmen Malaysia",
+    "titleMs": "Penghantaran Rahsia Suplemen Lelaki ke Semua 16 Negeri & Hab Bandar Malaysia | Onyxmen Malaysia"
   },
   "states": [
     {
@@ -31,13 +31,13 @@
       "shippingFeeSingleMYR": 0.0,
       "shippingFeeMultiMYR": 0.0,
       "sameDaySurchargeMYR": 15.0,
-      "couriers": ["Onyxman Private Klang Valley Runner", "NinjaVan Malaysia Discreet", "J&T Express VIP", "PosLaju Priority"],
+      "couriers": ["Onyxmen Private Klang Valley Runner", "NinjaVan Malaysia Discreet", "J&T Express VIP", "PosLaju Priority"],
       "coveredDistricts": ["KLCC", "Bukit Bintang", "Bangsar", "Mont Kiara", "Sri Hartamas", "Damansara Heights", "Cheras", "Setapak", "Wangsa Maju", "Kepong", "Bukit Jalil", "brickfields", "Titiwangsa"],
       "postalCodeRange": "50000–60000",
       "topOrderedProduct": "horsemen",
       "locales": {
         "en-MY": {
-          "seoTitle": "Same-Day Discreet Delivery in Kuala Lumpur (KLCC, Bangsar, Mont Kiara) — RM 159 | Onyxman Malaysia",
+          "seoTitle": "Same-Day Discreet Delivery in Kuala Lumpur (KLCC, Bangsar, Mont Kiara) — RM 159 | Onyxmen Malaysia",
           "metaDescription": "Order Horsemen, Hammer of Thor, Grow XL, or Magnum Pump XR (RM 159) with 3–5 hour same-day discreet runner or free next-day courier across Kuala Lumpur (KLCC, Bukit Bintang, Bangsar, Mont Kiara). COD & DuitNow QR accepted.",
           "headline": "Kuala Lumpur Discreet Apothecary Dispatch — Same-Day & Next-Day Fulfilment",
           "subheadline": "Direct dispatch from our Klang Valley hub to condominiums, corporate towers, and residences across KLCC, Bukit Bintang, Bangsar, Mont Kiara, Cheras, and Bukit Jalil.",
@@ -46,13 +46,13 @@
           "localFaqA": "Yes. The exterior label shows only 'OM Fulfilment Logistics' and your name/phone number. Neither condo guards in Mont Kiara/Bangsar nor receptionists in KLCC/TRX can see any product or brand name."
         },
         "ms-MY": {
-          "seoTitle": "Penghantaran Rahsia Hari Sama di Kuala Lumpur (KLCC, Bangsar, Mont Kiara) — RM 159 | Onyxman Malaysia",
+          "seoTitle": "Penghantaran Rahsia Hari Sama di Kuala Lumpur (KLCC, Bangsar, Mont Kiara) — RM 159 | Onyxmen Malaysia",
           "metaDescription": "Tempah Horsemen, Hammer of Thor, Grow XL, atau Magnum Pump XR (RM 159) dengan penghantaran rahsia hari sama 3–5 jam atau kurier percuma 1 hari di seluruh Kuala Lumpur. Sokongan COD & DuitNow QR.",
           "headline": "Penghantaran Rahsia Kuala Lumpur — Servis Hari Sama & Ekspres 24 Jam",
           "subheadline": "Penghantaran terus dari hab utama Lembah Klang kami ke kondominium, menara pejabat, dan kediaman di KLCC, Bukit Bintang, Bangsar, Mont Kiara, Cheras, dan Bukit Jalil.",
           "localDeliverySummary": "Memandangkan hab operasi utama kami terletak di Lembah Klang, pesanan dari Kuala Lumpur sebelum jam 4:00 petang layak menikmati Kurier Ekspres Percuma (1 hari bekerja) atau Penghantar Persendirian Hari Sama dalam masa 3–5 jam. Setiap bungkusan adalah 100% legap tanpa sebarang nama produk—selamat diterima di pejabat mahupun pondok pengawal kondo.",
           "localFaqQ": "Bolehkah bungkusan saya ditinggalkan di kaunter penyambut tetamu pejabat atau pondok pengawal kondo di KL?",
-          "localFaqA": "Ya. Label luar hanya memaparkan 'OM Fulfilment Logistics' serta nama dan nombor telefon anda. Tiada sebarang nama produk atau jenama Onyxman dicetak pada bungkusan."
+          "localFaqA": "Ya. Label luar hanya memaparkan 'OM Fulfilment Logistics' serta nama dan nombor telefon anda. Tiada sebarang nama produk atau jenama Onyxmen dicetak pada bungkusan."
         }
       }
     },
@@ -77,14 +77,14 @@
       "shippingFeeSingleMYR": 0.0,
       "shippingFeeMultiMYR": 0.0,
       "sameDaySurchargeMYR": 15.0,
-      "couriers": ["Onyxman Private Klang Valley Runner", "NinjaVan Malaysia Discreet", "J&T Express VIP", "PosLaju Priority"],
+      "couriers": ["Onyxmen Private Klang Valley Runner", "NinjaVan Malaysia Discreet", "J&T Express VIP", "PosLaju Priority"],
       "coveredDistricts": ["Petaling Jaya", "Subang Jaya", "Sunway", "Shah Alam", "Klang", "Setia Alam", "Puchong", "Damansara", "Ampang Jaya", "Kajang", "Bangi", "Rawang", "Sepang"],
       "postalCodeRange": "40000–48300, 63000–68100",
       "topOrderedProduct": "magnum-pump-xr",
       "locales": {
         "en-MY": {
-          "seoTitle": "Same-Day & Next-Day Discreet Delivery in Selangor (PJ, Subang, Shah Alam, Puchong) — RM 159 | Onyxman",
-          "metaDescription": "Fast discreet delivery of Onyxman men's vitality supplements (RM 159) across Selangor: Petaling Jaya, Subang Jaya, Shah Alam, Klang, Puchong, Kajang & Bangi. Same-day runner, COD & FPX available.",
+          "seoTitle": "Same-Day & Next-Day Discreet Delivery in Selangor (PJ, Subang, Shah Alam, Puchong) — RM 159 | Onyxmen",
+          "metaDescription": "Fast discreet delivery of Onyxmen men's vitality supplements (RM 159) across Selangor: Petaling Jaya, Subang Jaya, Shah Alam, Klang, Puchong, Kajang & Bangi. Same-day runner, COD & FPX available.",
           "headline": "Selangor Discreet Dispatch — Petaling Jaya, Subang Jaya, Shah Alam & Klang Valley",
           "subheadline": "Priority 1-day free courier or 3–5 hour private runner across all 9 districts of Selangor Darul Ehsan.",
           "localDeliverySummary": "Selangor residents in Petaling Jaya, Subang Jaya, Shah Alam, Puchong, Klang, Kajang, and Bangi enjoy fastest-tier fulfilment directly from our central sorting facility. Select Free 24-Hour Express Courier (RM 0 on 1, 2, or 3 bottles) or Same-Day Private Runner before 16:00 MYT.",
@@ -92,8 +92,8 @@
           "localFaqA": "Yes. Full COD (pay by cash or DuitNow QR upon parcel handover) and online FPX banking are available across all neighbourhoods in Selangor."
         },
         "ms-MY": {
-          "seoTitle": "Penghantaran Rahsia Hari Sama & Esok di Selangor (PJ, Subang, Shah Alam, Puchong) — RM 159 | Onyxman",
-          "metaDescription": "Penghantaran rahsia suplemen lelaki Onyxman (RM 159) ke seluruh Selangor: Petaling Jaya, Subang Jaya, Shah Alam, Klang, Puchong, Kajang & Bangi. Sokongan COD, FPX & penghantar hari sama.",
+          "seoTitle": "Penghantaran Rahsia Hari Sama & Esok di Selangor (PJ, Subang, Shah Alam, Puchong) — RM 159 | Onyxmen",
+          "metaDescription": "Penghantaran rahsia suplemen lelaki Onyxmen (RM 159) ke seluruh Selangor: Petaling Jaya, Subang Jaya, Shah Alam, Klang, Puchong, Kajang & Bangi. Sokongan COD, FPX & penghantar hari sama.",
           "headline": "Penghantaran Rahsia Selangor — Petaling Jaya, Subang Jaya, Shah Alam & Lembah Klang",
           "subheadline": "Kurier ekspres percuma 1 hari atau penghantar persendirian 3–5 jam ke seluruh daerah di Selangor Darul Ehsan.",
           "localDeliverySummary": "Pelanggan di Petaling Jaya, Subang Jaya, Shah Alam, Puchong, Klang, Kajang, dan Bangi menikmati penghantaran paling pantas terus dari pusat pengagihan kami. Pilih Kurier Ekspres Percuma (RM 0 untuk 1, 2, atau 3 botol) atau Penghantar Hari Sama bagi pesanan sebelum 4:00 petang.",
@@ -129,8 +129,8 @@
       "topOrderedProduct": "grow-xl",
       "locales": {
         "en-MY": {
-          "seoTitle": "Discreet 1–2 Day Express Delivery in Johor Bahru, Iskandar Puteri & Johor — RM 159 | Onyxman Malaysia",
-          "metaDescription": "Order authentic Onyxman men's supplements (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) with free 1–2 day discreet shipping to Johor Bahru, Iskandar Puteri, Skudai, Batu Pahat & Muar.",
+          "seoTitle": "Discreet 1–2 Day Express Delivery in Johor Bahru, Iskandar Puteri & Johor — RM 159 | Onyxmen Malaysia",
+          "metaDescription": "Order authentic Onyxmen men's supplements (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) with free 1–2 day discreet shipping to Johor Bahru, Iskandar Puteri, Skudai, Batu Pahat & Muar.",
           "headline": "Johor Bahru & Southern Corridor Discreet Express Delivery (1–2 Days)",
           "subheadline": "Overnight North-South Expressway linehaul from Kuala Lumpur to Johor Bahru, Iskandar Puteri, Mount Austin, Skudai, Batu Pahat, and Muar.",
           "localDeliverySummary": "Orders placed from Johor Bahru, Iskandar Puteri, Pasir Gudang, Batu Pahat, Muar, and Kluang are dispatched on the evening highway linehaul, arriving in 1–2 business days in a 100% unmarked security parcel with Free Shipping on every bottle tier (RM 159 / RM 318 / RM 477).",
@@ -138,8 +138,8 @@
           "localFaqA": "Yes. We deliver to all residential/hotel addresses in Johor Bahru and Iskandar Puteri as well as designated NinjaVan and PosLaju collection points near CIQ / Bukit Indah / Mount Austin."
         },
         "ms-MY": {
-          "seoTitle": "Penghantaran Rahsia Ekspres 1–2 Hari di Johor Bahru, Iskandar Puteri & Johor — RM 159 | Onyxman Malaysia",
-          "metaDescription": "Dapatkan suplemen lelaki tulen Onyxman (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) dengan penghantaran rahsia percuma 1–2 hari ke Johor Bahru, Skudai, Batu Pahat & Muar.",
+          "seoTitle": "Penghantaran Rahsia Ekspres 1–2 Hari di Johor Bahru, Iskandar Puteri & Johor — RM 159 | Onyxmen Malaysia",
+          "metaDescription": "Dapatkan suplemen lelaki tulen Onyxmen (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) dengan penghantaran rahsia percuma 1–2 hari ke Johor Bahru, Skudai, Batu Pahat & Muar.",
           "headline": "Penghantaran Ekspres Rahsia Johor Bahru & Seluruh Johor (1–2 Hari)",
           "subheadline": "Penghantaran pantas setiap malam ke Johor Bahru, Iskandar Puteri, Mount Austin, Skudai, Batu Pahat, Muar, dan Kluang.",
           "localDeliverySummary": "Pesanan dari Johor Bahru, Iskandar Puteri, Pasir Gudang, Batu Pahat, Muar, dan Kluang dihantar melalui rangkaian ekspres malam dan tiba dalam 1–2 hari bekerja di dalam bungkusan rahsia tanpa nama produk dengan Penghantaran Percuma (RM 159 / RM 318 / RM 477).",
@@ -175,20 +175,20 @@
       "topOrderedProduct": "horsemen",
       "locales": {
         "en-MY": {
-          "seoTitle": "Discreet 1–2 Day Express Delivery in Penang (George Town, Bayan Lepas, Butterworth) — RM 159 | Onyxman",
-          "metaDescription": "Free 1–2 day discreet shipping of Onyxman men's supplements (RM 159) across Penang Island (George Town, Bayan Lepas, Gurney) and Mainland Seberang Perai (Butterworth, Bukit Mertajam, Batu Kawan).",
+          "seoTitle": "Discreet 1–2 Day Express Delivery in Penang (George Town, Bayan Lepas, Butterworth) — RM 159 | Onyxmen",
+          "metaDescription": "Free 1–2 day discreet shipping of Onyxmen men's supplements (RM 159) across Penang Island (George Town, Bayan Lepas, Gurney) and Mainland Seberang Perai (Butterworth, Bukit Mertajam, Batu Kawan).",
           "headline": "Penang Island & Seberang Perai Discreet Express Delivery (1–2 Days)",
           "subheadline": "Fast, unmarked parcel dispatch to George Town, Bayan Lepas Free Industrial Zone, Tanjung Tokong, Butterworth, Bukit Mertajam, and Batu Kawan.",
-          "localDeliverySummary": "Whether you live in a George Town / Tanjung Tokong high-rise, work in the Bayan Lepas tech corridor, or reside on the mainland in Bukit Mertajam or Butterworth, your Onyxman order ships free in a 100% plain parcel arriving within 1–2 business days.",
+          "localDeliverySummary": "Whether you live in a George Town / Tanjung Tokong high-rise, work in the Bayan Lepas tech corridor, or reside on the mainland in Bukit Mertajam or Butterworth, your Onyxmen order ships free in a 100% plain parcel arriving within 1–2 business days.",
           "localFaqQ": "Does free shipping cover both Penang Island and Seberang Perai mainland?",
           "localFaqA": "Yes. Both Penang Island and Seberang Perai receive 100% Free Express Discreet Shipping on 1 bottle (RM 159), 2 bottles (RM 318), and 3 bottles (RM 477)."
         },
         "ms-MY": {
-          "seoTitle": "Penghantaran Rahsia 1–2 Hari di Pulau Pinang (George Town, Bayan Lepas, Seberang Perai) — RM 159 | Onyxman",
-          "metaDescription": "Penghantaran rahsia percuma 1–2 hari untuk suplemen lelaki Onyxman (RM 159) ke seluruh Pulau Pinang (George Town, Bayan Lepas) dan Seberang Perai (Butterworth, Bukit Mertajam, Batu Kawan).",
+          "seoTitle": "Penghantaran Rahsia 1–2 Hari di Pulau Pinang (George Town, Bayan Lepas, Seberang Perai) — RM 159 | Onyxmen",
+          "metaDescription": "Penghantaran rahsia percuma 1–2 hari untuk suplemen lelaki Onyxmen (RM 159) ke seluruh Pulau Pinang (George Town, Bayan Lepas) dan Seberang Perai (Butterworth, Bukit Mertajam, Batu Kawan).",
           "headline": "Penghantaran Ekspres Rahsia Pulau Pinang & Seberang Perai (1–2 Hari)",
           "subheadline": "Bungkusan legap tanpa nama produk dihantar pantas ke George Town, Bayan Lepas, Jelutong, Butterworth, Bukit Mertajam, dan Batu Kawan.",
-          "localDeliverySummary": "Sama ada anda menetap di bahagian pulau (George Town, Bayan Lepas, Gelugor) atau di Seberang Perai (Butterworth, Bukit Mertajam, Kepala Batas, Batu Kawan), pesanan Onyxman anda dihantar secara percuma dalam masa 1–2 hari bekerja.",
+          "localDeliverySummary": "Sama ada anda menetap di bahagian pulau (George Town, Bayan Lepas, Gelugor) atau di Seberang Perai (Butterworth, Bukit Mertajam, Kepala Batas, Batu Kawan), pesanan Onyxmen anda dihantar secara percuma dalam masa 1–2 hari bekerja.",
           "localFaqQ": "Adakah penghantaran percuma meliputi bahagian Pulau dan juga Seberang Perai?",
           "localFaqA": "Ya. Kedua-dua kawasan Pulau Pinang dan Seberang Perai menikmati Penghantaran Ekspres Rahsia Percuma untuk pakej 1 botol (RM 159), 2 botol (RM 318), dan 3 botol (RM 477)."
         }
@@ -221,8 +221,8 @@
       "topOrderedProduct": "hammer-of-thor",
       "locales": {
         "en-MY": {
-          "seoTitle": "Discreet Express Delivery in Ipoh, Taiping, Manjung & Perak — RM 159 | Onyxman Malaysia",
-          "metaDescription": "Order authentic Onyxman men's supplements (RM 159) with free 1–2 day discreet shipping to Ipoh, Taiping, Seri Manjung, Sitiawan, Teluk Intan & Kampar in Perak. COD & FPX supported.",
+          "seoTitle": "Discreet Express Delivery in Ipoh, Taiping, Manjung & Perak — RM 159 | Onyxmen Malaysia",
+          "metaDescription": "Order authentic Onyxmen men's supplements (RM 159) with free 1–2 day discreet shipping to Ipoh, Taiping, Seri Manjung, Sitiawan, Teluk Intan & Kampar in Perak. COD & FPX supported.",
           "headline": "Perak & Ipoh Discreet Express Delivery (1–2 Business Days)",
           "subheadline": "Direct unmarked courier dispatch from Kuala Lumpur up the North-South highway to Ipoh, Taiping, Seri Manjung, Teluk Intan, and Kuala Kangsar.",
           "localDeliverySummary": "Perak orders to Ipoh, Taiping, Manjung, Lumut, Teluk Intan, and Tanjung Malim arrive within 1–2 business days with Free Express Shipping and full Cash on Delivery (COD) or FPX / DuitNow QR flexibility.",
@@ -230,8 +230,8 @@
           "localFaqA": "Orders confirmed before 16:00 MYT typically arrive in Ipoh within 24 hours (1 business day) and across wider Perak towns within 1–2 business days."
         },
         "ms-MY": {
-          "seoTitle": "Penghantaran Rahsia Ekspres di Ipoh, Taiping, Manjung & Perak — RM 159 | Onyxman Malaysia",
-          "metaDescription": "Tempah suplemen lelaki tulen Onyxman (RM 159) dengan penghantaran rahsia percuma 1–2 hari ke Ipoh, Taiping, Seri Manjung, Teluk Intan & Kuala Kangsar, Perak. Sokongan COD & FPX.",
+          "seoTitle": "Penghantaran Rahsia Ekspres di Ipoh, Taiping, Manjung & Perak — RM 159 | Onyxmen Malaysia",
+          "metaDescription": "Tempah suplemen lelaki tulen Onyxmen (RM 159) dengan penghantaran rahsia percuma 1–2 hari ke Ipoh, Taiping, Seri Manjung, Teluk Intan & Kuala Kangsar, Perak. Sokongan COD & FPX.",
           "headline": "Penghantaran Ekspres Rahsia Ipoh & Seluruh Perak (1–2 Hari Bekerja)",
           "subheadline": "Penghantaran bungkusan legap terus ke Ipoh, Taiping, Seri Manjung, Lumut, Teluk Intan, Kampar, dan Kuala Kangsar.",
           "localDeliverySummary": "Pesanan pelanggan di Ipoh, Taiping, Seri Manjung, Teluk Intan, dan Tanjung Malim tiba dalam 1–2 hari bekerja dengan Penghantaran Ekspres Percuma serta pilihan COD (Bayar Waktu Terima) atau FPX / DuitNow QR.",
@@ -267,8 +267,8 @@
       "topOrderedProduct": "horsemen",
       "locales": {
         "en-MY": {
-          "seoTitle": "Discreet Express Delivery in Melaka City, Ayer Keroh & Alor Gajah — RM 159 | Onyxman Malaysia",
-          "metaDescription": "Free 1–2 day discreet shipping of Onyxman men's vitality supplements (RM 159) to Melaka City, Ayer Keroh, Batu Berendam, Alor Gajah & Jasin. Plain parcel with COD & DuitNow QR.",
+          "seoTitle": "Discreet Express Delivery in Melaka City, Ayer Keroh & Alor Gajah — RM 159 | Onyxmen Malaysia",
+          "metaDescription": "Free 1–2 day discreet shipping of Onyxmen men's vitality supplements (RM 159) to Melaka City, Ayer Keroh, Batu Berendam, Alor Gajah & Jasin. Plain parcel with COD & DuitNow QR.",
           "headline": "Melaka Discreet Express Delivery — Bandaraya Melaka, Ayer Keroh & Alor Gajah",
           "subheadline": "2-hour highway proximity from our Klang Valley hub ensures rapid 1-to-2 business day delivery across all Melaka districts.",
           "localDeliverySummary": "Located just south of our Klang Valley fulfilment center, Melaka addresses in Ayer Keroh, Bandaraya Melaka, Batu Berendam, Alor Gajah, and Jasin receive unmarked discreet parcels within 1–2 business days with RM 0 shipping fee.",
@@ -276,8 +276,8 @@
           "localFaqA": "Yes, 100% of Melaka orders are sealed in plain matte packaging with 'OM Fulfilment Logistics' as the sender."
         },
         "ms-MY": {
-          "seoTitle": "Penghantaran Rahsia Ekspres di Bandaraya Melaka, Ayer Keroh & Alor Gajah — RM 159 | Onyxman Malaysia",
-          "metaDescription": "Penghantaran rahsia percuma 1–2 hari untuk suplemen lelaki Onyxman (RM 159) ke Bandaraya Melaka, Ayer Keroh, Batu Berendam, Alor Gajah & Jasin. Sokongan COD & DuitNow QR.",
+          "seoTitle": "Penghantaran Rahsia Ekspres di Bandaraya Melaka, Ayer Keroh & Alor Gajah — RM 159 | Onyxmen Malaysia",
+          "metaDescription": "Penghantaran rahsia percuma 1–2 hari untuk suplemen lelaki Onyxmen (RM 159) ke Bandaraya Melaka, Ayer Keroh, Batu Berendam, Alor Gajah & Jasin. Sokongan COD & DuitNow QR.",
           "headline": "Penghantaran Ekspres Rahsia Melaka — Bandaraya Melaka, Ayer Keroh & Jasin",
           "subheadline": "Kedudukan berhampiran hab Lembah Klang memastikan penghantaran pantas 1–2 hari bekerja ke seluruh negeri Melaka.",
           "localDeliverySummary": "Pelanggan di Ayer Keroh, Bandaraya Melaka, Batu Berendam, Klebang, Alor Gajah, dan Jasin menerima bungkusan rahsia tanpa nama produk dalam masa 1–2 hari bekerja secara percuma.",
@@ -313,20 +313,20 @@
       "topOrderedProduct": "grow-xl",
       "locales": {
         "en-MY": {
-          "seoTitle": "Discreet Express Delivery in Seremban, Nilai & Port Dickson (Negeri Sembilan) — RM 159 | Onyxman",
-          "metaDescription": "Fast 1–2 day free discreet delivery of Onyxman supplements (RM 159) across Negeri Sembilan: Seremban 2, Nilai, Bandar Sri Sendayan, Senawang & Port Dickson. COD & FPX available.",
+          "seoTitle": "Discreet Express Delivery in Seremban, Nilai & Port Dickson (Negeri Sembilan) — RM 159 | Onyxmen",
+          "metaDescription": "Fast 1–2 day free discreet delivery of Onyxmen supplements (RM 159) across Negeri Sembilan: Seremban 2, Nilai, Bandar Sri Sendayan, Senawang & Port Dickson. COD & FPX available.",
           "headline": "Negeri Sembilan Discreet Express Delivery — Seremban, Nilai, Sendayan & Port Dickson",
           "subheadline": "Next-day priority courier coverage across Nilai, Seremban 2, Senawang, Bandar Sri Sendayan, and Port Dickson.",
-          "localDeliverySummary": "Bordering southern Selangor, Negeri Sembilan towns including Nilai, Seremban, Sendayan, and Port Dickson typically receive Onyxman parcels within 24–48 hours with Free Shipping and COD support.",
+          "localDeliverySummary": "Bordering southern Selangor, Negeri Sembilan towns including Nilai, Seremban, Sendayan, and Port Dickson typically receive Onyxmen parcels within 24–48 hours with Free Shipping and COD support.",
           "localFaqQ": "Do you deliver COD orders to Nilai, Sendayan, and Port Dickson?",
           "localFaqA": "Yes. Both Cash on Delivery (COD) and instant FPX / DuitNow QR are supported across all Negeri Sembilan postcodes."
         },
         "ms-MY": {
-          "seoTitle": "Penghantaran Rahsia Ekspres di Seremban, Nilai & Port Dickson (Negeri Sembilan) — RM 159 | Onyxman",
-          "metaDescription": "Penghantaran rahsia percuma 1–2 hari suplemen lelaki Onyxman (RM 159) ke Seremban, Nilai, Sendayan, Senawang & Port Dickson. Sokongan COD & FPX.",
+          "seoTitle": "Penghantaran Rahsia Ekspres di Seremban, Nilai & Port Dickson (Negeri Sembilan) — RM 159 | Onyxmen",
+          "metaDescription": "Penghantaran rahsia percuma 1–2 hari suplemen lelaki Onyxmen (RM 159) ke Seremban, Nilai, Sendayan, Senawang & Port Dickson. Sokongan COD & FPX.",
           "headline": "Penghantaran Ekspres Rahsia Negeri Sembilan — Seremban, Nilai & Port Dickson",
           "subheadline": "Liputan kurier ekspres pantas ke Nilai, Seremban 2, Senawang, Bandar Sri Sendayan, dan Port Dickson.",
-          "localDeliverySummary": "Bersebelahan dengan selatan Selangor, kawasan Nilai, Seremban, Sendayan, dan Port Dickson lazimnya menerima bungkusan rahsia Onyxman dalam masa 24–48 jam dengan Penghantaran Percuma dan sokongan COD.",
+          "localDeliverySummary": "Bersebelahan dengan selatan Selangor, kawasan Nilai, Seremban, Sendayan, dan Port Dickson lazimnya menerima bungkusan rahsia Onyxmen dalam masa 24–48 jam dengan Penghantaran Percuma dan sokongan COD.",
           "localFaqQ": "Adakah pesanan COD dihantar ke Nilai, Sendayan, dan Port Dickson?",
           "localFaqA": "Ya. Kedua-dua kaedah COD dan pembayaran pantas FPX / DuitNow QR tersedia di seluruh poskod Negeri Sembilan."
         }
@@ -359,8 +359,8 @@
       "topOrderedProduct": "horsemen",
       "locales": {
         "en-MY": {
-          "seoTitle": "Discreet Express Delivery in Kuantan, Temerloh, Bentong & Pahang — RM 159 | Onyxman Malaysia",
-          "metaDescription": "Free 1–2 day discreet shipping of Onyxman men's supplements (RM 159) across Pahang: Kuantan, Indera Mahkota, Temerloh, Bentong, Pekan & Cameron Highlands. COD & DuitNow QR available.",
+          "seoTitle": "Discreet Express Delivery in Kuantan, Temerloh, Bentong & Pahang — RM 159 | Onyxmen Malaysia",
+          "metaDescription": "Free 1–2 day discreet shipping of Onyxmen men's supplements (RM 159) across Pahang: Kuantan, Indera Mahkota, Temerloh, Bentong, Pekan & Cameron Highlands. COD & DuitNow QR available.",
           "headline": "Pahang & Kuantan Discreet Express Delivery (1–2 Business Days)",
           "subheadline": "Daily Karak & East-Coast Expressway (LPT) dispatch from Kuala Lumpur to Bentong, Temerloh, Pekan, and Kuantan.",
           "localDeliverySummary": "Pahang is the historic heartland of wild Malaysian Eurycoma longifolia (Tongkat Ali). Our daily LPT highway dispatch delivers unmarked parcels to Kuantan, Indera Mahkota, Temerloh, Bentong, and Pekan within 1–2 business days with Free Express Shipping.",
@@ -368,8 +368,8 @@
           "localFaqA": "Kuantan, Indera Mahkota, Bentong, and Temerloh receive parcels within 1–2 business days via J&T VIP, NinjaVan, or PosLaju."
         },
         "ms-MY": {
-          "seoTitle": "Penghantaran Rahsia Ekspres di Kuantan, Temerloh, Bentong & Pahang — RM 159 | Onyxman Malaysia",
-          "metaDescription": "Penghantaran rahsia percuma 1–2 hari suplemen lelaki Onyxman (RM 159) ke seluruh Pahang: Kuantan, Indera Mahkota, Temerloh, Bentong & Pekan. Sokongan COD & DuitNow QR.",
+          "seoTitle": "Penghantaran Rahsia Ekspres di Kuantan, Temerloh, Bentong & Pahang — RM 159 | Onyxmen Malaysia",
+          "metaDescription": "Penghantaran rahsia percuma 1–2 hari suplemen lelaki Onyxmen (RM 159) ke seluruh Pahang: Kuantan, Indera Mahkota, Temerloh, Bentong & Pekan. Sokongan COD & DuitNow QR.",
           "headline": "Penghantaran Ekspres Rahsia Kuantan & Seluruh Pahang (1–2 Hari Bekerja)",
           "subheadline": "Penghantaran harian melalui Lebuhraya Pantai Timur (LPT) terus ke Bentong, Temerloh, Pekan, dan Kuantan.",
           "localDeliverySummary": "Pesanan pelanggan di Kuantan, Indera Mahkota, Temerloh, Bentong, Raub, dan Pekan dihantar setiap hari melalui laluan LPT dan tiba dalam 1–2 hari bekerja di dalam bungkusan rahsia tanpa caj penghantaran.",
@@ -405,8 +405,8 @@
       "topOrderedProduct": "grow-xl",
       "locales": {
         "en-MY": {
-          "seoTitle": "Discreet Express Delivery in Alor Setar, Sungai Petani, Kulim & Langkawi (Kedah) — RM 159 | Onyxman",
-          "metaDescription": "Order authentic Onyxman men's supplements (RM 159) with free 1–2 day discreet shipping to Alor Setar, Sungai Petani, Kulim, Jitra & Langkawi in Kedah. COD & DuitNow QR available.",
+          "seoTitle": "Discreet Express Delivery in Alor Setar, Sungai Petani, Kulim & Langkawi (Kedah) — RM 159 | Onyxmen",
+          "metaDescription": "Order authentic Onyxmen men's supplements (RM 159) with free 1–2 day discreet shipping to Alor Setar, Sungai Petani, Kulim, Jitra & Langkawi in Kedah. COD & DuitNow QR available.",
           "headline": "Kedah Discreet Express Delivery — Alor Setar, Sungai Petani, Kulim & Langkawi",
           "subheadline": "Free 1–2 day unmarked parcel delivery across Northern Kedah and duty-free Langkawi Island.",
           "localDeliverySummary": "Kedah orders to Sungai Petani, Kulim Hi-Tech Park, Alor Setar, and Jitra arrive in 1–2 business days (2–3 days for Langkawi Island) with RM 0 shipping and full COD or FPX payment options.",
@@ -414,8 +414,8 @@
           "localFaqA": "Yes. Both mainland Kedah and Langkawi Island (Kuah, Padang Matsirat, Pantai Cenang) are covered with free discreet shipping."
         },
         "ms-MY": {
-          "seoTitle": "Penghantaran Rahsia Ekspres di Alor Setar, Sungai Petani, Kulim & Langkawi (Kedah) — RM 159 | Onyxman",
-          "metaDescription": "Tempah suplemen lelaki tulen Onyxman (RM 159) dengan penghantaran rahsia percuma 1–2 hari ke Alor Setar, Sungai Petani, Kulim, Jitra & Pulau Langkawi. Sokongan COD & DuitNow QR.",
+          "seoTitle": "Penghantaran Rahsia Ekspres di Alor Setar, Sungai Petani, Kulim & Langkawi (Kedah) — RM 159 | Onyxmen",
+          "metaDescription": "Tempah suplemen lelaki tulen Onyxmen (RM 159) dengan penghantaran rahsia percuma 1–2 hari ke Alor Setar, Sungai Petani, Kulim, Jitra & Pulau Langkawi. Sokongan COD & DuitNow QR.",
           "headline": "Penghantaran Ekspres Rahsia Kedah — Alor Setar, Sungai Petani, Kulim & Langkawi",
           "subheadline": "Bungkusan rahsia tanpa nama produk dihantar secara percuma ke seluruh Kedah Darul Aman dan Pulau Langkawi.",
           "localDeliverySummary": "Pesanan ke Sungai Petani, Kulim, Alor Setar, dan Jitra tiba dalam 1–2 hari bekerja (2–3 hari untuk Pulau Langkawi) tanpa sebarang caj penghantaran serta menyokong COD dan FPX.",
@@ -451,17 +451,17 @@
       "topOrderedProduct": "horsemen",
       "locales": {
         "en-MY": {
-          "seoTitle": "Discreet Express Delivery in Kota Bharu, Kubang Kerian & Kelantan — RM 159 | Onyxman Malaysia",
-          "metaDescription": "Free 1–2 day discreet shipping of Onyxman men's supplements (RM 159) across Kelantan: Kota Bharu, Kubang Kerian, Pasir Mas, Tanah Merah & Gua Musang. COD & DuitNow QR accepted.",
+          "seoTitle": "Discreet Express Delivery in Kota Bharu, Kubang Kerian & Kelantan — RM 159 | Onyxmen Malaysia",
+          "metaDescription": "Free 1–2 day discreet shipping of Onyxmen men's supplements (RM 159) across Kelantan: Kota Bharu, Kubang Kerian, Pasir Mas, Tanah Merah & Gua Musang. COD & DuitNow QR accepted.",
           "headline": "Kelantan & Kota Bharu Discreet Express Delivery (1–2 Business Days)",
           "subheadline": "100% unmarked, privacy-sealed delivery across Kota Bharu, Kubang Kerian, Pengkalan Chepa, Tanah Merah, and Pasir Mas.",
-          "localDeliverySummary": "Kelantan customers value maximum discretion and authentic botanical quality. Every Onyxman order to Kota Bharu, Kubang Kerian, Pasir Mas, Tanah Merah, and Gua Musang ships free in an unmarked parcel with COD and FPX / DuitNow QR support.",
+          "localDeliverySummary": "Kelantan customers value maximum discretion and authentic botanical quality. Every Onyxmen order to Kota Bharu, Kubang Kerian, Pasir Mas, Tanah Merah, and Gua Musang ships free in an unmarked parcel with COD and FPX / DuitNow QR support.",
           "localFaqQ": "Can I pay Cash on Delivery (COD) in Kota Bharu, Pasir Mas, and Tanah Merah?",
           "localFaqA": "Yes. Cash on Delivery (COD) is available across all districts in Kelantan so you only pay when the sealed parcel is handed to you."
         },
         "ms-MY": {
-          "seoTitle": "Penghantaran Rahsia Ekspres di Kota Bharu, Kubang Kerian & Kelantan — RM 159 | Onyxman Malaysia",
-          "metaDescription": "Penghantaran rahsia percuma 1–2 hari suplemen lelaki Onyxman (RM 159) ke seluruh Kelantan: Kota Bharu, Kubang Kerian, Pasir Mas, Tanah Merah & Machang. Sokongan COD & DuitNow QR.",
+          "seoTitle": "Penghantaran Rahsia Ekspres di Kota Bharu, Kubang Kerian & Kelantan — RM 159 | Onyxmen Malaysia",
+          "metaDescription": "Penghantaran rahsia percuma 1–2 hari suplemen lelaki Onyxmen (RM 159) ke seluruh Kelantan: Kota Bharu, Kubang Kerian, Pasir Mas, Tanah Merah & Machang. Sokongan COD & DuitNow QR.",
           "headline": "Penghantaran Ekspres Rahsia Kota Bharu & Seluruh Kelantan (1–2 Hari Bekerja)",
           "subheadline": "Bungkusan 100% legap tanpa nama produk dihantar terus ke Kota Bharu, Kubang Kerian, Pengkalan Chepa, Pasir Mas, dan Tanah Merah.",
           "localDeliverySummary": "Pelanggan di Kelantan mengutamakan privasi penuh dan kualiti herba yang tulen. Setiap pesanan ke Kota Bharu, Kubang Kerian, Pasir Mas, Tanah Merah, dan Gua Musang dihantar secara percuma di dalam bungkusan rahsia dengan pilihan COD atau FPX / DuitNow QR.",
@@ -497,17 +497,17 @@
       "topOrderedProduct": "magnum-pump-xr",
       "locales": {
         "en-MY": {
-          "seoTitle": "Discreet Express Delivery in Kuala Terengganu, Kemaman, Kerteh & Dungun — RM 159 | Onyxman",
-          "metaDescription": "Free 1–2 day discreet shipping of Onyxman men's supplements (RM 159) across Terengganu: Kuala Terengganu, Gong Badak, Kemaman, Kerteh, Paka, Dungun & Besut. COD & FPX supported.",
+          "seoTitle": "Discreet Express Delivery in Kuala Terengganu, Kemaman, Kerteh & Dungun — RM 159 | Onyxmen",
+          "metaDescription": "Free 1–2 day discreet shipping of Onyxmen men's supplements (RM 159) across Terengganu: Kuala Terengganu, Gong Badak, Kemaman, Kerteh, Paka, Dungun & Besut. COD & FPX supported.",
           "headline": "Terengganu Discreet Express Delivery — Kuala Terengganu, Kemaman, Kerteh & Dungun",
           "subheadline": "Fast LPT2 highway courier delivery to homes and offshore energy hubs in Kerteh, Kemaman, Dungun, and Kuala Terengganu.",
-          "localDeliverySummary": "Note for Oil & Gas professionals in Kerteh, Paka, and Kemaman: Magnum Pump XR on Onyxman.my is strictly our 30-Black-Capsule Nitric Oxide & Tongkat Ali Dietary Supplement (RM 159), delivered in a 100% unmarked personal wellness parcel within 1–2 business days across Terengganu.",
+          "localDeliverySummary": "Note for Oil & Gas professionals in Kerteh, Paka, and Kemaman: Magnum Pump XR on Onyxmen.my is strictly our 30-Black-Capsule Nitric Oxide & Tongkat Ali Dietary Supplement (RM 159), delivered in a 100% unmarked personal wellness parcel within 1–2 business days across Terengganu.",
           "localFaqQ": "Do you deliver to Kerteh, Paka, and Chukai (Kemaman) as well as Kuala Terengganu?",
           "localFaqA": "Yes. All coastal and inland districts of Terengganu receive free 1–2 day discreet courier delivery with COD and FPX options."
         },
         "ms-MY": {
-          "seoTitle": "Penghantaran Rahsia Ekspres di Kuala Terengganu, Kemaman, Kerteh & Dungun — RM 159 | Onyxman",
-          "metaDescription": "Penghantaran rahsia percuma 1–2 hari suplemen lelaki Onyxman (RM 159) ke Kuala Terengganu, Gong Badak, Kemaman, Kerteh, Paka, Dungun & Besut. Sokongan COD & FPX.",
+          "seoTitle": "Penghantaran Rahsia Ekspres di Kuala Terengganu, Kemaman, Kerteh & Dungun — RM 159 | Onyxmen",
+          "metaDescription": "Penghantaran rahsia percuma 1–2 hari suplemen lelaki Onyxmen (RM 159) ke Kuala Terengganu, Gong Badak, Kemaman, Kerteh, Paka, Dungun & Besut. Sokongan COD & FPX.",
           "headline": "Penghantaran Ekspres Rahsia Terengganu — Kuala Terengganu, Kemaman & Dungun",
           "subheadline": "Penghantaran pantas melalui LPT2 terus ke Kuala Terengganu, Kuala Nerus, Dungun, Paka, Kerteh, dan Kemaman.",
           "localDeliverySummary": "Pesanan pelanggan di Kuala Terengganu, Gong Badak, Dungun, Paka, Kerteh, Kemaman, dan Besut dihantar secara percuma di dalam bungkusan rahsia tanpa nama produk dan tiba dalam 1–2 hari bekerja.",
@@ -543,20 +543,20 @@
       "topOrderedProduct": "hammer-of-thor",
       "locales": {
         "en-MY": {
-          "seoTitle": "Discreet Express Delivery in Kangar, Arau & Kuala Perlis — RM 159 | Onyxman Malaysia",
-          "metaDescription": "Free 1–2 day discreet shipping of Onyxman men's supplements (RM 159) to Kangar, Arau, Kuala Perlis & Padang Besar in Perlis. Plain unmarked packaging with COD & DuitNow QR.",
+          "seoTitle": "Discreet Express Delivery in Kangar, Arau & Kuala Perlis — RM 159 | Onyxmen Malaysia",
+          "metaDescription": "Free 1–2 day discreet shipping of Onyxmen men's supplements (RM 159) to Kangar, Arau, Kuala Perlis & Padang Besar in Perlis. Plain unmarked packaging with COD & DuitNow QR.",
           "headline": "Perlis Discreet Express Delivery — Kangar, Arau & Kuala Perlis",
           "subheadline": "Free 1–2 business day unmarked courier delivery to Malaysia's northernmost state.",
-          "localDeliverySummary": "Residents in Kangar, Arau, Kuala Perlis, and Padang Besar enjoy RM 0 Free Express Discreet Shipping on every Onyxman bottle tier (RM 159 / RM 318 / RM 477) with full Cash on Delivery (COD) and FPX support.",
+          "localDeliverySummary": "Residents in Kangar, Arau, Kuala Perlis, and Padang Besar enjoy RM 0 Free Express Discreet Shipping on every Onyxmen bottle tier (RM 159 / RM 318 / RM 477) with full Cash on Delivery (COD) and FPX support.",
           "localFaqQ": "Is shipping free to Kangar and Padang Besar even for a single bottle?",
           "localFaqA": "Yes. Because Perlis is in Peninsular Malaysia, even a single RM 159 bottle qualifies for Free Express Discreet Shipping."
         },
         "ms-MY": {
-          "seoTitle": "Penghantaran Rahsia Ekspres di Kangar, Arau & Kuala Perlis — RM 159 | Onyxman Malaysia",
-          "metaDescription": "Penghantaran rahsia percuma 1–2 hari suplemen lelaki Onyxman (RM 159) ke Kangar, Arau, Kuala Perlis & Padang Besar, Perlis. Bungkusan tanpa nama produk dengan COD & DuitNow QR.",
+          "seoTitle": "Penghantaran Rahsia Ekspres di Kangar, Arau & Kuala Perlis — RM 159 | Onyxmen Malaysia",
+          "metaDescription": "Penghantaran rahsia percuma 1–2 hari suplemen lelaki Onyxmen (RM 159) ke Kangar, Arau, Kuala Perlis & Padang Besar, Perlis. Bungkusan tanpa nama produk dengan COD & DuitNow QR.",
           "headline": "Penghantaran Ekspres Rahsia Perlis — Kangar, Arau & Kuala Perlis",
           "subheadline": "Penghantaran kurier rahsia percuma 1–2 hari bekerja ke seluruh negeri Perlis Indera Kayangan.",
-          "localDeliverySummary": "Pelanggan di Kangar, Arau, Kuala Perlis, dan Padang Besar menikmati Penghantaran Ekspres Rahsia Percuma (RM 0) untuk semua pakej botol Onyxman (RM 159 / RM 318 / RM 477) bersama pilihan COD dan FPX.",
+          "localDeliverySummary": "Pelanggan di Kangar, Arau, Kuala Perlis, dan Padang Besar menikmati Penghantaran Ekspres Rahsia Percuma (RM 0) untuk semua pakej botol Onyxmen (RM 159 / RM 318 / RM 477) bersama pilihan COD dan FPX.",
           "localFaqQ": "Adakah penghantaran percuma ke Kangar dan Arau walaupun hanya membeli 1 botol?",
           "localFaqA": "Ya. Semua alamat di Perlis menikmati Penghantaran Ekspres Rahsia Percuma walaupun untuk tempahan 1 botol (RM 159)."
         }
@@ -591,17 +591,17 @@
       "topOrderedProduct": "grow-xl",
       "locales": {
         "en-MY": {
-          "seoTitle": "Discreet Air Freight Delivery to Kota Kinabalu, Sandakan, Tawau & Sabah — RM 159 | Onyxman Malaysia",
-          "metaDescription": "Order authentic Onyxman men's supplements (RM 159) with 2–4 day discreet air freight to Kota Kinabalu, Penampang, Sandakan, Tawau, Lahad Datu & Labuan. Free shipping on 2+ bottles (RM 318).",
+          "seoTitle": "Discreet Air Freight Delivery to Kota Kinabalu, Sandakan, Tawau & Sabah — RM 159 | Onyxmen Malaysia",
+          "metaDescription": "Order authentic Onyxmen men's supplements (RM 159) with 2–4 day discreet air freight to Kota Kinabalu, Penampang, Sandakan, Tawau, Lahad Datu & Labuan. Free shipping on 2+ bottles (RM 318).",
           "headline": "Sabah & Labuan Discreet Air Freight Delivery — Kota Kinabalu, Sandakan & Tawau",
           "subheadline": "Daily air cargo dispatch from KLIA to Kota Kinabalu (KKIA), Sandakan, Tawau, Lahad Datu, Keningau, and Labuan in opaque security pouches.",
           "localDeliverySummary": "For Sabah and Labuan orders, every bottle is double-sealed in an opaque tamper-evident air pouch declared generically as 'Personal Nutritional Wellness' for complete customs/airway privacy. Single-bottle air freight is RM 12, while 2-bottle (RM 318) and 3-bottle (RM 477) orders ship 100% FREE across Sabah and Labuan.",
           "localFaqQ": "How do I get Free Air Freight Shipping to Kota Kinabalu, Sandakan, Tawau, or Labuan?",
-          "localFaqA": "Select either the 2-Bottle Dual Momentum Protocol (RM 318) or 3-Bottle Mastery Vault (RM 477) and Onyxman absorbs 100% of the East Malaysia air freight cost (RM 0 shipping)."
+          "localFaqA": "Select either the 2-Bottle Dual Momentum Protocol (RM 318) or 3-Bottle Mastery Vault (RM 477) and Onyxmen absorbs 100% of the East Malaysia air freight cost (RM 0 shipping)."
         },
         "ms-MY": {
-          "seoTitle": "Penghantaran Udara Rahsia ke Kota Kinabalu, Sandakan, Tawau & Sabah — RM 159 | Onyxman Malaysia",
-          "metaDescription": "Tempah suplemen lelaki tulen Onyxman (RM 159) dengan kargo udara rahsia 2–4 hari ke Kota Kinabalu, Penampang, Sandakan, Tawau, Lahad Datu & WP Labuan. Penghantaran percuma untuk 2+ botol (RM 318).",
+          "seoTitle": "Penghantaran Udara Rahsia ke Kota Kinabalu, Sandakan, Tawau & Sabah — RM 159 | Onyxmen Malaysia",
+          "metaDescription": "Tempah suplemen lelaki tulen Onyxmen (RM 159) dengan kargo udara rahsia 2–4 hari ke Kota Kinabalu, Penampang, Sandakan, Tawau, Lahad Datu & WP Labuan. Penghantaran percuma untuk 2+ botol (RM 318).",
           "headline": "Penghantaran Udara Rahsia Sabah & WP Labuan — Kota Kinabalu, Sandakan & Tawau",
           "subheadline": "Penerbangan kargo harian dari KLIA ke Kota Kinabalu, Sandakan, Tawau, Lahad Datu, Keningau, dan Labuan menggunakan pek keselamatan legap.",
           "localDeliverySummary": "Untuk pelanggan di Sabah dan Labuan, setiap botol dibungkus dua lapisan di dalam pek keselamatan legap dan diisytiharkan secara umum sebagai 'Penjagaan Kesihatan Harian' demi privasi penuh. Caj udara untuk 1 botol ialah RM 12, manakala pakej 2 botol (RM 318) dan 3 botol (RM 477) menikmati Penghantaran Udara PERCUMA ke seluruh Sabah & Labuan.",
@@ -637,8 +637,8 @@
       "topOrderedProduct": "magnum-pump-xr",
       "locales": {
         "en-MY": {
-          "seoTitle": "Discreet Air Freight Delivery to Kuching, Miri, Sibu, Bintulu & Sarawak — RM 159 | Onyxman Malaysia",
-          "metaDescription": "Fast 2–4 day discreet air delivery of Onyxman supplements (RM 159) across Sarawak: Kuching, Kota Samarahan, Miri, Bintulu & Sibu. Free air shipping on 2-bottle (RM 318) and 3-bottle (RM 477) tiers.",
+          "seoTitle": "Discreet Air Freight Delivery to Kuching, Miri, Sibu, Bintulu & Sarawak — RM 159 | Onyxmen Malaysia",
+          "metaDescription": "Fast 2–4 day discreet air delivery of Onyxmen supplements (RM 159) across Sarawak: Kuching, Kota Samarahan, Miri, Bintulu & Sibu. Free air shipping on 2-bottle (RM 318) and 3-bottle (RM 477) tiers.",
           "headline": "Sarawak Discreet Air Freight Delivery — Kuching, Miri, Sibu & Bintulu",
           "subheadline": "Direct KLIA air linehaul to Kuching International Airport, Miri, Bintulu, and Sibu in unmarked tamper-evident security parcels.",
           "localDeliverySummary": "Sarawak customers across Kuching, Kota Samarahan, Miri, Bintulu, and Sibu receive priority air freight dispatch in 2–4 business days. Every air waybill lists 'OM Fulfilment Logistics' with generic 'Personal Nutritional Wellness' declaration. Enjoy Free Air Shipping on all 2-bottle (RM 318) and 3-bottle (RM 477) orders.",
@@ -646,8 +646,8 @@
           "localFaqA": "On the outer parcel, zero product names appear ('OM Fulfilment Logistics' only). Inside, Magnum Pump XR is our official 30-Black-Capsule Nitric Oxide & Tongkat Ali Dietary Supplement."
         },
         "ms-MY": {
-          "seoTitle": "Penghantaran Udara Rahsia ke Kuching, Miri, Sibu, Bintulu & Sarawak — RM 159 | Onyxman Malaysia",
-          "metaDescription": "Penghantaran kargo udara rahsia 2–4 hari suplemen lelaki Onyxman (RM 159) ke seluruh Sarawak: Kuching, Samarahan, Miri, Bintulu & Sibu. Penghantaran percuma untuk pakej 2 botol (RM 318).",
+          "seoTitle": "Penghantaran Udara Rahsia ke Kuching, Miri, Sibu, Bintulu & Sarawak — RM 159 | Onyxmen Malaysia",
+          "metaDescription": "Penghantaran kargo udara rahsia 2–4 hari suplemen lelaki Onyxmen (RM 159) ke seluruh Sarawak: Kuching, Samarahan, Miri, Bintulu & Sibu. Penghantaran percuma untuk pakej 2 botol (RM 318).",
           "headline": "Penghantaran Udara Rahsia Sarawak — Kuching, Miri, Sibu & Bintulu",
           "subheadline": "Penerbangan kargo terus dari KLIA ke Kuching, Miri, Bintulu, dan Sibu di dalam bungkusan keselamatan legap tanpa nama produk.",
           "localDeliverySummary": "Pelanggan di Kuching, Kota Samarahan, Miri, Bintulu, dan Sibu menerima penghantaran kargo udara dalam masa 2–4 hari bekerja. Slip kurier hanya memaparkan 'OM Fulfilment Logistics' untuk privasi 100%. Nikmati Penghantaran Udara Percuma bagi pembelian pakej 2 botol (RM 318) dan 3 botol (RM 477).",
@@ -677,14 +677,14 @@
       "shippingFeeSingleMYR": 0.0,
       "shippingFeeMultiMYR": 0.0,
       "sameDaySurchargeMYR": 15.0,
-      "couriers": ["Onyxman Private Klang Valley Runner", "NinjaVan Malaysia Discreet", "PosLaju Priority", "J&T Express VIP"],
+      "couriers": ["Onyxmen Private Klang Valley Runner", "NinjaVan Malaysia Discreet", "PosLaju Priority", "J&T Express VIP"],
       "coveredDistricts": ["Precinct 1–5 (Core Island)", "Precinct 8–11 (Residential)", "Precinct 14–16 (Diplomatic & Alamanda)", "Precinct 17–20", "IOI City Mall Corridor"],
       "postalCodeRange": "62000–62988",
       "topOrderedProduct": "horsemen",
       "locales": {
         "en-MY": {
-          "seoTitle": "Same-Day Discreet Delivery in Putrajaya (All Precincts 1–20) — RM 159 | Onyxman Malaysia",
-          "metaDescription": "Order authentic Onyxman men's supplements (RM 159) in Putrajaya with 3–5 hour same-day discreet runner or free next-day courier. 100% plain parcel suitable for residential quarters & offices.",
+          "seoTitle": "Same-Day Discreet Delivery in Putrajaya (All Precincts 1–20) — RM 159 | Onyxmen Malaysia",
+          "metaDescription": "Order authentic Onyxmen men's supplements (RM 159) in Putrajaya with 3–5 hour same-day discreet runner or free next-day courier. 100% plain parcel suitable for residential quarters & offices.",
           "headline": "Putrajaya Discreet Dispatch — Same-Day Private Runner & Next-Day Express",
           "subheadline": "Ultra-discreet unmarked delivery across all Putrajaya Precincts (Precinct 1 to Precinct 20) and IOI Resort City.",
           "localDeliverySummary": "Civil servants, executives, and residents across Putrajaya Precincts 1–20 require uncompromising discretion. Our parcels carry zero branding ('OM Fulfilment Logistics' only) and can be handed directly to you via our 3–5 Hour Same-Day Private Rider or delivered free the next business day.",
@@ -692,8 +692,8 @@
           "localFaqA": "Yes. You can enter your initials plus your verified WhatsApp phone number in the Express Discreet Order Drawer for 100% privacy."
         },
         "ms-MY": {
-          "seoTitle": "Penghantaran Rahsia Hari Sama di Putrajaya (Presint 1–20) — RM 159 | Onyxman Malaysia",
-          "metaDescription": "Tempah suplemen lelaki tulen Onyxman (RM 159) di Putrajaya dengan penghantar rahsia hari sama 3–5 jam atau kurier percuma 1 hari. Bungkusan 100% tanpa nama produk.",
+          "seoTitle": "Penghantaran Rahsia Hari Sama di Putrajaya (Presint 1–20) — RM 159 | Onyxmen Malaysia",
+          "metaDescription": "Tempah suplemen lelaki tulen Onyxmen (RM 159) di Putrajaya dengan penghantar rahsia hari sama 3–5 jam atau kurier percuma 1 hari. Bungkusan 100% tanpa nama produk.",
           "headline": "Penghantaran Rahsia Putrajaya — Penghantar Hari Sama & Ekspres 24 Jam",
           "subheadline": "Bungkusan legap berprivasi tinggi ke semua Presint 1 hingga Presint 20 Putrajaya dan kawasan sekitarnya.",
           "localDeliverySummary": "Penjawat awam, eksekutif, dan penduduk di Presint 1–20 Putrajaya mengutamakan tahap kerahsiaan tertinggi. Bungkusan kami langsung tidak memaparkan sebarang logo atau nama suplemen ('OM Fulfilment Logistics' sahaja) dan boleh dihantar pada hari yang sama (3–5 jam) atau secara percuma pada hari bekerja berikutnya.",
@@ -723,26 +723,26 @@
       "shippingFeeSingleMYR": 0.0,
       "shippingFeeMultiMYR": 0.0,
       "sameDaySurchargeMYR": 15.0,
-      "couriers": ["Onyxman Private Klang Valley Runner", "NinjaVan Malaysia Discreet", "J&T Express VIP", "PosLaju Priority"],
+      "couriers": ["Onyxmen Private Klang Valley Runner", "NinjaVan Malaysia Discreet", "J&T Express VIP", "PosLaju Priority"],
       "coveredDistricts": ["Tamarind Square", "Shaftsbury Square", "DPULZE Cyberjaya", "Cyber Heights", "Setia Eco Glades", "Symphony Hills", "Mutiara Ville", "Edusphere", "Dengkil", "Kota Warisan"],
       "postalCodeRange": "63000–63300",
       "topOrderedProduct": "magnum-pump-xr",
       "locales": {
         "en-MY": {
-          "seoTitle": "Same-Day Discreet Delivery in Cyberjaya (Tamarind Square, Setia Eco Glades) — RM 159 | Onyxman Malaysia",
-          "metaDescription": "Order authentic Onyxman men's supplements (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) in Cyberjaya with 3–5 hour same-day discreet rider or free next-day express shipping.",
+          "seoTitle": "Same-Day Discreet Delivery in Cyberjaya (Tamarind Square, Setia Eco Glades) — RM 159 | Onyxmen Malaysia",
+          "metaDescription": "Order authentic Onyxmen men's supplements (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) in Cyberjaya with 3–5 hour same-day discreet rider or free next-day express shipping.",
           "headline": "Cyberjaya Tech Hub Discreet Dispatch — Same-Day Rider & Next-Day Free Courier",
           "subheadline": "Rapid discreet delivery to tech campuses, condominiums, and gated residences across Cyberjaya, Setia Eco Glades, Symphony Hills, and Kota Warisan.",
-          "localDeliverySummary": "Software engineers, founders, and shift-working professionals in Cyberjaya rely on Onyxman for caffeine-free evening stamina and gym performance. Orders placed before 16:00 MYT qualify for our 3–5 Hour Same-Day Discreet Runner or Free 1-Business-Day Express Courier right to your condo parcel locker or guardhouse.",
+          "localDeliverySummary": "Software engineers, founders, and shift-working professionals in Cyberjaya rely on Onyxmen for caffeine-free evening stamina and gym performance. Orders placed before 16:00 MYT qualify for our 3–5 Hour Same-Day Discreet Runner or Free 1-Business-Day Express Courier right to your condo parcel locker or guardhouse.",
           "localFaqQ": "Can my Cyberjaya order be delivered to my condo parcel locker at Tamarind / Mutiara Ville / Symphony Hills?",
           "localFaqA": "Yes. Our unmarked matte security parcels fit standard condominium parcel lockers and guardhouse drop-offs across Cyberjaya with zero product names visible."
         },
         "ms-MY": {
-          "seoTitle": "Penghantaran Rahsia Hari Sama di Cyberjaya (Tamarind Square, Setia Eco Glades) — RM 159 | Onyxman Malaysia",
-          "metaDescription": "Tempah suplemen lelaki tulen Onyxman (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) di Cyberjaya dengan penghantar rahsia hari sama 3–5 jam atau kurier ekspres percuma.",
+          "seoTitle": "Penghantaran Rahsia Hari Sama di Cyberjaya (Tamarind Square, Setia Eco Glades) — RM 159 | Onyxmen Malaysia",
+          "metaDescription": "Tempah suplemen lelaki tulen Onyxmen (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) di Cyberjaya dengan penghantar rahsia hari sama 3–5 jam atau kurier ekspres percuma.",
           "headline": "Penghantaran Rahsia Hab Teknologi Cyberjaya — Servis Hari Sama & Kurier Percuma",
           "subheadline": "Penghantaran bungkusan legap ke pejabat teknologi, kondominium, dan kediaman berpagar di seluruh Cyberjaya, Setia Eco Glades, dan Kota Warisan.",
-          "localDeliverySummary": "Golongan profesional IT, usahawan, dan penduduk di Cyberjaya memilih Onyxman untuk sokongan stamina bebas kafein. Pesanan sebelum jam 4:00 petang layak menggunakan Penghantar Persendirian Hari Sama (3–5 jam) atau Kurier Ekspres Percuma 1 hari bekerja terus ke loker bungkusan kondo atau pondok pengawal anda.",
+          "localDeliverySummary": "Golongan profesional IT, usahawan, dan penduduk di Cyberjaya memilih Onyxmen untuk sokongan stamina bebas kafein. Pesanan sebelum jam 4:00 petang layak menggunakan Penghantar Persendirian Hari Sama (3–5 jam) atau Kurier Ekspres Percuma 1 hari bekerja terus ke loker bungkusan kondo atau pondok pengawal anda.",
           "localFaqQ": "Bolehkah bungkusan dihantar ke loker bungkusan kondo atau pondok pengawal di Cyberjaya?",
           "localFaqA": "Ya. Bungkusan keselamatan legap kami muat di dalam loker kondo standard dan tiada sebarang nama produk tertera pada label luar."
         }

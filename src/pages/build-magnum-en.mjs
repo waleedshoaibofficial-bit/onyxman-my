@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * ONYXMAN.MY — MAGNUM PUMP XR EN-MY FLAGSHIP APOTHECARY BUILDER (MS-114A)
+ * ONYXMEN.MY — MAGNUM PUMP XR EN-MY FLAGSHIP APOTHECARY BUILDER (MS-114A)
  * Output Targets:
  *   1. public/magnum-pump-xr-malaysia/index.html (Canonical Flagship Route)
  *   2. public/products/magnum-pump-xr/index.html (Catalog Mirror Route)
@@ -23,7 +23,7 @@
  *   - Mandatory Entity Disambiguation (ONYX-22): Explicitly disambiguates Magnum Pump XR
  *     (DietarySupplement — 30 Oral Black Botanical & Amino Acid Capsules for Men's Vitality in Malaysia)
  *     from any mechanical/industrial oilfield mud pumps (SPM Magnum XR / Weir oilfield frac pumps) or vacuum pumps.
- *   - Emails: waleedshoaibofficial@gmail.com, sales@onyxman.my, info@onyxman.my
+ *   - Emails: waleedshoaibofficial@gmail.com, sales@onyxmen.my, info@onyxmen.my
  */
 
 import fs from 'node:fs';
@@ -80,8 +80,8 @@ export const MAGNUM_CONSTANTS = {
   },
   emails: {
     primaryOrder: 'waleedshoaibofficial@gmail.com',
-    sales: 'sales@onyxman.my',
-    info: 'info@onyxman.my',
+    sales: 'sales@onyxmen.my',
+    info: 'info@onyxmen.my',
   },
 };
 
@@ -207,7 +207,7 @@ export const MAGNUM_ENTITY_DISAMBIGUATION_LEDGER = [
     code: 'ONYX-22-01',
     dimension: 'Positive Semantic Classification (@type: DietarySupplement)',
     magnumPumpXrSpec:
-      'Magnum Pump XR by Onyxman Malaysia (https://www.onyxmen.my/magnum-pump-xr-malaysia/) is 100% an oral botanical and amino-acid Dietary Supplement for adult men (18+), packaged as 30 Jet-Black Capsules × 600mg (18g net weight) in an apothecary bottle (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042).',
+      'Magnum Pump XR by Onyxmen Malaysia (https://www.onyxmen.my/magnum-pump-xr-malaysia/) is 100% an oral botanical and amino-acid Dietary Supplement for adult men (18+), packaged as 30 Jet-Black Capsules × 600mg (18g net weight) in an apothecary bottle (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042).',
     excludedExternalEntity:
       'Explicitly classified under Schema.org Product + DietarySupplement (Health & Beauty > Health Care > Fitness & Nutrition > Vitamins & Supplements).',
     verificationTag: 'ORAL CAPSULE SUPPLEMENT',
@@ -245,7 +245,7 @@ export const MAGNUM_ENTITY_DISAMBIGUATION_LEDGER = [
     magnumPumpXrSpec:
       'Sold exclusively in Malaysia at the uniform apothecary reserve price of RM 159 (1 Bottle / 30 Black Capsules), RM 318 (2 Bottles / 60 Black Capsules), and RM 477 (3 Bottles / 90 Black Capsules) via https://www.onyxmen.my.',
     excludedExternalEntity:
-      'Dispatched in 100% plain, unmarked matte parcels under sender "OM Fulfilment Logistics" via waleedshoaibofficial@gmail.com, sales@onyxman.my, and info@onyxman.my.',
+      'Dispatched in 100% plain, unmarked matte parcels under sender "OM Fulfilment Logistics" via waleedshoaibofficial@gmail.com, sales@onyxmen.my, and info@onyxmen.my.',
     verificationTag: 'RM 159 OFFICIAL RESERVE',
   },
 ];
@@ -449,9 +449,9 @@ export const MAGNUM_FAQS = [
   {
     index: '01',
     category: 'ENTITY DISAMBIGUATION (ONYX-22)',
-    questionEn: 'What is Magnum Pump XR on Onyxman.my? Is it an oral dietary supplement or mechanical/industrial pump equipment?',
+    questionEn: 'What is Magnum Pump XR on Onyxmen.my? Is it an oral dietary supplement or mechanical/industrial pump equipment?',
     answerEn:
-      'Magnum Pump XR on Onyxman.my (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042) is 100% an oral botanical and amino-acid Dietary Supplement for adult men (18+) containing 30 Jet-Black Capsules × 600mg per bottle (18,000mg total potency). The word "Pump" refers strictly to physiological Nitric Oxide (NO) vascular vasodilation and workout muscle pump supported by L-Arginine HCl and L-Citrulline Malate. It has ZERO relation, affiliation, or interchangeability with industrial oilfield mud/frac pumps (such as SPM Magnum XR fluid-end pumps) or any external mechanical vacuum device.',
+      'Magnum Pump XR on Onyxmen.my (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042) is 100% an oral botanical and amino-acid Dietary Supplement for adult men (18+) containing 30 Jet-Black Capsules × 600mg per bottle (18,000mg total potency). The word "Pump" refers strictly to physiological Nitric Oxide (NO) vascular vasodilation and workout muscle pump supported by L-Arginine HCl and L-Citrulline Malate. It has ZERO relation, affiliation, or interchangeability with industrial oilfield mud/frac pumps (such as SPM Magnum XR fluid-end pumps) or any external mechanical vacuum device.',
   },
   {
     index: '02',
@@ -486,7 +486,7 @@ export const MAGNUM_FAQS = [
     category: 'OFFICIAL MALAYSIA PRICING',
     questionEn: 'What are the official Malaysia prices for 1, 2, and 3 bottles of Magnum Pump XR?',
     answerEn:
-      'Onyxman Malaysia maintains strict, uniform apothecary pricing across all formulations: 1 Bottle (30 Black Capsules · 18,000mg Total Potency · 30-Day Nitric Oxide XR Cycle) is RM 159 (159.00 MYR) with Free Discreet Express Shipping across Peninsular Malaysia (RM 12 subsidized air freight for East Malaysia); 2 Bottles (60 Black Capsules · 36,000mg Total Potency · 60-Day Dual Vascular & Gym Output Protocol) is RM 318 (318.00 MYR) with 100% Free Nationwide Discreet Shipping including Sabah, Sarawak & Labuan; and 3 Bottles (90 Black Capsules · 54,000mg Total Potency · 90-Day Pro Series Vault) is RM 477 (477.00 MYR) with Priority VIP Dispatch and Free Nationwide Shipping.',
+      'Onyxmen Malaysia maintains strict, uniform apothecary pricing across all formulations: 1 Bottle (30 Black Capsules · 18,000mg Total Potency · 30-Day Nitric Oxide XR Cycle) is RM 159 (159.00 MYR) with Free Discreet Express Shipping across Peninsular Malaysia (RM 12 subsidized air freight for East Malaysia); 2 Bottles (60 Black Capsules · 36,000mg Total Potency · 60-Day Dual Vascular & Gym Output Protocol) is RM 318 (318.00 MYR) with 100% Free Nationwide Discreet Shipping including Sabah, Sarawak & Labuan; and 3 Bottles (90 Black Capsules · 54,000mg Total Potency · 90-Day Pro Series Vault) is RM 477 (477.00 MYR) with Priority VIP Dispatch and Free Nationwide Shipping.',
   },
   {
     index: '07',
@@ -500,14 +500,14 @@ export const MAGNUM_FAQS = [
     category: 'DISCREET MALAYSIA FULFILMENT',
     questionEn: 'Is Magnum Pump XR shipped in 100% unmarked discreet packaging across all 16 Malaysian states?',
     answerEn:
-      'Yes—100% privacy is mandatory on every order. Your Magnum Pump XR bottle is sealed inside an opaque, tear-resistant matte security mailer or plain corrugated box. The courier airway bill lists the sender neutrally as "OM Fulfilment Logistics" and describes the contents as "Personal Nutritional Supplements — Ref #MP30". Zero mention of "Magnum Pump XR", "Testosterone Pro Series", "Male Enhancement", or "Onyxman" ever appears on the outer parcel.',
+      'Yes—100% privacy is mandatory on every order. Your Magnum Pump XR bottle is sealed inside an opaque, tear-resistant matte security mailer or plain corrugated box. The courier airway bill lists the sender neutrally as "OM Fulfilment Logistics" and describes the contents as "Personal Nutritional Supplements — Ref #MP30". Zero mention of "Magnum Pump XR", "Testosterone Pro Series", "Male Enhancement", or "Onyxmen" ever appears on the outer parcel.',
   },
   {
     index: '09',
     category: 'PAYMENT & EXPRESS RESERVATION',
     questionEn: 'How do I order Magnum Pump XR via Cash on Delivery (COD), DuitNow QR, or FPX Online Banking?',
     answerEn:
-      'Click any "Acquire Magnum Pump XR" button on this page to open our 1-Click Express Discreet Order Drawer. Select 1 Bottle (RM 159), 2 Bottles (RM 318), or 3 Bottles (RM 477), enter your Malaysian delivery address, and choose Cash on Delivery (COD — pay upon receiving your sealed parcel), DuitNow Instant QR, or FPX Online Banking. Your reservation routes directly to our Kuala Lumpur fulfilment desk (waleedshoaibofficial@gmail.com, sales@onyxman.my, info@onyxman.my) for immediate dispatch.',
+      'Click any "Acquire Magnum Pump XR" button on this page to open our 1-Click Express Discreet Order Drawer. Select 1 Bottle (RM 159), 2 Bottles (RM 318), or 3 Bottles (RM 477), enter your Malaysian delivery address, and choose Cash on Delivery (COD — pay upon receiving your sealed parcel), DuitNow Instant QR, or FPX Online Banking. Your reservation routes directly to our Kuala Lumpur fulfilment desk (waleedshoaibofficial@gmail.com, sales@onyxmen.my, info@onyxmen.my) for immediate dispatch.',
   },
   {
     index: '10',
@@ -541,10 +541,10 @@ export function buildMagnumEnSchemaGraph(canonicalUrlOverride = MAGNUM_CONSTANTS
     fullTitleMs: `${MAGNUM_CONSTANTS.productName} — ${MAGNUM_PRODUCT_DATA.labelTranscription?.subtitleMs || 'Testosterone Pro Series — 30 Kapsul Hitam'}`,
     descriptionEn:
       MAGNUM_PRODUCT_DATA.entityDisambiguation?.positiveClassificationEn ||
-      'Magnum Pump XR by Onyxman Malaysia is strictly an oral botanical and amino-acid Dietary Supplement for adult men (30 Black Capsules per bottle, SKU ONYX-MP-30, MPN MPXR-30BLK-MY, GTIN-13 9550000102042) formulated with L-Arginine HCl (180mg), L-Citrulline Malate 2:1 (140mg), Tribulus Terrestris (110mg), Malaysian Tongkat Ali (90mg), Thai Black Ginger (65mg), and Bioperine (15mg).',
+      'Magnum Pump XR by Onyxmen Malaysia is strictly an oral botanical and amino-acid Dietary Supplement for adult men (30 Black Capsules per bottle, SKU ONYX-MP-30, MPN MPXR-30BLK-MY, GTIN-13 9550000102042) formulated with L-Arginine HCl (180mg), L-Citrulline Malate 2:1 (140mg), Tribulus Terrestris (110mg), Malaysian Tongkat Ali (90mg), Thai Black Ginger (65mg), and Bioperine (15mg).',
     descriptionMs:
       MAGNUM_PRODUCT_DATA.entityDisambiguation?.positiveClassificationMs ||
-      'Magnum Pump XR oleh Onyxman Malaysia adalah Suplemen Pemakanan kapsul botani dan asid amino untuk lelaki dewasa (30 Kapsul Hitam setiap botol, SKU ONYX-MP-30, MPN MPXR-30BLK-MY).',
+      'Magnum Pump XR oleh Onyxmen Malaysia adalah Suplemen Pemakanan kapsul botani dan asid amino untuk lelaki dewasa (30 Kapsul Hitam setiap botol, SKU ONYX-MP-30, MPN MPXR-30BLK-MY).',
     disambiguatingDescriptionEn: `${MAGNUM_PRODUCT_DATA.entityDisambiguation?.positiveClassificationEn} ${MAGNUM_PRODUCT_DATA.entityDisambiguation?.negativeDisambiguationEn}`,
     disambiguatingDescriptionMs: `${MAGNUM_PRODUCT_DATA.entityDisambiguation?.positiveClassificationMs} ${MAGNUM_PRODUCT_DATA.entityDisambiguation?.negativeDisambiguationMs}`,
     capsuleCount: MAGNUM_CONSTANTS.capsuleCount,
@@ -574,12 +574,12 @@ export function buildMagnumEnSchemaGraph(canonicalUrlOverride = MAGNUM_CONSTANTS
     locale: 'en-MY',
     pageUrl,
     title:
-      'Magnum Pump XR Malaysia (30 Black Capsules) — Testosterone Pro Series Nitric Oxide Supplement | RM 159 Onyxman.my',
+      'Magnum Pump XR Malaysia (30 Black Capsules) — Testosterone Pro Series Nitric Oxide Supplement | RM 159 Onyxmen.my',
     description:
-      'Reserve authentic Magnum Pump XR (Testosterone Pro Series — Male Enhancement Formula Maximum Strength — 30 Black Capsules, SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042) for RM 159 at Onyxman.my. 600mg UV-shielded jet-black oral dietary supplement capsules with L-Arginine HCl, L-Citrulline Malate 2:1, Tribulus Terrestris, Malaysian Tongkat Ali, Thai Black Ginger & Bioperine.',
+      'Reserve authentic Magnum Pump XR (Testosterone Pro Series — Male Enhancement Formula Maximum Strength — 30 Black Capsules, SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042) for RM 159 at Onyxmen.my. 600mg UV-shielded jet-black oral dietary supplement capsules with L-Arginine HCl, L-Citrulline Malate 2:1, Tribulus Terrestris, Malaysian Tongkat Ali, Thai Black Ginger & Bioperine.',
     product: customProductInput,
     breadcrumbs: [
-      { name: 'Onyxman Malaysia (Home)', url: 'https://www.onyxmen.my/' },
+      { name: 'Onyxmen Malaysia (Home)', url: 'https://www.onyxmen.my/' },
       { name: 'Apothecary Formulations', url: 'https://www.onyxmen.my/products/' },
       {
         name: 'Magnum Pump XR (Testosterone Pro Series — 30 Black Capsules · SKU ONYX-MP-30)',
@@ -608,16 +608,16 @@ export function buildMagnumEnSchemaGraph(canonicalUrlOverride = MAGNUM_CONSTANTS
   const brandNode = {
     '@type': 'Brand',
     '@id': BRAND_ID,
-    name: 'Onyxman',
+    name: 'Onyxmen',
     url: 'https://www.onyxmen.my',
   };
 
   const sellerNode = {
     '@type': 'Organization',
     '@id': ORG_ID,
-    name: 'Onyxman Malaysia',
+    name: 'Onyxmen Malaysia',
     url: 'https://www.onyxmen.my',
-    email: 'sales@onyxman.my',
+    email: 'sales@onyxmen.my',
   };
 
   const variantTiers = [
@@ -729,11 +729,11 @@ export function buildMagnumEnSchemaGraph(canonicalUrlOverride = MAGNUM_CONSTANTS
         alternateName: [
           'Magnum Pump XR Malaysia',
           'Magnum Pump XR Testosterone Pro Series 30 Black Capsules',
-          'Onyxman Magnum Pump XR Nitric Oxide Dietary Supplement',
+          'Onyxmen Magnum Pump XR Nitric Oxide Dietary Supplement',
           'ONYX-MP-30',
         ],
         disambiguatingDescription:
-          'Magnum Pump XR by Onyxman Malaysia (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042) is strictly an oral botanical and amino-acid Dietary Supplement for adult men (30 Jet-Black Capsules × 600mg per bottle) formulated with L-Arginine HCl, L-Citrulline Malate 2:1, Tribulus Terrestris, Malaysian Tongkat Ali, Thai Black Ginger, and Bioperine. Explicitly NOT affiliated with, related to, or interchangeable with any mechanical, hydraulic, frac, slurry, or industrial oilfield mud pump equipment (such as SPM Magnum XR fluid-end pumps), nor any external vacuum device.',
+          'Magnum Pump XR by Onyxmen Malaysia (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042) is strictly an oral botanical and amino-acid Dietary Supplement for adult men (30 Jet-Black Capsules × 600mg per bottle) formulated with L-Arginine HCl, L-Citrulline Malate 2:1, Tribulus Terrestris, Malaysian Tongkat Ali, Thai Black Ginger, and Bioperine. Explicitly NOT affiliated with, related to, or interchangeable with any mechanical, hydraulic, frac, slurry, or industrial oilfield mud pump equipment (such as SPM Magnum XR fluid-end pumps), nor any external vacuum device.',
         isVariantOf: { '@id': productGroupId },
         additionalProperty: [
           {
@@ -779,7 +779,7 @@ export function buildMagnumEnSchemaGraph(canonicalUrlOverride = MAGNUM_CONSTANTS
         productGroupID: `${MAGNUM_CONSTANTS.sku}-GROUP`,
         name: 'Magnum Pump XR (30 Black Capsules) — Official Multi-Bottle Protocol Collection (1, 2 & 3 Bottles)',
         description:
-          'Official Onyxman Malaysia multi-bottle protocol tiers for Magnum Pump XR (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042): 1 Bottle (30 Black Capsules) = RM 159.00, 2 Bottles (60 Black Capsules) = RM 318.00, 3 Bottles (90 Black Capsules) = RM 477.00.',
+          'Official Onyxmen Malaysia multi-bottle protocol tiers for Magnum Pump XR (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042): 1 Bottle (30 Black Capsules) = RM 159.00, 2 Bottles (60 Black Capsules) = RM 318.00, 3 Bottles (90 Black Capsules) = RM 477.00.',
         hasVariant: hasVariantNodes,
       };
     }
@@ -1430,7 +1430,7 @@ export function renderChapter1HeroStage() {
         <div class="magnum-breadcrumb-bar">
           <nav aria-label="Breadcrumb">
             <ol class="magnum-breadcrumb-list">
-              <li><a href="/">ONYXMAN MALAYSIA</a></li>
+              <li><a href="/">ONYXMEN MALAYSIA</a></li>
               <li aria-hidden="true">/</li>
               <li><a href="/products/">APOTHECARY VAULT</a></li>
               <li aria-hidden="true">/</li>
@@ -1472,7 +1472,7 @@ export function renderChapter1HeroStage() {
                 SEMANTIC ENTITY VERIFICATION (ONYX-22 · SCHEMA.ORG DIETARYSUPPLEMENT · SKU ONYX-MP-30)
               </span>
               <p class="magnum-hero-cinema__disambiguation-text">
-                <strong>Magnum Pump XR</strong> by Onyxman Malaysia is strictly an <strong>oral botanical and amino-acid Dietary Supplement</strong> (30 Black Capsules × 600mg, MPN: <code>MPXR-30BLK-MY</code>, GTIN-13: <code>9550000102042</code>) supporting vascular nitric oxide flow and adult men&rsquo;s stamina. It has <strong>zero affiliation or relation</strong> to industrial oilfield mud/frac pumps (<em>SPM Magnum XR</em>) or mechanical vacuum devices.
+                <strong>Magnum Pump XR</strong> by Onyxmen Malaysia is strictly an <strong>oral botanical and amino-acid Dietary Supplement</strong> (30 Black Capsules × 600mg, MPN: <code>MPXR-30BLK-MY</code>, GTIN-13: <code>9550000102042</code>) supporting vascular nitric oxide flow and adult men&rsquo;s stamina. It has <strong>zero affiliation or relation</strong> to industrial oilfield mud/frac pumps (<em>SPM Magnum XR</em>) or mechanical vacuum devices.
               </p>
             </div>
 
@@ -1592,7 +1592,7 @@ export function renderChapter1HeroStage() {
               />
               <img
                 src="/assets/products/magnum-pump-xr-stage.png"
-                alt="Magnum Pump XR Testosterone Pro Series Male Enhancement Formula Maximum Strength — 30 Black Capsules Official Onyxman Malaysia Bottle with 6 Signature Glossy Black Capsules (SKU ONYX-MP-30, RM 159)"
+                alt="Magnum Pump XR Testosterone Pro Series Male Enhancement Formula Maximum Strength — 30 Black Capsules Official Onyxmen Malaysia Bottle with 6 Signature Glossy Black Capsules (SKU ONYX-MP-30, RM 159)"
                 width="900"
                 height="1125"
                 fetchpriority="high"
@@ -1638,7 +1638,7 @@ export function renderChapter1HeroStage() {
           <div class="magnum-telemetry-node">
             <span class="magnum-telemetry-node__label">DISCREET MALAYSIA DESK</span>
             <strong class="magnum-telemetry-node__value">OM Fulfilment Logistics</strong>
-            <span class="magnum-telemetry-node__sub">sales@onyxman.my · info@onyxman.my · COD &amp; DuitNow QR</span>
+            <span class="magnum-telemetry-node__sub">sales@onyxmen.my · info@onyxmen.my · COD &amp; DuitNow QR</span>
           </div>
         </div>
       </section>
@@ -1932,7 +1932,7 @@ export function renderChapter3ChronologyDisambiguationComparisonAndStatesStage()
               <strong class="architectural-ledger__title" role="cell">${item.dimension}</strong>
               <div class="architectural-ledger__detail" role="cell">
                 <p style="color:var(--text-silk-ivory);margin-bottom:0.35rem;">
-                  <strong>Onyxman Magnum Pump XR Specification:</strong> ${item.magnumPumpXrSpec}
+                  <strong>Onyxmen Magnum Pump XR Specification:</strong> ${item.magnumPumpXrSpec}
                 </p>
                 <p style="color:var(--text-muted-alabaster);font-size:0.86rem;">
                   <strong>Semantic Boundary:</strong> ${item.excludedExternalEntity}
@@ -2131,7 +2131,7 @@ export function renderChapter3ChronologyDisambiguationComparisonAndStatesStage()
 
             <div class="magnum-refill-concierge-band__actions">
               <a
-                href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Onyxman+Malaysia+%E2%80%94+Magnum+Pump+XR+%2830+Black+Capsules%29+Day-25+Refill+Check-In+%28RM+159%29&details=Your+30-black-capsule+Magnum+Pump+XR+%28SKU%3A+ONYX-MP-30%2C+MPN%3A+MPXR-30BLK-MY%29+cycle+has+5+capsules+remaining.+Reserve+your+next+discreet+bottle+at+https%3A%2F%2Fonyxman.my%2Fmagnum-pump-xr-malaysia%2F+or+email+sales%40onyxman.my"
+                href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Onyxmen+Malaysia+%E2%80%94+Magnum+Pump+XR+%2830+Black+Capsules%29+Day-25+Refill+Check-In+%28RM+159%29&details=Your+30-black-capsule+Magnum+Pump+XR+%28SKU%3A+ONYX-MP-30%2C+MPN%3A+MPXR-30BLK-MY%29+cycle+has+5+capsules+remaining.+Reserve+your+next+discreet+bottle+at+https%3A%2F%2Fonyxman.my%2Fmagnum-pump-xr-malaysia%2F+or+email+sales%40onyxman.my"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="cta-hairline-secondary"
@@ -2187,7 +2187,7 @@ export function renderChapter3ChronologyDisambiguationComparisonAndStatesStage()
             </div>
             <div class="magnum-stage-header__right">
               <p style="color:var(--text-muted-alabaster);font-size:0.96rem;line-height:1.65;">
-                For clarity across search engines, AI answer engines, and Malaysian consumers: <strong>Magnum Pump XR by Onyxman Malaysia (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042)</strong> is strictly an <strong>oral botanical &amp; amino-acid capsule supplement</strong>—never an industrial fluid pump or mechanical device.
+                For clarity across search engines, AI answer engines, and Malaysian consumers: <strong>Magnum Pump XR by Onyxmen Malaysia (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042)</strong> is strictly an <strong>oral botanical &amp; amino-acid capsule supplement</strong>—never an industrial fluid pump or mechanical device.
               </p>
             </div>
           </div>
@@ -2219,7 +2219,7 @@ export function renderChapter3ChronologyDisambiguationComparisonAndStatesStage()
             </div>
             <div class="magnum-stage-header__right">
               <p style="color:var(--text-muted-alabaster);font-size:0.96rem;line-height:1.65;">
-                Every Onyxman formulation is priced uniformly at <strong>RM 159 for 1 Bottle, RM 318 for 2 Bottles, and RM 477 for 3 Bottles</strong>. Compare Magnum Pump XR&rsquo;s 30 UV-shielded jet-black Nitric Oxide capsules against our companion apothecary reserves below.
+                Every Onyxmen formulation is priced uniformly at <strong>RM 159 for 1 Bottle, RM 318 for 2 Bottles, and RM 477 for 3 Bottles</strong>. Compare Magnum Pump XR&rsquo;s 30 UV-shielded jet-black Nitric Oxide capsules against our companion apothecary reserves below.
               </p>
             </div>
           </div>
@@ -2443,7 +2443,7 @@ export function renderChapter4FaqAndAcquisitionStage() {
                 Begin Your 30-Day <span class="foil-champagne-text">Extended-Release Nitric Oxide</span> Protocol Today
               </h3>
               <p style="color:var(--text-muted-alabaster);font-size:0.95rem;line-height:1.65;">
-                Reserve 1 Bottle (30 Black Capsules · RM 159), 2 Bottles (60 Black Capsules · RM 318 · Free Nationwide Malaysia Shipping), or 3 Bottles (90 Black Capsules · RM 477 · Pro Series Vault). Dispatched in a 100% plain matte security parcel under <strong>OM Fulfilment Logistics</strong>. Direct concierge support: <a href="mailto:waleedshoaibofficial@gmail.com" style="color:var(--gold-foil-bright);">waleedshoaibofficial@gmail.com</a> | <a href="mailto:sales@onyxman.my" style="color:var(--gold-foil-bright);">sales@onyxman.my</a> | <a href="mailto:info@onyxman.my" style="color:var(--gold-foil-bright);">info@onyxman.my</a>.
+                Reserve 1 Bottle (30 Black Capsules · RM 159), 2 Bottles (60 Black Capsules · RM 318 · Free Nationwide Malaysia Shipping), or 3 Bottles (90 Black Capsules · RM 477 · Pro Series Vault). Dispatched in a 100% plain matte security parcel under <strong>OM Fulfilment Logistics</strong>. Direct concierge support: <a href="mailto:waleedshoaibofficial@gmail.com" style="color:var(--gold-foil-bright);">waleedshoaibofficial@gmail.com</a> | <a href="mailto:sales@onyxmen.my" style="color:var(--gold-foil-bright);">sales@onyxmen.my</a> | <a href="mailto:info@onyxmen.my" style="color:var(--gold-foil-bright);">info@onyxmen.my</a>.
               </p>
             </div>
 
@@ -2505,9 +2505,9 @@ export function buildMagnumEnFlagshipPage() {
   const html = renderLuxuryShell({
     lang: 'en-MY',
     title:
-      'Magnum Pump XR Malaysia (30 Black Capsules) — Testosterone Pro Series Nitric Oxide Supplement | RM 159 Onyxman.my',
+      'Magnum Pump XR Malaysia (30 Black Capsules) — Testosterone Pro Series Nitric Oxide Supplement | RM 159 Onyxmen.my',
     description:
-      'Reserve authentic Magnum Pump XR (Testosterone Pro Series — Male Enhancement Formula Maximum Strength — 30 Black Capsules, SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042) for RM 159 at Onyxman.my. Oral botanical & amino-acid dietary supplement with 180mg L-Arginine HCl, 140mg L-Citrulline Malate 2:1, 110mg Tribulus Terrestris, 90mg Malaysian Tongkat Ali, 65mg Thai Black Ginger & 15mg Bioperine. Discreet delivery across all 16 Malaysia states.',
+      'Reserve authentic Magnum Pump XR (Testosterone Pro Series — Male Enhancement Formula Maximum Strength — 30 Black Capsules, SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042) for RM 159 at Onyxmen.my. Oral botanical & amino-acid dietary supplement with 180mg L-Arginine HCl, 140mg L-Citrulline Malate 2:1, 110mg Tribulus Terrestris, 90mg Malaysian Tongkat Ali, 65mg Thai Black Ginger & 15mg Bioperine. Discreet delivery across all 16 Malaysia states.',
     canonicalPath: MAGNUM_CONSTANTS.canonicalPath,
     alternatePathEn: MAGNUM_CONSTANTS.canonicalPath,
     alternatePathMs: MAGNUM_CONSTANTS.pairedMsPath,

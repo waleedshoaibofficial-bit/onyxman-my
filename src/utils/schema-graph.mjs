@@ -1,5 +1,5 @@
 /**
- * ONYXMAN.MY — GOOGLE RICH-RESULT & MERCHANT CENTER @GRAPH JSON-LD ENGINE (MS-045 TO MS-056)
+ * ONYXMEN.MY — GOOGLE RICH-RESULT & MERCHANT CENTER @GRAPH JSON-LD ENGINE (MS-045 TO MS-056)
  * Direct Node ES Module (.mjs) for zero-step build & validation scripts.
  * Domain: https://www.onyxmen.my
  * Official Single-Bottle Price: "159.00" MYR | Multi-Bottle Tiers: 1B = "159.00", 2B = "318.00", 3B = "477.00"
@@ -33,9 +33,9 @@ export const DEFAULT_PRODUCTS_CATALOG = {
     fullTitleEn: 'Horsemen — High-Potency Tongkat Ali & Black Maca Stamina Apothecary Reserve (20 Capsules)',
     fullTitleMs: 'Horsemen — Formulasi Ekstrak Tongkat Ali & Maca Hitam Berkepekatan Tinggi (20 Kapsul)',
     descriptionEn:
-      'Horsemen by Onyxman Malaysia is a 20-capsule adult men’s botanical dietary supplement formulated with standardized Malaysian Tongkat Ali (Eurycoma longifolia 100:1), Peruvian Black Maca Root, Korean Red Panax Ginseng, Epimedium Extract, and L-Arginine HCl to support evening readiness, physical stamina, and male vitality.',
+      'Horsemen by Onyxmen Malaysia is a 20-capsule adult men’s botanical dietary supplement formulated with standardized Malaysian Tongkat Ali (Eurycoma longifolia 100:1), Peruvian Black Maca Root, Korean Red Panax Ginseng, Epimedium Extract, and L-Arginine HCl to support evening readiness, physical stamina, and male vitality.',
     descriptionMs:
-      'Horsemen oleh Onyxman Malaysia ialah suplemen pemakanan botani lelaki dewasa (20 kapsul) yang dirumus dengan Ekstrak Tongkat Ali Malaysia (Eurycoma longifolia 100:1), Akar Maca Hitam Peru, Panax Ginseng Merah Korea, dan L-Arginine HCl untuk menyokong kesediaan tenaga malam dan stamina fizikal.',
+      'Horsemen oleh Onyxmen Malaysia ialah suplemen pemakanan botani lelaki dewasa (20 kapsul) yang dirumus dengan Ekstrak Tongkat Ali Malaysia (Eurycoma longifolia 100:1), Akar Maca Hitam Peru, Panax Ginseng Merah Korea, dan L-Arginine HCl untuk menyokong kesediaan tenaga malam dan stamina fizikal.',
     disambiguatingDescriptionEn:
       'Oral botanical dietary supplement in a 20-capsule apothecary bottle for adult men (18+) in Malaysia. Distinct from equestrian gear or sports equipment.',
     disambiguatingDescriptionMs:
@@ -72,9 +72,9 @@ export const DEFAULT_PRODUCTS_CATALOG = {
     fullTitleEn: 'Hammer of Thor — Nordic-Tropical Vitality & Sustained Physical Stamina Complex (20 Capsules)',
     fullTitleMs: 'Hammer of Thor — Kompleks Kecergasan & Ketahanan Fizikal Lelaki Dewasa (20 Kapsul)',
     descriptionEn:
-      'Hammer of Thor by Onyxman Malaysia is a 20-capsule botanical dietary supplement combining standardized Tribulus terrestris saponins, Malaysian Tongkat Ali root, Ashwagandha root extract, Mucuna pruriens, and chelated Zinc to support physical stamina conditioning, muscular recovery, and sustained male vitality.',
+      'Hammer of Thor by Onyxmen Malaysia is a 20-capsule botanical dietary supplement combining standardized Tribulus terrestris saponins, Malaysian Tongkat Ali root, Ashwagandha root extract, Mucuna pruriens, and chelated Zinc to support physical stamina conditioning, muscular recovery, and sustained male vitality.',
     descriptionMs:
-      'Hammer of Thor oleh Onyxman Malaysia ialah suplemen pemakanan botani 20 kapsul yang menggabungkan ekstrak Tribulus terrestris, Tongkat Ali Malaysia, Ashwagandha, Mucuna pruriens, dan Zink untuk menyokong ketahanan stamina fizikal, pemulihan tenaga, dan keyakinan lelaki dewasa.',
+      'Hammer of Thor oleh Onyxmen Malaysia ialah suplemen pemakanan botani 20 kapsul yang menggabungkan ekstrak Tribulus terrestris, Tongkat Ali Malaysia, Ashwagandha, Mucuna pruriens, dan Zink untuk menyokong ketahanan stamina fizikal, pemulihan tenaga, dan keyakinan lelaki dewasa.',
     disambiguatingDescriptionEn:
       'Oral botanical and mineral dietary supplement in a 20-capsule bottle for adult men (18+) in Malaysia. Not a hardware tool or novelty replica.',
     disambiguatingDescriptionMs:
@@ -111,9 +111,9 @@ export const DEFAULT_PRODUCTS_CATALOG = {
     fullTitleEn: 'Grow XL — 30-Day Daily Botanical Vitality & Micro-Circulation Nutrition Protocol (30 Capsules)',
     fullTitleMs: 'Grow XL — Protokol Nutrisi Kecergasan & Peredaran Mikro Harian 30 Kapsul',
     descriptionEn:
-      'Grow XL by Onyxman Malaysia is a 30-capsule daily botanical dietary supplement formulated with Aged Panax Ginseng, Ginkgo Biloba flavone glycosides, Saw Palmetto berry extract, Muira Puama, L-Citrulline Malate, and Vitamin B3 (Niacin) for a complete 30-day cycle of male baseline vitality and micro-circulation nutrition.',
+      'Grow XL by Onyxmen Malaysia is a 30-capsule daily botanical dietary supplement formulated with Aged Panax Ginseng, Ginkgo Biloba flavone glycosides, Saw Palmetto berry extract, Muira Puama, L-Citrulline Malate, and Vitamin B3 (Niacin) for a complete 30-day cycle of male baseline vitality and micro-circulation nutrition.',
     descriptionMs:
-      'Grow XL oleh Onyxman Malaysia ialah suplemen pemakanan botani harian 30 kapsul yang dirumus dengan Panax Ginseng, Ginkgo Biloba, Saw Palmetto, Muira Puama, L-Citrulline Malate, dan Vitamin B3 untuk kitaran lengkap 30 hari sokongan nutrisi aliran mikro dan kecergasan lelaki dewasa.',
+      'Grow XL oleh Onyxmen Malaysia ialah suplemen pemakanan botani harian 30 kapsul yang dirumus dengan Panax Ginseng, Ginkgo Biloba, Saw Palmetto, Muira Puama, L-Citrulline Malate, dan Vitamin B3 untuk kitaran lengkap 30 hari sokongan nutrisi aliran mikro dan kecergasan lelaki dewasa.',
     disambiguatingDescriptionEn:
       'Oral 30-capsule botanical and amino-acid dietary supplement for adult men (18+) in Malaysia. Not a plant fertilizer or agricultural product.',
     disambiguatingDescriptionMs:
@@ -150,9 +150,9 @@ export const DEFAULT_PRODUCTS_CATALOG = {
     fullTitleEn: 'Magnum Pump XR — Extended-Release L-Arginine, L-Citrulline & Nitric Oxide Vascular Complex (30 Capsules)',
     fullTitleMs: 'Magnum Pump XR — Kompleks L-Arginine, L-Citrulline & Sokongan Nitrik Oksida (30 Kapsul)',
     descriptionEn:
-      'Magnum Pump XR by Onyxman Malaysia is an oral 30-capsule amino-acid and botanical dietary supplement formulated with L-Arginine Alpha-Ketoglutarate (AAKG), L-Citrulline, Concentrated Beetroot Nitrate Extract, Thai Black Ginger (Kaempferia parviflora / Kunyit Hitam), and Maritime Pine Bark to support nitric oxide precursor pathways, workout vascularity, and adult men’s physical stamina. Strictly an oral nutritional capsule supplement—not a mechanical, vacuum, or industrial pump.',
+      'Magnum Pump XR by Onyxmen Malaysia is an oral 30-capsule amino-acid and botanical dietary supplement formulated with L-Arginine Alpha-Ketoglutarate (AAKG), L-Citrulline, Concentrated Beetroot Nitrate Extract, Thai Black Ginger (Kaempferia parviflora / Kunyit Hitam), and Maritime Pine Bark to support nitric oxide precursor pathways, workout vascularity, and adult men’s physical stamina. Strictly an oral nutritional capsule supplement—not a mechanical, vacuum, or industrial pump.',
     descriptionMs:
-      'Magnum Pump XR oleh Onyxman Malaysia ialah suplemen kapsul pemakanan asid amino dan botani (30 kapsul) yang dirumus dengan L-Arginine Alpha-Ketoglutarate (AAKG), L-Citrulline, Ekstrak Nitrat Ubi Bit, Kunyit Hitam (Kaempferia parviflora), dan Kulit Pain Maritim untuk menyokong laluan nitrik oksida, aliran vaskular senaman, dan stamina fizikal lelaki dewasa. Ini ialah suplemen kapsul nutrisi makan—bukan pam mekanikal, vakum, atau peralatan industri.',
+      'Magnum Pump XR oleh Onyxmen Malaysia ialah suplemen kapsul pemakanan asid amino dan botani (30 kapsul) yang dirumus dengan L-Arginine Alpha-Ketoglutarate (AAKG), L-Citrulline, Ekstrak Nitrat Ubi Bit, Kunyit Hitam (Kaempferia parviflora), dan Kulit Pain Maritim untuk menyokong laluan nitrik oksida, aliran vaskular senaman, dan stamina fizikal lelaki dewasa. Ini ialah suplemen kapsul nutrisi makan—bukan pam mekanikal, vakum, atau peralatan industri.',
     disambiguatingDescriptionEn:
       'Botanical & Amino-Acid Oral Capsule Dietary Supplement (30 Capsules) for Adult Men’s Nitric Oxide & Vascular Stamina Support. Explicitly NOT an industrial pump, water pump, fluid pump, or mechanical vacuum device.',
     disambiguatingDescriptionMs:
@@ -367,11 +367,11 @@ export function buildOrganizationSchema() {
   return {
     '@type': ['Organization', 'OnlineStore'],
     '@id': ORG_ID,
-    name: 'Onyxman Malaysia',
-    legalName: "Onyxman Malaysia Apothecary & Men's Vitality Vault",
-    alternateName: 'Onyxman',
+    name: 'Onyxmen Malaysia',
+    legalName: "Onyxmen Malaysia Apothecary & Men's Vitality Vault",
+    alternateName: 'Onyxmen',
     url: SCHEMA_DOMAIN,
-    email: 'sales@onyxman.my',
+    email: 'sales@onyxmen.my',
     logo: {
       '@type': 'ImageObject',
       '@id': `${SCHEMA_DOMAIN}/#logo`,
@@ -379,14 +379,14 @@ export function buildOrganizationSchema() {
       contentUrl: `${SCHEMA_DOMAIN}/assets/products/onyxman-lineup-hero.webp`,
       width: 1920,
       height: 1080,
-      caption: 'Onyxman Malaysia — Architectural Botanical Apothecary Collection',
+      caption: 'Onyxmen Malaysia — Architectural Botanical Apothecary Collection',
     },
     image: [
       `${SCHEMA_DOMAIN}/assets/products/onyxman-lineup-hero.webp`,
       `${SCHEMA_DOMAIN}/assets/products/onyxman-lineup-hero.png`,
     ],
     description:
-      'Onyxman Malaysia is an architectural botanical apothecary specializing in standardized adult men’s vitality, stamina, and nitric oxide dietary supplements (Horsemen, Hammer of Thor, Grow XL, and Magnum Pump XR) at RM 159 per bottle with 100% discreet unmarked delivery across all 16 states and federal territories in Malaysia.',
+      'Onyxmen Malaysia is an architectural botanical apothecary specializing in standardized adult men’s vitality, stamina, and nitric oxide dietary supplements (Horsemen, Hammer of Thor, Grow XL, and Magnum Pump XR) at RM 159 per bottle with 100% discreet unmarked delivery across all 16 states and federal territories in Malaysia.',
     foundingDate: '2024',
     address: {
       '@type': 'PostalAddress',
@@ -404,7 +404,7 @@ export function buildOrganizationSchema() {
       {
         '@type': 'ContactPoint',
         contactType: 'Customer Support & Discreet Order Desk',
-        email: 'sales@onyxman.my',
+        email: 'sales@onyxmen.my',
         url: `${SCHEMA_DOMAIN}/contact/`,
         availableLanguage: ['en', 'ms', 'en-MY', 'ms-MY'],
         areaServed: 'MY',
@@ -426,7 +426,7 @@ export function buildOrganizationSchema() {
       {
         '@type': 'ContactPoint',
         contactType: 'Botanical Formulation Information & Concierge Desk',
-        email: 'info@onyxman.my',
+        email: 'info@onyxmen.my',
         url: `${SCHEMA_DOMAIN}/contact/`,
         availableLanguage: ['en', 'ms', 'en-MY', 'ms-MY'],
         areaServed: 'MY',
@@ -457,11 +457,11 @@ export function buildWebSiteSchema(lang = 'en-MY') {
     '@type': 'WebSite',
     '@id': WEBSITE_ID,
     url: SCHEMA_DOMAIN,
-    name: 'Onyxman Malaysia',
+    name: 'Onyxmen Malaysia',
     alternateName:
       locale === 'ms-MY'
-        ? 'Onyxman.my — Apotekari Botani Eksklusif Stamina & Kecergasan Lelaki Dewasa Malaysia'
-        : "Onyxman.my — Architectural Botanical Apothecary for Adult Men's Stamina & Vitality in Malaysia",
+        ? 'Onyxmen.my — Apotekari Botani Eksklusif Stamina & Kecergasan Lelaki Dewasa Malaysia'
+        : "Onyxmen.my — Architectural Botanical Apothecary for Adult Men's Stamina & Vitality in Malaysia",
     inLanguage: locale,
     publisher: {
       '@id': ORG_ID,
@@ -535,7 +535,7 @@ export function buildReturnPolicyNode() {
     returnFees: 'https://schema.org/FreeReturn',
     itemCondition: 'https://schema.org/NewCondition',
     description:
-      '14-day unopened tamper-evident holographic seal guarantee across Malaysia. Contact sales@onyxman.my or info@onyxman.my for priority replacement or return assistance.',
+      '14-day unopened tamper-evident holographic seal guarantee across Malaysia. Contact sales@onyxmen.my or info@onyxmen.my for priority replacement or return assistance.',
   };
 }
 
@@ -630,16 +630,16 @@ export function buildProductGraphSchema(productInput, lang = 'en-MY') {
   const brandNode = {
     '@type': 'Brand',
     '@id': BRAND_ID,
-    name: 'Onyxman',
+    name: 'Onyxmen',
     url: SCHEMA_DOMAIN,
   };
 
   const sellerNode = {
     '@type': 'Organization',
     '@id': ORG_ID,
-    name: 'Onyxman Malaysia',
+    name: 'Onyxmen Malaysia',
     url: SCHEMA_DOMAIN,
-    email: 'sales@onyxman.my',
+    email: 'sales@onyxmen.my',
   };
 
   const singleBottleOffer = {
@@ -808,25 +808,25 @@ export function buildProductGraphSchema(productInput, lang = 'en-MY') {
 
 export const DEFAULT_GLOBAL_FAQS = [
   {
-    questionEn: 'What is the official price of Onyxman formulations (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) in Malaysia?',
+    questionEn: 'What is the official price of Onyxmen formulations (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) in Malaysia?',
     answerEn:
-      'Every authentic Onyxman formulation is priced at RM 159.00 (MYR) for a 1-Bottle Single Cycle Reserve, RM 318.00 for a 2-Bottle Dual Momentum Protocol (Free Nationwide Malaysia Shipping), and RM 477.00 for a 3-Bottle Complete 90-Day Mastery Vault.',
-    questionMs: 'Berapakah harga rasmi produk Onyxman (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) di Malaysia?',
+      'Every authentic Onyxmen formulation is priced at RM 159.00 (MYR) for a 1-Bottle Single Cycle Reserve, RM 318.00 for a 2-Bottle Dual Momentum Protocol (Free Nationwide Malaysia Shipping), and RM 477.00 for a 3-Bottle Complete 90-Day Mastery Vault.',
+    questionMs: 'Berapakah harga rasmi produk Onyxmen (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) di Malaysia?',
     answerMs:
-      'Setiap formulasi tulen Onyxman berharga RM 159.00 (MYR) untuk 1 Botol, RM 318.00 untuk Pakej 2 Botol (Penghantaran Percuma Seluruh Malaysia), dan RM 477.00 untuk Pakej Lengkap 3 Botol (90 Hari).',
+      'Setiap formulasi tulen Onyxmen berharga RM 159.00 (MYR) untuk 1 Botol, RM 318.00 untuk Pakej 2 Botol (Penghantaran Percuma Seluruh Malaysia), dan RM 477.00 untuk Pakej Lengkap 3 Botol (90 Hari).',
   },
   {
-    questionEn: 'How discreet is Onyxman parcel packaging across West and East Malaysia?',
+    questionEn: 'How discreet is Onyxmen parcel packaging across West and East Malaysia?',
     answerEn:
       'Every order is shipped in a 100% unmarked, opaque matte security parcel. Zero product names or brand logos appear on the outside box or courier airway bill. The sender is listed neutrally as OM Fulfilment Logistics.',
-    questionMs: 'Adakah bungkusan penghantaran Onyxman benar-benar rahsia dan tertutup?',
+    questionMs: 'Adakah bungkusan penghantaran Onyxmen benar-benar rahsia dan tertutup?',
     answerMs:
       'Ya, setiap pesanan dibungkus dalam kotak keselamatan legap tanpa sebarang nama produk atau logo pada bungkusan mahupun slip kurier. Nama pengirim ditulis sebagai OM Fulfilment Logistics demi privasi 100%.',
   },
   {
     questionEn: 'Which payment methods are accepted for Malaysia orders?',
     answerEn:
-      'We accept FPX Online Banking (Maybank2u, CIMB Clicks, Public Bank, RHB, Hong Leong), DuitNow Instant QR, and Cash on Delivery (COD) across Malaysia. Orders can be placed via our Express Discreet Order Desk (sales@onyxman.my).',
+      'We accept FPX Online Banking (Maybank2u, CIMB Clicks, Public Bank, RHB, Hong Leong), DuitNow Instant QR, and Cash on Delivery (COD) across Malaysia. Orders can be placed via our Express Discreet Order Desk (sales@onyxmen.my).',
     questionMs: 'Apakah kaedah pembayaran yang diterima untuk pesanan di Malaysia?',
     answerMs:
       'Kami menerima Perbankan Dalam Talian FPX (Maybank2u, CIMB, Public Bank, RHB), DuitNow QR Segera, serta Bayar Waktu Terima (COD) di seluruh Malaysia.',
@@ -887,7 +887,7 @@ export function buildBreadcrumbSchema(items = [], pageUrl = `${SCHEMA_DOMAIN}/`)
       ? items
       : [
           {
-            name: pageUrl.includes('/ms/') ? 'Onyxman Malaysia (Utama)' : 'Onyxman Malaysia (Home)',
+            name: pageUrl.includes('/ms/') ? 'Onyxmen Malaysia (Utama)' : 'Onyxmen Malaysia (Home)',
             url: pageUrl.includes('/ms/') ? `${SCHEMA_DOMAIN}/ms/` : `${SCHEMA_DOMAIN}/`,
           },
           ...(pageUrl !== `${SCHEMA_DOMAIN}/` && pageUrl !== `${SCHEMA_DOMAIN}/ms/`
@@ -941,12 +941,12 @@ export function buildStateHubSchema(stateDataInput, lang = 'en-MY') {
   const returnPolicyFull = buildReturnPolicyNode();
 
   const stateTitle = isMs
-    ? `Penghantaran Rahsia Suplemen Lelaki Onyxman di ${stateData.stateNameMs} (${stateData.cities.slice(0, 4).join(', ')})`
-    : `Discreet Onyxman Men's Vitality Delivery in ${stateData.stateNameEn} (${stateData.cities.slice(0, 4).join(', ')})`;
+    ? `Penghantaran Rahsia Suplemen Lelaki Onyxmen di ${stateData.stateNameMs} (${stateData.cities.slice(0, 4).join(', ')})`
+    : `Discreet Onyxmen Men's Vitality Delivery in ${stateData.stateNameEn} (${stateData.cities.slice(0, 4).join(', ')})`;
 
   const stateDescription = isMs
     ? `Perkhidmatan penghantaran bungkusan rahsia 100% tanpa nama produk untuk Horsemen, Hammer of Thor, Grow XL, dan Magnum Pump XR (RM 159.00 sebotol) ke seluruh ${stateData.stateNameMs} termasuk ${stateData.cities.join(', ')}. Masa penghantaran: ${stateData.deliveryWindowMs}.`
-    : `100% unmarked discreet courier & private runner delivery for official Onyxman formulations (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR at RM 159.00 per bottle) across ${stateData.stateNameEn} including ${stateData.cities.join(', ')}. Delivery window: ${stateData.deliveryWindowEn}.`;
+    : `100% unmarked discreet courier & private runner delivery for official Onyxmen formulations (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR at RM 159.00 per bottle) across ${stateData.stateNameEn} including ${stateData.cities.join(', ')}. Delivery window: ${stateData.deliveryWindowEn}.`;
 
   const webPageNode = {
     '@type': 'WebPage',
@@ -970,8 +970,8 @@ export function buildStateHubSchema(stateDataInput, lang = 'en-MY') {
     '@type': 'Service',
     '@id': `${pageUrl}#service`,
     name: isMs
-      ? `Perkhidmatan Penghantaran Rahsia Onyxman Malaysia — ${stateData.stateNameMs}`
-      : `Onyxman Malaysia Discreet Apothecary Fulfilment Service — ${stateData.stateNameEn}`,
+      ? `Perkhidmatan Penghantaran Rahsia Onyxmen Malaysia — ${stateData.stateNameMs}`
+      : `Onyxmen Malaysia Discreet Apothecary Fulfilment Service — ${stateData.stateNameEn}`,
     serviceType: isMs
       ? 'Penghantaran Kurier Rahsia Suplemen Botani Lelaki Dewasa'
       : "Discreet Botanical Men's Supplement Fulfilment & Express Courier Service",
@@ -1002,8 +1002,8 @@ export function buildStateHubSchema(stateDataInput, lang = 'en-MY') {
       '@id': `${pageUrl}#state-offer`,
       url: pageUrl,
       name: isMs
-        ? `Botol Rasmi Onyxman (Horsemen / Hammer of Thor / Grow XL / Magnum Pump XR) + Penghantaran Rahsia ke ${stateData.stateNameMs}`
-        : `Official Onyxman Formulation Bottle (Horsemen / Hammer of Thor / Grow XL / Magnum Pump XR) + Discreet Delivery to ${stateData.stateNameEn}`,
+        ? `Botol Rasmi Onyxmen (Horsemen / Hammer of Thor / Grow XL / Magnum Pump XR) + Penghantaran Rahsia ke ${stateData.stateNameMs}`
+        : `Official Onyxmen Formulation Bottle (Horsemen / Hammer of Thor / Grow XL / Magnum Pump XR) + Discreet Delivery to ${stateData.stateNameEn}`,
       price: OFFICIAL_PRICE_MYR,
       priceCurrency: OFFICIAL_CURRENCY,
       priceValidUntil: OFFICIAL_PRICE_VALID_UNTIL,
@@ -1099,7 +1099,7 @@ export function buildArticleSchema(guideData, lang = 'en-MY') {
     author: {
       '@type': 'Organization',
       '@id': `${SCHEMA_DOMAIN}/#research-board`,
-      name: 'Onyxman Botanical Research & Quality Assurance Board',
+      name: 'Onyxmen Botanical Research & Quality Assurance Board',
       url: `${SCHEMA_DOMAIN}/about/`,
     },
     publisher: {
@@ -1110,7 +1110,7 @@ export function buildArticleSchema(guideData, lang = 'en-MY') {
       guideData.aboutTopics || [
         "Adult Men's Botanical Vitality",
         'Standardized Herbal Extract Absorption',
-        'Onyxman Malaysia Authenticity Verification',
+        'Onyxmen Malaysia Authenticity Verification',
       ]
     ).map((topic) => ({
       '@type': 'Thing',
@@ -1191,8 +1191,8 @@ export function buildFullPageGraphObject(options) {
     options.pageType === 'comparison'
   ) {
     const defaultTitle = isMs
-      ? 'Onyxman Malaysia — Apotekari Botani Eksklusif untuk Stamina & Tenaga Lelaki Dewasa'
-      : "Onyxman Malaysia — Architectural Botanical Apothecary for Adult Men's Vitality & Stamina";
+      ? 'Onyxmen Malaysia — Apotekari Botani Eksklusif untuk Stamina & Tenaga Lelaki Dewasa'
+      : "Onyxmen Malaysia — Architectural Botanical Apothecary for Adult Men's Vitality & Stamina";
     const defaultDesc = isMs
       ? 'Koleksi rasmi Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR pada harga RM 159.00 sebotol dengan penghantaran rahsia seluruh Malaysia.'
       : 'Official Malaysia vault for Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR at RM 159.00 per bottle with 100% unmarked discreet courier delivery.';
@@ -1235,8 +1235,8 @@ export function buildFullPageGraphObject(options) {
       '@type': 'ItemList',
       '@id': `${pageUrl}#product-list`,
       name: isMs
-        ? 'Senarai Formulasi Rasmi Onyxman Malaysia (RM 159.00)'
-        : 'Official Onyxman Malaysia Formulations Lineup (RM 159.00)',
+        ? 'Senarai Formulasi Rasmi Onyxmen Malaysia (RM 159.00)'
+        : 'Official Onyxmen Malaysia Formulations Lineup (RM 159.00)',
       numberOfItems: itemListElements.length,
       itemListElement: itemListElements,
     });
@@ -1257,10 +1257,10 @@ export function buildFullPageGraphObject(options) {
       slug: pageUrl.split('/').filter(Boolean).pop() || 'botanical-protocol-guide',
       headlineEn:
         options.title ||
-        'Onyxman Malaysia Botanical Monograph & Optimal Absorption Protocol Guide',
+        'Onyxmen Malaysia Botanical Monograph & Optimal Absorption Protocol Guide',
       headlineMs:
         options.title ||
-        'Monograf Botani & Panduan Penyerapan Optimum Onyxman Malaysia',
+        'Monograf Botani & Panduan Penyerapan Optimum Onyxmen Malaysia',
       descriptionEn:
         options.description ||
         'Comprehensive botanical monograph and dosage timing guide for adult men in Malaysia.',
@@ -1287,13 +1287,13 @@ export function buildFullPageGraphObject(options) {
       name:
         options.title ||
         (isMs
-          ? 'Jaminan Kualiti, Privasi & Khidmat Pelanggan Onyxman Malaysia'
-          : 'Onyxman Malaysia Quality Assurance, Discreet Shipping & Concierge Support'),
+          ? 'Jaminan Kualiti, Privasi & Khidmat Pelanggan Onyxmen Malaysia'
+          : 'Onyxmen Malaysia Quality Assurance, Discreet Shipping & Concierge Support'),
       description:
         options.description ||
         (isMs
-          ? 'Maklumat rasmi mengenai jaminan ketulenan, penghantaran bungkusan rahsia, dan khidmat pelanggan Onyxman Malaysia.'
-          : 'Official information regarding Onyxman Malaysia formulation standards, 100% unmarked discreet shipping, and customer support.'),
+          ? 'Maklumat rasmi mengenai jaminan ketulenan, penghantaran bungkusan rahsia, dan khidmat pelanggan Onyxmen Malaysia.'
+          : 'Official information regarding Onyxmen Malaysia formulation standards, 100% unmarked discreet shipping, and customer support.'),
       inLanguage: locale,
       isPartOf: { '@id': WEBSITE_ID },
       breadcrumb: { '@id': `${pageUrl}#breadcrumb` },

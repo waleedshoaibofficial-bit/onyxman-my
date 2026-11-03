@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * ============================================================================
- * ONYXMAN.MY — CLOUDFLARE DNS, EDGE PERFORMANCE & FREE EMAIL ROUTING ENGINE
+ * ONYXMEN.MY — CLOUDFLARE DNS, EDGE PERFORMANCE & FREE EMAIL ROUTING ENGINE
  * Micro-Steps: MS-182 (DNS & Edge Hardening) & MS-183 (Free Email Routing)
  * ============================================================================
  *
@@ -26,8 +26,8 @@
  *   5. Configures 100% Free Cloudflare Email Routing (`RM 0 / Free Forever`):
  *      - Enables Email Routing DNS & service on `onyxman.my`
  *      - Registers & checks destination address `waleedshoaibofficial@gmail.com`
- *      - Creates Custom Address Rule: `sales@onyxman.my` -> `waleedshoaibofficial@gmail.com`
- *      - Creates Custom Address Rule: `info@onyxman.my` -> `waleedshoaibofficial@gmail.com`
+ *      - Creates Custom Address Rule: `sales@onyxmen.my` -> `waleedshoaibofficial@gmail.com`
+ *      - Creates Custom Address Rule: `info@onyxmen.my` -> `waleedshoaibofficial@gmail.com`
  *      - Configures Catch-All Rule: `*@onyxman.my` -> `waleedshoaibofficial@gmail.com`
  *
  * Modes:
@@ -87,7 +87,7 @@ export const DESIRED_DNS_RECORDS = [
     content: PAGES_TARGET_HOST,
     ttl: 1, // 1 = Auto in Cloudflare when proxied
     proxied: true,
-    comment: 'Onyxman.my Production Apex -> Cloudflare Pages (CNAME Flattening)',
+    comment: 'Onyxmen.my Production Apex -> Cloudflare Pages (CNAME Flattening)',
   },
   {
     type: 'CNAME',
@@ -95,7 +95,7 @@ export const DESIRED_DNS_RECORDS = [
     content: DOMAIN,
     ttl: 1,
     proxied: true,
-    comment: 'Onyxman.my WWW Subdomain -> Apex Redirect / Pages',
+    comment: 'Onyxmen.my WWW Subdomain -> Apex Redirect / Pages',
   },
   // Cloudflare Email Routing Inbound MX Records
   {
@@ -167,7 +167,7 @@ export const DESIRED_DNS_RECORDS = [
 // ============================================================================
 export const DESIRED_EMAIL_ROUTING_RULES = [
   {
-    name: 'Onyxman Malaysia VIP Concierge & Sales Routing (sales@onyxman.my)',
+    name: 'Onyxmen Malaysia VIP Concierge & Sales Routing (sales@onyxmen.my)',
     enabled: true,
     priority: 10,
     matchers: [
@@ -185,7 +185,7 @@ export const DESIRED_EMAIL_ROUTING_RULES = [
     ],
   },
   {
-    name: 'Onyxman Malaysia General Inquiries & Support Routing (info@onyxman.my)',
+    name: 'Onyxmen Malaysia General Inquiries & Support Routing (info@onyxmen.my)',
     enabled: true,
     priority: 20,
     matchers: [
@@ -205,7 +205,7 @@ export const DESIRED_EMAIL_ROUTING_RULES = [
 ];
 
 export const DESIRED_CATCH_ALL_RULE = {
-  name: `Onyxman Malaysia Catch-All (*@${DOMAIN} -> ${DESTINATION_EMAIL})`,
+  name: `Onyxmen Malaysia Catch-All (*@${DOMAIN} -> ${DESTINATION_EMAIL})`,
   enabled: true,
   matchers: [{ type: 'all' }],
   actions: [
@@ -505,7 +505,7 @@ async function configureEmailRoutingRules(zoneId) {
 // ============================================================================
 async function main() {
   console.log('============================================================================');
-  console.log(' ONYXMAN.MY — CLOUDFLARE DNS, CUSTOM DOMAIN & EMAIL ROUTING AUTOMATION');
+  console.log(' ONYXMEN.MY — CLOUDFLARE DNS, CUSTOM DOMAIN & EMAIL ROUTING AUTOMATION');
   console.log(` Execution Mode : ${FORCE_DRY_RUN ? 'DRY-RUN / DETERMINISTIC VERIFICATION' : 'LIVE CLOUDFLARE API v4'}`);
   console.log(` Target Domain  : ${DOMAIN} (-> ${PAGES_TARGET_HOST})`);
   console.log(` Concierge Sink : ${DESTINATION_EMAIL}`);

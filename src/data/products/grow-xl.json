@@ -3,7 +3,7 @@
   "id": "grow-xl",
   "slug": "grow-xl",
   "name": "Grow XL",
-  "brand": "Onyxman",
+  "brand": "Onyxmen",
   "brandUrl": "https://www.onyxmen.my",
   "sku": "ONYX-GX-30",
   "skuLegacyAlias": "ONYX-GX-30MY",
@@ -37,8 +37,8 @@
     "stagePng": "/assets/products/grow-xl-stage.png",
     "portraitWebp": "/assets/products/grow-xl-portrait.webp",
     "portraitPng": "/assets/products/grow-xl-portrait.png",
-    "altEn": "Grow XL #1 Selling Product Extra-Strength Enhancement Male Performance Blend — 30 Capsules Official Onyxman Malaysia Bottle (RM 159)",
-    "altMs": "Grow XL Produk Jualan #1 Campuran Prestasi Lelaki Kekuatan Ekstra — 30 Kapsul Botol Rasmi Onyxman Malaysia (RM 159)"
+    "altEn": "Grow XL #1 Selling Product Extra-Strength Enhancement Male Performance Blend — 30 Capsules Official Onyxmen Malaysia Bottle (RM 159)",
+    "altMs": "Grow XL Produk Jualan #1 Campuran Prestasi Lelaki Kekuatan Ekstra — 30 Kapsul Botol Rasmi Onyxmen Malaysia (RM 159)"
   },
   "pricing": {
     "currency": "MYR",
@@ -107,15 +107,15 @@
     "capsuleCount": 30,
     "capsuleStrengthMg": 550,
     "refillReminderDay": 25,
-    "calendarAlertTitleEn": "Onyxman Malaysia — Grow XL Day-25 Refill Check-In (RM 159)",
-    "calendarAlertTitleMs": "Onyxman Malaysia — Peringatan Bekalan Hari Ke-25 Grow XL (RM 159)",
+    "calendarAlertTitleEn": "Onyxmen Malaysia — Grow XL Day-25 Refill Check-In (RM 159)",
+    "calendarAlertTitleMs": "Onyxmen Malaysia — Peringatan Bekalan Hari Ke-25 Grow XL (RM 159)",
     "protocolSummaryEn": "Grow XL provides a full 30-capsule monthly supply (1 capsule per day). Our system schedules your automated Google Calendar and WhatsApp refill reminder on Day 25 (with 5 capsules remaining), ensuring 100% seamless continuity between Month 1, Month 2, and Month 3.",
     "protocolSummaryMs": "Grow XL membekalkan 30 kapsul untuk kegunaan sebulan penuh (1 kapsul sehari). Sistem kami menjadualkan peringatan Google Calendar dan WhatsApp pada Hari Ke-25 (ketika berbaki 5 kapsul), memastikan tiada jurang bekalan antara Bulan Pertama, Kedua, dan Ketiga."
   },
   "locales": {
     "en-MY": {
-      "seoTitle": "Grow XL (30 Capsules) — Extra-Strength Enhancement Male Performance Blend | RM 159 Onyxman Malaysia",
-      "metaDescription": "Buy authentic Grow XL (#1 Selling Product — Extra-Strength Enhancement Male Performance Blend — 30 Capsules, SKU ONYX-GX-30) for RM 159 at Onyxman.my. 30-day natural botanical cycle with Tongkat Ali, Maca, L-Arginine, Muira Puama & Saw Palmetto.",
+      "seoTitle": "Grow XL (30 Capsules) — Extra-Strength Enhancement Male Performance Blend | RM 159 Onyxmen Malaysia",
+      "metaDescription": "Buy authentic Grow XL (#1 Selling Product — Extra-Strength Enhancement Male Performance Blend — 30 Capsules, SKU ONYX-GX-30) for RM 159 at Onyxmen.my. 30-day natural botanical cycle with Tongkat Ali, Maca, L-Arginine, Muira Puama & Saw Palmetto.",
       "heroEyebrow": "FORMULATION III • 30 CAPSULES • EXTRA-STRENGTH 30-DAY BOTANICAL BLEND",
       "heroHeadline": "Grow XL — 30-Day Progressive Male Performance & Micro-Circulation Protocol",
       "heroSubheadline": "Marked with the gold '#1 Selling Product — Made With Natural Ingredient' seal, Grow XL delivers a full 30-capsule monthly regimen uniting Extra-Strength Tongkat Ali, Peruvian Maca Root, L-Arginine, Brazilian Muira Puama, and Saw Palmetto.",
@@ -124,8 +124,8 @@
       "sensoryAndCraftNotes": "Studio-restored and supplied in a 100% authentic, unblemished obsidian bottle featuring the gold '#1 Selling Product' crest, metallic blue-silver 'XL' emblem, and 30-capsule tamper-evident seal."
     },
     "ms-MY": {
-      "seoTitle": "Grow XL (30 Kapsul) — Campuran Prestasi Lelaki Kekuatan Ekstra Semula Jadi | RM 159 Onyxman Malaysia",
-      "metaDescription": "Beli Grow XL tulen (Produk Jualan #1 — Campuran Prestasi Lelaki Kekuatan Ekstra — 30 Kapsul, SKU ONYX-GX-30) pada harga RM 159 di Onyxman.my. Kitaran penuh 30 hari dengan Tongkat Ali, Maca, L-Arginine, Muira Puama & Saw Palmetto.",
+      "seoTitle": "Grow XL (30 Kapsul) — Campuran Prestasi Lelaki Kekuatan Ekstra Semula Jadi | RM 159 Onyxmen Malaysia",
+      "metaDescription": "Beli Grow XL tulen (Produk Jualan #1 — Campuran Prestasi Lelaki Kekuatan Ekstra — 30 Kapsul, SKU ONYX-GX-30) pada harga RM 159 di Onyxmen.my. Kitaran penuh 30 hari dengan Tongkat Ali, Maca, L-Arginine, Muira Puama & Saw Palmetto.",
       "heroEyebrow": "FORMULASI III • 30 KAPSUL • CAMPURAN BOTANI KEKUATAN EKSTRA 30 HARI",
       "heroHeadline": "Grow XL — Protokol Harian 30 Hari untuk Prestasi Lelaki & Peredaran Mikro",
       "heroSubheadline": "Terkenal dengan lencana emas '#1 Selling Product — Made With Natural Ingredient', Grow XL menawarkan bekalan penuh 30 kapsul sebulan yang menggabungkan Tongkat Ali Kekuatan Ekstra, Akar Maca Peru, L-Arginine, Muira Puama Brazil, dan Saw Palmetto.",
@@ -238,8 +238,8 @@
       "stage": "Days 21–30 (Phase 3: Full-Month Peak & Day-25 Refill Trigger)",
       "titleEn": "Peak 30-Day Conditioning & Seamless Month-2 Continuity",
       "titleMs": "Hari 21–30 (Fasa 3: Kemuncak 30 Hari & Peringatan Hari Ke-25)",
-      "detailEn": "Complete 30-day botanical conditioning across all 6 natural actives. On Day 25, your automated Onyxman reminder triggers so your second bottle arrives before Day 30.",
-      "detailMs": "Penjagaan botani 30 hari mencapai tahap optimum. Pada Hari Ke-25, peringatan automatik Onyxman memastikan botol bulan kedua tiba sebelum Hari Ke-30."
+      "detailEn": "Complete 30-day botanical conditioning across all 6 natural actives. On Day 25, your automated Onyxmen reminder triggers so your second bottle arrives before Day 30.",
+      "detailMs": "Penjagaan botani 30 hari mencapai tahap optimum. Pada Hari Ke-25, peringatan automatik Onyxmen memastikan botol bulan kedua tiba sebelum Hari Ke-30."
     }
   ],
   "discreetShippingAndCheckout": {
@@ -280,10 +280,10 @@
       "aMs": "Kerana Grow XL mengandungi 30 kapsul sebotol (berbanding 20 kapsul bagi Horsemen dan Hammer of Thor). Pada Hari Ke-25, anda masih mempunyai baki 5 kapsul—memberi masa yang cukup untuk penghantaran kurier 1–2 hari tiba sebelum Hari Ke-30."
     },
     {
-      "qEn": "Why should I order Grow XL directly from Onyxman.my instead of unverified classified ads?",
-      "aEn": "Unverified third-party classified images often circulate watermarked, poorly stored, or counterfeit stock at inflated prices. Ordering directly from Onyxman.my guarantees 100% authentic, climate-controlled Kuala Lumpur warehouse stock at the official RM 159 price with tamper-evident packaging.",
-      "qMs": "Mengapakah saya perlu menempah Grow XL terus dari Onyxman.my berbanding iklan pihak ketiga yang tidak sah?",
-      "aMs": "Iklan pihak ketiga yang tidak disahkan sering menjual stok lama atau tiruan pada harga tidak menentu. Tempahan terus di Onyxman.my menjamin stok tulen dari gudang kawalan suhu kami di Kuala Lumpur pada harga rasmi RM 159 dengan pelekat keselamatan kedap udara."
+      "qEn": "Why should I order Grow XL directly from Onyxmen.my instead of unverified classified ads?",
+      "aEn": "Unverified third-party classified images often circulate watermarked, poorly stored, or counterfeit stock at inflated prices. Ordering directly from Onyxmen.my guarantees 100% authentic, climate-controlled Kuala Lumpur warehouse stock at the official RM 159 price with tamper-evident packaging.",
+      "qMs": "Mengapakah saya perlu menempah Grow XL terus dari Onyxmen.my berbanding iklan pihak ketiga yang tidak sah?",
+      "aMs": "Iklan pihak ketiga yang tidak disahkan sering menjual stok lama atau tiruan pada harga tidak menentu. Tempahan terus di Onyxmen.my menjamin stok tulen dari gudang kawalan suhu kami di Kuala Lumpur pada harga rasmi RM 159 dengan pelekat keselamatan kedap udara."
     },
     {
       "qEn": "What is the price for 1, 2, or 3 bottles of Grow XL in Malaysia?",
@@ -305,9 +305,9 @@
     },
     {
       "qEn": "Does Grow XL make unrealistic permanent anatomical claims or contain synthetic drugs?",
-      "aEn": "No. At Onyxman Malaysia, we strictly reject exaggerated medical or anatomical claims. Grow XL is an authentic botanical and amino-acid dietary supplement formulated to support adult male physical stamina, peripheral micro-circulation, and daily vitality.",
+      "aEn": "No. At Onyxmen Malaysia, we strictly reject exaggerated medical or anatomical claims. Grow XL is an authentic botanical and amino-acid dietary supplement formulated to support adult male physical stamina, peripheral micro-circulation, and daily vitality.",
       "qMs": "Adakah Grow XL membuat tuntutan perubatan melampau atau mengandungi bahan kimia sintetik?",
-      "aMs": "Tidak. Di Onyxman Malaysia, kami menolak sebarang tuntutan perubatan yang melampau. Grow XL ialah suplemen pemakanan botani dan asid amino tulen yang dirumus untuk menyokong stamina fizikal, aliran mikro, dan kecergasan harian lelaki dewasa."
+      "aMs": "Tidak. Di Onyxmen Malaysia, kami menolak sebarang tuntutan perubatan yang melampau. Grow XL ialah suplemen pemakanan botani dan asid amino tulen yang dirumus untuk menyokong stamina fizikal, aliran mikro, dan kecergasan harian lelaki dewasa."
     },
     {
       "qEn": "How long should I take Grow XL for optimal results?",

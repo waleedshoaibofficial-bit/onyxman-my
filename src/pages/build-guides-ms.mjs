@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * ONYXMAN.MY — BAHASA MALAYSIA BUYER-INTENT SEO GUIDES & PROTOCOL LIBRARY BUILDER (MS-154 TO MS-160)
+ * ONYXMEN.MY — BAHASA MALAYSIA BUYER-INTENT SEO GUIDES & PROTOCOL LIBRARY BUILDER (MS-154 TO MS-160)
  * Generates the Master Bahasa Malaysia Guides Index (/ms/guides/index.html & /ms/panduan/index.html)
  * PLUS all 6 Bahasa Malaysia Buyer-Intent SEO Guides and 100% of their route aliases across:
  * - src/data/guides.json
@@ -492,14 +492,14 @@ export const BM_GUIDE_DOSSIERS = [
     publishedDate: '2026-01-15',
     updatedDate: '2026-10-30',
     seoTitle:
-      'Panduan Masa Pengambilan Kapsul & Penyerapan Optimum — Kitaran 20 vs 30 Kapsul | Onyxman Malaysia',
+      'Panduan Masa Pengambilan Kapsul & Penyerapan Optimum — Kitaran 20 vs 30 Kapsul | Onyxmen Malaysia',
     metaDescription:
       'Panduan lengkap cara makan dan masa pengambilan Horsemen (20 Kapsul), Hammer of Thor (20 Kapsul Veg), Grow XL (30 Kapsul) & Magnum Pump XR (30 Kapsul Hitam) mengikut waktu makan, kopi/teh tarik, dan senaman di Malaysia. Harga rasmi RM 159.',
     kicker: 'MS-155 · PANDUAN PROTOKOL 01 · FARMAKOKINETIK & MASA PENGAMBILAN KAPSUL',
     headlineHtml:
       'Protokol Masa Pengambilan Kapsul &amp; Penyerapan Optimum: <span class="foil-champagne-text">Kitaran 20 Kapsul vs 30 Kapsul Malaysia.</span>',
     leadSummary:
-      'Cara anda menyelaraskan waktu pengambilan kapsul Onyxman mengikut waktu makan tempatan Malaysia, minuman berkafein (kopi O / teh tarik), penghidratan iklim tropika, dan aktiviti fizikal mempengaruhi kadar bioavailabiliti herba sehingga 40%. Ketahui jadual tepat untuk Horsemen (20 Kapsul), Hammer of Thor (20 Kapsul Veg.), Grow XL (30 Kapsul), dan Magnum Pump XR (30 Kapsul Hitam) pada harga rasmi RM 159 sebotol.',
+      'Cara anda menyelaraskan waktu pengambilan kapsul Onyxmen mengikut waktu makan tempatan Malaysia, minuman berkafein (kopi O / teh tarik), penghidratan iklim tropika, dan aktiviti fizikal mempengaruhi kadar bioavailabiliti herba sehingga 40%. Ketahui jadual tepat untuk Horsemen (20 Kapsul), Hammer of Thor (20 Kapsul Veg.), Grow XL (30 Kapsul), dan Magnum Pump XR (30 Kapsul Hitam) pada harga rasmi RM 159 sebotol.',
     telemetry: [
       {
         label: 'KADAR PENYERAPAN OPTIMUM',
@@ -525,7 +525,7 @@ export const BM_GUIDE_DOSSIERS = [
     pinnedSummaryTitle:
       'Empat Peraturan Emas Pengambilan Kapsul Botani & Asid Amino Di Iklim Tropika Malaysia',
     pinnedSummaryCopy:
-      'Setiap kapsul Onyxman mengandungi ekstrak fitokimia piawai bernisbah tinggi (seperti Eurycoma longifolia 100:1, Saponin Tribulus 60%, Macamides Maca Hitam, dan L-Arginine HCl + Bioperine). Mengambil kapsul pada tetingkap pencernaan yang tepat memastikan sebatian aktif melepasi asid perut dengan sempurna untuk penyerapan usus kecil yang maksimum.',
+      'Setiap kapsul Onyxmen mengandungi ekstrak fitokimia piawai bernisbah tinggi (seperti Eurycoma longifolia 100:1, Saponin Tribulus 60%, Macamides Maca Hitam, dan L-Arginine HCl + Bioperine). Mengambil kapsul pada tetingkap pencernaan yang tepat memastikan sebatian aktif melepasi asid perut dengan sempurna untuk penyerapan usus kecil yang maksimum.',
     chapters: [
       {
         code: 'BAB 01 · RIZAB 20 KAPSUL MALAM',
@@ -545,7 +545,7 @@ export const BM_GUIDE_DOSSIERS = [
       {
         code: 'BAB 04 · KITARAN 20–90 HARI & ULANGAN BEKALAN',
         title: 'Penyelarasan Peringatan Hari Ke-18 (20 Kapsul) & Hari Ke-25 (30 Kapsul) Tanpa Gangguan Kitaran',
-        body: 'Berbeza dengan bahan perangsang sintetik yang memberi kesan mengejut dan kemudian menyebabkan kelesuan melampau, herba adaptogenik piawai berfungsi melalui pengumpulan fitokimia berperingkat di dalam tisu badan. Untuk mengelakkan kejatuhan paras herba apabila botol pertama habis, sistem Onyxman menetapkan peringatan pesanan semula pada Hari Ke-18 bagi Horsemen dan Hammer of Thor (20 kapsul), serta Hari Ke-25 bagi Grow XL dan Magnum Pump XR (30 kapsul). Ramai pelanggan berpengalaman terus memilih Pakej 2 Botol (RM 318 · Penghantaran Percuma Seluruh Malaysia) atau Pakej 3 Botol (RM 477 · Kitaran 60–90 Hari) sejak hari pertama.',
+        body: 'Berbeza dengan bahan perangsang sintetik yang memberi kesan mengejut dan kemudian menyebabkan kelesuan melampau, herba adaptogenik piawai berfungsi melalui pengumpulan fitokimia berperingkat di dalam tisu badan. Untuk mengelakkan kejatuhan paras herba apabila botol pertama habis, sistem Onyxmen menetapkan peringatan pesanan semula pada Hari Ke-18 bagi Horsemen dan Hammer of Thor (20 kapsul), serta Hari Ke-25 bagi Grow XL dan Magnum Pump XR (30 kapsul). Ramai pelanggan berpengalaman terus memilih Pakej 2 Botol (RM 318 · Penghantaran Percuma Seluruh Malaysia) atau Pakej 3 Botol (RM 477 · Kitaran 60–90 Hari) sejak hari pertama.',
       },
     ],
     protocolLedgerRows: [
@@ -588,7 +588,7 @@ export const BM_GUIDE_DOSSIERS = [
     ],
     faqs: [
       {
-        q: 'Bolehkah saya mengambil kapsul Onyxman semasa perut kosong pada waktu pagi atau malam?',
+        q: 'Bolehkah saya mengambil kapsul Onyxmen semasa perut kosong pada waktu pagi atau malam?',
         a: 'Bagi Magnum Pump XR (30 Kapsul Hitam), pengambilan semasa perut ringan (kira-kira 60–90 minit selepas makan) mempercepatkan penyerapan asid amino L-Arginine HCl dan L-Citrulline ke dalam aliran darah. Namun bagi Horsemen, Hammer of Thor, dan Grow XL yang kaya dengan ekstrak akar herba pekat (Tongkat Ali 100:1, Tribulus 60%, dan Zink), kami mengesyorkan pengambilan 20 hingga 45 minit selepas makan bersama air suam bagi mengelakkan rasa pedih ulu hati dan meningkatkan penyerapan sebatian larut lemak.',
       },
       {
@@ -628,14 +628,14 @@ export const BM_GUIDE_DOSSIERS = [
     publishedDate: '2026-01-20',
     updatedDate: '2026-10-30',
     seoTitle:
-      'Cara Semak Ketulenan Botol Onyxman & Elak Produk Tiruan di Malaysia | RM 159 Rasmi',
+      'Cara Semak Ketulenan Botol Onyxmen & Elak Produk Tiruan di Malaysia | RM 159 Rasmi',
     metaDescription:
-      'Lindungi kesihatan anda daripada produk tiruan murah dan penjual tidak sah. Ketahui 5 langkah semakan ketulenan botol Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159) di Onyxman.my.',
+      'Lindungi kesihatan anda daripada produk tiruan murah dan penjual tidak sah. Ketahui 5 langkah semakan ketulenan botol Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159) di Onyxmen.my.',
     kicker: 'MS-156 · PANDUAN PROTOKOL 02 · SEMAKAN KETULENAN & PERLINDUNGAN PENGGUNA',
     headlineHtml:
-      'Cara Semak Ketulenan Botol Onyxman &amp; <span class="foil-champagne-text">Mengenal Pasti Produk Tiruan Di Malaysia.</span>',
+      'Cara Semak Ketulenan Botol Onyxmen &amp; <span class="foil-champagne-text">Mengenal Pasti Produk Tiruan Di Malaysia.</span>',
     leadSummary:
-      'Pasaran dalam talian di Malaysia dibanjiri iklan klasifikasi tidak sah dan penjual jalanan yang menawarkan kapsul tiruan pada harga tidak masuk akal (RM 25–RM 45). Gunakan senarai semak 5 perkara rasmi Lembaga Kualiti Onyxman Malaysia untuk mengesahkan ketulenan botol Horsemen, Hammer of Thor, Grow XL, dan Magnum Pump XR pada harga rasmi seragam RM 159 sebotol.',
+      'Pasaran dalam talian di Malaysia dibanjiri iklan klasifikasi tidak sah dan penjual jalanan yang menawarkan kapsul tiruan pada harga tidak masuk akal (RM 25–RM 45). Gunakan senarai semak 5 perkara rasmi Lembaga Kualiti Onyxmen Malaysia untuk mengesahkan ketulenan botol Horsemen, Hammer of Thor, Grow XL, dan Magnum Pump XR pada harga rasmi seragam RM 159 sebotol.',
     telemetry: [
       {
         label: 'HARGA RASMI SERAGAM MYR',
@@ -650,7 +650,7 @@ export const BM_GUIDE_DOSSIERS = [
       {
         label: 'PENGEDAR TUNGGAL SAH',
         val: 'https://www.onyxmen.my sahaja',
-        sub: 'Meja operasi: sales@onyxman.my & info@onyxman.my',
+        sub: 'Meja operasi: sales@onyxmen.my & info@onyxmen.my',
       },
       {
         label: 'SLIP KURIER RASMI',
@@ -661,12 +661,12 @@ export const BM_GUIDE_DOSSIERS = [
     pinnedSummaryTitle:
       'Mengapa Kapsul Tiruan Berharga RM 30 Di Laman Iklan Bebas Sangat Berbahaya Kepada Kesihatan Anda',
     pinnedSummaryCopy:
-      'Kapsul tiruan yang dijual tanpa kawalan suhu lazimnya mengandungi tepung kanji murah atau dicampur secara haram dengan bahan kimia preskripsi sintetik tanpa sukatan yang boleh mengakibatkan sakit kepala melampau, debaran jantung, dan kerosakan buah pinggang. Setiap botol rasmi Onyxman.my disimpan di dalam bilik kebal kawalan suhu Kuala Lumpur dan disaring untuk ketulenan.',
+      'Kapsul tiruan yang dijual tanpa kawalan suhu lazimnya mengandungi tepung kanji murah atau dicampur secara haram dengan bahan kimia preskripsi sintetik tanpa sukatan yang boleh mengakibatkan sakit kepala melampau, debaran jantung, dan kerosakan buah pinggang. Setiap botol rasmi Onyxmen.my disimpan di dalam bilik kebal kawalan suhu Kuala Lumpur dan disaring untuk ketulenan.',
     chapters: [
       {
         code: 'BAB 01 · SEMAKAN HARGA RASMI RM 159',
         title: 'Penanda Pertama: Struktur Harga Rasmi RM 159 (1 Botol), RM 318 (2 Botol) & RM 477 (3 Botol)',
-        body: 'Ekstrak herba piawai tulen seperti Akar Tongkat Ali Malaysia 100:1 (dipiawaikan kepada >=2.2% Eurycomanone), Saponin Tribulus Terrestris 60%, dan Akar Maca Hitam Peru Tergelatinisasi memerlukan kos pengekstrakan makmal dan ujian HPLC yang tinggi. Oleh itu, semua empat formulasi rasmi Onyxman di Malaysia dijual pada harga tetap yang telus: RM 159.00 untuk 1 botol, RM 318.00 untuk 2 botol, dan RM 477.00 untuk 3 botol. Sebarang iklan di laman klasifikasi atau gedung pihak ketiga yang menawarkan botol berharga RM 25, RM 39, atau RM 50 adalah 100% stok tiruan atau stok tamat tempoh.',
+        body: 'Ekstrak herba piawai tulen seperti Akar Tongkat Ali Malaysia 100:1 (dipiawaikan kepada >=2.2% Eurycomanone), Saponin Tribulus Terrestris 60%, dan Akar Maca Hitam Peru Tergelatinisasi memerlukan kos pengekstrakan makmal dan ujian HPLC yang tinggi. Oleh itu, semua empat formulasi rasmi Onyxmen di Malaysia dijual pada harga tetap yang telus: RM 159.00 untuk 1 botol, RM 318.00 untuk 2 botol, dan RM 477.00 untuk 3 botol. Sebarang iklan di laman klasifikasi atau gedung pihak ketiga yang menawarkan botol berharga RM 25, RM 39, atau RM 50 adalah 100% stok tiruan atau stok tamat tempoh.',
       },
       {
         code: 'BAB 02 · AUDIT FIZIKAL LABEL & KAPSUL',
@@ -676,12 +676,12 @@ export const BM_GUIDE_DOSSIERS = [
       {
         code: 'BAB 03 · BEBAS NOMBOR PENDAFTARAN PALSU',
         title: 'Penanda Ketiga: Ketelusan Suplemen Pemakanan Botani & Saringan Bebas Bahan Kimia Terlarang',
-        body: 'Penjual produk tiruan sering mengelirukan pengguna dengan mencetak nombor pendaftaran ubat yang direka-reka pada kotak murah atau mencampurkan bahan kimia sintetik PDE5 secara sembunyi. Onyxman Malaysia mengamalkan ketelusan penuh: produk kami adalah suplemen pemakanan botani dan asid amino untuk kecergasan lelaki dewasa (18+), tidak menggunakan nombor pendaftaran palsu, dan setiap kelompok pengeluaran diuji bebas daripada logam berat (Plumbum, Merkuri, Arsenik, Kadmium) serta bebas bahan perangsang sintetik.',
+        body: 'Penjual produk tiruan sering mengelirukan pengguna dengan mencetak nombor pendaftaran ubat yang direka-reka pada kotak murah atau mencampurkan bahan kimia sintetik PDE5 secara sembunyi. Onyxmen Malaysia mengamalkan ketelusan penuh: produk kami adalah suplemen pemakanan botani dan asid amino untuk kecergasan lelaki dewasa (18+), tidak menggunakan nombor pendaftaran palsu, dan setiap kelompok pengeluaran diuji bebas daripada logam berat (Plumbum, Merkuri, Arsenik, Kadmium) serta bebas bahan perangsang sintetik.',
       },
       {
         code: 'BAB 04 · PENGESAHAN SALURAN TEMPAHAN',
-        title: 'Penanda Keempat: Tempahan Terus Melalui Onyxman.my & Pengirim OM Fulfilment Logistics',
-        body: 'Stok rasmi Onyxman Malaysia tidak pernah diedarkan melalui penjaja tepi jalan, pasar malam, atau akaun media sosial tanpa identiti. Setiap pesanan tulen hanya dibuat melalui https://www.onyxmen.my dan disahkan oleh pusat operasi Kuala Lumpur kami menerusi e-mel rasmi sales@onyxman.my, info@onyxman.my, atau waleedshoaibofficial@gmail.com. Pada slip kurier NinjaVan, J&T VIP, atau PosLaju, nama pengirim sentiasa dicetak sebagai "OM Fulfilment Logistics (Kuala Lumpur)".',
+        title: 'Penanda Keempat: Tempahan Terus Melalui Onyxmen.my & Pengirim OM Fulfilment Logistics',
+        body: 'Stok rasmi Onyxmen Malaysia tidak pernah diedarkan melalui penjaja tepi jalan, pasar malam, atau akaun media sosial tanpa identiti. Setiap pesanan tulen hanya dibuat melalui https://www.onyxmen.my dan disahkan oleh pusat operasi Kuala Lumpur kami menerusi e-mel rasmi sales@onyxmen.my, info@onyxmen.my, atau waleedshoaibofficial@gmail.com. Pada slip kurier NinjaVan, J&T VIP, atau PosLaju, nama pengirim sentiasa dicetak sebagai "OM Fulfilment Logistics (Kuala Lumpur)".',
       },
     ],
     protocolLedgerRows: [
@@ -705,7 +705,7 @@ export const BM_GUIDE_DOSSIERS = [
       },
       {
         code: 'SEMAKAN-04 · SALURAN E-MEL SAH',
-        title: 'Pengesahan Melalui sales@onyxman.my & info@onyxman.my',
+        title: 'Pengesahan Melalui sales@onyxmen.my & info@onyxmen.my',
         body: 'Setiap pesanan rasmi menerima rekod tempahan digital dan sokongan susulan WhatsApp daripada meja privasi Kuala Lumpur kami.',
         meta: 'Rekod Tempahan Berdaftar',
       },
@@ -732,12 +732,12 @@ export const BM_GUIDE_DOSSIERS = [
         a: 'Buka penutup botol Magnum Pump XR (SKU ONYX-MP-30) selepas memastikan meterai luarnya utuh: botol tulen mengandungi tepat 30 kapsul berwarna hitam pekat (30 Black Capsules) dengan cetakan label merah-emas "Testosterone Pro Series — Male Enhancement Formula Maximum Strength".',
       },
       {
-        q: 'Adakah Onyxman mempunyai ejen jualan tunai di kedai jamu tepi jalan atau pasar malam?',
-        a: 'Tidak. Bagi menjaga kualiti penyimpanan suhu terkawal (di bawah 24°C) dan melindungi privasi pelanggan, Onyxman Malaysia tidak melantik penjaja pasar malam atau kedai tepi jalan. Semua penghantaran dilakukan terus dari pusat penyimpanan Kuala Lumpur kami ke pintu rumah atau pejabat anda.',
+        q: 'Adakah Onyxmen mempunyai ejen jualan tunai di kedai jamu tepi jalan atau pasar malam?',
+        a: 'Tidak. Bagi menjaga kualiti penyimpanan suhu terkawal (di bawah 24°C) dan melindungi privasi pelanggan, Onyxmen Malaysia tidak melantik penjaja pasar malam atau kedai tepi jalan. Semua penghantaran dilakukan terus dari pusat penyimpanan Kuala Lumpur kami ke pintu rumah atau pejabat anda.',
       },
       {
         q: 'Apakah yang perlu saya lakukan jika saya ragu-ragu tentang ketulenan sesuatu iklan di luar laman web ini?',
-        a: 'Jangan buat sebarang bayaran kepada akaun peribadi yang meragukan. Hubungi meja pengesahan kami di info@onyxman.my atau sales@onyxman.my, atau terus buat tempahan melalui Laci Tempahan Ekspres di laman rasmi https://www.onyxmen.my.',
+        a: 'Jangan buat sebarang bayaran kepada akaun peribadi yang meragukan. Hubungi meja pengesahan kami di info@onyxmen.my atau sales@onyxmen.my, atau terus buat tempahan melalui Laci Tempahan Ekspres di laman rasmi https://www.onyxmen.my.',
       },
     ],
   },
@@ -764,14 +764,14 @@ export const BM_GUIDE_DOSSIERS = [
     publishedDate: '2026-02-01',
     updatedDate: '2026-10-30',
     seoTitle:
-      'Panduan Tempahan Bungkusan Rahsia: COD, FPX & DuitNow QR Seluruh Malaysia | Onyxman.my',
+      'Panduan Tempahan Bungkusan Rahsia: COD, FPX & DuitNow QR Seluruh Malaysia | Onyxmen.my',
     metaDescription:
-      'Ketahui bagaimana Onyxman Malaysia melindungi privasi anda sepenuhnya dari tempahan hingga ke pintu rumah: kotak kosong tanpa jenama, slip kurier OM Fulfilment Logistics, COD, FPX & DuitNow QR.',
+      'Ketahui bagaimana Onyxmen Malaysia melindungi privasi anda sepenuhnya dari tempahan hingga ke pintu rumah: kotak kosong tanpa jenama, slip kurier OM Fulfilment Logistics, COD, FPX & DuitNow QR.',
     kicker: 'MS-157 · PANDUAN PROTOKOL 03 · LOGISTIK BUNGKUSAN RAHSIA, COD & FPX MALAYSIA',
     headlineHtml:
       'Panduan Tempahan Bungkusan Rahsia Di Malaysia: <span class="foil-champagne-text">Jaminan Kotak Kosong, COD &amp; FPX.</span>',
     leadSummary:
-      'Kami memahami bahawa privasi adalah keutamaan mutlak bagi setiap lelaki dewasa di Malaysia. Setiap langkah penghantaran Onyxman direka supaya posmen kurier, pengawal keselamatan kondominium, kerani kaunter pejabat, mahupun ahli keluarga tidak sesekali mengetahui isi kandungan bungkusan anda.',
+      'Kami memahami bahawa privasi adalah keutamaan mutlak bagi setiap lelaki dewasa di Malaysia. Setiap langkah penghantaran Onyxmen direka supaya posmen kurier, pengawal keselamatan kondominium, kerani kaunter pejabat, mahupun ahli keluarga tidak sesekali mengetahui isi kandungan bungkusan anda.',
     telemetry: [
       {
         label: 'PEMBUNGKUSAN 3 LAPISAN',
@@ -781,7 +781,7 @@ export const BM_GUIDE_DOSSIERS = [
       {
         label: 'NAMA PENGIRIM SLIP KURIER',
         val: 'OM Fulfilment Logistics (KL)',
-        sub: 'Sifar perkataan "Onyxman", "Horsemen" atau "Suplemen Lelaki"',
+        sub: 'Sifar perkataan "Onyxmen", "Horsemen" atau "Suplemen Lelaki"',
       },
       {
         label: 'MOD PEMBAYARAN MALAYSIA',
@@ -802,12 +802,12 @@ export const BM_GUIDE_DOSSIERS = [
       {
         code: 'BAB 01 · PEMBUNGKUSAN ANTI-BUNYI',
         title: 'Lapisan Pertama & Kedua: Balutan Kedap Bunyi & Kotak Keselamatan Legap Tanpa Sebarang Jenama',
-        body: 'Masalah utama bungkusan suplemen biasa ialah bunyi kapsul bergoncang di dalam botol plastik apabila dipegang oleh posmen atau rakan sepejabat. Di pusat operasi Onyxman Kuala Lumpur, setiap botol Horsemen, Hammer of Thor, Grow XL, atau Magnum Pump XR dibalut rapat dengan pelindung gelembung berketumpatan tinggi bagi menyerap hentakan dan menghapuskan bunyi goncangan. Botol kemudian dimasukkan ke dalam kotak kadbod kukuh tanpa cetakan dan disalut dengan sampul keselamatan hitam/kelabu legap yang kalis air serta kalis koyak.',
+        body: 'Masalah utama bungkusan suplemen biasa ialah bunyi kapsul bergoncang di dalam botol plastik apabila dipegang oleh posmen atau rakan sepejabat. Di pusat operasi Onyxmen Kuala Lumpur, setiap botol Horsemen, Hammer of Thor, Grow XL, atau Magnum Pump XR dibalut rapat dengan pelindung gelembung berketumpatan tinggi bagi menyerap hentakan dan menghapuskan bunyi goncangan. Botol kemudian dimasukkan ke dalam kotak kadbod kukuh tanpa cetakan dan disalut dengan sampul keselamatan hitam/kelabu legap yang kalis air serta kalis koyak.',
       },
       {
         code: 'BAB 02 · SLIP KURIER & KASTAM NEUTRAL',
         title: 'Lapisan Ketiga: Maklumat Slip Penghantaran (Airway Bill) & Pengisytiharan Kargo Udara Sabah/Sarawak',
-        body: 'Pada slip kurier NinjaVan Malaysia, J&T Express VIP, dan PosLaju Priority, ruangan nama pengirim dicetak secara rasmi sebagai "OM Fulfilment Logistics (Kuala Lumpur)". Tiada sebarang perkataan "Onyxman", nama produk, atau istilah kesihatan intim dicetak pada label. Bagi penghantaran kargo udara merentasi Laut China Selatan ke Sabah, Sarawak, dan Wilayah Persekutuan Labuan yang memerlukan keterangan kastam domestik, ruangan keterangan barangan hanya ditulis secara umum sebagai "Personal Nutritional Goods / Barangan Kesihatan Harian".',
+        body: 'Pada slip kurier NinjaVan Malaysia, J&T Express VIP, dan PosLaju Priority, ruangan nama pengirim dicetak secara rasmi sebagai "OM Fulfilment Logistics (Kuala Lumpur)". Tiada sebarang perkataan "Onyxmen", nama produk, atau istilah kesihatan intim dicetak pada label. Bagi penghantaran kargo udara merentasi Laut China Selatan ke Sabah, Sarawak, dan Wilayah Persekutuan Labuan yang memerlukan keterangan kastam domestik, ruangan keterangan barangan hanya ditulis secara umum sebagai "Personal Nutritional Goods / Barangan Kesihatan Harian".',
       },
       {
         code: 'BAB 03 · PILIHAN FPX / DUITNOW VS COD',
@@ -860,7 +860,7 @@ export const BM_GUIDE_DOSSIERS = [
     ],
     faqs: [
       {
-        q: 'Adakah posmen NinjaVan atau J&T tahu bahawa bungkusan COD saya mengandungi suplemen lelaki Onyxman?',
+        q: 'Adakah posmen NinjaVan atau J&T tahu bahawa bungkusan COD saya mengandungi suplemen lelaki Onyxmen?',
         a: 'Tidak sama sekali. Posmen hanya melihat bungkusan kotak/pek keselamatan standard daripada "OM Fulfilment Logistics" berserta jumlah kutipan RM 159, RM 318, atau RM 477. Tiada nama produk dicetak pada slip atau sistem imbasan posmen.',
       },
       {
@@ -899,14 +899,14 @@ export const BM_GUIDE_DOSSIERS = [
     publishedDate: '2026-02-10',
     updatedDate: '2026-10-30',
     seoTitle:
-      'Panduan Pemilihan Kitaran 20 Kapsul vs 30 Kapsul: Protokol Onyxman Mana Sesuai Untuk Anda? | RM 159',
+      'Panduan Pemilihan Kitaran 20 Kapsul vs 30 Kapsul: Protokol Onyxmen Mana Sesuai Untuk Anda? | RM 159',
     metaDescription:
-      'Bandingkan kitaran padat 20 kapsul (Horsemen & Hammer of Thor) dengan kitaran penuh 30 kapsul sebulan (Grow XL & Magnum Pump XR) pada harga seragam RM 159 di Onyxman Malaysia.',
+      'Bandingkan kitaran padat 20 kapsul (Horsemen & Hammer of Thor) dengan kitaran penuh 30 kapsul sebulan (Grow XL & Magnum Pump XR) pada harga seragam RM 159 di Onyxmen Malaysia.',
     kicker: 'MS-158 · PANDUAN PROTOKOL 04 · MATRIKS PEMILIHAN KITARAN 20 VS 30 KAPSUL',
     headlineHtml:
       'Pemilihan Kitaran 20 Kapsul vs 30 Kapsul: <span class="foil-champagne-text">Sesuaikan Formulasi Mengikut Gaya Hidup Anda.</span>',
     leadSummary:
-      'Keempat-empat formulasi utama Onyxman ditawarkan pada harga seragam RM 159 sebotol, namun dibahagikan kepada dua seni bina kitaran yang berbeza: Rizab Kepekatan Tinggi 20 Kapsul (Horsemen & Hammer of Thor) dan Kitaran Bulanan 30 Kapsul (Grow XL & Magnum Pump XR). Gunakan matriks perbandingan ini untuk memilih botol yang paling tepat dengan matlamat fisiologi anda.',
+      'Keempat-empat formulasi utama Onyxmen ditawarkan pada harga seragam RM 159 sebotol, namun dibahagikan kepada dua seni bina kitaran yang berbeza: Rizab Kepekatan Tinggi 20 Kapsul (Horsemen & Hammer of Thor) dan Kitaran Bulanan 30 Kapsul (Grow XL & Magnum Pump XR). Gunakan matriks perbandingan ini untuk memilih botol yang paling tepat dengan matlamat fisiologi anda.',
     telemetry: [
       {
         label: 'KATEGORI 20 KAPSUL (RM 159)',
@@ -947,7 +947,7 @@ export const BM_GUIDE_DOSSIERS = [
       {
         code: 'BAB 03 · STRATEGI GABUNGAN 2 BOTOL (RM 318)',
         title: 'Protokol Sinergi Siang & Malam: Menggabungkan Botol 30 Kapsul Dengan Botol 20 Kapsul',
-        body: 'Pendekatan paling popular di kalangan pelanggan tetap Onyxman di Kuala Lumpur, Selangor, dan Johor Bahru ialah menempah Pakej 2 Botol (RM 318.00) dengan menggabungkan satu botol kitaran pagi dan satu botol kitaran malam. Sebagai contoh, ambil 1 kapsul Grow XL setiap pagi selepas sarapan untuk kecergasan mikro-vaskular harian, dan gunakan Horsemen atau Magnum Pump XR pada malam hujung minggu atau sebelum latihan fizikal. Anda bukan sahaja mendapat liputan fisiologi 360 darjah, malah layak menerima Penghantaran Ekspres Percuma ke seluruh Malaysia termasuk Sabah dan Sarawak.',
+        body: 'Pendekatan paling popular di kalangan pelanggan tetap Onyxmen di Kuala Lumpur, Selangor, dan Johor Bahru ialah menempah Pakej 2 Botol (RM 318.00) dengan menggabungkan satu botol kitaran pagi dan satu botol kitaran malam. Sebagai contoh, ambil 1 kapsul Grow XL setiap pagi selepas sarapan untuk kecergasan mikro-vaskular harian, dan gunakan Horsemen atau Magnum Pump XR pada malam hujung minggu atau sebelum latihan fizikal. Anda bukan sahaja mendapat liputan fisiologi 360 darjah, malah layak menerima Penghantaran Ekspres Percuma ke seluruh Malaysia termasuk Sabah dan Sarawak.',
       },
       {
         code: 'BAB 04 · PERANCANGAN KITARAN 90 HARI (RM 477)',
@@ -995,7 +995,7 @@ export const BM_GUIDE_DOSSIERS = [
     ],
     faqs: [
       {
-        q: 'Jika saya baru pertama kali mencuba Onyxman, patutkah saya memilih botol 20 kapsul atau 30 kapsul?',
+        q: 'Jika saya baru pertama kali mencuba Onyxmen, patutkah saya memilih botol 20 kapsul atau 30 kapsul?',
         a: 'Jika matlamat utama anda ialah kesediaan tenaga pada waktu malam atau hujung minggu, mulakan dengan Horsemen (20 Kapsul × 500mg, RM 159). Jika matlamat utama anda ialah mengatasi keletihan harian akibat kerja pejabat dan membina stamina secara konsisten setiap pagi selama sebulan penuh, mulakan dengan Grow XL (30 Kapsul, RM 159). Jika anda kerap ke gimnasium, pilih Magnum Pump XR (30 Kapsul Hitam, RM 159).',
       },
       {
@@ -1008,7 +1008,7 @@ export const BM_GUIDE_DOSSIERS = [
       },
       {
         q: 'Bolehkah saya menukar daripada botol 20 kapsul kepada botol 30 kapsul pada bulan berikutnya?',
-        a: 'Sudah tentu. Semua formulasi Onyxman adalah bebas bahan sintetik dan saling melengkapi. Ramai pelanggan memulakan bulan pertama dengan Horsemen (20 kapsul) dan kemudian beralih kepada Grow XL (30 kapsul) pada bulan kedua untuk penyelenggaraan harian.',
+        a: 'Sudah tentu. Semua formulasi Onyxmen adalah bebas bahan sintetik dan saling melengkapi. Ramai pelanggan memulakan bulan pertama dengan Horsemen (20 kapsul) dan kemudian beralih kepada Grow XL (30 kapsul) pada bulan kedua untuk penyelenggaraan harian.',
       },
     ],
   },
@@ -1038,7 +1038,7 @@ BM_GUIDE_DOSSIERS.push(
     publishedDate: '2026-02-18',
     updatedDate: '2026-10-30',
     seoTitle:
-      'Panduan Nutrisi Kecergasan & Stamina Lelaki di Iklim Tropika Malaysia | Onyxman Malaysia',
+      'Panduan Nutrisi Kecergasan & Stamina Lelaki di Iklim Tropika Malaysia | Onyxmen Malaysia',
     metaDescription:
       'Bagaimana cuaca panas lembap Malaysia, kesesakan trafik Lembah Klang, kurang tidur, dan pemakanan lewat malam mempengaruhi stamina lelaki dewasa serta peranan herba piawai (RM 159).',
     kicker: 'MS-159 · PANDUAN PROTOKOL 05 · NUTRISI STAMINA & PEMULIHAN TENAGA IKLIM TROPIKA MALAYSIA',
@@ -1116,7 +1116,7 @@ BM_GUIDE_DOSSIERS.push(
       {
         code: 'NUTRISI-04 · BEBAS KAFEIN',
         title: 'Tenaga Semula Jadi Tanpa Debaran Jantung Atau Insomnia',
-        body: 'Semua 4 formulasi Onyxman adalah 100% bebas kafein sintetik, membolehkan anda mengambil kapsul malam tanpa mengganggu kualiti tidur.',
+        body: 'Semua 4 formulasi Onyxmen adalah 100% bebas kafein sintetik, membolehkan anda mengambil kapsul malam tanpa mengganggu kualiti tidur.',
         meta: '100% Bebas Perangsang',
       },
       {
@@ -1134,19 +1134,19 @@ BM_GUIDE_DOSSIERS.push(
     ],
     faqs: [
       {
-        q: 'Mengapakah saya tidak boleh menyimpan botol suplemen Onyxman di dalam papan pemuka (dashboard) kereta di Malaysia?',
+        q: 'Mengapakah saya tidak boleh menyimpan botol suplemen Onyxmen di dalam papan pemuka (dashboard) kereta di Malaysia?',
         a: 'Suhu di dalam kabin kereta yang diparkir di bawah matahari Malaysia boleh mencecah 55°C hingga 65°C. Haba melampau ini boleh merosakkan struktur molekul glikosida herba dan melembutkan sarung kapsul. Sentiasa simpan botol anda di dalam bilik atau pejabat pada suhu bilik (di bawah 28°C).',
       },
       {
-        q: 'Adakah formulasi Onyxman menyebabkan rasa berdebar atau sukar tidur seperti minuman kopi kuat?',
-        a: 'Tidak. Formulasi Onyxman tidak mengandungi kafein sintetik atau bahan perangsang sistem saraf pusat. Sebaliknya, herba seperti Tongkat Ali, Maca Hitam, dan Ashwagandha membantu mengurangkan kelesuan tekanan supaya anda berasa bertenaga apabila aktif dan tidur lebih lena selepas itu.',
+        q: 'Adakah formulasi Onyxmen menyebabkan rasa berdebar atau sukar tidur seperti minuman kopi kuat?',
+        a: 'Tidak. Formulasi Onyxmen tidak mengandungi kafein sintetik atau bahan perangsang sistem saraf pusat. Sebaliknya, herba seperti Tongkat Ali, Maca Hitam, dan Ashwagandha membantu mengurangkan kelesuan tekanan supaya anda berasa bertenaga apabila aktif dan tidur lebih lena selepas itu.',
       },
       {
         q: 'Apakah formulasi terbaik untuk lelaki yang bekerja syif malam atau kerap memandu jauh merentas negeri?',
         a: 'Bagi lelaki yang bekerja syif atau kerap berulang-alik jauh, kami mengesyorkan Grow XL (30 Kapsul, RM 159) untuk diambil sebelum memulakan waktu kerja harian kerana kandungan Panax Ginseng dan Ginkgo Biloba menyokong fokus serta aliran mikro tanpa rasa mengantuk.',
       },
       {
-        q: 'Perlukah saya mengamalkan diet khas semasa mengambil suplemen Onyxman?',
+        q: 'Perlukah saya mengamalkan diet khas semasa mengambil suplemen Onyxmen?',
         a: 'Tiada pantang larang yang rumit diperlukan. Anda hanya perlu memastikan pengambilan air kosong mencukupi (2.5–3.0 liter sehari), mengurangkan makanan terlalu berminyak lewat malam, dan menjarakkan kapsul selama 45 minit daripada teh tarik atau kopi pekat.',
       },
     ],
@@ -1173,9 +1173,9 @@ BM_GUIDE_DOSSIERS.push(
     publishedDate: '2026-02-25',
     updatedDate: '2026-10-30',
     seoTitle:
-      'Panduan Asid Amino Nitrik Oksida vs Herba Adaptogenik: Aliran Vaskular & Tenaga | Onyxman Malaysia',
+      'Panduan Asid Amino Nitrik Oksida vs Herba Adaptogenik: Aliran Vaskular & Tenaga | Onyxmen Malaysia',
     metaDescription:
-      'Fahami perbezaan fungsi prekursor vaskular Nitrik Oksida (L-Arginine HCl, L-Citrulline, Bioperine) dan herba adaptogenik (Tongkat Ali, Tribulus, Maca) dalam rangkaian Onyxman Malaysia (RM 159).',
+      'Fahami perbezaan fungsi prekursor vaskular Nitrik Oksida (L-Arginine HCl, L-Citrulline, Bioperine) dan herba adaptogenik (Tongkat Ali, Tribulus, Maca) dalam rangkaian Onyxmen Malaysia (RM 159).',
     kicker: 'MS-160 · PANDUAN PROTOKOL 06 · BIOKIMIA NITRIK OKSIDA VS HERBA ADAPTOGENIK',
     headlineHtml:
       'Asid Amino Nitrik Oksida vs Herba Adaptogenik: <span class="foil-champagne-text">Sinergi Aliran Vaskular &amp; Tenaga Dalaman.</span>',
@@ -1226,7 +1226,7 @@ BM_GUIDE_DOSSIERS.push(
       {
         code: 'BAB 04 · PENJELASAN RASMI MAGNUM PUMP XR',
         title: 'Penjelasan Entiti Produk: Magnum Pump XR Ialah Suplemen 30 Kapsul Hitam (Bukan Pam Industri/Mekanikal)',
-        body: 'Untuk ketepatan maklumat pengguna dan enjin carian di Malaysia: Magnum Pump XR oleh Onyxman Malaysia (SKU: ONYX-MP-30MY, MPN: OM-MP-2026-MY, GTIN-13: 9550000102042, Harga: RM 159.00) ialah 100% Suplemen Pemakanan Kapsul Oral di bawah siri "Testosterone Pro Series — Male Enhancement Formula Maximum Strength" yang mengandungi 30 Kapsul Hitam (30 Black Capsules) setiap botol. Perkataan "Pump" merujuk kepada istilah kecergasan gimnasium dan vasodilatasi Nitrik Oksida ("vascular muscle pump"), dan produk ini sama sekali TIDAK berkaitan dengan pam cecair mekanikal, pam vakum, atau pam lumpur industri minyak dan gas.',
+        body: 'Untuk ketepatan maklumat pengguna dan enjin carian di Malaysia: Magnum Pump XR oleh Onyxmen Malaysia (SKU: ONYX-MP-30MY, MPN: OM-MP-2026-MY, GTIN-13: 9550000102042, Harga: RM 159.00) ialah 100% Suplemen Pemakanan Kapsul Oral di bawah siri "Testosterone Pro Series — Male Enhancement Formula Maximum Strength" yang mengandungi 30 Kapsul Hitam (30 Black Capsules) setiap botol. Perkataan "Pump" merujuk kepada istilah kecergasan gimnasium dan vasodilatasi Nitrik Oksida ("vascular muscle pump"), dan produk ini sama sekali TIDAK berkaitan dengan pam cecair mekanikal, pam vakum, atau pam lumpur industri minyak dan gas.',
       },
     ],
     protocolLedgerRows: [
@@ -1274,7 +1274,7 @@ BM_GUIDE_DOSSIERS.push(
       },
       {
         q: 'Adakah Magnum Pump XR sejenis alat mekanikal atau suplemen kapsul makan?',
-        a: 'Magnum Pump XR oleh Onyxman Malaysia ialah 100% suplemen pemakanan kapsul makan (oral dietary supplement) yang mengandungi 30 kapsul hitam berasaskan asid amino dan ekstrak botani. Ia bukan alat pam mekanikal atau peranti fizikal.',
+        a: 'Magnum Pump XR oleh Onyxmen Malaysia ialah 100% suplemen pemakanan kapsul makan (oral dietary supplement) yang mengandungi 30 kapsul hitam berasaskan asid amino dan ekstrak botani. Ia bukan alat pam mekanikal atau peranti fizikal.',
       },
       {
         q: 'Bolehkah saya mengambil asid amino Nitrik Oksida dan herba adaptogenik pada hari yang sama?',
@@ -1289,12 +1289,12 @@ BM_GUIDE_DOSSIERS.push(
 );
 
 /**
- * Shared Section 1: Complete 4-Bottle Onyxman Formulation Matrix in Bahasa Malaysia (RM 159 / RM 318 / RM 477)
+ * Shared Section 1: Complete 4-Bottle Onyxmen Formulation Matrix in Bahasa Malaysia (RM 159 / RM 318 / RM 477)
  */
 function renderFourFormulationsMatrixSectionBM(defaultProduct = 'horsemen') {
   return `
   <!-- ==========================================================================
-       MATRIKS LENGKAP 4 FORMULASI UTAMA ONYXMAN MALAYSIA (RM 159 SEBOTOL)
+       MATRIKS LENGKAP 4 FORMULASI UTAMA ONYXMEN MALAYSIA (RM 159 SEBOTOL)
        ========================================================================== -->
   <section
     id="pilihan-kitaran-20-vs-30-kapsul"
@@ -1308,12 +1308,12 @@ function renderFourFormulationsMatrixSectionBM(defaultProduct = 'horsemen') {
             MATRIKS SPESIFIKASI 4 FORMULASI RASMI · HARGA SERAGAM RM 159.00
           </span>
           <h2 id="heading-bm-four-formulations-matrix" class="editorial-headline-lg">
-            Jadual Perbandingan Lengkap Empat Formulasi <span class="foil-champagne-text">Apotekari Botani Onyxman Malaysia.</span>
+            Jadual Perbandingan Lengkap Empat Formulasi <span class="foil-champagne-text">Apotekari Botani Onyxmen Malaysia.</span>
           </h2>
         </div>
         <div class="panduan-section__header-right">
           <p class="protocol-key-takeaways">
-            Semua empat formulasi rasmi Onyxman ditawarkan pada harga tetap <strong>RM 159.00 (1 Botol)</strong>,
+            Semua empat formulasi rasmi Onyxmen ditawarkan pada harga tetap <strong>RM 159.00 (1 Botol)</strong>,
             <strong>RM 318.00 (2 Botol · Penghantaran Percuma Seluruh Malaysia)</strong>, dan
             <strong>RM 477.00 (3 Botol · Pakej Lengkap 60–90 Hari)</strong>.
           </p>
@@ -1512,7 +1512,7 @@ function renderBotanicalSynergyLedgerSectionBM() {
       <header class="panduan-section__header">
         <div class="panduan-section__header-left">
           <span class="editorial-kicker">
-            ENSIKLOPEDIA FITOKIMIA ONYXMAN · RUJUKAN MONOGRAF MAKMAL
+            ENSIKLOPEDIA FITOKIMIA ONYXMEN · RUJUKAN MONOGRAF MAKMAL
           </span>
           <h2 id="heading-bm-botanical-synergy" class="editorial-headline-lg">
             Empat Monograf Fitokimia Utama: <span class="foil-champagne-text">Tongkat Ali 100:1, Tribulus, Maca Hitam &amp; L-Arginine.</span>
@@ -1617,7 +1617,7 @@ function renderMalaysia16StatesDeliverySectionBM(defaultProduct = 'horsemen') {
         </div>
         <div class="panduan-section__header-right">
           <p>
-            Setiap pesanan dibungkus di dalam kotak keselamatan legap tanpa sebarang logo atau perkataan Onyxman.
+            Setiap pesanan dibungkus di dalam kotak keselamatan legap tanpa sebarang logo atau perkataan Onyxmen.
             Pilih <strong>FPX Online Banking</strong>, <strong>DuitNow Instant QR</strong>, atau
             <strong>Bayar Waktu Terima (COD Malaysia)</strong>.
           </p>
@@ -1768,7 +1768,7 @@ function renderMultiBottleAcquisitionAndDirectoryBM(defaultProduct = 'horsemen')
         <div class="panduan-hairline-row__code">${esc(g.microStep)} · ${esc(g.guideCode)}</div>
         <h3 class="panduan-hairline-row__title">
           <a href="${esc(primaryMsHref)}" style="text-decoration:underline;color:var(--gold-foil-bright);">
-            ${esc(g.seoTitle.replace(' | Onyxman Malaysia', '').replace(' | Onyxman.my', ''))}
+            ${esc(g.seoTitle.replace(' | Onyxmen Malaysia', '').replace(' | Onyxmen.my', ''))}
           </a>
         </h3>
         <div class="panduan-hairline-row__body">
@@ -1794,7 +1794,7 @@ function renderMultiBottleAcquisitionAndDirectoryBM(defaultProduct = 'horsemen')
       <header class="panduan-section__header">
         <div class="panduan-section__header-left">
           <span class="editorial-kicker">
-            PERPUSTAKAAN PROTOKOL ONYXMAN MALAYSIA · MS-154 HINGGA MS-160
+            PERPUSTAKAAN PROTOKOL ONYXMEN MALAYSIA · MS-154 HINGGA MS-160
           </span>
           <h2 id="heading-bm-6-guides-directory" class="editorial-headline-lg">
             Enam Panduan Lengkap Stamina, Semakan Ketulenan &amp; <span class="foil-champagne-text">Tempahan Bungkusan Rahsia Malaysia.</span>
@@ -1964,7 +1964,7 @@ export function renderIndividualGuidePageBM(dossier) {
         <span style="color:var(--gold-foil-bright);">${esc(dossier.guideCode)}</span>
       </nav>
       <div>
-        <span>DITERBITKAN OLEH LEMBAGA PENYELIDIKAN BOTANI ONYXMAN KUALA LUMPUR · MASA BACAAN ${dossier.readingTimeMinutes} MINIT</span>
+        <span>DITERBITKAN OLEH LEMBAGA PENYELIDIKAN BOTANI ONYXMEN KUALA LUMPUR · MASA BACAAN ${dossier.readingTimeMinutes} MINIT</span>
       </div>
     </div>
 
@@ -2053,7 +2053,7 @@ export function renderIndividualGuidePageBM(dossier) {
         </div>
         <div style="display:flex;justify-content:space-between;padding:0.75rem 0;border-bottom:1px solid rgba(234,230,223,0.1);">
           <span style="color:var(--gold-champagne);font-size:0.74rem;letter-spacing:0.16em;">MEJA OPERASI KL</span>
-          <span style="color:var(--text-silk-ivory);font-size:0.88rem;">sales@onyxman.my · info@onyxman.my</span>
+          <span style="color:var(--text-silk-ivory);font-size:0.88rem;">sales@onyxmen.my · info@onyxmen.my</span>
         </div>
       </div>
 
@@ -2117,7 +2117,7 @@ export function renderIndividualGuidePageBM(dossier) {
         <div class="panduan-section__header-left">
           <span class="editorial-kicker">SOALAN LAZIM PENGGUNA MALAYSIA · ${esc(dossier.guideCode)}</span>
           <h2 id="heading-guide-faq" class="editorial-headline-lg">
-            Jawapan Tepat Daripada <span class="foil-champagne-text">Lembaga Kualiti &amp; Privasi Onyxman.</span>
+            Jawapan Tepat Daripada <span class="foil-champagne-text">Lembaga Kualiti &amp; Privasi Onyxmen.</span>
           </h2>
         </div>
       </header>
@@ -2154,9 +2154,9 @@ export function renderMasterGuidesIndexPageBM() {
   const alternatePathEn = '/guides/';
   const alternatePathMs = '/ms/panduan/';
   const title =
-    'Perpustakaan Panduan Stamina Lelaki Dewasa, Semakan Ketulenan & Tempahan Rahsia Malaysia | Onyxman Malaysia';
+    'Perpustakaan Panduan Stamina Lelaki Dewasa, Semakan Ketulenan & Tempahan Rahsia Malaysia | Onyxmen Malaysia';
   const description =
-    'Indeks lengkap 6 panduan rasmi Onyxman Malaysia dalam Bahasa Malaysia: protokol masa pengambilan kapsul, semakan ketulenan botol RM 159, tempahan bungkusan rahsia COD/FPX, pemilihan kitaran 20 vs 30 kapsul, nutrisi tropika & sinergi Nitrik Oksida.';
+    'Indeks lengkap 6 panduan rasmi Onyxmen Malaysia dalam Bahasa Malaysia: protokol masa pengambilan kapsul, semakan ketulenan botol RM 159, tempahan bungkusan rahsia COD/FPX, pemilihan kitaran 20 vs 30 kapsul, nutrisi tropika & sinergi Nitrik Oksida.';
 
   const combinedFaqs = BM_GUIDE_DOSSIERS.flatMap((g) => g.faqs.slice(0, 2));
 
@@ -2239,7 +2239,7 @@ export function renderMasterGuidesIndexPageBM() {
         <span style="color:var(--gold-foil-bright);">Perpustakaan Panduan &amp; Protokol (/ms/panduan/ &amp; /ms/guides/)</span>
       </nav>
       <div>
-        <span>MS-154 · ENAM PANDUAN RASMI BAHASA MALAYSIA · ONYXMAN.MY KUALA LUMPUR</span>
+        <span>MS-154 · ENAM PANDUAN RASMI BAHASA MALAYSIA · ONYXMEN.MY KUALA LUMPUR</span>
       </div>
     </div>
 
@@ -2257,7 +2257,7 @@ export function renderMasterGuidesIndexPageBM() {
           <span>16 NEGERI &amp; WILAYAH MALAYSIA</span>
         </div>
         <p class="panduan-cinema-hero__lead article-executive-summary">
-          Selamat datang ke Pusat Rujukan Rasmi Bahasa Malaysia Onyxman.my. Di sini kami menghimpunkan enam panduan
+          Selamat datang ke Pusat Rujukan Rasmi Bahasa Malaysia Onyxmen.my. Di sini kami menghimpunkan enam panduan
           teknikal dan protokol pengguna merangkumi jadual masa pengambilan kapsul, senarai semak ketulenan botol
           RM 159, jaminan bungkusan rahsia kotak kosong (COD / FPX / DuitNow QR), pemilihan kitaran 20 vs 30 kapsul,
           nutrisi iklim tropika Malaysia, serta biokimia Nitrik Oksida dan herba adaptogenik.
@@ -2284,7 +2284,7 @@ export function renderMasterGuidesIndexPageBM() {
             <source srcset="/assets/products/onyxman-lineup-hero.webp" type="image/webp" />
             <img
               src="/assets/products/onyxman-lineup-hero.png"
-              alt="Koleksi Lengkap 4 Formulasi Onyxman Malaysia — Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR"
+              alt="Koleksi Lengkap 4 Formulasi Onyxmen Malaysia — Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR"
               width="1000"
               height="750"
               class="panduan-cinema-hero__img"
@@ -2300,7 +2300,7 @@ export function renderMasterGuidesIndexPageBM() {
       <div class="panduan-cinema-hero__telemetry-col">
         <span class="panduan-cinema-hero__telemetry-label">6 PANDUAN PEMBELI BM</span>
         <span class="panduan-cinema-hero__telemetry-val">Masa Makan, Ketulenan &amp; Privasi</span>
-        <span class="panduan-cinema-hero__telemetry-sub">Diterbitkan oleh Lembaga Kualiti Onyxman KL</span>
+        <span class="panduan-cinema-hero__telemetry-sub">Diterbitkan oleh Lembaga Kualiti Onyxmen KL</span>
       </div>
       <div class="panduan-cinema-hero__telemetry-col">
         <span class="panduan-cinema-hero__telemetry-label">HARGA RASMI SERAGAM</span>
@@ -2380,7 +2380,7 @@ export function renderMasterGuidesIndexPageBM() {
     <div class="panduan-section__inner">
       <header class="panduan-section__header">
         <div class="panduan-section__header-left">
-          <span class="editorial-kicker">SOALAN LAZIM INDUK · PERPUSTAKAAN PANDUAN ONYXMAN MALAYSIA</span>
+          <span class="editorial-kicker">SOALAN LAZIM INDUK · PERPUSTAKAAN PANDUAN ONYXMEN MALAYSIA</span>
           <h2 id="heading-master-bm-faq" class="editorial-headline-lg">
             Jawapan Lengkap Mengenai <span class="foil-champagne-text">Masa Makan, Ketulenan, COD &amp; Kitaran Kapsul.</span>
           </h2>
@@ -2454,7 +2454,7 @@ export function buildAllBahasaMalaysiaGuides() {
 if (process.argv[1] && path.resolve(process.argv[1]) === __filename) {
   const builtFiles = buildAllBahasaMalaysiaGuides();
   console.log('================================================================================');
-  console.log('ONYXMAN.MY — BAHASA MALAYSIA BUYER-INTENT SEO GUIDES BUILD COMPLETE (MS-154..160)');
+  console.log('ONYXMEN.MY — BAHASA MALAYSIA BUYER-INTENT SEO GUIDES BUILD COMPLETE (MS-154..160)');
   console.log('================================================================================');
   const bannedTokens = [
     '#' + 'FAF8F5',

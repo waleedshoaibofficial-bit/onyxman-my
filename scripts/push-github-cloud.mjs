@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * ONYXMAN.MY — PURE NODE.JS GITHUB GIT-DATA API CLOUD PUSHER & PAGES ACTIVATOR
+ * ONYXMEN.MY — PURE NODE.JS GITHUB GIT-DATA API CLOUD PUSHER & PAGES ACTIVATOR
  * Zero dependency on local `git` CLI. Reads GITHUB_TOKEN from process.env only.
  */
 
@@ -84,7 +84,7 @@ async function ghApi(endpoint, method = 'GET', body = null) {
       Authorization: `Bearer ${TOKEN}`,
       Accept: 'application/vnd.github+json',
       'X-GitHub-Api-Version': '2022-11-28',
-      'User-Agent': 'Onyxman-Cloud-Deployer',
+      'User-Agent': 'Onyxmen-Cloud-Deployer',
       ...(body ? { 'Content-Type': 'application/json' } : {}),
     },
     body: body ? JSON.stringify(body) : null,
@@ -109,7 +109,7 @@ async function main() {
     console.log('[CLOUD-PUSH] Initializing empty repository with README-CLOUD-DEPLOY.md...');
     const readmeContent = fs.readFileSync(path.join(ROOT, 'README-CLOUD-DEPLOY.md')).toString('base64');
     await ghApi('/contents/README-CLOUD-DEPLOY.md', 'PUT', {
-      message: 'Initial commit: Onyxman.my Cloud Architecture',
+      message: 'Initial commit: Onyxmen.my Cloud Architecture',
       content: readmeContent,
       branch: 'main',
     });
@@ -171,7 +171,7 @@ async function main() {
 
   console.log('[CLOUD-PUSH] Creating production commit...');
   const newCommit = await ghApi('/git/commits', 'POST', {
-    message: 'Launch Onyxman.my 8K Luxury Botanical Storefront (280 Bilingual Pages + 24/7 Cloud Workflows)',
+    message: 'Launch Onyxmen.my 8K Luxury Botanical Storefront (280 Bilingual Pages + 24/7 Cloud Workflows)',
     tree: newTree.sha,
     parents: [baseCommitSha],
   });

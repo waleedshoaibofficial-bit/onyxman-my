@@ -1,8 +1,8 @@
 /**
- * ONYXMAN.MY — 10-SECOND EXPRESS DISCREET ORDER DRAWER & INSTANT CONFIRMATION STAGE (MS-066 to MS-070)
+ * ONYXMEN.MY — 10-SECOND EXPRESS DISCREET ORDER DRAWER & INSTANT CONFIRMATION STAGE (MS-066 to MS-070)
  * Bilingual (en-MY / ms-MY) slide-over order concierge connected to:
  * - Primary Order Inbox: waleedshoaibofficial@gmail.com (via FormSubmit.co AJAX + failover)
- * - Official Brand Aliases: sales@onyxman.my, info@onyxman.my
+ * - Official Brand Aliases: sales@onyxmen.my, info@onyxmen.my
  * - 1-Click Reverse WhatsApp Link (https://wa.me/601XXXXXXXX?text=...)
  * - 1-Click Google Calendar Refill Reminder (+18 days for 20-capsule / +25 days for 30-capsule bottles)
  */
@@ -327,21 +327,21 @@ export function renderExpressOrderDrawer(options = {}) {
     <input type="hidden" name="bottles" id="onyxman-field-bottles" value="${defaultQty}" />
     <input type="hidden" name="totalMYR" id="onyxman-field-total-myr" value="${defaultQty * 159}.00" />
     <input type="hidden" name="merchantEmail" value="waleedshoaibofficial@gmail.com" />
-    <input type="hidden" name="brandSalesAlias" value="sales@onyxman.my" />
-    <input type="hidden" name="brandInfoAlias" value="info@onyxman.my" />
+    <input type="hidden" name="brandSalesAlias" value="sales@onyxmen.my" />
+    <input type="hidden" name="brandInfoAlias" value="info@onyxmen.my" />
 
     <p class="concierge-drawer__intro">
       ${
         isMs
-          ? 'Tiada pendaftaran akaun diperlukan. Pesanan anda dihantar terus secara sulit ke pusat pelepasan Kuala Lumpur kami (sales@onyxman.my) dengan pengesahan segera.'
-          : 'Zero account registration required. Your encrypted acquisition is routed directly to our Kuala Lumpur dispatch vault (sales@onyxman.my) with immediate confirmation.'
+          ? 'Tiada pendaftaran akaun diperlukan. Pesanan anda dihantar terus secara sulit ke pusat pelepasan Kuala Lumpur kami (sales@onyxmen.my) dengan pengesahan segera.'
+          : 'Zero account registration required. Your encrypted acquisition is routed directly to our Kuala Lumpur dispatch vault (sales@onyxmen.my) with immediate confirmation.'
       }
     </p>
 
     <!-- 1. Formulation Selector -->
     <div class="apothecary-field-group">
       <span class="apothecary-field-label" id="label-select-formulation">
-        ${isMs ? '01 · PILIH FORMULASI ONYXMAN' : '01 · SELECT FLAGSHIP FORMULATION'}
+        ${isMs ? '01 · PILIH FORMULASI ONYXMEN' : '01 · SELECT FLAGSHIP FORMULATION'}
       </span>
       <div
         class="drawer-formulation-list"
@@ -587,7 +587,7 @@ export function renderExpressOrderDrawer(options = {}) {
       ${
         isMs
           ? 'Dilindungi di bawah Akta Perlindungan Data Peribadi (PDPA) Malaysia. Data anda tidak pernah dikongsi dengan pihak ketiga.'
-          : 'Protected under PDPA Malaysia Privacy Standards. 100% Unmarked Packaging Guaranteed • sales@onyxman.my'
+          : 'Protected under PDPA Malaysia Privacy Standards. 100% Unmarked Packaging Guaranteed • sales@onyxmen.my'
       }
     </p>
   </form>
@@ -614,8 +614,8 @@ export function renderExpressOrderDrawer(options = {}) {
       <p class="concierge-drawer__confirm-lead">
         ${
           isMs
-            ? 'Meja operasi Kuala Lumpur kami (sales@onyxman.my / waleedshoaibofficial@gmail.com) telah menerima butiran anda dan akan menghubungi WhatsApp anda sebentar lagi untuk pengesahan pelepasan bungkusan.'
-            : 'Our Kuala Lumpur dispatch desk (sales@onyxman.my / waleedshoaibofficial@gmail.com) has logged your order and will message your WhatsApp shortly with your discreet waybill tracking.'
+            ? 'Meja operasi Kuala Lumpur kami (sales@onyxmen.my / waleedshoaibofficial@gmail.com) telah menerima butiran anda dan akan menghubungi WhatsApp anda sebentar lagi untuk pengesahan pelepasan bungkusan.'
+            : 'Our Kuala Lumpur dispatch desk (sales@onyxmen.my / waleedshoaibofficial@gmail.com) has logged your order and will message your WhatsApp shortly with your discreet waybill tracking.'
         }
       </p>
     </div>

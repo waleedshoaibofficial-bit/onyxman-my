@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /**
  * ============================================================================
- * ONYXMAN.MY — DUAL-MODE WHATSAPP & EXPRESS EMAIL BRIDGE ACTIVATOR CLI
+ * ONYXMEN.MY — DUAL-MODE WHATSAPP & EXPRESS EMAIL BRIDGE ACTIVATOR CLI
  * Micro-Steps: MS-186 & MS-187
  * ============================================================================
- * Production CLI utility to inspect, activate, or reset the Onyxman Malaysia
+ * Production CLI utility to inspect, activate, or reset the Onyxmen Malaysia
  * Dual-Mode Order & Concierge Bridge in `src/data/brand.json`.
  *
  * Supported Commands:
@@ -158,7 +158,7 @@ function syncBuiltHtmlRuntimeConfig(whatsappNumberE164, activeMode) {
  * @param {Record<string, any>} brandData
  * @param {string} bannerTitle
  */
-function printBridgeStatusReport(brandData, bannerTitle = 'ONYXMAN.MY — WHATSAPP & EXPRESS EMAIL BRIDGE STATUS') {
+function printBridgeStatusReport(brandData, bannerTitle = 'ONYXMEN.MY — WHATSAPP & EXPRESS EMAIL BRIDGE STATUS') {
   const bridge = brandData.whatsappBridge || {};
   const contact = brandData.contact || {};
   const pricing = brandData.pricing || {};
@@ -188,8 +188,8 @@ function printBridgeStatusReport(brandData, bannerTitle = 'ONYXMAN.MY — WHATSA
   console.log('----------------------------------------------------------------------------');
   console.log('MERCHANT NOTIFICATION & FAILOVER ENDPOINTS:');
   console.log(`Primary Order Inbox      : ${contact.primaryOrderNotificationEmail || 'waleedshoaibofficial@gmail.com'}`);
-  console.log(`Official Sales Alias     : ${contact.officialAliases?.sales || 'sales@onyxman.my'}`);
-  console.log(`Official Info Alias      : ${contact.officialAliases?.info || 'info@onyxman.my'}`);
+  console.log(`Official Sales Alias     : ${contact.officialAliases?.sales || 'sales@onyxmen.my'}`);
+  console.log(`Official Info Alias      : ${contact.officialAliases?.info || 'info@onyxmen.my'}`);
   console.log(`FormSubmit AJAX Endpoint : ${bridge.formSubmitAjaxEndpoint || 'https://formsubmit.co/ajax/waleedshoaibofficial@gmail.com'}`);
   console.log(`Web3Forms Failover URL   : ${bridge.web3FormsEndpoint || 'https://api.web3forms.com/submit'}`);
   console.log(`Reverse WhatsApp Enabled : ${Boolean(bridge.reverseWhatsAppProtocol?.enabled)}`);
@@ -281,7 +281,7 @@ function main() {
         )
       );
     } else {
-      printBridgeStatusReport(brandData, 'ONYXMAN.MY — READ-ONLY WHATSAPP BRIDGE STATUS (--status)');
+      printBridgeStatusReport(brandData, 'ONYXMEN.MY — READ-ONLY WHATSAPP BRIDGE STATUS (--status)');
     }
     process.exit(0);
   }
@@ -305,7 +305,7 @@ function main() {
 
     printBridgeStatusReport(
       brandData,
-      'ONYXMAN.MY — RESET TO DAYS 1–2 EXPRESS EMAIL DRAWER MODE (--clear)'
+      'ONYXMEN.MY — RESET TO DAYS 1–2 EXPRESS EMAIL DRAWER MODE (--clear)'
     );
     process.exit(0);
   }
@@ -353,7 +353,7 @@ function main() {
 
   printBridgeStatusReport(
     brandData,
-    `ONYXMAN.MY — DIRECT WHATSAPP CONCIERGE ACTIVATED (+${validation.normalizedE164})`
+    `ONYXMEN.MY — DIRECT WHATSAPP CONCIERGE ACTIVATED (+${validation.normalizedE164})`
   );
   process.exit(0);
 }

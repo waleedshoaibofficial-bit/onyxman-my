@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * ============================================================================
- * ONYXMAN.MY — HOSTILE RED-TEAM QA & HEADLESS CHROME VISUAL/E2E AUDITOR
+ * ONYXMEN.MY — HOSTILE RED-TEAM QA & HEADLESS CHROME VISUAL/E2E AUDITOR
  * Turn 27: Micro-Steps MS-197 through MS-199
  * ============================================================================
  * 1. MS-197: Runs 80-Blunder & 6-Gate Deterministic Audit across all 280 HTML pages
@@ -134,7 +134,7 @@ async function sleep(ms) {
 
 async function runAudit() {
   console.log('====================================================================');
-  console.log('ONYXMAN.MY — TURN 27 HOSTILE RED-TEAM & HEADLESS CHROME AUDITOR');
+  console.log('ONYXMEN.MY — TURN 27 HOSTILE RED-TEAM & HEADLESS CHROME AUDITOR');
   console.log('====================================================================');
 
   // 1. MS-197: Deterministic 6-Gate & Schema Validation
@@ -296,7 +296,7 @@ async function runAudit() {
     expression: `(() => {
       const trigger = document.querySelector('[data-open-order-drawer="true"]');
       if (trigger) trigger.click();
-      else if (window.OnyxmanEngine?.openDrawer) window.OnyxmanEngine.openDrawer({ product: 'grow-xl', qty: 1 });
+      else if (window.OnyxmenEngine?.openDrawer) window.OnyxmenEngine.openDrawer({ product: 'grow-xl', qty: 1 });
     })()`,
     returnByValue: true,
   });

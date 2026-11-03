@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * ONYXMAN.MY — EAST & NORTHERN MALAYSIA + FEDERAL TERRITORIES HUB BUILDER (MS-139 TO MS-146)
+ * ONYXMEN.MY — EAST & NORTHERN MALAYSIA + FEDERAL TERRITORIES HUB BUILDER (MS-139 TO MS-146)
  * Generates the Master Malaysia Nationwide Delivery Index + 9 Regional State/FT Hubs in EN (en-MY) & BM (ms-MY):
  *
  * - Master Nationwide Hub Index:
@@ -37,7 +37,7 @@
  * - Obsidian & Liquid Champagne Gold palette (#050507, #0B0C10, #12141C, #D4AF37, #EAE6DF)
  * - Typography: 'Cormorant Garamond', 'Syne', 'Space Grotesk'
  * - Every generated HTML file >= 2,200+ lines of uncompressed semantic HTML5 with 1-Click Express Order Drawer triggers,
- *   exact Onyxman bottle linkages (RM 159 / RM 318 / RM 477), FAQs, and @graph JSON-LD.
+ *   exact Onyxmen bottle linkages (RM 159 / RM 318 / RM 477), FAQs, and @graph JSON-LD.
  */
 
 import fs from 'node:fs';
@@ -583,13 +583,13 @@ export const EAST_NORTH_STATE_DOSSIERS = [
       'NinjaVan Sabah Metro Hub Dispatch',
     ],
     seoTitleEn:
-      'Discreet Air-Cargo Delivery in Sabah (Kota Kinabalu, Penampang, Sandakan, Tawau) — RM 159 | Onyxman Malaysia',
+      'Discreet Air-Cargo Delivery in Sabah (Kota Kinabalu, Penampang, Sandakan, Tawau) — RM 159 | Onyxmen Malaysia',
     seoDescEn:
-      'Order authentic Onyxman men’s vitality supplements (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) with 2–4 day discreet air-cargo parcel delivery to Kota Kinabalu, Penampang, Sandakan, Tawau, Lahad Datu & Keningau. Free air shipping on 2+ bottles (RM 318).',
+      'Order authentic Onyxmen men’s vitality supplements (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) with 2–4 day discreet air-cargo parcel delivery to Kota Kinabalu, Penampang, Sandakan, Tawau, Lahad Datu & Keningau. Free air shipping on 2+ bottles (RM 318).',
     seoTitleMs:
-      'Penghantaran Kargo Udara Rahsia di Sabah (Kota Kinabalu, Penampang, Sandakan, Tawau) — RM 159 | Onyxman Malaysia',
+      'Penghantaran Kargo Udara Rahsia di Sabah (Kota Kinabalu, Penampang, Sandakan, Tawau) — RM 159 | Onyxmen Malaysia',
     seoDescMs:
-      'Tempah suplemen kecergasan lelaki tulen Onyxman (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) dengan penghantaran kargo udara rahsia 2–4 hari ke Kota Kinabalu, Penampang, Sandakan, Tawau, Lahad Datu & Keningau. Penghantaran udara percuma untuk 2+ botol (RM 318).',
+      'Tempah suplemen kecergasan lelaki tulen Onyxmen (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) dengan penghantaran kargo udara rahsia 2–4 hari ke Kota Kinabalu, Penampang, Sandakan, Tawau, Lahad Datu & Keningau. Penghantaran udara percuma untuk 2+ botol (RM 318).',
     kickerEn: 'EAST MALAYSIA BORNEO AIR-CARGO CORRIDOR · KOTA KINABALU · SANDAKAN · TAWAU · LAHAD DATU',
     kickerMs: 'KORIDOR KARGO UDARA BORNEO SABAH · KOTA KINABALU · PENAMPANG · SANDAKAN · TAWAU',
     headlineEn:
@@ -597,9 +597,9 @@ export const EAST_NORTH_STATE_DOSSIERS = [
     headlineMs:
       'Penghantaran Kargo Udara Rahsia Sabah: <span class="foil-champagne-text">Kota Kinabalu, Penampang, Sandakan &amp; Tawau.</span>',
     leadEn:
-      'Engineered specifically for East Malaysia buyers across Kota Kinabalu, Penampang, Putatan, Tuaran, Sandakan, Tawau, Lahad Datu, Semporna, and Keningau. Every Onyxman formulation (RM 159 per bottle) departs our Kuala Lumpur vault on daily KLIA-to-KKIA/SDK/TWU air cargo manifests inside a double-sealed, X-ray opaque security pouch declared generically as "Personal Nutritional Goods" under sender "OM Fulfilment Logistics".',
+      'Engineered specifically for East Malaysia buyers across Kota Kinabalu, Penampang, Putatan, Tuaran, Sandakan, Tawau, Lahad Datu, Semporna, and Keningau. Every Onyxmen formulation (RM 159 per bottle) departs our Kuala Lumpur vault on daily KLIA-to-KKIA/SDK/TWU air cargo manifests inside a double-sealed, X-ray opaque security pouch declared generically as "Personal Nutritional Goods" under sender "OM Fulfilment Logistics".',
     leadMs:
-      'Direka khusus untuk pelanggan di seluruh Sabah merangkumi Kota Kinabalu, Penampang, Putatan, Tuaran, Sandakan, Tawau, Lahad Datu, Semporna, dan Keningau. Setiap botol rasmi Onyxman (RM 159 sebotol) diterbangkan setiap hari melalui kargo udara KLIA ke KKIA, Sandakan, dan Tawau di dalam bungkusan keselamatan legap dua lapisan dengan deklarasi umum "Penjagaan Kesihatan Harian" oleh "OM Fulfilment Logistics".',
+      'Direka khusus untuk pelanggan di seluruh Sabah merangkumi Kota Kinabalu, Penampang, Putatan, Tuaran, Sandakan, Tawau, Lahad Datu, Semporna, dan Keningau. Setiap botol rasmi Onyxmen (RM 159 sebotol) diterbangkan setiap hari melalui kargo udara KLIA ke KKIA, Sandakan, dan Tawau di dalam bungkusan keselamatan legap dua lapisan dengan deklarasi umum "Penjagaan Kesihatan Harian" oleh "OM Fulfilment Logistics".',
     customsProtocolEn:
       'East Malaysia Airway Privacy & Customs Declaration Protocol: All parcels crossing into Sabah via Kota Kinabalu International Airport (KKIA), Sandakan Airport, or Tawau Airport carry a standardized domestic commercial invoice declaring "Nutritional Capsule Supplement — Personal Use" with zero mention of men’s vitality, Horsemen, Hammer of Thor, Grow XL, or Magnum Pump XR on the outer airway bill.',
     customsProtocolMs:
@@ -723,13 +723,13 @@ export const EAST_NORTH_STATE_DOSSIERS = [
       'NinjaVan Kuching & Miri Metro Dispatch',
     ],
     seoTitleEn:
-      'Discreet Air-Cargo Delivery in Sarawak (Kuching, Kota Samarahan, Miri, Sibu, Bintulu) — RM 159 | Onyxman',
+      'Discreet Air-Cargo Delivery in Sarawak (Kuching, Kota Samarahan, Miri, Sibu, Bintulu) — RM 159 | Onyxmen',
     seoDescEn:
-      'Fast 2–4 day discreet air-cargo delivery of authentic Onyxman men’s supplements (RM 159) across Sarawak: Kuching, Kota Samarahan, Miri, Sibu & Bintulu. Free air shipping on 2-bottle (RM 318) & 3-bottle (RM 477) tiers.',
+      'Fast 2–4 day discreet air-cargo delivery of authentic Onyxmen men’s supplements (RM 159) across Sarawak: Kuching, Kota Samarahan, Miri, Sibu & Bintulu. Free air shipping on 2-bottle (RM 318) & 3-bottle (RM 477) tiers.',
     seoTitleMs:
-      'Penghantaran Kargo Udara Rahsia di Sarawak (Kuching, Kota Samarahan, Miri, Sibu, Bintulu) — RM 159 | Onyxman',
+      'Penghantaran Kargo Udara Rahsia di Sarawak (Kuching, Kota Samarahan, Miri, Sibu, Bintulu) — RM 159 | Onyxmen',
     seoDescMs:
-      'Penghantaran kargo udara rahsia 2–4 hari suplemen lelaki tulen Onyxman (RM 159) ke seluruh Sarawak: Kuching, Kota Samarahan, Miri, Sibu & Bintulu. Penghantaran udara percuma untuk pakej 2 botol (RM 318) & 3 botol (RM 477).',
+      'Penghantaran kargo udara rahsia 2–4 hari suplemen lelaki tulen Onyxmen (RM 159) ke seluruh Sarawak: Kuching, Kota Samarahan, Miri, Sibu & Bintulu. Penghantaran udara percuma untuk pakej 2 botol (RM 318) & 3 botol (RM 477).',
     kickerEn: 'SARAWAK MULTI-AIRPORT BORNEO LOGISTICS · KUCHING · MIRI · BINTULU · SIBU',
     kickerMs: 'RANGKAIAN KARGO UDARA SARAWAK · KUCHING · SAMARAHAN · MIRI · SIBU · BINTULU',
     headlineEn:
@@ -737,11 +737,11 @@ export const EAST_NORTH_STATE_DOSSIERS = [
     headlineMs:
       'Penghantaran Kargo Udara Rahsia Sarawak: <span class="foil-champagne-text">Kuching, Samarahan, Miri, Sibu &amp; Bintulu.</span>',
     leadEn:
-      'Directly serving Kuching, Kota Samarahan, Padawan, Miri, Bintulu, Sibu, Sri Aman, Sarikei, Mukah, and Limbang via four dedicated Sarawak airport gateways (KCH, MYY, BTU, SBW). Note for Oil, Gas, and LNG engineers in Miri and Bintulu: Magnum Pump XR on Onyxman.my is strictly our 30-Black-Capsule Nitric Oxide & Tongkat Ali Dietary Supplement (RM 159)—never a mechanical or industrial pump—shipped in a 100% plain personal parcel.',
+      'Directly serving Kuching, Kota Samarahan, Padawan, Miri, Bintulu, Sibu, Sri Aman, Sarikei, Mukah, and Limbang via four dedicated Sarawak airport gateways (KCH, MYY, BTU, SBW). Note for Oil, Gas, and LNG engineers in Miri and Bintulu: Magnum Pump XR on Onyxmen.my is strictly our 30-Black-Capsule Nitric Oxide & Tongkat Ali Dietary Supplement (RM 159)—never a mechanical or industrial pump—shipped in a 100% plain personal parcel.',
     leadMs:
-      'Meliputi Kuching, Kota Samarahan, Padawan, Miri, Bintulu, Sibu, Sri Aman, Sarikei, Mukah, dan Limbang menerusi empat pintu masuk lapangan terbang utama Sarawak (KCH, MYY, BTU, SBW). Makluman khas buat profesional Minyak, Gas & LNG di Miri dan Bintulu: Magnum Pump XR di Onyxman.my ialah Suplemen Kapsul Pemakanan Asid Amino & Nitrik Oksida 30 Kapsul Hitam (RM 159)—bukan pam mekanikal atau industri—dihantar di dalam bungkusan rahsia tanpa nama produk.',
+      'Meliputi Kuching, Kota Samarahan, Padawan, Miri, Bintulu, Sibu, Sri Aman, Sarikei, Mukah, dan Limbang menerusi empat pintu masuk lapangan terbang utama Sarawak (KCH, MYY, BTU, SBW). Makluman khas buat profesional Minyak, Gas & LNG di Miri dan Bintulu: Magnum Pump XR di Onyxmen.my ialah Suplemen Kapsul Pemakanan Asid Amino & Nitrik Oksida 30 Kapsul Hitam (RM 159)—bukan pam mekanikal atau industri—dihantar di dalam bungkusan rahsia tanpa nama produk.',
     customsProtocolEn:
-      'Sarawak Multi-Airport Direct Airway Routing: Instead of routing all Sarawak parcels through Kuching and trucking them 800km north, Onyxman routes Northern and Central Sarawak orders directly into Miri Airport (MYY), Bintulu Airport (BTU), and Sibu Airport (SBW), cutting transit time to 2–4 business days.',
+      'Sarawak Multi-Airport Direct Airway Routing: Instead of routing all Sarawak parcels through Kuching and trucking them 800km north, Onyxmen routes Northern and Central Sarawak orders directly into Miri Airport (MYY), Bintulu Airport (BTU), and Sibu Airport (SBW), cutting transit time to 2–4 business days.',
     customsProtocolMs:
       'Laluan Terus Empat Lapangan Terbang Sarawak: Pesanan untuk utara dan tengah Sarawak diterbangkan terus ke Lapangan Terbang Miri (MYY), Bintulu (BTU), dan Sibu (SBW) selain Kuching (KCH), memendekkan masa penghantaran kepada 2–4 hari bekerja.',
     districts: [
@@ -862,13 +862,13 @@ export const EAST_NORTH_STATE_DOSSIERS = [
       'PosLaju Priority Mainland & Langkawi Air/Ferry',
     ],
     seoTitleEn:
-      'Discreet Express Delivery in Kedah (Alor Setar, Sungai Petani, Kulim, Jitra & Langkawi) — RM 159 | Onyxman',
+      'Discreet Express Delivery in Kedah (Alor Setar, Sungai Petani, Kulim, Jitra & Langkawi) — RM 159 | Onyxmen',
     seoDescEn:
-      'Order authentic Onyxman men’s supplements (RM 159) with free 1–2 day discreet shipping across Kedah: Alor Setar, Sungai Petani, Kulim Hi-Tech, Jitra & Langkawi Island. COD & DuitNow QR accepted.',
+      'Order authentic Onyxmen men’s supplements (RM 159) with free 1–2 day discreet shipping across Kedah: Alor Setar, Sungai Petani, Kulim Hi-Tech, Jitra & Langkawi Island. COD & DuitNow QR accepted.',
     seoTitleMs:
-      'Penghantaran Rahsia Ekspres di Kedah (Alor Setar, Sungai Petani, Kulim, Jitra & Langkawi) — RM 159 | Onyxman',
+      'Penghantaran Rahsia Ekspres di Kedah (Alor Setar, Sungai Petani, Kulim, Jitra & Langkawi) — RM 159 | Onyxmen',
     seoDescMs:
-      'Tempah suplemen lelaki tulen Onyxman (RM 159) dengan penghantaran rahsia percuma 1–2 hari ke Alor Setar, Sungai Petani, Kulim Hi-Tech, Jitra & Pulau Langkawi. Sokongan COD & DuitNow QR.',
+      'Tempah suplemen lelaki tulen Onyxmen (RM 159) dengan penghantaran rahsia percuma 1–2 hari ke Alor Setar, Sungai Petani, Kulim Hi-Tech, Jitra & Pulau Langkawi. Sokongan COD & DuitNow QR.',
     kickerEn: 'NORTHERN PENINSULAR CORRIDOR · ALOR SETAR · SUNGAI PETANI · KULIM HI-TECH · LANGKAWI',
     kickerMs: 'KORIDOR UTARA SEMENANJUNG · ALOR SETAR · SUNGAI PETANI · KULIM · PULAU LANGKAWI',
     headlineEn:
@@ -1001,13 +1001,13 @@ export const EAST_NORTH_STATE_DOSSIERS = [
       'NinjaVan Malaysia Discreet East Coast',
     ],
     seoTitleEn:
-      'Discreet Express Delivery in Kelantan (Kota Bharu, Kubang Kerian, Pasir Mas, Tanah Merah) — RM 159 | Onyxman',
+      'Discreet Express Delivery in Kelantan (Kota Bharu, Kubang Kerian, Pasir Mas, Tanah Merah) — RM 159 | Onyxmen',
     seoDescEn:
-      'Free 1–2 day discreet shipping of authentic Onyxman men’s supplements (RM 159) across Kelantan: Kota Bharu, Kubang Kerian, Pengkalan Chepa, Pasir Mas, Tanah Merah & Machang. COD & DuitNow QR accepted.',
+      'Free 1–2 day discreet shipping of authentic Onyxmen men’s supplements (RM 159) across Kelantan: Kota Bharu, Kubang Kerian, Pengkalan Chepa, Pasir Mas, Tanah Merah & Machang. COD & DuitNow QR accepted.',
     seoTitleMs:
-      'Penghantaran Rahsia Ekspres di Kelantan (Kota Bharu, Kubang Kerian, Pasir Mas, Tanah Merah) — RM 159 | Onyxman',
+      'Penghantaran Rahsia Ekspres di Kelantan (Kota Bharu, Kubang Kerian, Pasir Mas, Tanah Merah) — RM 159 | Onyxmen',
     seoDescMs:
-      'Penghantaran rahsia percuma 1–2 hari suplemen lelaki tulen Onyxman (RM 159) ke seluruh Kelantan: Kota Bharu, Kubang Kerian, Pasir Mas, Tanah Merah & Machang. Sokongan COD & DuitNow QR.',
+      'Penghantaran rahsia percuma 1–2 hari suplemen lelaki tulen Onyxmen (RM 159) ke seluruh Kelantan: Kota Bharu, Kubang Kerian, Pasir Mas, Tanah Merah & Machang. Sokongan COD & DuitNow QR.',
     kickerEn: 'EAST COAST PRIVACY VAULT · KOTA BHARU · KUBANG KERIAN · PASIR MAS · TANAH MERAH',
     kickerMs: 'HUB PRIVASI PANTAI TIMUR · KOTA BHARU · KUBANG KERIAN · PASIR MAS · TANAH MERAH',
     headlineEn:
@@ -1015,7 +1015,7 @@ export const EAST_NORTH_STATE_DOSSIERS = [
     headlineMs:
       'Penghantaran Ekspres Rahsia Kota Bharu &amp; Kelantan: <span class="foil-champagne-text">100% Tanpa Nama Produk &amp; Sokongan COD.</span>',
     leadEn:
-      'Kelantan gentlemen place the highest premium on personal privacy, halal-conscious clean botanical ingredients, and Cash on Delivery (COD) reliability. Every Onyxman order to Kota Bharu, Kubang Kerian, Wakaf Che Yeh, Pengkalan Chepa, Pasir Mas, Tanah Merah, Machang, and Gua Musang ships free (RM 0) inside a plain opaque security mailer labeled solely "OM Fulfilment Logistics".',
+      'Kelantan gentlemen place the highest premium on personal privacy, halal-conscious clean botanical ingredients, and Cash on Delivery (COD) reliability. Every Onyxmen order to Kota Bharu, Kubang Kerian, Wakaf Che Yeh, Pengkalan Chepa, Pasir Mas, Tanah Merah, Machang, and Gua Musang ships free (RM 0) inside a plain opaque security mailer labeled solely "OM Fulfilment Logistics".',
     leadMs:
       'Pelanggan lelaki dewasa di Kelantan amat mengutamakan kerahsiaan peribadi, ketulenan ekstrak herba botani (seperti Tongkat Ali & Maca Hitam), serta kemudahan Bayar Waktu Terima (COD). Setiap pesanan ke Kota Bharu, Kubang Kerian, Wakaf Che Yeh, Pengkalan Chepa, Pasir Mas, Tanah Merah, Machang, dan Gua Musang dihantar secara percuma (RM 0) di dalam bungkusan legap yang hanya memaparkan "OM Fulfilment Logistics".',
     customsProtocolEn:
@@ -1140,13 +1140,13 @@ export const EAST_NORTH_STATE_DOSSIERS = [
       'NinjaVan Malaysia Discreet East Coast',
     ],
     seoTitleEn:
-      'Discreet Express Delivery in Terengganu (Kuala Terengganu, Gong Badak, Kemaman, Chukai, Dungun) — RM 159 | Onyxman',
+      'Discreet Express Delivery in Terengganu (Kuala Terengganu, Gong Badak, Kemaman, Chukai, Dungun) — RM 159 | Onyxmen',
     seoDescEn:
-      'Free 1–2 day discreet shipping of authentic Onyxman men’s supplements (RM 159) across Terengganu: Kuala Terengganu, Gong Badak, Kemaman, Chukai, Kerteh, Paka & Dungun. COD & DuitNow QR supported.',
+      'Free 1–2 day discreet shipping of authentic Onyxmen men’s supplements (RM 159) across Terengganu: Kuala Terengganu, Gong Badak, Kemaman, Chukai, Kerteh, Paka & Dungun. COD & DuitNow QR supported.',
     seoTitleMs:
-      'Penghantaran Rahsia Ekspres di Terengganu (Kuala Terengganu, Gong Badak, Kemaman, Chukai, Dungun) — RM 159 | Onyxman',
+      'Penghantaran Rahsia Ekspres di Terengganu (Kuala Terengganu, Gong Badak, Kemaman, Chukai, Dungun) — RM 159 | Onyxmen',
     seoDescMs:
-      'Penghantaran rahsia percuma 1–2 hari suplemen lelaki tulen Onyxman (RM 159) ke seluruh Terengganu: Kuala Terengganu, Gong Badak, Kemaman, Chukai, Kerteh, Paka & Dungun. Sokongan COD & DuitNow QR.',
+      'Penghantaran rahsia percuma 1–2 hari suplemen lelaki tulen Onyxmen (RM 159) ke seluruh Terengganu: Kuala Terengganu, Gong Badak, Kemaman, Chukai, Kerteh, Paka & Dungun. Sokongan COD & DuitNow QR.',
     kickerEn: 'LPT2 EAST COAST EXPRESSWAY CORRIDOR · KUALA TERENGGANU · GONG BADAK · KEMAMAN · DUNGUN',
     kickerMs: 'KORIDOR LEBUHRAYA PANTAI TIMUR LPT2 · KUALA TERENGGANU · GONG BADAK · KEMAMAN · DUNGUN',
     headlineEn:
@@ -1272,19 +1272,19 @@ export const EAST_NORTH_STATE_DOSSIERS = [
     heroVisualWebp: '/assets/products/horsemen-stage.webp',
     heroVisualPng: '/assets/products/horsemen-stage.png',
     couriers: [
-      'Onyxman Private Klang Valley Discreet Rider (3–5 Hours)',
+      'Onyxmen Private Klang Valley Discreet Rider (3–5 Hours)',
       'NinjaVan Malaysia Discreet VIP',
       'PosLaju Priority Putrajaya Sentral',
       'J&T Express VIP Klang Valley',
     ],
     seoTitleEn:
-      'Same-Day 3–5h Discreet Delivery in Putrajaya (All Precincts 1–20) — RM 159 | Onyxman Malaysia',
+      'Same-Day 3–5h Discreet Delivery in Putrajaya (All Precincts 1–20) — RM 159 | Onyxmen Malaysia',
     seoDescEn:
-      'Order authentic Onyxman men’s vitality supplements (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) in Putrajaya with 3–5 hour same-day discreet runner or free next-day courier across Precincts 1–20.',
+      'Order authentic Onyxmen men’s vitality supplements (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) in Putrajaya with 3–5 hour same-day discreet runner or free next-day courier across Precincts 1–20.',
     seoTitleMs:
-      'Penghantaran Rahsia Hari Sama 3–5 Jam di Putrajaya (Semua Presint 1–20) — RM 159 | Onyxman Malaysia',
+      'Penghantaran Rahsia Hari Sama 3–5 Jam di Putrajaya (Semua Presint 1–20) — RM 159 | Onyxmen Malaysia',
     seoDescMs:
-      'Tempah suplemen kecergasan lelaki tulen Onyxman (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) di Putrajaya dengan penghantar rahsia hari sama 3–5 jam atau kurier percuma 1 hari ke semua Presint 1–20.',
+      'Tempah suplemen kecergasan lelaki tulen Onyxmen (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) di Putrajaya dengan penghantar rahsia hari sama 3–5 jam atau kurier percuma 1 hari ke semua Presint 1–20.',
     kickerEn: 'FEDERAL ADMINISTRATIVE CENTRE · PRECINCTS 1 TO 20 · 3–5 HOUR SAME-DAY DISCREET RUNNER',
     kickerMs: 'WILAYAH PERSEKUTUAN PUTRAJAYA · PRESINT 1 HINGGA 20 · PENGHANTAR RAHSIA HARI SAMA 3–5 JAM',
     headlineEn:
@@ -1410,19 +1410,19 @@ export const EAST_NORTH_STATE_DOSSIERS = [
     heroVisualWebp: '/assets/products/magnum-pump-xr-stage.webp',
     heroVisualPng: '/assets/products/magnum-pump-xr-stage.png',
     couriers: [
-      'Onyxman Private Klang Valley Discreet Rider (3–5 Hours)',
+      'Onyxmen Private Klang Valley Discreet Rider (3–5 Hours)',
       'NinjaVan Malaysia Discreet Parcel Locker & Guardhouse',
       'J&T Express VIP Cyberjaya Hub',
       'PosLaju Priority Sepang/Cyberjaya',
     ],
     seoTitleEn:
-      'Same-Day 3–5h Discreet Delivery in Cyberjaya (Tamarind Square, Setia Eco Glades, DPULZE) — RM 159 | Onyxman',
+      'Same-Day 3–5h Discreet Delivery in Cyberjaya (Tamarind Square, Setia Eco Glades, DPULZE) — RM 159 | Onyxmen',
     seoDescEn:
-      'Order authentic Onyxman men’s supplements (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) in Cyberjaya with 3–5 hour same-day discreet runner or free next-day courier. Condo parcel locker & guardhouse friendly.',
+      'Order authentic Onyxmen men’s supplements (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) in Cyberjaya with 3–5 hour same-day discreet runner or free next-day courier. Condo parcel locker & guardhouse friendly.',
     seoTitleMs:
-      'Penghantaran Rahsia Hari Sama 3–5 Jam di Cyberjaya (Tamarind Square, Setia Eco Glades, DPULZE) — RM 159 | Onyxman',
+      'Penghantaran Rahsia Hari Sama 3–5 Jam di Cyberjaya (Tamarind Square, Setia Eco Glades, DPULZE) — RM 159 | Onyxmen',
     seoDescMs:
-      'Tempah suplemen lelaki tulen Onyxman (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) di Cyberjaya dengan penghantar rahsia hari sama 3–5 jam atau kurier percuma 1 hari. Sesuai untuk loker bungkusan kondo.',
+      'Tempah suplemen lelaki tulen Onyxmen (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) di Cyberjaya dengan penghantar rahsia hari sama 3–5 jam atau kurier percuma 1 hari. Sesuai untuk loker bungkusan kondo.',
     kickerEn: 'MSC MALAYSIA TECH CORRIDOR · CYBERJAYA · SETIA ECO GLADES · 3–5H SAME-DAY RIDER',
     kickerMs: 'KORIDOR RAYA MULTIMEDIA · CYBERJAYA · SETIA ECO GLADES · PENGHANTAR HARI SAMA 3–5 JAM',
     headlineEn:
@@ -1553,13 +1553,13 @@ export const EAST_NORTH_STATE_DOSSIERS = [
       'DHL eCommerce Malaysia Discreet Air',
     ],
     seoTitleEn:
-      'Discreet Air-Cargo Delivery in Labuan (Victoria, Financial Park & Rancha-Rancha) — RM 159 | Onyxman Malaysia',
+      'Discreet Air-Cargo Delivery in Labuan (Victoria, Financial Park & Rancha-Rancha) — RM 159 | Onyxmen Malaysia',
     seoDescEn:
-      'Order authentic Onyxman men’s vitality supplements (RM 159) in WP Labuan with 2–4 day discreet air-cargo parcel delivery to Victoria, Financial Park & Rancha-Rancha. Free air shipping on 2+ bottles (RM 318).',
+      'Order authentic Onyxmen men’s vitality supplements (RM 159) in WP Labuan with 2–4 day discreet air-cargo parcel delivery to Victoria, Financial Park & Rancha-Rancha. Free air shipping on 2+ bottles (RM 318).',
     seoTitleMs:
-      'Penghantaran Kargo Udara Rahsia di WP Labuan (Bandar Labuan, Taman Kewangan & Rancha-Rancha) — RM 159 | Onyxman',
+      'Penghantaran Kargo Udara Rahsia di WP Labuan (Bandar Labuan, Taman Kewangan & Rancha-Rancha) — RM 159 | Onyxmen',
     seoDescMs:
-      'Tempah suplemen lelaki tulen Onyxman (RM 159) di Wilayah Persekutuan Labuan dengan kargo udara rahsia 2–4 hari ke Bandar Labuan, Taman Kewangan & Rancha-Rancha. Penghantaran udara percuma untuk 2+ botol (RM 318).',
+      'Tempah suplemen lelaki tulen Onyxmen (RM 159) di Wilayah Persekutuan Labuan dengan kargo udara rahsia 2–4 hari ke Bandar Labuan, Taman Kewangan & Rancha-Rancha. Penghantaran udara percuma untuk 2+ botol (RM 318).',
     kickerEn: 'FEDERAL TERRITORY OF LABUAN · INTERNATIONAL FINANCIAL & OFFSHORE ENERGY HUB · AIR-CARGO',
     kickerMs: 'WILAYAH PERSEKUTUAN LABUAN · HAB KEWANGAN ANTARABANGSA & TENAGA LUAR PESISIR · KARGO UDARA',
     headlineEn:
@@ -1668,13 +1668,13 @@ export const EAST_NORTH_STATE_DOSSIERS = [
       'NinjaVan Malaysia Discreet Northern Line',
     ],
     seoTitleEn:
-      'Discreet Express Delivery in Perlis (Kangar, Arau, Padang Besar & Kuala Perlis) — RM 159 | Onyxman Malaysia',
+      'Discreet Express Delivery in Perlis (Kangar, Arau, Padang Besar & Kuala Perlis) — RM 159 | Onyxmen Malaysia',
     seoDescEn:
-      'Free 1–2 day discreet shipping of authentic Onyxman men’s supplements (RM 159) across Perlis: Kangar, Arau, Kuala Perlis & Padang Besar. 100% plain unmarked parcel with COD & DuitNow QR.',
+      'Free 1–2 day discreet shipping of authentic Onyxmen men’s supplements (RM 159) across Perlis: Kangar, Arau, Kuala Perlis & Padang Besar. 100% plain unmarked parcel with COD & DuitNow QR.',
     seoTitleMs:
-      'Penghantaran Rahsia Ekspres di Perlis (Kangar, Arau, Padang Besar & Kuala Perlis) — RM 159 | Onyxman Malaysia',
+      'Penghantaran Rahsia Ekspres di Perlis (Kangar, Arau, Padang Besar & Kuala Perlis) — RM 159 | Onyxmen Malaysia',
     seoDescMs:
-      'Penghantaran rahsia percuma 1–2 hari suplemen lelaki tulen Onyxman (RM 159) ke seluruh Perlis: Kangar, Arau, Kuala Perlis & Padang Besar. Bungkusan tanpa nama produk dengan COD & DuitNow QR.',
+      'Penghantaran rahsia percuma 1–2 hari suplemen lelaki tulen Onyxmen (RM 159) ke seluruh Perlis: Kangar, Arau, Kuala Perlis & Padang Besar. Bungkusan tanpa nama produk dengan COD & DuitNow QR.',
     kickerEn: 'NORTHERNMOST PENINSULAR VAULT · KANGAR · ARAU · PADANG BESAR · KUALA PERLIS',
     kickerMs: 'KORIDOR UTARA PERLIS INDERA KAYANGAN · KANGAR · ARAU · PADANG BESAR · KUALA PERLIS',
     headlineEn:
@@ -1753,9 +1753,9 @@ export const DISCREET_PARCEL_LAYERS = [
     specEn: 'Waybill Sender Field · Zero Brand or Supplement Mention',
     specMs: 'Ruangan Pengirim Slip Kurier · Tiada Nama Jenama atau Suplemen',
     descEn:
-      'Every thermal airway bill (PosLaju, J&T VIP, NinjaVan, DHL, or Klang Valley Private Rider) prints "OM Fulfilment Logistics — Kuala Lumpur" as the sender. The words "Onyxman", "Horsemen", "Hammer of Thor", "Grow XL", "Magnum Pump XR", or "Men’s Vitality" never appear anywhere on the outer parcel.',
+      'Every thermal airway bill (PosLaju, J&T VIP, NinjaVan, DHL, or Klang Valley Private Rider) prints "OM Fulfilment Logistics — Kuala Lumpur" as the sender. The words "Onyxmen", "Horsemen", "Hammer of Thor", "Grow XL", "Magnum Pump XR", or "Men’s Vitality" never appear anywhere on the outer parcel.',
     descMs:
-      'Setiap slip kurier (PosLaju, J&T VIP, NinjaVan, DHL, atau Penghantar Persendirian Lembah Klang) hanya mencetak "OM Fulfilment Logistics — Kuala Lumpur" sebagai pengirim. Perkataan "Onyxman", "Horsemen", "Hammer of Thor", "Grow XL", "Magnum Pump XR", atau "Suplemen Lelaki" langsung tidak wujud pada luar bungkusan.',
+      'Setiap slip kurier (PosLaju, J&T VIP, NinjaVan, DHL, atau Penghantar Persendirian Lembah Klang) hanya mencetak "OM Fulfilment Logistics — Kuala Lumpur" sebagai pengirim. Perkataan "Onyxmen", "Horsemen", "Hammer of Thor", "Grow XL", "Magnum Pump XR", atau "Suplemen Lelaki" langsung tidak wujud pada luar bungkusan.',
   },
   {
     code: 'SEAL-02',
@@ -1797,9 +1797,9 @@ export const DISCREET_PARCEL_LAYERS = [
     specEn: 'Protects Hygroscopic Tongkat Ali & L-Arginine Against 85% Malaysian Humidity',
     specMs: 'Melindungi Ekstrak Tongkat Ali & L-Arginine daripada Cuaca Lembap Malaysia',
     descEn:
-      'Concentrated botanical extracts (100:1 Eurycoma longifolia) and amino acids (L-Arginine AAKG & L-Citrulline) are naturally hygroscopic. Every authentic Onyxman bottle features a hermetic heat-induction inner seal plus a food-grade silica canister to guarantee crisp capsule potency from Kuala Lumpur to Borneo.',
+      'Concentrated botanical extracts (100:1 Eurycoma longifolia) and amino acids (L-Arginine AAKG & L-Citrulline) are naturally hygroscopic. Every authentic Onyxmen bottle features a hermetic heat-induction inner seal plus a food-grade silica canister to guarantee crisp capsule potency from Kuala Lumpur to Borneo.',
     descMs:
-      'Ekstrak botani berkepekatan tinggi (Tongkat Ali 100:1) dan asid amino (L-Arginine & L-Citrulline) sangat sensitif terhadap kelembapan udara. Setiap botol tulen Onyxman dilengkapi kedap induksi haba pada mulut botol serta penyerap kelembapan bagi mengekalkan potensi kapsul.',
+      'Ekstrak botani berkepekatan tinggi (Tongkat Ali 100:1) dan asid amino (L-Arginine & L-Citrulline) sangat sensitif terhadap kelembapan udara. Setiap botol tulen Onyxmen dilengkapi kedap induksi haba pada mulut botol serta penyerap kelembapan bagi mengekalkan potensi kapsul.',
   },
   {
     code: 'SEAL-06',
@@ -1893,7 +1893,7 @@ function renderRegionalFormulationsMatrixSection(lang = 'en-MY', stateShortName 
                 <source srcset="${esc(r.imgWebp)}" type="image/webp" />
                 <img
                   src="${esc(r.imgPng)}"
-                  alt="${esc(r.name)} — Onyxman Malaysia RM 159"
+                  alt="${esc(r.name)} — Onyxmen Malaysia RM 159"
                   width="64"
                   height="80"
                   loading="lazy"
@@ -1932,7 +1932,7 @@ function renderRegionalFormulationsMatrixSection(lang = 'en-MY', stateShortName 
 
   return `
   <!-- ==========================================================================
-       REGIONAL FORMULATIONS MATRIX — ALL 4 AUTHENTIC ONYXMAN BOTTLES AT RM 159
+       REGIONAL FORMULATIONS MATRIX — ALL 4 AUTHENTIC ONYXMEN BOTTLES AT RM 159
        ========================================================================== -->
   <section
     id="regional-4-formulations-matrix"
@@ -1952,7 +1952,7 @@ function renderRegionalFormulationsMatrixSection(lang = 'en-MY', stateShortName 
           <h2 id="heading-regional-formulations" class="editorial-headline-lg">
             ${
               isMs
-                ? `Empat Formulasi Utama Onyxman <span class="foil-champagne-text">Tersedia Untuk Penghantaran Rahsia ke ${esc(stateShortName)}.</span>`
+                ? `Empat Formulasi Utama Onyxmen <span class="foil-champagne-text">Tersedia Untuk Penghantaran Rahsia ke ${esc(stateShortName)}.</span>`
                 : `Four Standardized Botanical Formulations <span class="foil-champagne-text">Ready For Discreet ${esc(stateShortName)} Dispatch.</span>`
             }
           </h2>
@@ -1961,8 +1961,8 @@ function renderRegionalFormulationsMatrixSection(lang = 'en-MY', stateShortName 
           <p>
             ${
               isMs
-                ? 'Setiap botol rasmi Onyxman dijual pada harga tetap RM 159.00 (1 Botol RM 159 · 2 Botol RM 318 · 3 Botol RM 477). Pilih formulasi mengikut matlamat fisiologi anda.'
-                : 'Every authentic Onyxman bottle carries our uniform official reserve price of RM 159.00 (1 Bottle RM 159 · 2 Bottles RM 318 · 3 Bottles RM 477). Select the formulation engineered for your physiological objective.'
+                ? 'Setiap botol rasmi Onyxmen dijual pada harga tetap RM 159.00 (1 Botol RM 159 · 2 Botol RM 318 · 3 Botol RM 477). Pilih formulasi mengikut matlamat fisiologi anda.'
+                : 'Every authentic Onyxmen bottle carries our uniform official reserve price of RM 159.00 (1 Bottle RM 159 · 2 Bottles RM 318 · 3 Bottles RM 477). Select the formulation engineered for your physiological objective.'
             }
           </p>
         </div>
@@ -2170,8 +2170,8 @@ function renderRegionalAcquisitionTiersSection(
           <span class="editorial-kicker">
             ${
               isMs
-                ? `STRUKTUR HARGA RASMI ONYXMAN MALAYSIA · PENGHANTARAN KE ${esc(stateShortName.toUpperCase())}`
-                : `OFFICIAL ONYXMAN MALAYSIA PRICING LEDGER · ${esc(stateShortName.toUpperCase())} FULFILMENT`
+                ? `STRUKTUR HARGA RASMI ONYXMEN MALAYSIA · PENGHANTARAN KE ${esc(stateShortName.toUpperCase())}`
+                : `OFFICIAL ONYXMEN MALAYSIA PRICING LEDGER · ${esc(stateShortName.toUpperCase())} FULFILMENT`
             }
           </span>
           <h2 id="heading-acquisition-tiers" class="editorial-headline-lg">
@@ -2271,7 +2271,7 @@ function renderAll16StatesCrossNavSection(lang = 'en-MY', currentSlug = '') {
           <h2 id="heading-all-16-states" class="editorial-headline-lg">
             ${
               isMs
-                ? 'Direktori Lengkap 16 Hab Negeri &amp; Bandar Utama <span class="foil-champagne-text">Onyxman Malaysia.</span>'
+                ? 'Direktori Lengkap 16 Hab Negeri &amp; Bandar Utama <span class="foil-champagne-text">Onyxmen Malaysia.</span>'
                 : 'Complete 16-State &amp; Federal Territory <span class="foil-champagne-text">Discreet Fulfilment Directory.</span>'
             }
           </h2>
@@ -2319,7 +2319,7 @@ function buildRegionalFaqs(dossier, lang = 'en-MY') {
   if (isMs) {
     return [
       {
-        question: `1. Berapa lamakah masa penghantaran pesanan Onyxman ke ${sName}?`,
+        question: `1. Berapa lamakah masa penghantaran pesanan Onyxmen ke ${sName}?`,
         answer: `Masa penghantaran rasmi ke ${sName} ialah ${dossier.transitWindowMs}. Pesanan yang disahkan sebelum jam 4:00 petang (16:00 MYT) diproses dan diserahkan kepada rangkaian kurier (${dossier.couriers.join(', ')}) pada hari bekerja yang sama.`,
       },
       {
@@ -2328,14 +2328,14 @@ function buildRegionalFaqs(dossier, lang = 'en-MY') {
       },
       {
         question: `3. Berapakah harga rasmi sebotol dan bagaimana cara mendapatkan penghantaran percuma ke ${sName}?`,
-        answer: `Harga rasmi semua empat formulasi Onyxman ialah RM 159.00 sebotol (1 Botol RM 159.00, 2 Botol RM 318.00, 3 Botol RM 477.00). Polisi penghantaran ke ${sName}: ${dossier.shippingPolicyMs}.`,
+        answer: `Harga rasmi semua empat formulasi Onyxmen ialah RM 159.00 sebotol (1 Botol RM 159.00, 2 Botol RM 318.00, 3 Botol RM 477.00). Polisi penghantaran ke ${sName}: ${dossier.shippingPolicyMs}.`,
       },
       {
         question: `4. Bolehkah saya menggunakan perkhidmatan COD (Bayar Waktu Terima) atau DuitNow QR di ${sName}?`,
         answer: `Ya. Kami menyokong pembayaran COD (bayar tunai atau imbas DuitNow QR semasa kurier menyerahkan bungkusan) serta pembayaran terus perbankan dalam talian FPX (Maybank2u, CIMB Clicks, Bank Islam, RHB, Public Bank) di seluruh poskod ${sName} (${dossier.postalCodeRange}).`,
       },
       {
-        question: `5. Apakah daerah dan poskod di ${sName} yang diliputi oleh penghantaran rahsia Onyxman?`,
+        question: `5. Apakah daerah dan poskod di ${sName} yang diliputi oleh penghantaran rahsia Onyxmen?`,
         answer: `Kami meliputi 100% poskod (${dossier.postalCodeRange}) di ${sName}, termasuk: ${fullCities}.`,
       },
       {
@@ -2352,15 +2352,15 @@ function buildRegionalFaqs(dossier, lang = 'en-MY') {
       },
       {
         question: `9. Adakah Magnum Pump XR yang dihantar ke ${sName} merupakan kapsul suplemen makan atau alat pam mekanikal?`,
-        answer: `Magnum Pump XR di Onyxman.my ialah 100% suplemen kapsul pemakanan botani dan asid amino untuk makan (30 kapsul hitam sebotol, RM 159) yang menyokong laluan nitrik oksida dan aliran vaskular lelaki dewasa. Ia BUKAN pam mekanikal, pam vakum, atau peralatan industri.`,
+        answer: `Magnum Pump XR di Onyxmen.my ialah 100% suplemen kapsul pemakanan botani dan asid amino untuk makan (30 kapsul hitam sebotol, RM 159) yang menyokong laluan nitrik oksida dan aliran vaskular lelaki dewasa. Ia BUKAN pam mekanikal, pam vakum, atau peralatan industri.`,
       },
       {
-        question: `10. Adakah suplemen Onyxman mengandungi kafein atau bahan perangsang sintetik yang menyebabkan berdebar?`,
-        answer: `Tidak. Semua formulasi Onyxman adalah 100% bebas kafein dan bebas bahan sintetik terlarang. Ia menggunakan ekstrak akar botani berpiawaian makmal (HPLC) dan asid amino tulen supaya anda boleh mengambilnya pada waktu malam tanpa gangguan tidur atau rasa berdebar.`,
+        question: `10. Adakah suplemen Onyxmen mengandungi kafein atau bahan perangsang sintetik yang menyebabkan berdebar?`,
+        answer: `Tidak. Semua formulasi Onyxmen adalah 100% bebas kafein dan bebas bahan sintetik terlarang. Ia menggunakan ekstrak akar botani berpiawaian makmal (HPLC) dan asid amino tulen supaya anda boleh mengambilnya pada waktu malam tanpa gangguan tidur atau rasa berdebar.`,
       },
       {
         question: `11. Bagaimanakah kapsul dilindungi daripada kelembapan cuaca tropika semasa transit ke ${sName}?`,
-        answer: `Setiap botol kaca/HDPE gelap Onyxman ditutup rapat dengan kedap induksi haba aluminium dan dilengkapi kanister penyerap kelembapan gred makanan di dalam botol, kemudian dibungkus di dalam pek polimer kalis air 3-lapisan.`,
+        answer: `Setiap botol kaca/HDPE gelap Onyxmen ditutup rapat dengan kedap induksi haba aluminium dan dilengkapi kanister penyerap kelembapan gred makanan di dalam botol, kemudian dibungkus di dalam pek polimer kalis air 3-lapisan.`,
       },
       {
         question: `12. Adakah kurier akan menelefon saya terlebih dahulu sebelum menyerahkan bungkusan di ${sName}?`,
@@ -2372,23 +2372,23 @@ function buildRegionalFaqs(dossier, lang = 'en-MY') {
       },
       {
         question: `14. Apakah polisi penggantian sekiranya bungkusan rosak semasa transit ke ${sName}?`,
-        answer: `Sekiranya botol atau kedap keselamatan dalam mengalami sebarang kerosakan fizikal semasa penghantaran ke ${sName}, hubungi meja concierge kami di sales@onyxman.my atau info@onyxman.my dalam masa 7 hari untuk penggantian botol baharu secara percuma.`,
+        answer: `Sekiranya botol atau kedap keselamatan dalam mengalami sebarang kerosakan fizikal semasa penghantaran ke ${sName}, hubungi meja concierge kami di sales@onyxmen.my atau info@onyxmen.my dalam masa 7 hari untuk penggantian botol baharu secara percuma.`,
       },
     ];
   }
 
   return [
     {
-      question: `1. How fast does Onyxman deliver discreet parcels to ${sName}?`,
+      question: `1. How fast does Onyxmen deliver discreet parcels to ${sName}?`,
       answer: `Our official delivery window for ${sName} is ${dossier.transitWindowEn}. Orders confirmed before 16:00 MYT are packed and handed over to our logistics network (${dossier.couriers.join(', ')}) the same business day.`,
     },
     {
       question: `2. Will any product or brand name appear on the outside of my ${sName} parcel?`,
-      answer: `Never. Every shipment to ${sName} uses our 6-layer opaque security mailer with "OM Fulfilment Logistics" as the sender and a generic "Personal Nutritional Goods" airway declaration. Zero mention of Onyxman, Horsemen, Hammer of Thor, Grow XL, or Magnum Pump XR ever appears on the exterior.`,
+      answer: `Never. Every shipment to ${sName} uses our 6-layer opaque security mailer with "OM Fulfilment Logistics" as the sender and a generic "Personal Nutritional Goods" airway declaration. Zero mention of Onyxmen, Horsemen, Hammer of Thor, Grow XL, or Magnum Pump XR ever appears on the exterior.`,
     },
     {
       question: `3. What is the official bottle price and shipping rate for ${sName}?`,
-      answer: `All four flagship Onyxman formulations are uniformly priced at RM 159.00 per bottle (1 Bottle RM 159.00, 2 Bottles RM 318.00, 3 Bottles RM 477.00). Shipping policy for ${sName}: ${dossier.shippingPolicyEn}.`,
+      answer: `All four flagship Onyxmen formulations are uniformly priced at RM 159.00 per bottle (1 Bottle RM 159.00, 2 Bottles RM 318.00, 3 Bottles RM 477.00). Shipping policy for ${sName}: ${dossier.shippingPolicyEn}.`,
     },
     {
       question: `4. Is Cash on Delivery (COD) and DuitNow QR / FPX available in ${sName}?`,
@@ -2412,11 +2412,11 @@ function buildRegionalFaqs(dossier, lang = 'en-MY') {
     },
     {
       question: `9. For engineers and industrial buyers in ${sName}, is Magnum Pump XR an oral capsule supplement?`,
-      answer: `Yes. Magnum Pump XR on Onyxman.my is strictly our 30-Black-Capsule Oral Botanical & Amino-Acid Dietary Supplement (RM 159) formulated to support nitric oxide pathways and adult male physical stamina. It is explicitly NOT a mechanical, vacuum, or industrial fluid pump.`,
+      answer: `Yes. Magnum Pump XR on Onyxmen.my is strictly our 30-Black-Capsule Oral Botanical & Amino-Acid Dietary Supplement (RM 159) formulated to support nitric oxide pathways and adult male physical stamina. It is explicitly NOT a mechanical, vacuum, or industrial fluid pump.`,
     },
     {
-      question: `10. Are Onyxman formulations free from caffeine and synthetic stimulants?`,
-      answer: `Yes. Every Onyxman formulation is 100% caffeine-free and free from undeclared synthetic adulterants, relying on HPLC-standardized botanical root extracts and pure amino-acid precursors for smooth evening performance without sleep disruption.`,
+      question: `10. Are Onyxmen formulations free from caffeine and synthetic stimulants?`,
+      answer: `Yes. Every Onyxmen formulation is 100% caffeine-free and free from undeclared synthetic adulterants, relying on HPLC-standardized botanical root extracts and pure amino-acid precursors for smooth evening performance without sleep disruption.`,
     },
     {
       question: `11. How are the capsules protected against Malaysian heat and humidity during transit to ${sName}?`,
@@ -2432,7 +2432,7 @@ function buildRegionalFaqs(dossier, lang = 'en-MY') {
     },
     {
       question: `14. What if my parcel experiences transit damage on the way to ${sName}?`,
-      answer: `If any bottle arrives in ${sName} with a compromised induction seal or transit damage, contact our Kuala Lumpur Concierge Desk at sales@onyxman.my or info@onyxman.my within 7 days for an immediate complimentary replacement dispatch.`,
+      answer: `If any bottle arrives in ${sName} with a compromised induction seal or transit damage, contact our Kuala Lumpur Concierge Desk at sales@onyxmen.my or info@onyxmen.my within 7 days for an immediate complimentary replacement dispatch.`,
     },
   ];
 }
@@ -2455,12 +2455,12 @@ export function renderIndividualStateHubPage(dossier, lang = 'en-MY') {
 
   const breadcrumbs = isMs
     ? [
-        { name: 'Onyxman Malaysia', url: '/ms/' },
+        { name: 'Onyxmen Malaysia', url: '/ms/' },
         { name: 'Penghantaran Malaysia (16 Negeri)', url: '/ms/malaysia/' },
         { name: shortName, url: canonicalPath },
       ]
     : [
-        { name: 'Onyxman Malaysia', url: '/' },
+        { name: 'Onyxmen Malaysia', url: '/' },
         { name: 'Malaysia Delivery (16 States)', url: '/malaysia/' },
         { name: shortName, url: canonicalPath },
       ];
@@ -2582,7 +2582,7 @@ export function renderIndividualStateHubPage(dossier, lang = 'en-MY') {
 
     <div class="state-cinema-hero__breadcrumb-bar">
       <nav class="state-cinema-hero__crumbs" aria-label="Breadcrumb">
-        <a href="${isMs ? '/ms/' : '/'}">Onyxman Malaysia</a>
+        <a href="${isMs ? '/ms/' : '/'}">Onyxmen Malaysia</a>
         <span aria-hidden="true">/</span>
         <a href="${isMs ? '/ms/malaysia/' : '/malaysia/'}">${isMs ? 'Penghantaran Malaysia (16 Negeri)' : 'Malaysia Delivery (16 States)'}</a>
         <span aria-hidden="true">/</span>
@@ -2647,7 +2647,7 @@ export function renderIndividualStateHubPage(dossier, lang = 'en-MY') {
           <source srcset="${esc(dossier.heroVisualWebp)}" type="image/webp" />
           <img
             src="${esc(dossier.heroVisualPng)}"
-            alt="${esc(fullName)} — Onyxman Malaysia RM 159 Discreet Apothecary"
+            alt="${esc(fullName)} — Onyxmen Malaysia RM 159 Discreet Apothecary"
             width="960"
             height="720"
             fetchpriority="high"
@@ -2742,7 +2742,7 @@ export function renderIndividualStateHubPage(dossier, lang = 'en-MY') {
           <source srcset="/assets/products/onyxman-lineup-hero.webp" type="image/webp" />
           <img
             src="/assets/products/onyxman-lineup-hero.png"
-            alt="Onyxman Malaysia Complete 4-Bottle Lineup — ${esc(shortName)} Delivery"
+            alt="Onyxmen Malaysia Complete 4-Bottle Lineup — ${esc(shortName)} Delivery"
             width="1080"
             height="720"
             loading="lazy"
@@ -2897,21 +2897,21 @@ export function renderMasterMalaysiaIndexPage(lang = 'en-MY') {
   const alternatePathMs = '/ms/malaysia/';
 
   const title = isMs
-    ? 'Penghantaran Rahsia Suplemen Lelaki ke Semua 16 Negeri & Hab Bandar Malaysia — RM 159 | Onyxman Malaysia'
-    : 'Discreet Men’s Vitality Delivery Across All 16 Malaysian State & City Hubs — RM 159 | Onyxman Malaysia';
+    ? 'Penghantaran Rahsia Suplemen Lelaki ke Semua 16 Negeri & Hab Bandar Malaysia — RM 159 | Onyxmen Malaysia'
+    : 'Discreet Men’s Vitality Delivery Across All 16 Malaysian State & City Hubs — RM 159 | Onyxmen Malaysia';
 
   const description = isMs
     ? 'Rangkaian penghantaran bungkusan rahsia 100% tanpa nama produk untuk Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159) ke seluruh 16 negeri & Wilayah Persekutuan Malaysia termasuk KL, Selangor, Putrajaya, Cyberjaya, Johor, Pulau Pinang, Kedah, Kelantan, Terengganu, Perlis, Sabah, Sarawak & Labuan.'
-    : '100% unmarked discreet parcel delivery for authentic Onyxman men’s supplements (Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR — RM 159) across all 16 Malaysian states & Federal Territories: KL, Selangor, Putrajaya, Cyberjaya, Johor, Penang, Kedah, Kelantan, Terengganu, Perlis, Sabah, Sarawak & Labuan.';
+    : '100% unmarked discreet parcel delivery for authentic Onyxmen men’s supplements (Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR — RM 159) across all 16 Malaysian states & Federal Territories: KL, Selangor, Putrajaya, Cyberjaya, Johor, Penang, Kedah, Kelantan, Terengganu, Perlis, Sabah, Sarawak & Labuan.';
 
   const masterFaqs = buildRegionalFaqs(EAST_NORTH_STATE_DOSSIERS[0], lang);
   const breadcrumbs = isMs
     ? [
-        { name: 'Onyxman Malaysia', url: '/ms/' },
+        { name: 'Onyxmen Malaysia', url: '/ms/' },
         { name: 'Penghantaran Malaysia (16 Negeri)', url: '/ms/malaysia/' },
       ]
     : [
-        { name: 'Onyxman Malaysia', url: '/' },
+        { name: 'Onyxmen Malaysia', url: '/' },
         { name: 'Malaysia Delivery (16 States)', url: '/malaysia/' },
       ];
 
@@ -3013,7 +3013,7 @@ export function renderMasterMalaysiaIndexPage(lang = 'en-MY') {
 
     <div class="state-cinema-hero__breadcrumb-bar">
       <nav class="state-cinema-hero__crumbs" aria-label="Breadcrumb">
-        <a href="${isMs ? '/ms/' : '/'}">Onyxman Malaysia</a>
+        <a href="${isMs ? '/ms/' : '/'}">Onyxmen Malaysia</a>
         <span aria-hidden="true">/</span>
         <span style="color:var(--gold-foil-bright);">${
           isMs ? 'Direktori Penghantaran Rahsia 16 Negeri Malaysia' : '16-State Nationwide Discreet Delivery Network'
@@ -3081,7 +3081,7 @@ export function renderMasterMalaysiaIndexPage(lang = 'en-MY') {
           <source srcset="/assets/products/onyxman-lineup-hero.webp" type="image/webp" />
           <img
             src="/assets/products/onyxman-lineup-hero.png"
-            alt="Onyxman Malaysia — Nationwide Discreet Delivery Across All 16 States"
+            alt="Onyxmen Malaysia — Nationwide Discreet Delivery Across All 16 States"
             width="1080"
             height="720"
             fetchpriority="high"
@@ -3153,7 +3153,7 @@ export function renderMasterMalaysiaIndexPage(lang = 'en-MY') {
           <source srcset="/assets/products/horsemen-stage.webp" type="image/webp" />
           <img
             src="/assets/products/horsemen-stage.png"
-            alt="Onyxman Malaysia Discreet Regional Fulfilment"
+            alt="Onyxmen Malaysia Discreet Regional Fulfilment"
             width="960"
             height="720"
             loading="lazy"
@@ -3248,8 +3248,8 @@ export function renderMasterMalaysiaIndexPage(lang = 'en-MY') {
           <span class="editorial-kicker">
             ${
               isMs
-                ? 'SOALAN LAZIM PENGHANTARAN RAHSIA KEBANGSAAN ONYXMAN MALAYSIA'
-                : 'ONYXMAN MALAYSIA NATIONWIDE DISCREET SHIPPING FAQ LEDGER'
+                ? 'SOALAN LAZIM PENGHANTARAN RAHSIA KEBANGSAAN ONYXMEN MALAYSIA'
+                : 'ONYXMEN MALAYSIA NATIONWIDE DISCREET SHIPPING FAQ LEDGER'
             }
           </span>
           <h2 id="heading-master-malaysia-faqs" class="editorial-headline-lg">
@@ -3340,7 +3340,7 @@ export function buildAllEastNorthStateHubs() {
 if (process.argv[1] && path.resolve(process.argv[1]) === __filename) {
   const builtFiles = buildAllEastNorthStateHubs();
   console.log('================================================================================');
-  console.log('ONYXMAN.MY — EAST & NORTHERN MALAYSIA + FT HUBS BUILD COMPLETE (MS-139 TO MS-146)');
+  console.log('ONYXMEN.MY — EAST & NORTHERN MALAYSIA + FT HUBS BUILD COMPLETE (MS-139 TO MS-146)');
   console.log('================================================================================');
   const bannedTokens = [
     '#' + 'FAF8F5',

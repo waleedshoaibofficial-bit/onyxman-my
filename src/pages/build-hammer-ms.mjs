@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * ============================================================================
- * ONYXMAN.MY — HAMMER OF THOR BAHASA MALAYSIA FLAGSHIP BUILDER (MS-107 TO MS-108)
+ * ONYXMEN.MY — HAMMER OF THOR BAHASA MALAYSIA FLAGSHIP BUILDER (MS-107 TO MS-108)
  * Output Target: public/ms/hammer-of-thor-malaysia/index.html
  * Canonical URL: https://www.onyxmen.my/ms/hammer-of-thor-malaysia/
  * Paired EN URL: https://www.onyxmen.my/hammer-of-thor-malaysia/
@@ -9,7 +9,7 @@
  * - Name: Hammer of Thor Malaysia (Kesihatan Lelaki — Tribulus Terrestris — 20 Kapsul Vegetarian)
  * - SKU: ONYX-HT-20 | MPN: HT-TRIB-20MY | GTIN-13: 9550000102028
  * - Official Pricing: 1 Botol = RM 159 | 2 Botol = RM 318 | 3 Botol = RM 477
- * - Emails: waleedshoaibofficial@gmail.com | sales@onyxman.my | info@onyxman.my
+ * - Emails: waleedshoaibofficial@gmail.com | sales@onyxmen.my | info@onyxmen.my
  * ============================================================================
  */
 
@@ -29,9 +29,9 @@ const CANONICAL_URL_MS = 'https://www.onyxmen.my/ms/hammer-of-thor-malaysia/';
 const ALTERNATE_URL_EN = 'https://www.onyxmen.my/hammer-of-thor-malaysia/';
 
 const PAGE_TITLE_MS =
-  'Hammer of Thor Malaysia (20 Kapsul Vegetarian) — Suplemen Kesihatan Lelaki Tribulus Terrestris | RM 159 Onyxman.my';
+  'Hammer of Thor Malaysia (20 Kapsul Vegetarian) — Suplemen Kesihatan Lelaki Tribulus Terrestris | RM 159 Onyxmen.my';
 const PAGE_DESCRIPTION_MS =
-  'Tempah Hammer of Thor Malaysia tulen (Kesihatan Lelaki — Tribulus Terrestris — 20 Kapsul Vegetarian, SKU: ONYX-HT-20, MPN: HT-TRIB-20MY) pada harga rasmi RM 159 (1 Botol), RM 318 (2 Botol) atau RM 477 (3 Botol) di Onyxman.my. Kapsul selulosa tumbuhan HPMC 100% vegetarian dengan 200mg Tribulus Terrestris (60% Saponin), Akar Maca Andes, L-Arginine, Panax Ginseng, Tongkat Ali Malaysia & Zink Bisglisinat. Penghantaran bungkusan rahsia ke seluruh 16 negeri Malaysia.';
+  'Tempah Hammer of Thor Malaysia tulen (Kesihatan Lelaki — Tribulus Terrestris — 20 Kapsul Vegetarian, SKU: ONYX-HT-20, MPN: HT-TRIB-20MY) pada harga rasmi RM 159 (1 Botol), RM 318 (2 Botol) atau RM 477 (3 Botol) di Onyxmen.my. Kapsul selulosa tumbuhan HPMC 100% vegetarian dengan 200mg Tribulus Terrestris (60% Saponin), Akar Maca Andes, L-Arginine, Panax Ginseng, Tongkat Ali Malaysia & Zink Bisglisinat. Penghantaran bungkusan rahsia ke seluruh 16 negeri Malaysia.';
 
 /**
  * 10 Comprehensive Bahasa Malaysia FAQs for Hammer of Thor Malaysia (MS-108)
@@ -48,9 +48,9 @@ const HAMMER_BM_FAQS = [
       'Setiap kapsul vegetarian 500mg Hammer of Thor mengandungi 200mg ekstrak buah dan bahagian aerial Tribulus Terrestris yang dipiawaikan kepada 60% jumlah saponin steroid (fraksi protodioscin aktif). Tidak seperti suplemen biasa yang hanya meletakkan Tribulus dalam jumlah kecil, Hammer of Thor menggabungkan 200mg Tribulus bersama 100mg Akar Maca Andes, 80mg L-Arginine fermentasi tumbuhan, 60mg Panax Ginseng, 45mg Tongkat Ali Malaysia, dan 15mg Zink Bisglisinat untuk menyokong daya tahan fizikal, pemulihan otot selepas latihan, serta kecergasan malam lelaki dewasa.',
   },
   {
-    question: 'Berapakah harga rasmi Hammer of Thor Malaysia di Onyxman.my untuk pakej 1, 2, dan 3 botol?',
+    question: 'Berapakah harga rasmi Hammer of Thor Malaysia di Onyxmen.my untuk pakej 1, 2, dan 3 botol?',
     answer:
-      'Onyxman Malaysia mengamalkan struktur harga rasmi yang telus dan seragam bagi semua formulasi: 1 Botol (20 Kapsul Vegetarian untuk kitaran 20 hari) berharga RM 159 (159.00 MYR) termasuk penghantaran rahsia percuma di Semenanjung Malaysia; 2 Botol (40 Kapsul Vegetarian untuk protokol 40 hari) berharga RM 318 (318.00 MYR) termasuk penghantaran ekspres rahsia percuma ke seluruh Malaysia termasuk Sabah, Sarawak, dan Labuan; manakala 3 Botol (60 Kapsul Vegetarian untuk kitaran penuh 60 hari) berharga RM 477 (477.00 MYR) dengan keutamaan pelepasan kurier VIP.',
+      'Onyxmen Malaysia mengamalkan struktur harga rasmi yang telus dan seragam bagi semua formulasi: 1 Botol (20 Kapsul Vegetarian untuk kitaran 20 hari) berharga RM 159 (159.00 MYR) termasuk penghantaran rahsia percuma di Semenanjung Malaysia; 2 Botol (40 Kapsul Vegetarian untuk protokol 40 hari) berharga RM 318 (318.00 MYR) termasuk penghantaran ekspres rahsia percuma ke seluruh Malaysia termasuk Sabah, Sarawak, dan Labuan; manakala 3 Botol (60 Kapsul Vegetarian untuk kitaran penuh 60 hari) berharga RM 477 (477.00 MYR) dengan keutamaan pelepasan kurier VIP.',
   },
   {
     question: 'Apakah perbezaan utama antara Hammer of Thor dan Horsemen jika kedua-duanya mengandungi 20 kapsul pada harga RM 159?',
@@ -65,12 +65,12 @@ const HAMMER_BM_FAQS = [
   {
     question: 'Bagaimanakah sistem Peringatan Isian Semula Hari Ke-18 (Day-18 Refill Alert) berfungsi?',
     answer:
-      'Memandangkan setiap botol Hammer of Thor mengandungi 20 kapsul vegetarian untuk kitaran 20 hari (1 kapsul sehari), anda akan mencapai baki 2 kapsul terakhir pada Hari Ke-18. Sebaik sahaja anda membuat tempahan melalui Laci Tempahan Ekspres Onyxman, sistem kami menyediakan pautan satu klik ke Google Calendar dan WhatsApp untuk Hari Ke-18 (atau Hari Ke-36 bagi 2 botol, dan Hari Ke-54 bagi 3 botol) supaya botol seterusnya sempat dihantar sebelum bekalan anda habis pada Hari Ke-20.',
+      'Memandangkan setiap botol Hammer of Thor mengandungi 20 kapsul vegetarian untuk kitaran 20 hari (1 kapsul sehari), anda akan mencapai baki 2 kapsul terakhir pada Hari Ke-18. Sebaik sahaja anda membuat tempahan melalui Laci Tempahan Ekspres Onyxmen, sistem kami menyediakan pautan satu klik ke Google Calendar dan WhatsApp untuk Hari Ke-18 (atau Hari Ke-36 bagi 2 botol, dan Hari Ke-54 bagi 3 botol) supaya botol seterusnya sempat dihantar sebelum bekalan anda habis pada Hari Ke-20.',
   },
   {
     question: 'Adakah bungkusan penghantaran Hammer of Thor benar-benar rahsia jika dihantar ke pejabat atau kondominium?',
     answer:
-      'Ya, 100% rahsia dan sulit. Setiap pesanan dibungkus di dalam kotak kurier legap tanpa sebarang logo Onyxman, tanpa gambar botol, dan tanpa perkataan "Hammer of Thor" atau "Suplemen Lelaki" pada slip alamat (airwaybill). Nama pengirim hanya dicetak sebagai "OM Fulfilment Logistics" dengan keterangan kandungan neutral "Health & Wellness Goods". Anda boleh menerimanya di pejabat, pondok pengawal kondominium, atau pusat pungutan kurier dengan privasi mutlak.',
+      'Ya, 100% rahsia dan sulit. Setiap pesanan dibungkus di dalam kotak kurier legap tanpa sebarang logo Onyxmen, tanpa gambar botol, dan tanpa perkataan "Hammer of Thor" atau "Suplemen Lelaki" pada slip alamat (airwaybill). Nama pengirim hanya dicetak sebagai "OM Fulfilment Logistics" dengan keterangan kandungan neutral "Health & Wellness Goods". Anda boleh menerimanya di pejabat, pondok pengawal kondominium, atau pusat pungutan kurier dengan privasi mutlak.',
   },
   {
     question: 'Apakah kaedah pembayaran yang diterima untuk tempahan Hammer of Thor di Malaysia?',
@@ -85,7 +85,7 @@ const HAMMER_BM_FAQS = [
   {
     question: 'Adakah Hammer of Thor Malaysia mengandungi sebarang bahan kimia sintetik terlarang atau perangsang berbahaya?',
     answer:
-      'Tidak sama sekali. Hammer of Thor daripada Onyxman Malaysia ialah suplemen pemakanan botani dan mineral tulen yang dirumus daripada ekstrak tumbuhan piawai (Tribulus Terrestris, Akar Maca Peru, Panax Ginseng, Tongkat Ali Malaysia), asid amino L-Arginine fermentasi tumbuhan, dan Zink Bisglisinat di dalam kapsul selulosa tumbuhan HPMC. Ia bebas daripada sebarang bahan kimia sintetik PDE5 tersembunyi, bebas steroid tiruan, dan tidak menyebabkan debaran jantung atau sakit kepala.',
+      'Tidak sama sekali. Hammer of Thor daripada Onyxmen Malaysia ialah suplemen pemakanan botani dan mineral tulen yang dirumus daripada ekstrak tumbuhan piawai (Tribulus Terrestris, Akar Maca Peru, Panax Ginseng, Tongkat Ali Malaysia), asid amino L-Arginine fermentasi tumbuhan, dan Zink Bisglisinat di dalam kapsul selulosa tumbuhan HPMC. Ia bebas daripada sebarang bahan kimia sintetik PDE5 tersembunyi, bebas steroid tiruan, dan tidak menyebabkan debaran jantung atau sakit kepala.',
   },
 ];
 
@@ -109,9 +109,9 @@ function buildHammerMsSchemaJson() {
       fullTitleMs:
         'Hammer of Thor Malaysia — Kesihatan Lelaki Tribulus Terrestris Kompleks Saponin Piawai (20 Kapsul Vegetarian)',
       descriptionEn:
-        'Hammer of Thor by Onyxman Malaysia (SKU: ONYX-HT-20, MPN: HT-TRIB-20MY) is a 20-vegetarian-capsule botanical dietary supplement formulated with 200mg standardized Tribulus terrestris (60% saponins), 100mg Andean Maca Root, 80mg plant-fermented L-Arginine, 60mg Panax Ginseng, 45mg Malaysian Tongkat Ali, and 15mg Zinc Bisglycinate.',
+        'Hammer of Thor by Onyxmen Malaysia (SKU: ONYX-HT-20, MPN: HT-TRIB-20MY) is a 20-vegetarian-capsule botanical dietary supplement formulated with 200mg standardized Tribulus terrestris (60% saponins), 100mg Andean Maca Root, 80mg plant-fermented L-Arginine, 60mg Panax Ginseng, 45mg Malaysian Tongkat Ali, and 15mg Zinc Bisglycinate.',
       descriptionMs:
-        'Hammer of Thor oleh Onyxman Malaysia (SKU: ONYX-HT-20, MPN: HT-TRIB-20MY) ialah suplemen pemakanan botani 20 kapsul vegetarian (HPMC) yang dirumus dengan 200mg ekstrak Tribulus terrestris piawai (60% saponin), 100mg Akar Maca Andes, 80mg L-Arginine fermentasi tumbuhan, 60mg Panax Ginseng, 45mg Tongkat Ali Malaysia, dan 15mg Zink Bisglisinat untuk ketahanan stamina fizikal dan kecergasan lelaki dewasa.',
+        'Hammer of Thor oleh Onyxmen Malaysia (SKU: ONYX-HT-20, MPN: HT-TRIB-20MY) ialah suplemen pemakanan botani 20 kapsul vegetarian (HPMC) yang dirumus dengan 200mg ekstrak Tribulus terrestris piawai (60% saponin), 100mg Akar Maca Andes, 80mg L-Arginine fermentasi tumbuhan, 60mg Panax Ginseng, 45mg Tongkat Ali Malaysia, dan 15mg Zink Bisglisinat untuk ketahanan stamina fizikal dan kecergasan lelaki dewasa.',
       disambiguatingDescriptionEn:
         'Oral botanical and mineral dietary supplement in a 20-vegetarian-capsule HPMC bottle for adult men (18+) in Malaysia. Official price RM 159 per bottle.',
       disambiguatingDescriptionMs:
@@ -143,7 +143,7 @@ function buildHammerMsSchemaJson() {
       imageCutoutPng: 'https://www.onyxmen.my/assets/products/hammer-of-thor-cutout.png',
     },
     breadcrumbs: [
-      { name: 'Utama Onyxman Malaysia', url: 'https://www.onyxmen.my/ms/' },
+      { name: 'Utama Onyxmen Malaysia', url: 'https://www.onyxmen.my/ms/' },
       { name: '4 Formulasi Apotekari', url: 'https://www.onyxmen.my/ms/produk/' },
       {
         name: 'Hammer of Thor Malaysia (20 Kapsul Vegetarian)',
@@ -698,7 +698,7 @@ function buildHammerMsBodyHtml() {
         <div class="hammer-hero-stage__breadcrumb-bar">
           <nav aria-label="Laluan Navigasi Breadcrumb">
             <ol class="hammer-breadcrumb-list">
-              <li><a href="/ms/">Utama Onyxman</a></li>
+              <li><a href="/ms/">Utama Onyxmen</a></li>
               <li class="hammer-breadcrumb-sep" aria-hidden="true">/</li>
               <li><a href="/ms/produk/">4 Formulasi Apotekari</a></li>
               <li class="hammer-breadcrumb-sep" aria-hidden="true">/</li>
@@ -738,7 +738,7 @@ function buildHammerMsBodyHtml() {
             <!-- Exact Physical Bottle Label Transcription Ledger -->
             <div class="hammer-label-transcription-strip" role="region" aria-label="Transkripsi Rasmi Label Botol Hammer of Thor">
               <span class="hammer-label-transcription-strip__eyebrow">
-                TRANSKRIPSI TEPAT LABEL BOTOL RASMI ONYXMAN MALAYSIA
+                TRANSKRIPSI TEPAT LABEL BOTOL RASMI ONYXMEN MALAYSIA
               </span>
               <p class="hammer-label-transcription-strip__exact">
                 “HAMMER OF THOR · Men's Health — Tribulus Terrestris — 20 Veg. Capsules”
@@ -888,7 +888,7 @@ function buildHammerMsBodyHtml() {
                 <source srcset="/assets/products/hammer-of-thor-stage.webp" type="image/webp" />
                 <img
                   src="/assets/products/hammer-of-thor-stage.png"
-                  alt="Hammer of Thor Kesihatan Lelaki Tribulus Terrestris — 20 Kapsul Vegetarian Botol Rasmi Onyxman Malaysia (RM 159)"
+                  alt="Hammer of Thor Kesihatan Lelaki Tribulus Terrestris — 20 Kapsul Vegetarian Botol Rasmi Onyxmen Malaysia (RM 159)"
                   width="640"
                   height="820"
                   fetchpriority="high"
@@ -916,8 +916,8 @@ function buildHammerMsBodyHtml() {
               </span>
             </div>
             <div class="cinema-stage-100vh__price-meta">
-              MEJA KHIDMAT PELANGGAN: <a href="mailto:sales@onyxman.my">sales@onyxman.my</a> ·
-              <a href="mailto:info@onyxman.my">info@onyxman.my</a> ·
+              MEJA KHIDMAT PELANGGAN: <a href="mailto:sales@onyxmen.my">sales@onyxmen.my</a> ·
+              <a href="mailto:info@onyxmen.my">info@onyxmen.my</a> ·
               <a href="/hammer-of-thor-malaysia/" hreflang="en-MY">VIEW IN ENGLISH (EN-MY) →</a>
             </div>
           </div>
@@ -1206,7 +1206,7 @@ function buildHammerMsBodyHtml() {
               <span aria-hidden="true">→</span>
             </button>
             <a href="/ms/ramuan-botani/" class="cta-hairline-secondary">
-              <span>TEROKA ENSIKLOPEDIA RAMUAN BOTANI ONYXMAN</span>
+              <span>TEROKA ENSIKLOPEDIA RAMUAN BOTANI ONYXMEN</span>
             </a>
           </div>
         </div>
@@ -1429,7 +1429,7 @@ function buildHammerMsBodyHtml() {
               </h4>
               <p class="architectural-ledger__detail">
                 Pada Hari Ke-18, botol pertama anda mempunyai baki <strong>2 kapsul vegetarian</strong> (untuk Hari
-                Ke-19 dan Hari Ke-20). Peringatan Google Calendar &amp; WhatsApp Onyxman akan berbunyi pada hari ini
+                Ke-19 dan Hari Ke-20). Peringatan Google Calendar &amp; WhatsApp Onyxmen akan berbunyi pada hari ini
                 supaya anda boleh mengesahkan penghantaran ekspres 1–2 hari bekerja bagi botol seterusnya (atau
                 beralih terus ke botol kedua jika anda memilih Pakej 2 Botol RM 318).
               </p>
@@ -1453,7 +1453,7 @@ function buildHammerMsBodyHtml() {
           <!-- Refill Continuity CTA Box -->
           <div class="hammer-label-transcription-strip" style="margin-top: 2.5rem;">
             <span class="hammer-label-transcription-strip__eyebrow">
-              CADANGAN PAKAR APOTEKARI ONYXMAN MALAYSIA UNTUK KESINAMBUNGAN TANPA GANGGUAN
+              CADANGAN PAKAR APOTEKARI ONYXMEN MALAYSIA UNTUK KESINAMBUNGAN TANPA GANGGUAN
             </span>
             <p class="hammer-label-transcription-strip__exact">
               Elakkan Gangguan Bekalan pada Hari Ke-20: Pilih Pakej 2 Botol (40 Kapsul Vegetarian — RM 318) atau 3 Botol (60 Kapsul Vegetarian — RM 477)
@@ -1489,7 +1489,7 @@ function buildHammerMsBodyHtml() {
       </section>
 
       <!-- =====================================================================
-           CHAPTER V (MS-108D): JADUAL PERBANDINGAN RASMI 4 FORMULASI ONYXMAN
+           CHAPTER V (MS-108D): JADUAL PERBANDINGAN RASMI 4 FORMULASI ONYXMEN
            HAMMER OF THOR VS HORSEMEN VS GROW XL VS MAGNUM PUMP XR
            ===================================================================== -->
       <section
@@ -1501,7 +1501,7 @@ function buildHammerMsBodyHtml() {
           <header class="hammer-chapter-header">
             <div class="hammer-chapter-header__meta-row">
               <span class="hammer-chapter-number">
-                BAB V · MATRIKS PERBANDINGAN 4 FORMULASI APOTEKARI ONYXMAN (RM 159 SEBOTOL)
+                BAB V · MATRIKS PERBANDINGAN 4 FORMULASI APOTEKARI ONYXMEN (RM 159 SEBOTOL)
               </span>
               <a href="/ms/perbandingan/" class="editorial-kicker">
                 LIHAT PORTAL PERBANDINGAN PENUH →
@@ -1512,7 +1512,7 @@ function buildHammerMsBodyHtml() {
               Horsemen, Grow XL &amp; Magnum Pump XR?
             </h2>
             <p class="editorial-lead-paragraph comparison-summary">
-              Kesemua empat formulasi rasmi Onyxman Malaysia ditawarkan pada harga seragam
+              Kesemua empat formulasi rasmi Onyxmen Malaysia ditawarkan pada harga seragam
               <strong>RM 159 sebotol (2 Botol RM 318 · 3 Botol RM 477)</strong> supaya anda boleh memilih
               berdasarkan keperluan biologi, jenis sarung kapsul, dan jadual pengambilan anda—bukan berdasarkan
               perbezaan harga.
@@ -1520,7 +1520,7 @@ function buildHammerMsBodyHtml() {
           </header>
 
           <!-- Full Semantic Comparison Table -->
-          <div class="hammer-comparison-table-wrap" role="region" aria-label="Jadual Perbandingan 4 Produk Onyxman Malaysia" tabindex="0">
+          <div class="hammer-comparison-table-wrap" role="region" aria-label="Jadual Perbandingan 4 Produk Onyxmen Malaysia" tabindex="0">
             <table class="hammer-comparison-table">
               <thead>
                 <tr>
@@ -1598,7 +1598,7 @@ function buildHammerMsBodyHtml() {
                   <td>Peringatan Hari Ke-25 (Kitaran 30 Hari)</td>
                 </tr>
                 <tr>
-                  <th scope="row">Harga Rasmi Onyxman.my</th>
+                  <th scope="row">Harga Rasmi Onyxmen.my</th>
                   <td class="hammer-comparison-table__highlight-col">
                     <strong>1B: RM 159 · 2B: RM 318 · 3B: RM 477</strong>
                   </td>
@@ -1631,7 +1631,7 @@ function buildHammerMsBodyHtml() {
       </section>
 
       <!-- =====================================================================
-           CHAPTER VI (MS-108E): PENGESAHAN KETULENAN 5-TITIK ONYXMAN MALAYSIA
+           CHAPTER VI (MS-108E): PENGESAHAN KETULENAN 5-TITIK ONYXMEN MALAYSIA
            CARA MEMBEZAKAN HAMMER OF THOR TULEN DARIPADA TIRUAN MURAH
            ===================================================================== -->
       <section
@@ -1654,7 +1654,7 @@ function buildHammerMsBodyHtml() {
             <p class="editorial-lead-paragraph">
               Elakkan produk tiruan tidak berlabel di pasaran lambak yang menggunakan kapsul gelatin murah atau
               bahan kimia tersembunyi. Setiap botol rasmi Hammer of Thor yang diedarkan oleh
-              <strong>Onyxman Malaysia (https://www.onyxmen.my)</strong> mematuhi lima spesifikasi fizikal berikut:
+              <strong>Onyxmen Malaysia (https://www.onyxmen.my)</strong> mematuhi lima spesifikasi fizikal berikut:
             </p>
           </header>
 
@@ -1678,7 +1678,7 @@ function buildHammerMsBodyHtml() {
                 Kod Pengesanan Rasmi: SKU ONYX-HT-20, MPN HT-TRIB-20MY &amp; GTIN-13 9550000102028
               </h3>
               <p class="architectural-ledger__detail">
-                Setiap pengeluaran rasmi Onyxman Malaysia didaftarkan di bawah SKU <code>ONYX-HT-20</code>,
+                Setiap pengeluaran rasmi Onyxmen Malaysia didaftarkan di bawah SKU <code>ONYX-HT-20</code>,
                 nombor bahagian pengeluar <code>HT-TRIB-20MY</code>, dan kod bar Malaysia
                 <code>9550000102028</code> (awalan 955 mengesahkan pengedaran rasmi Malaysia).
               </p>
@@ -1705,7 +1705,7 @@ function buildHammerMsBodyHtml() {
               </h3>
               <p class="architectural-ledger__detail">
                 Ekstrak piawai 60% saponin Tribulus Terrestris (200mg) di dalam kapsul selulosa tumbuhan HPMC
-                mempunyai kos bahan mentah yang tinggi. Onyxman Malaysia mengekalkan harga rasmi
+                mempunyai kos bahan mentah yang tinggi. Onyxmen Malaysia mengekalkan harga rasmi
                 <strong>RM 159 (1 Botol), RM 318 (2 Botol), dan RM 477 (3 Botol)</strong>.
               </p>
               <span class="architectural-ledger__metric">RM 159 / RM 318 / RM 477</span>
@@ -1714,13 +1714,13 @@ function buildHammerMsBodyHtml() {
             <div class="architectural-ledger__row" role="listitem">
               <span class="architectural-ledger__index">SAH-05</span>
               <h3 class="architectural-ledger__title">
-                Pengesahan Terus Melalui Meja Khidmat Rasmi sales@onyxman.my &amp; info@onyxman.my
+                Pengesahan Terus Melalui Meja Khidmat Rasmi sales@onyxmen.my &amp; info@onyxmen.my
               </h3>
               <p class="architectural-ledger__detail">
                 Setiap pesanan daripada laman rasmi <code>https://www.onyxmen.my</code> menjana nombor rujukan
                 <code>ONYX-MY-XXXXXX</code> yang direkodkan terus melalui meja pengesahan rasmi kami di
-                <a href="mailto:sales@onyxman.my">sales@onyxman.my</a> dan
-                <a href="mailto:info@onyxman.my">info@onyxman.my</a>.
+                <a href="mailto:sales@onyxmen.my">sales@onyxmen.my</a> dan
+                <a href="mailto:info@onyxmen.my">info@onyxmen.my</a>.
               </p>
               <span class="architectural-ledger__metric">PENGESAHAN RASMI</span>
             </div>
@@ -2092,11 +2092,11 @@ function buildHammerMsBodyHtml() {
               <span>BUKA LACI TEMPAHAN EKSPRES RAHSIA · RM 159 / BOTOL</span>
               <span aria-hidden="true">→</span>
             </button>
-            <a href="mailto:sales@onyxman.my?subject=Pertanyaan%20Rasmi%20Hammer%20of%20Thor%20Malaysia%20(ONYX-HT-20)" class="cta-hairline-secondary">
-              <span>E-MEL MEJA JUALAN: sales@onyxman.my</span>
+            <a href="mailto:sales@onyxmen.my?subject=Pertanyaan%20Rasmi%20Hammer%20of%20Thor%20Malaysia%20(ONYX-HT-20)" class="cta-hairline-secondary">
+              <span>E-MEL MEJA JUALAN: sales@onyxmen.my</span>
             </a>
-            <a href="mailto:info@onyxman.my?subject=Pertanyaan%20Formulasi%20Hammer%20of%20Thor%20(HT-TRIB-20MY)" class="cta-hairline-secondary">
-              <span>MEJA MAKLUMAT BOTANI: info@onyxman.my</span>
+            <a href="mailto:info@onyxmen.my?subject=Pertanyaan%20Formulasi%20Hammer%20of%20Thor%20(HT-TRIB-20MY)" class="cta-hairline-secondary">
+              <span>MEJA MAKLUMAT BOTANI: info@onyxmen.my</span>
             </a>
           </div>
         </div>

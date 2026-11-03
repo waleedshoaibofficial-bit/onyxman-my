@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * ONYXMAN.MY — 24/7 CLOUD HEALTH, <800ms TTFB & EXPRESS ORDER BRIDGE MONITOR (MS-195B)
+ * ONYXMEN.MY — 24/7 CLOUD HEALTH, <800ms TTFB & EXPRESS ORDER BRIDGE MONITOR (MS-195B)
  *
  * Audits https://www.onyxmen.my/ and all 4 flagship product URLs:
  *   - / (Homepage & Flagship Apothecary Vault)
@@ -15,7 +15,7 @@
  *   2. < 800ms TTFB (--live) / Inline Critical CSS & Hero WebP Preload (--dry-run)
  *   3. Valid @graph JSON-LD structured data presence & clean JSON parsing
  *   4. RM 159 (1B) / RM 318 (2B) / RM 477 (3B) & 159.00 MYR pricing integrity
- *   5. waleedshoaibofficial@gmail.com Express Order Drawer endpoint & sales@onyxman.my routing
+ *   5. waleedshoaibofficial@gmail.com Express Order Drawer endpoint & sales@onyxmen.my routing
  */
 
 import fs from 'node:fs';
@@ -32,8 +32,8 @@ const SITE_ORIGIN = process.env.SITE_DOMAIN || 'https://www.onyxmen.my';
 const TTFB_BUDGET_MS = Number(process.env.TTFB_BUDGET_MS || 800);
 const PRIMARY_ORDER_EMAIL = 'waleedshoaibofficial@gmail.com';
 const EXPECTED_FORMSUBMIT_ENDPOINT = `https://formsubmit.co/ajax/${PRIMARY_ORDER_EMAIL}`;
-const BRAND_SALES_EMAIL = 'sales@onyxman.my';
-const BRAND_INFO_EMAIL = 'info@onyxman.my';
+const BRAND_SALES_EMAIL = 'sales@onyxmen.my';
+const BRAND_INFO_EMAIL = 'info@onyxmen.my';
 
 const MONITOR_TARGETS = [
   {
@@ -41,7 +41,7 @@ const MONITOR_TARGETS = [
     label: 'Homepage Vault (EN-MY)',
     route: '/',
     localFile: 'index.html',
-    expectedTitleToken: 'Onyxman Malaysia',
+    expectedTitleToken: 'Onyxmen Malaysia',
   },
   {
     id: 'horsemen-en',
@@ -76,7 +76,7 @@ const MONITOR_TARGETS = [
     label: 'Homepage Vault (MS-MY)',
     route: '/ms/',
     localFile: 'ms/index.html',
-    expectedTitleToken: 'Onyxman Malaysia',
+    expectedTitleToken: 'Onyxmen Malaysia',
   },
   {
     id: 'horsemen-ms',
@@ -377,7 +377,7 @@ async function runLiveCloudAudit() {
       let response = await fetch(url, {
         method: 'GET',
         headers: {
-          'User-Agent': 'Onyxman-Cloud-Health-Monitor/1.0 (+https://www.onyxmen.my)',
+          'User-Agent': 'Onyxmen-Cloud-Health-Monitor/1.0 (+https://www.onyxmen.my)',
           Accept: 'text/html,application/xhtml+xml',
         },
       });
@@ -389,7 +389,7 @@ async function runLiveCloudAudit() {
         response = await fetch(url, {
           method: 'GET',
           headers: {
-            'User-Agent': 'Onyxman-Cloud-Health-Monitor/1.0 (+https://www.onyxmen.my)',
+            'User-Agent': 'Onyxmen-Cloud-Health-Monitor/1.0 (+https://www.onyxmen.my)',
             Accept: 'text/html,application/xhtml+xml',
           },
         });
@@ -461,7 +461,7 @@ async function main() {
   }
 
   console.log('====================================================================');
-  console.log(`ONYXMAN.MY 24/7 CLOUD HEALTH & ORDER BRIDGE MONITOR (${isLiveMode ? 'LIVE CLOUD' : 'DRY-RUN'})`);
+  console.log(`ONYXMEN.MY 24/7 CLOUD HEALTH & ORDER BRIDGE MONITOR (${isLiveMode ? 'LIVE CLOUD' : 'DRY-RUN'})`);
   console.log('====================================================================');
   console.log(`Target Domain           : ${SITE_ORIGIN}`);
   console.log(`TTFB Performance Budget : < ${TTFB_BUDGET_MS}ms`);

@@ -1,5 +1,5 @@
 /**
- * ONYXMAN.MY — ARCHITECTURAL LUXURY EDITORIAL FOOTER (MS-064 to MS-065)
+ * ONYXMEN.MY — ARCHITECTURAL LUXURY EDITORIAL FOOTER (MS-064 to MS-065)
  * Links to:
  * - All 4 Flagship Formulations (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR)
  * - All 3 Comparisons (Comparison Matrix, Horsemen vs Hammer of Thor, Grow XL vs Magnum Pump XR)
@@ -7,7 +7,7 @@
  * - All 16 Malaysia State & Federal Territory Discreet Delivery Hubs
  * - All 6 Buyer & Vitality Protocol Guides
  * - All 6 Trust, Authenticity, Discreet Packaging, PDPA, Terms & Contact Pages
- * - Official Kuala Lumpur Concierge Desk (sales@onyxman.my & info@onyxman.my)
+ * - Official Kuala Lumpur Concierge Desk (sales@onyxmen.my & info@onyxmen.my)
  * - Compliant Botanical Dietary Supplement Notice (Zero fake medical claims)
  */
 
@@ -249,8 +249,8 @@ export const FOOTER_BUYER_GUIDES = [
     key: 'guide-authenticity-verification',
     enPath: '/guides/how-to-verify-authentic-onyxman-bottles-malaysia/',
     msPath: '/ms/panduan/cara-semak-ketulenan-botol-onyxman-malaysia/',
-    labelEn: 'How to Verify Authentic Onyxman Bottles in Malaysia',
-    labelMs: 'Cara Semak Ketulenan Botol Onyxman di Malaysia',
+    labelEn: 'How to Verify Authentic Onyxmen Bottles in Malaysia',
+    labelMs: 'Cara Semak Ketulenan Botol Onyxmen di Malaysia',
   },
   {
     key: 'guide-20-vs-30-cycle',
@@ -280,8 +280,8 @@ export const FOOTER_TRUST_LEGAL = [
     key: 'trust-about',
     enPath: '/about/',
     msPath: '/ms/tentang-kami/',
-    labelEn: 'About Onyxman Apothecary & Quality Board',
-    labelMs: 'Tentang Apotekari Onyxman & Lembaga Kualiti',
+    labelEn: 'About Onyxmen Apothecary & Quality Board',
+    labelMs: 'Tentang Apotekari Onyxmen & Lembaga Kualiti',
   },
   {
     key: 'trust-authenticity',
@@ -370,8 +370,8 @@ export function renderObsidianFooter(options = {}) {
     <div class="obsidian-footer__horizon-left">
       <span class="editorial-kicker">${
         isMs
-          ? 'ONYXMAN.MY · APOTEKARI BOTANI LELAKI DEWASA MALAYSIA'
-          : 'ONYXMAN.MY · MALAYSIA ARCHITECTURAL MEN’S VITALITY VAULT'
+          ? 'ONYXMEN.MY · APOTEKARI BOTANI LELAKI DEWASA MALAYSIA'
+          : 'ONYXMEN.MY · MALAYSIA ARCHITECTURAL MEN’S VITALITY VAULT'
       }</span>
       <h2 class="editorial-headline-lg obsidian-footer__horizon-title">
         ${
@@ -403,9 +403,9 @@ export function renderObsidianFooter(options = {}) {
       <div class="obsidian-footer__concierge-meta">
         <span>${isMs ? 'Meja Tempahan & Sokongan Privasi (09:00–23:00 MYT):' : 'Private Concierge & Order Desk (09:00–23:00 MYT):'}</span>
         <div class="obsidian-footer__concierge-emails">
-          <a href="mailto:sales@onyxman.my" class="obsidian-footer__email-link">sales@onyxman.my</a>
+          <a href="mailto:sales@onyxmen.my" class="obsidian-footer__email-link">sales@onyxmen.my</a>
           <span aria-hidden="true">·</span>
-          <a href="mailto:info@onyxman.my" class="obsidian-footer__email-link">info@onyxman.my</a>
+          <a href="mailto:info@onyxmen.my" class="obsidian-footer__email-link">info@onyxmen.my</a>
         </div>
       </div>
     </div>
@@ -416,23 +416,23 @@ export function renderObsidianFooter(options = {}) {
     <!-- Column 1: Brand Identity & Official Contact Desk -->
     <div class="obsidian-footer__col obsidian-footer__col--brand">
       <p class="obsidian-footer__heading">${
-        isMs ? '01 · BILIK KEBAL APOTEKARI ONYXMAN' : '01 · ONYXMAN APOTHECARY DESK'
+        isMs ? '01 · BILIK KEBAL APOTEKARI ONYXMEN' : '01 · ONYXMEN APOTHECARY DESK'
       }</p>
       <p class="obsidian-footer__brand-copy">
         ${
           isMs
-            ? 'Onyxman Malaysia Apothecary & Men’s Vitality Vault menyediakan suplemen pemakanan botani dan asid amino berkepekatan tinggi untuk lelaki dewasa (18+) di seluruh Malaysia.'
-            : 'Onyxman Malaysia Apothecary & Men’s Vitality Vault curates standardized botanical extracts and amino-acid vitality protocols for adult men (18+) across Malaysia.'
+            ? 'Onyxmen Malaysia Apothecary & Men’s Vitality Vault menyediakan suplemen pemakanan botani dan asid amino berkepekatan tinggi untuk lelaki dewasa (18+) di seluruh Malaysia.'
+            : 'Onyxmen Malaysia Apothecary & Men’s Vitality Vault curates standardized botanical extracts and amino-acid vitality protocols for adult men (18+) across Malaysia.'
         }
       </p>
       <div class="obsidian-footer__desk-ledger">
         <div class="obsidian-footer__desk-row">
           <span class="obsidian-footer__desk-label">${isMs ? 'E-MEL JUALAN RASMI' : 'OFFICIAL SALES DESK'}</span>
-          <a href="mailto:sales@onyxman.my" class="obsidian-footer__desk-val">sales@onyxman.my</a>
+          <a href="mailto:sales@onyxmen.my" class="obsidian-footer__desk-val">sales@onyxmen.my</a>
         </div>
         <div class="obsidian-footer__desk-row">
           <span class="obsidian-footer__desk-label">${isMs ? 'PERTANYAAN UMUM' : 'CONCIERGE INQUIRIES'}</span>
-          <a href="mailto:info@onyxman.my" class="obsidian-footer__desk-val">info@onyxman.my</a>
+          <a href="mailto:info@onyxmen.my" class="obsidian-footer__desk-val">info@onyxmen.my</a>
         </div>
         <div class="obsidian-footer__desk-row">
           <span class="obsidian-footer__desk-label">${isMs ? 'PUSAT OPERASI' : 'FULFILMENT HUB'}</span>
@@ -451,7 +451,7 @@ export function renderObsidianFooter(options = {}) {
         isMs ? '02 · EMPAT FORMULASI UTAMA (RM 159)' : '02 · FOUR FLAGSHIP FORMULATIONS'
       }</p>
       <a href="${isMs ? '/ms/produk/' : '/products/'}" class="obsidian-footer__link">
-        ${isMs ? 'Semua Formulasi Onyxman (Vault)' : 'All Onyxman Formulations Vault'}
+        ${isMs ? 'Semua Formulasi Onyxmen (Vault)' : 'All Onyxmen Formulations Vault'}
       </a>
       ${productLinksHtml}
     </div>
@@ -525,23 +525,23 @@ export function renderObsidianFooter(options = {}) {
     <p class="obsidian-footer__compliance-text">
       ${
         isMs
-          ? 'Semua formulasi Onyxman (Horsemen, Hammer of Thor, Grow XL, dan Magnum Pump XR) adalah suplemen pemakanan botani tradisional dan kompleks asid amino yang dirumus khas untuk lelaki dewasa berumur 18 tahun ke atas bagi menyokong kecergasan fizikal, stamina, dan tenaga harian. Produk ini tidak bertujuan untuk mendiagnosis, merawat, menyembuhkan, atau mencegah sebarang penyakit atau keadaan perubatan. Sila rujuk pengamal perubatan bertauliah di Malaysia sekiranya anda mempunyai masalah kardiovaskular, tekanan darah tinggi, atau sedang mengambil ubat preskripsi. Setiap kumpulan pengeluaran disaring di makmal untuk ketulenan fitokimia serta bebas daripada bahan sintetik terlarang.'
-          : 'All Onyxman formulations (Horsemen, Hammer of Thor, Grow XL, and Magnum Pump XR) are traditional botanical and amino-acid dietary supplements formulated exclusively for adult men (18+) seeking nutritional support for physical stamina, vitality, and active performance. These products are not intended to diagnose, treat, cure, or prevent any disease or medical condition. Statements reflect botanical nutrition research and traditional herbal monograph literature. Consult a licensed healthcare practitioner in Malaysia prior to use if you have cardiovascular conditions, hypertension, or take prescription nitrates. Every batch is screened for heavy-metal and microbial safety.'
+          ? 'Semua formulasi Onyxmen (Horsemen, Hammer of Thor, Grow XL, dan Magnum Pump XR) adalah suplemen pemakanan botani tradisional dan kompleks asid amino yang dirumus khas untuk lelaki dewasa berumur 18 tahun ke atas bagi menyokong kecergasan fizikal, stamina, dan tenaga harian. Produk ini tidak bertujuan untuk mendiagnosis, merawat, menyembuhkan, atau mencegah sebarang penyakit atau keadaan perubatan. Sila rujuk pengamal perubatan bertauliah di Malaysia sekiranya anda mempunyai masalah kardiovaskular, tekanan darah tinggi, atau sedang mengambil ubat preskripsi. Setiap kumpulan pengeluaran disaring di makmal untuk ketulenan fitokimia serta bebas daripada bahan sintetik terlarang.'
+          : 'All Onyxmen formulations (Horsemen, Hammer of Thor, Grow XL, and Magnum Pump XR) are traditional botanical and amino-acid dietary supplements formulated exclusively for adult men (18+) seeking nutritional support for physical stamina, vitality, and active performance. These products are not intended to diagnose, treat, cure, or prevent any disease or medical condition. Statements reflect botanical nutrition research and traditional herbal monograph literature. Consult a licensed healthcare practitioner in Malaysia prior to use if you have cardiovascular conditions, hypertension, or take prescription nitrates. Every batch is screened for heavy-metal and microbial safety.'
       }
     </p>
   </div>
 
   <div class="obsidian-footer__legal">
     <span>
-      © ${new Date().getFullYear()} Onyxman Malaysia Apothecary &amp; Men’s Vitality Vault (<a href="https://www.onyxmen.my">https://www.onyxmen.my</a>). ${
+      © ${new Date().getFullYear()} Onyxmen Malaysia Apothecary &amp; Men’s Vitality Vault (<a href="https://www.onyxmen.my">https://www.onyxmen.my</a>). ${
   isMs ? 'Hak Cipta Terpelihara.' : 'All Rights Reserved.'
 }
     </span>
     <span>
       ${
         isMs
-          ? 'Harga Rasmi: RM 159 (159.00 MYR) · RM 318 (318.00 MYR) · RM 477 (477.00 MYR) | Meja Operasi: sales@onyxman.my · info@onyxman.my'
-          : 'Official Pricing: RM 159 (159.00 MYR) · RM 318 (318.00 MYR) · RM 477 (477.00 MYR) | Concierge: sales@onyxman.my · info@onyxman.my'
+          ? 'Harga Rasmi: RM 159 (159.00 MYR) · RM 318 (318.00 MYR) · RM 477 (477.00 MYR) | Meja Operasi: sales@onyxmen.my · info@onyxmen.my'
+          : 'Official Pricing: RM 159 (159.00 MYR) · RM 318 (318.00 MYR) · RM 477 (477.00 MYR) | Concierge: sales@onyxmen.my · info@onyxmen.my'
       }
     </span>
   </div>
