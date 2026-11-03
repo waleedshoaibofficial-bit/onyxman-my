@@ -18,10 +18,13 @@
  *   5. waleedshoaibofficial@gmail.com Express Order Drawer endpoint & sales@onyxmen.my routing
  */
 
+import dns from 'node:dns';
 import fs from 'node:fs';
 import path from 'node:path';
 import { performance } from 'node:perf_hooks';
 import { fileURLToPath } from 'node:url';
+
+dns.setDefaultResultOrder('ipv4first');
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -365,7 +368,8 @@ function runDryRunAudit() {
 async function runLiveCloudAudit() {
   // Warm up DNS + TLS 1.3 connection pool + Cloudflare edge POP before measuring pure HTTP TTFB
   try {
-    await fetch(`${SITE_ORIGIN}/`, { method: 'HEAD' });
+    const warm = await fetch(`${SITE_ORIGIN}/`, { method: 'HEAD', signal: AbortSignal.timeout(8000) });
+    await warm.body?.cancel().catch(() => {});
   } catch {
     // Ignore warm-up network error; individual route checks will report any real failure
   }
@@ -376,6 +380,7 @@ async function runLiveCloudAudit() {
     try {
       let response = await fetch(url, {
         method: 'GET',
+        signal: AbortSignal.timeout(8000),
         headers: {
           'User-Agent': 'Onyxmen-Cloud-Health-Monitor/1.0 (+https://www.onyxmen.my)',
           Accept: 'text/html,application/xhtml+xml',
@@ -388,6 +393,7 @@ async function runLiveCloudAudit() {
         t0 = performance.now();
         response = await fetch(url, {
           method: 'GET',
+          signal: AbortSignal.timeout(8000),
           headers: {
             'User-Agent': 'Onyxmen-Cloud-Health-Monitor/1.0 (+https://www.onyxmen.my)',
             Accept: 'text/html,application/xhtml+xml',
@@ -441,7 +447,8 @@ async function runLiveCloudAudit() {
   for (const ep of liveSeoEndpoints) {
     const epUrl = `${SITE_ORIGIN}${ep}`;
     try {
-      const r = await fetch(epUrl, { method: 'HEAD' });
+      const r = await fetch(epUrl, { method: 'HEAD', signal: AbortSignal.timeout(8000) });
+      await r.body?.cancel().catch(() => {});
       if (r.status !== 200) {
         recordFail('LIVE-SEO-FEED', ep, `${epUrl} returned HTTP ${r.status}`);
       } else {

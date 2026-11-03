@@ -28,7 +28,7 @@ permissions:
 
 concurrency:
   group: "onyxman-cloudflare-pages-${{ github.ref }}"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 env:
   NODE_ENV: "production"
@@ -97,15 +97,15 @@ jobs:
             echo "Cloudflare secrets not set in GitHub Actions; skipping direct wrangler deploy step."
           fi
 
-      - name: "08 Â· Instant Post-Deploy IndexNow Batch Submission (Bing, Yandex, Seznam, Naver)"
+      - name: "08 · Instant Post-Deploy IndexNow Batch Submission (Bing, Yandex, Seznam, Naver)"
         continue-on-error: true
         run: |
-          echo "Submitting all canonical https://onyxman.my/... URLs to IndexNow endpoints..."
+          echo "Submitting all canonical https://www.onyxmen.my/... URLs to IndexNow endpoints..."
           node scripts/ping-indexnow.mjs --live
 
-      - name: "09 Â· Post-Deploy Live Edge Verification & Order Bridge Check"
+      - name: "09 · Post-Deploy Live Edge Verification & Order Bridge Check"
         continue-on-error: true
         run: |
-          echo "Verifying live https://onyxman.my edge TTFB, HTTP 200, RM 159 integrity & Express Order Drawer..."
+          echo "Verifying live https://www.onyxmen.my edge TTFB, HTTP 200, RM 159 integrity & Express Order Drawer..."
           node scripts/cloud-health-monitor.mjs --live
 

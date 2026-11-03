@@ -14,9 +14,12 @@
  *                  to api.indexnow.org, Bing, Yandex, Seznam, and Naver.
  */
 
+import dns from 'node:dns';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+
+dns.setDefaultResultOrder('ipv4first');
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -279,6 +282,7 @@ async function executeLiveCloudPings(payload) {
     try {
       const response = await fetch(target.url, {
         method: 'GET',
+        signal: AbortSignal.timeout(8000),
         headers: { 'User-Agent': 'Onyxmen-Cloud-IndexNow-Monitor/1.0 (+https://www.onyxmen.my)' },
       });
       if (!response.ok) {
@@ -303,6 +307,7 @@ async function executeLiveCloudPings(payload) {
     try {
       const res = await fetch(endpoint.url, {
         method: 'POST',
+        signal: AbortSignal.timeout(8000),
         headers: {
           'Content-Type': 'application/json; charset=utf-8',
           'User-Agent': 'Onyxmen-Cloud-IndexNow-Dispatcher/1.0 (+https://www.onyxmen.my)',
