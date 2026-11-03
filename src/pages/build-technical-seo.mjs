@@ -2448,6 +2448,41 @@ function buildLiveSeoDashboardHtml(lang = 'en-MY') {
             </div>
           </div>
         </div>
+
+        <!-- 03 · LIVE GOOGLE SEARCH CONSOLE API CLICKS, IMPRESSIONS & URL INSPECTION MATRIX -->
+        <div style="background:#121417;border:1px solid rgba(197,160,89,0.35);padding:28px;margin-bottom:20px;">
+          <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px;margin-bottom:20px;border-bottom:1px solid rgba(255,255,255,0.1);padding-bottom:14px;">
+            <h2 style="font-size:0.86rem;letter-spacing:0.16em;text-transform:uppercase;color:#C5A059;margin:0;">
+              03 · LIVE GOOGLE SEARCH CONSOLE (GSC API) CLICKS, IMPRESSIONS &amp; GOOGLEBOT CRAWL FEED
+            </h2>
+            <div id="gsc-api-status-pill" style="font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;color:#4ADE80;font-weight:700;">
+              SYNCING /seo-health-status.json...
+            </div>
+          </div>
+
+          <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:16px;margin-bottom:22px;">
+            <div style="background:rgba(255,255,255,0.03);padding:16px;border-left:3px solid #C5A059;">
+              <div style="font-size:0.66rem;letter-spacing:0.14em;color:rgba(255,255,255,0.65);text-transform:uppercase;">28-DAY GOOGLE CLICKS</div>
+              <div id="gsc-kpi-clicks" style="font-size:1.45rem;font-weight:700;color:#FFFFFF;margin-top:4px;">0</div>
+            </div>
+            <div style="background:rgba(255,255,255,0.03);padding:16px;border-left:3px solid #C5A059;">
+              <div style="font-size:0.66rem;letter-spacing:0.14em;color:rgba(255,255,255,0.65);text-transform:uppercase;">28-DAY IMPRESSIONS</div>
+              <div id="gsc-kpi-impressions" style="font-size:1.45rem;font-weight:700;color:#FFFFFF;margin-top:4px;">0</div>
+            </div>
+            <div style="background:rgba(255,255,255,0.03);padding:16px;border-left:3px solid #C5A059;">
+              <div style="font-size:0.66rem;letter-spacing:0.14em;color:rgba(255,255,255,0.65);text-transform:uppercase;">ORGANIC CTR (%)</div>
+              <div id="gsc-kpi-ctr" style="font-size:1.45rem;font-weight:700;color:#4ADE80;margin-top:4px;">0.00%</div>
+            </div>
+            <div style="background:rgba(255,255,255,0.03);padding:16px;border-left:3px solid #C5A059;">
+              <div style="font-size:0.66rem;letter-spacing:0.14em;color:rgba(255,255,255,0.65);text-transform:uppercase;">AVG SERP POSITION</div>
+              <div id="gsc-kpi-pos" style="font-size:1.45rem;font-weight:700;color:#C5A059;margin-top:4px;">Indexing</div>
+            </div>
+          </div>
+
+          <div id="gsc-inspection-list" style="display:flex;flex-direction:column;gap:8px;font-size:0.78rem;">
+            <div style="color:rgba(255,255,255,0.7);">Loading Googlebot URL Inspection &amp; Sitemap telemetry...</div>
+          </div>
+        </div>
       </div>
 
       <script>
@@ -2487,6 +2522,29 @@ function buildLiveSeoDashboardHtml(lang = 'en-MY') {
                     ' Pages · ' +
                     (statusData.seoIndexingSummary.totalGraphJsonLdNodes || '730+') +
                     ' Schemas';
+                }
+                if (statusData.googleSearchConsoleLiveTelemetry) {
+                  const gsc = statusData.googleSearchConsoleLiveTelemetry;
+                  const s = gsc.summary28Days || {};
+                  const pillEl = document.getElementById('gsc-api-status-pill');
+                  const cEl = document.getElementById('gsc-kpi-clicks');
+                  const iEl = document.getElementById('gsc-kpi-impressions');
+                  const ctrEl = document.getElementById('gsc-kpi-ctr');
+                  const posEl = document.getElementById('gsc-kpi-pos');
+                  const listEl = document.getElementById('gsc-inspection-list');
+                  if (pillEl) pillEl.textContent = gsc.connectionStatus + ' · ' + (gsc.lastSyncedAtIso || '');
+                  if (cEl) cEl.textContent = String(s.clicks || 0);
+                  if (iEl) iEl.textContent = String(s.impressions || 0);
+                  if (ctrEl) ctrEl.textContent = String(s.ctrPercent || 0) + '%';
+                  if (posEl) posEl.textContent = s.averagePosition > 0 ? '#' + String(s.averagePosition) : 'Indexing (Day 3)';
+                  if (listEl && Array.isArray(gsc.urlInspectionResults)) {
+                    listEl.innerHTML = gsc.urlInspectionResults.map(function(r) {
+                      return '<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;padding:8px 12px;background:rgba(255,255,255,0.03);border-left:3px solid #4ADE80;">' +
+                        '<span style="color:#C5A059;font-weight:700;">' + r.url + '</span>' +
+                        '<span style="color:rgba(255,255,255,0.85);">' + (r.verdict || 'SUBMITTED') + ' · ' + (r.coverageState || '') + '</span>' +
+                      '</div>';
+                    }).join('');
+                  }
                 }
               }
             } catch (_) {}
