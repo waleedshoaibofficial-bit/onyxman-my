@@ -57,7 +57,7 @@ async function getGoogleAccessToken(serviceAccount) {
   const header = { alg: 'RS256', typ: 'JWT' };
   const claimSet = {
     iss: serviceAccount.client_email,
-    scope: 'https://www.googleapis.com/auth/webmasters.readonly',
+    scope: 'https://www.googleapis.com/auth/webmasters https://www.googleapis.com/auth/siteverification',
     aud: 'https://oauth2.googleapis.com/token',
     iat: nowSec,
     exp: nowSec + 3600,
@@ -86,6 +86,55 @@ async function getGoogleAccessToken(serviceAccount) {
   }
   const data = await res.json();
   return data.access_token;
+}
+
+async function ensureSiteVerifiedAndSitemapsSubmitted(accessToken, serviceAccountEmail) {
+  // 1. Self-verify https://www.onyxmen.my/ via Site Verification API (META method)
+  try {
+    await fetch('https://www.googleapis.com/siteVerification/v1/webResource?verificationMethod=META', {
+      method: 'POST',
+      signal: AbortSignal.timeout(10000),
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        site: { type: 'SITE', identifier: SITE_URL_PREFIX },
+        owners: ['waleedshoaibofficial@gmail.com', serviceAccountEmail],
+      }),
+    });
+  } catch {}
+
+  // 2. Register https://www.onyxmen.my/ in Search Console for the Service Account
+  const encodedSite = encodeURIComponent(SITE_URL_PREFIX);
+  try {
+    await fetch(`https://searchconsole.googleapis.com/webmasters/v3/sites/${encodedSite}`, {
+      method: 'PUT',
+      signal: AbortSignal.timeout(10000),
+      headers: { Authorization: `Bearer ${accessToken}` },
+    });
+  } catch {}
+
+  // 3. Submit all 5 XML sitemaps to Google Search Console API
+  const sitemaps = [
+    'https://www.onyxmen.my/sitemap.xml',
+    'https://www.onyxmen.my/sitemap-index.xml',
+    'https://www.onyxmen.my/sitemap-en.xml',
+    'https://www.onyxmen.my/sitemap-ms.xml',
+    'https://www.onyxmen.my/sitemap-images.xml',
+  ];
+  for (const sm of sitemaps) {
+    try {
+      await fetch(
+        `https://searchconsole.googleapis.com/webmasters/v3/sites/${encodedSite}/sitemaps/${encodeURIComponent(sm)}`,
+        {
+          method: 'PUT',
+          signal: AbortSignal.timeout(10000),
+          headers: { Authorization: `Bearer ${accessToken}` },
+        }
+      );
+    } catch {}
+  }
 }
 
 async function detectActiveProperty(accessToken) {
@@ -210,6 +259,7 @@ async function main() {
   try {
     const serviceAccount = JSON.parse(rawSecret);
     const accessToken = await getGoogleAccessToken(serviceAccount);
+    await ensureSiteVerifiedAndSitemapsSubmitted(accessToken, serviceAccount.client_email);
     const activeSiteUrl = await detectActiveProperty(accessToken);
 
     const endDate = formatDateDaysAgo(0);

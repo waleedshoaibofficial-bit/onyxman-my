@@ -2435,6 +2435,7 @@ export function renderLuxuryShell(options = {}) {
     <meta name="geo.region" content="MY" />
     <meta name="geo.placename" content="Kuala Lumpur, Malaysia" />
     <meta name="google-site-verification" content="3D9YmY9SMd5RVAdrfKySd2Z5ZsxJOEHtLbQUTNWOKgA" />
+    <meta name="google-site-verification" content="aFREgZ12LtzlwdxpdQR6PWBPQozTdPjcTLmRK8M3yRQ" />
 
     <!-- Security & Referrer Policy Meta -->
     <meta http-equiv="X-Content-Type-Options" content="nosniff" />
