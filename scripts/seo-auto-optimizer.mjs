@@ -17,6 +17,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { optimizePageContentUniqueness } from './content-deduplicator.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -172,6 +173,12 @@ function main() {
           /<h1 class="editorial-headline">[\s\S]*?<\/h1>/i,
           `<h1 class="editorial-headline">\n            ${vaultOverride.h1}\n          </h1>`
         );
+      htmlModified = true;
+    }
+
+    const deduplicatedHtml = optimizePageContentUniqueness(html, routePath);
+    if (deduplicatedHtml !== html) {
+      html = deduplicatedHtml;
       htmlModified = true;
     }
 
