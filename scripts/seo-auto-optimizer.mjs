@@ -263,7 +263,147 @@ function main() {
     },
   };
 
+  const merchantItemsEn = [
+    {
+      id: 'ONYX-HM-20',
+      title: 'Horsemen — Standardized Tongkat Ali & Black Maca Vitality Reserve (20 Capsules x 500mg)',
+      description: 'Official Horsemen Malaysia botanical dietary supplement (20 Capsules x 500mg) with Malaysian Eurycoma longifolia 100:1, Peruvian Black Maca & Panax Ginseng. RM 159 official price with discreet plain-box COD/FPX across Malaysia.',
+      link: `${DOMAIN_ORIGIN}/horsemen-malaysia/`,
+      image: `${DOMAIN_ORIGIN}/assets/sovereign/web_set_06_pdp_zoom_horsemen_macro_1793437602197.webp`,
+      price: '159.00 MYR',
+      mpn: 'ONYX-HM-20-MY',
+    },
+    {
+      id: 'ONYX-HT-20',
+      title: 'Hammer of Thor — Men’s Health Tribulus Terrestris Stamina Complex (20 Veg. Capsules)',
+      description: 'Official Hammer of Thor Malaysia botanical stamina supplement (20 Veg. Capsules) standardized for 60% steroidal saponins, Maca Root & L-Arginine. RM 159 official price with discreet plain-box COD/FPX across Malaysia.',
+      link: `${DOMAIN_ORIGIN}/hammer-of-thor-malaysia/`,
+      image: `${DOMAIN_ORIGIN}/assets/sovereign/web_set_07_pdp_zoom_hammer_of_thor_macro_1793437629467.webp`,
+      price: '159.00 MYR',
+      mpn: 'ONYX-HT-20-MY',
+    },
+    {
+      id: 'ONYX-MP-30',
+      title: 'Magnum Pump XR — Testosterone Pro Series Nitric Oxide Complex (30 Black Capsules)',
+      description: 'Official Magnum Pump XR Malaysia extended-release L-Arginine HCl, L-Citrulline Malate & Tongkat Ali supplement (30 Black Capsules). RM 159 official price with discreet plain-box COD/FPX across Malaysia.',
+      link: `${DOMAIN_ORIGIN}/magnum-pump-xr-malaysia/`,
+      image: `${DOMAIN_ORIGIN}/assets/sovereign/web_set_08_pdp_zoom_magnum_pump_xr_macro_1793437665292.webp`,
+      price: '159.00 MYR',
+      mpn: 'ONYX-MP-30-MY',
+    },
+    {
+      id: 'ONYX-GX-30',
+      title: 'Grow XL — #1 Selling Extra-Strength 30-Day Botanical Vitality Blend (30 Capsules)',
+      description: 'Official Grow XL Malaysia 30-day botanical vitality formula (30 Capsules) with Extra-Strength Tongkat Ali, Peruvian Maca & Muira Puama. RM 159 official price with discreet plain-box COD/FPX across Malaysia.',
+      link: `${DOMAIN_ORIGIN}/grow-xl-malaysia/`,
+      image: `${DOMAIN_ORIGIN}/assets/sovereign/web_set_09_pdp_zoom_grow_xl_macro_1793437711484.webp`,
+      price: '159.00 MYR',
+      mpn: 'ONYX-GX-30-MY',
+    },
+  ];
+
+  const merchantItemsMs = [
+    {
+      id: 'ONYX-HM-20-MS',
+      title: 'Horsemen Malaysia — Ekstrak Tongkat Ali & Maca Hitam Piawai (20 Kapsul x 500mg)',
+      description: 'Suplemen botani rasmi Horsemen Malaysia (20 Kapsul x 500mg) dengan Tongkat Ali 100:1, Maca Hitam Peru & Panax Ginseng. Harga rasmi RM 159 dengan penghantaran bungkusan rahsia COD/FPX seluruh Malaysia.',
+      link: `${DOMAIN_ORIGIN}/ms/horsemen-malaysia/`,
+      image: `${DOMAIN_ORIGIN}/assets/sovereign/web_set_06_pdp_zoom_horsemen_macro_1793437602197.webp`,
+      price: '159.00 MYR',
+      mpn: 'ONYX-HM-20-MY',
+    },
+    {
+      id: 'ONYX-HT-20-MS',
+      title: 'Hammer of Thor Malaysia — Kompleks Stamina Tribulus Terrestris (20 Kapsul Veg.)',
+      description: 'Suplemen stamina botani rasmi Hammer of Thor Malaysia (20 Kapsul Veg.) dengan Tribulus Terrestris, Akar Maca & L-Arginine. Harga rasmi RM 159 dengan bungkusan rahsia COD/FPX seluruh Malaysia.',
+      link: `${DOMAIN_ORIGIN}/ms/hammer-of-thor-malaysia/`,
+      image: `${DOMAIN_ORIGIN}/assets/sovereign/web_set_07_pdp_zoom_hammer_of_thor_macro_1793437629467.webp`,
+      price: '159.00 MYR',
+      mpn: 'ONYX-HT-20-MY',
+    },
+    {
+      id: 'ONYX-MP-30-MS',
+      title: 'Magnum Pump XR Malaysia — Siri Pro Kompleks Nitrik Oksida (30 Kapsul Hitam)',
+      description: 'Suplemen rasmi Magnum Pump XR Malaysia (30 Kapsul Hitam) dengan L-Arginine HCl, L-Citrulline Malate & Tongkat Ali. Harga rasmi RM 159 dengan bungkusan rahsia COD/FPX seluruh Malaysia.',
+      link: `${DOMAIN_ORIGIN}/ms/magnum-pump-xr-malaysia/`,
+      image: `${DOMAIN_ORIGIN}/assets/sovereign/web_set_08_pdp_zoom_magnum_pump_xr_macro_1793437665292.webp`,
+      price: '159.00 MYR',
+      mpn: 'ONYX-MP-30-MY',
+    },
+    {
+      id: 'ONYX-GX-30-MS',
+      title: 'Grow XL Malaysia — Formulasi Kecergasan Botani Harian 30 Hari (30 Kapsul)',
+      description: 'Suplemen botani rasmi Grow XL Malaysia (30 Kapsul) dengan Tongkat Ali Ekstra Kuat, Maca Peru & Muira Puama. Harga rasmi RM 159 dengan bungkusan rahsia COD/FPX seluruh Malaysia.',
+      link: `${DOMAIN_ORIGIN}/ms/grow-xl-malaysia/`,
+      image: `${DOMAIN_ORIGIN}/assets/sovereign/web_set_09_pdp_zoom_grow_xl_macro_1793437711484.webp`,
+      price: '159.00 MYR',
+      mpn: 'ONYX-GX-30-MY',
+    },
+  ];
+
+  const buildMerchantXml = (items, feedTitle, feedDesc) => `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+  <channel>
+    <title>${feedTitle}</title>
+    <link>${DOMAIN_ORIGIN}</link>
+    <description>${feedDesc}</description>
+${items
+  .map(
+    (it) => `    <item>
+      <g:id>${it.id}</g:id>
+      <g:title>${it.title}</g:title>
+      <g:description>${it.description}</g:description>
+      <g:link>${it.link}</g:link>
+      <g:image_link>${it.image}</g:image_link>
+      <g:condition>new</g:condition>
+      <g:availability>in_stock</g:availability>
+      <g:price>${it.price}</g:price>
+      <g:brand>ONYXMEN Malaysia</g:brand>
+      <g:mpn>${it.mpn}</g:mpn>
+      <g:identifier_exists>yes</g:identifier_exists>
+      <g:google_product_category>Health &amp; Beauty &gt; Health Care &gt; Fitness &amp; Nutrition &gt; Vitamins &amp; Supplements</g:google_product_category>
+      <g:shipping>
+        <g:country>MY</g:country>
+        <g:service>Discreet Plain-Box Express Courier &amp; COD</g:service>
+        <g:price>0.00 MYR</g:price>
+      </g:shipping>
+    </item>`
+  )
+  .join('\n')}
+  </channel>
+</rss>
+`;
+
+  const merchantXmlEn = buildMerchantXml(
+    merchantItemsEn,
+    'ONYXMEN Malaysia — Official Botanical Vitality Product Feed (EN-MY)',
+    'Official Google Merchant Center Free Listings XML product feed for ONYXMEN Malaysia (RM 159.00 MYR).'
+  );
+  const merchantXmlMs = buildMerchantXml(
+    merchantItemsMs,
+    'ONYXMEN Malaysia — Katalog Suplemen Botani Rasmi (MS-MY)',
+    'Suapan produk XML rasmi Google Merchant Center untuk ONYXMEN Malaysia (RM 159.00 MYR).'
+  );
+
+  fs.writeFileSync(path.join(PUBLIC_DIR, 'google-merchant-feed.xml'), merchantXmlEn, 'utf8');
+  fs.writeFileSync(path.join(PUBLIC_DIR, 'google-merchant-feed-ms.xml'), merchantXmlMs, 'utf8');
+  if (fs.existsSync(DIST_DIR)) {
+    fs.writeFileSync(path.join(DIST_DIR, 'google-merchant-feed.xml'), merchantXmlEn, 'utf8');
+    fs.writeFileSync(path.join(DIST_DIR, 'google-merchant-feed-ms.xml'), merchantXmlMs, 'utf8');
+  }
+
+  // Preserve existing googleSearchConsoleLiveTelemetry if already present in seo-health-status.json
   const outPath = path.join(PUBLIC_DIR, 'seo-health-status.json');
+  if (fs.existsSync(outPath)) {
+    try {
+      const prev = JSON.parse(fs.readFileSync(outPath, 'utf8'));
+      if (prev && prev.googleSearchConsoleLiveTelemetry) {
+        statusPayload.googleSearchConsoleLiveTelemetry = prev.googleSearchConsoleLiveTelemetry;
+      }
+    } catch {
+      // Ignore parse errors
+    }
+  }
   fs.writeFileSync(outPath, JSON.stringify(statusPayload, null, 2), 'utf8');
   if (fs.existsSync(DIST_DIR)) {
     fs.writeFileSync(path.join(DIST_DIR, 'seo-health-status.json'), JSON.stringify(statusPayload, null, 2), 'utf8');

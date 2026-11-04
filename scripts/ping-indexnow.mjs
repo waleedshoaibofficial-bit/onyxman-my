@@ -218,11 +218,29 @@ function collectAndVerifyCanonicalUrls() {
     }
   }
 
-  // Sort URLs deterministically: priority URLs first, then alphabetical
-  const prioritySet = new Set(CORE_PRIORITY_URLS);
+  // Prioritize any URL that Google Search Console API reports as not yet indexed (verdict !== 'PASS')
+  const unindexedGscUrls = [];
+  const statusJsonPath = path.join(PUBLIC_DIR, 'seo-health-status.json');
+  if (fs.existsSync(statusJsonPath)) {
+    try {
+      const statusJson = JSON.parse(fs.readFileSync(statusJsonPath, 'utf8'));
+      const inspected = statusJson?.googleSearchConsoleLiveTelemetry?.urlInspectionResults || [];
+      for (const item of inspected) {
+        if (item && item.url && item.verdict !== 'PASS' && urlSet.has(item.url)) {
+          unindexedGscUrls.push(item.url);
+        }
+      }
+    } catch {
+      // Ignore JSON parse fallback
+    }
+  }
+
+  // Sort URLs deterministically: unindexed GSC URLs first, then priority URLs, then alphabetical
+  const topPriorityList = [...new Set([...unindexedGscUrls, ...CORE_PRIORITY_URLS])];
+  const prioritySet = new Set(topPriorityList);
   const remainingUrls = [...urlSet].filter((u) => !prioritySet.has(u)).sort();
   const orderedUrls = [
-    ...CORE_PRIORITY_URLS.filter((u) => urlSet.has(u)),
+    ...topPriorityList.filter((u) => urlSet.has(u)),
     ...remainingUrls,
   ];
 

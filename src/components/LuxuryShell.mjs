@@ -1928,6 +1928,39 @@ export function renderVisualFirstStorefront(options = {}) {
   </details>
 
   <!-- ==========================================================================
+       OPEN-DOM CRAWL-BRIDGE PRIORITY INTERNAL LINK HUB (MS-230)
+       Passes direct open-DOM PageRank from already-indexed pages (/, /ms/, /products/hammer-of-thor/, /guides/...)
+       to all 8 bilingual flagship hubs, 4 product vaults, and top Malaysia state delivery hubs.
+       ========================================================================== -->
+  <nav class="minimal-crawl-bridge" aria-label="${isMs ? 'Rangkaian Pautan Rasmi ONYXMEN Malaysia' : 'ONYXMEN Malaysia Direct Commercial & State Dispatch Hubs'}" style="max-width:1380px;margin:0 auto;padding:28px 32px 12px;border-top:1px solid #E8E8E8;font-size:0.72rem;line-height:1.9;color:#52565A;display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:center;">
+    <strong style="color:#0F1113;letter-spacing:0.12em;text-transform:uppercase;">${isMs ? 'HAB RASMI MALAYSIA (RM 159):' : 'OFFICIAL MALAYSIA HUBS (RM 159):'}</strong>
+    <a href="/horsemen-malaysia/" style="color:#0F1113;text-decoration:none;font-weight:600;">Horsemen Malaysia (20 Caps · RM 159)</a>
+    <a href="/hammer-of-thor-malaysia/" style="color:#0F1113;text-decoration:none;font-weight:600;">Hammer of Thor Malaysia (20 Veg. Caps · RM 159)</a>
+    <a href="/grow-xl-malaysia/" style="color:#0F1113;text-decoration:none;font-weight:600;">Grow XL Malaysia (30 Caps · RM 159)</a>
+    <a href="/magnum-pump-xr-malaysia/" style="color:#0F1113;text-decoration:none;font-weight:600;">Magnum Pump XR Malaysia (30 Black Caps · RM 159)</a>
+    <a href="/products/horsemen/" style="color:#52565A;text-decoration:none;">Horsemen Vault</a>
+    <a href="/products/hammer-of-thor/" style="color:#52565A;text-decoration:none;">Hammer of Thor Vault</a>
+    <a href="/products/grow-xl/" style="color:#52565A;text-decoration:none;">Grow XL Vault</a>
+    <a href="/products/magnum-pump-xr/" style="color:#52565A;text-decoration:none;">Magnum Pump XR Vault</a>
+    <a href="/ms/horsemen-malaysia/" style="color:#0F1113;text-decoration:none;font-weight:600;">Horsemen Malaysia (BM)</a>
+    <a href="/ms/hammer-of-thor-malaysia/" style="color:#0F1113;text-decoration:none;font-weight:600;">Hammer of Thor Malaysia (BM)</a>
+    <a href="/ms/grow-xl-malaysia/" style="color:#0F1113;text-decoration:none;font-weight:600;">Grow XL Malaysia (BM)</a>
+    <a href="/ms/magnum-pump-xr-malaysia/" style="color:#0F1113;text-decoration:none;font-weight:600;">Magnum Pump XR Malaysia (BM)</a>
+    <a href="/ms/produk/horsemen/" style="color:#52565A;text-decoration:none;">Produk Horsemen</a>
+    <a href="/ms/produk/hammer-of-thor/" style="color:#52565A;text-decoration:none;">Produk Hammer of Thor</a>
+    <a href="/ms/produk/grow-xl/" style="color:#52565A;text-decoration:none;">Produk Grow XL</a>
+    <a href="/ms/produk/magnum-pump-xr/" style="color:#52565A;text-decoration:none;">Produk Magnum Pump XR</a>
+    <a href="/compare/" style="color:#52565A;text-decoration:none;">4-Bottle Comparison Matrix</a>
+    <a href="/guides/20-capsule-vs-30-capsule-cycle-selection/" style="color:#52565A;text-decoration:none;">20 vs 30 Capsule Cycle Guide</a>
+    <a href="/malaysia-delivery/kuala-lumpur/" style="color:#52565A;text-decoration:none;">COD Kuala Lumpur</a>
+    <a href="/malaysia-delivery/selangor/" style="color:#52565A;text-decoration:none;">COD Selangor</a>
+    <a href="/malaysia-delivery/johor-bahru/" style="color:#52565A;text-decoration:none;">COD Johor Bahru</a>
+    <a href="/malaysia-delivery/penang/" style="color:#52565A;text-decoration:none;">COD Penang</a>
+    <a href="/malaysia-delivery/sabah-kota-kinabalu/" style="color:#52565A;text-decoration:none;">Express Sabah</a>
+    <a href="/malaysia-delivery/sarawak-kuching/" style="color:#52565A;text-decoration:none;">Express Sarawak</a>
+  </nav>
+
+  <!-- ==========================================================================
        ONYXMEN LUXURY FOOTER
        ========================================================================== -->
   <footer class="minimal-footer" id="footer-contact">
@@ -2308,17 +2341,25 @@ export function renderLuxuryShell(options = {}) {
   const msFullUrl = toAbsoluteOnyxUrl(msHref);
   const xDefaultFullUrl = enFullUrl;
 
-  const title =
+  const rawTitle =
     options.title ||
     (isMs
       ? 'ONYXMEN Malaysia — Koleksi Viriliti & Prestasi Botani Eksklusif (RM 159)'
       : 'ONYXMEN Malaysia — Luxury Botanical Virility & Performance Collection (RM 159)');
 
-  const description =
+  const title = rawTitle.includes('RM 159')
+    ? rawTitle
+    : `${rawTitle} · RM 159 Official Malaysia`;
+
+  const rawDescription =
     options.description ||
     (isMs
       ? 'Formulasi botani tulen lelaki dewasa di Malaysia: Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR. Harga rasmi RM 159 sebotol dengan penghantaran bungkusan rahsia tanpa nama ke seluruh 16 negeri Malaysia.'
       : 'Authentic standardized botanical vitality formulations for adult men in Malaysia: Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR. Official RM 159 reserve with 100% plain unmarked parcel delivery across all 16 Malaysia states.');
+
+  const description = rawDescription.includes('RM 159')
+    ? rawDescription
+    : `${rawDescription} ✓ Official RM 159 Malaysia · ✓ 100% Authentic Hologram · ✓ Discreet Plain-Box COD & FPX.`;
 
   const ogImageRel = options.ogImage || '/assets/sovereign/web_set_02_catalog_zoom_pure_white_cyclorama_1793437707044.webp';
   const ogImageUrl = toAbsoluteOnyxUrl(ogImageRel);
@@ -2446,6 +2487,8 @@ export function renderLuxuryShell(options = {}) {
     <link rel="alternate" hreflang="en-MY" href="${escapeHtmlAttr(enFullUrl)}" />
     <link rel="alternate" hreflang="ms-MY" href="${escapeHtmlAttr(msFullUrl)}" />
     <link rel="alternate" hreflang="x-default" href="${escapeHtmlAttr(xDefaultFullUrl)}" />
+    <link rel="alternate" type="application/rss+xml" title="ONYXMEN Malaysia Official Product Catalog Feed (EN-MY)" href="https://www.onyxmen.my/google-merchant-feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="ONYXMEN Malaysia Katalog Produk Rasmi (MS-MY)" href="https://www.onyxmen.my/google-merchant-feed-ms.xml" />
 
     <!-- OpenGraph & Malaysian E-Commerce Product Meta -->
     <meta property="og:type" content="product" />
