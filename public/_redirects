@@ -1,13 +1,13 @@
 # ============================================================================
-# ONYXMAN.MY — CLOUDFLARE PAGES CANONICAL & LEGACY SLUG REDIRECTS (MS-009)
+# ONYXMEN.MY — CLOUDFLARE PAGES CANONICAL & LEGACY SLUG REDIRECTS (MS-009)
 # ============================================================================
 
 # Legacy & Shorthand Product Slug Redirects (301 Permanent)
 /horsemen                  /products/horsemen/                   301
 /horsemen/                 /products/horsemen/                   301
-/Sensitivity-of-thor            /products/Sensitivity-of-thor/             301
-/Sensitivity-of-thor/           /products/Sensitivity-of-thor/             301
-/hammerofthor              /products/Sensitivity-of-thor/             301
+/hammer-of-thor            /products/hammer-of-thor/             301
+/hammer-of-thor/           /products/hammer-of-thor/             301
+/hammerofthor              /products/hammer-of-thor/             301
 /grow-xl                   /products/grow-xl/                    301
 /grow-xl/                  /products/grow-xl/                    301
 /growxl                    /products/grow-xl/                    301
@@ -17,7 +17,7 @@
 
 # Bahasa Malaysia Shorthand Product Redirects
 /ms/horsemen               /ms/produk/horsemen/                  301
-/ms/Sensitivity-of-thor         /ms/produk/Sensitivity-of-thor/            301
+/ms/hammer-of-thor         /ms/produk/hammer-of-thor/            301
 /ms/grow-xl                /ms/produk/grow-xl/                   301
 /ms/magnum-pump-xr         /ms/produk/magnum-pump-xr/            301
 
@@ -28,12 +28,12 @@
 /bm/                       /ms/                                  301
 /my                        /                                     301
 /my/                       /                                     301
-/kl                        /malaysia-delivery/kuala-lumpur/      301
-/selangor                  /malaysia-delivery/selangor/          301
-/penang                    /malaysia-delivery/penang/            301
-/jb                        /malaysia-delivery/johor-bahru/       301
-/sabah                     /malaysia-delivery/sabah-kota-kinabalu/ 301
-/sarawak                   /malaysia-delivery/sarawak-kuching/   301
+/kl                        /malaysia/kuala-lumpur/               301
+/selangor                  /malaysia/selangor/                   301
+/penang                    /malaysia/penang/                     301
+/jb                        /malaysia/johor-bahru/                301
+/sabah                     /malaysia/sabah/                      301
+/sarawak                   /malaysia/sarawak/                    301
 
 # IndexNow Key Verification Alias
 /onyxman2026myindexnowkey8899aabb.txt  /indexnow-key.txt         200

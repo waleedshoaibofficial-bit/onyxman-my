@@ -1,6 +1,6 @@
 # ============================================================================
-# ONYXMAN.MY — CLOUDFLARE PAGES SECURITY & SUB-SECOND CACHE HEADERS (MS-008)
-# Target Domain: https://onyxman.my
+# ONYXMEN.MY — CLOUDFLARE PAGES SECURITY & SUB-SECOND CACHE HEADERS (MS-008)
+# Target Domain: https://www.onyxmen.my
 # Performance Budget: LCP < 0.8s | CLS = 0.00
 # ============================================================================
 
@@ -11,7 +11,7 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
   Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
-  Content-Security-Policy: default-src 'self' https://onyxman.my; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https://onyxman.my data: blob:; connect-src 'self' https://formsubmit.co https://api.web3forms.com https://api.indexnow.org; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://formsubmit.co https://api.web3forms.com https://wa.me
+  Content-Security-Policy: default-src 'self' https://www.onyxmen.my https://onyxmen.my; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https://www.onyxmen.my https://onyxmen.my data: blob:; connect-src 'self' https://formsubmit.co https://api.web3forms.com https://api.indexnow.org; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://formsubmit.co https://api.web3forms.com https://wa.me
   X-Robots-Tag: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
 
 /*.html

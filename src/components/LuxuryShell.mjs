@@ -186,6 +186,24 @@ export const CRITICAL_INLINE_CSS = `
   --font-serif: 'Cormorant Garamond', Georgia, serif;
   --font-sans: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
   --ease-luxury: cubic-bezier(0.19, 1, 0.22, 1);
+  /* Complete Heritage & Monograph Token Bridge (Zero Undefined Variables) */
+  --gutter-cinema: clamp(1.5rem, 4vw, 4rem);
+  --gutter-vertical: clamp(2.5rem, 5vh, 4.5rem);
+  --hairline-rule: rgba(212, 175, 55, 0.24);
+  --hairline-subtle: rgba(234, 230, 223, 0.14);
+  --font-technical: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+  --text-muted-alabaster: #C6C1B7;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --gold-champagne: #D4AF37;
+  --text-silk-ivory: #F4F1EA;
+  --text-ash-silver: #9E9A91;
+  --gold-foil-bright: #E8CA7D;
+  --font-architectural: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+  --ease-cinema: cubic-bezier(0.19, 1, 0.22, 1);
+  --bg-abyssal-obsidian: #050507;
+  --bg-smoked-onyx: #0B0C10;
+  --bg-velvet-charcoal: #12141C;
+  --emerald-vitality: #2E8B57;
 }
 
 *, *::before, *::after {
@@ -1343,6 +1361,88 @@ img {
   margin: 0 auto;
   padding: 24px 5vw 48px;
   color: var(--ink-black);
+  overflow-x: hidden;
+}
+
+.onyxman-seo-vault-drawer__body > section {
+  max-width: 100% !important;
+  width: 100% !important;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 28px;
+}
+
+.onyxman-seo-vault-drawer__body .home-hero-cinema,
+.onyxman-seo-vault-drawer__body .hm-cinema-hero,
+.onyxman-seo-vault-drawer__body .ht-cinema-hero,
+.onyxman-seo-vault-drawer__body .gx-cinema-hero,
+.onyxman-seo-vault-drawer__body .mp-cinema-hero,
+.onyxman-seo-vault-drawer__body .state-cinema-hero,
+.onyxman-seo-vault-drawer__body .cmp-cinema-hero,
+.onyxman-seo-vault-drawer__body .botanical-cinema-hero,
+.onyxman-seo-vault-drawer__body .guide-cinema-hero,
+.onyxman-seo-vault-drawer__body .trust-cinema-hero,
+.onyxman-seo-vault-drawer__body [class*="--onyx"],
+.onyxman-seo-vault-drawer__body [class*="--charcoal"] {
+  color: var(--text-silk-ivory);
+  min-height: auto !important;
+}
+
+.onyxman-seo-vault-drawer__body .vault-clinical-monograph,
+.onyxman-seo-vault-drawer__body .state-corridor-dossier,
+.onyxman-seo-vault-drawer__body .pair-clinical-deep-dive,
+.onyxman-seo-vault-drawer__body .seo-architecture-documentation {
+  background: #FFFFFF;
+  color: var(--ink-black);
+  padding: clamp(28px, 4vw, 48px);
+  border: 1px solid var(--hairline-grey);
+  line-height: 1.75;
+}
+
+.onyxman-seo-vault-drawer__body .vault-clinical-monograph h2,
+.onyxman-seo-vault-drawer__body .state-corridor-dossier h2,
+.onyxman-seo-vault-drawer__body .pair-clinical-deep-dive h2,
+.onyxman-seo-vault-drawer__body .seo-architecture-documentation h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.65rem, 2.6vw, 2.35rem);
+  font-weight: 500;
+  color: var(--ink-black);
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.onyxman-seo-vault-drawer__body .vault-clinical-monograph h3,
+.onyxman-seo-vault-drawer__body .state-corridor-dossier h3,
+.onyxman-seo-vault-drawer__body .pair-clinical-deep-dive h3,
+.onyxman-seo-vault-drawer__body .seo-architecture-documentation h3 {
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-black);
+  margin: 24px 0 10px;
+}
+
+.onyxman-seo-vault-drawer__body .vault-clinical-monograph p,
+.onyxman-seo-vault-drawer__body .state-corridor-dossier p,
+.onyxman-seo-vault-drawer__body .pair-clinical-deep-dive p,
+.onyxman-seo-vault-drawer__body .seo-architecture-documentation p,
+.onyxman-seo-vault-drawer__body .vault-clinical-monograph li,
+.onyxman-seo-vault-drawer__body .state-corridor-dossier li,
+.onyxman-seo-vault-drawer__body .pair-clinical-deep-dive li,
+.onyxman-seo-vault-drawer__body .seo-architecture-documentation li {
+  font-size: 0.92rem;
+  color: #2B2E33;
+  margin-bottom: 12px;
+}
+
+.onyxman-seo-vault-drawer__body .vault-clinical-monograph ul,
+.onyxman-seo-vault-drawer__body .state-corridor-dossier ul,
+.onyxman-seo-vault-drawer__body .pair-clinical-deep-dive ul,
+.onyxman-seo-vault-drawer__body .seo-architecture-documentation ul {
+  padding-left: 20px;
+  margin-bottom: 18px;
 }
 
 .minimal-footer {
@@ -1468,7 +1568,6 @@ export function renderVisualFirstStorefront(options = {}) {
   const initialKeyMap = {
     horsemen: 'horsemen',
     'hammer-of-thor': 'hammer',
-    'Sensitivity-of-thor': 'hammer',
     'magnum-pump-xr': 'magnum',
     'grow-xl': 'growxl',
   };
@@ -1865,25 +1964,25 @@ export function renderVisualFirstStorefront(options = {}) {
 
       <div class="iphone-2x2-grid">
         <div class="iphone-product-item">
-          <img src="/assets/sovereign/web_set_06_pdp_zoom_horsemen_macro_1793437602197.webp" alt="HORSEMEN" class="iphone-bottle-thumb hd-optical-photo" />
+          <img src="/assets/sovereign/web_set_06_pdp_zoom_horsemen_macro_1793437602197.webp" alt="HORSEMEN" class="iphone-bottle-thumb hd-optical-photo" width="140" height="148" loading="lazy" decoding="async" />
           <div class="iphone-bottle-title">HORSEMEN</div>
           <button type="button" class="iphone-gold-cta" data-quick-add="horsemen">ADD TO<br/>VIP CART</button>
         </div>
 
         <div class="iphone-product-item">
-          <img src="/assets/sovereign/web_set_07_pdp_zoom_hammer_of_thor_macro_1793437629467.webp" alt="HAMMER OF THOR" class="iphone-bottle-thumb hd-optical-photo" />
+          <img src="/assets/sovereign/web_set_07_pdp_zoom_hammer_of_thor_macro_1793437629467.webp" alt="HAMMER OF THOR" class="iphone-bottle-thumb hd-optical-photo" width="140" height="148" loading="lazy" decoding="async" />
           <div class="iphone-bottle-title">HAMMER OF<br/>THOR</div>
           <button type="button" class="iphone-gold-cta" data-quick-add="hammer">ADD TO<br/>VIP CART</button>
         </div>
 
         <div class="iphone-product-item">
-          <img src="/assets/sovereign/web_set_08_pdp_zoom_magnum_pump_xr_macro_1793437665292.webp" alt="MAGNUM PUMP XR" class="iphone-bottle-thumb hd-optical-photo" />
+          <img src="/assets/sovereign/web_set_08_pdp_zoom_magnum_pump_xr_macro_1793437665292.webp" alt="MAGNUM PUMP XR" class="iphone-bottle-thumb hd-optical-photo" width="140" height="148" loading="lazy" decoding="async" />
           <div class="iphone-bottle-title">MAGNUM PUMP XR</div>
           <button type="button" class="iphone-gold-cta" data-quick-add="magnum">ADD TO<br/>VIP CART</button>
         </div>
 
         <div class="iphone-product-item">
-          <img src="/assets/sovereign/web_set_09_pdp_zoom_grow_xl_macro_1793437711484.webp" alt="GROW XL" class="iphone-bottle-thumb hd-optical-photo" />
+          <img src="/assets/sovereign/web_set_09_pdp_zoom_grow_xl_macro_1793437711484.webp" alt="GROW XL" class="iphone-bottle-thumb hd-optical-photo" width="140" height="148" loading="lazy" decoding="async" />
           <div class="iphone-bottle-title">GROW XL</div>
           <button type="button" class="iphone-gold-cta" data-quick-add="growxl">ADD TO<br/>VIP CART</button>
         </div>
@@ -1906,6 +2005,10 @@ export function renderVisualFirstStorefront(options = {}) {
       src="/assets/sovereign/web_set_18_vip_unboxing_giftbox_zoom_jpg_1793437905926.webp"
       alt="ONYXMEN Discreet VIP Presentation Coffer"
       class="drawer-hero-thumb hd-optical-photo"
+      width="460"
+      height="140"
+      loading="lazy"
+      decoding="async"
     />
 
     <div class="drawer-items-list">
@@ -1982,12 +2085,12 @@ export function renderVisualFirstStorefront(options = {}) {
     <a href="/ms/produk/magnum-pump-xr/" style="color:#52565A;text-decoration:none;">Produk Magnum Pump XR</a>
     <a href="/compare/" style="color:#52565A;text-decoration:none;">4-Bottle Comparison Matrix</a>
     <a href="/guides/20-capsule-vs-30-capsule-cycle-selection/" style="color:#52565A;text-decoration:none;">20 vs 30 Capsule Cycle Guide</a>
-    <a href="/malaysia-delivery/kuala-lumpur/" style="color:#52565A;text-decoration:none;">COD Kuala Lumpur</a>
-    <a href="/malaysia-delivery/selangor/" style="color:#52565A;text-decoration:none;">COD Selangor</a>
-    <a href="/malaysia-delivery/johor-bahru/" style="color:#52565A;text-decoration:none;">COD Johor Bahru</a>
-    <a href="/malaysia-delivery/penang/" style="color:#52565A;text-decoration:none;">COD Penang</a>
-    <a href="/malaysia-delivery/sabah-kota-kinabalu/" style="color:#52565A;text-decoration:none;">Express Sabah</a>
-    <a href="/malaysia-delivery/sarawak-kuching/" style="color:#52565A;text-decoration:none;">Express Sarawak</a>
+    <a href="/malaysia/kuala-lumpur/" style="color:#52565A;text-decoration:none;">COD Kuala Lumpur</a>
+    <a href="/malaysia/selangor/" style="color:#52565A;text-decoration:none;">COD Selangor</a>
+    <a href="/malaysia/johor-bahru/" style="color:#52565A;text-decoration:none;">COD Johor Bahru</a>
+    <a href="/malaysia/penang/" style="color:#52565A;text-decoration:none;">COD Penang</a>
+    <a href="/malaysia/sabah/" style="color:#52565A;text-decoration:none;">Express Sabah</a>
+    <a href="/malaysia/sarawak/" style="color:#52565A;text-decoration:none;">Express Sarawak</a>
   </nav>
 
   <!-- ==========================================================================
@@ -2222,7 +2325,7 @@ export function renderVisualFirstStorefront(options = {}) {
 
           rows.push(
             '<div class="cart-line-item">' +
-              '<img src="' + prod.img + '" alt="' + prod.name + '" class="cart-line-thumb hd-optical-photo" />' +
+              '<img src="' + prod.img + '" alt="' + prod.name + '" class="cart-line-thumb hd-optical-photo" width="54" height="54" />' +
               '<div class="cart-line-info">' +
                 '<div class="cart-line-name">' + prod.name + '</div>' +
                 '<div class="cart-line-meta">' + prod.sub + '</div>' +
@@ -2479,7 +2582,6 @@ export function renderLuxuryShell(options = {}) {
     products: {
       horsemen: { name: 'Horsemen', capsules: 20, refillDays: 18, price: '159.00' },
       'hammer-of-thor': { name: 'Hammer of Thor', capsules: 20, refillDays: 18, price: '159.00' },
-      'Sensitivity-of-thor': { name: 'Hammer of Thor', capsules: 20, refillDays: 18, price: '159.00' },
       'grow-xl': { name: 'Grow XL', capsules: 30, refillDays: 25, price: '159.00' },
       'magnum-pump-xr': { name: 'Magnum Pump XR', capsules: 30, refillDays: 25, price: '159.00' },
     },

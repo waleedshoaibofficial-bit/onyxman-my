@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ONYXMEN MALAYSIA (https://www.onyxmen.my) — MASTER SITEMAP INDEX (MS-172) -->
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://www.onyxmen.my/sitemap-en.xml</loc>
+    <lastmod>2026-11-05</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.onyxmen.my/sitemap-ms.xml</loc>
+    <lastmod>2026-11-05</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.onyxmen.my/sitemap-images.xml</loc>
+    <lastmod>2026-11-05</lastmod>
+  </sitemap>
+</sitemapindex>

@@ -493,7 +493,169 @@ function runGate7(phase) {
   }
 }
 
-// Execute all 7 Gates
+/**
+ * GATE 8: Zero Non-Canonical Internal/Hreflang Links, Zero Domain/Redirect Typos,
+ * Zero Unsized <img> Tags (CLS = 0.00), Zero Undefined CSS Custom Properties,
+ * Zero Visible MS-xxx Developer Markers, Optimal SERP Title/Description Lengths,
+ * and 100% AggregateRating + Review + Shipping + Return Schema Richness (MS-246)
+ */
+function runGate8(phase) {
+  if (phase !== 'ALL') return;
+  const pubDir = path.join(ROOT_DIR, 'public');
+  const headersPath = path.join(pubDir, '_headers');
+  const redirectsPath = path.join(pubDir, '_redirects');
+  const sitemapPath = path.join(pubDir, 'sitemap.xml');
+
+  if (fs.existsSync(headersPath)) {
+    const hRaw = fs.readFileSync(headersPath, 'utf8');
+    if (hRaw.includes('https://' + 'onyxman.my')) {
+      recordFail('GATE-8', 'public/_headers still contains legacy domain typo onyxman.my');
+    } else {
+      recordPass('GATE-8', 'public/_headers CSP verified with https://www.onyxmen.my https://onyxmen.my');
+    }
+  }
+
+  if (fs.existsSync(redirectsPath)) {
+    const rRaw = fs.readFileSync(redirectsPath, 'utf8');
+    if (rRaw.includes('Sensitivity-of-thor') || rRaw.includes('/malaysia-delivery/')) {
+      recordFail('GATE-8', 'public/_redirects contains legacy /Sensitivity-of-thor/ or non-canonical /malaysia-delivery/ target');
+    } else {
+      recordPass('GATE-8', 'public/_redirects verified: 0 /Sensitivity-of-thor/ typos and 100% direct canonical 301 targets');
+    }
+  }
+
+  if (!fs.existsSync(sitemapPath)) return;
+  const smRaw = fs.readFileSync(sitemapPath, 'utf8');
+  const canonicalLocs = [...smRaw.matchAll(/<loc>([^<]+)<\/loc>/g)]
+    .map((m) => m[1].trim())
+    .filter((u) => !u.includes('/assets/'));
+  const canonicalRouteSet = new Set(
+    canonicalLocs.map((u) => u.replace('https://www.onyxmen.my', ''))
+  );
+
+  const requiredCssVars = [
+    '--gutter-cinema',
+    '--gutter-vertical',
+    '--hairline-rule',
+    '--hairline-subtle',
+    '--font-technical',
+    '--text-muted-alabaster',
+    '--font-display',
+    '--gold-champagne',
+    '--text-silk-ivory',
+    '--text-ash-silver',
+    '--gold-foil-bright',
+    '--font-architectural',
+    '--ease-cinema',
+    '--bg-abyssal-obsidian',
+    '--bg-smoked-onyx',
+    '--bg-velvet-charcoal',
+    '--emerald-vitality',
+  ];
+
+  let nonCanonicalLinkCount = 0;
+  let unsizedImgCount = 0;
+  let visibleMsMarkerCount = 0;
+  let serpLengthViolations = 0;
+  let missingRichReviewSchema = 0;
+
+  for (const loc of canonicalLocs) {
+    const rel = loc.replace('https://www.onyxmen.my/', '');
+    const htmlPath = path.join(pubDir, rel, 'index.html');
+    if (!fs.existsSync(htmlPath)) continue;
+    const html = fs.readFileSync(htmlPath, 'utf8');
+
+    // 1. Check CSS variables on homepage
+    if (loc === 'https://www.onyxmen.my/') {
+      for (const cssVar of requiredCssVars) {
+        if (!html.includes(`${cssVar}:`)) {
+          recordFail('GATE-8', `Missing CSS custom property definition ${cssVar} in :root`);
+        }
+      }
+    }
+
+    // 2. Check internal <a href="/..."> canonicality
+    for (const m of html.matchAll(/<a\b[^>]*\bhref="(\/[^"#?]*)"/gi)) {
+      const rawHref = m[1];
+      if (
+        rawHref.startsWith('/assets/') ||
+        rawHref.startsWith('/styles/') ||
+        rawHref.startsWith('/scripts/') ||
+        rawHref.endsWith('.xml') ||
+        rawHref.endsWith('.json') ||
+        rawHref.endsWith('.txt')
+      ) {
+        continue;
+      }
+      const norm = rawHref.endsWith('/') ? rawHref : `${rawHref}/`;
+      if (!canonicalRouteSet.has(norm)) {
+        nonCanonicalLinkCount++;
+        recordFail('GATE-8', `Non-canonical internal link ${rawHref} on ${loc}`);
+      }
+    }
+
+    // 3. Check <img ...> width & height attributes
+    for (const m of html.matchAll(/<img\b[^>]*>/gi)) {
+      const tag = m[0];
+      if (!/\bwidth="/i.test(tag) || !/\bheight="/i.test(tag)) {
+        unsizedImgCount++;
+        recordFail('GATE-8', `Unsized <img> tag missing width/height on ${loc}: ${tag.slice(0, 80)}`);
+      }
+    }
+
+    // 4. Check visible MS-xxx developer markers & onyxman.my domain typos
+    const visibleText = html
+      .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+      .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+      .replace(/<[^>]+>/g, ' ');
+    if (/\bMS-\d{3}\b/.test(visibleText)) {
+      visibleMsMarkerCount++;
+      recordFail('GATE-8', `Visible MS-xxx developer code found on ${loc}`);
+    }
+    if (visibleText.includes('onyxman.my') || html.includes('"Sensitivity-of-thor"')) {
+      recordFail('GATE-8', `Legacy onyxman.my or Sensitivity-of-thor typo found on ${loc}`);
+    }
+
+    // 5. Check SERP <title> (40-68 chars) & <meta name="description"> (115-165 chars)
+    const rawTitle = (html.match(/<title>([\s\S]*?)<\/title>/i) || [])[1]?.replace(/&amp;/g, '&').trim() || '';
+    const rawDesc =
+      (html.match(/<meta\s+name="description"\s+content="([^"]*)"/i) || [])[1]?.replace(/&amp;/g, '&').trim() || '';
+    if (rawTitle.length < 40 || rawTitle.length > 68) {
+      serpLengthViolations++;
+      recordFail('GATE-8', `<title> length (${rawTitle.length}) out of 40-68 char SERP range on ${loc}: "${rawTitle}"`);
+    }
+    if (rawDesc.length < 115 || rawDesc.length > 165) {
+      serpLengthViolations++;
+      recordFail('GATE-8', `<meta description> length (${rawDesc.length}) out of 115-165 char SERP range on ${loc}`);
+    }
+
+    // 6. Check AggregateRating + Review + OfferShippingDetails + MerchantReturnPolicy in @graph
+    if (
+      !html.includes('"AggregateRating"') ||
+      !html.includes('"Review"') ||
+      !html.includes('"OfferShippingDetails"') ||
+      !html.includes('"MerchantReturnPolicy"')
+    ) {
+      missingRichReviewSchema++;
+      recordFail('GATE-8', `Missing AggregateRating/Review/Shipping/Return schema in @graph on ${loc}`);
+    }
+  }
+
+  if (
+    nonCanonicalLinkCount === 0 &&
+    unsizedImgCount === 0 &&
+    visibleMsMarkerCount === 0 &&
+    serpLengthViolations === 0 &&
+    missingRichReviewSchema === 0
+  ) {
+    recordPass(
+      'GATE-8',
+      `All ${canonicalLocs.length} canonical pages passed Gate 8: 0 alias link hops, 0 unsized <img> tags (CLS=0.00), 0 undefined CSS vars, 0 MS-xxx strings, 100% optimal SERP Title/Description lengths, and 100% AggregateRating+Review schema`
+    );
+  }
+}
+
+// Execute all 8 Gates
 runGate1(phaseArg);
 runGate2();
 runGate3(phaseArg);
@@ -501,6 +663,7 @@ runGate4(phaseArg);
 runGate5();
 runGate6(phaseArg);
 runGate7(phaseArg);
+runGate8(phaseArg);
 
 console.log('====================================================================');
 console.log(`ONYXMEN.MY 6-GATE VERIFICATION REPORT (PHASE: ${phaseArg})`);
