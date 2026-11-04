@@ -706,13 +706,17 @@ function deduplicateVaultDrawerBody(bodyHtml, routePath) {
  * @returns {string}
  */
 export function optimizePageContentUniqueness(html, routePath) {
+  if (html.includes('data-content-dedup="v1"')) {
+    return html;
+  }
+
   let updated = compactSubpageStorefront(html, routePath);
 
   updated = updated.replace(
-    /(<div class="onyxman-seo-vault-drawer__body">)([\s\S]*?)(<\/div>\s*<\/details>\s*<!-- ={10,})/i,
-    (fullMatch, openDiv, innerBody, closeBlock) => {
+    /(<div class="onyxman-seo-vault-drawer__body")(\s*>)(?![\s\S]*data-content-dedup="v1")([\s\S]*?)(<\/div>\s*<\/details>\s*<!-- ={10,})/i,
+    (fullMatch, openDivPrefix, closeAngle, innerBody, closeBlock) => {
       const cleanedBody = deduplicateVaultDrawerBody(innerBody, routePath);
-      return `${openDiv}\n${cleanedBody}\n    ${closeBlock}`;
+      return `${openDivPrefix} data-content-dedup="v1"${closeAngle}\n${cleanedBody}\n    ${closeBlock}`;
     }
   );
 
