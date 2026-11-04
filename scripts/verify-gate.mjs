@@ -373,13 +373,134 @@ function runGate6(phase) {
   }
 }
 
-// Execute all 6 Gates
+/**
+ * GATE 7: Sitemap Self-Canonical Purity, 100% Unique Title/H1/Description,
+ * Single Visible <h1>, Open SEO Drawer, Optimal Word Count, & <25% 5-Gram Overlap
+ */
+function runGate7(phase) {
+  if (phase !== 'ALL') return;
+  const pubDir = path.join(ROOT_DIR, 'public');
+  const sitemapPath = path.join(pubDir, 'sitemap.xml');
+  if (!fs.existsSync(sitemapPath)) {
+    recordFail('GATE-7', 'Missing public/sitemap.xml for Gate 7 SEO purity audit');
+    return;
+  }
+
+  const smRaw = fs.readFileSync(sitemapPath, 'utf8');
+  const locs = [...smRaw.matchAll(/<loc>([^<]+)<\/loc>/g)]
+    .map((m) => m[1].trim())
+    .filter((u) => !u.includes('/assets/'));
+
+  const titles = new Map();
+  const h1s = new Map();
+  const descs = new Map();
+  const pageShingles = [];
+
+  for (const loc of locs) {
+    const rel = loc.replace('https://www.onyxmen.my/', '');
+    const htmlPath = path.join(pubDir, rel, 'index.html');
+    if (!fs.existsSync(htmlPath)) {
+      recordFail('GATE-7', `Missing HTML file for sitemap URL: ${loc}`);
+      continue;
+    }
+    const html = fs.readFileSync(htmlPath, 'utf8');
+    const can = (html.match(/<link\s+rel="canonical"\s+href="([^"]+)"/i) || [])[1]?.trim() || '';
+    if (can !== loc) {
+      recordFail('GATE-7', `Non-self-canonical URL in sitemap.xml: ${loc} -> ${can}`);
+    }
+
+    const title = (html.match(/<title>([\s\S]*?)<\/title>/i) || [])[1]?.trim() || '';
+    const desc = (html.match(/<meta\s+name="description"\s+content="([^"]*)"/i) || [])[1]?.trim() || '';
+    const allH1s = [...html.matchAll(/<h1\b[^>]*>([\s\S]*?)<\/h1>/gi)].map((m) =>
+      m[1].replace(/<[^>]+>/g, '').trim()
+    );
+
+    if (allH1s.length !== 1) {
+      recordFail('GATE-7', `Expected exactly 1 <h1> on ${loc}, found ${allH1s.length}`);
+    }
+    if (!html.includes('<details class="onyxman-seo-vault-drawer" open>')) {
+      recordFail('GATE-7', `Missing open-by-default SEO drawer (<details open>) on ${loc}`);
+    }
+
+    const h1 = allH1s[0] || '';
+    titles.set(title, (titles.get(title) || []).concat(loc));
+    h1s.set(h1, (h1s.get(h1) || []).concat(loc));
+    descs.set(desc, (descs.get(desc) || []).concat(loc));
+
+    // Extract visible words & 5-gram shingles for duplication & word-count gate
+    const bodyMatch = html.match(/<body[\s\S]*?<\/body>/i);
+    const bodyHtml = bodyMatch ? bodyMatch[0] : html;
+    const textOnly = bodyHtml
+      .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+      .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+      .replace(/<svg[\s\S]*?<\/svg>/gi, ' ')
+      .replace(/<nav\s+class="minimal-crawl-bridge"[\s\S]*?<\/nav>/gi, ' ')
+      .replace(/<footer[\s\S]*?<\/footer>/gi, ' ')
+      .replace(/<header[\s\S]*?<\/header>/gi, ' ')
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .toLowerCase();
+
+    const words = textOnly.split(/\s+/).filter(Boolean);
+    if (words.length < 750 || words.length > 3200) {
+      recordFail('GATE-7', `Word count out of optimal SEO range (750-3200) on ${loc}: ${words.length} words`);
+    }
+
+    const shingles = new Set();
+    for (let i = 0; i <= words.length - 5; i++) {
+      shingles.add(words.slice(i, i + 5).join(' '));
+    }
+    pageShingles.push({ loc, shingles });
+  }
+
+  for (const [val, list] of titles.entries()) {
+    if (list.length > 1) recordFail('GATE-7', `Duplicate <title> "${val}" on: ${list.join(', ')}`);
+  }
+  for (const [val, list] of h1s.entries()) {
+    if (list.length > 1) recordFail('GATE-7', `Duplicate <h1> "${val}" on: ${list.join(', ')}`);
+  }
+  for (const [val, list] of descs.entries()) {
+    if (list.length > 1) recordFail('GATE-7', `Duplicate <meta description> on: ${list.join(', ')}`);
+  }
+
+  let highOverlapPairs = 0;
+  for (let i = 0; i < pageShingles.length; i++) {
+    for (let j = i + 1; j < pageShingles.length; j++) {
+      const a = pageShingles[i];
+      const b = pageShingles[j];
+      let inter = 0;
+      for (const s of a.shingles) {
+        if (b.shingles.has(s)) inter++;
+      }
+      const union = a.shingles.size + b.shingles.size - inter;
+      const jaccard = union > 0 ? inter / union : 0;
+      if (jaccard >= 0.25) {
+        highOverlapPairs++;
+        recordFail(
+          'GATE-7',
+          `5-gram duplication >= 25% (${(jaccard * 100).toFixed(1)}%) between ${a.loc} and ${b.loc}`
+        );
+      }
+    }
+  }
+
+  if (highOverlapPairs === 0) {
+    recordPass(
+      'GATE-7',
+      `All ${locs.length} canonical sitemap URLs verified: 100% self-canonical, 0 duplicate Titles/H1s/Descriptions, 750-3200 word sweet spot, and 0 page pairs >= 25% 5-gram overlap`
+    );
+  }
+}
+
+// Execute all 7 Gates
 runGate1(phaseArg);
 runGate2();
 runGate3(phaseArg);
 runGate4(phaseArg);
 runGate5();
 runGate6(phaseArg);
+runGate7(phaseArg);
 
 console.log('====================================================================');
 console.log(`ONYXMEN.MY 6-GATE VERIFICATION REPORT (PHASE: ${phaseArg})`);
