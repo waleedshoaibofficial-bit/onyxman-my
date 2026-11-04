@@ -78,9 +78,103 @@ function main() {
   let pagesWithHreflang = 0;
   let pagesWithCriticalCss = 0;
 
+  // Differentiate the 8 Official Product Vault routes (/products/{slug}/ and /ms/produk/{slug}/)
+  // so both /{slug}-malaysia/ AND /products/{slug}/ are 100% self-canonical with unique titles/H1s/descriptions
+  const productVaultOverrides = {
+    '/products/horsemen/': {
+      canonical: `${DOMAIN_ORIGIN}/products/horsemen/`,
+      enHref: `${DOMAIN_ORIGIN}/products/horsemen/`,
+      msHref: `${DOMAIN_ORIGIN}/ms/produk/horsemen/`,
+      title: 'Horsemen Official Product Vault — 20 Capsules × 500mg Botanical Monograph | RM 159 ONYXMEN Malaysia',
+      h1: 'Horsemen Official Product Vault — 20 Capsules × 500mg Botanical Monograph',
+      desc: 'Official Horsemen Product Vault & Phytochemical Dossier (SKU: ONYX-HM-20): 20 Capsules × 500mg with 150mg Malaysian Tongkat Ali 100:1, 100mg Peruvian Black Maca & 80mg Epimedium. RM 159 official reserve with discreet Malaysia COD/FPX.',
+    },
+    '/products/hammer-of-thor/': {
+      canonical: `${DOMAIN_ORIGIN}/products/hammer-of-thor/`,
+      enHref: `${DOMAIN_ORIGIN}/products/hammer-of-thor/`,
+      msHref: `${DOMAIN_ORIGIN}/ms/produk/hammer-of-thor/`,
+      title: "Hammer of Thor Men's Health Official Product Vault — 20 Veg. Capsules Saponin Assay | RM 159 ONYXMEN Malaysia",
+      h1: "Hammer of Thor Men's Health Official Product Vault — 20 Veg. Capsules Saponin Assay",
+      desc: "Official Hammer of Thor Men's Health Product Vault (SKU: ONYX-HT-20): 20 Vegetarian HPMC Capsules standardized for 200mg Tribulus Terrestris (60% steroidal saponins), Maca Root & Panax Ginseng. RM 159 official reserve across Malaysia.",
+    },
+    '/products/grow-xl/': {
+      canonical: `${DOMAIN_ORIGIN}/products/grow-xl/`,
+      enHref: `${DOMAIN_ORIGIN}/products/grow-xl/`,
+      msHref: `${DOMAIN_ORIGIN}/ms/produk/grow-xl/`,
+      title: 'Grow XL Official Product Vault — 30 Capsules Extra-Strength 30-Day Conditioning Formula | RM 159 ONYXMEN Malaysia',
+      h1: 'Grow XL Official Product Vault — 30 Capsules Extra-Strength 30-Day Conditioning Formula',
+      desc: 'Official Grow XL Product Vault & 30-Day Conditioning Monograph (SKU: ONYX-GX-30): 30 Capsules × 550mg featuring Extra-Strength Tongkat Ali, L-Arginine, L-Citrulline & Muira Puama. RM 159 official Malaysia price with discreet plain-box COD.',
+    },
+    '/products/magnum-pump-xr/': {
+      canonical: `${DOMAIN_ORIGIN}/products/magnum-pump-xr/`,
+      enHref: `${DOMAIN_ORIGIN}/products/magnum-pump-xr/`,
+      msHref: `${DOMAIN_ORIGIN}/ms/produk/magnum-pump-xr/`,
+      title: 'Magnum Pump XR Official Product Vault — 30 Black Capsules Pro Series Nitric Oxide Matrix | RM 159 ONYXMEN Malaysia',
+      h1: 'Magnum Pump XR Official Product Vault — 30 Black Capsules Pro Series Nitric Oxide Matrix',
+      desc: 'Official Magnum Pump XR Product Vault (SKU: ONYX-MP-30): 30 Black Oral Dietary Capsules × 600mg formulated with L-Arginine HCl, L-Citrulline Malate, Tribulus & Tongkat Ali 100:1. RM 159 official reserve with discreet Malaysia dispatch.',
+    },
+    '/ms/produk/horsemen/': {
+      canonical: `${DOMAIN_ORIGIN}/ms/produk/horsemen/`,
+      enHref: `${DOMAIN_ORIGIN}/products/horsemen/`,
+      msHref: `${DOMAIN_ORIGIN}/ms/produk/horsemen/`,
+      title: 'Katalog Produk Rasmi Horsemen — Monograf Botani 20 Kapsul × 500mg | RM 159 ONYXMEN Malaysia',
+      h1: 'Katalog Produk Rasmi Horsemen — Monograf Botani 20 Kapsul × 500mg',
+      desc: 'Katalog Produk Rasmi & Dosir Fitokimia Horsemen (SKU: ONYX-HM-20): 20 Kapsul × 500mg dengan 150mg Tongkat Ali Malaysia 100:1, 100mg Maca Hitam Peru & Epimedium. Harga rasmi RM 159 dengan penghantaran bungkusan rahsia COD/FPX.',
+    },
+    '/ms/produk/hammer-of-thor/': {
+      canonical: `${DOMAIN_ORIGIN}/ms/produk/hammer-of-thor/`,
+      enHref: `${DOMAIN_ORIGIN}/products/hammer-of-thor/`,
+      msHref: `${DOMAIN_ORIGIN}/ms/produk/hammer-of-thor/`,
+      title: 'Katalog Produk Rasmi Hammer of Thor — 20 Kapsul Vegetarian Tribulus Saponin | RM 159 ONYXMEN Malaysia',
+      h1: 'Katalog Produk Rasmi Hammer of Thor — 20 Kapsul Vegetarian Tribulus Saponin',
+      desc: 'Katalog Produk Rasmi Hammer of Thor (SKU: ONYX-HT-20): 20 Kapsul Vegetarian HPMC dengan 200mg Tribulus Terrestris (60% saponin steroid), Akar Maca & Panax Ginseng. Harga rasmi RM 159 dengan penghantaran rahsia seluruh Malaysia.',
+    },
+    '/ms/produk/grow-xl/': {
+      canonical: `${DOMAIN_ORIGIN}/ms/produk/grow-xl/`,
+      enHref: `${DOMAIN_ORIGIN}/products/grow-xl/`,
+      msHref: `${DOMAIN_ORIGIN}/ms/produk/grow-xl/`,
+      title: 'Katalog Produk Rasmi Grow XL — 30 Kapsul Formulasi Harian Ekstra Kuat | RM 159 ONYXMEN Malaysia',
+      h1: 'Katalog Produk Rasmi Grow XL — 30 Kapsul Formulasi Harian Ekstra Kuat',
+      desc: 'Katalog Produk Rasmi Grow XL (SKU: ONYX-GX-30): 30 Kapsul × 550mg kitaran 30 hari dengan Tongkat Ali Ekstra Kuat, L-Arginine, L-Citrulline & Muira Puama. Harga rasmi RM 159 dengan penghantaran bungkusan rahsia COD/FPX.',
+    },
+    '/ms/produk/magnum-pump-xr/': {
+      canonical: `${DOMAIN_ORIGIN}/ms/produk/magnum-pump-xr/`,
+      enHref: `${DOMAIN_ORIGIN}/products/magnum-pump-xr/`,
+      msHref: `${DOMAIN_ORIGIN}/ms/produk/magnum-pump-xr/`,
+      title: 'Katalog Produk Rasmi Magnum Pump XR — 30 Kapsul Hitam Siri Pro Nitrik Oksida | RM 159 ONYXMEN Malaysia',
+      h1: 'Katalog Produk Rasmi Magnum Pump XR — 30 Kapsul Hitam Siri Pro Nitrik Oksida',
+      desc: 'Katalog Produk Rasmi Magnum Pump XR (SKU: ONYX-MP-30): 30 Kapsul Hitam × 600mg suplemen oral dengan L-Arginine HCl, L-Citrulline Malate, Tribulus & Tongkat Ali 100:1. Harga rasmi RM 159 dengan penghantaran rahsia Malaysia.',
+    },
+  };
+
   for (const file of htmlFiles) {
     let html = fs.readFileSync(file, 'utf8');
     let htmlModified = false;
+
+    const relDir = path.relative(PUBLIC_DIR, path.dirname(file)).replace(/\\/g, '/');
+    const routePath = relDir === '' ? '/' : `/${relDir}/`;
+    const vaultOverride = productVaultOverrides[routePath];
+
+    if (vaultOverride) {
+      html = html
+        .replace(/<title>[\s\S]*?<\/title>/i, `<title>${vaultOverride.title}</title>`)
+        .replace(/<meta name="description" content="[^"]*"\s*\/?>/i, `<meta name="description" content="${vaultOverride.desc}" />`)
+        .replace(/<link rel="canonical" href="[^"]*"\s*\/?>/i, `<link rel="canonical" href="${vaultOverride.canonical}" />`)
+        .replace(/<link rel="alternate" hreflang="en-MY" href="[^"]*"\s*\/?>/i, `<link rel="alternate" hreflang="en-MY" href="${vaultOverride.enHref}" />`)
+        .replace(/<link rel="alternate" hreflang="ms-MY" href="[^"]*"\s*\/?>/i, `<link rel="alternate" hreflang="ms-MY" href="${vaultOverride.msHref}" />`)
+        .replace(/<link rel="alternate" hreflang="x-default" href="[^"]*"\s*\/?>/i, `<link rel="alternate" hreflang="x-default" href="${vaultOverride.enHref}" />`)
+        .replace(/<meta property="og:title" content="[^"]*"\s*\/?>/i, `<meta property="og:title" content="${vaultOverride.title}" />`)
+        .replace(/<meta property="og:description" content="[^"]*"\s*\/?>/i, `<meta property="og:description" content="${vaultOverride.desc}" />`)
+        .replace(/<meta property="og:url" content="[^"]*"\s*\/?>/i, `<meta property="og:url" content="${vaultOverride.canonical}" />`)
+        .replace(/<meta name="twitter:title" content="[^"]*"\s*\/?>/i, `<meta name="twitter:title" content="${vaultOverride.title}" />`)
+        .replace(/<meta name="twitter:description" content="[^"]*"\s*\/?>/i, `<meta name="twitter:description" content="${vaultOverride.desc}" />`)
+        .replace(
+          /<h1 class="editorial-headline">[\s\S]*?<\/h1>/i,
+          `<h1 class="editorial-headline">\n            ${vaultOverride.h1}\n          </h1>`
+        );
+      htmlModified = true;
+    }
+
     if (html.includes(GSC_VERIFICATION_CODE)) pagesWithGscTag++;
     if (html.includes('hreflang="en-MY"') && html.includes('hreflang="ms-MY"')) pagesWithHreflang++;
     if (html.includes('id="onyxman-critical-css"')) pagesWithCriticalCss++;
@@ -158,6 +252,33 @@ function main() {
 
     if (htmlModified) {
       fs.writeFileSync(file, html, 'utf8');
+    }
+  }
+
+  // Enforce 100% self-canonical XML Sitemaps (sitemap.xml, sitemap-en.xml, sitemap-ms.xml)
+  // so zero non-canonical alias URLs ever enter Google Search Console sitemaps
+  for (const sm of ['sitemap.xml', 'sitemap-en.xml', 'sitemap-ms.xml']) {
+    const smPath = path.join(PUBLIC_DIR, sm);
+    if (!fs.existsSync(smPath)) continue;
+    const rawXml = fs.readFileSync(smPath, 'utf8');
+    const filteredXml = rawXml.replace(/\s*<url>[\s\S]*?<\/url>/g, (urlBlock) => {
+      const locMatch = urlBlock.match(/<loc>([^<]+)<\/loc>/);
+      if (!locMatch) return urlBlock;
+      const locUrl = locMatch[1].trim();
+      const rel = locUrl.replace(`${DOMAIN_ORIGIN}/`, '').replace(/^\/+/, '');
+      const htmlPath = path.join(PUBLIC_DIR, rel, 'index.html');
+      if (!fs.existsSync(htmlPath)) return '';
+      const pageHtml = fs.readFileSync(htmlPath, 'utf8');
+      const canMatch = pageHtml.match(/<link\s+rel="canonical"\s+href="([^"]+)"/i);
+      const declaredCan = canMatch ? canMatch[1].trim() : locUrl;
+      return declaredCan === locUrl ? urlBlock : '';
+    });
+    if (filteredXml !== rawXml) {
+      fs.writeFileSync(smPath, filteredXml, 'utf8');
+    }
+    if (sm === 'sitemap.xml') {
+      const m = filteredXml.match(/<url>/g);
+      totalSitemapLocs = m ? m.length : 0;
     }
   }
 

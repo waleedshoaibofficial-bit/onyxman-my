@@ -330,59 +330,27 @@ function collectAllBilingualRoutes() {
     });
   }
 
-  // 1. Explicit canonical routes from `src/data/` & `src/utils/i18n.ts`
+  // 1. Explicit primary routes (filtered after walkDir so only true self-canonical HTML routes enter sitemap.xml)
   registerPair('/', '/ms/');
-  registerPair('/products/', '/ms/produk/');
+  registerPair('/horsemen-malaysia/', '/ms/horsemen-malaysia/');
+  registerPair('/hammer-of-thor-malaysia/', '/ms/hammer-of-thor-malaysia/');
+  registerPair('/grow-xl-malaysia/', '/ms/grow-xl-malaysia/');
+  registerPair('/magnum-pump-xr-malaysia/', '/ms/magnum-pump-xr-malaysia/');
+  registerPair('/products/horsemen/', '/ms/produk/horsemen/');
+  registerPair('/products/hammer-of-thor/', '/ms/produk/hammer-of-thor/');
+  registerPair('/products/grow-xl/', '/ms/produk/grow-xl/');
+  registerPair('/products/magnum-pump-xr/', '/ms/produk/magnum-pump-xr/');
   registerPair('/compare/', '/ms/perbandingan/');
-  registerPair('/ingredients/', '/ms/ramuan-botani/');
-  registerPair('/malaysia-delivery/', '/ms/penghantaran-malaysia/');
+  registerPair('/ingredients/', '/ms/ingredients/');
+  registerPair('/malaysia/', '/ms/malaysia/');
   registerPair('/guides/', '/ms/panduan/');
-
-  // Trust & E-E-A-T routes
   registerPair('/about/', '/ms/tentang-kami/');
-  registerPair('/shipping-and-discreet-packaging/', '/ms/penghantaran-dan-bungkusan-rahsia/');
+  registerPair('/authenticity-guarantee/', '/ms/jaminan-ketulenan/');
+  registerPair('/discreet-shipping/', '/ms/penghantaran-rahsia/');
   registerPair('/contact/', '/ms/hubungi-kami/');
-  registerPair('/privacy-and-terms/', '/ms/privasi-dan-terma/');
-  registerPair('/authenticity/', '/ms/ketulenan/');
-  registerPair('/discreet-packaging/', '/ms/bungkusan-rahsia/');
   registerPair('/privacy-policy/', '/ms/polisi-privasi/');
-  registerPair('/terms-and-returns/', '/ms/terma-dan-pemulangan/');
+  registerPair('/terms-of-service/', '/ms/terma-perkhidmatan/');
   registerPair('/faq/', '/ms/soalan-lazim/');
-
-  // 4 Flagship Products
-  for (const prod of allProducts) {
-    if (prod?.routes?.enPath && prod?.routes?.msPath) {
-      registerPair(prod.routes.enPath, prod.routes.msPath);
-    }
-  }
-
-  // Comparisons
-  for (const comp of comparisonsData.headToHeadComparisons || []) {
-    if (comp.enPath && comp.msPath) {
-      registerPair(comp.enPath, comp.msPath);
-    }
-  }
-
-  // Botanicals
-  for (const mono of botanicalsData.monographs || []) {
-    if (mono.enPath && mono.msPath) {
-      registerPair(mono.enPath, mono.msPath);
-    }
-  }
-
-  // 16 Malaysian States
-  for (const st of malaysiaStatesData.states || []) {
-    if (st.enPath && st.msPath) {
-      registerPair(st.enPath, st.msPath);
-    }
-  }
-
-  // 6 Guides
-  for (const g of guidesData.guides || []) {
-    if (g.enPath && g.msPath) {
-      registerPair(g.enPath, g.msPath);
-    }
-  }
 
   // 2. Dynamic filesystem walker across `public/**/index.html`
   function walkDir(dir) {

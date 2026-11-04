@@ -1429,7 +1429,41 @@ img {
  * Renders the exact 1:1 `demo_01_sovereign_botanicals.html` Storefront with Authentic Malaysia RM 159 / RM 318 / RM 477 Info.
  */
 export function renderVisualFirstStorefront(options = {}) {
-  const { isMs = false, productSlug = 'horsemen', title = '', rawBody = '' } = options;
+  const {
+    isMs = false,
+    productSlug = 'horsemen',
+    title = '',
+    description = '',
+    canonicalPath = '/',
+    rawBody = '',
+  } = options;
+
+  const isRootHomepage = canonicalPath === '/' || canonicalPath === '/ms/';
+  const cleanVisibleHeadline = isRootHomepage
+    ? isMs
+      ? 'Ekstrak Botani Piawai Tulen. Tanpa Kompromi.'
+      : 'Pure Standardized Botanicals. Zero Compromises.'
+    : String(title || '')
+        .replace(/\s*\|\s*ONYXMEN.*$/i, '')
+        .replace(/\s*·\s*RM 159 Official Malaysia$/i, '')
+        .trim() ||
+      (isMs
+        ? 'Ekstrak Botani Piawai Tulen. Tanpa Kompromi.'
+        : 'Pure Standardized Botanicals. Zero Compromises.');
+
+  const cleanVisibleLead = isRootHomepage
+    ? isMs
+      ? 'Dirakam dalam cahaya semula jadi di atas marmar putih Bianco Carrara. Setiap formulasi ONYXMEN menggabungkan ekstrak akar botani tulen dengan kofaktor bio-penyerapan berkepekatan tinggi pada harga rasmi RM 159 sebotol.'
+      : 'Photographed in natural morning glasshouse daylight on Italian Bianco Carrara marble. Every ONYXMEN formulation unites cold-extracted whole-root botanicals with pharmaceutical-grade bioavailability enhancers at the official RM 159 Malaysia reserve.'
+    : String(description || '').trim() ||
+      (isMs
+        ? 'Dirakam dalam cahaya semula jadi di atas marmar putih Bianco Carrara. Setiap formulasi ONYXMEN menggabungkan ekstrak akar botani tulen dengan kofaktor bio-penyerapan berkepekatan tinggi pada harga rasmi RM 159 sebotol.'
+        : 'Photographed in natural morning glasshouse daylight on Italian Bianco Carrara marble. Every ONYXMEN formulation unites cold-extracted whole-root botanicals with pharmaceutical-grade bioavailability enhancers at the official RM 159 Malaysia reserve.');
+
+  // Demote any secondary <h1> tags inside rawBody to <h2> so every page has exactly ONE visible <h1> tag
+  const normalizedRawBody = String(rawBody || '')
+    .replace(/<h1(\b[^>]*)>/gi, '<h2$1>')
+    .replace(/<\/h1>/gi, '</h2>');
 
   const initialKeyMap = {
     horsemen: 'horsemen',
@@ -1586,14 +1620,10 @@ export function renderVisualFirstStorefront(options = {}) {
         <div>
           <div class="editorial-kicker">ONYXMEN BOTANICAL ATELIER · KUALA LUMPUR &amp; MALAYSIA</div>
           <h1 class="editorial-headline">
-            ${isMs ? 'Ekstrak Botani Piawai Tulen. Tanpa Kompromi.' : 'Pure Standardized Botanicals. Zero Compromises.'}
+            ${escapeHtmlAttr(cleanVisibleHeadline)}
           </h1>
           <p class="editorial-lead" style="margin-bottom:0;">
-            ${
-              isMs
-                ? 'Dirakam dalam cahaya semula jadi di atas marmar putih Bianco Carrara. Setiap formulasi ONYXMEN menggabungkan ekstrak akar botani tulen dengan kofaktor bio-penyerapan berkepekatan tinggi pada harga rasmi RM 159 sebotol.'
-                : 'Photographed in natural morning glasshouse daylight on Italian Bianco Carrara marble. Every ONYXMEN formulation unites cold-extracted whole-root botanicals with pharmaceutical-grade bioavailability enhancers at the official RM 159 Malaysia reserve.'
-            }
+            ${escapeHtmlAttr(cleanVisibleLead)}
           </p>
         </div>
 
@@ -1912,8 +1942,8 @@ export function renderVisualFirstStorefront(options = {}) {
     </div>
   </aside>
 
-  <!-- CLOSED-BY-DEFAULT SEO & CLINICAL VAULT DRAWER (100% GOOGLEBOT INDEXABLE, ZERO VISUAL CLUTTER) -->
-  <details class="onyxman-seo-vault-drawer">
+  <!-- OPEN-BY-DEFAULT SEO & CLINICAL VAULT DRAWER (100% GOOGLEBOT SMARTPHONE PRIMARY CONTENT) -->
+  <details class="onyxman-seo-vault-drawer" open>
     <summary class="onyxman-seo-vault-drawer__summary">
       <span>${
         isMs
@@ -1923,7 +1953,7 @@ export function renderVisualFirstStorefront(options = {}) {
       <span>+</span>
     </summary>
     <div class="onyxman-seo-vault-drawer__body">
-      ${rawBody}
+      ${normalizedRawBody}
     </div>
   </details>
 
@@ -2459,6 +2489,7 @@ export function renderLuxuryShell(options = {}) {
     isMs,
     productSlug,
     title,
+    description,
     canonicalPath,
     rawBody,
   });
@@ -2542,7 +2573,7 @@ ${schemaJsonString}
   <body class="sovereign-body" data-locale="${escapeHtmlAttr(lang)}" data-default-product="${escapeHtmlAttr(productSlug)}">
     ${headerHtml}
     <main id="onyxman-main-stage" class="sovereign-main-stage" role="main">
-      ${options.topBannerHtml || ''}
+      ${String(options.topBannerHtml || '').replace(/<h1(\b[^>]*)>/gi, '<h2$1>').replace(/<\/h1>/gi, '</h2>')}
       ${visualFirstMainHtml}
     </main>
     ${sealStripHtml}
