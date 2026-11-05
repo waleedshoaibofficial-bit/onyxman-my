@@ -3,7 +3,7 @@
   "domain": "https://www.onyxmen.my",
   "designSystem": "1:1 Sovereign Botanicals Edition (demo_01_sovereign_botanicals.html)",
   "lastUpdatedDateMyt": "2026-11-05",
-  "generatedAtIso": "2026-11-05T10:08:53.489Z",
+  "generatedAtIso": "2026-11-05T14:24:08.958Z",
   "googleSearchConsole": {
     "verificationCode": "3D9YmY9SMd5RVAdrfKySd2Z5ZsxJOEHtLbQUTNWOKgA",
     "verifiedPagesCount": 282,
@@ -12,9 +12,9 @@
   },
   "storefrontPricing": {
     "currency": "MYR",
-    "tier1SingleBottle": "RM 159",
-    "tier2DualProtocol": "RM 318 (Free Nationwide Malaysia Express Shipping)",
-    "tier3VipVault": "RM 477 (Priority Discreet Dispatch + VIP Refill Concierge)"
+    "tier1SingleBottle": "RM 159 (1 Bottle Official Price)",
+    "tier2DualProtocol": "RM 286 (10% OFF — Save RM 32 off RM 318 · Free Nationwide Malaysia Express Shipping)",
+    "tier3VipVault": "RM 405 (15% OFF — Save RM 72 off RM 477 · Priority Discreet Dispatch + VIP Refill Concierge)"
   },
   "formulations": [
     {
@@ -82,29 +82,34 @@
   },
   "targetKeywordClustersMalaysia": [
     {
-      "cluster": "Horsemen Malaysia",
+      "cluster": "Horsemen Malaysia & Horsemen Man Virility Enhancement Capsules",
       "primaryUrl": "/horsemen-malaysia/",
-      "intent": "Transactional & Branded (EN/BM)"
+      "intent": "Transactional & Stamina Malam (EN/BM)"
     },
     {
-      "cluster": "Hammer of Thor Malaysia Original",
+      "cluster": "Hammer of Thor Malaysia Original & Hammer of Thor Men's Health 20 Veg. Capsules",
       "primaryUrl": "/hammer-of-thor-malaysia/",
-      "intent": "Transactional & Authenticity (EN/BM)"
+      "intent": "Transactional, Cara Kenal Original vs Tiruan & Tribulus Saponin (EN/BM)"
     },
     {
-      "cluster": "Grow XL Malaysia Price RM 159",
+      "cluster": "Grow XL Malaysia & GrowXL for Men 30 Capsules Extra-Strength Blend",
       "primaryUrl": "/grow-xl-malaysia/",
-      "intent": "Commercial Comparison & Buy (EN/BM)"
+      "intent": "Commercial Comparison, 30-Day Conditioning & Buy (EN/BM)"
     },
     {
-      "cluster": "Magnum Pump XR Capsules Malaysia",
+      "cluster": "Magnum Pump XR 30 Black Capsules Malaysia & Nitric Oxide Vascular Support",
       "primaryUrl": "/magnum-pump-xr-malaysia/",
-      "intent": "Entity-Disambiguated Oral Supplement (EN/BM)"
+      "intent": "Entity-Disambiguated Oral Supplement & Aliran Darah Lelaki (EN/BM)"
     },
     {
-      "cluster": "Tongkat Ali & Maca Men Vitality KL/Selangor/Johor/Penang/Sabah/Sarawak",
+      "cluster": "Suplemen Tenaga Batin, Kapsul Tahan Lama & Stamina Lelaki Malaysia",
+      "primaryUrl": "/ms/",
+      "intent": "Bahasa Melayu High-Volume Male Vitality & Stamina Intent (MS-MY)"
+    },
+    {
+      "cluster": "Tongkat Ali, Maca, Tribulus, Horny Goat Weed & L-Arginine Men Vitality KL/Selangor/Johor/Penang/Sabah/Sarawak",
       "primaryUrl": "/malaysia/",
-      "intent": "16-State Local Delivery SEO (EN/BM)"
+      "intent": "16-State Local Discreet COD Delivery SEO (EN/BM)"
     }
   ],
   "automationWorkflows": {
@@ -113,462 +118,5 @@
     "every30MinRealTimeAutoHeal": "ONYX-CI-193 (.github/workflows/daily-uptime-order-monitor.yml — Every 30 Minutes [48x/Day] Live Audit + Instant Cloudflare Auto-Heal Redeploy)",
     "weeklyCwvAndSchemaAudit": "ONYX-CI-194 (.github/workflows/weekly-lighthouse-schema-audit.yml — Mondays 10:00 MYT <0.8s LCP & @graph Audit)",
     "expressOrderBridgeEndpoint": "https://formsubmit.co/ajax/waleedshoaibofficial@gmail.com"
-  },
-  "googleSearchConsoleLiveTelemetry": {
-    "apiConnected": true,
-    "connectionStatus": "CONNECTED_LIVE_GSC_API",
-    "serviceAccountEmail": "onyxmen-gsc@focused-zephyr-513614-e3.iam.gserviceaccount.com",
-    "lastSyncedAtIso": "2026-11-05T12:00:25.121Z",
-    "propertyUrl": "https://www.onyxmen.my/",
-    "dateRange": {
-      "startDate": "2026-10-08",
-      "endDate": "2026-11-05"
-    },
-    "summary28Days": {
-      "clicks": 1,
-      "impressions": 20,
-      "ctrPercent": 5,
-      "averagePosition": 12.7
-    },
-    "topQueries": [
-      {
-        "query": "growxl for men",
-        "clicks": 1,
-        "impressions": 1,
-        "ctrPercent": 100,
-        "position": 4
-      },
-      {
-        "query": "grow xl",
-        "clicks": 0,
-        "impressions": 1,
-        "ctrPercent": 0,
-        "position": 1
-      },
-      {
-        "query": "hammer of thor men's health",
-        "clicks": 0,
-        "impressions": 1,
-        "ctrPercent": 0,
-        "position": 3
-      },
-      {
-        "query": "onyxman",
-        "clicks": 0,
-        "impressions": 1,
-        "ctrPercent": 0,
-        "position": 6
-      },
-      {
-        "query": "water pollution",
-        "clicks": 0,
-        "impressions": 1,
-        "ctrPercent": 0,
-        "position": 40
-      }
-    ],
-    "topPages": [
-      {
-        "page": "https://www.onyxmen.my/products/grow-xl/",
-        "clicks": 1,
-        "impressions": 3,
-        "ctrPercent": 33.33,
-        "position": 4.3
-      },
-      {
-        "page": "https://www.onyxmen.my/",
-        "clicks": 0,
-        "impressions": 1,
-        "ctrPercent": 0,
-        "position": 6
-      },
-      {
-        "page": "https://www.onyxmen.my/grow-xl-malaysia/",
-        "clicks": 0,
-        "impressions": 2,
-        "ctrPercent": 0,
-        "position": 4.5
-      },
-      {
-        "page": "https://www.onyxmen.my/guides/20-capsule-vs-30-capsule-cycle-selection/",
-        "clicks": 0,
-        "impressions": 3,
-        "ctrPercent": 0,
-        "position": 7.7
-      },
-      {
-        "page": "https://www.onyxmen.my/guides/authentic-onyxman-bottle-verification-malaysia/",
-        "clicks": 0,
-        "impressions": 1,
-        "ctrPercent": 0,
-        "position": 9
-      },
-      {
-        "page": "https://www.onyxmen.my/guides/capsule-timing-absorption-protocol/",
-        "clicks": 0,
-        "impressions": 1,
-        "ctrPercent": 0,
-        "position": 5
-      },
-      {
-        "page": "https://www.onyxmen.my/guides/malaysian-mens-vitality-tropical-stamina-nutrition/",
-        "clicks": 0,
-        "impressions": 2,
-        "ctrPercent": 0,
-        "position": 4.5
-      },
-      {
-        "page": "https://www.onyxmen.my/guides/nitric-oxide-amino-acids-vs-adaptogenic-herbs/",
-        "clicks": 0,
-        "impressions": 3,
-        "ctrPercent": 0,
-        "position": 6.7
-      },
-      {
-        "page": "https://www.onyxmen.my/guides/optimal-capsule-timing-and-absorption-protocol/",
-        "clicks": 0,
-        "impressions": 1,
-        "ctrPercent": 0,
-        "position": 8
-      },
-      {
-        "page": "https://www.onyxmen.my/ingredients/",
-        "clicks": 0,
-        "impressions": 2,
-        "ctrPercent": 0,
-        "position": 25
-      },
-      {
-        "page": "https://www.onyxmen.my/ingredients/l-arginine-l-citrulline-nitric-oxide/",
-        "clicks": 0,
-        "impressions": 1,
-        "ctrPercent": 0,
-        "position": 8
-      },
-      {
-        "page": "https://www.onyxmen.my/malaysia-delivery/kelantan-kota-bharu/",
-        "clicks": 0,
-        "impressions": 1,
-        "ctrPercent": 0,
-        "position": 1
-      },
-      {
-        "page": "https://www.onyxmen.my/malaysia-delivery/labuan/",
-        "clicks": 0,
-        "impressions": 2,
-        "ctrPercent": 0,
-        "position": 52
-      },
-      {
-        "page": "https://www.onyxmen.my/malaysia-delivery/putrajaya/",
-        "clicks": 0,
-        "impressions": 1,
-        "ctrPercent": 0,
-        "position": 3
-      },
-      {
-        "page": "https://www.onyxmen.my/malaysia-delivery/sarawak-kuching/",
-        "clicks": 0,
-        "impressions": 2,
-        "ctrPercent": 0,
-        "position": 51
-      },
-      {
-        "page": "https://www.onyxmen.my/malaysia-delivery/terengganu-kuala-terengganu/",
-        "clicks": 0,
-        "impressions": 1,
-        "ctrPercent": 0,
-        "position": 100
-      },
-      {
-        "page": "https://www.onyxmen.my/malaysia/kedah/",
-        "clicks": 0,
-        "impressions": 1,
-        "ctrPercent": 0,
-        "position": 104
-      },
-      {
-        "page": "https://www.onyxmen.my/malaysia/perlis/",
-        "clicks": 0,
-        "impressions": 1,
-        "ctrPercent": 0,
-        "position": 106
-      },
-      {
-        "page": "https://www.onyxmen.my/malaysia/sabah/",
-        "clicks": 0,
-        "impressions": 1,
-        "ctrPercent": 0,
-        "position": 108
-      },
-      {
-        "page": "https://www.onyxmen.my/ms/",
-        "clicks": 0,
-        "impressions": 3,
-        "ctrPercent": 0,
-        "position": 37
-      }
-    ],
-    "urlInspectionResults": [
-      {
-        "url": "https://www.onyxmen.my/",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "pageFetchState": "SUCCESSFUL",
-        "lastCrawlTime": "2026-11-05T11:55:23Z",
-        "googleCanonical": "https://www.onyxmen.my/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "PASS"
-      },
-      {
-        "url": "https://www.onyxmen.my/horsemen-malaysia/",
-        "verdict": "NEUTRAL",
-        "coverageState": "URL is unknown to Google",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
-        "lastCrawlTime": null,
-        "googleCanonical": "https://www.onyxmen.my/horsemen-malaysia/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "VERDICT_UNSPECIFIED"
-      },
-      {
-        "url": "https://www.onyxmen.my/hammer-of-thor-malaysia/",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "pageFetchState": "SUCCESSFUL",
-        "lastCrawlTime": "2026-11-05T01:42:08Z",
-        "googleCanonical": "https://www.onyxmen.my/hammer-of-thor-malaysia/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "PASS"
-      },
-      {
-        "url": "https://www.onyxmen.my/grow-xl-malaysia/",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "pageFetchState": "SUCCESSFUL",
-        "lastCrawlTime": "2026-11-04T20:06:22Z",
-        "googleCanonical": "https://www.onyxmen.my/grow-xl-malaysia/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "PASS"
-      },
-      {
-        "url": "https://www.onyxmen.my/magnum-pump-xr-malaysia/",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "pageFetchState": "SUCCESSFUL",
-        "lastCrawlTime": "2026-11-05T01:01:15Z",
-        "googleCanonical": "https://www.onyxmen.my/magnum-pump-xr-malaysia/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "PASS"
-      },
-      {
-        "url": "https://www.onyxmen.my/ms/",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "pageFetchState": "SUCCESSFUL",
-        "lastCrawlTime": "2026-11-05T01:33:30Z",
-        "googleCanonical": "https://www.onyxmen.my/ms/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "PASS"
-      },
-      {
-        "url": "https://www.onyxmen.my/ms/horsemen-malaysia/",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "pageFetchState": "SUCCESSFUL",
-        "lastCrawlTime": "2026-11-04T23:45:55Z",
-        "googleCanonical": "https://www.onyxmen.my/ms/horsemen-malaysia/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "PASS"
-      },
-      {
-        "url": "https://www.onyxmen.my/ms/hammer-of-thor-malaysia/",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "pageFetchState": "SUCCESSFUL",
-        "lastCrawlTime": "2026-11-03T12:39:28Z",
-        "googleCanonical": "https://www.onyxmen.my/ms/hammer-of-thor-malaysia/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "FAIL"
-      },
-      {
-        "url": "https://www.onyxmen.my/ms/grow-xl-malaysia/",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "pageFetchState": "SUCCESSFUL",
-        "lastCrawlTime": "2026-11-04T23:24:57Z",
-        "googleCanonical": "https://www.onyxmen.my/ms/grow-xl-malaysia/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "PASS"
-      },
-      {
-        "url": "https://www.onyxmen.my/ms/magnum-pump-xr-malaysia/",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "pageFetchState": "SUCCESSFUL",
-        "lastCrawlTime": "2026-11-03T12:50:13Z",
-        "googleCanonical": "https://www.onyxmen.my/ms/magnum-pump-xr-malaysia/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "FAIL"
-      },
-      {
-        "url": "https://www.onyxmen.my/products/horsemen/",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "pageFetchState": "SUCCESSFUL",
-        "lastCrawlTime": "2026-11-03T11:56:42Z",
-        "googleCanonical": "https://www.onyxmen.my/products/horsemen/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "FAIL"
-      },
-      {
-        "url": "https://www.onyxmen.my/products/hammer-of-thor/",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "pageFetchState": "SUCCESSFUL",
-        "lastCrawlTime": "2026-11-05T02:15:07Z",
-        "googleCanonical": "https://www.onyxmen.my/products/hammer-of-thor/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "PASS"
-      },
-      {
-        "url": "https://www.onyxmen.my/products/grow-xl/",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "pageFetchState": "SUCCESSFUL",
-        "lastCrawlTime": "2026-11-04T22:07:47Z",
-        "googleCanonical": "https://www.onyxmen.my/products/grow-xl/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "PASS"
-      },
-      {
-        "url": "https://www.onyxmen.my/products/magnum-pump-xr/",
-        "verdict": "NEUTRAL",
-        "coverageState": "URL is unknown to Google",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
-        "lastCrawlTime": null,
-        "googleCanonical": "https://www.onyxmen.my/products/magnum-pump-xr/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "VERDICT_UNSPECIFIED"
-      },
-      {
-        "url": "https://www.onyxmen.my/ms/produk/horsemen/",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "pageFetchState": "SUCCESSFUL",
-        "lastCrawlTime": "2026-11-05T11:41:28Z",
-        "googleCanonical": "https://www.onyxmen.my/ms/produk/horsemen/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "PASS"
-      },
-      {
-        "url": "https://www.onyxmen.my/ms/produk/hammer-of-thor/",
-        "verdict": "NEUTRAL",
-        "coverageState": "URL is unknown to Google",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
-        "lastCrawlTime": null,
-        "googleCanonical": "https://www.onyxmen.my/ms/produk/hammer-of-thor/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "VERDICT_UNSPECIFIED"
-      },
-      {
-        "url": "https://www.onyxmen.my/ms/produk/grow-xl/",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "pageFetchState": "SUCCESSFUL",
-        "lastCrawlTime": "2026-11-05T00:50:35Z",
-        "googleCanonical": "https://www.onyxmen.my/ms/produk/grow-xl/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "PASS"
-      },
-      {
-        "url": "https://www.onyxmen.my/ms/produk/magnum-pump-xr/",
-        "verdict": "NEUTRAL",
-        "coverageState": "URL is unknown to Google",
-        "indexingState": "INDEXING_STATE_UNSPECIFIED",
-        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
-        "lastCrawlTime": null,
-        "googleCanonical": "https://www.onyxmen.my/ms/produk/magnum-pump-xr/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "VERDICT_UNSPECIFIED"
-      },
-      {
-        "url": "https://www.onyxmen.my/guides/20-capsule-vs-30-capsule-cycle-selection/",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "pageFetchState": "SUCCESSFUL",
-        "lastCrawlTime": "2026-11-05T00:07:41Z",
-        "googleCanonical": "https://www.onyxmen.my/guides/20-capsule-vs-30-capsule-cycle-selection/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "PASS"
-      },
-      {
-        "url": "https://www.onyxmen.my/ms/tentang-kami/",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "pageFetchState": "SUCCESSFUL",
-        "lastCrawlTime": "2026-11-03T11:39:56Z",
-        "googleCanonical": "https://www.onyxmen.my/ms/tentang-kami/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "PASS"
-      },
-      {
-        "url": "https://www.onyxmen.my/compare/",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "pageFetchState": "SUCCESSFUL",
-        "lastCrawlTime": "2026-11-04T16:39:54Z",
-        "googleCanonical": "https://www.onyxmen.my/compare/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "PASS"
-      },
-      {
-        "url": "https://www.onyxmen.my/malaysia/kuala-lumpur/",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "pageFetchState": "SUCCESSFUL",
-        "lastCrawlTime": "2026-11-03T13:59:49Z",
-        "googleCanonical": "https://www.onyxmen.my/malaysia/kuala-lumpur/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "PASS"
-      },
-      {
-        "url": "https://www.onyxmen.my/malaysia/selangor/",
-        "verdict": "PASS",
-        "coverageState": "Submitted and indexed",
-        "indexingState": "INDEXING_ALLOWED",
-        "pageFetchState": "SUCCESSFUL",
-        "lastCrawlTime": "2026-11-03T08:31:09Z",
-        "googleCanonical": "https://www.onyxmen.my/malaysia/selangor/",
-        "crawledAs": "MOBILE",
-        "richResultsVerdict": "PASS"
-      },
-      {
-        "url": "https://www.onyxmen.my/malaysia/johor-bahru/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Submitted in sitemap.xml (Crawl queued)",
-        "lastCrawlTime": null
-      }
-    ]
   }
 }
