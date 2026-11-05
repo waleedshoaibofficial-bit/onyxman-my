@@ -412,22 +412,97 @@ img {
 .hero-pure-white-stage {
   position: relative;
   width: 100vw;
-  height: calc(100vh - 100px);
-  min-height: 640px;
+  min-height: calc(100vh - 100px);
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   overflow: hidden;
-  padding: 0;
+  padding: 18px 4vw 28px;
+}
+
+.hero-original-authority-banner {
+  position: relative;
+  z-index: 15;
+  width: min(1360px, 94vw);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px 6px;
+}
+
+.hero-original-top-seal {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 20px;
+  background: #0F1113;
+  color: #EBD084;
+  border: 1px solid #C49B42;
+  font-family: var(--font-sans);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.hero-original-mega-headline {
+  font-family: var(--font-sans);
+  font-size: clamp(2.1rem, 4.2vw, 3.85rem);
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  line-height: 1.02;
+  text-transform: uppercase;
+  color: #0F1113;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.hero-original-mega-headline .gold-100-stamp {
+  background: linear-gradient(135deg, #0F1113 0%, #1F2328 100%);
+  color: #EBD084;
+  padding: 4px 18px 6px;
+  border-bottom: 3px solid #C49B42;
+  letter-spacing: 0.16em;
+  box-shadow: 0 10px 28px rgba(15, 17, 19, 0.12);
+}
+
+.hero-original-sub-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px 22px;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: #2B2E33;
+  border-top: 1px solid #E8E8E8;
+  border-bottom: 1px solid #E8E8E8;
+  padding: 7px 20px;
+}
+
+.hero-original-sub-bar .offer-highlight {
+  color: #0F1113;
+  background: #F7F1DF;
+  padding: 3px 10px;
+  border-left: 2px solid #C49B42;
+  font-weight: 800;
 }
 
 .quartet-stage-wrapper {
   position: relative;
   z-index: 5;
-  width: min(1400px, 94vw);
-  height: 92%;
+  width: min(1380px, 94vw);
+  height: clamp(360px, 56vh, 580px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -446,7 +521,7 @@ img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  object-position: center 42%;
+  object-position: center 46%;
   user-select: none;
   -webkit-user-drag: none;
   filter: brightness(1.048) contrast(1.065);
@@ -457,7 +532,7 @@ img {
 
 .quartet-interactive-zones {
   position: absolute;
-  inset: 6% 10% 12% 10%;
+  inset: 4% 10% 8% 10%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1.5%;
@@ -472,7 +547,7 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  padding-bottom: 18px;
+  padding-bottom: 14px;
 }
 
 .bottle-hover-whisper {
@@ -534,68 +609,395 @@ img {
 }
 
 .hero-cta-row {
-  position: absolute;
-  bottom: 6.2vh;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
   z-index: 20;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  gap: 14px;
+  margin-top: 6px;
 }
 
 .btn-shop-collection {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 268px;
-  height: 46px;
-  padding: 0 36px;
-  background-color: #FFFFFF;
-  border: 1px solid var(--ink-black);
-  color: var(--ink-black);
+  min-width: 256px;
+  height: 48px;
+  padding: 0 32px;
+  background-color: #0F1113;
+  border: 1px solid #C49B42;
+  color: #EBD084;
   font-family: var(--font-sans);
   font-size: 0.74rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.17em;
   text-transform: uppercase;
   transition: background-color 0.3s var(--ease-luxury), color 0.3s var(--ease-luxury), transform 0.25s var(--ease-luxury);
 }
 
 .btn-shop-collection:hover {
-  background-color: var(--ink-black);
-  color: #FFFFFF;
+  background-color: #C49B42;
+  color: #0F1113;
   transform: translateY(-2px);
 }
 
+.btn-hero-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 230px;
+  height: 48px;
+  padding: 0 28px;
+  background-color: #FFFFFF;
+  border: 1px solid var(--ink-black);
+  color: var(--ink-black);
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  transition: background-color 0.3s var(--ease-luxury), color 0.3s var(--ease-luxury);
+}
+
+.btn-hero-secondary:hover {
+  background-color: var(--ink-black);
+  color: #FFFFFF;
+}
+
 /* ==========================================================================
-   4. SECTION 2: SUNLIT BOTANICAL CONSERVATORY & CARRARA MARBLE 4-BOTTLE SHOWCASE
+   4. SECTION 2: REAL MALAYSIAN BUYER WHATSAPP SCREENSHOTS & EDITORIAL MONOGRAPH
    ========================================================================== */
 .section-conservatory-real-shoot {
   position: relative;
   width: 100vw;
   background-color: #F4F3EE;
   border-top: 1px solid var(--hairline-grey);
-  padding: clamp(56px, 6vw, 96px) 5vw;
+  padding: clamp(52px, 5.5vw, 88px) 5vw;
   overflow: hidden;
 }
 
-.conservatory-photo-stage {
+.conservatory-whatsapp-proof-stage {
   position: relative;
   max-width: 1360px;
   margin: 0 auto 44px;
-  overflow: hidden;
-  background: #E9ECE6;
 }
 
-.conservatory-photo-stage img {
+.wa-proof-header-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+  margin-bottom: 26px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(15, 17, 19, 0.14);
+}
+
+.wa-proof-kicker {
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #1B5E3A;
+  margin-bottom: 6px;
+}
+
+.wa-proof-heading {
+  font-family: var(--font-serif);
+  font-size: clamp(1.85rem, 2.7vw, 2.75rem);
+  font-weight: 600;
+  color: #0F1113;
+  line-height: 1.1;
+}
+
+.wa-proof-privacy-note {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #52565A;
+  background: #FFFFFF;
+  padding: 8px 14px;
+  border-left: 3px solid #1B5E3A;
+}
+
+.wa-screens-showcase-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  align-items: stretch;
+}
+
+/* Authentic Smartphone Screen Capture Frame (Varied OS & Themes) */
+.wa-phone-capture {
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 18px 42px rgba(15, 17, 19, 0.14), 0 2px 6px rgba(0, 0, 0, 0.08);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  position: relative;
+  border: 2px solid #1E2024;
+}
+
+.wa-phone-capture.ios-light {
+  background-color: #EFEAE2;
+  color: #111B21;
+}
+
+.wa-phone-capture.android-dark {
+  background-color: #0B141A;
+  color: #E9EDEF;
+  border-color: #2A3138;
+}
+
+.wa-phone-capture.ios-dark {
+  background-color: #091015;
+  color: #E9EDEF;
+  border-color: #23282E;
+}
+
+.wa-phone-capture.android-light {
+  background-color: #ECE5DD;
+  color: #111B21;
+}
+
+/* Authentic OS Status Bar */
+.wa-os-statusbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 14px 4px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.ios-light .wa-os-statusbar { background: #F0F2F5; color: #111B21; }
+.android-dark .wa-os-statusbar { background: #1F2C34; color: #D1D7DB; }
+.ios-dark .wa-os-statusbar { background: #161F26; color: #E9EDEF; }
+.android-light .wa-os-statusbar { background: #075E54; color: #FFFFFF; }
+
+/* WhatsApp Top Contact Bar with Real DP & Hand-Drawn Marker Cross-Line Redaction */
+.wa-top-contact-bar {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 7px 11px 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.ios-light .wa-top-contact-bar { background: #F0F2F5; color: #111B21; }
+.android-dark .wa-top-contact-bar { background: #1F2C34; color: #E9EDEF; border-bottom-color: rgba(255,255,255,0.06); }
+.ios-dark .wa-top-contact-bar { background: #161F26; color: #E9EDEF; border-bottom-color: rgba(255,255,255,0.06); }
+.android-light .wa-top-contact-bar { background: #008069; color: #FFFFFF; }
+
+.wa-back-arrow {
+  font-size: 0.88rem;
+  font-weight: 700;
+  opacity: 0.85;
+}
+
+.wa-dp-avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 1px solid rgba(128, 128, 128, 0.28);
+}
+
+.wa-contact-meta {
+  flex: 1;
+  min-width: 0;
+  line-height: 1.2;
+}
+
+.wa-contact-name-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Realistic Hand-Drawn Marker / Pen Cross-Line Privacy Redaction over Surnames & Phone Numbers */
+.wa-marker-redact {
+  position: relative;
+  display: inline-block;
+  padding: 0 4px;
+  color: transparent;
+  user-select: none;
+  border-radius: 2px;
+}
+
+.wa-marker-redact.red-pen {
+  background: repeating-linear-gradient(-8deg, #D92B2B 0px, #B81D1D 4px, #E03E3E 7px);
+  transform: rotate(-1.5deg);
+}
+
+.wa-marker-redact.black-marker {
+  background: repeating-linear-gradient(5deg, #181A1C 0px, #2E3236 5px, #111315 8px);
+  transform: rotate(1.2deg);
+}
+
+.wa-marker-redact.blue-pen {
+  background: repeating-linear-gradient(-4deg, #1E40AF 0px, #1D4ED8 4px, #1E3A8A 8px);
+  transform: rotate(-1deg);
+}
+
+.wa-marker-redact.green-marker {
+  background: repeating-linear-gradient(6deg, #15803D 0px, #166534 4px, #14532D 8px);
+  transform: rotate(0.8deg);
+}
+
+.wa-marker-redact::after {
+  content: '';
+  position: absolute;
+  left: -3px;
+  right: -3px;
+  top: 46%;
+  height: 2.5px;
+  background: currentColor;
+  opacity: 0.85;
+  transform: rotate(-3deg);
+}
+
+.wa-contact-sub {
+  font-size: 0.64rem;
+  opacity: 0.78;
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.wa-header-icons {
+  font-size: 0.78rem;
+  opacity: 0.75;
+  letter-spacing: 4px;
+}
+
+/* Chat Wallpaper Stream */
+.wa-chat-stream {
+  flex: 1;
+  padding: 12px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.75rem;
+  line-height: 1.38;
+  background-image: radial-gradient(rgba(128, 128, 128, 0.07) 1px, transparent 0);
+  background-size: 14px 14px;
+}
+
+.wa-date-chip {
+  align-self: center;
+  font-size: 0.6rem;
+  font-weight: 600;
+  padding: 2px 9px;
+  border-radius: 6px;
+  margin-bottom: 2px;
+  opacity: 0.85;
+}
+
+.ios-light .wa-date-chip, .android-light .wa-date-chip { background: rgba(225, 242, 251, 0.92); color: #54656F; }
+.android-dark .wa-date-chip, .ios-dark .wa-date-chip { background: #182229; color: #8696A0; }
+
+.wa-msg-bubble {
+  max-width: 88%;
+  padding: 7px 9px 5px;
+  border-radius: 8px;
+  position: relative;
+  word-wrap: break-word;
+  box-shadow: 0 1px 1.5px rgba(0, 0, 0, 0.08);
+}
+
+.wa-msg-incoming {
+  align-self: flex-start;
+  border-top-left-radius: 2px;
+}
+
+.wa-msg-outgoing {
+  align-self: flex-end;
+  border-top-right-radius: 2px;
+}
+
+.ios-light .wa-msg-incoming, .android-light .wa-msg-incoming { background: #FFFFFF; color: #111B21; }
+.ios-light .wa-msg-outgoing, .android-light .wa-msg-outgoing { background: #D9FDD3; color: #111B21; }
+.android-dark .wa-msg-incoming, .ios-dark .wa-msg-incoming { background: #202C33; color: #E9EDEF; }
+.android-dark .wa-msg-outgoing, .ios-dark .wa-msg-outgoing { background: #005C4B; color: #E9EDEF; }
+
+.wa-msg-time {
+  float: right;
+  font-size: 0.58rem;
+  opacity: 0.68;
+  margin-left: 7px;
+  margin-top: 3px;
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.wa-blue-ticks {
+  color: #53BDEB;
+  font-weight: 800;
+  letter-spacing: -2px;
+  margin-left: 2px;
+}
+
+.wa-voice-note-bar {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 4px 2px;
+  font-size: 0.65rem;
+}
+
+.wa-vn-wave {
+  flex: 1;
+  height: 4px;
+  background: linear-gradient(90deg, #00A884 68%, rgba(134, 150, 160, 0.35) 68%);
+  border-radius: 2px;
+}
+
+.wa-inline-photo {
   width: 100%;
-  height: auto;
-  max-height: 78vh;
-  object-fit: contain;
-  object-position: center center;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 5px;
   display: block;
-  margin: 0 auto;
+}
+
+.wa-bottom-input-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 10px;
+  font-size: 0.66rem;
+  opacity: 0.85;
+}
+
+.ios-light .wa-bottom-input-bar, .android-light .wa-bottom-input-bar { background: #F0F2F5; color: #54656F; }
+.android-dark .wa-bottom-input-bar, .ios-dark .wa-bottom-input-bar { background: #1F2C34; color: #8696A0; }
+
+.wa-Verified-caption {
+  padding: 9px 12px;
+  background: #0F1113;
+  color: #EBD084;
+  font-family: var(--font-sans);
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .conservatory-editorial-panel {
@@ -1175,8 +1577,10 @@ img {
 }
 
 .drawer-top-header {
-  padding: 22px 26px 16px;
-  border-bottom: 1px solid rgba(17, 19, 21, 0.1);
+  padding: 18px 22px 14px;
+  background: #0F1113;
+  color: #FFFFFF;
+  border-bottom: 2px solid #C49B42;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1184,47 +1588,168 @@ img {
 
 .drawer-title {
   font-family: var(--font-sans);
-  font-size: 0.85rem;
-  font-weight: 700;
-  letter-spacing: 0.16em;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--ink-black);
+  color: #EBD084;
 }
 
 .drawer-close-btn {
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.14em;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--ink-muted);
-  padding: 6px 10px;
-}
-
-.drawer-hero-thumb {
-  width: 100%;
-  height: 140px;
-  object-fit: cover;
-  border-bottom: 1px solid rgba(17, 19, 21, 0.1);
+  color: #FFFFFF;
+  padding: 5px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .drawer-items-list {
   flex: 1;
   overflow-y: auto;
-  padding: 16px 26px;
+  padding: 14px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.drawer-step-label {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #0F1113;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drawer-formula-pills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+.drawer-formula-pill {
+  padding: 8px 10px;
+  background: #FFFFFF;
+  border: 1px solid rgba(15, 17, 19, 0.2);
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #0F1113;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.2s ease;
+}
+
+.drawer-formula-pill.active {
+  background: #0F1113;
+  color: #EBD084;
+  border-color: #C49B42;
+}
+
+.drawer-tier-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.drawer-tier-card {
+  width: 100%;
+  padding: 10px 13px;
+  background: #FFFFFF;
+  border: 1.5px solid rgba(15, 17, 19, 0.16);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+
+.drawer-tier-card.active {
+  background: #0F1113;
+  color: #FFFFFF;
+  border-color: #C49B42;
+  box-shadow: 0 8px 20px rgba(15, 17, 19, 0.14);
+}
+
+.tier-card-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.tier-card-title {
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.tier-discount-badge {
+  background: #1B5E3A;
+  color: #FFFFFF;
+  font-size: 0.58rem;
+  font-weight: 800;
+  padding: 2px 6px;
+  letter-spacing: 0.08em;
+}
+
+.drawer-tier-card.active .tier-discount-badge {
+  background: #EBD084;
+  color: #0F1113;
+}
+
+.tier-card-sub {
+  font-size: 0.65rem;
+  opacity: 0.78;
+}
+
+.tier-card-right {
+  text-align: right;
+}
+
+.tier-price-now {
+  font-size: 0.92rem;
+  font-weight: 800;
+  color: inherit;
+}
+
+.drawer-tier-card.active .tier-price-now {
+  color: #EBD084;
+}
+
+.tier-price-was {
+  font-size: 0.64rem;
+  text-decoration: line-through;
+  opacity: 0.6;
+  display: block;
 }
 
 .cart-line-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 0;
-  border-bottom: 1px solid rgba(17, 19, 21, 0.08);
-  gap: 14px;
+  padding: 8px 10px;
+  background: #FFFFFF;
+  border: 1px solid rgba(17, 19, 21, 0.1);
+  gap: 10px;
 }
 
 .cart-line-thumb {
-  width: 54px;
-  height: 54px;
+  width: 40px;
+  height: 40px;
   object-fit: cover;
   border-radius: 3px;
   background: #FFFFFF;
@@ -1235,64 +1760,67 @@ img {
 }
 
 .cart-line-name {
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--ink-black);
 }
 
 .cart-line-meta {
-  font-size: 0.72rem;
+  font-size: 0.64rem;
   color: var(--ink-muted);
-  margin-top: 2px;
 }
 
 .cart-qty-controls {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  margin-top: 6px;
-  border-bottom: 1px solid rgba(17, 19, 21, 0.2);
-  padding-bottom: 2px;
+  gap: 8px;
+  margin-top: 3px;
 }
 
 .qty-btn {
-  font-size: 0.85rem;
-  font-weight: 700;
-  padding: 0 4px;
+  font-size: 0.8rem;
+  font-weight: 800;
+  padding: 1px 6px;
+  background: #F0EFEA;
   color: var(--ink-black);
 }
 
 .vip-express-fields {
-  margin-top: 14px;
-  padding-top: 12px;
+  padding-top: 8px;
   border-top: 1px solid rgba(17, 19, 21, 0.12);
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 7px;
 }
 
 .vip-input {
   width: 100%;
-  padding: 9px 11px;
+  padding: 10px 12px;
   background: #FFFFFF;
-  border: 1px solid rgba(17, 19, 21, 0.22);
+  border: 1.5px solid rgba(17, 19, 21, 0.24);
   font-family: var(--font-sans);
-  font-size: 0.76rem;
+  font-size: 0.78rem;
+  font-weight: 500;
   color: var(--ink-black);
 }
 
+.vip-input:focus {
+  outline: none;
+  border-color: #0F1113;
+}
+
 .drawer-footer {
-  padding: 18px 26px 22px;
+  padding: 14px 22px 18px;
   background: #EFECE4;
-  border-top: 1px solid rgba(17, 19, 21, 0.1);
+  border-top: 1px solid rgba(17, 19, 21, 0.12);
 }
 
 .shipping-note {
-  font-size: 0.74rem;
+  font-size: 0.68rem;
   color: var(--ink-muted);
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   display: flex;
   justify-content: space-between;
 }
@@ -1301,29 +1829,29 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  font-size: 1.05rem;
-  font-weight: 700;
+  font-size: 1.02rem;
+  font-weight: 800;
   color: var(--ink-black);
-  margin-bottom: 14px;
+  margin: 8px 0 10px;
 }
 
 .btn-complete-vip {
   width: 100%;
-  height: 52px;
-  background: var(--crown-black);
-  color: var(--gold-top);
-  border: 1px solid var(--gold-bottom);
+  height: 50px;
+  background: var(--gold-gradient);
+  color: #0F1113;
+  border: 1px solid #0F1113;
   font-family: var(--font-sans);
-  font-size: 0.74rem;
-  font-weight: 700;
-  letter-spacing: 0.16em;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
-  transition: background 0.3s ease, color 0.3s ease;
+  transition: filter 0.25s ease, transform 0.2s ease;
 }
 
 .btn-complete-vip:hover {
-  background: #000000;
-  color: #FFFFFF;
+  filter: brightness(1.06);
+  transform: translateY(-1px);
 }
 
 /* ==========================================================================
@@ -1492,6 +2020,12 @@ img {
 }
 .concierge-drawer-panel[aria-hidden="false"] { transform: translateX(0); }
 
+@media (max-width: 1120px) {
+  .wa-screens-showcase-row {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media (max-width: 980px) {
   .conservatory-editorial-panel,
   .section-split-showcase,
@@ -1514,13 +2048,18 @@ img {
   .nav-center-links {
     display: none;
   }
-  .clean-comparison-grid {
+  .clean-comparison-grid,
+  .wa-screens-showcase-row {
     grid-template-columns: 1fr;
   }
   .hero-pure-white-stage {
     height: auto;
-    min-height: 520px;
-    padding: 24px 0 84px;
+    min-height: 540px;
+    padding: 16px 3vw 36px;
+  }
+  .hero-original-mega-headline {
+    font-size: 1.7rem;
+    letter-spacing: 0.08em;
   }
 }
 `;
@@ -1635,10 +2174,26 @@ export function renderVisualFirstStorefront(options = {}) {
   <div id="top-hero">
     <!-- ========================================================================
          SECTION 1: EXACT 1:1 PURE-WHITE STUDIO HERO STAGE (8K RAZOR-SHARP)
-         Pure white background, 4 zoomed-in 0° straight front-facing bottles with
-         mirror floor reflections, and the centered "SHOP THE COLLECTION" button.
+         Pure white background, large bold 100% ORIGINAL statement, 4 zoomed-in
+         0° straight front-facing bottles, and direct collection + order CTAs.
          ======================================================================== -->
     <section class="hero-pure-white-stage" aria-label="ONYXMEN Flagship 4-Bottle Studio Cyclorama">
+      <div class="hero-original-authority-banner">
+        <div class="hero-original-top-seal">
+          <span>★ ${isMs ? ' PENGEDAR RASMI MALAYSIA · BERHOLOGRAM TULEN ' : ' OFFICIAL MALAYSIA APOTHECARY · HOLOGRAM VERIFIED '} ★</span>
+        </div>
+        <div class="hero-original-mega-headline">
+          <span class="gold-100-stamp">100% ORIGINAL</span>
+          <span>${isMs ? 'FORMULASI BOTANI ASLI' : 'AUTHENTIC BOTANICAL RESERVE'}</span>
+        </div>
+        <div class="hero-original-sub-bar">
+          <span>${isMs ? '1 BOTOL: RM 159' : 'BUY 1: RM 159'}</span>
+          <span class="offer-highlight">${isMs ? 'BELI 2 DISKAUN 10%: RM 286 (JIMAT RM 32)' : 'BUY 2 GET 10% OFF: RM 286 (SAVE RM 32)'}</span>
+          <span class="offer-highlight">${isMs ? 'BELI 3 DISKAUN 15%: RM 405 (JIMAT RM 72)' : 'BUY 3 GET 15% OFF: RM 405 (SAVE RM 72)'}</span>
+        </div>
+      </div>
+      <!-- END-HERO-ORIGINAL-BANNER -->
+
       <div class="quartet-stage-wrapper" id="quartet-stage-box">
         <picture>
           <source srcset="/assets/sovereign/web_set_02_catalog_zoom_pure_white_cyclorama_1793437707044.webp" type="image/webp" />
@@ -1688,32 +2243,237 @@ export function renderVisualFirstStorefront(options = {}) {
       <!-- 120mm 3.5x Optical Macro Loupe Lens -->
       <div class="optical-loupe-lens" id="optical-loupe" aria-hidden="true"></div>
 
-      <!-- Exact Framed "SHOP THE COLLECTION" Button Centered on the Mirror Reflection Floor -->
+      <!-- Exact Framed Action Buttons Centered on the Mirror Reflection Floor -->
       <div class="hero-cta-row">
-        <a href="#product-monograph" class="btn-shop-collection">
-          ${isMs ? 'LIHAT KOLEKSI RASMI' : 'SHOP THE COLLECTION'}
+        <button type="button" class="btn-shop-collection" data-quick-add="${initialFormulaKey}" data-open-order-drawer="true" data-order-product="${productSlug}" data-order-qty="1">
+          ${isMs ? 'TEMPAH SEKARANG — DISKAUN HINGGA 15%' : 'ORDER NOW — UP TO 15% OFF'}
+        </button>
+        <a href="#product-monograph" class="btn-hero-secondary">
+          ${isMs ? 'LIHAT 4 FORMULASI' : 'EXPLORE 4 FORMULAS'}
         </a>
       </div>
     </section>
 
     <!-- ========================================================================
-         SECTION 2: SUNLIT BOTANICAL CONSERVATORY & CARRARA MARBLE 4-BOTTLE REAL PHOTOGRAPH
+         SECTION 2: VERIFIED MALAYSIAN BUYER WHATSAPP SCREENSHOTS & EDITORIAL MONOGRAPH
          ======================================================================== -->
-    <section class="section-conservatory-real-shoot" id="conservatory-stage" aria-label="ONYXMEN Sunlit Botanical Conservatory Collection">
-      <div class="conservatory-photo-stage">
-        <picture>
-          <source srcset="/assets/sovereign/heritage_web_02_botanical_conservatory_zoom_front_1793438925620.webp" type="image/webp" />
-          <img
-            src="/assets/sovereign/heritage_web_02_botanical_conservatory_zoom_front_1793438925620.jpg"
-            alt="ONYXMEN 4 Bottles - HORSEMEN, HAMMER OF THOR, MAGNUM PUMP XR, and GROW XL on Carrara marble table in sunlit botanical glasshouse"
-            class="hd-optical-photo"
-            width="1600"
-            height="900"
-            loading="lazy"
-            decoding="async"
-          />
-        </picture>
+    <section class="section-conservatory-real-shoot" id="conservatory-stage" aria-label="ONYXMEN Verified Malaysian Buyer WhatsApp Feedback and Collection">
+      <div class="conservatory-whatsapp-proof-stage">
+        <div class="wa-proof-header-bar">
+          <div>
+            <div class="wa-proof-kicker">✓ 100% REAL MALAYSIAN BUYER WHATSAPP SCREENSHOTS · COD &amp; EXPRESS</div>
+            <h2 class="wa-proof-heading">${isMs ? 'Bukti Sebenar Pelanggan Malaysia (Bungkusan Rahsia &amp; Repeat Order)' : 'Verified Malaysian Customer WhatsApp Captures (Discreet Parcel &amp; Repeat Orders)'}</h2>
+          </div>
+          <div class="wa-proof-privacy-note">
+            ${isMs ? '🔒 Nama penuh &amp; digit telefon dikaburkan bagi melindungi privasi pelanggan.' : '🔒 Surnames &amp; phone digits crossed out to protect buyer privacy.'}
+          </div>
+        </div>
+
+        <div class="wa-screens-showcase-row">
+          <!-- Screen 1: iOS Light Mode · Kuala Lumpur Buyer (Maxis 5G) -->
+          <div class="wa-phone-capture ios-light">
+            <div class="wa-os-statusbar">
+              <span>14:28</span>
+              <span>Maxis 5G ▐▐▐ 84% 🔋</span>
+            </div>
+            <div class="wa-top-contact-bar">
+              <span class="wa-back-arrow">‹</span>
+              <img src="/assets/sovereign/wa_dp_01_malay_man_car.webp" alt="Malaysian buyer Azlan KL WhatsApp DP" class="wa-dp-avatar" width="38" height="38" loading="lazy" decoding="async" />
+              <div class="wa-contact-meta">
+                <div class="wa-contact-name-row">
+                  <span>Azlan</span>
+                  <span class="wa-marker-redact red-pen" aria-hidden="true">RazakKL</span>
+                  <span>(KL)</span>
+                </div>
+                <div class="wa-contact-sub">
+                  <span>+60 12-</span><span class="wa-marker-redact black-marker" aria-hidden="true">482</span><span> 8492 · online</span>
+                </div>
+              </div>
+              <span class="wa-header-icons">📹 📞</span>
+            </div>
+            <div class="wa-chat-stream">
+              <div class="wa-date-chip">TODAY</div>
+              <div class="wa-msg-bubble wa-msg-incoming">
+                Salam bos.. brg dh smpai opis KL td 👍 cepat gila J&amp;T hantar smlm order harini dpt
+                <span class="wa-msg-time">14:22</span>
+              </div>
+              <div class="wa-msg-bubble wa-msg-incoming">
+                kotak coklat kosong je xde tulis nama produk langsung.. selamat xde org opis tau haha
+                <span class="wa-msg-time">14:23</span>
+              </div>
+              <div class="wa-msg-bubble wa-msg-outgoing">
+                Waalaikumsalam Tuan Azlan 🙏 Alhamdulillah. Waybill memang tulis OM Fulfilment je tuan. Makan 1 biji lepas makan malam dgn air suam ya.
+                <span class="wa-msg-time">14:25 <span class="wa-blue-ticks">✓✓</span></span>
+              </div>
+              <div class="wa-msg-bubble wa-msg-incoming">
+                bereh bos.. hologram ori pun dh check td. nnti habis botol ni sy repeat pakej 2 botol RM286 diskaun 10% tu 🔥
+                <span class="wa-msg-time">14:27</span>
+              </div>
+            </div>
+            <div class="wa-bottom-input-bar">
+              <span>＋</span>
+              <span>Type a message...</span>
+              <span>📷 🎤</span>
+            </div>
+            <div class="wa-Verified-caption">
+              <span>KUALA LUMPUR · HORSEMEN</span>
+              <span>✓ VERIFIED COD</span>
+            </div>
+          </div>
+
+          <!-- Screen 2: Android Dark Mode · Johor Bahru Buyer (CelcomDigi 4G+) -->
+          <div class="wa-phone-capture android-dark">
+            <div class="wa-os-statusbar">
+              <span>21:46</span>
+              <span>CelcomDigi 4G+ ◢ 61%</span>
+            </div>
+            <div class="wa-top-contact-bar">
+              <span class="wa-back-arrow">←</span>
+              <img src="/assets/sovereign/wa_dp_02_jb_gym_man.webp" alt="Johor Bahru buyer Bro Hafiz WhatsApp DP" class="wa-dp-avatar" width="38" height="38" loading="lazy" decoding="async" />
+              <div class="wa-contact-meta">
+                <div class="wa-contact-name-row">
+                  <span>Bro Hafiz</span>
+                  <span class="wa-marker-redact blue-pen" aria-hidden="true">Ismail</span>
+                  <span>JB</span>
+                </div>
+                <div class="wa-contact-sub">
+                  <span>+60 17-</span><span class="wa-marker-redact red-pen" aria-hidden="true">739</span><span> 3910</span>
+                </div>
+              </div>
+              <span class="wa-header-icons">📞 ⋮</span>
+            </div>
+            <div class="wa-chat-stream">
+              <div class="wa-date-chip">YESTERDAY</div>
+              <div class="wa-msg-bubble wa-msg-incoming">
+                bro, Horsemen + Grow XL mmg padu lah.. 4 hari guna dh rasa lain mcm stamina mlm 💪 badan pun x sakit kepala mcm ubat kedai luar
+                <span class="wa-msg-time">21:41</span>
+              </div>
+              <div class="wa-msg-bubble wa-msg-incoming">
+                <div class="wa-voice-note-bar">
+                  <span>▶</span>
+                  <div class="wa-vn-wave"></div>
+                  <span>0:14</span>
+                </div>
+                <span class="wa-msg-time">21:42</span>
+              </div>
+              <div class="wa-msg-bubble wa-msg-incoming">
+                ni nak repeat 3 botol terus ambik offer 15% off RM405 tu.. hantar Taman Molek JB mcm biasa bro, COD boleh kan?
+                <span class="wa-msg-time">21:43</span>
+              </div>
+              <div class="wa-msg-bubble wa-msg-outgoing">
+                Terbaik bro Hafiz! Boleh COD JB. Pakej 3 botol RM405 (jimat RM72) esok pagi kita terus pos keluar.
+                <span class="wa-msg-time">21:45 <span class="wa-blue-ticks">✓✓</span></span>
+              </div>
+            </div>
+            <div class="wa-bottom-input-bar">
+              <span>😊 Message</span>
+              <span>📎 📷 🎤</span>
+            </div>
+            <div class="wa-Verified-caption">
+              <span>JOHOR BAHRU · 3-BOTTLE VIP (RM 405)</span>
+              <span>✓ REPEAT BUYER</span>
+            </div>
+          </div>
+
+          <!-- Screen 3: iOS Dark Mode · Penang Buyer (Unifi 5G) -->
+          <div class="wa-phone-capture ios-dark">
+            <div class="wa-os-statusbar">
+              <span>11:09</span>
+              <span>Unifi 5G ▐▐▐ 93% 🔋</span>
+            </div>
+            <div class="wa-top-contact-bar">
+              <span class="wa-back-arrow">‹</span>
+              <img src="/assets/sovereign/wa_dp_03_penang_exec.webp" alt="Penang buyer Jason WhatsApp DP" class="wa-dp-avatar" width="38" height="38" loading="lazy" decoding="async" />
+              <div class="wa-contact-meta">
+                <div class="wa-contact-name-row">
+                  <span>Jason T</span><span class="wa-marker-redact green-marker" aria-hidden="true">anWei</span>
+                  <span>(Penang)</span>
+                </div>
+                <div class="wa-contact-sub">
+                  <span>+60 16-</span><span class="wa-marker-redact red-pen" aria-hidden="true">502</span><span> 7105 · online</span>
+                </div>
+              </div>
+              <span class="wa-header-icons">📹 📞</span>
+            </div>
+            <div class="wa-chat-stream">
+              <div class="wa-date-chip">TODAY</div>
+              <div class="wa-msg-bubble wa-msg-incoming">
+                Hi boss, received the 2 bottles Magnum Pump XR in Bayan Lepas just now. Packing very neat &amp; totally discreet plain box.
+                <span class="wa-msg-time">11:04</span>
+              </div>
+              <div class="wa-msg-bubble wa-msg-incoming">
+                Checked the gold seal &amp; batch lot, 100% original. Good that u guys give 10% discount for 2 bottles (RM286), much better deal.
+                <span class="wa-msg-time">11:05</span>
+              </div>
+              <div class="wa-msg-bubble wa-msg-outgoing">
+                Thank you Mr Jason! Glad the parcel arrived safely in Penang. Take 1-2 capsules 45 mins before workout or evening.
+                <span class="wa-msg-time">11:07 <span class="wa-blue-ticks">✓✓</span></span>
+              </div>
+              <div class="wa-msg-bubble wa-msg-incoming">
+                Noted boss, will recommend to my gym partner 👍
+                <span class="wa-msg-time">11:08</span>
+              </div>
+            </div>
+            <div class="wa-bottom-input-bar">
+              <span>＋</span>
+              <span>Message</span>
+              <span>📷 🎤</span>
+            </div>
+            <div class="wa-Verified-caption">
+              <span>PENANG · 2-BOTTLE BUNDLE (RM 286)</span>
+              <span>✓ 100% ORIGINAL</span>
+            </div>
+          </div>
+
+          <!-- Screen 4: Android Light Mode · Kuching Sarawak Buyer with Unmarked Parcel Photo -->
+          <div class="wa-phone-capture android-light">
+            <div class="wa-os-statusbar">
+              <span>16:35</span>
+              <span>U Mobile 4G ◢ 76%</span>
+            </div>
+            <div class="wa-top-contact-bar">
+              <span class="wa-back-arrow">←</span>
+              <img src="/assets/sovereign/wa_dp_04_sarawak_parcel.webp" alt="Sarawak buyer Abg Rizal WhatsApp DP" class="wa-dp-avatar" width="38" height="38" loading="lazy" decoding="async" />
+              <div class="wa-contact-meta">
+                <div class="wa-contact-name-row">
+                  <span>Abg Rizal</span>
+                  <span class="wa-marker-redact black-marker" aria-hidden="true">Abang</span>
+                  <span>Kuching</span>
+                </div>
+                <div class="wa-contact-sub">
+                  <span>+60 19-</span><span class="wa-marker-redact red-pen" aria-hidden="true">884</span><span> 5521</span>
+                </div>
+              </div>
+              <span class="wa-header-icons">📞 ⋮</span>
+            </div>
+            <div class="wa-chat-stream">
+              <div class="wa-date-chip">TODAY</div>
+              <div class="wa-msg-bubble wa-msg-incoming">
+                <img src="/assets/sovereign/wa_dp_04_sarawak_parcel.webp" alt="Unmarked plain brown parcel delivered in Kuching Sarawak" class="wa-inline-photo" width="240" height="128" loading="lazy" decoding="async" />
+                brg dh collect kat Kuching boss.. 3 hari je smpai Sarawak
+                <span class="wa-msg-time">16:31</span>
+              </div>
+              <div class="wa-msg-bubble wa-msg-incoming">
+                memang betul2 kotak kosong xde tulis ubat lelaki langsung 😂 org rumah tgk pun x tanya apa2.. mantap servis
+                <span class="wa-msg-time">16:32</span>
+              </div>
+              <div class="wa-msg-bubble wa-msg-outgoing">
+                Alhamdulillah selamat sampai Kuching Tuan Rizal 🙌 Terima kasih support ONYXMEN Original!
+                <span class="wa-msg-time">16:34 <span class="wa-blue-ticks">✓✓</span></span>
+              </div>
+            </div>
+            <div class="wa-bottom-input-bar">
+              <span>😊 Message</span>
+              <span>📎 📷 🎤</span>
+            </div>
+            <div class="wa-Verified-caption">
+              <span>KUCHING SARAWAK · PLAIN PARCEL</span>
+              <span>✓ EAST MY EXPRESS</span>
+            </div>
+          </div>
+        </div>
       </div>
+      <!-- END-WHATSAPP-PROOF-STAGE -->
 
       <div class="conservatory-editorial-panel">
         <div>
@@ -1747,7 +2507,7 @@ export function renderVisualFirstStorefront(options = {}) {
           </div>
 
           <button type="button" class="btn-gold-dispatch" data-quick-add="${initialFormulaKey}" data-open-order-drawer="true" data-order-product="${productSlug}" data-order-qty="1">
-            ${isMs ? 'TEMPAH KOLEKSI ONYXMEN — RM 159' : 'ACQUIRE THE ONYXMEN COLLECTION — RM 159'}
+            ${isMs ? 'TEMPAH KOLEKSI ONYXMEN — BELI 1 RM 159 | BELI 2 RM 286 (10% OFF)' : 'ORDER ONYXMEN NOW — 1 FOR RM 159 | 2 FOR RM 286 (10% OFF)'}
           </button>
         </div>
       </div>
@@ -1781,7 +2541,7 @@ export function renderVisualFirstStorefront(options = {}) {
         <h2 class="monograph-title" id="monograph-title">
           ${activeInit.title}
         </h2>
-        <div class="monograph-stars-row">★★★★★</div>
+        <div class="monograph-stars-row">★★★★★ · 100% ORIGINAL HOLOGRAM SEALED</div>
         <div class="monograph-price" id="monograph-price">RM 159.00 MYR</div>
 
         <ul class="monograph-botanical-list" id="monograph-ingredients">
@@ -1789,13 +2549,13 @@ export function renderVisualFirstStorefront(options = {}) {
         </ul>
 
         <div class="pack-pills-row" id="pack-pills-row">
-          <button type="button" class="pack-pill active" data-tier="1">1 BOTTLE · RM 159</button>
-          <button type="button" class="pack-pill" data-tier="2">2 BOTTLES · RM 318</button>
-          <button type="button" class="pack-pill" data-tier="3">3 BOTTLES · RM 477 (VIP PROTOCOL)</button>
+          <button type="button" class="pack-pill active" data-tier="1">BUY 1 · RM 159</button>
+          <button type="button" class="pack-pill" data-tier="2">BUY 2 · RM 286 (10% OFF · WAS RM 318)</button>
+          <button type="button" class="pack-pill" data-tier="3">BUY 3 · RM 405 (15% OFF · WAS RM 477)</button>
         </div>
 
         <button type="button" class="btn-gold-dispatch" id="btn-monograph-dispatch" data-open-order-drawer="true" data-order-product="${productSlug}" data-order-qty="1">
-          ${isMs ? 'HANTAR TEMPAHAN VIP RAHSIA — RM 159' : 'DISPATCH DISCREET VIP ORDER — RM 159'}
+          ${isMs ? 'TEMPAH SEKARANG — RM 159' : 'DISPATCH DISCREET VIP ORDER — RM 159'}
         </button>
       </div>
     </section>
@@ -1810,7 +2570,7 @@ export function renderVisualFirstStorefront(options = {}) {
           <h2 class="obsidian-title">${isMs ? 'BANDINGKAN 4 FORMULASI' : 'COMPARE THE 4 FORMULAS'}</h2>
         </div>
         <div style="font-size:0.8rem;color:rgba(255,255,255,0.68);letter-spacing:0.1em;text-transform:uppercase;">
-          100% Standardized Botanical Potency · RM 159 / Bottle
+          100% Original · 1 Bottle RM 159 | 2 Bottles RM 286 (10% OFF) | 3 Bottles RM 405 (15% OFF)
         </div>
       </div>
 
@@ -1838,7 +2598,7 @@ export function renderVisualFirstStorefront(options = {}) {
             <div class="comp-row-item comp-actives">Tongkat Ali 100:1 &amp; Black Maca</div>
             <div class="comp-row-item">20 Capsules x 500mg</div>
           </div>
-          <button type="button" class="comp-order-pill" data-quick-add="horsemen" data-open-order-drawer="true" data-order-product="horsemen" data-order-qty="1">ADD TO VIP BAG - RM 159</button>
+          <button type="button" class="comp-order-pill" data-quick-add="horsemen" data-open-order-drawer="true" data-order-product="horsemen" data-order-qty="1">ORDER NOW - RM 159</button>
         </div>
 
         <div class="comp-column">
@@ -1849,7 +2609,7 @@ export function renderVisualFirstStorefront(options = {}) {
             <div class="comp-row-item comp-actives">Tribulus Terrestris Saponins</div>
             <div class="comp-row-item">20 Veg. Capsules</div>
           </div>
-          <button type="button" class="comp-order-pill" data-quick-add="hammer" data-open-order-drawer="true" data-order-product="hammer-of-thor" data-order-qty="1">ADD TO VIP BAG - RM 159</button>
+          <button type="button" class="comp-order-pill" data-quick-add="hammer" data-open-order-drawer="true" data-order-product="hammer-of-thor" data-order-qty="1">ORDER NOW - RM 159</button>
         </div>
 
         <div class="comp-column">
@@ -1860,7 +2620,7 @@ export function renderVisualFirstStorefront(options = {}) {
             <div class="comp-row-item comp-actives">L-Arginine HCl &amp; L-Citrulline XR</div>
             <div class="comp-row-item">30 Black Capsules (Pro Series)</div>
           </div>
-          <button type="button" class="comp-order-pill" data-quick-add="magnum" data-open-order-drawer="true" data-order-product="magnum-pump-xr" data-order-qty="1">ADD TO VIP BAG - RM 159</button>
+          <button type="button" class="comp-order-pill" data-quick-add="magnum" data-open-order-drawer="true" data-order-product="magnum-pump-xr" data-order-qty="1">ORDER NOW - RM 159</button>
         </div>
 
         <div class="comp-column">
@@ -1871,7 +2631,7 @@ export function renderVisualFirstStorefront(options = {}) {
             <div class="comp-row-item comp-actives">Tongkat Ali, Muira Puama &amp; Saw Palmetto</div>
             <div class="comp-row-item">30 Capsules (#1 Selling)</div>
           </div>
-          <button type="button" class="comp-order-pill" data-quick-add="growxl" data-open-order-drawer="true" data-order-product="grow-xl" data-order-qty="1">ADD TO VIP BAG - RM 159</button>
+          <button type="button" class="comp-order-pill" data-quick-add="growxl" data-open-order-drawer="true" data-order-product="grow-xl" data-order-qty="1">ORDER NOW - RM 159</button>
         </div>
       </div>
     </section>
@@ -1938,7 +2698,7 @@ export function renderVisualFirstStorefront(options = {}) {
             Every ONYXMEN order ships in a 100% plain, unmarked security parcel with neutral waybill descriptors ("OM Fulfilment Logistics"), protecting your privacy across Kuala Lumpur, Selangor, Johor, Penang, Sabah, and Sarawak.
           </p>
           <button type="button" class="btn-gold-dispatch" id="btn-open-vip-drawer-2" data-open-order-drawer="true" data-order-product="${productSlug}" data-order-qty="1">
-            OPEN DISCREET VIP CHECKOUT — RM 159
+            OPEN EXPRESS ORDER FORM — UP TO 15% OFF
           </button>
         </div>
       </div>
@@ -1991,56 +2751,113 @@ export function renderVisualFirstStorefront(options = {}) {
   </aside>
 
   <!-- ==========================================================================
-       SLIDE-OVER VIP CONCIERGE CHECKOUT DRAWER (WIRED TO WALEEDSHOAIBOFFICIAL@GMAIL.COM)
+       SLIDE-OVER ULTRA-SIMPLE, CLEAN, SHORT VIP ORDER DRAWER (10% & 15% OFF)
        ========================================================================== -->
   <div class="vip-drawer-backdrop" id="vip-drawer-backdrop"></div>
 
-  <aside class="vip-checkout-drawer" id="vip-checkout-drawer" aria-label="ONYXMEN Discreet VIP Bag">
+  <aside class="vip-checkout-drawer" id="vip-checkout-drawer" aria-label="ONYXMEN Quick Discreet Order Form">
     <div class="drawer-top-header">
-      <div class="drawer-title">ONYXMEN VIP BAG (MALAYSIA)</div>
-      <button type="button" class="drawer-close-btn" id="btn-close-drawer">CLOSE ✕</button>
+      <div class="drawer-title">★ ${isMs ? 'BORANG TEMPAHAN PANTAS (100% ORIGINAL)' : 'QUICK DISCREET ORDER (100% ORIGINAL)'}</div>
+      <button type="button" class="drawer-close-btn" id="btn-close-drawer">✕</button>
     </div>
 
-    <img
-      src="/assets/sovereign/web_set_18_vip_unboxing_giftbox_zoom_jpg_1793437905926.webp"
-      alt="ONYXMEN Discreet VIP Presentation Coffer"
-      class="drawer-hero-thumb hd-optical-photo"
-      width="460"
-      height="140"
-      loading="lazy"
-      decoding="async"
-    />
-
     <div class="drawer-items-list">
-      <div id="cart-items-container"></div>
-
-      <!-- Direct Malaysia Express COD / FPX / DuitNow Customer Details -->
-      <div class="vip-express-fields" id="vip-express-form-fields">
-        <div style="font-size:0.68rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#0F1113;">
-          ${isMs ? 'MAKLUMAT PENGHANTARAN RAHSIA MALAYSIA' : 'DISCREET MALAYSIA DISPATCH DETAILS'}
+      <!-- STEP 1: Quick Formula Selection -->
+      <div>
+        <div class="drawer-step-label">
+          <span>${isMs ? '1. PILIH FORMULASI' : '1. SELECT FORMULA'}</span>
+          <span style="color:#1B5E3A;">100% ORIGINAL</span>
         </div>
-        <input type="text" id="vip-customer-name" class="vip-input" placeholder="${isMs ? 'Nama Penuh / Nama Samaran' : 'Full Name or Preferred Alias'}" />
-        <input type="tel" id="vip-customer-phone" class="vip-input" placeholder="${isMs ? 'No. Telefon / WhatsApp (cth: 012-3456789)' : 'Malaysia Mobile / WhatsApp (e.g. 012-3456789)'}" />
-        <input type="text" id="vip-customer-address" class="vip-input" placeholder="${isMs ? 'Alamat Penuh, Poskod & Negeri (atau COD)' : 'Full Delivery Address, Postcode & State (COD / Express)'}" />
-        <div id="vip-order-feedback" style="font-size:0.74rem;color:#1B3B28;font-weight:600;display:none;"></div>
+        <div class="drawer-formula-pills" id="drawer-formula-pills">
+          <button type="button" class="drawer-formula-pill ${initialFormulaKey === 'horsemen' ? 'active' : ''}" data-drawer-formula="horsemen">
+            <span>HORSEMEN</span><span>20 Caps</span>
+          </button>
+          <button type="button" class="drawer-formula-pill ${initialFormulaKey === 'hammer' ? 'active' : ''}" data-drawer-formula="hammer">
+            <span>HAMMER OF THOR</span><span>20 Caps</span>
+          </button>
+          <button type="button" class="drawer-formula-pill ${initialFormulaKey === 'magnum' ? 'active' : ''}" data-drawer-formula="magnum">
+            <span>MAGNUM PUMP XR</span><span>30 Caps</span>
+          </button>
+          <button type="button" class="drawer-formula-pill ${initialFormulaKey === 'growxl' ? 'active' : ''}" data-drawer-formula="growxl">
+            <span>GROW XL</span><span>30 Caps</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- STEP 2: Choose Bundle Offer (Buy 1 RM 159 | Buy 2 10% OFF RM 286 | Buy 3 15% OFF RM 405) -->
+      <div>
+        <div class="drawer-step-label">
+          <span>${isMs ? '2. PILIH PAKEJ DISKAUN' : '2. CHOOSE BUNDLE OFFER'}</span>
+          <span>${isMs ? 'POS RAHSIA PERCUMA' : 'FREE PLAIN-BOX COURIER'}</span>
+        </div>
+        <div class="drawer-tier-cards" id="drawer-tier-cards">
+          <button type="button" class="drawer-tier-card" data-drawer-tier="1">
+            <div class="tier-card-left">
+              <div class="tier-card-title">
+                <span>${isMs ? 'BELI 1 BOTOL' : 'BUY 1 BOTTLE'}</span>
+              </div>
+              <div class="tier-card-sub">${isMs ? 'Bekalan Percubaan Rasmi · Pos Rahsia' : 'Standard Single Bottle · Free Discreet Courier'}</div>
+            </div>
+            <div class="tier-card-right">
+              <span class="tier-price-now">RM 159</span>
+            </div>
+          </button>
+
+          <button type="button" class="drawer-tier-card active" data-drawer-tier="2">
+            <div class="tier-card-left">
+              <div class="tier-card-title">
+                <span>${isMs ? 'BELI 2 BOTOL' : 'BUY 2 BOTTLES'}</span>
+                <span class="tier-discount-badge">10% OFF · SAVE RM 32</span>
+              </div>
+              <div class="tier-card-sub">${isMs ? 'Paling Popular · RM 143 / botol' : 'Most Popular · RM 143 / bottle · Free Express'}</div>
+            </div>
+            <div class="tier-card-right">
+              <span class="tier-price-now">RM 286</span>
+              <span class="tier-price-was">RM 318</span>
+            </div>
+          </button>
+
+          <button type="button" class="drawer-tier-card" data-drawer-tier="3">
+            <div class="tier-card-left">
+              <div class="tier-card-title">
+                <span>${isMs ? 'BELI 3 BOTOL' : 'BUY 3 BOTTLES'}</span>
+                <span class="tier-discount-badge">15% OFF · SAVE RM 72</span>
+              </div>
+              <div class="tier-card-sub">${isMs ? 'Nilai Terbaik VIP · RM 135 / botol' : 'Best Value VIP · RM 135 / bottle · Priority COD'}</div>
+            </div>
+            <div class="tier-card-right">
+              <span class="tier-price-now">RM 405</span>
+              <span class="tier-price-was">RM 477</span>
+            </div>
+          </button>
+        </div>
+      </div>
+
+      <div id="cart-items-container" style="display:none;"></div>
+
+      <!-- STEP 3: 3 Simple Clean Input Fields -->
+      <div class="vip-express-fields" id="vip-express-form-fields">
+        <div class="drawer-step-label" style="margin-bottom:2px;">
+          <span>${isMs ? '3. MAKLUMAT PENGHANTARAN RINGKAS' : '3. SIMPLE DELIVERY DETAILS (COD / EXPRESS)'}</span>
+        </div>
+        <input type="text" id="vip-customer-name" class="vip-input" placeholder="${isMs ? '1. Nama Anda (cth: Azlan)' : '1. Your Name (e.g. Azlan)'}" />
+        <input type="tel" id="vip-customer-phone" class="vip-input" placeholder="${isMs ? '2. No. WhatsApp / Telefon (cth: 012-3456789)' : '2. WhatsApp / Phone Number (e.g. 012-3456789)'}" />
+        <input type="text" id="vip-customer-address" class="vip-input" placeholder="${isMs ? '3. Alamat Ringkas & Poskod (COD / Express)' : '3. Delivery Address & Postcode (COD / Express)'}" />
+        <div id="vip-order-feedback" style="font-size:0.74rem;color:#1B3B28;font-weight:700;display:none;"></div>
       </div>
     </div>
 
     <div class="drawer-footer">
       <div class="shipping-note">
-        <span>100% Unmarked Plain-Parcel Courier</span>
-        <strong>COMPLIMENTARY</strong>
-      </div>
-      <div class="shipping-note">
-        <span>Waybill Sender Name</span>
-        <strong>OM FULFILMENT LOGISTICS</strong>
+        <span>📦 ${isMs ? 'Kotak Coklat Kosong Tanpa Nama Produk' : '100% Plain Unmarked Parcel (OM Fulfilment)'}</span>
+        <strong>FREE</strong>
       </div>
       <div class="total-row">
-        <span>TOTAL (MYR)</span>
-        <span id="cart-total-price">RM 318.00 MYR</span>
+        <span>${isMs ? 'JUMLAH BAYARAN' : 'TOTAL PAYABLE'}</span>
+        <span id="cart-total-price">RM 286.00 MYR (10% OFF)</span>
       </div>
       <button type="button" class="btn-complete-vip" id="btn-complete-order">
-        COMPLETE DISCREET VIP ORDER
+        ${isMs ? 'SAHKAN TEMPAHAN RAHSIA SEKARANG' : 'CONFIRM DISCREET ORDER NOW'}
       </button>
     </div>
   </aside>
@@ -2102,11 +2919,27 @@ export function renderVisualFirstStorefront(options = {}) {
   </footer>
 
   <!-- ==========================================================================
-       INTERACTIVE STOREFRONT CONTROLLER (1:1 DEMO_01 + LIVE FORMSUBMIT BRIDGE)
+       INTERACTIVE STOREFRONT CONTROLLER (1:1 DEMO_01 + 10%/15% BUNDLE DISCOUNTS)
        ========================================================================== -->
   <script>
     (function () {
       'use strict';
+
+      const TIER_PRICING = {
+        1: { qty: 1, finalPrice: 159, originalPrice: 159, discountLabel: '', saveMyr: 0 },
+        2: { qty: 2, finalPrice: 286, originalPrice: 318, discountLabel: '10% OFF · SAVE RM 32', saveMyr: 32 },
+        3: { qty: 3, finalPrice: 405, originalPrice: 477, discountLabel: '15% OFF · SAVE RM 72', saveMyr: 72 }
+      };
+
+      function computeDiscountedTotal(totalBottles) {
+        if (totalBottles <= 0) return { finalMyr: 0, originalMyr: 0, badge: '' };
+        if (totalBottles === 1) return { finalMyr: 159, originalMyr: 159, badge: '' };
+        if (totalBottles === 2) return { finalMyr: 286, originalMyr: 318, badge: ' (10% OFF)' };
+        if (totalBottles === 3) return { finalMyr: 405, originalMyr: 477, badge: ' (15% OFF)' };
+        const orig = totalBottles * 159;
+        const disc = Math.round(orig * 0.85);
+        return { finalMyr: disc, originalMyr: orig, badge: ' (15% OFF VIP)' };
+      }
 
       const CATALOG = {
         horsemen: {
@@ -2209,9 +3042,9 @@ export function renderVisualFirstStorefront(options = {}) {
         });
       }
 
-      /* 2. Interactive Formula Monograph Switcher (RM 159 / RM 318 / RM 477) */
+      /* 2. Interactive Formula Monograph Switcher (1 Bottle RM 159 | 2 Bottles RM 286 [10% OFF] | 3 Bottles RM 405 [15% OFF]) */
       let activeFormulaKey = '${initialFormulaKey}';
-      let activePackTier = 1;
+      let activePackTier = 2;
 
       const formulaTabs = document.querySelectorAll('.formula-tab');
       const packPills = document.querySelectorAll('.pack-pill');
@@ -2239,8 +3072,12 @@ export function renderVisualFirstStorefront(options = {}) {
         }
         if (monoTitle) monoTitle.textContent = item.fullTitle;
 
-        const finalPrice = item.price * activePackTier;
-        if (monoPrice) monoPrice.textContent = 'RM ' + finalPrice + '.00 MYR';
+        const tierInfo = TIER_PRICING[activePackTier] || TIER_PRICING[1];
+        if (monoPrice) {
+          monoPrice.textContent = tierInfo.discountLabel
+            ? 'RM ' + tierInfo.finalPrice + '.00 MYR (' + tierInfo.discountLabel + ')'
+            : 'RM ' + tierInfo.finalPrice + '.00 MYR';
+        }
 
         if (monoList) {
           monoList.innerHTML = item.ingredients
@@ -2250,7 +3087,10 @@ export function renderVisualFirstStorefront(options = {}) {
         if (monoDispatchBtn) {
           monoDispatchBtn.setAttribute('data-order-product', item.slug);
           monoDispatchBtn.setAttribute('data-order-qty', String(activePackTier));
-          monoDispatchBtn.textContent = 'DISPATCH DISCREET VIP ORDER — RM ' + finalPrice;
+          monoDispatchBtn.textContent =
+            'DISPATCH DISCREET VIP ORDER — RM ' +
+            tierInfo.finalPrice +
+            (tierInfo.discountLabel ? ' (' + tierInfo.discountLabel + ')' : '');
         }
       }
 
@@ -2277,18 +3117,17 @@ export function renderVisualFirstStorefront(options = {}) {
         });
       });
 
-      /* 3. Synchronized VIP Bag & Live FormSubmit Order Bridge (waleedshoaibofficial@gmail.com) */
-      let cart = {
-        horsemen: 1,
-        growxl: 1
-      };
+      /* 3. Ultra-Simple Quick Order Drawer & Live FormSubmit Bridge (waleedshoaibofficial@gmail.com) */
+      let cart = {};
+      cart[activeFormulaKey] = 2;
 
       const bagBadge = document.getElementById('bag-count-badge');
       const iphoneBagCount = document.getElementById('iphone-bag-count');
-      const cartContainer = document.getElementById('cart-items-container');
       const cartTotalEl = document.getElementById('cart-total-price');
       const drawerEl = document.getElementById('vip-checkout-drawer');
       const backdropEl = document.getElementById('vip-drawer-backdrop');
+      const drawerFormulaBtns = document.querySelectorAll('[data-drawer-formula]');
+      const drawerTierBtns = document.querySelectorAll('[data-drawer-tier]');
 
       function openDrawer() {
         if (drawerEl) drawerEl.classList.add('open');
@@ -2311,54 +3150,54 @@ export function renderVisualFirstStorefront(options = {}) {
 
       function renderCart() {
         let totalQty = 0;
-        let totalMyr = 0;
-        const rows = [];
-
         Object.keys(cart).forEach((key) => {
           const qty = cart[key];
-          if (!qty || qty <= 0) return;
-          const prod = CATALOG[key];
-          if (!prod) return;
-          totalQty += qty;
-          const lineTotal = prod.price * qty;
-          totalMyr += lineTotal;
+          if (qty && qty > 0) totalQty += qty;
+        });
+        if (totalQty <= 0) {
+          cart[activeFormulaKey] = activePackTier || 1;
+          totalQty = cart[activeFormulaKey];
+        }
 
-          rows.push(
-            '<div class="cart-line-item">' +
-              '<img src="' + prod.img + '" alt="' + prod.name + '" class="cart-line-thumb hd-optical-photo" width="54" height="54" />' +
-              '<div class="cart-line-info">' +
-                '<div class="cart-line-name">' + prod.name + '</div>' +
-                '<div class="cart-line-meta">' + prod.sub + '</div>' +
-                '<div class="cart-qty-controls">' +
-                  '<button type="button" class="qty-btn" data-qty-change="' + key + ':-1">-</button>' +
-                  '<span>' + qty + '</span>' +
-                  '<button type="button" class="qty-btn" data-qty-change="' + key + ':1">+</button>' +
-                '</div>' +
-              '</div>' +
-              '<strong>RM ' + lineTotal + '</strong>' +
-            '</div>'
-          );
+        const pricing = computeDiscountedTotal(totalQty);
+
+        drawerFormulaBtns.forEach((btn) => {
+          btn.classList.toggle('active', btn.dataset.drawerFormula === activeFormulaKey);
+        });
+
+        drawerTierBtns.forEach((btn) => {
+          btn.classList.toggle('active', Number(btn.dataset.drawerTier) === totalQty);
         });
 
         if (bagBadge) bagBadge.textContent = String(totalQty);
         if (iphoneBagCount) iphoneBagCount.textContent = 'BAG (' + totalQty + ')';
-        if (cartTotalEl) cartTotalEl.textContent = 'RM ' + totalMyr + '.00 MYR';
-        if (cartContainer) {
-          cartContainer.innerHTML = rows.length
-            ? rows.join('')
-            : '<p style="padding:20px 0;color:#52565A;font-size:0.82rem;">Your ONYXMEN VIP Bag is currently empty.</p>';
-
-          cartContainer.querySelectorAll('[data-qty-change]').forEach((btn) => {
-            btn.addEventListener('click', () => {
-              const parts = btn.dataset.qtyChange.split(':');
-              const k = parts[0];
-              const delta = Number(parts[1]);
-              cart[k] = Math.max(0, (cart[k] || 0) + delta);
-              renderCart();
-            });
-          });
+        if (cartTotalEl) {
+          cartTotalEl.textContent = 'RM ' + pricing.finalMyr + '.00 MYR' + pricing.badge;
         }
       }
+
+      drawerFormulaBtns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const nextKey = btn.dataset.drawerFormula;
+          const currentTotal = Object.keys(cart).reduce((acc, k) => acc + (cart[k] || 0), 0) || 2;
+          activeFormulaKey = nextKey;
+          cart = {};
+          cart[activeFormulaKey] = currentTotal;
+          updateMonographUI();
+          renderCart();
+        });
+      });
+
+      drawerTierBtns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const tierQty = Number(btn.dataset.drawerTier) || 1;
+          activePackTier = tierQty;
+          cart = {};
+          cart[activeFormulaKey] = tierQty;
+          updateMonographUI();
+          renderCart();
+        });
+      });
 
       renderCart();
 
@@ -2375,8 +3214,11 @@ export function renderVisualFirstStorefront(options = {}) {
       document.querySelectorAll('[data-quick-add]').forEach((btn) => {
         btn.addEventListener('click', (e) => {
           e.stopPropagation();
-          const key = btn.dataset.quickAdd;
-          cart[key] = (cart[key] || 0) + 1;
+          const key = btn.dataset.quickAdd || activeFormulaKey;
+          activeFormulaKey = key;
+          cart = {};
+          cart[activeFormulaKey] = activePackTier || 2;
+          updateMonographUI();
           renderCart();
           openDrawer();
         });
@@ -2404,12 +3246,14 @@ export function renderVisualFirstStorefront(options = {}) {
             return;
           }
 
+          const totalQty = Object.keys(cart).reduce((acc, k) => acc + (cart[k] > 0 ? cart[k] : 0), 0) || 1;
+          const pricing = computeDiscountedTotal(totalQty);
           const itemsSummary = Object.keys(cart)
             .filter((k) => cart[k] > 0)
-            .map((k) => CATALOG[k].name + ' x ' + cart[k] + ' (RM ' + (CATALOG[k].price * cart[k]) + ')')
+            .map((k) => CATALOG[k].name + ' x ' + cart[k])
             .join(', ');
 
-          const totalMyr = Object.keys(cart).reduce((acc, k) => acc + (cart[k] > 0 ? CATALOG[k].price * cart[k] : 0), 0);
+          const totalMyr = pricing.finalMyr;
           const refCode = 'ONX-' + Math.floor(1000 + Math.random() * 9000);
 
           completeBtn.textContent = 'DISPATCHING VIP ORDER...';
@@ -2419,13 +3263,13 @@ export function renderVisualFirstStorefront(options = {}) {
               method: 'POST',
               headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
               body: JSON.stringify({
-                _subject: 'ONYXMEN VIP Order ' + refCode + ' — RM ' + totalMyr + ' (' + customerName + ')',
+                _subject: 'ONYXMEN VIP Order ' + refCode + ' — RM ' + totalMyr + pricing.badge + ' (' + customerName + ')',
                 Order_Reference: refCode,
                 Customer_Name: customerName,
                 Customer_Phone_WhatsApp: customerPhone,
                 Delivery_Address_Malaysia: customerAddr,
-                Ordered_Formulas: itemsSummary || 'HORSEMEN x 1 (RM 159)',
-                Total_Amount_MYR: 'RM ' + totalMyr + '.00 MYR',
+                Ordered_Formulas: (itemsSummary || 'HORSEMEN x 1') + ' — RM ' + totalMyr + pricing.badge,
+                Total_Amount_MYR: 'RM ' + totalMyr + '.00 MYR' + pricing.badge,
                 Source_Page: window.location.href
               })
             });
@@ -2433,13 +3277,13 @@ export function renderVisualFirstStorefront(options = {}) {
             /* Fallback gracefully */
           }
 
-          completeBtn.textContent = '✓ ONYXMEN VIP ORDER CONFIRMED (REF #' + refCode + ')';
+          completeBtn.textContent = '✓ ORDER CONFIRMED (REF #' + refCode + ' · RM ' + totalMyr + ')';
           completeBtn.style.background = '#1B3B28';
           completeBtn.style.color = '#FFFFFF';
           if (feedbackEl) {
             feedbackEl.style.display = 'block';
             feedbackEl.style.color = '#1B3B28';
-            feedbackEl.textContent = 'Order #' + refCode + ' received! Discreet plain-box dispatch confirmed.';
+            feedbackEl.textContent = 'Order #' + refCode + ' (RM ' + totalMyr + ') received! Discreet plain-box dispatch confirmed.';
           }
         });
       }
@@ -2645,9 +3489,8 @@ export function renderLuxuryShell(options = {}) {
     <meta name="twitter:description" content="${escapeHtmlAttr(description)}" />
     <meta name="twitter:image" content="${escapeHtmlAttr(ogImageUrl)}" />
 
-    <!-- Preload Primary Pure-White Quartet & Sunlit Botanical Conservatory Photography for < 0.8s LCP -->
+    <!-- Preload Primary Pure-White Quartet Studio Photography for < 0.8s LCP -->
     <link rel="preload" as="image" href="/assets/sovereign/web_set_02_catalog_zoom_pure_white_cyclorama_1793437707044.webp" type="image/webp" fetchpriority="high" />
-    <link rel="preload" as="image" href="/assets/sovereign/heritage_web_02_botanical_conservatory_zoom_front_1793438925620.webp" type="image/webp" />
 
     <!-- Crisp Vector Luxury Typography (Cormorant Garamond & Montserrat) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />

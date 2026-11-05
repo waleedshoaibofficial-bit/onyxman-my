@@ -90,6 +90,7 @@ function compactSubpageStorefront(html, routePath) {
 
   return cleaned
     .replace(/<section class="hero-pure-white-stage"[\s\S]*?<\/section>\s*/i, '')
+    .replace(/<div class="conservatory-whatsapp-proof-stage">[\s\S]*?<!-- END-WHATSAPP-PROOF-STAGE -->\s*/i, '')
     .replace(/<div class="botanical-pillar-rows"[\s\S]*?<\/div>\s*<\/div>\s*(?=<button type="button" class="btn-gold-dispatch")/i, '')
     .replace(/<section class="section-split-showcase" id="product-monograph"[\s\S]*?<\/section>\s*/i, '')
     .replace(/<section class="section-onyx-obsidian-stage" id="formula-comparison"[\s\S]*?<\/section>\s*/i, '')

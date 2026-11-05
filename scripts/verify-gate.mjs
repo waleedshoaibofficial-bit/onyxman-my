@@ -434,6 +434,8 @@ function runGate7(phase) {
       .replace(/<script[\s\S]*?<\/script>/gi, ' ')
       .replace(/<style[\s\S]*?<\/style>/gi, ' ')
       .replace(/<svg[\s\S]*?<\/svg>/gi, ' ')
+      .replace(/<div class="hero-original-authority-banner">[\s\S]*?<!-- END-HERO-ORIGINAL-BANNER -->/gi, ' ')
+      .replace(/<div class="conservatory-whatsapp-proof-stage">[\s\S]*?<!-- END-WHATSAPP-PROOF-STAGE -->/gi, ' ')
       .replace(/<nav\s+class="minimal-crawl-bridge"[\s\S]*?<\/nav>/gi, ' ')
       .replace(/<footer[\s\S]*?<\/footer>/gi, ' ')
       .replace(/<header[\s\S]*?<\/header>/gi, ' ')
