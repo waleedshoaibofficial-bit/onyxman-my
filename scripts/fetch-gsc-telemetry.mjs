@@ -56,9 +56,9 @@ const INSPECT_URLS = [
   'https://www.onyxmen.my/guides/20-capsule-vs-30-capsule-cycle-selection/',
   'https://www.onyxmen.my/ms/tentang-kami/',
   'https://www.onyxmen.my/compare/',
-  'https://www.onyxmen.my/malaysia-delivery/kuala-lumpur/',
-  'https://www.onyxmen.my/malaysia-delivery/selangor/',
-  'https://www.onyxmen.my/malaysia-delivery/johor-bahru/',
+  'https://www.onyxmen.my/malaysia/kuala-lumpur/',
+  'https://www.onyxmen.my/malaysia/selangor/',
+  'https://www.onyxmen.my/malaysia/johor-bahru/',
 ];
 
 function base64UrlEncode(input) {

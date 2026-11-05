@@ -115,162 +115,450 @@
     "expressOrderBridgeEndpoint": "https://formsubmit.co/ajax/waleedshoaibofficial@gmail.com"
   },
   "googleSearchConsoleLiveTelemetry": {
-    "apiConnected": false,
-    "connectionStatus": "AWAITING_SERVICE_ACCOUNT_PERMISSION_IN_GSC",
-    "lastSyncedAtIso": "2026-11-04T16:56:31.999Z",
+    "apiConnected": true,
+    "connectionStatus": "CONNECTED_LIVE_GSC_API",
+    "serviceAccountEmail": "onyxmen-gsc@focused-zephyr-513614-e3.iam.gserviceaccount.com",
+    "lastSyncedAtIso": "2026-11-05T08:36:54.390Z",
     "propertyUrl": "https://www.onyxmen.my/",
-    "summary28Days": {
-      "clicks": 0,
-      "impressions": 0,
-      "ctrPercent": 0,
-      "averagePosition": 0
+    "dateRange": {
+      "startDate": "2026-10-08",
+      "endDate": "2026-11-05"
     },
-    "topQueries": [],
-    "topPages": [],
+    "summary28Days": {
+      "clicks": 1,
+      "impressions": 16,
+      "ctrPercent": 6.25,
+      "averagePosition": 8.8
+    },
+    "topQueries": [
+      {
+        "query": "growxl for men",
+        "clicks": 1,
+        "impressions": 1,
+        "ctrPercent": 100,
+        "position": 4
+      },
+      {
+        "query": "hammer of thor men's health",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 3
+      },
+      {
+        "query": "onyxman",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 6
+      },
+      {
+        "query": "water pollution",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 40
+      }
+    ],
+    "topPages": [
+      {
+        "page": "https://www.onyxmen.my/products/grow-xl/",
+        "clicks": 1,
+        "impressions": 2,
+        "ctrPercent": 50,
+        "position": 4
+      },
+      {
+        "page": "https://www.onyxmen.my/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 6
+      },
+      {
+        "page": "https://www.onyxmen.my/guides/20-capsule-vs-30-capsule-cycle-selection/",
+        "clicks": 0,
+        "impressions": 3,
+        "ctrPercent": 0,
+        "position": 7.7
+      },
+      {
+        "page": "https://www.onyxmen.my/guides/authentic-onyxman-bottle-verification-malaysia/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 9
+      },
+      {
+        "page": "https://www.onyxmen.my/guides/capsule-timing-absorption-protocol/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 5
+      },
+      {
+        "page": "https://www.onyxmen.my/guides/malaysian-mens-vitality-tropical-stamina-nutrition/",
+        "clicks": 0,
+        "impressions": 2,
+        "ctrPercent": 0,
+        "position": 4.5
+      },
+      {
+        "page": "https://www.onyxmen.my/guides/nitric-oxide-amino-acids-vs-adaptogenic-herbs/",
+        "clicks": 0,
+        "impressions": 3,
+        "ctrPercent": 0,
+        "position": 6.7
+      },
+      {
+        "page": "https://www.onyxmen.my/guides/optimal-capsule-timing-and-absorption-protocol/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 8
+      },
+      {
+        "page": "https://www.onyxmen.my/ingredients/",
+        "clicks": 0,
+        "impressions": 2,
+        "ctrPercent": 0,
+        "position": 25
+      },
+      {
+        "page": "https://www.onyxmen.my/ingredients/l-arginine-l-citrulline-nitric-oxide/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 8
+      },
+      {
+        "page": "https://www.onyxmen.my/malaysia-delivery/kelantan-kota-bharu/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 1
+      },
+      {
+        "page": "https://www.onyxmen.my/malaysia-delivery/labuan/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 2
+      },
+      {
+        "page": "https://www.onyxmen.my/malaysia-delivery/putrajaya/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 3
+      },
+      {
+        "page": "https://www.onyxmen.my/malaysia-delivery/sarawak-kuching/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 4
+      },
+      {
+        "page": "https://www.onyxmen.my/ms/",
+        "clicks": 0,
+        "impressions": 2,
+        "ctrPercent": 0,
+        "position": 8
+      },
+      {
+        "page": "https://www.onyxmen.my/ms/produk/horsemen/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 9
+      },
+      {
+        "page": "https://www.onyxmen.my/ms/soalan-lazim/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 9
+      },
+      {
+        "page": "https://www.onyxmen.my/ms/tentang-kami/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 15
+      },
+      {
+        "page": "https://www.onyxmen.my/products/hammer-of-thor/",
+        "clicks": 0,
+        "impressions": 1,
+        "ctrPercent": 0,
+        "position": 3
+      }
+    ],
     "urlInspectionResults": [
       {
         "url": "https://www.onyxmen.my/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-11-03T15:11:49Z",
+        "googleCanonical": "https://www.onyxmen.my/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "PASS"
       },
       {
         "url": "https://www.onyxmen.my/horsemen-malaysia/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "lastCrawlTime": null,
+        "googleCanonical": "https://www.onyxmen.my/horsemen-malaysia/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "VERDICT_UNSPECIFIED"
       },
       {
         "url": "https://www.onyxmen.my/hammer-of-thor-malaysia/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-11-05T01:42:08Z",
+        "googleCanonical": "https://www.onyxmen.my/hammer-of-thor-malaysia/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "PASS"
       },
       {
         "url": "https://www.onyxmen.my/grow-xl-malaysia/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-11-04T20:06:22Z",
+        "googleCanonical": "https://www.onyxmen.my/grow-xl-malaysia/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "PASS"
       },
       {
         "url": "https://www.onyxmen.my/magnum-pump-xr-malaysia/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-11-05T01:01:15Z",
+        "googleCanonical": "https://www.onyxmen.my/magnum-pump-xr-malaysia/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "PASS"
       },
       {
         "url": "https://www.onyxmen.my/ms/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-11-05T01:33:30Z",
+        "googleCanonical": "https://www.onyxmen.my/ms/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "PASS"
       },
       {
         "url": "https://www.onyxmen.my/ms/horsemen-malaysia/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-11-04T23:45:55Z",
+        "googleCanonical": "https://www.onyxmen.my/ms/horsemen-malaysia/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "PASS"
       },
       {
         "url": "https://www.onyxmen.my/ms/hammer-of-thor-malaysia/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-11-03T12:39:28Z",
+        "googleCanonical": "https://www.onyxmen.my/ms/hammer-of-thor-malaysia/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "FAIL"
       },
       {
         "url": "https://www.onyxmen.my/ms/grow-xl-malaysia/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-11-04T23:24:57Z",
+        "googleCanonical": "https://www.onyxmen.my/ms/grow-xl-malaysia/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "PASS"
       },
       {
         "url": "https://www.onyxmen.my/ms/magnum-pump-xr-malaysia/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-11-03T12:50:13Z",
+        "googleCanonical": "https://www.onyxmen.my/ms/magnum-pump-xr-malaysia/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "FAIL"
       },
       {
         "url": "https://www.onyxmen.my/products/horsemen/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-11-03T11:56:42Z",
+        "googleCanonical": "https://www.onyxmen.my/products/horsemen/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "FAIL"
       },
       {
         "url": "https://www.onyxmen.my/products/hammer-of-thor/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-11-05T02:15:07Z",
+        "googleCanonical": "https://www.onyxmen.my/products/hammer-of-thor/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "PASS"
       },
       {
         "url": "https://www.onyxmen.my/products/grow-xl/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-11-04T22:07:47Z",
+        "googleCanonical": "https://www.onyxmen.my/products/grow-xl/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "PASS"
       },
       {
         "url": "https://www.onyxmen.my/products/magnum-pump-xr/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "NEUTRAL",
+        "coverageState": "Discovered - currently not indexed",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "lastCrawlTime": null,
+        "googleCanonical": "https://www.onyxmen.my/products/magnum-pump-xr/",
+        "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+        "richResultsVerdict": "VERDICT_UNSPECIFIED"
       },
       {
         "url": "https://www.onyxmen.my/ms/produk/horsemen/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-11-03T10:46:09Z",
+        "googleCanonical": "https://www.onyxmen.my/ms/produk/horsemen/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "FAIL"
       },
       {
         "url": "https://www.onyxmen.my/ms/produk/hammer-of-thor/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "lastCrawlTime": null,
+        "googleCanonical": "https://www.onyxmen.my/ms/produk/hammer-of-thor/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "VERDICT_UNSPECIFIED"
       },
       {
         "url": "https://www.onyxmen.my/ms/produk/grow-xl/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-11-05T00:50:35Z",
+        "googleCanonical": "https://www.onyxmen.my/ms/produk/grow-xl/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "PASS"
       },
       {
         "url": "https://www.onyxmen.my/ms/produk/magnum-pump-xr/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "lastCrawlTime": null,
+        "googleCanonical": "https://www.onyxmen.my/ms/produk/magnum-pump-xr/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "VERDICT_UNSPECIFIED"
       },
       {
         "url": "https://www.onyxmen.my/guides/20-capsule-vs-30-capsule-cycle-selection/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-11-05T00:07:41Z",
+        "googleCanonical": "https://www.onyxmen.my/guides/20-capsule-vs-30-capsule-cycle-selection/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "PASS"
       },
       {
         "url": "https://www.onyxmen.my/ms/tentang-kami/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-11-03T11:39:56Z",
+        "googleCanonical": "https://www.onyxmen.my/ms/tentang-kami/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "PASS"
       },
       {
         "url": "https://www.onyxmen.my/compare/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-11-04T16:39:54Z",
+        "googleCanonical": "https://www.onyxmen.my/compare/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "PASS"
       },
       {
-        "url": "https://www.onyxmen.my/malaysia-delivery/kuala-lumpur/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "url": "https://www.onyxmen.my/malaysia/kuala-lumpur/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-11-03T13:59:49Z",
+        "googleCanonical": "https://www.onyxmen.my/malaysia/kuala-lumpur/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "PASS"
       },
       {
-        "url": "https://www.onyxmen.my/malaysia-delivery/selangor/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "url": "https://www.onyxmen.my/malaysia/selangor/",
+        "verdict": "PASS",
+        "coverageState": "Submitted and indexed",
+        "indexingState": "INDEXING_ALLOWED",
+        "pageFetchState": "SUCCESSFUL",
+        "lastCrawlTime": "2026-11-03T08:31:09Z",
+        "googleCanonical": "https://www.onyxmen.my/malaysia/selangor/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "PASS"
       },
       {
-        "url": "https://www.onyxmen.my/malaysia-delivery/johor-bahru/",
-        "verdict": "SUBMITTED_IN_SITEMAP",
-        "coverageState": "Sitemap submitted (2026-11-03) — Connect GSC API Service Account for live Googlebot crawl timestamp",
-        "lastCrawlTime": null
+        "url": "https://www.onyxmen.my/malaysia/johor-bahru/",
+        "verdict": "NEUTRAL",
+        "coverageState": "URL is unknown to Google",
+        "indexingState": "INDEXING_STATE_UNSPECIFIED",
+        "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+        "lastCrawlTime": null,
+        "googleCanonical": "https://www.onyxmen.my/malaysia/johor-bahru/",
+        "crawledAs": "MOBILE",
+        "richResultsVerdict": "VERDICT_UNSPECIFIED"
       }
     ]
   }
