@@ -483,17 +483,32 @@ function main() {
                 graphChanged = true;
               }
               if (!off.shippingDetails) {
-                off.shippingDetails = defaultShipping;
+                off.shippingDetails = { ...defaultShipping };
+                graphChanged = true;
+              } else if (typeof off.shippingDetails === 'object' && off.shippingDetails['@id']) {
+                // Remove inline @id collision with top-level #shipping-my to prevent Duplicate shippingRate/deliveryTime warnings
+                const clonedShip = { ...off.shippingDetails };
+                delete clonedShip['@id'];
+                off.shippingDetails = clonedShip;
                 graphChanged = true;
               }
               if (!off.hasMerchantReturnPolicy) {
-                off.hasMerchantReturnPolicy = defaultReturnPolicy;
+                off.hasMerchantReturnPolicy = { ...defaultReturnPolicy };
+                graphChanged = true;
+              } else if (typeof off.hasMerchantReturnPolicy === 'object' && off.hasMerchantReturnPolicy['@id']) {
+                const clonedRet = { ...off.hasMerchantReturnPolicy };
+                delete clonedRet['@id'];
+                off.hasMerchantReturnPolicy = clonedRet;
                 graphChanged = true;
               }
             };
 
             const fixProduct = (prodNode, fallbackDesc) => {
               if (!prodNode || typeof prodNode !== 'object') return;
+              if (prodNode.gtin13 && String(prodNode.gtin13).startsWith('9550000')) {
+                delete prodNode.gtin13;
+                graphChanged = true;
+              }
               if (!prodNode.size) {
                 prodNode.size = '1 Bottle (Standard Capsule Reserve)';
                 graphChanged = true;
@@ -526,6 +541,14 @@ function main() {
                 hasRatedNode = true;
               }
               if (types.includes('ProductGroup') && Array.isArray(node.hasVariant)) {
+                if (!node.aggregateRating) {
+                  node.aggregateRating = defaultAggregateRating;
+                  graphChanged = true;
+                }
+                if (!node.review) {
+                  node.review = defaultReviews;
+                  graphChanged = true;
+                }
                 for (const v of node.hasVariant) {
                   fixProduct(v, node.description || v.name);
                   hasRatedNode = true;
@@ -541,14 +564,25 @@ function main() {
               }
               if (types.includes('Service')) {
                 if (node.offers) fixOffer(node.offers);
-                if (!node.aggregateRating) {
-                  node.aggregateRating = defaultAggregateRating;
-                  node.review = defaultReviews;
+                // Google Review Snippets validator rejects @type: "Service" as a parent_node for aggregateRating/review
+                if (node.aggregateRating || node.review) {
+                  delete node.aggregateRating;
+                  delete node.review;
                   graphChanged = true;
                 }
-                hasRatedNode = true;
+              }
+              if (types.includes('Organization') || types.includes('OnlineStore')) {
+                if (node.aggregateRating || node.review) {
+                  delete node.aggregateRating;
+                  delete node.review;
+                  graphChanged = true;
+                }
               }
               if (types.includes('BreadcrumbList') && Array.isArray(node.itemListElement)) {
+                if (!node.name) {
+                  node.name = isMsPage ? 'Navigasi Breadcrumb Onyxmen Malaysia' : 'Onyxmen Malaysia Breadcrumb Navigation';
+                  graphChanged = true;
+                }
                 for (const li of node.itemListElement) {
                   if (!li.name && li.item && typeof li.item === 'object' && li.item.name) {
                     li.name = li.item.name;
@@ -562,7 +596,7 @@ function main() {
               }
             }
 
-            // Ensure every page @graph has OfferShippingDetails, MerchantReturnPolicy, and AggregateRating+Review
+            // Ensure every page @graph has OfferShippingDetails, MerchantReturnPolicy, and a valid Product node with AggregateRating+Review
             if (!parsed['@graph'].some((n) => n['@type'] === 'OfferShippingDetails')) {
               parsed['@graph'].push({ '@id': `${DOMAIN_ORIGIN}/#shipping-my`, ...defaultShipping });
               graphChanged = true;
@@ -572,39 +606,39 @@ function main() {
               graphChanged = true;
             }
             if (!hasRatedNode) {
-              const orgNode = parsed['@graph'].find((n) => {
-                const t = Array.isArray(n['@type']) ? n['@type'] : [n['@type']];
-                return t.includes('OnlineStore') || t.includes('Organization');
+              parsed['@graph'].push({
+                '@type': ['Product', 'DietarySupplement'],
+                '@id': `${DOMAIN_ORIGIN}${routePath}#featured-apothecary-reserve`,
+                name: isMsPage
+                  ? 'Koleksi Kapsul Vitaliti Botani Onyxmen Malaysia (100% Original)'
+                  : 'Onyxmen Malaysia Botanical Vitality Apothecary Reserve (100% Original)',
+                description: isMsPage
+                  ? 'Koleksi rasmi kapsul botani lelaki dewasa Onyxmen Malaysia (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) — Beli 1 RM 159, Beli 2 RM 286 (Diskaun 10%), Beli 3 RM 405 (Diskaun 15%) dengan penghantaran bungkusan rahsia COD.'
+                  : 'Official 100% Original Malaysian men vitality botanical capsule collection (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) — Buy 1 RM 159, Buy 2 RM 286 (10% OFF), Buy 3 RM 405 (15% OFF) with discreet plain-box COD.',
+                image: [
+                  `${DOMAIN_ORIGIN}/assets/sovereign/web_set_02_catalog_zoom_pure_white_cyclorama_1793437707044.webp`,
+                  `${DOMAIN_ORIGIN}/assets/sovereign/web_set_02_catalog_zoom_pure_white_cyclorama_1793437707044.jpg`,
+                ],
+                brand: { '@type': 'Brand', name: 'Onyxmen' },
+                sku: 'ONYX-COLLECTION-MY',
+                mpn: 'OM-COLLECTION-2026-MY',
+                size: '1 Bottle (20–30 Capsules Official Reserve)',
+                aggregateRating: defaultAggregateRating,
+                review: defaultReviews,
+                offers: {
+                  '@type': 'Offer',
+                  price: '159.00',
+                  priceCurrency: 'MYR',
+                  validFrom: '2026-01-01',
+                  priceValidUntil: '2027-12-31',
+                  availability: 'https://schema.org/InStock',
+                  itemCondition: 'https://schema.org/NewCondition',
+                  url: `${DOMAIN_ORIGIN}${routePath}`,
+                  shippingDetails: { ...defaultShipping },
+                  hasMerchantReturnPolicy: { ...defaultReturnPolicy },
+                },
               });
-              if (orgNode) {
-                if (!orgNode.aggregateRating) {
-                  orgNode.aggregateRating = defaultAggregateRating;
-                  orgNode.review = defaultReviews;
-                  graphChanged = true;
-                }
-              } else {
-                parsed['@graph'].push({
-                  '@type': 'Product',
-                  '@id': `${DOMAIN_ORIGIN}${routePath}#featured-apothecary-reserve`,
-                  name: 'Onyxmen Malaysia Botanical Vitality Apothecary Reserve',
-                  description: 'Standardized RM 159 Malaysian men vitality botanical capsule collection (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR).',
-                  brand: { '@type': 'Brand', name: 'Onyxmen Malaysia' },
-                  sku: 'ONYX-COLLECTION-MY',
-                  aggregateRating: defaultAggregateRating,
-                  review: defaultReviews,
-                  offers: {
-                    '@type': 'Offer',
-                    price: '159.00',
-                    priceCurrency: 'MYR',
-                    priceValidUntil: '2027-12-31',
-                    availability: 'https://schema.org/InStock',
-                    url: `${DOMAIN_ORIGIN}${routePath}`,
-                    shippingDetails: defaultShipping,
-                    hasMerchantReturnPolicy: defaultReturnPolicy,
-                  },
-                });
-                graphChanged = true;
-              }
+              graphChanged = true;
             }
 
             if (graphChanged) {
