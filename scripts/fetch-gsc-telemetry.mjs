@@ -288,13 +288,22 @@ async function main() {
     const endDate = formatDateDaysAgo(0);
     const start28 = formatDateDaysAgo(28);
 
-    const [totalsData, queriesData, pagesData] = await Promise.all([
+    const [totalsData, queriesData, pagesData, countriesData, queryCountryData, pageCountryData] = await Promise.all([
       querySearchAnalytics(accessToken, activeSiteUrl, start28, endDate, [], 1),
-      querySearchAnalytics(accessToken, activeSiteUrl, start28, endDate, ['query'], 20),
-      querySearchAnalytics(accessToken, activeSiteUrl, start28, endDate, ['page'], 20),
+      querySearchAnalytics(accessToken, activeSiteUrl, start28, endDate, ['query'], 250),
+      querySearchAnalytics(accessToken, activeSiteUrl, start28, endDate, ['page'], 250),
+      querySearchAnalytics(accessToken, activeSiteUrl, start28, endDate, ['country'], 250),
+      querySearchAnalytics(accessToken, activeSiteUrl, start28, endDate, ['query', 'country'], 250),
+      querySearchAnalytics(accessToken, activeSiteUrl, start28, endDate, ['page', 'country'], 250),
     ]);
 
     const totalRow = totalsData.rows?.[0] || { clicks: 0, impressions: 0, ctr: 0, position: 0 };
+    const mysRow = (countriesData.rows || []).find((r) => r.keys[0]?.toLowerCase() === 'mys') || {
+      clicks: 0,
+      impressions: 0,
+      ctr: 0,
+      position: 0,
+    };
 
     const inspectionResults = await Promise.all(
       INSPECT_URLS.map((u) => inspectSingleUrl(accessToken, activeSiteUrl, u))
@@ -313,8 +322,23 @@ async function main() {
         ctrPercent: Number(((totalRow.ctr || 0) * 100).toFixed(2)),
         averagePosition: Number((totalRow.position || 0).toFixed(1)),
       },
+      malaysia28Days: {
+        countryCode: 'mys',
+        clicks: mysRow.clicks || 0,
+        impressions: mysRow.impressions || 0,
+        ctrPercent: Number(((mysRow.ctr || 0) * 100).toFixed(2)),
+        averagePosition: Number((mysRow.position || 0).toFixed(1)),
+      },
       topQueries: (queriesData.rows || []).map((r) => ({
         query: r.keys[0],
+        clicks: r.clicks,
+        impressions: r.impressions,
+        ctrPercent: Number((r.ctr * 100).toFixed(2)),
+        position: Number(r.position.toFixed(1)),
+      })),
+      topQueriesByCountry: (queryCountryData.rows || []).map((r) => ({
+        query: r.keys[0],
+        country: r.keys[1],
         clicks: r.clicks,
         impressions: r.impressions,
         ctrPercent: Number((r.ctr * 100).toFixed(2)),
@@ -327,6 +351,16 @@ async function main() {
         ctrPercent: Number((r.ctr * 100).toFixed(2)),
         position: Number(r.position.toFixed(1)),
       })),
+      malaysiaTopPages: (pageCountryData.rows || [])
+        .filter((r) => r.keys[1]?.toLowerCase() === 'mys')
+        .map((r) => ({
+          page: r.keys[0],
+          country: r.keys[1],
+          clicks: r.clicks,
+          impressions: r.impressions,
+          ctrPercent: Number((r.ctr * 100).toFixed(2)),
+          position: Number(r.position.toFixed(1)),
+        })),
       urlInspectionResults: inspectionResults,
     };
 

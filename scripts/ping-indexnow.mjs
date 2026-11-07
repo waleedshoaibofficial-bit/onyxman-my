@@ -43,19 +43,11 @@ const INDEXNOW_ENDPOINTS = [
 
 const CORE_PRIORITY_URLS = [
   `${SITE_ORIGIN}/`,
-  `${SITE_ORIGIN}/horsemen-malaysia/`,
-  `${SITE_ORIGIN}/hammer-of-thor-malaysia/`,
-  `${SITE_ORIGIN}/grow-xl-malaysia/`,
-  `${SITE_ORIGIN}/magnum-pump-xr-malaysia/`,
   `${SITE_ORIGIN}/products/horsemen/`,
   `${SITE_ORIGIN}/products/hammer-of-thor/`,
   `${SITE_ORIGIN}/products/grow-xl/`,
   `${SITE_ORIGIN}/products/magnum-pump-xr/`,
   `${SITE_ORIGIN}/ms/`,
-  `${SITE_ORIGIN}/ms/horsemen-malaysia/`,
-  `${SITE_ORIGIN}/ms/hammer-of-thor-malaysia/`,
-  `${SITE_ORIGIN}/ms/grow-xl-malaysia/`,
-  `${SITE_ORIGIN}/ms/magnum-pump-xr-malaysia/`,
   `${SITE_ORIGIN}/ms/produk/horsemen/`,
   `${SITE_ORIGIN}/ms/produk/hammer-of-thor/`,
   `${SITE_ORIGIN}/ms/produk/grow-xl/`,
@@ -99,6 +91,16 @@ function walkHtmlFiles(dirPath, collected = []) {
  * Converts a local public/ HTML file path to its canonical https://www.onyxmen.my/... URL
  */
 function htmlFileToCanonicalUrl(htmlFilePath) {
+  try {
+    const html = fs.readFileSync(htmlFilePath, 'utf8');
+    const canonicalMatch = html.match(/<link\s+rel="canonical"\s+href="([^"]+)"/i);
+    if (canonicalMatch && canonicalMatch[1]) {
+      const u = new URL(canonicalMatch[1].trim());
+      return `${SITE_ORIGIN}${u.pathname}`;
+    }
+  } catch {
+    // Fallback to path-derived URL below
+  }
   const relPath = path.relative(PUBLIC_DIR, htmlFilePath).replace(/\\/g, '/');
   if (relPath === 'index.html') {
     return `${SITE_ORIGIN}/`;
@@ -190,6 +192,9 @@ function collectAndVerifyCanonicalUrls() {
     recordFail('PUBLIC-HTML', 'No built .html files found inside public/');
   } else {
     for (const file of htmlFiles) {
+      if (file.endsWith('404.html')) continue;
+      const htmlText = fs.readFileSync(file, 'utf8');
+      if (/<meta\s+name="robots"\s+content="[^"]*noindex/i.test(htmlText)) continue;
       const canonical = htmlFileToCanonicalUrl(file);
       urlSet.add(canonical);
     }
