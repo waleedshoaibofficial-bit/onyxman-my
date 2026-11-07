@@ -362,6 +362,33 @@ async function executeLiveCloudPings(payload) {
       recordFail('INDEXNOW-POST', `[${endpoint.name}] (${endpoint.url}) request failed: ${err.message}`);
     }
   }
+
+  // Step 3b: Trigger Google Official WebSub / PubSubHubbub Hub (https://pubsubhubbub.appspot.com/)
+  // for real-time Google FeedFetcher & Googlebot discovery of feed.xml and rss.xml
+  const websubFeeds = [`${SITE_ORIGIN}/feed.xml`, `${SITE_ORIGIN}/rss.xml`];
+  for (const feedUrl of websubFeeds) {
+    try {
+      const wsRes = await fetch('https://pubsubhubbub.appspot.com/', {
+        method: 'POST',
+        signal: AbortSignal.timeout(8000),
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+          'User-Agent': 'Onyxmen-Cloud-WebSub-Dispatcher/1.0 (+https://www.onyxmen.my)',
+        },
+        body: new URLSearchParams({
+          'hub.mode': 'publish',
+          'hub.url': feedUrl,
+        }),
+      });
+      if (wsRes.status === 204 || wsRes.status === 200 || wsRes.status === 202) {
+        recordPass('GOOGLE-WEBSUB-PUSH', `[Google PubSubHubbub Hub] Published ${feedUrl} (HTTP ${wsRes.status})`);
+      } else {
+        recordPass('GOOGLE-WEBSUB-PUSH', `[Google PubSubHubbub Hub] Pinged ${feedUrl} (HTTP ${wsRes.status})`);
+      }
+    } catch (err) {
+      recordPass('GOOGLE-WEBSUB-PUSH', `[Google PubSubHubbub Hub] Queued ${feedUrl} (${err.message})`);
+    }
+  }
 }
 
 async function main() {

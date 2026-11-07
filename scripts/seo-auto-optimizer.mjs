@@ -57,76 +57,76 @@ function buildOptimalSerpMeta(route, rawTitle, rawDesc) {
   const isMs = route === '/ms/' || route.startsWith('/ms/');
   const explicit = {
     '/': {
-      title: 'Onyxmen Malaysia — 100% Original Men’s Vitality | RM 159 COD',
-      desc: '100% Original Onyxmen Malaysia vitality capsules: Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR. Buy 1 RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD.',
+      title: 'Onyxmen Malaysia [100% Original RM159] ✓ COD Bayar Bila Sampai',
+      desc: '✓ 100% Original Onyxmen Malaysia: Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR. Buy 1 RM 159, Buy 2 RM 286 (10% OFF), Buy 3 RM 405 (15% OFF) discreet COD.',
     },
     '/ms/': {
-      title: 'Onyxmen Malaysia — Suplemen Tenaga Batin Lelaki | RM 159 COD',
-      desc: 'Suplemen tenaga batin & stamina lelaki 100% Original: Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR. 1 RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD.',
+      title: 'Onyxmen Malaysia [Original RM159] ✓ Suplemen Lelaki COD Rahsia',
+      desc: '✓ 100% Original Suplemen Tenaga Batin Lelaki: Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR. 1 Botol RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD.',
     },
     '/horsemen-malaysia/': {
-      title: 'Horsemen Malaysia (20 Capsules) — 100% Original RM 159 | COD',
-      desc: '100% Original Horsemen Man Virility Enhancement (20 Capsules x 500mg) Tongkat Ali 100:1 & Maca. Buy 1 RM 159, 2 RM 286 (10% OFF), 3 RM 405 (15% OFF) discreet COD.',
+      title: 'Horsemen Malaysia [100% Original RM159] ✓ 20 Caps COD Discreet',
+      desc: '✓ 100% Original Horsemen Man Virility Enhancement (20 Capsules x 500mg) Tongkat Ali 100:1 & Maca. Buy 1 RM 159, 2 RM 286 (10% OFF), 3 RM 405 (15% OFF) COD.',
     },
     '/ms/horsemen-malaysia/': {
-      title: 'Horsemen Kapsul Lelaki Malaysia (20 Kapsul) — Original RM 159',
-      desc: 'Beli Horsemen kapsul lelaki Malaysia 100% Original (20 Kapsul x 500mg) Tongkat Ali & Maca untuk stamina malam. 1 Botol RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD.',
+      title: 'Horsemen Malaysia [Original RM159] ✓ 20 Kapsul COD Bungkusan Rahsia',
+      desc: '✓ Beli Horsemen kapsul lelaki Malaysia 100% Original (20 Kapsul x 500mg) Tongkat Ali & Maca. 1 Botol RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) Bayar Bila Sampai.',
     },
     '/hammer-of-thor-malaysia/': {
-      title: "Hammer of Thor Men's Health Malaysia (20 Veg. Caps) — RM 159",
-      desc: "100% Original Hammer of Thor Men's Health Malaysia (20 Veg. Capsules) 60% Saponin Tribulus & Maca. Buy 1 RM 159, 2 RM 286 (10% OFF), 3 RM 405 (15% OFF) discreet COD.",
+      title: "Hammer of Thor Malaysia [100% Original RM159] ✓ 20 Veg Caps COD",
+      desc: "✓ 100% Original Hammer of Thor Men's Health Malaysia (20 Veg. Capsules) 60% Saponin Tribulus & Maca. Buy 1 RM 159, 2 RM 286 (10% OFF), 3 RM 405 (15% OFF) COD.",
     },
     '/ms/hammer-of-thor-malaysia/': {
-      title: 'Hammer of Thor Original Malaysia (20 Kapsul Veg.) — RM 159',
-      desc: 'Beli Hammer of Thor kapsul original Malaysia (20 Kapsul Veg.) Tribulus Terrestris 60% Saponin bebas bahan terlarang. 1 RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD.',
+      title: 'Hammer of Thor Original Malaysia [RM159 COD] ✓ 20 Kapsul Veg',
+      desc: '✓ Beli Hammer of Thor kapsul original Malaysia (20 Kapsul Veg.) Tribulus 60% Saponin. 1 Botol RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD Bayar Bila Sampai.',
     },
     '/grow-xl-malaysia/': {
-      title: 'Grow XL Malaysia (GrowXL for Men 30 Caps) — Original RM 159',
-      desc: '100% Original Grow XL Malaysia / GrowXL for Men (30 Capsules) Extra-Strength Tongkat Ali, Maca & Muira Puama. Buy 1 RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD.',
+      title: 'Grow XL Malaysia / GrowXL [100% Original RM159] ✓ 30 Caps COD',
+      desc: '✓ 100% Original Grow XL Malaysia / GrowXL for Men (30 Capsules) Extra-Strength Tongkat Ali & Maca. Buy 1 RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) discreet COD.',
     },
     '/ms/grow-xl-malaysia/': {
-      title: 'Grow XL Original Kapsul Lelaki Malaysia (30 Kapsul) — RM 159',
-      desc: 'Beli Grow XL / GrowXL original kapsul lelaki Malaysia (30 Kapsul) Tongkat Ali Ekstra Kuat, Maca & Ginseng. 1 Botol RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD.',
+      title: 'Grow XL Original Malaysia [RM159 COD] ✓ 30 Kapsul Ekstra Kuat',
+      desc: '✓ Beli Grow XL / GrowXL original kapsul lelaki Malaysia (30 Kapsul) Tongkat Ali Ekstra Kuat & Maca. 1 Botol RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD Rahsia.',
     },
     '/magnum-pump-xr-malaysia/': {
-      title: 'Magnum Pump XR Malaysia (30 Black Capsules) — RM 159 | COD',
-      desc: '100% Original Magnum Pump XR Malaysia (30 Black Capsules) Nitric Oxide L-Arginine, L-Citrulline & Black Ginger. Buy 1 RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD.',
+      title: 'Magnum Pump XR Malaysia [100% Original RM159] ✓ 30 Black Caps',
+      desc: '✓ 100% Original Magnum Pump XR Malaysia (30 Black Capsules) Nitric Oxide L-Arginine & Black Ginger. Buy 1 RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) discreet COD.',
     },
     '/ms/magnum-pump-xr-malaysia/': {
-      title: 'Magnum Pump XR Malaysia (30 Kapsul Hitam) — Aliran Darah RM 159',
-      desc: 'Beli Magnum Pump XR kapsul lelaki Malaysia 100% Original (30 Kapsul Hitam) suplemen aliran darah Nitrik Oksida. 1 RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD.',
+      title: 'Magnum Pump XR Original Malaysia [RM159 COD] ✓ 30 Kapsul Hitam',
+      desc: '✓ Beli Magnum Pump XR kapsul lelaki Malaysia 100% Original (30 Kapsul Hitam) Nitrik Oksida aliran darah. 1 RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD Rahsia.',
     },
     '/products/horsemen/': {
-      title: 'Horsemen Man Virility Product Vault (20 Capsules) — RM 159',
-      desc: 'Official Horsemen Man Virility Product Vault (SKU: ONYX-HM-20): 20 Capsules x 500mg Tongkat Ali 100:1 & Maca. RM 159 (2 Pack RM 286 -10%, 3 Pack RM 405 -15%) COD.',
+      title: 'Horsemen Man Virility [100% Original RM159] ✓ Buy 2 Save 10% COD',
+      desc: '✓ Official Horsemen Man Virility (20 Capsules x 500mg) Tongkat Ali 100:1 & Black Maca. Buy 1 RM 159, Buy 2 RM 286 (10% OFF), Buy 3 RM 405 (15% OFF) Malaysia COD.',
     },
     '/products/hammer-of-thor/': {
-      title: "Hammer of Thor Men's Health Vault (20 Veg. Caps) — RM 159",
-      desc: "Official Hammer of Thor Men's Health Vault (SKU: ONYX-HT-20): 20 Veg. Capsules 60% Tribulus saponins & Maca. RM 159 (2 Pack RM 286 -10%, 3 Pack RM 405 -15%) COD.",
+      title: "Hammer of Thor Men's Health [Original RM159] ✓ Buy 2 Save 10% COD",
+      desc: "✓ Official Hammer of Thor Men's Health (20 Veg. Capsules) 60% Tribulus saponins & Maca. Buy 1 RM 159, Buy 2 RM 286 (10% OFF), Buy 3 RM 405 (15% OFF) Malaysia COD.",
     },
     '/products/grow-xl/': {
-      title: 'GrowXL for Men (Grow XL) Product Vault (30 Caps) — RM 159',
-      desc: 'Official Grow XL / GrowXL for Men Vault (SKU: ONYX-GX-30): 30 Capsules x 550mg Extra-Strength Tongkat Ali blend. RM 159 (2 Pack RM 286 -10%, 3 Pack RM 405 -15%).',
+      title: 'GrowXL for Men / Grow XL [100% Original RM159] ✓ 30 Caps COD MY',
+      desc: '✓ Official Grow XL / GrowXL for Men (30 Capsules) #1 Extra-Strength Tongkat Ali & Maca blend. Buy 1 RM 159, Buy 2 RM 286 (10% OFF), Buy 3 RM 405 (15% OFF) COD.',
     },
     '/products/magnum-pump-xr/': {
-      title: 'Magnum Pump XR Nitric Oxide Vault (30 Black Caps) — RM 159',
-      desc: 'Official Magnum Pump XR Product Vault (SKU: ONYX-MP-30): 30 Black Capsules x 600mg L-Arginine & L-Citrulline. RM 159 (2 Pack RM 286 -10%, 3 Pack RM 405 -15%) COD.',
+      title: 'Magnum Pump XR Nitric Oxide [Original RM159] ✓ 30 Black Caps COD',
+      desc: '✓ Official Magnum Pump XR Pro Series (30 Black Capsules) L-Arginine & L-Citrulline Nitric Oxide. Buy 1 RM 159, Buy 2 RM 286 (10% OFF), Buy 3 RM 405 (15% OFF) COD.',
     },
     '/ms/produk/horsemen/': {
-      title: 'Katalog Produk Rasmi Horsemen (20 Kapsul) — RM 159 | COD',
-      desc: 'Katalog Produk Rasmi Horsemen (SKU: ONYX-HM-20): 20 Kapsul x 500mg Tongkat Ali Malaysia 100:1 & Maca Hitam. RM 159 (2 Botol RM 286 -10%, 3 Botol RM 405 -15%) COD.',
+      title: 'Horsemen Original Malaysia [RM159 COD] ✓ Bayar Bila Sampai -15%',
+      desc: '✓ Stok Rasmi Horsemen Original Malaysia (20 Kapsul x 500mg) Tongkat Ali 100:1 & Maca Hitam. Beli 1 RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD Bungkusan Rahsia.',
     },
     '/ms/produk/hammer-of-thor/': {
-      title: 'Katalog Produk Rasmi Hammer of Thor (20 Kapsul) — RM 159',
-      desc: 'Katalog Produk Rasmi Hammer of Thor (SKU: ONYX-HT-20): 20 Kapsul Vegetarian Tribulus 60% saponin & Maca. RM 159 (2 Botol RM 286 -10%, 3 Botol RM 405 -15%) COD.',
+      title: 'Hammer of Thor Original Malaysia [RM159 COD] ✓ Bayar Bila Sampai',
+      desc: '✓ Stok Rasmi Hammer of Thor Original (20 Kapsul Veg.) Tribulus 60% saponin & Maca. Beli 1 RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD Bungkusan Rahsia Malaysia.',
     },
     '/ms/produk/grow-xl/': {
-      title: 'Katalog Produk Rasmi Grow XL / GrowXL (30 Kapsul) — RM 159',
-      desc: 'Katalog Produk Rasmi Grow XL / GrowXL (SKU: ONYX-GX-30): 30 Kapsul x 550mg Tongkat Ali Ekstra Kuat & Maca. RM 159 (2 Botol RM 286 -10%, 3 Botol RM 405 -15%) COD.',
+      title: 'Grow XL / GrowXL Original Malaysia [RM159 COD] ✓ Bungkusan Rahsia',
+      desc: '✓ Stok Rasmi Grow XL / GrowXL Original (30 Kapsul) Tongkat Ali Ekstra Kuat & Maca. Beli 1 RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD Bayar Bila Sampai Malaysia.',
     },
     '/ms/produk/magnum-pump-xr/': {
-      title: 'Katalog Produk Rasmi Magnum Pump XR (30 Kapsul) — RM 159',
-      desc: 'Katalog Produk Rasmi Magnum Pump XR (SKU: ONYX-MP-30): 30 Kapsul Hitam x 600mg Nitrik Oksida L-Arginine. RM 159 (2 Botol RM 286 -10%, 3 Botol RM 405 -15%) COD.',
+      title: 'Magnum Pump XR Original Malaysia [RM159 COD] ✓ Bayar Bila Sampai',
+      desc: '✓ Stok Rasmi Magnum Pump XR Original (30 Kapsul Hitam) Nitrik Oksida L-Arginine. Beli 1 RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD Bungkusan Rahsia Malaysia.',
     },
   };
   if (explicit[route]) return explicit[route];
@@ -137,9 +137,11 @@ function buildOptimalSerpMeta(route, rawTitle, rawDesc) {
       .split('-')
       .map((w) => (w === 'kl' ? 'KL' : w.charAt(0).toUpperCase() + w.slice(1)))
       .join(' ');
+    const fullStateTitle = `Horsemen, Hammer of Thor & Grow XL COD ${name} [RM159]`;
+    const shortStateTitle = `Horsemen & Grow XL COD ${name} [Original RM159]`;
     return {
-      title: `Discreet COD Delivery in ${name} — RM 159 | Onyxmen MY`,
-      desc: `Fast discreet plain-box COD & FPX delivery in ${name}, Malaysia for Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159). Zero product labels.`,
+      title: fullStateTitle.length <= 66 ? fullStateTitle : shortStateTitle,
+      desc: `✓ 100% Original Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR discreet COD in ${name} (RM 159 · 2 for RM 286 -10%). Unmarked plain box delivery.`,
     };
   }
   if (route.startsWith('/ms/malaysia/') && route !== '/ms/malaysia/') {
@@ -148,9 +150,11 @@ function buildOptimalSerpMeta(route, rawTitle, rawDesc) {
       .split('-')
       .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
       .join(' ');
+    const fullMsStateTitle = `COD Horsemen, Hammer of Thor & Grow XL ${name} [RM159]`;
+    const shortMsStateTitle = `COD Horsemen & Grow XL ${name} [Original RM159]`;
     return {
-      title: `Penghantaran Rahsia COD di ${name} — RM 159 | Onyxmen`,
-      desc: `Penghantaran bungkusan rahsia COD & FPX di ${name}, Malaysia untuk Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159). Privasi 100% terjamin.`,
+      title: fullMsStateTitle.length <= 66 ? fullMsStateTitle : shortMsStateTitle,
+      desc: `✓ Penghantaran bungkusan rahsia COD di ${name} untuk Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159 · Beli 2 RM 286 -10%). Bayar bila sampai.`,
     };
   }
 
@@ -219,65 +223,65 @@ function main() {
       canonical: `${DOMAIN_ORIGIN}/products/horsemen/`,
       enHref: `${DOMAIN_ORIGIN}/products/horsemen/`,
       msHref: `${DOMAIN_ORIGIN}/ms/produk/horsemen/`,
-      title: 'Horsemen Man Virility Product Vault (20 Capsules) — RM 159',
+      title: 'Horsemen Man Virility [100% Original RM159] ✓ Buy 2 Save 10% COD',
       h1: 'Horsemen Man Virility Enhancement Official Product Vault — 20 Capsules × 500mg Monograph',
-      desc: 'Official Horsemen Man Virility Product Vault (SKU: ONYX-HM-20): 20 Capsules x 500mg Tongkat Ali 100:1 & Maca. RM 159 (2 Pack RM 286 -10%, 3 Pack RM 405 -15%) COD.',
+      desc: '✓ Official Horsemen Man Virility (20 Capsules x 500mg) Tongkat Ali 100:1 & Black Maca. Buy 1 RM 159, Buy 2 RM 286 (10% OFF), Buy 3 RM 405 (15% OFF) Malaysia COD.',
     },
     '/products/hammer-of-thor/': {
       canonical: `${DOMAIN_ORIGIN}/products/hammer-of-thor/`,
       enHref: `${DOMAIN_ORIGIN}/products/hammer-of-thor/`,
       msHref: `${DOMAIN_ORIGIN}/ms/produk/hammer-of-thor/`,
-      title: "Hammer of Thor Men's Health Vault (20 Veg. Caps) — RM 159",
+      title: "Hammer of Thor Men's Health [Original RM159] ✓ Buy 2 Save 10% COD",
       h1: "Hammer of Thor Men's Health Official Product Vault — 20 Veg. Capsules Saponin Assay",
-      desc: "Official Hammer of Thor Men's Health Vault (SKU: ONYX-HT-20): 20 Veg. Capsules 60% Tribulus saponins & Maca. RM 159 (2 Pack RM 286 -10%, 3 Pack RM 405 -15%) COD.",
+      desc: "✓ Official Hammer of Thor Men's Health (20 Veg. Capsules) 60% Tribulus saponins & Maca. Buy 1 RM 159, Buy 2 RM 286 (10% OFF), Buy 3 RM 405 (15% OFF) Malaysia COD.",
     },
     '/products/grow-xl/': {
       canonical: `${DOMAIN_ORIGIN}/products/grow-xl/`,
       enHref: `${DOMAIN_ORIGIN}/products/grow-xl/`,
       msHref: `${DOMAIN_ORIGIN}/ms/produk/grow-xl/`,
-      title: 'GrowXL for Men (Grow XL) Product Vault (30 Caps) — RM 159',
+      title: 'GrowXL for Men / Grow XL [100% Original RM159] ✓ 30 Caps COD MY',
       h1: 'Grow XL (GrowXL for Men) Official Product Vault — 30 Capsules Extra-Strength Formula',
-      desc: 'Official Grow XL / GrowXL for Men Vault (SKU: ONYX-GX-30): 30 Capsules x 550mg Extra-Strength Tongkat Ali blend. RM 159 (2 Pack RM 286 -10%, 3 Pack RM 405 -15%).',
+      desc: '✓ Official Grow XL / GrowXL for Men (30 Capsules) #1 Extra-Strength Tongkat Ali & Maca blend. Buy 1 RM 159, Buy 2 RM 286 (10% OFF), Buy 3 RM 405 (15% OFF) COD.',
     },
     '/products/magnum-pump-xr/': {
       canonical: `${DOMAIN_ORIGIN}/products/magnum-pump-xr/`,
       enHref: `${DOMAIN_ORIGIN}/products/magnum-pump-xr/`,
       msHref: `${DOMAIN_ORIGIN}/ms/produk/magnum-pump-xr/`,
-      title: 'Magnum Pump XR Nitric Oxide Vault (30 Black Caps) — RM 159',
+      title: 'Magnum Pump XR Nitric Oxide [Original RM159] ✓ 30 Black Caps COD',
       h1: 'Magnum Pump XR Official Product Vault — 30 Black Capsules Pro Series Nitric Oxide Matrix',
-      desc: 'Official Magnum Pump XR Product Vault (SKU: ONYX-MP-30): 30 Black Capsules x 600mg L-Arginine & L-Citrulline. RM 159 (2 Pack RM 286 -10%, 3 Pack RM 405 -15%) COD.',
+      desc: '✓ Official Magnum Pump XR Pro Series (30 Black Capsules) L-Arginine & L-Citrulline Nitric Oxide. Buy 1 RM 159, Buy 2 RM 286 (10% OFF), Buy 3 RM 405 (15% OFF) COD.',
     },
     '/ms/produk/horsemen/': {
       canonical: `${DOMAIN_ORIGIN}/ms/produk/horsemen/`,
       enHref: `${DOMAIN_ORIGIN}/products/horsemen/`,
       msHref: `${DOMAIN_ORIGIN}/ms/produk/horsemen/`,
-      title: 'Katalog Produk Rasmi Horsemen (20 Kapsul) — RM 159 | COD',
+      title: 'Horsemen Original Malaysia [RM159 COD] ✓ Bayar Bila Sampai -15%',
       h1: 'Katalog Produk Rasmi Horsemen Kapsul Lelaki — Monograf Botani 20 Kapsul × 500mg',
-      desc: 'Katalog Produk Rasmi Horsemen (SKU: ONYX-HM-20): 20 Kapsul x 500mg Tongkat Ali Malaysia 100:1 & Maca Hitam. RM 159 (2 Botol RM 286 -10%, 3 Botol RM 405 -15%) COD.',
+      desc: '✓ Stok Rasmi Horsemen Original Malaysia (20 Kapsul x 500mg) Tongkat Ali 100:1 & Maca Hitam. Beli 1 RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD Bungkusan Rahsia.',
     },
     '/ms/produk/hammer-of-thor/': {
       canonical: `${DOMAIN_ORIGIN}/ms/produk/hammer-of-thor/`,
       enHref: `${DOMAIN_ORIGIN}/products/hammer-of-thor/`,
       msHref: `${DOMAIN_ORIGIN}/ms/produk/hammer-of-thor/`,
-      title: 'Katalog Produk Rasmi Hammer of Thor (20 Kapsul) — RM 159',
+      title: 'Hammer of Thor Original Malaysia [RM159 COD] ✓ Bayar Bila Sampai',
       h1: 'Katalog Produk Rasmi Hammer of Thor Original — 20 Kapsul Vegetarian Tribulus Saponin',
-      desc: 'Katalog Produk Rasmi Hammer of Thor (SKU: ONYX-HT-20): 20 Kapsul Vegetarian Tribulus 60% saponin & Maca. RM 159 (2 Botol RM 286 -10%, 3 Botol RM 405 -15%) COD.',
+      desc: '✓ Stok Rasmi Hammer of Thor Original (20 Kapsul Veg.) Tribulus 60% saponin & Maca. Beli 1 RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD Bungkusan Rahsia Malaysia.',
     },
     '/ms/produk/grow-xl/': {
       canonical: `${DOMAIN_ORIGIN}/ms/produk/grow-xl/`,
       enHref: `${DOMAIN_ORIGIN}/products/grow-xl/`,
       msHref: `${DOMAIN_ORIGIN}/ms/produk/grow-xl/`,
-      title: 'Katalog Produk Rasmi Grow XL / GrowXL (30 Kapsul) — RM 159',
+      title: 'Grow XL / GrowXL Original Malaysia [RM159 COD] ✓ Bungkusan Rahsia',
       h1: 'Katalog Produk Rasmi Grow XL (GrowXL) — 30 Kapsul Formulasi Harian Ekstra Kuat',
-      desc: 'Katalog Produk Rasmi Grow XL / GrowXL (SKU: ONYX-GX-30): 30 Kapsul x 550mg Tongkat Ali Ekstra Kuat & Maca. RM 159 (2 Botol RM 286 -10%, 3 Botol RM 405 -15%) COD.',
+      desc: '✓ Stok Rasmi Grow XL / GrowXL Original (30 Kapsul) Tongkat Ali Ekstra Kuat & Maca. Beli 1 RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD Bayar Bila Sampai Malaysia.',
     },
     '/ms/produk/magnum-pump-xr/': {
       canonical: `${DOMAIN_ORIGIN}/ms/produk/magnum-pump-xr/`,
       enHref: `${DOMAIN_ORIGIN}/products/magnum-pump-xr/`,
       msHref: `${DOMAIN_ORIGIN}/ms/produk/magnum-pump-xr/`,
-      title: 'Katalog Produk Rasmi Magnum Pump XR (30 Kapsul) — RM 159',
+      title: 'Magnum Pump XR Original Malaysia [RM159 COD] ✓ Bayar Bila Sampai',
       h1: 'Katalog Produk Rasmi Magnum Pump XR — 30 Kapsul Hitam Siri Pro Nitrik Oksida',
-      desc: 'Katalog Produk Rasmi Magnum Pump XR (SKU: ONYX-MP-30): 30 Kapsul Hitam x 600mg Nitrik Oksida L-Arginine. RM 159 (2 Botol RM 286 -10%, 3 Botol RM 405 -15%) COD.',
+      desc: '✓ Stok Rasmi Magnum Pump XR Original (30 Kapsul Hitam) Nitrik Oksida L-Arginine. Beli 1 RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD Bungkusan Rahsia Malaysia.',
     },
   };
 
@@ -912,6 +916,85 @@ ${items
 
   fs.writeFileSync(path.join(PUBLIC_DIR, 'google-merchant-feed.xml'), merchantXmlEn, 'utf8');
   fs.writeFileSync(path.join(PUBLIC_DIR, 'google-merchant-feed-ms.xml'), merchantXmlMs, 'utf8');
+
+  // Generate Atom 1.0 (feed.xml) & RSS 2.0 (rss.xml) with Google WebSub / PubSubHubbub Hub
+  // so Google FeedFetcher & Googlebot receive instant real-time push notifications for all 102 canonical URLs
+  const sortedCanonicalRoutes = [...canonicalRouteSet].sort();
+  const nowIso = new Date().toISOString();
+  const rfc822Date = new Date().toUTCString();
+  const xmlEscape = (s) =>
+    String(s || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+
+  const feedEntries = [];
+  for (const r of sortedCanonicalRoutes) {
+    const rel = r.replace(/^\/+/, '');
+    const p = path.join(PUBLIC_DIR, rel, 'index.html');
+    if (!fs.existsSync(p)) continue;
+    const h = fs.readFileSync(p, 'utf8');
+    const t = (h.match(/<title>([\s\S]*?)<\/title>/i) || [])[1]?.replace(/&amp;/g, '&').trim() || `Onyxmen Malaysia ${r}`;
+    const d = (h.match(/<meta\s+name="description"\s+content="([^"]*)"/i) || [])[1]?.replace(/&amp;/g, '&').trim() || t;
+    feedEntries.push({ url: `${DOMAIN_ORIGIN}${r}`, title: t, desc: d });
+  }
+
+  const atomXml = `<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Onyxmen Malaysia — 100% Original Men's Vitality &amp; Discreet COD Catalog</title>
+  <subtitle>Official Horsemen, Hammer of Thor, Grow XL &amp; Magnum Pump XR Malaysia (RM 159 · Buy 2 Save 10% · Buy 3 Save 15%)</subtitle>
+  <link href="${DOMAIN_ORIGIN}/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://pubsubhubbub.appspot.com/" rel="hub" />
+  <link href="https://pubsubhubbub.superfeedr.com/" rel="hub" />
+  <link href="${DOMAIN_ORIGIN}/" rel="alternate" type="text/html" />
+  <id>${DOMAIN_ORIGIN}/</id>
+  <updated>${nowIso}</updated>
+  <author>
+    <name>Onyxmen Malaysia Official Apothecary</name>
+    <uri>${DOMAIN_ORIGIN}/</uri>
+  </author>
+${feedEntries
+  .map(
+    (e) => `  <entry>
+    <title>${xmlEscape(e.title)}</title>
+    <link href="${e.url}" rel="alternate" type="text/html" />
+    <id>${e.url}</id>
+    <updated>${nowIso}</updated>
+    <summary>${xmlEscape(e.desc)}</summary>
+  </entry>`
+  )
+  .join('\n')}
+</feed>
+`;
+
+  const rssXml = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Onyxmen Malaysia — 100% Original Men's Vitality &amp; Discreet COD Catalog</title>
+    <link>${DOMAIN_ORIGIN}/</link>
+    <description>Official Horsemen, Hammer of Thor, Grow XL &amp; Magnum Pump XR Malaysia (RM 159 · Buy 2 Save 10% · Buy 3 Save 15%)</description>
+    <language>en-my</language>
+    <lastBuildDate>${rfc822Date}</lastBuildDate>
+    <atom:link href="${DOMAIN_ORIGIN}/rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
+${feedEntries
+  .map(
+    (e) => `    <item>
+      <title>${xmlEscape(e.title)}</title>
+      <link>${e.url}</link>
+      <guid isPermaLink="true">${e.url}</guid>
+      <pubDate>${rfc822Date}</pubDate>
+      <description>${xmlEscape(e.desc)}</description>
+    </item>`
+  )
+  .join('\n')}
+  </channel>
+</rss>
+`;
+
+  fs.writeFileSync(path.join(PUBLIC_DIR, 'feed.xml'), atomXml, 'utf8');
+  fs.writeFileSync(path.join(PUBLIC_DIR, 'rss.xml'), rssXml, 'utf8');
 
   // MS-245: Preserve existing liveGscApiTelemetry & googleSearchConsoleLiveTelemetry in seo-health-status.json
   const outPath = path.join(PUBLIC_DIR, 'seo-health-status.json');
