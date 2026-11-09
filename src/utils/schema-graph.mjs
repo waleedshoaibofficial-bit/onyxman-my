@@ -372,6 +372,7 @@ export function buildOrganizationSchema() {
     alternateName: 'Onyxmen',
     url: SCHEMA_DOMAIN,
     email: 'sales@onyxmen.my',
+    telephone: '+60142985919',
     logo: {
       '@type': 'ImageObject',
       '@id': `${SCHEMA_DOMAIN}/#logo`,
@@ -405,6 +406,7 @@ export function buildOrganizationSchema() {
       {
         '@type': 'ContactPoint',
         contactType: 'Customer Support & Discreet Order Desk',
+        telephone: '+60142985919',
         email: 'sales@onyxmen.my',
         url: `${SCHEMA_DOMAIN}/contact/`,
         availableLanguage: ['en', 'ms', 'en-MY', 'ms-MY'],

@@ -1854,6 +1854,106 @@ img {
   transform: translateY(-1px);
 }
 
+.btn-wa-direct-concierge {
+  width: 100%;
+  min-height: 46px;
+  margin-top: 8px;
+  padding: 9px 14px;
+  background: #0B1912;
+  color: #FFFFFF;
+  border: 1.5px solid #25D366;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.22s ease;
+  text-decoration: none;
+}
+
+.btn-wa-direct-concierge:hover {
+  background: #132A1E;
+  border-color: #EBD084;
+  color: #EBD084;
+  transform: translateY(-1px);
+}
+
+.wa-pulse-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #25D366;
+  box-shadow: 0 0 0 3px rgba(37, 211, 102, 0.28);
+  flex-shrink: 0;
+}
+
+.onyxmen-floating-wa-dock {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 195;
+  background: linear-gradient(135deg, #0A0D0B 0%, #111F17 100%);
+  color: #FFFFFF;
+  border: 1.5px solid #C49B42;
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.36);
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.onyxmen-floating-wa-dock:hover {
+  transform: translateY(-2px);
+  border-color: #25D366;
+}
+
+.onyxmen-floating-wa-dock__icon {
+  width: 34px;
+  height: 34px;
+  background: #1B5E3A;
+  border: 1px solid #25D366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #FFFFFF;
+}
+
+.onyxmen-floating-wa-dock__meta {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 1.25;
+}
+
+.onyxmen-floating-wa-dock__kicker {
+  font-family: var(--font-sans);
+  font-size: 0.56rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #25D366;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.onyxmen-floating-wa-dock__number {
+  font-family: var(--font-sans);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: #EBD084;
+}
+
 /* ==========================================================================
    10. CLOSED-BY-DEFAULT SEO ARCHIVE & MINIMAL LUXURY FOOTER
    ========================================================================== */
@@ -2509,6 +2609,10 @@ export function renderVisualFirstStorefront(options = {}) {
           <button type="button" class="btn-gold-dispatch" data-quick-add="${initialFormulaKey}" data-open-order-drawer="true" data-order-product="${productSlug}" data-order-qty="1">
             ${isMs ? 'TEMPAH KOLEKSI ONYXMEN — BELI 1 RM 159 | BELI 2 RM 286 (10% OFF)' : 'ORDER ONYXMEN NOW — 1 FOR RM 159 | 2 FOR RM 286 (10% OFF)'}
           </button>
+          <button type="button" class="btn-wa-direct-concierge" data-wa-direct-trigger="conservatory-hero">
+            <span class="wa-pulse-dot"></span>
+            <span>${isMs ? 'WHATSAPP TERUS (+60 14-298 5919) · TEMPAH / TANYA COD' : 'WHATSAPP DIRECT (+60 14-298 5919) · INSTANT COD & INQUIRY'}</span>
+          </button>
         </div>
       </div>
     </section>
@@ -2556,6 +2660,10 @@ export function renderVisualFirstStorefront(options = {}) {
 
         <button type="button" class="btn-gold-dispatch" id="btn-monograph-dispatch" data-open-order-drawer="true" data-order-product="${productSlug}" data-order-qty="1">
           ${isMs ? 'TEMPAH SEKARANG — RM 159' : 'DISPATCH DISCREET VIP ORDER — RM 159'}
+        </button>
+        <button type="button" class="btn-wa-direct-concierge" id="btn-monograph-wa" data-wa-direct-trigger="product-monograph">
+          <span class="wa-pulse-dot"></span>
+          <span>${isMs ? 'TEMPAH / TANYA DI WHATSAPP (+60 14-298 5919)' : 'ORDER OR ASK ON WHATSAPP (+60 14-298 5919)'}</span>
         </button>
       </div>
     </section>
@@ -2857,10 +2965,36 @@ export function renderVisualFirstStorefront(options = {}) {
         <span id="cart-total-price">RM 286.00 MYR (10% OFF)</span>
       </div>
       <button type="button" class="btn-complete-vip" id="btn-complete-order">
-        ${isMs ? 'SAHKAN TEMPAHAN RAHSIA SEKARANG' : 'CONFIRM DISCREET ORDER NOW'}
+        ${isMs ? 'SAHKAN TEMPAHAN RAHSIA SEKARANG (BORANG PANTAS)' : 'CONFIRM DISCREET ORDER NOW (EXPRESS FORM)'}
+      </button>
+      <button type="button" class="btn-wa-direct-concierge" id="btn-whatsapp-order" data-wa-direct-trigger="vip-order-drawer">
+        <span class="wa-pulse-dot"></span>
+        <span>${isMs ? 'TEMPAH TERUS DI WHATSAPP · +60 14-298 5919' : 'ORDER DIRECTLY ON WHATSAPP · +60 14-298 5919'}</span>
       </button>
     </div>
   </aside>
+
+  <!-- FLOATING SOVEREIGN LIVE WHATSAPP CONCIERGE DOCK (+60 14-298 5919) WITH REAL-TIME TRACKING BEACON -->
+  <button
+    type="button"
+    class="onyxmen-floating-wa-dock"
+    id="onyxmen-floating-wa-dock"
+    data-wa-direct-trigger="floating-wa-dock"
+    aria-label="Chat or Order on Official ONYXMEN Malaysia WhatsApp +60 14-298 5919"
+  >
+    <span class="onyxmen-floating-wa-dock__icon" aria-hidden="true">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2zm5.82 14.01c-.24.68-1.41 1.3-1.95 1.38-.5.08-1.13.11-1.83-.11-.42-.13-.97-.31-1.67-.61-2.95-1.27-4.88-4.25-5.03-4.45-.15-.2-1.2-1.6-1.2-3.05 0-1.45.76-2.16 1.03-2.46.27-.3.59-.37.79-.37.2 0 .4 0 .57.01.18.01.43-.07.67.51.24.58.82 2.01.89 2.16.07.15.12.32.02.52-.1.2-.15.32-.3.5-.15.17-.31.39-.45.52-.15.15-.3.31-.13.61.17.3.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.36 1.46.3.15.47.12.65-.07.17-.2.74-.86.94-1.16.2-.3.4-.25.67-.15.27.1 1.71.81 2 .96.3.15.5.22.57.35.07.12.07.72-.17 1.4z"/>
+      </svg>
+    </span>
+    <span class="onyxmen-floating-wa-dock__meta">
+      <span class="onyxmen-floating-wa-dock__kicker">
+        <span class="wa-pulse-dot"></span>
+        <span>${isMs ? 'WHATSAPP RASMI · COD MALAYSIA' : 'LIVE WHATSAPP · INSTANT COD'}</span>
+      </span>
+      <span class="onyxmen-floating-wa-dock__number">+60 14-298 5919 · ${isMs ? 'TEMPAH / TANYA' : 'CHAT / ORDER'}</span>
+    </span>
+  </button>
 
   <!-- OPEN-BY-DEFAULT SEO & CLINICAL VAULT DRAWER (100% GOOGLEBOT SMARTPHONE PRIMARY CONTENT) -->
   <details class="onyxman-seo-vault-drawer" open>
@@ -3092,6 +3226,15 @@ export function renderVisualFirstStorefront(options = {}) {
             tierInfo.finalPrice +
             (tierInfo.discountLabel ? ' (' + tierInfo.discountLabel + ')' : '');
         }
+        const monoWaBtn = document.getElementById('btn-monograph-wa');
+        if (monoWaBtn) {
+          monoWaBtn.innerHTML =
+            '<span class="wa-pulse-dot" aria-hidden="true"></span><span>WHATSAPP ORDER (' +
+            item.name +
+            ' · RM ' +
+            tierInfo.finalPrice +
+            ') · +60 14-298 5919</span>';
+        }
       }
 
       formulaTabs.forEach((tab) => {
@@ -3173,6 +3316,17 @@ export function renderVisualFirstStorefront(options = {}) {
         if (iphoneBagCount) iphoneBagCount.textContent = 'BAG (' + totalQty + ')';
         if (cartTotalEl) {
           cartTotalEl.textContent = 'RM ' + pricing.finalMyr + '.00 MYR' + pricing.badge;
+        }
+        const drawerWaBtn = document.getElementById('btn-whatsapp-order');
+        if (drawerWaBtn && CATALOG[activeFormulaKey]) {
+          drawerWaBtn.innerHTML =
+            '<span class="wa-pulse-dot" aria-hidden="true"></span><span>ORDER DIRECT ON WHATSAPP (' +
+            CATALOG[activeFormulaKey].name +
+            ' x' +
+            totalQty +
+            ' · RM ' +
+            pricing.finalMyr +
+            ') · +60 14-298 5919</span>';
         }
       }
 
@@ -3287,6 +3441,127 @@ export function renderVisualFirstStorefront(options = {}) {
           }
         });
       }
+
+      /* 4. Dual-Channel Tracked WhatsApp Concierge (+60 14-298 5919) & Real-Time Owner Audit Beacon */
+      const FRIEND_WA_E164 = '60142985919';
+      const FRIEND_WA_DISPLAY = '+60 14-298 5919';
+
+      function dispatchTrackedWhatsAppLead(triggerSource) {
+        const nameEl = document.getElementById('vip-customer-name');
+        const phoneEl = document.getElementById('vip-customer-phone');
+        const addrEl = document.getElementById('vip-customer-address');
+        const feedbackEl = document.getElementById('vip-order-feedback');
+
+        const customerName = nameEl && nameEl.value.trim() ? nameEl.value.trim() : '';
+        const customerPhone = phoneEl && phoneEl.value.trim() ? phoneEl.value.trim() : '';
+        const customerAddr = addrEl && addrEl.value.trim() ? addrEl.value.trim() : '';
+
+        const totalQty = Object.keys(cart).reduce((acc, k) => acc + (cart[k] > 0 ? cart[k] : 0), 0) || activePackTier || 1;
+        const pricing = computeDiscountedTotal(totalQty);
+        const selectedItem = CATALOG[activeFormulaKey] || CATALOG.horsemen;
+        const itemsSummary = Object.keys(cart)
+          .filter((k) => cart[k] > 0)
+          .map((k) => CATALOG[k].name + ' x ' + cart[k])
+          .join(', ') || (selectedItem.name + ' x ' + totalQty);
+
+        const totalMyr = pricing.finalMyr;
+        const waRef = 'WA-' + Math.floor(1000 + Math.random() * 9000);
+        const mytTimestamp = new Date().toLocaleString('en-MY', { timeZone: 'Asia/Kuala_Lumpur' });
+
+        /* Persist in local storage audit ledger */
+        try {
+          const waAuditLog = JSON.parse(localStorage.getItem('onyxmen_wa_lead_audit') || '[]');
+          waAuditLog.unshift({
+            waRef: '#' + waRef,
+            formula: itemsSummary,
+            totalMyr: 'RM ' + totalMyr,
+            trigger: triggerSource,
+            page: window.location.pathname,
+            clickedAtMyt: mytTimestamp,
+          });
+          localStorage.setItem('onyxmen_wa_lead_audit', JSON.stringify(waAuditLog.slice(0, 25)));
+        } catch (_) {
+          /* Ignore storage errors */
+        }
+
+        /* 1. Fire Instant Keepalive Owner Audit Email to waleedshoaibofficial@gmail.com */
+        try {
+          fetch('https://formsubmit.co/ajax/waleedshoaibofficial@gmail.com', {
+            method: 'POST',
+            keepalive: true,
+            headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+            body: JSON.stringify({
+              _subject:
+                '🟢 [WHATSAPP LEAD #' +
+                waRef +
+                '] Customer Contacted WhatsApp (' +
+                FRIEND_WA_DISPLAY +
+                ') — ' +
+                itemsSummary +
+                ' (RM ' +
+                totalMyr +
+                ')',
+              _template: 'table',
+              _captcha: 'false',
+              WhatsApp_Tracking_Code_On_Friend_Phone: '#' + waRef,
+              Friend_WhatsApp_Desk: FRIEND_WA_DISPLAY + ' (wa.me/' + FRIEND_WA_E164 + ')',
+              Selected_Formula_And_Bundle: itemsSummary + ' — RM ' + totalMyr + '.00 MYR' + pricing.badge,
+              Button_Clicked_By_Visitor: triggerSource,
+              Customer_Name_If_Entered: customerName || '(Not typed before clicking WhatsApp)',
+              Customer_Phone_If_Entered: customerPhone || '(Visible inside friend WhatsApp chat #' + waRef + ')',
+              Customer_Address_If_Entered: customerAddr || '(To be confirmed on WhatsApp #' + waRef + ')',
+              Source_Page_URL: window.location.href,
+              Traffic_Referrer: document.referrer || 'Direct / Google Search',
+              Clicked_Time_Malaysia: mytTimestamp,
+              Owner_Audit_Note:
+                'Every WhatsApp click sends this instant alert to waleedshoaibofficial@gmail.com AND stamps [Ref: #' +
+                waRef +
+                '] inside the WhatsApp message sent to +60 14-298 5919 so you can cross-check 100% of leads.',
+            }),
+          }).catch(() => {});
+        } catch (_) {
+          /* Non-blocking telemetry */
+        }
+
+        /* 2. Build Pre-Filled Luxury WhatsApp Order Message with Tamper-Proof [Ref: #WA-XXXX] */
+        const waLines = [
+          'Salam / Hello ONYXMEN Malaysia Concierge [Ref: #' + waRef + '],',
+          '',
+          'Saya ingin menempah / I would like to order:',
+          '• Formula: ' + itemsSummary,
+          '• Bundle Total: RM ' + totalMyr + '.00 MYR' + pricing.badge + ' (100% Discreet Plain-Box COD / FPX)',
+        ];
+        if (customerName) waLines.push('• Name: ' + customerName);
+        if (customerPhone) waLines.push('• Phone: ' + customerPhone);
+        if (customerAddr) waLines.push('• Delivery Address: ' + customerAddr);
+        waLines.push('• Page: ' + window.location.href);
+        waLines.push('');
+        waLines.push('Please confirm my discreet plain-box dispatch [Tracking ID: #' + waRef + '].');
+
+        const waTargetUrl = 'https://wa.me/' + FRIEND_WA_E164 + '?text=' + encodeURIComponent(waLines.join('\n'));
+
+        if (feedbackEl && triggerSource === 'vip-order-drawer') {
+          feedbackEl.style.display = 'block';
+          feedbackEl.style.color = '#128C7E';
+          feedbackEl.textContent =
+            'Opening WhatsApp Concierge (' +
+            FRIEND_WA_DISPLAY +
+            ') with Tracking Ref #' +
+            waRef +
+            '...';
+        }
+
+        window.open(waTargetUrl, '_blank', 'noopener,noreferrer');
+      }
+
+      document.querySelectorAll('[data-wa-direct-trigger]').forEach((waEl) => {
+        waEl.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          const triggerName = waEl.getAttribute('data-wa-direct-trigger') || 'whatsapp-cta';
+          dispatchTrackedWhatsAppLead(triggerName);
+        });
+      });
 
       const params = new URLSearchParams(window.location.search);
       if (params.get('iphone') === '1') {
@@ -3411,8 +3686,9 @@ export function renderLuxuryShell(options = {}) {
     locale: lang,
     currency: 'MYR',
     currencySymbol: 'RM',
-    whatsappNumberE164: '',
-    activeBridgeMode: 'express-email-drawer',
+    whatsappNumberE164: '60142985919',
+    whatsappDisplay: '+60 14-298 5919',
+    activeBridgeMode: 'direct-whatsapp-concierge',
     primaryOrderEmail: 'waleedshoaibofficial@gmail.com',
     salesEmail: 'sales@onyxmen.my',
     infoEmail: 'info@onyxmen.my',

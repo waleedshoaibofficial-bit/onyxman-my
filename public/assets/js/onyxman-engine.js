@@ -21,7 +21,7 @@
     locale: document.documentElement.lang === 'ms-MY' ? 'ms-MY' : 'en-MY',
     currency: 'MYR',
     currencySymbol: 'RM',
-    whatsappNumberE164: '',
+    whatsappNumberE164: '60142985919',
     primaryOrderEmail: 'waleedshoaibofficial@gmail.com',
     salesEmail: 'sales@onyxman.my',
     infoEmail: 'info@onyxman.my',

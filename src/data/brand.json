@@ -34,8 +34,9 @@
     "postalRegionCode": "50450"
   },
   "whatsappBridge": {
-    "whatsappNumberE164": "",
-    "activeMode": "express-email-drawer",
+    "whatsappNumberE164": "60142985919",
+    "whatsappDisplay": "+60 14-298 5919",
+    "activeMode": "direct-whatsapp-concierge",
     "fallbackMode": "express-email-drawer",
     "directMode": "direct-whatsapp-concierge",
     "formSubmitAjaxEndpoint": "https://formsubmit.co/ajax/waleedshoaibofficial@gmail.com",
