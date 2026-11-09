@@ -2609,10 +2609,10 @@ export function renderVisualFirstStorefront(options = {}) {
           <button type="button" class="btn-gold-dispatch" data-quick-add="${initialFormulaKey}" data-open-order-drawer="true" data-order-product="${productSlug}" data-order-qty="1">
             ${isMs ? 'TEMPAH KOLEKSI ONYXMEN — BELI 1 RM 159 | BELI 2 RM 286 (10% OFF)' : 'ORDER ONYXMEN NOW — 1 FOR RM 159 | 2 FOR RM 286 (10% OFF)'}
           </button>
-          <button type="button" class="btn-wa-direct-concierge" data-wa-direct-trigger="conservatory-hero">
+          <a href="https://wa.me/60142985919?text=${encodeURIComponent(isMs ? 'Hai ONYXMEN Malaysia, saya ingin tahu lebih lanjut / buat tempahan.' : 'Hi ONYXMEN Malaysia, I would like to get more info / place an order.')}" class="btn-wa-direct-concierge" data-wa-direct-trigger="conservatory-hero">
             <span class="wa-pulse-dot"></span>
-            <span>${isMs ? 'WHATSAPP TERUS (+60 14-298 5919) · TEMPAH / TANYA COD' : 'WHATSAPP DIRECT (+60 14-298 5919) · INSTANT COD & INQUIRY'}</span>
-          </button>
+            <span>${isMs ? 'WHATSAPP TERUS (+60 14-298 5919) · TANYA INFO / COD' : 'WHATSAPP DIRECT (+60 14-298 5919) · ASK INFO OR ORDER'}</span>
+          </a>
         </div>
       </div>
     </section>
@@ -2661,10 +2661,10 @@ export function renderVisualFirstStorefront(options = {}) {
         <button type="button" class="btn-gold-dispatch" id="btn-monograph-dispatch" data-open-order-drawer="true" data-order-product="${productSlug}" data-order-qty="1">
           ${isMs ? 'TEMPAH SEKARANG — RM 159' : 'DISPATCH DISCREET VIP ORDER — RM 159'}
         </button>
-        <button type="button" class="btn-wa-direct-concierge" id="btn-monograph-wa" data-wa-direct-trigger="product-monograph">
+        <a href="https://wa.me/60142985919?text=${encodeURIComponent(isMs ? 'Hai ONYXMEN Malaysia, saya ingin tanya info / tempah produk ini.' : 'Hi ONYXMEN Malaysia, I would like to get info / order this product.')}" class="btn-wa-direct-concierge" id="btn-monograph-wa" data-wa-direct-trigger="product-monograph">
           <span class="wa-pulse-dot"></span>
-          <span>${isMs ? 'TEMPAH / TANYA DI WHATSAPP (+60 14-298 5919)' : 'ORDER OR ASK ON WHATSAPP (+60 14-298 5919)'}</span>
-        </button>
+          <span>${isMs ? 'TANYA INFO / TEMPAH DI WHATSAPP (+60 14-298 5919)' : 'ASK INFO OR ORDER ON WHATSAPP (+60 14-298 5919)'}</span>
+        </a>
       </div>
     </section>
 
@@ -2967,16 +2967,16 @@ export function renderVisualFirstStorefront(options = {}) {
       <button type="button" class="btn-complete-vip" id="btn-complete-order">
         ${isMs ? 'SAHKAN TEMPAHAN RAHSIA SEKARANG (BORANG PANTAS)' : 'CONFIRM DISCREET ORDER NOW (EXPRESS FORM)'}
       </button>
-      <button type="button" class="btn-wa-direct-concierge" id="btn-whatsapp-order" data-wa-direct-trigger="vip-order-drawer">
+      <a href="https://wa.me/60142985919?text=${encodeURIComponent(isMs ? 'Hai ONYXMEN Malaysia, saya ingin tanya info / buat tempahan.' : 'Hi ONYXMEN Malaysia, I would like to get info / place an order.')}" class="btn-wa-direct-concierge" id="btn-whatsapp-order" data-wa-direct-trigger="vip-order-drawer">
         <span class="wa-pulse-dot"></span>
-        <span>${isMs ? 'TEMPAH TERUS DI WHATSAPP · +60 14-298 5919' : 'ORDER DIRECTLY ON WHATSAPP · +60 14-298 5919'}</span>
-      </button>
+        <span>${isMs ? 'TANYA INFO / TEMPAH DI WHATSAPP · +60 14-298 5919' : 'ASK INFO OR ORDER ON WHATSAPP · +60 14-298 5919'}</span>
+      </a>
     </div>
   </aside>
 
   <!-- FLOATING SOVEREIGN LIVE WHATSAPP CONCIERGE DOCK (+60 14-298 5919) WITH REAL-TIME TRACKING BEACON -->
-  <button
-    type="button"
+  <a
+    href="https://wa.me/60142985919?text=${encodeURIComponent(isMs ? 'Hai ONYXMEN Malaysia, saya ingin tahu lebih lanjut mengenai produk anda.' : 'Hi ONYXMEN Malaysia, I would like to get more info about your products.')}"
     class="onyxmen-floating-wa-dock"
     id="onyxmen-floating-wa-dock"
     data-wa-direct-trigger="floating-wa-dock"
@@ -2990,11 +2990,11 @@ export function renderVisualFirstStorefront(options = {}) {
     <span class="onyxmen-floating-wa-dock__meta">
       <span class="onyxmen-floating-wa-dock__kicker">
         <span class="wa-pulse-dot"></span>
-        <span>${isMs ? 'WHATSAPP RASMI · COD MALAYSIA' : 'LIVE WHATSAPP · INSTANT COD'}</span>
+        <span>${isMs ? 'WHATSAPP RASMI · TANYA / COD' : 'LIVE WHATSAPP · INFO & COD'}</span>
       </span>
-      <span class="onyxmen-floating-wa-dock__number">+60 14-298 5919 · ${isMs ? 'TEMPAH / TANYA' : 'CHAT / ORDER'}</span>
+      <span class="onyxmen-floating-wa-dock__number">+60 14-298 5919 · ${isMs ? 'TANYA / TEMPAH' : 'ASK / ORDER'}</span>
     </span>
-  </button>
+  </a>
 
   <!-- OPEN-BY-DEFAULT SEO & CLINICAL VAULT DRAWER (100% GOOGLEBOT SMARTPHONE PRIMARY CONTENT) -->
   <details class="onyxman-seo-vault-drawer" open>
@@ -3229,10 +3229,8 @@ export function renderVisualFirstStorefront(options = {}) {
         const monoWaBtn = document.getElementById('btn-monograph-wa');
         if (monoWaBtn) {
           monoWaBtn.innerHTML =
-            '<span class="wa-pulse-dot" aria-hidden="true"></span><span>WHATSAPP ORDER (' +
+            '<span class="wa-pulse-dot" aria-hidden="true"></span><span>ASK INFO / ORDER ON WHATSAPP (' +
             item.name +
-            ' · RM ' +
-            tierInfo.finalPrice +
             ') · +60 14-298 5919</span>';
         }
       }
@@ -3320,12 +3318,8 @@ export function renderVisualFirstStorefront(options = {}) {
         const drawerWaBtn = document.getElementById('btn-whatsapp-order');
         if (drawerWaBtn && CATALOG[activeFormulaKey]) {
           drawerWaBtn.innerHTML =
-            '<span class="wa-pulse-dot" aria-hidden="true"></span><span>ORDER DIRECT ON WHATSAPP (' +
+            '<span class="wa-pulse-dot" aria-hidden="true"></span><span>ASK INFO / ORDER ON WHATSAPP (' +
             CATALOG[activeFormulaKey].name +
-            ' x' +
-            totalQty +
-            ' · RM ' +
-            pricing.finalMyr +
             ') · +60 14-298 5919</span>';
         }
       }
@@ -3523,35 +3517,30 @@ export function renderVisualFirstStorefront(options = {}) {
           /* Non-blocking telemetry */
         }
 
-        /* 2. Build Pre-Filled Luxury WhatsApp Order Message with Tamper-Proof [Ref: #WA-XXXX] */
-        const waLines = [
-          'Salam / Hello ONYXMEN Malaysia Concierge [Ref: #' + waRef + '],',
-          '',
-          'Saya ingin menempah / I would like to order:',
-          '• Formula: ' + itemsSummary,
-          '• Bundle Total: RM ' + totalMyr + '.00 MYR' + pricing.badge + ' (100% Discreet Plain-Box COD / FPX)',
-        ];
-        if (customerName) waLines.push('• Name: ' + customerName);
-        if (customerPhone) waLines.push('• Phone: ' + customerPhone);
-        if (customerAddr) waLines.push('• Delivery Address: ' + customerAddr);
-        waLines.push('• Page: ' + window.location.href);
-        waLines.push('');
-        waLines.push('Please confirm my discreet plain-box dispatch [Tracking ID: #' + waRef + '].');
+        /* 2. Build Simple, Friendly 1-Line WhatsApp Message (Info or Order) with Short [Ref: #WA-XXXX] */
+        const isPageMs = document.documentElement.lang === 'ms-MY';
+        let simpleWaText = isPageMs
+          ? 'Hai ONYXMEN Malaysia, saya ingin tanya info / buat tempahan mengenai ' + selectedItem.name + '. [Ref: #' + waRef + ']'
+          : 'Hi ONYXMEN Malaysia, I would like to get more info / order ' + selectedItem.name + '. [Ref: #' + waRef + ']';
 
-        const waTargetUrl = 'https://wa.me/' + FRIEND_WA_E164 + '?text=' + encodeURIComponent(waLines.join('\n'));
+        if (customerName || customerAddr) {
+          simpleWaText += ' (' + [customerName, customerPhone, customerAddr].filter(Boolean).join(' · ') + ')';
+        }
+
+        const waTargetUrl = 'https://wa.me/' + FRIEND_WA_E164 + '?text=' + encodeURIComponent(simpleWaText);
 
         if (feedbackEl && triggerSource === 'vip-order-drawer') {
           feedbackEl.style.display = 'block';
           feedbackEl.style.color = '#128C7E';
           feedbackEl.textContent =
-            'Opening WhatsApp Concierge (' +
+            'Opening WhatsApp (' +
             FRIEND_WA_DISPLAY +
-            ') with Tracking Ref #' +
+            ') · Ref #' +
             waRef +
             '...';
         }
 
-        window.open(waTargetUrl, '_blank', 'noopener,noreferrer');
+        window.location.href = waTargetUrl;
       }
 
       document.querySelectorAll('[data-wa-direct-trigger]').forEach((waEl) => {

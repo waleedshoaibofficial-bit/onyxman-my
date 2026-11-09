@@ -357,22 +357,14 @@
       return null;
     }
     const productSpec = PRODUCT_SPECIFICATIONS[orderData.productId] || PRODUCT_SPECIFICATIONS.horsemen;
-    const tierInfo = TIER_PRICING_MATRIX[orderData.bottles] || TIER_PRICING_MATRIX[1];
-    const paymentLabel =
-      orderData.paymentMethod === 'FPX_DUITNOW_MY' ? 'FPX / DuitNow Instant QR' : 'Cash on Delivery (COD Malaysia)';
+    const simpleText =
+      'Hi ONYXMEN Malaysia, I would like to confirm my order / get info for ' +
+      productSpec.name +
+      ' [Ref: #' +
+      orderData.orderId +
+      ']';
 
-    const lines = [
-      'Hello Onyxman Malaysia Concierge, I would like to confirm my discreet order [' + orderData.orderId + ']:',
-      '• Formulation: ' + productSpec.name + ' (' + productSpec.capsulesPerBottle + ' Capsules)',
-      '• Protocol Tier: ' + orderData.bottles + ' Bottle(s) — ' + tierInfo.totalDisplay + ' (' + tierInfo.totalSchema + ' MYR)',
-      '• Recipient: ' + orderData.customerName,
-      '• Phone: +' + orderData.normalizedPhoneE164,
-      '• State: ' + orderData.malaysiaState,
-      '• Delivery Address: ' + orderData.deliveryAddress,
-      '• Settlement: ' + paymentLabel,
-    ];
-
-    return 'https://wa.me/' + cleanMerchant + '?text=' + encodeURIComponent(lines.join('\n'));
+    return 'https://wa.me/' + cleanMerchant + '?text=' + encodeURIComponent(simpleText);
   }
 
   /* --------------------------------------------------------------------------
