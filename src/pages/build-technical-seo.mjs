@@ -1047,21 +1047,39 @@ function buildManifestWebmanifest() {
     categories: ['health', 'shopping', 'lifestyle', 'fitness'],
     icons: [
       {
-        src: '/assets/products/horsemen.png',
-        sizes: '900x1125',
+        src: '/favicon-48x48.png',
+        sizes: '48x48',
         type: 'image/png',
         purpose: 'any',
       },
       {
-        src: '/assets/products/onyxman-lineup-hero.png',
-        sizes: '1600x1200',
+        src: '/favicon-96x96.png',
+        sizes: '96x96',
+        type: 'image/png',
+        purpose: 'any',
+      },
+      {
+        src: '/favicon-144x144.png',
+        sizes: '144x144',
+        type: 'image/png',
+        purpose: 'any',
+      },
+      {
+        src: '/favicon-192x192.png',
+        sizes: '192x192',
         type: 'image/png',
         purpose: 'any maskable',
       },
       {
-        src: '/assets/products/horsemen.webp',
-        sizes: '900x1125',
-        type: 'image/webp',
+        src: '/favicon-512x512.png',
+        sizes: '512x512',
+        type: 'image/png',
+        purpose: 'any maskable',
+      },
+      {
+        src: '/logo-512x512.png',
+        sizes: '512x512',
+        type: 'image/png',
         purpose: 'any',
       },
     ],
@@ -2634,9 +2652,10 @@ function main() {
   const llmsFullTxt = buildLlmsFullTxt();
   writeOut(path.join(PUBLIC_DIR, 'llms-full.txt'), llmsFullTxt);
 
-  // MS-178: public/manifest.webmanifest
+  // MS-178: public/manifest.webmanifest & public/site.webmanifest
   const manifestJson = buildManifestWebmanifest();
   writeOut(path.join(PUBLIC_DIR, 'manifest.webmanifest'), manifestJson);
+  writeOut(path.join(PUBLIC_DIR, 'site.webmanifest'), manifestJson);
 
   // MS-179: public/.well-known/security.txt & public/humans.txt
   const securityTxt = buildSecurityTxt();

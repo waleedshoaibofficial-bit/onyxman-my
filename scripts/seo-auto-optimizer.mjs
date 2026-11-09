@@ -203,12 +203,8 @@ function main() {
     const smPath = path.join(PUBLIC_DIR, sm);
     if (!fs.existsSync(smPath)) continue;
     const raw = fs.readFileSync(smPath, 'utf8');
-    const refreshed = raw.replace(/<lastmod>\d{4}-\d{2}-\d{2}<\/lastmod>/g, `<lastmod>${todayMyt}</lastmod>`);
-    if (refreshed !== raw) {
-      fs.writeFileSync(smPath, refreshed, 'utf8');
-    }
     if (sm === 'sitemap.xml') {
-      const matches = refreshed.match(/<url>/g);
+      const matches = raw.match(/<url>/g);
       totalSitemapLocs = matches ? matches.length : 0;
     }
     updatedSitemaps++;
@@ -579,6 +575,18 @@ function main() {
                 if (node.aggregateRating || node.review) {
                   delete node.aggregateRating;
                   delete node.review;
+                  graphChanged = true;
+                }
+                if (!node.logo || node.logo.url !== `${DOMAIN_ORIGIN}/logo-512x512.png`) {
+                  node.logo = {
+                    '@type': 'ImageObject',
+                    '@id': `${DOMAIN_ORIGIN}/#logo`,
+                    url: `${DOMAIN_ORIGIN}/logo-512x512.png`,
+                    contentUrl: `${DOMAIN_ORIGIN}/logo-512x512.png`,
+                    width: 512,
+                    height: 512,
+                    caption: 'Onyxmen Malaysia — Official Sovereign Crest Logo',
+                  };
                   graphChanged = true;
                 }
               }

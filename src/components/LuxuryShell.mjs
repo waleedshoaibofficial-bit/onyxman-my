@@ -3455,6 +3455,18 @@ export function renderLuxuryShell(options = {}) {
     <meta name="google-site-verification" content="3D9YmY9SMd5RVAdrfKySd2Z5ZsxJOEHtLbQUTNWOKgA" />
     <meta name="google-site-verification" content="aFREgZ12LtzlwdxpdQR6PWBPQozTdPjcTLmRK8M3yRQ" />
 
+    <!-- Official Google Search Favicon, Apple Touch Icon & Manifest Suite (1:1 Multiples of 48px) -->
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="144x144" href="/favicon-144x144.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/favicon-512x512.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
     <!-- Security & Referrer Policy Meta -->
     <meta http-equiv="X-Content-Type-Options" content="nosniff" />
     <meta name="referrer" content="strict-origin-when-cross-origin" />

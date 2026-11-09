@@ -1,0 +1,129 @@
+{
+  "name": "Onyxmen Malaysia — Architectural Botanical Apothecary for Adult Men",
+  "short_name": "Onyxmen MY",
+  "description": "Authentic botanical dietary supplements for adult men in Malaysia: Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR. Uniform RM 159 pricing with 100% discreet unmarked parcel delivery across all 16 Malaysian states.",
+  "id": "https://www.onyxmen.my/",
+  "start_url": "/?utm_source=pwa_manifest",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#050507",
+  "theme_color": "#050507",
+  "lang": "en-MY",
+  "dir": "ltr",
+  "categories": [
+    "health",
+    "shopping",
+    "lifestyle",
+    "fitness"
+  ],
+  "icons": [
+    {
+      "src": "/favicon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/products/onyxman-lineup-hero.webp",
+      "sizes": "1600x1200",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "Onyxmen Malaysia Complete 4-Bottle Botanical Apothecary Lineup (RM 159)"
+    },
+    {
+      "src": "/assets/products/horsemen-portrait.webp",
+      "sizes": "900x1125",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Horsemen 20 Capsules x 500mg — Onyxmen Malaysia Apothecary Reserve"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Horsemen (20 Caps × 500mg) — RM 159",
+      "short_name": "Horsemen",
+      "description": "Rapid evening readiness & 100:1 Malaysian Tongkat Ali + Black Maca reserve (RM 159)",
+      "url": "/products/horsemen/",
+      "icons": [
+        {
+          "src": "/assets/products/horsemen.png",
+          "sizes": "900x1125",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Hammer of Thor (20 Veg. Caps) — RM 159",
+      "short_name": "Hammer of Thor",
+      "description": "100% plant-derived vegetarian capsules with 60%-saponin Tribulus Terrestris (RM 159)",
+      "url": "/products/hammer-of-thor/",
+      "icons": [
+        {
+          "src": "/assets/products/hammer-of-thor.png",
+          "sizes": "900x1125",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Grow XL (30 Capsules) — RM 159",
+      "short_name": "Grow XL",
+      "description": "Full 30-day daily morning conditioning & vascular nutrition blend (RM 159)",
+      "url": "/products/grow-xl/",
+      "icons": [
+        {
+          "src": "/assets/products/grow-xl.png",
+          "sizes": "900x1125",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Magnum Pump XR (30 Black Caps) — RM 159",
+      "short_name": "Magnum Pump XR",
+      "description": "Extended-release L-Arginine, L-Citrulline & Bioperine nitric oxide black capsules (RM 159)",
+      "url": "/products/magnum-pump-xr/",
+      "icons": [
+        {
+          "src": "/assets/products/magnum-pump-xr.png",
+          "sizes": "900x1125",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}
