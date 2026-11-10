@@ -3035,6 +3035,16 @@ export function renderVisualFirstStorefront(options = {}) {
     <a href="/ms/produk/grow-xl/" style="color:#52565A;text-decoration:none;">Produk Grow XL</a>
     <a href="/ms/produk/magnum-pump-xr/" style="color:#52565A;text-decoration:none;">Produk Magnum Pump XR</a>
     <a href="/compare/" style="color:#52565A;text-decoration:none;">4-Bottle Comparison Matrix</a>
+    <a href="/guides/" style="color:#52565A;text-decoration:none;">10 Buyer &amp; Dosage Guides (EN)</a>
+    <a href="/ms/panduan/" style="color:#52565A;text-decoration:none;">10 Panduan Pengguna (BM)</a>
+    <a href="/guides/hammer-of-thor-original-vs-fake-malaysia/" style="color:#52565A;text-decoration:none;">Hammer of Thor Original vs Fake Guide</a>
+    <a href="/guides/growxl-for-men-30-capsule-dosage-guide-malaysia/" style="color:#52565A;text-decoration:none;">GrowXL for Men 30-Cap Dosage Guide</a>
+    <a href="/guides/horsemen-capsule-original-500mg-malaysia-guide/" style="color:#52565A;text-decoration:none;">Horsemen 500mg Tongkat Ali Guide</a>
+    <a href="/guides/magnum-pump-xr-30-black-capsules-nitric-oxide-guide/" style="color:#52565A;text-decoration:none;">Magnum Pump XR 30 Black Caps Guide</a>
+    <a href="/ms/panduan/hammer-of-thor-original-vs-tiruan-malaysia/" style="color:#52565A;text-decoration:none;">Hammer of Thor Original vs Tiruan (BM)</a>
+    <a href="/ms/panduan/panduan-cara-makan-grow-xl-30-kapsul-malaysia/" style="color:#52565A;text-decoration:none;">Cara Makan Grow XL 30 Kapsul (BM)</a>
+    <a href="/ms/panduan/panduan-horsemen-kapsul-original-500mg-malaysia/" style="color:#52565A;text-decoration:none;">Panduan Horsemen 500mg (BM)</a>
+    <a href="/ms/panduan/panduan-magnum-pump-xr-30-kapsul-hitam-malaysia/" style="color:#52565A;text-decoration:none;">Panduan Magnum Pump XR 30 Kapsul Hitam (BM)</a>
     <a href="/guides/20-capsule-vs-30-capsule-cycle-selection/" style="color:#52565A;text-decoration:none;">20 vs 30 Capsule Cycle Guide</a>
     <a href="/malaysia/kuala-lumpur/" style="color:#52565A;text-decoration:none;">COD Kuala Lumpur</a>
     <a href="/malaysia/selangor/" style="color:#52565A;text-decoration:none;">COD Selangor</a>

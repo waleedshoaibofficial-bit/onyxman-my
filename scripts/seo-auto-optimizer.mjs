@@ -128,6 +128,38 @@ function buildOptimalSerpMeta(route, rawTitle, rawDesc) {
       title: 'Magnum Pump XR Original Malaysia [RM159 COD] ✓ Bayar Bila Sampai',
       desc: '✓ Stok Rasmi Magnum Pump XR Original (30 Kapsul Hitam) Nitrik Oksida L-Arginine. Beli 1 RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD Bungkusan Rahsia Malaysia.',
     },
+    '/guides/hammer-of-thor-original-vs-fake-malaysia/': {
+      title: 'Hammer of Thor Original vs Fake Malaysia [20 Veg Caps RM159]',
+      desc: "✓ Spot 100% Original Hammer of Thor Men's Health Malaysia (20 Veg. Capsules, 60% Saponin Tribulus) vs RM 30 fake capsules. Buy 1 RM 159, 2 RM 286 (-10%) COD.",
+    },
+    '/ms/panduan/hammer-of-thor-original-vs-tiruan-malaysia/': {
+      title: 'Hammer of Thor Original vs Tiruan Malaysia [20 Kapsul RM159]',
+      desc: '✓ Cara kenal Hammer of Thor Original Malaysia (20 Kapsul Veg. Tribulus 60% Saponin) vs kapsul tiruan murah. Beli 1 RM 159, 2 RM 286 (-10%) COD Rahsia.',
+    },
+    '/guides/growxl-for-men-30-capsule-dosage-guide-malaysia/': {
+      title: 'GrowXL for Men / Grow XL Malaysia [30 Caps Dosage & COD RM159]',
+      desc: '✓ Official GrowXL for Men / Grow XL Malaysia 30-Capsule daily dosage, post-breakfast timing & 30-day cycle guide. Buy 1 RM 159, 2 RM 286 (-10%) discreet COD.',
+    },
+    '/ms/panduan/panduan-cara-makan-grow-xl-30-kapsul-malaysia/': {
+      title: 'Cara Makan Grow XL / GrowXL Malaysia [30 Kapsul Original RM159]',
+      desc: '✓ Panduan rasmi cara makan Grow XL / GrowXL for Men Malaysia (30 Kapsul), jadual waktu pagi & kesan kitaran 30 hari. Beli 1 RM 159, 2 RM 286 (-10%) COD.',
+    },
+    '/guides/horsemen-capsule-original-500mg-malaysia-guide/': {
+      title: 'Horsemen Capsule Original 500mg Malaysia [Tongkat Ali & Maca]',
+      desc: '✓ Complete guide to Horsemen Capsule Original 500mg Malaysia (20 Caps): 150mg Tongkat Ali 100:1, 100mg Black Maca & evening timing. RM 159 discreet COD.',
+    },
+    '/ms/panduan/panduan-horsemen-kapsul-original-500mg-malaysia/': {
+      title: 'Panduan Horsemen Kapsul Original 500mg Malaysia [RM159 COD]',
+      desc: '✓ Panduan lengkap Horsemen Kapsul Original 500mg Malaysia (20 Kapsul): 150mg Tongkat Ali 100:1, 100mg Maca Hitam & cara makan malam. Beli RM 159 COD Rahsia.',
+    },
+    '/guides/magnum-pump-xr-30-black-capsules-nitric-oxide-guide/': {
+      title: 'Magnum Pump XR 30 Black Capsules Malaysia [Nitric Oxide RM159]',
+      desc: '✓ Official Magnum Pump XR Malaysia guide (30 Black Capsules × 600mg): 300mg L-Arginine & L-Citrulline Nitric Oxide timing, gym & evening stamina. RM 159 COD.',
+    },
+    '/ms/panduan/panduan-magnum-pump-xr-30-kapsul-hitam-malaysia/': {
+      title: 'Panduan Magnum Pump XR 30 Kapsul Hitam Malaysia [RM159 COD]',
+      desc: '✓ Panduan rasmi Magnum Pump XR Malaysia (30 Kapsul Hitam × 600mg): cara makan L-Arginine & L-Citrulline Nitrik Oksida untuk aliran darah & stamina. RM 159 COD.',
+    },
   };
   if (explicit[route]) return explicit[route];
 

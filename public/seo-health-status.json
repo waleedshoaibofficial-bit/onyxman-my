@@ -2,11 +2,11 @@
   "status": "HEALTHY_100_PERCENT",
   "domain": "https://www.onyxmen.my",
   "designSystem": "1:1 Sovereign Botanicals Edition (demo_01_sovereign_botanicals.html)",
-  "lastUpdatedDateMyt": "2026-11-09",
-  "generatedAtIso": "2026-11-09T12:50:11.574Z",
+  "lastUpdatedDateMyt": "2026-11-10",
+  "generatedAtIso": "2026-11-10T12:34:59.847Z",
   "googleSearchConsole": {
     "verificationCode": "3D9YmY9SMd5RVAdrfKySd2Z5ZsxJOEHtLbQUTNWOKgA",
-    "verifiedPagesCount": 282,
+    "verifiedPagesCount": 294,
     "performanceDashboardUrl": "https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fwww.onyxmen.my%2F",
     "sitemapsConsoleUrl": "https://search.google.com/search-console/sitemaps?resource_id=https%3A%2F%2Fwww.onyxmen.my%2F"
   },
@@ -59,12 +59,12 @@
     }
   ],
   "seoIndexingSummary": {
-    "totalHtmlPagesBuilt": 282,
-    "canonicalBilingualRoutesInSitemap": 100,
-    "pagesWithHreflangReciprocity": 282,
-    "pagesWithInlineCriticalCss": 282,
-    "totalGraphJsonLdNodes": 2602,
-    "totalFaqSchemaQuestionsIndexed": 2874,
+    "totalHtmlPagesBuilt": 294,
+    "canonicalBilingualRoutesInSitemap": 110,
+    "pagesWithHreflangReciprocity": 294,
+    "pagesWithInlineCriticalCss": 294,
+    "totalGraphJsonLdNodes": 2722,
+    "totalFaqSchemaQuestionsIndexed": 2970,
     "sovereignWebpStudioAssets": 13,
     "sitemapsRefreshedCount": 5,
     "sitemaps": [

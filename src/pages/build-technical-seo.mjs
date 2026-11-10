@@ -44,7 +44,20 @@ const ROOT_DIR = path.resolve(__dirname, '../..');
 const PUBLIC_DIR = path.join(ROOT_DIR, 'public');
 const WELL_KNOWN_DIR = path.join(PUBLIC_DIR, '.well-known');
 
-const LASTMOD_DATE = '2026-11-02';
+const LASTMOD_DATE = '2026-11-05';
+const UPDATED_GUIDES_DATE = '2026-11-10';
+const UPDATED_GUIDE_ROUTES = new Set([
+  '/guides/',
+  '/ms/panduan/',
+  '/guides/hammer-of-thor-original-vs-fake-malaysia/',
+  '/ms/panduan/hammer-of-thor-original-vs-tiruan-malaysia/',
+  '/guides/growxl-for-men-30-capsule-dosage-guide-malaysia/',
+  '/ms/panduan/panduan-cara-makan-grow-xl-30-kapsul-malaysia/',
+  '/guides/horsemen-capsule-original-500mg-malaysia-guide/',
+  '/ms/panduan/panduan-horsemen-kapsul-original-500mg-malaysia/',
+  '/guides/magnum-pump-xr-30-black-capsules-nitric-oxide-guide/',
+  '/ms/panduan/panduan-magnum-pump-xr-30-kapsul-hitam-malaysia/',
+]);
 
 /**
  * Escapes XML special characters (`&`, `<`, `>`, `"`, `'`).
@@ -515,12 +528,13 @@ function renderUrlsetXml(entries, bannerComment) {
         )
         .join('\n');
 
+      const routeLastmod = UPDATED_GUIDE_ROUTES.has(entry.routePath) ? UPDATED_GUIDES_DATE : LASTMOD_DATE;
       return `  <url>
     <loc>${escXml(entry.loc)}</loc>
     <xhtml:link rel="alternate" hreflang="en-MY" href="${escXml(entry.enUrl)}" />
     <xhtml:link rel="alternate" hreflang="ms-MY" href="${escXml(entry.msUrl)}" />
     <xhtml:link rel="alternate" hreflang="x-default" href="${escXml(entry.xDefaultUrl)}" />
-    <lastmod>${LASTMOD_DATE}</lastmod>
+    <lastmod>${routeLastmod}</lastmod>
     <changefreq>${entry.changefreq}</changefreq>
     <priority>${entry.priority}</priority>
 ${imageXml}
@@ -551,11 +565,11 @@ function buildSitemapIndexXml() {
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://www.onyxmen.my/sitemap-en.xml</loc>
-    <lastmod>${LASTMOD_DATE}</lastmod>
+    <lastmod>${UPDATED_GUIDES_DATE}</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.onyxmen.my/sitemap-ms.xml</loc>
-    <lastmod>${LASTMOD_DATE}</lastmod>
+    <lastmod>${UPDATED_GUIDES_DATE}</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.onyxmen.my/sitemap-images.xml</loc>

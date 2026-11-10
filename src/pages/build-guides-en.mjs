@@ -2061,6 +2061,622 @@ GUIDE_DOSSIERS.push(
           'Yes. Many active men in Malaysia order the 2-Bottle Dual Momentum Protocol (RM 318, Free Nationwide Shipping) to pair Grow XL (1 capsule after breakfast for all-day botanical conditioning) with Magnum Pump XR (1 black capsule 30–45 minutes before afternoon gym training or evening activity).',
       },
     ],
+  },
+
+  // ==========================================================================
+  // GUIDE 7 (MS-246): HAMMER OF THOR ORIGINAL VS FAKE MALAYSIA (20 VEG CAPS)
+  // ==========================================================================
+  {
+    guideNumber: 7,
+    microStep: 'MS-246',
+    guideCode: 'GUIDE-07 · HAMMER OF THOR AUTHENTICITY',
+    slug: 'hammer-of-thor-original-vs-fake-malaysia',
+    canonicalEnPath: '/guides/hammer-of-thor-original-vs-fake-malaysia/',
+    alternateMsPath: '/ms/panduan/hammer-of-thor-original-vs-tiruan-malaysia/',
+    enOutputPaths: [
+      'guides/hammer-of-thor-original-vs-fake-malaysia/index.html',
+    ],
+    watermark: 'THOR VERIFY',
+    primaryProductSlug: 'hammer-of-thor',
+    heroImage: '/assets/products/hammer-of-thor-stage.webp',
+    portraitImage: '/assets/products/hammer-of-thor-portrait.webp',
+    publishedDate: '2026-11-10T08:00:00+08:00',
+    updatedDate: '2026-11-10T08:00:00+08:00',
+    readingTime: '11 Min Authenticity & Assay Read',
+    seoTitle:
+      "Hammer of Thor Original vs Fake Malaysia [20 Veg Caps RM159]",
+    metaDescription:
+      "✓ Spot 100% Original Hammer of Thor Men's Health Malaysia (20 Veg. Capsules, 60% Saponin Tribulus) vs RM 30 fake capsules. Buy 1 RM 159, 2 RM 286 (-10%) COD.",
+    kicker: 'ONYX-STD · PROTOCOL GUIDE 07 · HAMMER OF THOR MEN’S HEALTH 20 VEG. CAPSULES FORENSIC AUDIT',
+    headline:
+      'Hammer of Thor Original vs. Fake In Malaysia: <span class="foil-champagne-text">20 Veg. Capsule Authenticity &amp; Saponin Audit.</span>',
+    taxonomyStrip: [
+      '01 · HAMMER OF THOR MEN’S HEALTH (20 VEG. CAPS)',
+      '02 · 200MG TRIBULUS (60% SAPONIN PROTODIOSCIN)',
+      '03 · 100% PLANT HPMC VEGETARIAN SHELL',
+      '04 · OFFICIAL RM 159 / RM 286 (-10%) / RM 405 (-15%) COD',
+    ],
+    executiveSummary:
+      'In Malaysia, search queries for "Hammer of Thor Original", "Hammer of Thor Men’s Health", "Hammer of Thor Capsule", and "Hammer of Thor USA Original" face widespread confusion due to unauthorized RM 25–RM 45 street and marketplace imitations. Authentic Hammer of Thor distributed by Onyxmen Malaysia (SKU: ONYX-HT-20, GTIN-13: 9550000102028) is strictly a 20-Vegetarian-Capsule botanical formulation standardized to 200mg of 60%-Saponin Tribulus terrestris, 100mg Peruvian Maca, 75mg Panax Ginseng, 65mg Saw Palmetto, 45mg Malaysian Tongkat Ali 100:1, and 15mg Zinc Bisglycinate at the official Malaysia price of RM 159 (Buy 2 for RM 286 [10% OFF], Buy 3 for RM 405 [15% OFF]).',
+    telemetry: [
+      {
+        key: '01 · OFFICIAL SKU & COUNT',
+        val: '20 Veg. Capsules × 500mg',
+        sub: 'SKU: ONYX-HT-20 · Plant-derived HPMC vegetarian shells',
+      },
+      {
+        key: '02 · PRIMARY BOTANICAL ASSAY',
+        val: '200 mg Tribulus (60% Saponins)',
+        sub: 'Paired with 100mg Maca, 75mg Ginseng, 65mg Saw Palmetto & Zinc',
+      },
+      {
+        key: '03 · COUNTERFEIT SCREENING',
+        val: '0% Coloured Bovine Gelatin',
+        sub: 'Avoid RM 30 blue/yellow plastic blister imitations',
+      },
+      {
+        key: '04 · MALAYSIA COD DISPATCH',
+        val: 'RM 159 (1B) · RM 286 (2B -10%)',
+        sub: '3-layer plain box via OM Fulfilment Logistics (KL)',
+      },
+    ],
+    pinnedSummaryBullets: [
+      'Exact Label Verification: "Hammer of Thor — Men’s Health — Tribulus Terrestris — 20 Veg. Capsules"',
+      'Capsule Shell Check: 20 plant-derived HPMC vegetarian capsules (never neon blue/yellow gelatin pills)',
+      'Active Saponin Matrix: 200mg Tribulus (60% Protodioscin), 100mg Peruvian Maca, 75mg Ginseng, 15mg Zinc',
+      'Official Pricing: 1 Bottle RM 159 | 2 Bottles RM 286 (Save RM 32, 10% OFF) | 3 Bottles RM 405 (Save RM 72, 15% OFF)',
+      '100% Discreet Plain-Box Cash on Delivery (COD) & FPX across all 16 Malaysian states',
+    ],
+    chapters: [
+      {
+        kicker: 'CHAPTER 01 · ANATOMY OF THE AUTHENTIC HAMMER OF THOR MEN’S HEALTH BOTTLE',
+        title: 'Inspecting The Gold Metallic Cap, Green Vegetarian Emblem & 20 HPMC Capsules.',
+        paragraphs: [
+          'When Malaysian buyers search for "Hammer of Thor Original" or "Hammer of Thor Men’s Health", the first line of defense against counterfeit substitution is physical bottle and label inspection. Authentic stock dispatched from the Onyxmen Malaysia climate-controlled vault (SKU: ONYX-HT-20, MPN: HT-TRIB-20MY) arrives in a dark amber-obsidian apothecary bottle crowned with a precision-threaded metallic gold cap and a factory-sealed tamper-evident neck band.',
+          'The front label carries the gold-and-crimson crest reading "HAMMER OF THOR — MEN’S HEALTH — TRIBULUS TERRESTRIS — 20 VEG. CAPSULES" alongside a circular green vegetarian leaf emblem. Inside the bottle, you will find an internal moisture-absorbing food-grade desiccant sachet and exactly 20 plant-cellulose HPMC vegetarian capsules filled with a fine, aromatic tan-brown botanical extract powder.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 02 · SPOTTING RM 25–RM 45 MARKETPLACE FAKES IN MALAYSIA',
+        title: 'Why Cheap Blister Packs, Liquid Drops & Neon Gelatin Capsules Are Counterfeit.',
+        paragraphs: [
+          'Across unauthorized classified portals and anonymous social media stalls in Malaysia, counterfeiters misuse the "Hammer of Thor" name on three types of fake products: (a) RM 25–RM 45 plastic bottles containing 30 or 60 bright blue-and-white or yellow bovine gelatin capsules; (b) unlabelled cardboard blister strips; and (c) counterfeit "liquid drop" vials. Independent laboratory audits show that these ultra-cheap imitations contain either inert rice flour or undeclared synthetic PDE5 chemical analogues that trigger severe throbbing migraines, nasal congestion, and blood-pressure instability.',
+          'Genuine Hammer of Thor Men’s Health by Onyxmen Malaysia is never sold as liquid drops or coloured gelatin pills, and is never discounted to RM 30 on flea-market platforms. It is strictly a 20-vegetarian-capsule oral botanical supplement standardized for steroidal saponin endurance.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 03 · PHYTOCHEMICAL ASSAY: 60% PROTODIOSCIN TRIBULUS, MACA & ZINC',
+        title: 'How Each 500mg Vegetarian Capsule Supports Physical Stamina & Evening Recovery.',
+        paragraphs: [
+          'Every 500mg Hammer of Thor vegetarian capsule is formulated around six synergistic active ingredients: (1) 200mg Standardized Tribulus terrestris aerial fruit extract (standardized to ≥60% steroidal furostanol saponins, specifically protodioscin) to support physical drive and androgen-receptor sensitivity; (2) 100mg Gelatinized Peruvian Maca Root (Lepidium meyenii) for non-stimulant cellular ATP endurance; and (3) 75mg Panax ginseng root extract (10% ginsenosides) for nitric oxide endothelial protection.',
+          'To complete the 500mg profile, each capsule includes (4) 65mg Serenoa repens (Saw Palmetto berry extract, 45% fatty acids) for adult male pelvic wellness; (5) 45mg Malaysian Eurycoma longifolia (Tongkat Ali 100:1 aqueous extract) for evening cortisol balance; and (6) 15mg Zinc Bisglycinate Chelate (150% NRV elemental zinc) to replenish trace minerals lost through Malaysia’s tropical perspiration.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 04 · OPTIMAL POST-DINNER DOSAGE & BUNDLE SAVINGS (10% & 15% OFF)',
+        title: 'Taking Hammer of Thor 30 Minutes After Dinner & Reserving Discreet COD.',
+        paragraphs: [
+          'Because steroidal furostanol saponins in Tribulus terrestris are amphiphilic glycosides that bind to dietary bile-salt micelles for intestinal transport, the optimal intake window for Hammer of Thor is 1 vegetarian capsule taken 30 minutes after dinner with 250ml–300ml of warm plain water (or 45 minutes before resistance training at the gym). Always maintain a 45-minute buffer away from Kopi O or Teh Tarik.',
+          'You can reserve authentic Hammer of Thor directly on https://www.onyxmen.my via our Express Discreet Order Form or live WhatsApp concierge (+60 14-298 5919): Buy 1 Bottle for RM 159 (20-day cycle), Buy 2 Bottles for RM 286 (10% OFF — Save RM 32 off RM 318, 40-day cycle + Free Express Shipping), or Buy 3 Bottles for RM 405 (15% OFF — Save RM 72 off RM 477, 60-day mastery cycle).',
+        ],
+      },
+    ],
+    protocolSteps: [
+      {
+        code: 'THOR-01 · SEAL AUDIT',
+        title: 'Inspect Gold Metallic Cap & Tamper-Evident Neck Band',
+        metric: 'SKU: ONYX-HT-20 · GTIN: 9550000102028',
+        desc: 'Confirm the bottle arrives inside a 3-layer unmarked "OM Fulfilment Logistics" carton with an unbroken factory induction seal and gold metallic cap.',
+      },
+      {
+        code: 'THOR-02 · LABEL CHECK',
+        title: 'Verify "Men’s Health — Tribulus Terrestris — 20 Veg. Capsules" Print',
+        metric: 'Green Vegetarian Emblem · 20 HPMC Caps',
+        desc: 'Ensure the front label specifies 20 Veg. Capsules with the green vegetarian badge—reject any bottle claiming 30/60 coloured gelatin pills.',
+      },
+      {
+        code: 'THOR-03 · EVENING TIMING',
+        title: 'Swallow 1 Vegetarian Capsule 30 Minutes After Dinner',
+        metric: '250ml–300ml Warm H2O · Lipid Bile Synergy',
+        desc: 'Take 1 capsule 30 minutes after a balanced evening meal so natural bile lipids maximize absorption of 200mg Tribulus (60% Saponins).',
+      },
+      {
+        code: 'THOR-04 · TANNIN BUFFER',
+        title: 'Separate By 45 Minutes From Kopi O, Teh Tarik & Alcohol',
+        metric: 'Protects 15mg Zinc Bisglycinate & Alkaloids',
+        desc: 'Avoid washing the capsule down with coffee or pulled milk tea so polyphenolic tannins do not chelate Zinc Bisglycinate in the stomach.',
+      },
+      {
+        code: 'THOR-05 · DAY-18 REFILL',
+        title: 'Synchronize Your Day-18 Refill Or Choose The 2-Bottle RM 286 Pack',
+        metric: '2 Bottles = RM 286 (10% OFF) · 3 Bottles = RM 405 (15% OFF)',
+        desc: 'Prevent saponin washout after Day 20 by selecting the 2-Bottle (RM 286) or 3-Bottle (RM 405) bundle upfront with free nationwide COD.',
+      },
+    ],
+    faqs: [
+      {
+        questionEn: 'How can I tell the difference between original Hammer of Thor and fake Hammer of Thor in Malaysia?',
+        answerEn:
+          'Original Hammer of Thor Men’s Health by Onyxmen Malaysia (SKU: ONYX-HT-20, RM 159) comes in a dark bottle with a gold metallic cap, a green vegetarian emblem, and exactly 20 plant-derived HPMC vegetarian capsules standardized to 60% Tribulus saponins. Fake RM 25–RM 45 marketplace bottles typically contain 30 or 60 bright blue/yellow gelatin capsules or liquid drops with unverified ingredients.',
+      },
+      {
+        questionEn: 'Is Hammer of Thor suitable for men who avoid bovine or porcine gelatin?',
+        answerEn:
+          'Yes. Hammer of Thor (20 Veg. Capsules) uses 100% plant-cellulose HPMC (Hydroxypropyl Methylcellulose) capsule shells with zero animal gelatin, making it ideal for vegetarian-conscious Malaysian buyers.',
+      },
+      {
+        questionEn: 'What is the difference between Hammer of Thor (20 Veg. Caps) and Horsemen (20 Caps)?',
+        answerEn:
+          'Both are 20-capsule concentrated reserves priced at RM 159 (or 2 for RM 286). Hammer of Thor leads with 200mg of 60%-Saponin Tribulus terrestris + Saw Palmetto + Zinc Bisglycinate in Vegetarian HPMC shells for sustained physical endurance and recovery, whereas Horsemen leads with 150mg of 100:1 Malaysian Tongkat Ali + 80mg Epimedium Icariin for rapid evening readiness.',
+      },
+      {
+        questionEn: 'Can I order Hammer of Thor Original via Cash on Delivery (COD) in Malaysia?',
+        answerEn:
+          'Yes. We offer 100% discreet plain-box Cash on Delivery (COD) across Peninsular Malaysia, Sabah, and Sarawak—or you can message our live WhatsApp desk (+60 14-298 5919) for instant assistance.',
+      },
+    ],
+  },
+
+  // ==========================================================================
+  // GUIDE 8 (MS-247): GROWXL FOR MEN / GROW XL MALAYSIA 30-CAPSULE DOSAGE GUIDE
+  // ==========================================================================
+  {
+    guideNumber: 8,
+    microStep: 'MS-247',
+    guideCode: 'GUIDE-08 · GROWXL 30-CAP DOSAGE',
+    slug: 'growxl-for-men-30-capsule-dosage-guide-malaysia',
+    canonicalEnPath: '/guides/growxl-for-men-30-capsule-dosage-guide-malaysia/',
+    alternateMsPath: '/ms/panduan/panduan-cara-makan-grow-xl-30-kapsul-malaysia/',
+    enOutputPaths: [
+      'guides/growxl-for-men-30-capsule-dosage-guide-malaysia/index.html',
+    ],
+    watermark: 'GROWXL 30',
+    primaryProductSlug: 'grow-xl',
+    heroImage: '/assets/products/grow-xl-stage.webp',
+    portraitImage: '/assets/products/grow-xl-portrait.webp',
+    publishedDate: '2026-11-10T08:00:00+08:00',
+    updatedDate: '2026-11-10T08:00:00+08:00',
+    readingTime: '11 Min Dosage & 30-Day Cycle Read',
+    seoTitle:
+      'GrowXL for Men / Grow XL Malaysia [30 Caps Dosage & COD RM159]',
+    metaDescription:
+      '✓ Official GrowXL for Men / Grow XL Malaysia 30-Capsule daily dosage, post-breakfast timing & 30-day cycle guide. Buy 1 RM 159, 2 RM 286 (-10%) discreet COD.',
+    kicker: 'ONYX-STD · PROTOCOL GUIDE 08 · GROW XL (GROWXL FOR MEN) 30-CAPSULE DAILY CONDITIONING MANUAL',
+    headline:
+      'GrowXL For Men (Grow XL Malaysia): <span class="foil-champagne-text">30-Capsule Complete Dosage, Timing &amp; 30-Day Results Guide.</span>',
+    taxonomyStrip: [
+      '01 · GROW XL / GROWXL FOR MEN (30 CAPS × 550MG)',
+      '02 · 140MG TONGKAT ALI 100:1 + 100MG MUIRA PUAMA',
+      '03 · 80MG SAW PALMETTO + 70MG GINKGO BILOBA',
+      '04 · MORNING CIRCADIAN DOSAGE (20–30M POST-BREAKFAST)',
+    ],
+    executiveSummary:
+      'Whether you search for "GrowXL for Men", "Grow XL Malaysia", or "Vital Grow XL", this complete clinical dosage manual covers Onyxmen Malaysia’s #1 Selling 30-Capsule Extra-Strength Male Performance Blend (SKU: ONYX-GX-30, GTIN-13: 9550000102035, RM 159). Learn how each 550mg capsule combines 140mg Malaysian Tongkat Ali 100:1, 120mg L-Arginine & L-Citrulline, 100mg Brazilian Muira Puama, 80mg Saw Palmetto, and 70mg Ginkgo Biloba—and how to execute the 30-day morning post-breakfast protocol.',
+    telemetry: [
+      {
+        key: '01 · BOTTLE SPECIFICATION',
+        val: '30 Capsules × 550mg (16.5g)',
+        sub: 'Full 30-day calendar month daily conditioning bottle',
+      },
+      {
+        key: '02 · OPTIMAL INTAKE WINDOW',
+        val: '20–30 Mins Post-Breakfast',
+        sub: 'Aligns with the 07:00–09:00 MYT morning circadian crest',
+      },
+      {
+        key: '03 · EXCLUSIVE BOTANICALS',
+        val: 'Muira Puama + Saw Palmetto',
+        sub: '100mg Amazonian bark + 80mg liposterolic berry extract',
+      },
+      {
+        key: '04 · MULTI-BOTTLE DISCOUNTS',
+        val: 'RM 159 · RM 286 (-10%) · RM 405 (-15%)',
+        sub: 'Day-25 refill sync · 100% plain-box Malaysia COD',
+      },
+    ],
+    pinnedSummaryBullets: [
+      'Entity Clarification: Grow XL (SKU: ONYX-GX-30) is the official Onyxmen Malaysia 30-Capsule Extra-Strength formula for "GrowXL for Men" queries',
+      'Daily Dosage: 1 capsule (550mg) every morning 20–30 minutes after breakfast with 300ml warm water',
+      '6-Active Matrix: 140mg Tongkat Ali 100:1, 120mg Arginine/Citrulline, 100mg Muira Puama, 80mg Saw Palmetto, 70mg Ginkgo, 40mg Ginseng/Zinc',
+      '30-to-90 Day Progression: Days 1–10 microvascular flow -> Days 11–25 stamina resilience -> Days 26–90 full conditioning',
+      'Bundle Pricing: 1 Bottle RM 159 | 2 Bottles RM 286 (10% OFF) | 3 Bottles RM 405 (15% OFF) with Free Discreet COD',
+    ],
+    chapters: [
+      {
+        kicker: 'CHAPTER 01 · INSIDE GROW XL (GROWXL FOR MEN): THE 550MG EXTRA-STRENGTH BLEND',
+        title: 'Why Grow XL Is Our #1 Selling 30-Day Daily Male Vitality Formula In Malaysia.',
+        paragraphs: [
+          'Malaysian men searching for "GrowXL for Men", "Grow XL", or "Vital Grow XL" are typically looking for a comprehensive, stimulant-free daily capsule that supports both daytime work stamina and evening physical readiness without requiring complex timing before every evening. Grow XL by Onyxmen Malaysia (SKU: ONYX-GX-30, RM 159) is engineered specifically for this 30-day calendar rhythm: 30 capsules at 550mg each (16,500mg total active mass per bottle).',
+          'Unlike single-herb capsules, Grow XL unites six complementary extracts inside every 550mg serving: 140mg Malaysian Eurycoma longifolia (Tongkat Ali 100:1), 120mg L-Arginine HCl & L-Citrulline Malate (2:1 nitric oxide complex), 100mg Amazonian Muira Puama 10:1 bark extract, 80mg Saw Palmetto berry phytosterols (45% fatty acids), 70mg Ginkgo biloba 50:1 leaf extract (24% flavone glycosides), and 40mg Korean Red Panax Ginseng & Zinc.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 02 · THE MORNING CIRCADIAN DOSAGE PROTOCOL (07:30–09:00 MYT)',
+        title: 'How To Take Grow XL After Breakfast For 12-Hour Microvascular & Endocrine Support.',
+        paragraphs: [
+          'In adult male physiology, endogenous vitality signaling peaks naturally between 07:00 and 09:00 MYT before gradually declining under the weight of corporate work stress and Klang Valley traffic cortisol. Taking 1 capsule of Grow XL 20 to 30 minutes after breakfast with 300ml of plain warm water locks your botanical intake onto this natural morning crest.',
+          'Because Saw Palmetto phytosterols (80mg) and Ginkgo biloba flavone glycosides (70mg) benefit from post-meal chylomicron transport while Tongkat Ali quassinoids (140mg) dissolve rapidly in warm water, a light protein-rich Malaysian breakfast (such as kampung eggs, oats, toast, or lean protein) creates the ideal gastric environment. Always wait at least 45 minutes after drinking morning Kopi O or Teh Tarik before swallowing your capsule.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 03 · WEEK-BY-WEEK RESULTS TIMELINE: DAYS 1 TO 90',
+        title: 'What Malaysian Buyers Experience Across A 1-Bottle (30d), 2-Bottle (60d) & 3-Bottle (90d) Cycle.',
+        paragraphs: [
+          'Phase 1 — Days 1 to 10 (Microvascular & Morning Energy Initiation): The 120mg L-Arginine/L-Citrulline matrix and 70mg Ginkgo biloba leaf extract support peripheral micro-circulation and mental sharpness during long workdays, reducing the 15:00 MYT afternoon slump without caffeine jitters.',
+          'Phase 2 — Days 11 to 30 (Adaptogenic Cortisol & Pelvic Conditioning): Cumulative saturation of 140mg Tongkat Ali 100:1, 100mg Brazilian Muira Puama, and 80mg Saw Palmetto supports evening physical drive, stress resilience, and adult male pelvic comfort. Phase 3 — Days 31 to 90 (Full 2-Bottle RM 286 / 3-Bottle RM 405 Mastery): Continuing uninterrupted through 60 to 90 days consolidates baseline stamina and cellular recovery.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 04 · STACKING GROW XL WITH HORSEMEN OR MAGNUM PUMP XR',
+        title: 'How To Build A Morning + Evening Dual Protocol At 10% Or 15% Bundle Savings.',
+        paragraphs: [
+          'Because Grow XL is taken once daily in the morning after breakfast, it pairs effortlessly with our targeted evening or pre-workout formulations. Many repeat buyers in Kuala Lumpur, Selangor, Johor Bahru, and Penang select the 2-Bottle Bundle (RM 286 — 10% OFF, saving RM 32) or 3-Bottle VIP Bundle (RM 405 — 15% OFF, saving RM 72) to combine 1 bottle of Grow XL (morning baseline) with 1 bottle of Horsemen (evening 500mg reserve) or Magnum Pump XR (30 black capsules for pre-gym Nitric Oxide).',
+          'Every order ships in a 100% plain unmarked carton ("OM Fulfilment Logistics") with Cash on Delivery (COD), FPX, or direct WhatsApp support (+60 14-298 5919).',
+        ],
+      },
+    ],
+    protocolSteps: [
+      {
+        code: 'GROWXL-01 · BREAKFAST',
+        title: 'Eat A Balanced Protein Breakfast Between 07:00 & 09:00 MYT',
+        metric: 'Eggs · Lean Protein · Moderate Healthy Lipids',
+        desc: 'Prepare your digestive tract with a clean morning meal so Saw Palmetto fatty acids (80mg) and Ginkgo biloba glycosides (70mg) absorb smoothly.',
+      },
+      {
+        code: 'GROWXL-02 · 30-MIN WINDOW',
+        title: 'Swallow 1 Grow XL Capsule 20–30 Minutes Post-Breakfast',
+        metric: '1 Capsule (550mg) + 300ml Warm Plain Water',
+        desc: 'Take exactly 1 capsule with a full glass of warm water. Do not exceed 1 capsule of Grow XL in the morning.',
+      },
+      {
+        code: 'GROWXL-03 · COFFEE BUFFER',
+        title: 'Keep A 45-Minute Buffer From Morning Kopi O Or Teh Tarik',
+        metric: 'Zero Tannin Chelation Of 140mg Tongkat Ali',
+        desc: 'Enjoy your morning coffee or tea at least 45 minutes before or after taking Grow XL so polyphenols do not reduce quassinoid uptake.',
+      },
+      {
+        code: 'GROWXL-04 · HYDRATION',
+        title: 'Maintain 2.5 to 3.0 Liters Of Water Across The Workday',
+        metric: 'Supports 120mg Arginine/Citrulline + 70mg Ginkgo Flow',
+        desc: 'Steady hydration throughout your office or outdoor workday maximizes endothelial Nitric Oxide and microvascular oxygen delivery.',
+      },
+      {
+        code: 'GROWXL-05 · DAY-25 REFILL',
+        title: 'Lock In Your 60-Day (RM 286) Or 90-Day (RM 405) Continuity Reserve',
+        metric: 'Day-25 Refill Sync · Save Up To RM 72 (15% OFF)',
+        desc: 'Reorder on Day 25—or choose the 2-Bottle (RM 286) or 3-Bottle (RM 405) pack upfront—so your 30-day morning cycle never misses a day.',
+      },
+    ],
+    faqs: [
+      {
+        questionEn: 'Is Grow XL on onyxmen.my the official formula for "GrowXL for Men" in Malaysia?',
+        answerEn:
+          'Yes. Grow XL (SKU: ONYX-GX-30, GTIN-13: 9550000102035, RM 159) is Onyxmen Malaysia’s official 30-Capsule Extra-Strength Male Performance Blend (550mg per capsule) sought by Malaysian buyers searching for GrowXL for Men, Grow XL Malaysia, and Vital Grow XL.',
+      },
+      {
+        questionEn: 'What happens if I miss my morning dose of Grow XL after breakfast?',
+        answerEn:
+          'If you forget to take your capsule after breakfast, simply take 1 capsule 30 minutes after lunch with 300ml of plain water. Do not double-dose the next morning.',
+      },
+      {
+        questionEn: 'How is Grow XL (30 Capsules) different from Magnum Pump XR (30 Black Capsules)?',
+        answerEn:
+          'Both contain 30 capsules for RM 159, but serve different daily roles: Grow XL is a morning all-day botanical conditioning blend featuring Tongkat Ali (140mg), Muira Puama (100mg), Saw Palmetto (80mg), and Ginkgo Biloba (70mg). Magnum Pump XR is a pre-workout/pre-evening Nitric Oxide surge formula packing 300mg of L-Arginine HCl + L-Citrulline Malate + Bioperine in jet-black capsules.',
+      },
+      {
+        questionEn: 'How much do I save when ordering 2 or 3 bottles of Grow XL in Malaysia?',
+        answerEn:
+          '1 Bottle is RM 159. Ordering 2 Bottles (60 Capsules, 60-day supply) gives you 10% OFF at RM 286 (save RM 32). Ordering 3 Bottles (90 Capsules, 90-day supply) gives you 15% OFF at RM 405 (save RM 72), with free discreet COD delivery across Malaysia.',
+      },
+    ],
+  },
+
+  // ==========================================================================
+  // GUIDE 9 (MS-248): HORSEMEN CAPSULE ORIGINAL 500MG MALAYSIA GUIDE
+  // ==========================================================================
+  {
+    guideNumber: 9,
+    microStep: 'MS-248',
+    guideCode: 'GUIDE-09 · HORSEMEN 500MG PROTOCOL',
+    slug: 'horsemen-capsule-original-500mg-malaysia-guide',
+    canonicalEnPath: '/guides/horsemen-capsule-original-500mg-malaysia-guide/',
+    alternateMsPath: '/ms/panduan/panduan-horsemen-kapsul-original-500mg-malaysia/',
+    enOutputPaths: [
+      'guides/horsemen-capsule-original-500mg-malaysia-guide/index.html',
+    ],
+    watermark: 'HORSEMEN',
+    primaryProductSlug: 'horsemen',
+    heroImage: '/assets/products/horsemen-stage.webp',
+    portraitImage: '/assets/products/horsemen-portrait.webp',
+    publishedDate: '2026-11-10T08:00:00+08:00',
+    updatedDate: '2026-11-10T08:00:00+08:00',
+    readingTime: '11 Min Botanical & Evening Protocol Read',
+    seoTitle:
+      'Horsemen Capsule Original 500mg Malaysia [Tongkat Ali & Maca]',
+    metaDescription:
+      '✓ Complete guide to Horsemen Capsule Original 500mg Malaysia (20 Caps): 150mg Tongkat Ali 100:1, 100mg Black Maca & evening timing. RM 159 discreet COD.',
+    kicker: 'ONYX-STD · PROTOCOL GUIDE 09 · HORSEMEN MAN VIRILITY ENHANCEMENT (20 CAPS × 500MG) DOSSIER',
+    headline:
+      'Horsemen Capsule Original 500mg Malaysia: <span class="foil-champagne-text">Tongkat Ali 100:1, Black Maca &amp; Evening Readiness Guide.</span>',
+    taxonomyStrip: [
+      '01 · HORSEMEN ORIGINAL (20 CAPS × 500MG)',
+      '02 · 150MG MALAYSIAN TONGKAT ALI 100:1',
+      '03 · 100MG BLACK MACA + 80MG EPIMEDIUM ICARIIN',
+      '04 · 45–60 MIN EVENING READINESS PROTOCOL',
+    ],
+    executiveSummary:
+      'Engineered for Malaysian men searching for "Horsemen Capsule Original", "Horsemen Capsule Malaysia", "Malaysia Tongkat Ali", and "Maca Root Malaysia", this monograph details our flagship 20-Capsule × 500mg evening reserve (SKU: ONYX-HM-20, GTIN-13: 9550000102011, RM 159). Discover how 150mg of standardized 100:1 Eurycoma longifolia, 100mg Gelatinized Peruvian Black Maca, 80mg Epimedium sagittatum (10% Icariin), 80mg L-Arginine HCl, and 60mg Korean Red Panax Ginseng synergize for evening vitality.',
+    telemetry: [
+      {
+        key: '01 · POTENCY PER CAPSULE',
+        val: '500 mg Standardized Actives',
+        sub: '20 Capsules per bottle (10,000mg total botanical reserve)',
+      },
+      {
+        key: '02 · LEAD EXTRACT #1',
+        val: '150 mg Tongkat Ali 100:1',
+        sub: 'Highest single-capsule Eurycomanone dose in the Onyxmen vault',
+      },
+      {
+        key: '03 · LEAD EXTRACT #2 & #3',
+        val: '100 mg Black Maca + 80 mg Icariin',
+        sub: 'Gelatinized Andean Lepidium meyenii + Epimedium sagittatum',
+      },
+      {
+        key: '04 · EVENING T-MAX WINDOW',
+        val: '45–60 Mins Post-Dinner',
+        sub: 'RM 159 (1B) · RM 286 (2B 10% OFF) · RM 405 (3B 15% OFF)',
+      },
+    ],
+    pinnedSummaryBullets: [
+      'Exact Label Specification: "Horsemen — Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg"',
+      'Highest Tongkat Ali Density: 150mg Malaysian Eurycoma longifolia 100:1 aqueous extract per capsule',
+      'Andean & Asian Synergy: 100mg Peruvian Black Maca + 80mg Epimedium (Icariin) + 80mg L-Arginine + 60mg Red Ginseng',
+      'Flexible Cadence: Take 1 capsule daily after dinner (20-day intensive) or every 48 hours (40-day maintenance)',
+      '100% Discreet Plain-Box Cash on Delivery (COD) & WhatsApp Concierge (+60 14-298 5919) across Malaysia',
+    ],
+    chapters: [
+      {
+        kicker: 'CHAPTER 01 · INSIDE THE 500MG HORSEMEN ORIGINAL CAPSULE',
+        title: 'Why Horsemen Delivers Our Highest 150mg Dose Of Malaysian Tongkat Ali 100:1.',
+        paragraphs: [
+          'For adult men in Malaysia comparing "Horsemen Capsule Original" against generic single-ingredient Tongkat Ali or Maca powders, the secret lies in extraction ratio density and multi-pathway synergy. Each 500mg capsule of Horsemen (SKU: ONYX-HM-20, RM 159) is anchored by 150mg of HPLC-standardized 100:1 Malaysian Eurycoma longifolia root extract (standardized to ≥2.2% Eurycomanone quassinoids)—equivalent to 15,000mg of raw wild-crafted root in a single water-soluble fraction.',
+          'Surrounding that 150mg Tongkat Ali core are five precision cofactors: 100mg Gelatinized Andean Black Peruvian Maca Root (0.6% macamides), 80mg Epimedium sagittatum (Horny Goat Weed standardized to 10% flavonoid icariins), 80mg pharmaceutical-grade L-Arginine HCl, 60mg 6-Year Aged Korean Red Panax Ginseng (8% ginsenosides), and 30mg Tribulus terrestris & Zinc Picolinate.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 02 · BIOCHEMICAL SYNERGY: EURYCOMANONE, MACAMIDES & ICARIIN',
+        title: 'How Three Botanical Pathways Converge Within 45 To 60 Minutes.',
+        paragraphs: [
+          'Horsemen is architected to address three physiological bottlenecks simultaneously after a demanding Malaysian workday: (1) Endocrine & Cortisol Balance—150mg Tongkat Ali 100:1 modulates evening stress cortisol and Sex Hormone-Binding Globulin (SHBG); (2) Central Non-Stimulant Drive—100mg Gelatinized Black Maca supports mitochondrial ATP endurance without caffeine or sleep disruption; and (3) Microvascular Responsiveness—80mg L-Arginine HCl + 80mg Epimedium Icariin + 60mg Red Ginseng support endothelial Nitric Oxide and cGMP smooth-muscle relaxation.',
+          'Because starch has been enzymatically cleaved from the Black Maca root ("gelatinized" extraction) and the Tongkat Ali is an ultrasonic aqueous concentrate, the 500mg powder dissolves in 6 to 8 minutes when swallowed with 300ml of warm water.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 03 · EVENING INTENSIVE (20 DAYS) VS. ALTERNATE-DAY MAINTENANCE (40 DAYS)',
+        title: 'Structuring Your 20-Capsule Horsemen Bottle Around Your Personal Schedule.',
+        paragraphs: [
+          'Protocol Mode A — 20-Day Intensive Evening Conditioning: Take 1 capsule every evening 45 to 60 minutes after dinner with 300ml of warm plain water for 20 consecutive days (with our Day-18 refill sync ensuring your second bottle arrives before Day 20). This rapid saturation protocol is ideal for men starting their first Onyxmen cycle.',
+          'Protocol Mode B — 40-Day Alternate-Evening Reserve: Once baseline vitality is established—or if you stack Horsemen alongside morning Grow XL—take 1 capsule of Horsemen every 48 hours (or 45–60 minutes before planned active evenings). Under Mode B, a single 20-capsule bottle provides up to 40 days of coverage.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 04 · AUTHENTIC RM 159 VERIFICATION & DISCREET MALAYSIA COD',
+        title: 'How To Order Genuine Horsemen Capsules With 10% To 15% Bundle Discounts.',
+        paragraphs: [
+          'Every authentic bottle of Horsemen Man Virility Enhancement (SKU: ONYX-HM-20, GTIN-13: 9550000102011) is stored in our 22°C–24°C Kuala Lumpur apothecary vault and sealed with a tamper-evident neck band. Never risk counterfeit marketplace imitations.',
+          'Order directly via https://www.onyxmen.my or WhatsApp (+60 14-298 5919) in a 100% plain unmarked box ("OM Fulfilment Logistics"): 1 Bottle RM 159, 2 Bottles RM 286 (10% OFF — Save RM 32), or 3 Bottles RM 405 (15% OFF — Save RM 72) with Cash on Delivery (COD) across all 16 Malaysian states.',
+        ],
+      },
+    ],
+    protocolSteps: [
+      {
+        code: 'HM-01 · POST-DINNER WINDOW',
+        title: 'Wait 45 To 60 Minutes After Your Evening Meal',
+        metric: 'Allows Bulk Gastric Chyme To Clear',
+        desc: 'Finish your evening meal before 20:30 MYT and wait 45–60 minutes so the 500mg aqueous-and-amino matrix enters the duodenum rapidly.',
+      },
+      {
+        code: 'HM-02 · WARM HYDRATION',
+        title: 'Swallow 1 Horsemen Capsule With 300ml Warm Plain Water',
+        metric: '6–8 Minute Capsule Dissolution · Zero Caffeine',
+        desc: 'Warm water accelerates dissolution of 150mg Tongkat Ali 100:1, 100mg Gelatinized Black Maca, and 80mg Epimedium Icariin.',
+      },
+      {
+        code: 'HM-03 · TANNIN CLEARANCE',
+        title: 'Maintain A 45-Minute Buffer From Kopi O & Teh Tarik',
+        metric: 'Prevents Polyphenol Binding Of Eurycomanone',
+        desc: 'Do not wash Horsemen down with coffee, black tea, or Milo so quassinoids and Zinc Picolinate achieve 100% intestinal bioavailability.',
+      },
+      {
+        code: 'HM-04 · CADENCE SELECTION',
+        title: 'Choose Daily 20-Day Conditioning Or 48-Hour Maintenance',
+        metric: '20 Capsules × 500mg = 10,000mg Total Reserve',
+        desc: 'Run a 20-day consecutive cycle for initial saturation, or take 1 capsule every 48 hours / 45–60 mins pre-activity for a 40-day span.',
+      },
+      {
+        code: 'HM-05 · BUNDLE CONTINUITY',
+        title: 'Upgrade To 2 Bottles (RM 286) Or 3 Bottles (RM 405) For Free Express COD',
+        metric: 'Save RM 32 (10% OFF) Or RM 72 (15% OFF)',
+        desc: 'Lock in uninterrupted Day-18 continuity and free nationwide discreet courier across Peninsular Malaysia, Sabah, and Sarawak.',
+      },
+    ],
+    faqs: [
+      {
+        questionEn: 'What are the exact ingredients inside each 500mg Horsemen Original capsule?',
+        answerEn:
+          'Each 500mg capsule of Horsemen (SKU: ONYX-HM-20) contains 150mg Malaysian Tongkat Ali 100:1 root extract, 100mg Gelatinized Peruvian Black Maca, 80mg Epimedium sagittatum (10% Icariin), 80mg L-Arginine HCl, 60mg 6-Year Korean Red Panax Ginseng, and 30mg Tribulus terrestris & Zinc Picolinate.',
+      },
+      {
+        questionEn: 'How long before evening activity should I take Horsemen?',
+        answerEn:
+          'Take 1 capsule with 300ml of warm plain water 45 to 60 minutes before evening physical activity (or 45–60 minutes after dinner). Peak plasma bioavailability (Tmax) occurs between 45 and 90 minutes post-ingestion.',
+      },
+      {
+        questionEn: 'Does Horsemen contain synthetic stimulants or cause morning headaches?',
+        answerEn:
+          'No. Authentic Horsemen by Onyxmen Malaysia is 100% free of undeclared synthetic PDE5 chemicals, artificial caffeine, or stimulants. It relies strictly on HPLC-standardized botanical extracts and L-Arginine HCl.',
+      },
+      {
+        questionEn: 'How can I order Horsemen Original with Cash on Delivery (COD) in Malaysia?',
+        answerEn:
+          'Click any "Order Now" button on onyxmen.my to open the Quick Discreet Order Form, or click the WhatsApp button (+60 14-298 5919) to chat or order directly. 1 Bottle is RM 159, 2 Bottles are RM 286 (10% OFF), and 3 Bottles are RM 405 (15% OFF).',
+      },
+    ],
+  },
+
+  // ==========================================================================
+  // GUIDE 10 (MS-249): MAGNUM PUMP XR 30 BLACK CAPSULES NITRIC OXIDE GUIDE
+  // ==========================================================================
+  {
+    guideNumber: 10,
+    microStep: 'MS-249',
+    guideCode: 'GUIDE-10 · MAGNUM PUMP XR NITRIC OXIDE',
+    slug: 'magnum-pump-xr-30-black-capsules-nitric-oxide-guide',
+    canonicalEnPath: '/guides/magnum-pump-xr-30-black-capsules-nitric-oxide-guide/',
+    alternateMsPath: '/ms/panduan/panduan-magnum-pump-xr-30-kapsul-hitam-malaysia/',
+    enOutputPaths: [
+      'guides/magnum-pump-xr-30-black-capsules-nitric-oxide-guide/index.html',
+    ],
+    watermark: 'PUMP XR 30',
+    primaryProductSlug: 'magnum-pump-xr',
+    heroImage: '/assets/products/magnum-pump-xr-stage.webp',
+    portraitImage: '/assets/products/magnum-pump-xr-portrait.webp',
+    publishedDate: '2026-11-10T08:00:00+08:00',
+    updatedDate: '2026-11-10T08:00:00+08:00',
+    readingTime: '12 Min Vascular Nitric Oxide Read',
+    seoTitle:
+      'Magnum Pump XR 30 Black Capsules Malaysia [Nitric Oxide RM159]',
+    metaDescription:
+      '✓ Official Magnum Pump XR Malaysia guide (30 Black Capsules × 600mg): 300mg L-Arginine & L-Citrulline Nitric Oxide timing, gym & evening stamina. RM 159 COD.',
+    kicker: 'ONYX-STD · PROTOCOL GUIDE 10 · MAGNUM PUMP XR (30 BLACK CAPSULES × 600MG) VASCULAR DOSSIER',
+    headline:
+      'Magnum Pump XR 30 Black Capsules Malaysia: <span class="foil-champagne-text">L-Arginine, L-Citrulline &amp; Nitric Oxide Timing Guide.</span>',
+    taxonomyStrip: [
+      '01 · MAGNUM PUMP XR (30 BLACK CAPS × 600MG)',
+      '02 · 180MG L-ARGININE HCl + 120MG L-CITRULLINE XR',
+      '03 · 110MG TRIBULUS + 90MG TONGKAT ALI + BIOPERINE',
+      '04 · 100% ORAL DIETARY SUPPLEMENT (NOT A DEVICE)',
+    ],
+    executiveSummary:
+      'Designed for Malaysian men searching for "Magnum Pump XR", "Timing Capsule Malaysia", and "L-Arginine Nitric Oxide Supplement", this technical manual covers Onyxmen Malaysia’s heaviest 600mg Extended-Release formulation: Magnum Pump XR Testosterone Pro Series (30 Jet-Black Capsules, SKU: ONYX-MP-30, GTIN-13: 9550000102042, RM 159). Learn how 300mg of L-Arginine HCl + L-Citrulline Malate, 270mg of standardized adaptogens, and Bioperine® drive dual-wave endothelial vasodilation within 30 to 45 minutes.',
+    telemetry: [
+      {
+        key: '01 · CAPSULE SPECIFICATION',
+        val: '30 Jet-Black Capsules × 600mg',
+        sub: '18,000mg total net mass ·Heaviest capsule in the Onyxmen vault',
+      },
+      {
+        key: '02 · DUAL-WAVE NO MATRIX',
+        val: '180 mg Arginine + 120 mg Citrulline',
+        sub: 'Immediate eNOS surge (35m) + 5-hour renal citrulline recycling',
+      },
+      {
+        key: '03 · THERMAL BIO-CATALYST',
+        val: '30 mg Bioperine® & Zinc Matrix',
+        sub: '95% Piperine increases amino & herbal absorption by +30%',
+      },
+      {
+        key: '04 · ENTITY VERIFICATION',
+        val: 'Oral Capsule Supplement (RM 159)',
+        sub: 'Zero mechanical/vacuum hardware · 100% plain-box COD',
+      },
+    ],
+    pinnedSummaryBullets: [
+      'Exact Bottle Specification: "Magnum Pump XR — Testosterone Pro Series — 30 Black Capsules" (600mg each)',
+      'Dual-Wave Nitric Oxide: 180mg L-Arginine HCl (Wave 1) + 120mg L-Citrulline Malate 2:1 (Wave 2 Extended-Release)',
+      'Adaptogenic Backbone: 110mg Tribulus (60% saponins) + 90mg Tongkat Ali 100:1 + 70mg Black Maca & Fenugreek',
+      'Pre-Activity Timing: Swallow 1 black capsule with 350ml water 30–45 minutes before gym training or evening activity',
+      'Official Disambiguation: Strictly an oral 30-capsule Dietary Supplement bottle (never a mechanical/industrial pump)',
+    ],
+    chapters: [
+      {
+        kicker: 'CHAPTER 01 · INSIDE THE 600MG JET-BLACK EXTENDED-RELEASE CAPSULE',
+        title: 'Why Magnum Pump XR Is Our Highest-Mass (600mg) Vascular & Stamina Formula.',
+        paragraphs: [
+          'While standard botanical capsules weigh 450mg to 500mg, Magnum Pump XR (SKU: ONYX-MP-30, RM 159) utilizes a high-capacity 600mg jet-black capsule shell (18,000mg total active mass across 30 black capsules) so that clinical doses of free-form Nitric Oxide amino acids and standardized botanicals coexist in a single capsule.',
+          'Each 600mg black capsule delivers: (1) 180mg Micronized L-Arginine Hydrochloride; (2) 120mg L-Citrulline Malate 2:1; (3) 110mg Tribulus terrestris (standardized to 60% steroidal saponins); (4) 90mg Malaysian Eurycoma longifolia (Tongkat Ali 100:1); (5) 70mg Gelatinized Black Maca & Fenugreek seed extract (50% fenusides); and (6) 30mg Bioperine® (95% piperine black pepper extract) & Zinc Aspartate.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 02 · DUAL-WAVE EXTENDED-RELEASE (XR) NITRIC OXIDE KINETICS',
+        title: 'How L-Arginine HCl (Wave 1) & L-Citrulline Malate (Wave 2) Sustain 5-Hour Blood Flow.',
+        paragraphs: [
+          'Ordinary L-Arginine supplements suffer from a well-documented pharmacokinetic limitation: hepatic arginase enzymes break down a portion of oral L-Arginine after 60 to 90 minutes. Magnum Pump XR solves this with its Extended-Release (XR) dual-amino pairing.',
+          'When you swallow 1 black capsule 30 to 45 minutes before physical activity, the 180mg L-Arginine HCl (shielded by Bioperine®) triggers Wave 1—rapid endothelial Nitric Oxide Synthase (eNOS) activation and cGMP smooth-muscle vasodilation at the 30-to-45-minute mark. Simultaneously, the 120mg L-Citrulline Malate bypasses liver arginase untouched and converts continuously into fresh plasma L-Arginine in the kidneys (Wave 2), sustaining vascular fullness, oxygen transport, and stamina endurance for 3 to 5 hours.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 03 · PRE-GYM RESISTANCE TRAINING VS. EVENING TIMING PROTOCOL',
+        title: 'Calibrating Your 30-Black-Capsule Cycle For Malaysian Gym-Goers & Active Evenings.',
+        paragraphs: [
+          'On Resistance-Training Days (17:00–19:00 MYT): Take 1 black capsule of Magnum Pump XR with 350ml of plain water 30 to 45 minutes before lifting weights or cardiovascular conditioning. The combination of L-Citrulline Malate (which buffers skeletal-muscle ammonia and lactic acid) and 110mg Tribulus saponins enhances workout pump and reduces post-gym exhaustion.',
+          'On Non-Training / Active Evenings (20:30–21:30 MYT): Take 1 black capsule with 300ml of warm water 30 to 45 minutes before evening activity (at least 45 minutes after dinner and 45 minutes away from Kopi O or Teh Tarik). Because Magnum Pump XR contains 0mg synthetic caffeine, it will never disturb your sleep architecture.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 04 · ENTITY DISAMBIGUATION & MALAYSIA COD BUNDLE OFFERS',
+        title: '100% Oral Dietary Supplement Bottle (RM 159 · Buy 2 RM 286 · Buy 3 RM 405).',
+        paragraphs: [
+          'To ensure 100% clarity for Malaysian buyers and search engines: Magnum Pump XR by Onyxmen Malaysia (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042) is strictly an oral botanical and amino-acid Dietary Supplement packaged as 30 Jet-Black Capsules inside an apothecary bottle. The word "Pump" refers to physiological Nitric Oxide vascular muscle pump—it is never a mechanical vacuum cylinder, water pump, or oilfield slurry pump.',
+          'Order authentic Magnum Pump XR in a 100% plain unmarked box ("OM Fulfilment Logistics") via https://www.onyxmen.my or WhatsApp (+60 14-298 5919): 1 Bottle RM 159, 2 Bottles RM 286 (10% OFF — Save RM 32), or 3 Bottles RM 405 (15% OFF — Save RM 72) with Cash on Delivery (COD) nationwide.',
+        ],
+      },
+    ],
+    protocolSteps: [
+      {
+        code: 'MPXR-01 · CAPSULE CHECK',
+        title: 'Verify 30 Jet-Black Capsules Inside The Sealed Bottle',
+        metric: 'SKU: ONYX-MP-30 · 600mg Per Black Capsule',
+        desc: 'Authentic Magnum Pump XR contains 30 jet-black capsules inside a tamper-evident bottle with the crimson-and-gold "Testosterone Pro Series" label.',
+      },
+      {
+        code: 'MPXR-02 · 30–45M TIMING',
+        title: 'Swallow 1 Black Capsule 30–45 Minutes Pre-Gym Or Pre-Evening',
+        metric: 'Matches Wave-1 L-Arginine eNOS Tmax (35 Mins)',
+        desc: 'Take 1 capsule on a light stomach (or 45 mins after dinner) 30 to 45 minutes before physical activity.',
+      },
+      {
+        code: 'MPXR-03 · 350ML WATER',
+        title: 'Hydrate With 350ml Plain Water Upon Ingestion',
+        metric: 'Maximizes Vascular Plasma Volume & Pump',
+        desc: 'Endothelial Nitric Oxide vasodilation requires adequate intravascular hydration to generate full muscular and peripheral blood flow.',
+      },
+      {
+        code: 'MPXR-04 · BIOPERINE WINDOW',
+        title: 'Keep A 45-Minute Buffer From Dairy, Heavy Oils & Teh Tarik',
+        metric: '5mg Bioperine® Catalyst (+30% Uptake)',
+        desc: 'Allow Bioperine piperine and free-form amino acids unobstructed brush-border transport in the small intestine.',
+      },
+      {
+        code: 'MPXR-05 · DAY-25 REFILL',
+        title: 'Reserve The 2-Bottle (RM 286) Or 3-Bottle (RM 405) VIP Bundle',
+        metric: '10% To 15% OFF · Free Malaysia COD & Express',
+        desc: 'Lock in a 60-day or 90-day Extended-Release Nitric Oxide protocol or stack Magnum Pump XR with morning Grow XL.',
+      },
+    ],
+    faqs: [
+      {
+        questionEn: 'Why are Magnum Pump XR capsules jet-black in color?',
+        answerEn:
+          'Authentic Magnum Pump XR (SKU: ONYX-MP-30) uses a signature UV-protective jet-black capsule shell (30 Black Capsules × 600mg) to shield moisture- and light-sensitive L-Arginine HCl, L-Citrulline Malate, and standardized Tongkat Ali/Tribulus extracts from Malaysia’s tropical humidity.',
+      },
+      {
+        questionEn: 'How quickly does Magnum Pump XR start working after I swallow 1 capsule?',
+        answerEn:
+          'When taken with 300ml–350ml of plain water on a light stomach, Wave-1 L-Arginine HCl and Bioperine® initiate endothelial Nitric Oxide vasodilation within 30 to 45 minutes, while Wave-2 L-Citrulline Malate sustains plasma arginine for 3 to 5 hours.',
+      },
+      {
+        questionEn: 'Is Magnum Pump XR a capsule supplement or a physical pump device?',
+        answerEn:
+          'Magnum Pump XR by Onyxmen Malaysia (RM 159) is 100% an oral Dietary Supplement bottle containing 30 Black Capsules formulated with amino acids and botanical extracts. It is NOT a mechanical vacuum device or industrial pump.',
+      },
+      {
+        questionEn: 'Can I order Magnum Pump XR via Cash on Delivery (COD) or WhatsApp in Malaysia?',
+        answerEn:
+          'Yes. You can order via our 3-field Quick Discreet Order Form or message our official WhatsApp (+60 14-298 5919) for 100% plain-box COD across all 16 Malaysian states (1 Bottle RM 159, 2 Bottles RM 286 [10% OFF], 3 Bottles RM 405 [15% OFF]).',
+      },
+    ],
   }
 );
 

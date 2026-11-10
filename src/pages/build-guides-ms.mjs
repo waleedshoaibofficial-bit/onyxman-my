@@ -1285,6 +1285,538 @@ BM_GUIDE_DOSSIERS.push(
         a: 'Sebatian asid amino Nitrik Oksida (L-Arginine HCl dan L-Citrulline Malate) mula diserap ke dalam aliran darah dalam masa 30 hingga 60 minit selepas diambil bersama air kosong. Bagi ekstrak herba adaptogenik pula, sokongan tenaga berperingkat dapat dirasai dalam minggu pertama dan mencapai tahap kestabilan penuh sepanjang kitaran 30 hingga 90 hari.',
       },
     ],
+  },
+  {
+    microStep: 'MS-246',
+    guideNumber: 7,
+    guideCode: 'PANDUAN-BM-07',
+    id: 'hammer-of-thor-original-vs-fake-malaysia',
+    slug: 'hammer-of-thor-original-vs-tiruan-malaysia',
+    canonicalMsPath: '/ms/panduan/hammer-of-thor-original-vs-tiruan-malaysia/',
+    canonicalEnPath: '/guides/hammer-of-thor-original-vs-fake-malaysia/',
+    msOutputPaths: [
+      'ms/guides/hammer-of-thor-original-vs-fake-malaysia/index.html',
+      'ms/panduan/hammer-of-thor-original-vs-tiruan-malaysia/index.html',
+    ],
+    defaultProduct: 'hammer-of-thor',
+    heroVisualWebp: '/assets/products/hammer-of-thor-stage.webp',
+    heroVisualPng: '/assets/products/hammer-of-thor-stage.png',
+    watermarkText: 'THOR TULEN 07',
+    readingTimeMinutes: 11,
+    publishedDate: '2026-11-10',
+    updatedDate: '2026-11-10',
+    seoTitle:
+      'Hammer of Thor Original vs Tiruan Malaysia [20 Kapsul RM159]',
+    metaDescription:
+      '✓ Cara kenal Hammer of Thor Original Malaysia (20 Kapsul Veg. Tribulus 60% Saponin) vs kapsul tiruan murah. Beli 1 RM 159, 2 RM 286 (-10%) COD Rahsia.',
+    kicker: 'ONYX-STD · PANDUAN PROTOKOL 07 · AUDIT FORENSIK HAMMER OF THOR MEN’S HEALTH (20 KAPSUL VEG.)',
+    headlineHtml:
+      'Hammer of Thor Original vs Tiruan Di Malaysia: <span class="foil-champagne-text">Panduan Semakan 20 Kapsul Vegetarian Tulen.</span>',
+    leadSummary:
+      'Carian untuk "Hammer of Thor Original", "Hammer of Thor Men’s Health", dan "Hammer of Thor Kapsul Malaysia" sering mengelirukan pembeli kerana lambakan botol tiruan berharga RM 25–RM 45 di laman tidak sah. Ketahui spesifikasi rasmi Hammer of Thor edaran Onyxmen Malaysia (SKU: ONYX-HT-20, RM 159): 20 Kapsul Vegetarian HPMC dengan 200mg Saponin Tribulus Terrestris 60%, Akar Maca Peru, Panax Ginseng, Saw Palmetto, Tongkat Ali 100:1, dan Zink Bisglycinate.',
+    telemetry: [
+      {
+        label: 'SPESIFIKASI BOTOL RASMI',
+        val: '20 Kapsul Veg. × 500mg',
+        sub: 'SKU: ONYX-HT-20 · Sarung tumbuhan HPMC vegetarian',
+      },
+      {
+        label: 'KEPEKATAN SAPONIN UTAMA',
+        val: '200 mg Tribulus (60% Saponin)',
+        sub: 'Bersama 100mg Maca, 75mg Ginseng, 65mg Saw Palmetto & Zink',
+      },
+      {
+        label: 'BEZA PRODUK TIRUAN',
+        val: 'Sifar Kapsul Biru/Kuning Murah',
+        sub: 'Elakkan botol plastik RM 30 atau titisan cecair tiruan',
+      },
+      {
+        label: 'HARGA & DISKAUN COD MY',
+        val: 'RM 159 · RM 286 (-10%) · RM 405 (-15%)',
+        sub: 'Kotak coklat kosong OM Fulfilment Logistics (KL)',
+      },
+    ],
+    pinnedSummaryTitle:
+      'Enam Tanda Utama Membezakan Hammer of Thor Men’s Health Original (RM 159) Daripada Tiruan',
+    pinnedSummaryCopy:
+      'Jangan sesekali mempertaruhkan kesihatan buah pinggang dan jantung anda dengan kapsul tiruan berharga RM 30 yang dicampur bahan kimia sintetik terlarang. Botol tulen Hammer of Thor oleh Onyxmen Malaysia hanya mengandungi 20 kapsul vegetarian HPMC berasaskan ekstrak botani piawai.',
+    chapters: [
+      {
+        code: 'BAB 01 · ANATOMI BOTOL & LABEL RASMI',
+        title: 'Mengenal Pasti Penutup Logam Emas, Lencana Vegetarian Hijau & 20 Kapsul HPMC',
+        body: 'Botol tulen Hammer of Thor Men’s Health yang dihantar dari bilik kebal kawalan suhu Onyxmen Malaysia (SKU: ONYX-HT-20, GTIN-13: 9550000102028) hadir dengan botol gelap berpenutup logam emas berkilat serta pelekat keselamatan kedap udara asal kilang. Pada label hadapan tertera cetakan tepat "HAMMER OF THOR — MEN’S HEALTH — TRIBULUS TERRESTRIS — 20 VEG. CAPSULES" bersama simbol daun vegetarian hijau. Apabila dibuka, terdapat 20 kapsul selulosa tumbuhan HPMC berisi serbuk ekstrak herba perang semula jadi berserta pek penyerap kelembapan gred makanan.',
+      },
+      {
+        code: 'BAB 02 · BAHAYA KAPSUL TIRUAN RM 25–RM 45',
+        title: 'Mengapa Botol Plastik Kapsul Biru/Kuning & Ubat Titisan Di Pasaran Adalah Tiruan',
+        body: 'Di laman iklan bebas dan kedai tidak sah, nama "Hammer of Thor" sering disalahgunakan pada botol plastik murah berharga RM 25 hingga RM 45 yang mengandungi 30 atau 60 kapsul gelatin berwarna biru terang, kuning, atau bentuk cecair titisan. Ujian makmal mendapati produk tiruan ini hanya mengandungi tepung kanji atau dicampur secara haram dengan bahan kimia sintetik PDE5 yang menyebabkan sakit kepala berdenyut, hidung tersumbat, dan tekanan darah tidak stabil. Stok tulen Onyxmen Malaysia tidak pernah dijual dalam bentuk cecair atau kapsul warna-warni.',
+      },
+      {
+        code: 'BAB 03 · KOMPOSISI 500MG SETIAP KAPSUL VEG.',
+        title: 'Sinergi 200mg Tribulus (60% Saponin Protodioscin), Maca Peru, Ginseng & Zink',
+        body: 'Setiap kapsul vegetarian 500mg Hammer of Thor menggabungkan enam bahan aktif utama: (1) 200mg ekstrak buah Tribulus terrestris piawai (60% saponin steroid furostanol / protodioscin) untuk ketahanan fizikal dan kekuatan otot; (2) 100mg Akar Maca Peru tergelatinisasi untuk tenaga selular bebas kafein; (3) 75mg Panax Ginseng (10% ginsenosida); (4) 65mg ekstrak beri Saw Palmetto untuk kesihatan lelaki dewasa; (5) 45mg Tongkat Ali Malaysia 100:1; dan (6) 15mg kelat Zink Bisglycinate untuk menggantikan mineral yang hilang melalui peluh.',
+      },
+      {
+        code: 'BAB 04 · CARA MAKAN & PAKEJ DISKAUN 10% / 15%',
+        title: 'Jadual Pengambilan 30 Minit Selepas Makan Malam & Tempahan Bungkusan Rahsia COD',
+        body: 'Memandangkan saponin steroid di dalam Tribulus terrestris lebih mudah diserap dengan kehadiran sedikit lipid makanan, ambil 1 kapsul vegetarian Hammer of Thor bersama 250ml–300ml air kosong suam 30 minit selepas makan malam (atau 45 minit sebelum senaman gimnasium). Jarakkan 45 minit daripada teh tarik atau kopi O. Tempah terus melalui https://www.onyxmen.my atau WhatsApp (+60 14-298 5919): 1 Botol RM 159, 2 Botol RM 286 (Jimat RM 32 / Diskaun 10%), atau 3 Botol RM 405 (Jimat RM 72 / Diskaun 15%) dengan COD Bayar Bila Sampai.',
+      },
+    ],
+    protocolLedgerRows: [
+      {
+        code: 'THOR-BM-01 · METERAI BOTOL',
+        title: 'Penutup Logam Emas & Pelekat Keselamatan Kilang Utuh',
+        body: 'Pastikan botol tiba di dalam kotak coklat kosong "OM Fulfilment Logistics" dengan meterai leher botol yang belum dibuka.',
+        meta: 'SKU: ONYX-HT-20 · 100% Tulen',
+      },
+      {
+        code: 'THOR-BM-02 · CETAKAN LABEL',
+        title: 'Cetakan "Men’s Health — Tribulus Terrestris — 20 Veg. Capsules"',
+        body: 'Semak lencana vegetarian hijau pada label hadapan dan pastikan kiraan tepat 20 kapsul tumbuhan HPMC.',
+        meta: '20 Kapsul Vegetarian HPMC',
+      },
+      {
+        code: 'THOR-BM-03 · WAKTU MAKAN',
+        title: '1 Kapsul 30 Minit Selepas Makan Malam Bersama Air Suam',
+        body: 'Kehadiran hempedu selepas makan malam membantu penyerapan 200mg Saponin Tribulus 60% secara optimum.',
+        meta: '30 Minit Selepas Makan Malam',
+      },
+      {
+        code: 'THOR-BM-04 · PENAMPAN TANIN',
+        title: 'Jarakkan 45 Minit Daripada Kopi O, Nescafe & Teh Tarik',
+        body: 'Elakkan tanin teh dan kopi daripada mengikat 15mg Zink Bisglycinate dan glikosida herba di dalam perut.',
+        meta: 'Penampan 45 Minit Air Kosong',
+      },
+      {
+        code: 'THOR-BM-05 · BEBAS SINTETIK',
+        title: 'Tiada Sakit Kepala Berdenyut Atau Debaran Jantung',
+        body: 'Formulasi botani tulen memberikan ketahanan semula jadi tanpa kesan sampingan bahan kimia terlarang.',
+        meta: '0% Bahan Kimia Sintetik',
+      },
+      {
+        code: 'THOR-BM-06 · PAKEJ JIMAT',
+        title: 'Beli 2 Botol RM 286 (10% OFF) Atau 3 Botol RM 405 (15% OFF)',
+        body: 'Jimat sehingga RM 72 dengan penghantaran ekspres bungkusan rahsia percuma ke seluruh Semenanjung, Sabah & Sarawak.',
+        meta: 'COD & WhatsApp +60 14-298 5919',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Bagaimanakah cara paling mudah membezakan Hammer of Thor Original dengan tiruan di Malaysia?',
+        a: 'Hammer of Thor Original edaran rasmi Onyxmen Malaysia (SKU: ONYX-HT-20, RM 159) menggunakan botol berpenutup logam emas, lencana vegetarian hijau, dan mengandungi tepat 20 kapsul tumbuhan HPMC. Produk tiruan berharga RM 25–RM 45 di laman klasifikasi lazimnya mengandungi 30/60 kapsul gelatin berwarna biru atau kuning terang.',
+      },
+      {
+        q: 'Adakah kapsul Hammer of Thor bebas daripada gelatin haiwan?',
+        a: 'Ya. Sarung kapsul Hammer of Thor diperbuat daripada 100% selulosa tumbuhan HPMC (Hydroxypropyl Methylcellulose) yang sesuai untuk pengguna yang mengutamakan kapsul vegetarian.',
+      },
+      {
+        q: 'Apakah perbezaan antara Hammer of Thor (20 Kapsul Veg.) dan Horsemen (20 Kapsul)?',
+        a: 'Hammer of Thor memfokuskan 200mg Saponin Tribulus Terrestris 60%, Saw Palmetto, dan Zink Bisglycinate di dalam kapsul vegetarian untuk ketahanan fizikal dan pemulihan otot. Horsemen pula memfokuskan 150mg Tongkat Ali Malaysia 100:1, Maca Hitam, dan Epimedium untuk kesediaan tenaga malam yang pantas.',
+      },
+      {
+        q: 'Bolehkah saya menempah Hammer of Thor Original secara COD (Bayar Bila Sampai)?',
+        a: 'Boleh. Anda boleh mengisi Borang Tempahan Pantas di laman ini atau klik butang WhatsApp (+60 14-298 5919) untuk tempahan COD bungkusan rahsia ke seluruh Malaysia.',
+      },
+    ],
+  },
+  {
+    microStep: 'MS-247',
+    guideNumber: 8,
+    guideCode: 'PANDUAN-BM-08',
+    id: 'growxl-for-men-30-capsule-dosage-guide-malaysia',
+    slug: 'panduan-cara-makan-grow-xl-30-kapsul-malaysia',
+    canonicalMsPath: '/ms/panduan/panduan-cara-makan-grow-xl-30-kapsul-malaysia/',
+    canonicalEnPath: '/guides/growxl-for-men-30-capsule-dosage-guide-malaysia/',
+    msOutputPaths: [
+      'ms/guides/growxl-for-men-30-capsule-dosage-guide-malaysia/index.html',
+      'ms/panduan/panduan-cara-makan-grow-xl-30-kapsul-malaysia/index.html',
+    ],
+    defaultProduct: 'grow-xl',
+    heroVisualWebp: '/assets/products/grow-xl-stage.webp',
+    heroVisualPng: '/assets/products/grow-xl-stage.png',
+    watermarkText: 'GROWXL 08',
+    readingTimeMinutes: 11,
+    publishedDate: '2026-11-10',
+    updatedDate: '2026-11-10',
+    seoTitle:
+      'Cara Makan Grow XL / GrowXL Malaysia [30 Kapsul Original RM159]',
+    metaDescription:
+      '✓ Panduan rasmi cara makan Grow XL / GrowXL for Men Malaysia (30 Kapsul), jadual waktu pagi & kesan kitaran 30 hari. Beli 1 RM 159, 2 RM 286 (-10%) COD.',
+    kicker: 'ONYX-STD · PANDUAN PROTOKOL 08 · MANUAL CARA MAKAN & KITARAN 30 HARI GROW XL (GROWXL MALAYSIA)',
+    headlineHtml:
+      'Panduan Cara Makan Grow XL (GrowXL Malaysia): <span class="foil-champagne-text">Dos 30 Kapsul, Jadual Pagi &amp; Hasil 30–90 Hari.</span>',
+    leadSummary:
+      'Sama ada anda mencari "Grow XL Malaysia", "GrowXL for Men", atau "Cara Makan Grow XL", manual lengkap ini menerangkan formulasi 30 Kapsul Ekstra Kuat terlaris Onyxmen Malaysia (SKU: ONYX-GX-30, RM 159). Fahami bagaimana setiap kapsul 550mg menggabungkan 140mg Tongkat Ali 100:1, 120mg L-Arginine & L-Citrulline, 100mg Muira Puama, 80mg Saw Palmetto, dan 70mg Ginkgo Biloba untuk kecergasan sepanjang 30 hari.',
+    telemetry: [
+      {
+        label: 'SPESIFIKASI BOTOL BULANAN',
+        val: '30 Kapsul × 550mg (16.5g)',
+        sub: 'Bekalan penuh 30 hari (1 kapsul setiap pagi)',
+      },
+      {
+        label: 'MASA PENGAMBILAN TERBAIK',
+        val: '20–30 Minit Selepas Sarapan',
+        sub: 'Selaras dengan irama hormon pagi lelaki (07:00–09:00 MYT)',
+      },
+      {
+        label: 'RAMUAN EKSKLUSIF GROW XL',
+        val: 'Muira Puama + Saw Palmetto',
+        sub: '100mg ekstrak kulit kayu Amazon + 80mg fitosterol beri',
+      },
+      {
+        label: 'PAKEJ DISKAUN COD MALAYSIA',
+        val: 'RM 159 · RM 286 (-10%) · RM 405 (-15%)',
+        sub: 'Peringatan Hari Ke-25 · Kotak coklat tanpa nama produk',
+      },
+    ],
+    pinnedSummaryTitle:
+      'Mengapa Grow XL (30 Kapsul) Menjadi Pilihan #1 Untuk Rutin Harian Lelaki Bekerjaya Di Malaysia',
+    pinnedSummaryCopy:
+      'Bagi lelaki dewasa yang sibuk bekerja di pejabat atau lapangan dan tidak mahu pening memikirkan jadual pengambilan sebelum aktiviti malam, Grow XL menawarkan disiplin mudah: hanya 1 kapsul selepas sarapan pagi setiap hari untuk menyokong aliran mikro, kawalan tekanan kerja, dan kesediaan tenaga malam.',
+    chapters: [
+      {
+        code: 'BAB 01 · FORMULASI EKSTRA KUAT 550MG',
+        title: 'Enam Ramuan Aktif Di Dalam Setiap Kapsul Grow XL (GrowXL for Men Malaysia)',
+        body: 'Setiap botol Grow XL (SKU: ONYX-GX-30, GTIN-13: 9550000102035) mengandungi 30 kapsul berkepekatan 550mg (jumlah keseluruhan 16,500mg ekstrak aktif sebotol). Enam ramuan utamanya ialah: (1) 140mg Tongkat Ali Malaysia 100:1 (Eurycoma longifolia >=2.0% Eurycomanone); (2) 120mg matriks asid amino L-Arginine HCl & L-Citrulline Malate (2:1); (3) 100mg ekstrak Muira Puama 10:1 dari Brazil; (4) 80mg ekstrak beri Saw Palmetto (45% asid lemak & beta-sitosterol); (5) 70mg ekstrak daun Ginkgo Biloba 50:1; serta (6) 40mg Panax Ginseng Merah Korea & Zink.',
+      },
+      {
+        code: 'BAB 02 · PROTOKOL WAKTU PAGI SELEPAS SARAPAN',
+        title: 'Cara Makan Grow XL Yang Betul: 20–30 Minit Selepas Sarapan Bersama 300ml Air Suam',
+        body: 'Waktu paling efektif untuk mengambil Grow XL ialah pada waktu pagi, iaitu 20 hingga 30 minit selepas anda bersarapan (sekitar jam 7:30 hingga 9:00 pagi) bersama 300ml air kosong suam. Pengambilan selepas sarapan berprotein (seperti telur separuh masak, roti bakar, oat, atau nasi lemak sederhana) membantu penyerapan fitosterol Saw Palmetto dan glikosida Ginkgo Biloba, manakala air suam melarutkan Tongkat Ali 100:1 dengan pantas. Pastikan anda menjarakkan sekurang-kurangnya 45 minit daripada kopi O atau teh tarik pagi.',
+      },
+      {
+        code: 'BAB 03 · JADUAL PERKEMBANGAN 30 HINGGA 90 HARI',
+        title: 'Apa Yang Dijangkakan Pada Hari Ke-1 Hingga Hari Ke-90 Kitaran Grow XL',
+        body: 'Fasa 1 (Hari 1 hingga 10): Gabungan 120mg L-Arginine/L-Citrulline dan 70mg Ginkgo Biloba menyokong kelancaran peredaran darah mikro dan mengurangkan rasa lesu pada waktu petang tanpa kafein. Fasa 2 (Hari 11 hingga 30): Penyerapan berterusan 140mg Tongkat Ali 100:1, 100mg Muira Puama, dan 80mg Saw Palmetto membina daya tahan fizikal, keseimbangan hormon, serta keselesaan pelvik lelaki dewasa. Fasa 3 (Hari 31 hingga 90 — Pakej 2 Botol RM 286 atau 3 Botol RM 405): Mengekalkan kestabilan stamina puncak sepanjang suku tahun.',
+      },
+      {
+        code: 'BAB 04 · GABUNGAN GROW XL & HORSEMEN / MAGNUM PUMP XR',
+        title: 'Strategi Pakej 2 Botol (RM 286 · Diskaun 10%) & 3 Botol (RM 405 · Diskaun 15%)',
+        body: 'Oleh sebab Grow XL diambil sekali sahaja pada waktu pagi, ramai pelanggan menggabungkannya dengan Horsemen (20 kapsul untuk malam aktiviti) atau Magnum Pump XR (30 kapsul hitam sebelum gimnasium) melalui Pakej 2 Botol RM 286 (Jimat RM 32) atau Pakej 3 Botol RM 405 (Jimat RM 72). Semua pesanan dihantar dalam kotak coklat kosong tanpa nama produk melalui COD atau FPX.',
+      },
+    ],
+    protocolLedgerRows: [
+      {
+        code: 'GROWXL-BM-01 · SARAPAN PAGI',
+        title: 'Ambil Sarapan Seimbang Antara Jam 07:00 – 09:00 Pagi',
+        body: 'Makan sarapan berprotein sederhana bagi mengaktifkan penyerapan lipid Saw Palmetto (80mg) dan Ginkgo Biloba (70mg).',
+        meta: 'Asas Pencernaan Pagi',
+      },
+      {
+        code: 'GROWXL-BM-02 · DOS HARIAN',
+        title: 'Telan 1 Kapsul Grow XL 20–30 Minit Selepas Sarapan',
+        body: 'Ambil tepat 1 kapsul (550mg) setiap pagi bersama 300ml air kosong suam selama 30 hari berturut-turut.',
+        meta: '1 Kapsul Sehari · 30 Hari',
+      },
+      {
+        code: 'GROWXL-BM-03 · JARAK KOPI/TEH',
+        title: 'Jarakkan 45 Minit Daripada Teh Tarik Atau Kopi O Pagi',
+        body: 'Elakkan polifenol teh dan kopi daripada mengurangkan penyerapan 140mg Tongkat Ali 100:1 dan mineral Zink.',
+        meta: 'Penampan 45 Minit',
+      },
+      {
+        code: 'GROWXL-BM-04 · AIR HARIAN',
+        title: 'Minum 2.5 Hingga 3.0 Liter Air Kosong Sepanjang Hari Kerja',
+        body: 'Sokong tindakan 120mg L-Arginine & L-Citrulline untuk pengangkutan oksigen dan kecergasan mikro-vaskular.',
+        meta: 'Sasaran Air Tropika',
+      },
+      {
+        code: 'GROWXL-BM-05 · TERLUPA DOS',
+        title: 'Jika Terlupa Waktu Pagi, Ambil 30 Minit Selepas Makan Tengah Hari',
+        body: 'Jangan gandakan dos kepada 2 kapsul sekaligus; ambil 1 kapsul selepas makan tengah hari dan sambung jadual pagi esoknya.',
+        meta: 'Disiplin Kitaran Selamat',
+      },
+      {
+        code: 'GROWXL-BM-06 · ULANGAN HARI 25',
+        title: 'Pilih Pakej 2 Botol (RM 286) Atau 3 Botol (RM 405) Untuk Kitaran 60–90 Hari',
+        body: 'Jimat sehingga 15% (RM 72) dengan penghantaran bungkusan rahsia COD percuma ke seluruh 16 negeri Malaysia.',
+        meta: 'Diskaun 10% & 15% VIP',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Adakah Grow XL di onyxmen.my merupakan produk rasmi untuk carian "GrowXL for Men" di Malaysia?',
+        a: 'Ya. Grow XL (SKU: ONYX-GX-30, RM 159) ialah formulasi rasmi 30 Kapsul Ekstra Kuat oleh Onyxmen Malaysia bagi pengguna yang mencari GrowXL for Men, Grow XL Malaysia, atau Vital Grow XL.',
+      },
+      {
+        q: 'Apakah yang perlu saya lakukan jika saya terlupa makan kapsul Grow XL selepas sarapan?',
+        a: 'Jika terlupa pada waktu pagi, ambil 1 kapsul 30 minit selepas makan tengah hari bersama 300ml air kosong. Jangan ambil 2 kapsul serentak pada keesokan paginya.',
+      },
+      {
+        q: 'Apakah perbezaan antara Grow XL (30 Kapsul) dan Magnum Pump XR (30 Kapsul Hitam)?',
+        a: 'Kedua-duanya mengandungi 30 kapsul pada harga RM 159, tetapi Grow XL direka untuk diambil setiap pagi selepas sarapan (mengandungi Tongkat Ali, Muira Puama, Saw Palmetto & Ginkgo Biloba untuk kecergasan harian), manakala Magnum Pump XR (30 Kapsul Hitam) direka untuk diambil 30–45 minit sebelum senaman gimnasium atau aktiviti malam (mengandungi 300mg L-Arginine & L-Citrulline + Bioperine).',
+      },
+      {
+        q: 'Berapakah penjimatan jika saya membeli 2 atau 3 botol Grow XL?',
+        a: '1 Botol berharga RM 159. Pakej 2 Botol (bekalan 60 hari) berharga RM 286 (Diskaun 10%, jimat RM 32). Pakej 3 Botol (bekalan 90 hari) berharga RM 405 (Diskaun 15%, jimat RM 72) termasuk penghantaran bungkusan rahsia COD percuma.',
+      },
+    ],
+  },
+  {
+    microStep: 'MS-248',
+    guideNumber: 9,
+    guideCode: 'PANDUAN-BM-09',
+    id: 'horsemen-capsule-original-500mg-malaysia-guide',
+    slug: 'panduan-horsemen-kapsul-original-500mg-malaysia',
+    canonicalMsPath: '/ms/panduan/panduan-horsemen-kapsul-original-500mg-malaysia/',
+    canonicalEnPath: '/guides/horsemen-capsule-original-500mg-malaysia-guide/',
+    msOutputPaths: [
+      'ms/guides/horsemen-capsule-original-500mg-malaysia-guide/index.html',
+      'ms/panduan/panduan-horsemen-kapsul-original-500mg-malaysia/index.html',
+    ],
+    defaultProduct: 'horsemen',
+    heroVisualWebp: '/assets/products/horsemen-stage.webp',
+    heroVisualPng: '/assets/products/horsemen-stage.png',
+    watermarkText: 'HORSEMEN 09',
+    readingTimeMinutes: 11,
+    publishedDate: '2026-11-10',
+    updatedDate: '2026-11-10',
+    seoTitle:
+      'Panduan Horsemen Kapsul Original 500mg Malaysia [RM159 COD]',
+    metaDescription:
+      '✓ Panduan lengkap Horsemen Kapsul Original 500mg Malaysia (20 Kapsul): 150mg Tongkat Ali 100:1, 100mg Maca Hitam & cara makan malam. Beli RM 159 COD Rahsia.',
+    kicker: 'ONYX-STD · PANDUAN PROTOKOL 09 · MONOGRAF LENGKAP HORSEMEN ORIGINAL (20 KAPSUL × 500MG)',
+    headlineHtml:
+      'Panduan Horsemen Kapsul Original 500mg Malaysia: <span class="foil-champagne-text">Sinergi Tongkat Ali 100:1 &amp; Maca Hitam.</span>',
+    leadSummary:
+      'Direka khusus untuk pengguna Malaysia yang mencari "Horsemen Capsule Original", "Horsemen Kapsul Malaysia", "Tongkat Ali Malaysia", dan "Maca Root Malaysia", panduan ini memperincikan formulasi 20 Kapsul × 500mg kami (SKU: ONYX-HM-20, RM 159). Ketahui bagaimana 150mg Tongkat Ali 100:1, 100mg Akar Maca Hitam Peru, 80mg Epimedium (10% Icariin), 80mg L-Arginine HCl, dan 60mg Ginseng Merah Korea berfungsi untuk kesediaan malam.',
+    telemetry: [
+      {
+        label: 'KEPEKATAN SETIAP KAPSUL',
+        val: '500 mg Ekstrak Piawai Padat',
+        sub: '20 Kapsul sebotol (10,000mg jumlah rizab herba)',
+      },
+      {
+        label: 'RAMUAN TERAS #1',
+        val: '150 mg Tongkat Ali 100:1',
+        sub: 'Dos Eurycomanone tertinggi bagi setiap kapsul Onyxmen',
+      },
+      {
+        label: 'RAMUAN TERAS #2 & #3',
+        val: '100 mg Maca Hitam + 80 mg Icariin',
+        sub: 'Akar Lepidium meyenii Peru + Epimedium sagittatum',
+      },
+      {
+        label: 'JADUAL KESEDIAAN MALAM',
+        val: '45–60 Minit Selepas Makan Malam',
+        sub: 'RM 159 (1B) · RM 286 (2B -10%) · RM 405 (3B -15%)',
+      },
+    ],
+    pinnedSummaryTitle:
+      'Mengapa Horsemen (20 Kapsul × 500mg) Menjadi Pilihan Utama Untuk Kesediaan Stamina Malam Di Malaysia',
+    pinnedSummaryCopy:
+      'Setiap kapsul 500mg Horsemen menggabungkan dos tertinggi ekstrak larut air Tongkat Ali Malaysia 100:1 (150mg) bersama Akar Maca Hitam Peru tergelatinisasi (100mg), Epimedium Icariin (80mg), L-Arginine HCl (80mg), dan Ginseng Merah Korea (60mg) untuk penyerapan pantas dalam masa 45 hingga 60 minit.',
+    chapters: [
+      {
+        code: 'BAB 01 · PECAHAN 500MG SETIAP KAPSUL HORSEMEN',
+        title: 'Enam Ekstrak Piawai Di Dalam Botol Horsemen Man Virility Enhancement (SKU: ONYX-HM-20)',
+        body: 'Berbeza dengan kapsul tradisional yang hanya mengandungi serbuk akar mentah yang tidak dipiawaikan, setiap kapsul 500mg Horsemen Original (GTIN-13: 9550000102011, RM 159) dirumus dengan tepat: (1) 150mg Ekstrak Akar Eurycoma longifolia Malaysia 100:1 (dipiawaikan kepada >=2.2% Eurycomanone); (2) 100mg Akar Maca Hitam Peru Tergelatinisasi (0.6% macamides); (3) 80mg Ekstrak Epimedium sagittatum (10% flavonoid icariin); (4) 80mg L-Arginine Hydrochloride (99.2% tulen); (5) 60mg Akar Panax Ginseng Merah Korea berusia 6 tahun (8% ginsenosida); dan (6) 30mg Tribulus terrestris & Zink Picolinate.',
+      },
+      {
+        code: 'BAB 02 · SINERGI TONGKAT ALI 100:1 & MACA HITAM',
+        title: 'Bagaimana Tiga Laluan Fisiologi Bertindak Serentak Dalam 45 Hingga 60 Minit',
+        body: 'Selepas seharian bekerja di Malaysia, keletihan malam berpunca daripada peningkatan hormon tekanan kortisol dan penurunan aliran vaskular. Horsemen menangani kedua-duanya: 150mg Tongkat Ali 100:1 membantu mengawal beban kortisol waktu petang, 100mg Maca Hitam membekalkan tenaga mitokondria ATP tanpa kafein, manakala gabungan 80mg L-Arginine HCl, 80mg Epimedium Icariin, dan 60mg Ginseng Merah menyokong kelancaran Nitrik Oksida endotelium.',
+      },
+      {
+        code: 'BAB 03 · DUA MOD PENGAMBILAN: HARIAN VS SELANG SEHARI',
+        title: 'Kitaran Intensif 20 Malam Berturut-Turut Atau Penyelenggaraan 40 Hari (Selang 48 Jam)',
+        body: 'Mod A (Kitaran Intensif 20 Hari): Ambil 1 kapsul setiap malam 45 hingga 60 minit selepas makan malam bersama 300ml air kosong suam selama 20 malam berturut-turut untuk membina ketepuan fitokimia penuh. Mod B (Kitaran Penyelenggaraan 40 Hari): Ambil 1 kapsul selang sehari (setiap 48 jam) atau 45–60 minit sebelum aktiviti malam. Dengan Mod B, sebotol 20 kapsul mampu bertahan sehingga 40 hari.',
+      },
+      {
+        code: 'BAB 04 · JAMINAN KETULENAN RM 159 & BUNGKUSAN RAHSIA COD',
+        title: 'Cara Menempah Horsemen Original Dengan Diskaun Pakej 10% Hingga 15%',
+        body: 'Stok tulen Horsemen disimpan di dalam bilik kebal kawalan suhu Kuala Lumpur (22°C–24°C) dan dihantar menggunakan kotak coklat kosong tanpa sebarang nama produk ("OM Fulfilment Logistics"). Tempah melalui Borang Tempahan Pantas di laman ini atau WhatsApp (+60 14-298 5919): 1 Botol RM 159, 2 Botol RM 286 (Jimat RM 32 / Diskaun 10%), atau 3 Botol RM 405 (Jimat RM 72 / Diskaun 15%) dengan kemudahan COD Bayar Bila Sampai di seluruh Malaysia.',
+      },
+    ],
+    protocolLedgerRows: [
+      {
+        code: 'HM-BM-01 · SELEPAS MAKAN MALAM',
+        title: 'Tunggu 45 Hingga 60 Minit Selepas Hidangan Malam',
+        body: 'Beri ruang kepada perut untuk menghadam makanan utama supaya ekstrak larut air 500mg diserap terus ke usus kecil.',
+        meta: '45–60 Minit Selepas Makan',
+      },
+      {
+        code: 'HM-BM-02 · AIR SUAM 300ML',
+        title: 'Telan 1 Kapsul Horsemen Bersama 300ml Air Kosong Suam',
+        body: 'Air suam mempercepatkan pelarutan 150mg Tongkat Ali 100:1, 100mg Maca Hitam, dan 80mg Epimedium dalam masa 6–8 minit.',
+        meta: 'Pelarutan Pantas · 0% Kafein',
+      },
+      {
+        code: 'HM-BM-03 · ELAK KOPI/TEH',
+        title: 'Jarakkan 45 Minit Daripada Kopi O, Teh Tarik & Milo',
+        body: 'Pastikan tiada tanin minuman manis yang menghalang penyerapan kuasinoid Eurycomanone dan Zink Picolinate.',
+        meta: 'Penampan Pencernaan 45 Minit',
+      },
+      {
+        code: 'HM-BM-04 · PILIHAN KITARAN',
+        title: 'Kitaran 20 Malam Intensif Atau 40 Hari Selang Sehari',
+        body: 'Sesuaikan mengikut keperluan anda: 1 kapsul setiap malam atau 1 kapsul setiap 48 jam / sebelum aktiviti malam.',
+        meta: '20 Kapsul × 500mg Sebotol',
+      },
+      {
+        code: 'HM-BM-05 · BEBAS BAHAN KIMIA',
+        title: '100% Ekstrak Botani & Asid Amino Tanpa Kesan Sampingan Sintetik',
+        body: 'Tidak menyebabkan sakit kepala berdenyut, pandangan kabur, atau gangguan tidur REM.',
+        meta: 'Saringan Kualiti Kuala Lumpur',
+      },
+      {
+        code: 'HM-BM-06 · PAKEJ KOMBO',
+        title: 'Jimat RM 32 (2 Botol RM 286) Atau RM 72 (3 Botol RM 405)',
+        body: 'Nikmati penghantaran bungkusan rahsia COD percuma ke seluruh Semenanjung, Sabah, Sarawak & Labuan.',
+        meta: 'COD & WhatsApp +60 14-298 5919',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Apakah kandungan tepat di dalam setiap kapsul 500mg Horsemen Original?',
+        a: 'Setiap kapsul 500mg Horsemen (SKU: ONYX-HM-20) mengandungi 150mg Ekstrak Akar Tongkat Ali Malaysia 100:1, 100mg Akar Maca Hitam Peru tergelatinisasi, 80mg Epimedium sagittatum (10% Icariin), 80mg L-Arginine HCl, 60mg Ginseng Merah Korea 6 Tahun, serta 30mg Tribulus terrestris & Zink Picolinate.',
+      },
+      {
+        q: 'Berapa minit sebelum aktiviti malam saya patut mengambil kapsul Horsemen?',
+        a: 'Ambil 1 kapsul bersama 300ml air kosong suam 45 hingga 60 minit sebelum aktiviti malam (atau 45–60 minit selepas makan malam). Kepekatan plasma optimum dicapai antara minit ke-45 hingga ke-90.',
+      },
+      {
+        q: 'Adakah Horsemen menyebabkan sakit kepala atau sukar tidur pada waktu malam?',
+        a: 'Tidak. Horsemen Original oleh Onyxmen Malaysia adalah 100% bebas daripada bahan kimia sintetik PDE5 terlarang dan bebas kafein. Ia menyokong tenaga secara semula jadi tanpa mengganggu tidur.',
+      },
+      {
+        q: 'Bagaimanakah cara menempah Horsemen Original secara COD (Bayar Bila Sampai)?',
+        a: 'Klik mana-mana butang tempahan di halaman ini untuk mengisi Borang Tempahan Pantas, atau klik butang WhatsApp (+60 14-298 5919). Harga rasmi ialah RM 159 (1 Botol), RM 286 (2 Botol, Diskaun 10%), dan RM 405 (3 Botol, Diskaun 15%).',
+      },
+    ],
+  },
+  {
+    microStep: 'MS-249',
+    guideNumber: 10,
+    guideCode: 'PANDUAN-BM-10',
+    id: 'magnum-pump-xr-30-black-capsules-nitric-oxide-guide',
+    slug: 'panduan-magnum-pump-xr-30-kapsul-hitam-malaysia',
+    canonicalMsPath: '/ms/panduan/panduan-magnum-pump-xr-30-kapsul-hitam-malaysia/',
+    canonicalEnPath: '/guides/magnum-pump-xr-30-black-capsules-nitric-oxide-guide/',
+    msOutputPaths: [
+      'ms/guides/magnum-pump-xr-30-black-capsules-nitric-oxide-guide/index.html',
+      'ms/panduan/panduan-magnum-pump-xr-30-kapsul-hitam-malaysia/index.html',
+    ],
+    defaultProduct: 'magnum-pump-xr',
+    heroVisualWebp: '/assets/products/magnum-pump-xr-stage.webp',
+    heroVisualPng: '/assets/products/magnum-pump-xr-stage.png',
+    watermarkText: 'PUMP XR 10',
+    readingTimeMinutes: 12,
+    publishedDate: '2026-11-10',
+    updatedDate: '2026-11-10',
+    seoTitle:
+      'Panduan Magnum Pump XR 30 Kapsul Hitam Malaysia [RM159 COD]',
+    metaDescription:
+      '✓ Panduan rasmi Magnum Pump XR Malaysia (30 Kapsul Hitam × 600mg): cara makan L-Arginine & L-Citrulline Nitrik Oksida untuk aliran darah & stamina. RM 159 COD.',
+    kicker: 'ONYX-STD · PANDUAN PROTOKOL 10 · DOSSIER VASKULAR MAGNUM PUMP XR (30 KAPSUL HITAM × 600MG)',
+    headlineHtml:
+      'Panduan Magnum Pump XR 30 Kapsul Hitam Malaysia: <span class="foil-champagne-text">Protokol Nitrik Oksida L-Arginine &amp; L-Citrulline.</span>',
+    leadSummary:
+      'Dirumus untuk lelaki dewasa di Malaysia yang mencari "Magnum Pump XR", "Kapsul Aliran Darah & Stamina", dan "Suplemen L-Arginine Nitrik Oksida", panduan teknikal ini menerangkan formulasi 600mg paling padat kami: Magnum Pump XR Testosterone Pro Series (30 Kapsul Hitam, SKU: ONYX-MP-30, RM 159). Fahami mekanisme dwi-gelombang 300mg L-Arginine HCl + L-Citrulline Malate, 270mg herba adaptogenik, dan Bioperine®.',
+    telemetry: [
+      {
+        label: 'SPESIFIKASI KAPSUL HITAM',
+        val: '30 Kapsul Hitam × 600mg',
+        sub: '18,000mg jumlah jisim aktif · Kapsul paling padat Onyxmen',
+      },
+      {
+        label: 'MATRIKS DWI-GELOMBANG NO',
+        val: '180 mg Arginine + 120 mg Citrulline',
+        sub: 'Sokongan eNOS segera (35m) + kitar semula 3–5 jam',
+      },
+      {
+        label: 'PEMANGKIN PENYERAPAN',
+        val: '30 mg Bioperine® & Zink',
+        sub: '95% Piperine meningkatkan bioavailabiliti sehingga +30%',
+      },
+      {
+        label: 'PENJELASAN PRODUK RASMI',
+        val: 'Suplemen 30 Kapsul Oral (RM 159)',
+        sub: 'Bukan alat mekanikal/pam vakum · 100% COD Rahsia',
+      },
+    ],
+    pinnedSummaryTitle:
+      'Kuasa Dwi-Gelombang Nitrik Oksida Di Dalam Setiap Kapsul Hitam 600mg Magnum Pump XR',
+    pinnedSummaryCopy:
+      'Magnum Pump XR menggabungkan dos tertinggi asid amino vaskular (180mg L-Arginine HCl + 120mg L-Citrulline Malate) bersama Tribulus Terrestris, Tongkat Ali Malaysia 100:1, Maca Hitam, Halba (Fenugreek), dan Bioperine® di dalam 30 kapsul hitam pelindung UV.',
+    chapters: [
+      {
+        code: 'BAB 01 · KOMPOSISI 600MG KAPSUL HITAM',
+        title: 'Mengapa Magnum Pump XR Menggunakan Kapsul Hitam Berkapasiti Tinggi 600mg (SKU: ONYX-MP-30)',
+        body: 'Manakala kapsul suplemen biasa hanya berukuran 450mg hingga 500mg, Magnum Pump XR (GTIN-13: 9550000102042, RM 159) menggunakan sarung kapsul hitam legap berkapasiti 600mg (18,000mg keseluruhan setiap botol 30 kapsul). Setiap kapsul hitam membekalkan: (1) 180mg L-Arginine Hydrochloride mikron; (2) 120mg L-Citrulline Malate 2:1; (3) 110mg Tribulus terrestris (60% saponin); (4) 90mg Tongkat Ali Malaysia 100:1; (5) 70mg Maca Hitam & ekstrak biji Halba (Fenugreek 50% fenusides); serta (6) 30mg Bioperine® (95% piperine lada hitam) & Zink Aspartate.',
+      },
+      {
+        code: 'BAB 02 · KINETIK PELEPASAN LANJUTAN (XR)',
+        title: 'Bagaimana L-Arginine HCl (Gelombang 1) & L-Citrulline Malate (Gelombang 2) Bertahan 3–5 Jam',
+        body: 'Apabila anda menelan 1 kapsul hitam Magnum Pump XR bersama 300ml–350ml air kosong, 180mg L-Arginine HCl (dengan bantuan Bioperine®) memulakan Gelombang Pertama penghasilan Nitrik Oksida endotelium (eNOS) dalam masa 30 hingga 45 minit untuk kelancaran saluran darah. Pada masa yang sama, 120mg L-Citrulline Malate melepasi penguraian enzim hati dan ditukarkan secara berterusan kepada L-Arginine baharu di buah pinggang (Gelombang Kedua), sekali gus mengekalkan sokongan aliran darah dan daya tahan otot selama 3 hingga 5 jam.',
+      },
+      {
+        code: 'BAB 03 · JADUAL PRA-GIMNASIUM & AKTIVITI MALAM',
+        title: 'Cara Makan Magnum Pump XR: 30–45 Minit Sebelum Latihan Bebanan Atau Aktiviti Malam',
+        body: 'Pada Hari Latihan Gimnasium / Sukan: Ambil 1 kapsul hitam bersama 350ml air kosong 30 hingga 45 minit sebelum memulakan senaman bagi menyokong pengangkutan oksigen ke otot dan mengurangkan kelesuan asid laktik. Pada Hari Tanpa Senaman / Malam Aktiviti: Ambil 1 kapsul hitam bersama 300ml air suam 30 hingga 45 minit sebelum aktiviti malam (sekurang-kurangnya 45 minit selepas makan malam dan jauh daripada kopi/teh tarik). Kerana ia 100% bebas kafein, tidur malam anda kekal lena.',
+      },
+      {
+        code: 'BAB 04 · PENJELASAN ENTITI & PAKEJ COD MALAYSIA',
+        title: '100% Suplemen Pemakanan 30 Kapsul Hitam (RM 159 · Beli 2 RM 286 · Beli 3 RM 405)',
+        body: 'Untuk ketepatan maklumat pengguna Malaysia: Magnum Pump XR oleh Onyxmen Malaysia ialah 100% Suplemen Pemakanan Kapsul Oral (30 Kapsul Hitam di dalam botol kedap udara) dan BUKAN alat pam vakum mekanikal atau pam industri. Tempah secara rahsia melalui https://www.onyxmen.my atau WhatsApp (+60 14-298 5919): 1 Botol RM 159, 2 Botol RM 286 (Diskaun 10% — Jimat RM 32), atau 3 Botol RM 405 (Diskaun 15% — Jimat RM 72) dengan COD Bayar Bila Sampai.',
+      },
+    ],
+    protocolLedgerRows: [
+      {
+        code: 'MPXR-BM-01 · 30 KAPSUL HITAM',
+        title: 'Semak 30 Kapsul Hitam Legap Di Dalam Botol Berpelekat Kilang',
+        body: 'Botol tulen Magnum Pump XR mengandungi tepat 30 kapsul hitam 600mg dengan label merah-emas "Testosterone Pro Series".',
+        meta: 'SKU: ONYX-MP-30 · 600mg',
+      },
+      {
+        code: 'MPXR-BM-02 · 30–45 MINIT AWAL',
+        title: 'Telan 1 Kapsul Hitam 30–45 Minit Sebelum Senaman Atau Malam',
+        body: 'Masa 30–45 minit menyelaraskan puncak Gelombang Pertama L-Arginine HCl dengan waktu aktiviti fizikal anda.',
+        meta: 'Tindak Balas Vaskular 35 Minit',
+      },
+      {
+        code: 'MPXR-BM-03 · AIR 350ML',
+        title: 'Minum 350ml Air Kosong Semasa Menelan Kapsul',
+        body: 'Pengembangan saluran darah Nitrik Oksida memerlukan isi padu air yang mencukupi untuk kesan aliran maksimum.',
+        meta: 'Wajib Penghidratan Penuh',
+      },
+      {
+        code: 'MPXR-BM-04 · BIOPERINE +30%',
+        title: 'Jarakkan 45 Minit Daripada Makanan Berminyak Berat & Teh Tarik',
+        body: 'Membolehkan 5mg Bioperine® dan 300mg asid amino diserap tanpa halangan di dinding usus kecil.',
+        meta: 'Bioavailabiliti Optimum',
+      },
+      {
+        code: 'MPXR-BM-05 · KAPASITIORAL',
+        title: 'Penjelasan Entiti: Kapsul Suplemen Pemakanan (Bukan Peranti)',
+        body: '100% kapsul botani dan asid amino untuk makan (oral dietary supplement) di dalam botol apotekari.',
+        meta: 'GTIN-13: 9550000102042',
+      },
+      {
+        code: 'MPXR-BM-06 · DISKAUN PAKEJ',
+        title: 'Pakej 2 Botol RM 286 (-10%) & 3 Botol RM 405 (-15%) COD',
+        body: 'Dapatkan bekalan 60 atau 90 kapsul hitam dengan penghantaran kotak coklat kosong percuma ke seluruh Malaysia.',
+        meta: 'COD & WhatsApp +60 14-298 5919',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Mengapakah kapsul Magnum Pump XR berwarna hitam pekat?',
+        a: 'Magnum Pump XR (SKU: ONYX-MP-30) menggunakan sarung kapsul hitam legap pelindung UV (30 Black Capsules × 600mg) bagi melindungi asid amino L-Arginine HCl, L-Citrulline Malate, dan ekstrak herba daripada kelembapan serta cahaya matahari iklim tropika Malaysia.',
+      },
+      {
+        q: 'Berapa cepatkah kapsul Magnum Pump XR mula bertindak selepas diambil?',
+        a: 'Apabila diambil bersama 300ml–350ml air kosong, Gelombang Pertama L-Arginine HCl dan Bioperine® mula menyokong laluan Nitrik Oksida dalam masa 30 hingga 45 minit, manakala Gelombang Kedua L-Citrulline Malate mengekalkan aliran selama 3 hingga 5 jam.',
+      },
+      {
+        q: 'Adakah Magnum Pump XR sejenis kapsul makan atau alat pam fizikal?',
+        a: 'Magnum Pump XR edaran Onyxmen Malaysia (RM 159) ialah 100% suplemen pemakanan kapsul makan (30 Kapsul Hitam setiap botol) yang mengandungi asid amino dan herba. Ia bukan alat pam vakum atau peranti mekanikal.',
+      },
+      {
+        q: 'Bolehkah saya membuat tempahan Magnum Pump XR melalui COD atau WhatsApp?',
+        a: 'Ya. Anda boleh mengisi Borang Tempahan Pantas di halaman ini atau menghubungi meja WhatsApp rasmi kami (+60 14-298 5919) untuk penghantaran bungkusan rahsia COD ke seluruh Malaysia (1 Botol RM 159, 2 Botol RM 286 [Diskaun 10%], 3 Botol RM 405 [Diskaun 15%]).',
+      },
+    ],
   }
 );
 
