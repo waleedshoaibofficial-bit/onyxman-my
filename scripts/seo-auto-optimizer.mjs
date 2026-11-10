@@ -4,8 +4,8 @@
  * ONYXMEN.MY — AUTONOMOUS SEO FRESHNESS, <LASTMOD> VELOCITY & CTR OPTIMIZER (MS-213 / MS-237..MS-245)
  * ============================================================================
  * Runs during every build and daily at 09:00 MYT via GitHub Actions (MS-192):
- *   1. Refreshes <lastmod> across all 5 XML sitemaps (sitemap.xml, sitemap-index.xml,
- *      sitemap-en.xml, sitemap-ms.xml, sitemap-images.xml) to current MYT date.
+ *   1. Preserves real content-modified <lastmod> across all 5 XML sitemaps (Rule #38 &
+ *      Google Search Central sitemaps-lastmod-ping compliant — zero fake timestamp bumps).
  *   2. Dynamically maps all non-canonical alias routes to their declared canonical URLs
  *      and rewrites 100% of internal <a href="..."> and <link rel="alternate" hreflang="...">
  *      links so canonical pages have zero redirect/alias hops (MS-237).
