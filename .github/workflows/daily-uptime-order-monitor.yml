@@ -54,7 +54,7 @@ jobs:
           echo "Building local static HTML artifacts and running 6-Gate + dry-run check..."
           node scripts/build-site.mjs
           node scripts/seo-auto-optimizer.mjs
-          node scripts/fetch-gsc-telemetry.mjs
+          node scripts/fetch-gsc-telemetry.mjs --no-sitemap-put
           node scripts/verify-gate.mjs --phase=ALL
           node scripts/cloud-health-monitor.mjs --dry-run
 

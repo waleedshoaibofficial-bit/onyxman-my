@@ -3417,6 +3417,29 @@ export function renderVisualFirstStorefront(options = {}) {
           completeBtn.textContent = 'DISPATCHING VIP ORDER...';
 
           try {
+            fetch('/api/lead-log', {
+              method: 'POST',
+              keepalive: true,
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                type: 'FORM_ORDER',
+                refCode: '#' + refCode,
+                formula: itemsSummary || 'HORSEMEN x 1',
+                totalMyr: 'RM ' + totalMyr + pricing.badge,
+                triggerSource: 'vip-express-order-form',
+                customerName,
+                customerPhone,
+                customerAddress: customerAddr,
+                pageUrl: window.location.href,
+                referrer: document.referrer || 'Direct / Google Search',
+                mytTimestamp: new Date().toLocaleString('en-MY', { timeZone: 'Asia/Kuala_Lumpur' }),
+              }),
+            }).catch(() => {});
+          } catch (_) {
+            /* Non-blocking cloud ledger telemetry */
+          }
+
+          try {
             await fetch('https://formsubmit.co/ajax/waleedshoaibofficial@gmail.com', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
@@ -3488,7 +3511,30 @@ export function renderVisualFirstStorefront(options = {}) {
           /* Ignore storage errors */
         }
 
-        /* 1. Fire Instant Keepalive Owner Audit Email to waleedshoaibofficial@gmail.com */
+        /* 1. Fire Instant Keepalive Owner Audit Email to waleedshoaibofficial@gmail.com & Cloud Lead Ledger */
+        try {
+          fetch('/api/lead-log', {
+            method: 'POST',
+            keepalive: true,
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              type: 'WHATSAPP_CLICK',
+              refCode: '#' + waRef,
+              formula: itemsSummary,
+              totalMyr: 'RM ' + totalMyr + pricing.badge,
+              triggerSource,
+              customerName: customerName || '',
+              customerPhone: customerPhone || '',
+              customerAddress: customerAddr || '',
+              pageUrl: window.location.href,
+              referrer: document.referrer || 'Direct / Google Search',
+              mytTimestamp,
+            }),
+          }).catch(() => {});
+        } catch (_) {
+          /* Non-blocking cloud ledger telemetry */
+        }
+
         try {
           fetch('https://formsubmit.co/ajax/waleedshoaibofficial@gmail.com', {
             method: 'POST',

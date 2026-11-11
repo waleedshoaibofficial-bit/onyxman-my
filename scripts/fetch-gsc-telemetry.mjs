@@ -54,6 +54,14 @@ const INSPECT_URLS = [
   'https://www.onyxmen.my/ms/produk/grow-xl/',
   'https://www.onyxmen.my/ms/produk/magnum-pump-xr/',
   'https://www.onyxmen.my/guides/20-capsule-vs-30-capsule-cycle-selection/',
+  'https://www.onyxmen.my/guides/hammer-of-thor-original-vs-fake-malaysia/',
+  'https://www.onyxmen.my/guides/growxl-for-men-30-capsule-dosage-guide-malaysia/',
+  'https://www.onyxmen.my/guides/horsemen-capsule-original-500mg-malaysia-guide/',
+  'https://www.onyxmen.my/guides/magnum-pump-xr-30-black-capsules-nitric-oxide-guide/',
+  'https://www.onyxmen.my/ms/panduan/hammer-of-thor-original-vs-tiruan-malaysia/',
+  'https://www.onyxmen.my/ms/panduan/panduan-cara-makan-grow-xl-30-kapsul-malaysia/',
+  'https://www.onyxmen.my/ms/panduan/panduan-horsemen-kapsul-original-500mg-malaysia/',
+  'https://www.onyxmen.my/ms/panduan/panduan-magnum-pump-xr-30-kapsul-hitam-malaysia/',
   'https://www.onyxmen.my/ms/tentang-kami/',
   'https://www.onyxmen.my/compare/',
   'https://www.onyxmen.my/malaysia/kuala-lumpur/',
@@ -102,7 +110,7 @@ async function getGoogleAccessToken(serviceAccount) {
   return data.access_token;
 }
 
-async function ensureSiteVerifiedAndSitemapsSubmitted(accessToken, serviceAccountEmail) {
+async function ensureSiteVerifiedAndSitemapsSubmitted(accessToken, serviceAccountEmail, skipSitemapPut = false) {
   // 1. Self-verify https://www.onyxmen.my/ via Site Verification API (META method)
   try {
     await fetch('https://www.googleapis.com/siteVerification/v1/webResource?verificationMethod=META', {
@@ -129,7 +137,11 @@ async function ensureSiteVerifiedAndSitemapsSubmitted(accessToken, serviceAccoun
     });
   } catch {}
 
-  // 3. Submit all 5 XML sitemaps to Google Search Console API
+  if (skipSitemapPut) {
+    return;
+  }
+
+  // 3. Submit all 5 XML sitemaps to Google Search Console API (only when sitemaps changed or in daily sitemap job)
   const sitemaps = [
     'https://www.onyxmen.my/sitemap.xml',
     'https://www.onyxmen.my/sitemap-index.xml',
@@ -280,9 +292,10 @@ async function main() {
   }
 
   try {
+    const skipSitemapPut = process.argv.includes('--no-sitemap-put');
     const serviceAccount = JSON.parse(rawSecret);
     const accessToken = await getGoogleAccessToken(serviceAccount);
-    await ensureSiteVerifiedAndSitemapsSubmitted(accessToken, serviceAccount.client_email);
+    await ensureSiteVerifiedAndSitemapsSubmitted(accessToken, serviceAccount.client_email, skipSitemapPut);
     const activeSiteUrl = await detectActiveProperty(accessToken);
 
     const endDate = formatDateDaysAgo(0);
