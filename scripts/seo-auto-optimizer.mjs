@@ -160,6 +160,38 @@ function buildOptimalSerpMeta(route, rawTitle, rawDesc) {
       title: 'Panduan Magnum Pump XR 30 Kapsul Hitam Malaysia [RM159 COD]',
       desc: '✓ Panduan rasmi Magnum Pump XR Malaysia (30 Kapsul Hitam × 600mg): cara makan L-Arginine & L-Citrulline Nitrik Oksida untuk aliran darah & stamina. RM 159 COD.',
     },
+    '/guides/grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia/': {
+      title: 'Grow XL vs Horsemen vs Hammer of Thor Malaysia [RM159 COD]',
+      desc: '✓ Compare Grow XL (30 Caps), Horsemen (20 Caps) & Hammer of Thor (20 Veg Caps) Malaysia: capsule counts, Tongkat Ali & Maca dosages. RM 159 discreet COD.',
+    },
+    '/ms/panduan/perbezaan-grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia/': {
+      title: 'Perbezaan Grow XL vs Horsemen vs Hammer of Thor [RM159 COD]',
+      desc: '✓ Perbandingan rasmi Grow XL (30 Kapsul), Horsemen (20 Kapsul) & Hammer of Thor (20 Kapsul Veg) Malaysia: dos Tongkat Ali & Maca. RM 159 COD Rahsia.',
+    },
+    '/guides/hammer-of-thor-horsemen-grow-xl-side-effects-safety-malaysia/': {
+      title: 'Hammer of Thor, Horsemen & Grow XL Side Effects & Safety MY',
+      desc: '✓ Are Hammer of Thor, Horsemen & Grow XL safe? 100% natural Tongkat Ali & Maca botanical safety vs fake street pills, blood pressure & 2.5L water guide.',
+    },
+    '/ms/panduan/kesan-sampingan-hammer-of-thor-horsemen-grow-xl-keselamatan/': {
+      title: 'Kesan Sampingan Hammer of Thor, Horsemen & Grow XL [Selamat]',
+      desc: '✓ Adakah Hammer of Thor, Horsemen & Grow XL selamat? Panduan keselamatan herba semula jadi vs ubat tiruan berbahaya, darah tinggi & tip air 2.5L sehari.',
+    },
+    '/guides/maca-root-in-malay-akar-maca-tongkat-ali-supplement-malaysia/': {
+      title: 'Maca Root in Malay (Akar Maca) & Tongkat Ali Supplement MY',
+      desc: '✓ What is Maca Root in Malay (Akar Maca Hitam Peru / Ubi Maca)? Discover how Peruvian Maca + Malaysian Tongkat Ali 100:1 work in Horsemen & Grow XL RM159.',
+    },
+    '/ms/panduan/akar-maca-dalam-bahasa-melayu-dan-tongkat-ali-malaysia/': {
+      title: 'Akar Maca (Maca Root in Malay) & Tongkat Ali Malaysia [RM159]',
+      desc: '✓ Apa itu Maca Root dalam Bahasa Melayu (Akar Maca Hitam Peru / Ubi Maca)? Ketahui gabungan Akar Maca + Tongkat Ali 100:1 dalam Horsemen & Grow XL RM 159.',
+    },
+    '/guides/how-long-does-hammer-of-thor-horsemen-grow-xl-take-to-work/': {
+      title: 'How Long Do Hammer of Thor, Horsemen & Grow XL Take to Work?',
+      desc: '✓ Honest timeline: how long Hammer of Thor, Horsemen, Grow XL & Magnum Pump XR take to work in Malaysia (Day 1–3 onset vs 14-day & 30-day cycle results).',
+    },
+    '/ms/panduan/berapa-lama-kesan-hammer-of-thor-horsemen-grow-xl-malaysia/': {
+      title: 'Berapa Lama Kesan Hammer of Thor, Horsemen & Grow XL? [RM159]',
+      desc: '✓ Jadual sebenar berapa lama kesan Hammer of Thor, Horsemen, Grow XL & Magnum Pump XR berfungsi (Kesan Hari 1–3 vs kitaran penuh 14 hingga 30 hari).',
+    },
   };
   if (explicit[route]) return explicit[route];
 

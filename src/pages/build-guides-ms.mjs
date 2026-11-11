@@ -1817,6 +1817,538 @@ BM_GUIDE_DOSSIERS.push(
         a: 'Ya. Anda boleh mengisi Borang Tempahan Pantas di halaman ini atau menghubungi meja WhatsApp rasmi kami (+60 14-298 5919) untuk penghantaran bungkusan rahsia COD ke seluruh Malaysia (1 Botol RM 159, 2 Botol RM 286 [Diskaun 10%], 3 Botol RM 405 [Diskaun 15%]).',
       },
     ],
+  },
+  {
+    microStep: 'ONYX-STD',
+    guideNumber: 11,
+    guideCode: 'PANDUAN-BM-11',
+    id: 'grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia',
+    slug: 'perbezaan-grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia',
+    canonicalMsPath: '/ms/panduan/perbezaan-grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia/',
+    canonicalEnPath: '/guides/grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia/',
+    msOutputPaths: [
+      'ms/guides/grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia/index.html',
+      'ms/panduan/perbezaan-grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia/index.html',
+    ],
+    defaultProduct: 'grow-xl',
+    heroVisualWebp: '/assets/products/onyxman-lineup-hero.webp',
+    heroVisualPng: '/assets/products/onyxman-lineup-hero.png',
+    watermarkText: 'BANDING 3',
+    readingTimeMinutes: 12,
+    publishedDate: '2026-11-11',
+    updatedDate: '2026-11-11',
+    seoTitle:
+      'Beza Grow XL vs Horsemen vs Hammer of Thor Malaysia [RM159]',
+    metaDescription:
+      '✓ Bandingkan beza Grow XL (30 Kapsul), Horsemen (20 Kapsul) & Hammer of Thor (20 Kapsul Veg) di Malaysia: fungsi, sukatan & cara pilih. Beli RM 159 COD.',
+    kicker: 'ONYX-STD · PANDUAN PROTOKOL 11 · PERBANDINGAN GROW XL VS HORSEMEN VS HAMMER OF THOR MALAYSIA',
+    headlineHtml:
+      'Perbezaan Grow XL vs Horsemen vs Hammer of Thor Di Malaysia: <span class="foil-champagne-text">Kapsul Mana Patut Anda Pilih?</span>',
+    leadSummary:
+      'Ramai pembeli di Malaysia yang mencari "Grow XL vs Horsemen", "Beza Hammer of Thor dan Horsemen", atau "GrowXL for Men vs Hammer of Thor" tertanya-tanya mengapa ketiga-tiga botol utama ini mempunyai harga rasmi yang sama iaitu RM 159 (Beli 2 RM 286 [Diskaun 10%], Beli 3 RM 405 [Diskaun 15%]) tetapi berbeza dari segi bilangan kapsul dan ramuan utama. Panduan ini menghuraikan perbezaan tepat supaya anda dapat memilih botol yang paling serasi.',
+    telemetry: [
+      {
+        label: '01 · GROW XL (SKU: ONYX-GX-30)',
+        val: '30 Kapsul × 550mg (Rutin Pagi)',
+        sub: '140mg Tongkat Ali + 100mg Muira Puama + 80mg Saw Palmetto',
+      },
+      {
+        label: '02 · HORSEMEN (SKU: ONYX-HM-20)',
+        val: '20 Kapsul × 500mg (Rizab Malam)',
+        sub: '150mg Tongkat Ali 100:1 + 100mg Maca Hitam + 80mg Icariin',
+      },
+      {
+        label: '03 · HAMMER OF THOR (ONYX-HT-20)',
+        val: '20 Kapsul Veg. × 500mg (HPMC)',
+        sub: '200mg Tribulus (60% Saponin) + 100mg Maca + 75mg Ginseng',
+      },
+      {
+        label: '04 · KOMBO PAGI + MALAM',
+        val: 'RM 286 (Jimat RM 32 · -10%)',
+        sub: 'Gabungkan 1 botol pagi (Grow XL) + 1 botol malam (Horsemen)',
+      },
+    ],
+    pinnedSummaryTitle:
+      'Ringkasan Pantas: Cara Memilih Antara Grow XL (30 Kapsul), Horsemen (20 Kapsul) & Hammer of Thor (20 Kapsul Veg.)',
+    pinnedSummaryCopy:
+      'Pilih Grow XL jika anda mahukan rutin mudah 1 kapsul setiap pagi selepas sarapan selama 30 hari penuh. Pilih Horsemen jika keutamaan anda ialah kesediaan tenaga malam yang pantas (150mg Tongkat Ali 100:1). Pilih Hammer of Thor jika anda mengutamakan sarung kapsul vegetarian HPMC dan 200mg Saponin Tribulus untuk ketahanan otot.',
+    chapters: [
+      {
+        code: 'BAB 01 · PERBEZAAN 30 KAPSUL PAGI VS 20 KAPSUL MALAM',
+        title: 'Mengapa Grow XL Mengandungi 30 Kapsul Manakala Horsemen & Hammer of Thor Mengandungi 20 Kapsul',
+        body: 'Perbezaan pertama terletak pada jadual biologi harian. Grow XL (SKU: ONYX-GX-30, RM 159) membekalkan 30 kapsul berkepekatan 550mg (16,500mg jumlah jisim aktif sebotol) kerana ramuan fitosterol Saw Palmetto (80mg) dan kulit kayu Muira Puama (100mg) direka untuk diserap secara berterusan setiap pagi selepas sarapan selama 30 hari. Sebaliknya, Horsemen (20 Kapsul × 500mg) dan Hammer of Thor (20 Kapsul Veg. × 500mg) memadatkan ekstrak bernisbah tinggi untuk sokongan waktu malam selepas makan malam.',
+      },
+      {
+        code: 'BAB 02 · PERBANDINGAN RAMUAN UTAMA SETIAP BOTOL',
+        title: 'Tongkat Ali 100:1 (Horsemen) vs Saponin Tribulus 60% (Hammer of Thor) vs Muira Puama & Saw Palmetto (Grow XL)',
+        body: 'Horsemen Man Virility Enhancement mendahului dari segi kepekatan Tongkat Ali Malaysia 100:1 (150mg setiap kapsul) yang digabungkan bersama 100mg Maca Hitam Peru, 80mg Epimedium (10% Icariin), 80mg L-Arginine HCl, dan 60mg Ginseng Merah Korea untuk tindak balas 45–60 minit. Hammer of Thor Men’s Health pula mendahului dengan 200mg Tribulus Terrestris (60% Saponin Protodioscin), 100mg Maca, 75mg Ginseng, 65mg Saw Palmetto, dan 15mg Zink Bisglycinate di dalam kapsul tumbuhan HPMC 100% vegetarian. Grow XL pula menggabungkan 140mg Tongkat Ali 100:1, 120mg L-Arginine/L-Citrulline, 100mg Muira Puama, 80mg Saw Palmetto, dan 70mg Ginkgo Biloba.',
+      },
+      {
+        code: 'BAB 03 · PANDUAN PEMILIHAN MENGIKUT PROFIL PENGGUNA MALAYSIA',
+        title: 'Botol Mana Paling Sesuai Untuk Eksekutif Pejabat, Lelaki Berusia 35+ Tahun Atau Penggemar Sukan?',
+        body: 'Profil 1 — Eksekutif, Usahawan & Lelaki Berusia 30–60 Tahun: Pilih Grow XL (30 Kapsul, RM 159) untuk rutin harian selepas sarapan yang menyokong tenaga kerja, aliran mikro Ginkgo Biloba, dan kesihatan pelvik/prostat Saw Palmetto. Profil 2 — Fokus Kesediaan Malam & Dos Tongkat Ali Tertinggi: Pilih Horsemen (20 Kapsul, RM 159). Profil 3 — Fokus Kapsul Vegetarian HPMC & Ketahanan Fizikal: Pilih Hammer of Thor (20 Kapsul Veg., RM 159). Jika anda aktif di gimnasium dan mahukan lonjakan Nitrik Oksida 300mg L-Arginine + L-Citrulline, pilih Magnum Pump XR (30 Kapsul Hitam, RM 159).',
+      },
+      {
+        code: 'BAB 04 · STRATEGI KOMBO 2 BOTOL (RM 286 · DISKAUN 10%) & 3 BOTOL (RM 405 · DISKAUN 15%)',
+        title: 'Cara Menggabungkan Botol Pagi (Grow XL) Bersama Botol Malam (Horsemen Atau Hammer of Thor)',
+        body: 'Memandangkan Grow XL diambil selepas sarapan pagi manakala Horsemen dan Hammer of Thor diambil selepas makan malam, ramai pelanggan tetap di Malaysia memilih Pakej 2 Botol pada harga RM 286 (Jimat RM 32 / Diskaun 10%) atau Pakej 3 Botol pada harga RM 405 (Jimat RM 72 / Diskaun 15%) untuk menggabungkan kedua-duanya. Tempah secara rahsia melalui Borang Tempahan Pantas atau WhatsApp (+60 14-298 5919) dengan COD Bayar Bila Sampai.',
+      },
+    ],
+    protocolLedgerRows: [
+      {
+        code: 'PILIH-BM-01 · GROW XL',
+        title: 'Pilih Grow XL (30 Kapsul × 550mg) Untuk Rutin Pagi 30 Hari Sebulan',
+        body: 'Ambil 1 kapsul 20–30 minit selepas sarapan untuk gabungan Tongkat Ali (140mg), Muira Puama (100mg), Saw Palmetto (80mg) & Ginkgo (70mg).',
+        meta: '30 Kapsul · Rutin Pagi',
+      },
+      {
+        code: 'PILIH-BM-02 · HORSEMEN',
+        title: 'Pilih Horsemen (20 Kapsul × 500mg) Untuk Kesediaan Malam 45–60 Minit',
+        body: 'Ambil 1 kapsul 45–60 minit selepas makan malam untuk 150mg Tongkat Ali 100:1, 100mg Maca Hitam & 80mg Epimedium Icariin.',
+        meta: '20 Kapsul · Rizab Malam',
+      },
+      {
+        code: 'PILIH-BM-03 · HAMMER OF THOR',
+        title: 'Pilih Hammer of Thor (20 Kapsul Veg.) Untuk Saponin Vegetarian',
+        body: 'Ambil 1 kapsul vegetarian HPMC 30 minit selepas makan malam untuk 200mg Saponin Tribulus 60% dan Zink Bisglycinate.',
+        meta: '20 Kapsul Veg. HPMC',
+      },
+      {
+        code: 'PILIH-BM-04 · MAGNUM PUMP XR',
+        title: 'Pilih Magnum Pump XR (30 Kapsul Hitam × 600mg) Untuk Nitrik Oksida',
+        body: 'Ambil 1 kapsul hitam 30–45 minit sebelum senaman gimnasium atau aktiviti malam untuk 300mg L-Arginine + L-Citrulline.',
+        meta: '30 Kapsul Hitam · 600mg',
+      },
+      {
+        code: 'PILIH-BM-05 · KOMBO PAGI/MALAM',
+        title: 'Jarakkan 12 Jam Jika Mengambil Grow XL (Pagi) & Horsemen (Malam)',
+        body: 'Pengambilan 1 kapsul Grow XL selepas sarapan dan 1 kapsul Horsemen selepas makan malam memberikan sokongan 24 jam tanpa pertindihan.',
+        meta: 'Sinergi Pagi & Malam',
+      },
+      {
+        code: 'PILIH-BM-06 · PAKEJ DISKAUN',
+        title: 'Nikmati Diskaun 10% (2 Botol RM 286) Atau 15% (3 Botol RM 405) COD',
+        body: 'Penghantaran kotak coklat kosong tanpa nama produk ke seluruh 16 negeri Malaysia termasuk Sabah & Sarawak.',
+        meta: 'COD & WhatsApp +60 14-298 5919',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Antara Grow XL, Horsemen, dan Hammer of Thor, yang manakah paling sesuai untuk waktu malam?',
+        a: 'Untuk kesediaan waktu malam (diambil 45–60 minit selepas makan malam), Horsemen (20 Kapsul × 500mg) membekalkan dos tertinggi Tongkat Ali Malaysia 100:1 (150mg) bersama Maca Hitam dan Epimedium Icariin. Untuk rutin harian waktu pagi selama 30 hari penuh, Grow XL (30 Kapsul × 550mg) adalah pilihan #1.',
+      },
+      {
+        q: 'Produk manakah yang menggunakan sarung kapsul 100% vegetarian?',
+        a: 'Hammer of Thor Men’s Health (20 Kapsul Veg., SKU: ONYX-HT-20) dan Magnum Pump XR (30 Kapsul Hitam, SKU: ONYX-MP-30) menggunakan sarung kapsul selulosa tumbuhan HPMC 100% vegetarian tanpa gelatin haiwan.',
+      },
+      {
+        q: 'Bolehkah saya mengambil Grow XL pada waktu pagi dan Horsemen pada waktu malam?',
+        a: 'Boleh. Mengambil 1 kapsul Grow XL selepas sarapan pagi dan 1 kapsul Horsemen (atau Hammer of Thor) selepas makan malam memberikan jarak masa 12 jam yang selamat dan saling melengkapi.',
+      },
+      {
+        q: 'Adakah kesemua botol ini mempunyai harga rasmi RM 159 yang sama di Malaysia?',
+        a: 'Ya. Setiap botol tulen di Onyxmen Malaysia berharga RM 159 (1 Botol), RM 286 (2 Botol — Diskaun 10%, jimat RM 32), dan RM 405 (3 Botol — Diskaun 15%, jimat RM 72) termasuk penghantaran bungkusan rahsia COD.',
+      },
+    ],
+  },
+  {
+    microStep: 'ONYX-STD',
+    guideNumber: 12,
+    guideCode: 'PANDUAN-BM-12',
+    id: 'hammer-of-thor-horsemen-grow-xl-side-effects-safety-malaysia',
+    slug: 'kesan-sampingan-hammer-of-thor-horsemen-grow-xl-keselamatan',
+    canonicalMsPath: '/ms/panduan/kesan-sampingan-hammer-of-thor-horsemen-grow-xl-keselamatan/',
+    canonicalEnPath: '/guides/hammer-of-thor-horsemen-grow-xl-side-effects-safety-malaysia/',
+    msOutputPaths: [
+      'ms/guides/hammer-of-thor-horsemen-grow-xl-side-effects-safety-malaysia/index.html',
+      'ms/panduan/kesan-sampingan-hammer-of-thor-horsemen-grow-xl-keselamatan/index.html',
+    ],
+    defaultProduct: 'hammer-of-thor',
+    heroVisualWebp: '/assets/products/hammer-of-thor-stage.webp',
+    heroVisualPng: '/assets/products/hammer-of-thor-stage.png',
+    watermarkText: 'SELAMAT 12',
+    readingTimeMinutes: 11,
+    publishedDate: '2026-11-11',
+    updatedDate: '2026-11-11',
+    seoTitle:
+      'Kesan Sampingan Hammer of Thor, Horsemen & Grow XL Malaysia',
+    metaDescription:
+      '✓ Panduan keselamatan & kesan sampingan Hammer of Thor, Horsemen, Grow XL & Magnum Pump XR Original Malaysia: 100% herba tanpa bahan kimia & sakit kepala.',
+    kicker: 'ONYX-STD · PANDUAN PROTOKOL 12 · AUDIT KESELAMATAN MAKMAL & PENJELASAN KESAN SAMPINGAN DI MALAYSIA',
+    headlineHtml:
+      'Kesan Sampingan Hammer of Thor, Horsemen &amp; Grow XL Di Malaysia: <span class="foil-champagne-text">100% Botani vs Pil Tiruan Jalanan.</span>',
+    leadSummary:
+      'Ramai pengguna di Malaysia membuat carian mengenai "kesan sampingan Hammer of Thor", "adakah Horsemen selamat?", atau "kesan sampingan Grow XL" kerana bimbang dengan laporan produk tiruan jalanan yang menyebabkan sakit kepala berdenyut dan jantung berdebar. Panduan keselamatan ini menerangkan mengapa pil tiruan RM 30 berbahaya serta bagaimana keempat-empat formulasi RM 159 Onyxmen Malaysia diuji bebas 100% daripada bahan kimia sintetik terlarang.',
+    telemetry: [
+      {
+        label: '01 · SARINGAN LC-MS/MS',
+        val: '0.00% Bahan Sintetik PDE5',
+        sub: 'Bebas sildenafil, tadalafil & 84 analog kimia terlarang',
+      },
+      {
+        label: '02 · UJIAN LOGAM BERAT ICP-MS',
+        val: 'Plumbum <0.18ppm · Merkuri <0.01ppm',
+        sub: 'Mematuhi had keselamatan mikrobiologi & logam berat',
+      },
+      {
+        label: '03 · KESELESAAN SARAF & TIDUR',
+        val: '0 mg Kafein · Sifar Sakit Kepala',
+        sub: 'Tiada debaran jantung, muka merah, atau gangguan tidur',
+      },
+      {
+        label: '04 · KESELESAAN PERUT',
+        val: 'Ambil 30–45 Minit Selepas Makan',
+        sub: 'Elakkan makan ketika perut kosong untuk penyerapan lancar',
+      },
+    ],
+    pinnedSummaryTitle:
+      'Mengapa Kapsul Botani Tulen Onyxmen Tidak Menyebabkan Sakit Kepala Atau Debaran Jantung Seperti Pil Tiruan',
+    pinnedSummaryCopy:
+      'Sakit kepala berdenyut, hidung tersumbat, dan debaran jantung yang sering dilaporkan oleh pembeli kapsul murah RM 30 berpunca daripada bahan kimia sintetik sildenafil/tadalafil yang dicampur secara haram. Formulasi tulen Onyxmen Malaysia hanya menggunakan ekstrak akar herba dan asid amino semula jadi.',
+    chapters: [
+      {
+        code: 'BAB 01 · PUNCA SEBENAR SAKIT KEPALA PADA PIL TIRUAN RM 30',
+        title: 'Bagaimana Bahan Kimia Sintetik Terlarang Dalam Produk Tiruan Menjejaskan Saluran Darah Otak',
+        body: 'Apabila seseorang mengalami sakit kepala berdenyut yang teruk, muka menjadi panas kemerahan, hidung tersumbat, atau pandangan silau kebiruan selepas menelan kapsul murah RM 30 atau gula-gula tenaga tidak beridentiti, kesan tersebut bukan berpunca daripada Tongkat Ali atau Maca. Ia adalah tindak balas langsung bahan kimia sintetik PDE5 (seperti sildenafil atau tadalafil tanpa sukatan) yang mengembangkan arteri meningeal di dalam kepala secara mengejut. Kesemua botol tulen Onyxmen Malaysia (Horsemen, Hammer of Thor, Grow XL, dan Magnum Pump XR) adalah 100% bebas daripada sebarang bahan kimia sintetik tersebut.',
+      },
+      {
+        code: 'BAB 02 · TIGA PERINGKAT SARINGAN KESELAMATAN MAKMAL ONYXMEN',
+        title: 'Saringan LC-MS/MS Sifar Racun Berjadual, Ujian Logam Berat ICP-MS & Mikrobiologi USP',
+        body: 'Setiap kelompok pengeluaran Horsemen (SKU: ONYX-HM-20), Hammer of Thor (SKU: ONYX-HT-20), Grow XL (SKU: ONYX-GX-30), dan Magnum Pump XR (SKU: ONYX-MP-30) melalui tiga ujian kualiti utama sebelum disimpan di bilik kebal Kuala Lumpur: (1) Saringan spektrometri jisim LC-MS/MS yang mengesahkan 0.00% kehadiran sildenafil, tadalafil, vardenafil, dan sibutramine; (2) Ujian ICP-MS bagi memastikan paras Plumbum (<0.18 ppm), Arsenik (<0.11 ppm), Kadmium (<0.04 ppm), dan Merkuri (<0.01 ppm) berada jauh di bawah had keselamatan; serta (3) Saringan mikrobiologi bebas bakteria E. coli dan Salmonella.',
+      },
+      {
+        code: 'BAB 03 · TIP ELAK RASA HANGAT PERUT: AMBIL SELEPAS MAKAN & MINUM 300ML AIR',
+        title: 'Mengapa Ekstrak Pekat Tongkat Ali 100:1 & Tribulus Patut Diambil Selepas Hidangan',
+        body: 'Oleh sebab kapsul tulen Onyxmen mengandungi ekstrak akar pahit berkepekatan tinggi (seperti 150mg Tongkat Ali 100:1, 200mg Saponin Tribulus 60%, dan 15mg Zink), menelan kapsul ketika perut kosong sepenuhnya dengan air yang sedikit boleh menyebabkan rasa hangat ringan pada ulu hati bagi individu yang mempunyai perut sensitif. Untuk keselesaan 100%, sentiasa ambil Grow XL 20–30 minit selepas sarapan pagi, dan ambil Horsemen atau Hammer of Thor 30–60 minit selepas makan malam bersama segelas penuh (300ml) air kosong suam.',
+      },
+      {
+        code: 'BAB 04 · PANDUAN PENGGUNAAN DEWASA BERTANGGUNGJAWAB & TEMPAHAN TULEN',
+        title: 'Siapa Yang Perlu Merujuk Doktor & Cara Mengelakkan Penipuan Produk Tiruan',
+        body: 'Rangkaian suplemen Onyxmen Malaysia dirumus khusus untuk lelaki dewasa berumur 21 tahun ke atas. Sekiranya anda sedang mengambil ubat preskripsi doktor seperti nitrat organik, ubat cair darah, atau ubat tekanan darah tinggi—atau mempunyai masalah kesihatan jantung, buah pinggang, atau hati yang kronik—sila dapatkan nasihat pegawai perubatan bertauliah sebelum memulakan sebarang suplemen. Pastikan anda hanya menempah stok tulen melalui https://www.onyxmen.my atau WhatsApp rasmi (+60 14-298 5919) pada harga RM 159 (1 Botol), RM 286 (2 Botol, Diskaun 10%), atau RM 405 (3 Botol, Diskaun 15%).',
+      },
+    ],
+    protocolLedgerRows: [
+      {
+        code: 'SELAMAT-01 · ELAK TIRUAN',
+        title: 'Jangan Ambil Kapsul Murah RM 30 Atau Gula-Gula Tenaga Jalanan',
+        body: 'Elakkan risiko bahan kimia sintetik tidak diisytihar yang membebankan jantung dan buah pinggang anda.',
+        meta: 'Hanya Stok Rasmi RM 159',
+      },
+      {
+        code: 'SELAMAT-02 · SELEPAS MAKAN',
+        title: 'Telan Kapsul 20–60 Minit Selepas Makan (Jangan Perut Kosong)',
+        body: 'Makanan membantu melapik dinding perut daripada rasa pahit kuasinoid Tongkat Ali dan mineral Zink.',
+        meta: 'Keselesaan Perut 100%',
+      },
+      {
+        code: 'SELAMAT-03 · AIR 300ML',
+        title: 'Minum 300ml Air Suam Semasa Menelan Kapsul & 2.5L Sehari',
+        body: 'Penghidratan yang mencukupi memastikan kelancaran aliran vaskular Nitrik Oksida dalam cuaca panas Malaysia.',
+        meta: 'Wajib 300ml Air Kosong',
+      },
+      {
+        code: 'SELAMAT-04 · IKUT SUKATAN',
+        title: 'Patuhi Sukatan 1 Kapsul Sehari Bagi Setiap Formulasi',
+        body: 'Ekstrak herba piawai bertindak melalui ketepuan reseptor harian yang konsisten tanpa perlu mengambil dos berlebihan.',
+        meta: '1 Kapsul (500mg–600mg)',
+      },
+      {
+        code: 'SELAMAT-05 · BEBAS KAFEIN',
+        title: '0mg Kafein Sintetik Untuk Kualiti Tidur Malam Yang Lena',
+        body: 'Semua empat formulasi bebas daripada perangsang tiruan supaya irama jantung dan tidur malam anda kekal tenang.',
+        meta: 'Mesra Tidur Malam',
+      },
+      {
+        code: 'SELAMAT-06 · RUJUK DOKTOR',
+        title: 'Rujuk Doktor Jika Anda Mengambil Ubat Preskripsi Jantung/Darah Tinggi',
+        body: 'Tunjukkan senarai penuh miligram ramuan kami kepada doktor anda jika anda sedang menjalani rawatan perubatan.',
+        meta: 'Lelaki Dewasa 21+ Tahun',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Adakah Hammer of Thor, Horsemen, atau Grow XL Original menyebabkan sakit kepala atau jantung berdebar?',
+        a: 'Tidak. Produk tulen edaran Onyxmen Malaysia adalah 100% bebas daripada bahan kimia sintetik PDE5 dan bebas kafein. Kesan sakit kepala berdenyut dan debaran jantung hanya berlaku pada produk tiruan murah yang dicampur bahan kimia terlarang.',
+      },
+      {
+        q: 'Adakah selamat untuk mengamalkan kapsul Onyxmen setiap hari selama 30 hingga 90 hari?',
+        a: 'Ya, bagi lelaki dewasa yang sihat. Ekstrak herba adaptogenik piawai (Tongkat Ali 100:1, Maca Peru, Tribulus, Saw Palmetto) dan asid amino (L-Arginine, L-Citrulline) direka untuk penyesuaian nutrisi harian selama 20 hingga 90 hari mengikut sukatan 1 kapsul sehari selepas makan.',
+      },
+      {
+        q: 'Mengapa perut terasa sedikit hangat jika saya menelan kapsul ketika perut kosong?',
+        a: 'Kepekatan tinggi kuasinoid Tongkat Ali 100:1, saponin Tribulus 60%, dan 15mg Zink boleh merangsang asid perut jika diambil semasa perut kosong. Mengambil kapsul 30–45 minit selepas makan bersama 300ml air suam menghilangkan rasa tersebut sepenuhnya.',
+      },
+      {
+        q: 'Bolehkah pesakit darah tinggi atau jantung yang mengambil ubat doktor menggunakan suplemen ini?',
+        a: 'Sekiranya anda mempunyai penyakit kronik atau sedang mengambil ubat preskripsi doktor (seperti ubat cair darah, nitrat, atau ubat darah tinggi), sila dapatkan nasihat doktor anda terlebih dahulu sebelum mengambil sebarang suplemen.',
+      },
+    ],
+  },
+  {
+    microStep: 'ONYX-STD',
+    guideNumber: 13,
+    guideCode: 'PANDUAN-BM-13',
+    id: 'maca-root-in-malay-akar-maca-tongkat-ali-supplement-malaysia',
+    slug: 'akar-maca-dalam-bahasa-melayu-dan-tongkat-ali-malaysia',
+    canonicalMsPath: '/ms/panduan/akar-maca-dalam-bahasa-melayu-dan-tongkat-ali-malaysia/',
+    canonicalEnPath: '/guides/maca-root-in-malay-akar-maca-tongkat-ali-supplement-malaysia/',
+    msOutputPaths: [
+      'ms/guides/maca-root-in-malay-akar-maca-tongkat-ali-supplement-malaysia/index.html',
+      'ms/panduan/akar-maca-dalam-bahasa-melayu-dan-tongkat-ali-malaysia/index.html',
+    ],
+    defaultProduct: 'horsemen',
+    heroVisualWebp: '/assets/products/horsemen-stage.webp',
+    heroVisualPng: '/assets/products/horsemen-stage.png',
+    watermarkText: 'AKAR MACA 13',
+    readingTimeMinutes: 11,
+    publishedDate: '2026-11-11',
+    updatedDate: '2026-11-11',
+    seoTitle:
+      'Akar Maca Dalam Bahasa Melayu (Maca Root) & Tongkat Ali MY',
+    metaDescription:
+      '✓ Apakah maksud Maca Root dalam Bahasa Melayu (Akar Maca Hitam Peru) & kelebihan gabungan bersama Tongkat Ali 100:1 dalam Horsemen & Grow XL. RM 159 COD.',
+    kicker: 'ONYX-STD · PANDUAN PROTOKOL 13 · AKAR MACA HITAM PERU (MACA ROOT) & SINERGI TONGKAT ALI 100:1',
+    headlineHtml:
+      'Akar Maca Dalam Bahasa Melayu (Maca Root Peru) &amp; <span class="foil-champagne-text">Sinergi Suplemen Tongkat Ali 100:1 Malaysia.</span>',
+    leadSummary:
+      'Menjawab carian tinggi pengguna di Malaysia mengenai "Maca Root in Malay", "Akar Maca Hitam", dan "Tongkat Ali Malaysia": dalam Bahasa Melayu, Maca Root (Lepidium meyenii) dikenali sebagai "Akar Maca", "Ubi Maca Hitam Peru", atau "Ginseng Peru". Ketahui mengapa gabungan Akar Maca Hitam Tergelatinisasi dari pergunungan Andes bersama Tongkat Ali Malaysia 100:1 menghasilkan sinergi tenaga dalaman yang jauh lebih unggul.',
+    telemetry: [
+      {
+        label: '01 · NAMA BAHASA MELAYU',
+        val: 'Akar Maca / Ubi Maca Hitam',
+        sub: 'Turut dikenali sebagai Ginseng Peru (Lepidium meyenii)',
+      },
+      {
+        label: '02 · SEBATIAN AKTIF UTAMA',
+        val: '≥0.6% Macamides & Macaenes',
+        sub: 'Ekotip Maca Hitam tanah tinggi Junín, Peru (4,200 meter)',
+      },
+      {
+        label: '03 · GANDINGAN HERBA TEMPATAN',
+        val: 'Tongkat Ali Malaysia 100:1',
+        sub: 'Eurycoma longifolia dipiawaikan kepada ≥2.2% Eurycomanone',
+      },
+      {
+        label: '04 · KANDUNGAN DALAM ONYXMEN',
+        val: '100–110mg Maca + 90–150mg TA',
+        sub: 'Terdapat dalam Horsemen, Grow XL, Hammer of Thor & Magnum Pump XR',
+      },
+    ],
+    pinnedSummaryTitle:
+      'Mengapa Gabungan Akar Maca Hitam Peru & Tongkat Ali Malaysia 100:1 Menjadi Teras Empat Formulasi Onyxmen',
+    pinnedSummaryCopy:
+      'Jika Tongkat Ali Malaysia 100:1 bertindak mengawal hormon tekanan kortisol dan membebaskan kecergasan biokimia lelaki, Akar Maca Hitam Peru tergelatinisasi pula membekalkan tenaga mitokondria ATP dan daya tahan fizikal tanpa kafein.',
+    chapters: [
+      {
+        code: 'BAB 01 · APAKAH ITU "MACA ROOT" DALAM BAHASA MELAYU?',
+        title: 'Mengenali Akar Maca Hitam Peru (Lepidium Meyenii) & Kelebihan Ekotip Hitam Berbanding Maca Kuning',
+        body: 'Ramai pembaca jurnal kesihatan antarabangsa di Malaysia membuat carian "Maca Root in Malay" untuk memahami istilah tempatannya. Dalam Bahasa Melayu, Maca Root merujuk kepada "Akar Maca", "Ubi Maca Hitam Peru", atau "Ginseng Peru" (nama saintifik: Lepidium meyenii Walp.), iaitu tumbuhan akar tanah tinggi yang hidup pada altitud 4,200 meter di Banjaran Andes, Peru. Walaupun terdapat spesies kuning dan merah, kajian fitofarmakologi membuktikan bahawa ekotip Akar Maca Hitam mengandungi kepekatan tertinggi sebatian lipid macamides dan macaenes untuk stamina lelaki dewasa.',
+      },
+      {
+        code: 'BAB 02 · BEZA AKAR MACA TERGELATINISASI VS SERBUK MENTAH',
+        title: 'Mengapa Proses Gelatinisasi Penting Untuk Penyerapan Pantas Tanpa Kembung Perut',
+        body: 'Kebanyakan produk murah di pasaran hanya menggunakan serbuk akar Maca mentah yang mengandungi hampir 70% kanji amilosa yang sukar dihadam oleh perut manusia—menyebabkan masalah angin, kembung perut, dan penyerapan yang lemah. Onyxmen Malaysia hanya menggunakan Akar Maca Hitam Tergelatinisasi (Gelatinized Black Maca) di mana rantaian kanji telah dipecahkan secara enzimatik pada suhu rendah, menghasilkan ekstrak tulen berkepekatan ≥0.6% macamides yang larut dan diserap di usus kecil dalam masa beberapa minit.',
+      },
+      {
+        code: 'BAB 03 · SINERGI DUA BENUA: AKAR MACA PERU + TONGKAT ALI MALAYSIA 100:1',
+        title: 'Bagaimana Eurycomanone & Macamides Bekerjasama Tanpa Mengganggu Tidur Malam',
+        body: 'Mengambil Tongkat Ali sahaja atau Akar Maca sahaja hanya menyelesaikan separuh daripada keperluan fisiologi lelaki. Ekstrak Akar Tongkat Ali Malaysia 100:1 (≥2.2% Eurycomanone) berfungsi menurunkan beban hormon kortisol akibat tekanan kerja dan kesesakan jalan raya di Malaysia serta menyokong keseimbangan SHBG. Pada masa yang sama, macamides daripada Akar Maca Hitam menyokong penghasilan tenaga selular ATP dan daya tahan saraf tanpa meningkatkan tekanan darah atau mengganggu tidur malam.',
+      },
+      {
+        code: 'BAB 04 · PILIHAN BOTOL AKAR MACA + TONGKAT ALI DI ONYXMEN (RM 159)',
+        title: 'Perbandingan Sukatan Di Dalam Horsemen, Grow XL, Hammer of Thor & Magnum Pump XR',
+        body: 'Keempat-empat botol rasmi Onyxmen Malaysia menggabungkan Akar Maca dan Tongkat Ali 100:1: (1) Horsemen (20 Kapsul × 500mg) membekalkan 150mg Tongkat Ali 100:1 + 100mg Maca Hitam + 80mg Epimedium Icariin untuk waktu malam; (2) Grow XL (30 Kapsul × 550mg) membekalkan 140mg Tongkat Ali 100:1 + 110mg Dwi-Maca + Muira Puama + Saw Palmetto untuk rutin pagi 30 hari; (3) Hammer of Thor (20 Kapsul Veg.) membekalkan 200mg Tribulus + 100mg Maca + 45mg Tongkat Ali; dan (4) Magnum Pump XR membekalkan 300mg L-Arginine/L-Citrulline + 90mg Tongkat Ali + 70mg Maca/Halba. Tempah pada harga RM 159 (1B), RM 286 (2B, -10%), atau RM 405 (3B, -15%) secara COD.',
+      },
+    ],
+    protocolLedgerRows: [
+      {
+        code: 'MACA-BM-01 · EKOTIP HITAM',
+        title: 'Utamakan Akar Maca Hitam Tergelatinisasi (Bukan Serbuk Mentah)',
+        body: 'Bebas kanji sukar hadam dan membekalkan ≥0.6% macamides & macaenes untuk penyerapan usus yang lancar.',
+        meta: 'Lepidium meyenii Peru',
+      },
+      {
+        code: 'MACA-BM-02 · TONGKAT ALI 100:1',
+        title: 'Digandingkan Bersama Ekstrak Tongkat Ali Malaysia 100:1',
+        body: 'Gabungan 90mg–150mg Eurycoma longifolia piawai (≥2.2% Eurycomanone) daripada akar matang Pahang & Perak.',
+        meta: 'Sinergi Dua Benua',
+      },
+      {
+        code: 'MACA-BM-03 · WAKTU MAKAN',
+        title: 'Ambil 20–60 Minit Selepas Makan Bersama 300ml Air Suam',
+        body: 'Kehadiran sedikit lemak sihat dalam makanan membantu pengangkutan sebatian macamides yang bersifat lipofilik.',
+        meta: 'Penyerapan Optimum',
+      },
+      {
+        code: 'MACA-BM-04 · JARAK TEH/KOPI',
+        title: 'Jarakkan 45 Minit Daripada Teh Tarik Atau Kopi O',
+        body: 'Elakkan polifenol tanin daripada mengikat kuasinoid Tongkat Ali di dalam saluran penghadaman.',
+        meta: 'Penampan 45 Minit',
+      },
+      {
+        code: 'MACA-BM-05 · PILIHAN BOTOL',
+        title: 'Horsemen (Malam 20B) Atau Grow XL (Pagi 30B) Pada Harga RM 159',
+        body: 'Pilih Horsemen untuk kesediaan malam pantas atau Grow XL untuk penjagaan harian sepanjang bulan.',
+        meta: 'Harga Seragam RM 159',
+      },
+      {
+        code: 'MACA-BM-06 · PAKEJ KOMBO',
+        title: 'Jimat RM 32 (2 Botol RM 286) Atau RM 72 (3 Botol RM 405)',
+        body: 'Penghantaran bungkusan rahsia COD percuma ke seluruh Semenanjung Malaysia, Sabah, Sarawak & Labuan.',
+        meta: 'COD & WhatsApp +60 14-298 5919',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Apakah panggilan Maca Root dalam Bahasa Melayu?',
+        a: 'Dalam Bahasa Melayu, Maca Root (Lepidium meyenii) dipanggil "Akar Maca", "Ubi Maca Hitam Peru", atau "Ginseng Peru". Ia merupakan herba adaptogenik dari pergunungan Andes yang terkenal untuk menyokong stamina dan kecergasan lelaki.',
+      },
+      {
+        q: 'Botol Onyxmen manakah yang mempunyai kandungan Tongkat Ali dan Akar Maca paling tinggi?',
+        a: 'Horsemen (20 Kapsul × 500mg, SKU: ONYX-HM-20, RM 159) mengandungi kepekatan tertinggi Tongkat Ali Malaysia 100:1 (150mg) bersama 100mg Akar Maca Hitam Tergelatinisasi bagi setiap kapsul. Untuk botol 30 kapsul harian, Grow XL membekalkan 140mg Tongkat Ali 100:1 dan 110mg Akar Maca.',
+      },
+      {
+        q: 'Adakah gabungan Akar Maca dan Tongkat Ali selamat diambil bersama?',
+        a: 'Ya, sangat selamat dan saling melengkapi. Tongkat Ali 100:1 membantu mengawal tekanan kortisol dan menyokong keseimbangan hormon lelaki, manakala Akar Maca Hitam menyokong tenaga selular ATP tanpa kafein.',
+      },
+      {
+        q: 'Bagaimanakah cara membeli suplemen Akar Maca & Tongkat Ali Original secara COD di Malaysia?',
+        a: 'Anda boleh menempah Horsemen, Grow XL, Hammer of Thor, atau Magnum Pump XR terus di https://www.onyxmen.my atau melalui WhatsApp (+60 14-298 5919) pada harga RM 159 (1 Botol), RM 286 (2 Botol, Diskaun 10%), atau RM 405 (3 Botol, Diskaun 15%) dengan COD bungkusan rahsia.',
+      },
+    ],
+  },
+  {
+    microStep: 'ONYX-STD',
+    guideNumber: 14,
+    guideCode: 'PANDUAN-BM-14',
+    id: 'how-long-does-hammer-of-thor-horsemen-grow-xl-take-to-work',
+    slug: 'berapa-lama-kesan-hammer-of-thor-horsemen-grow-xl-malaysia',
+    canonicalMsPath: '/ms/panduan/berapa-lama-kesan-hammer-of-thor-horsemen-grow-xl-malaysia/',
+    canonicalEnPath: '/guides/how-long-does-hammer-of-thor-horsemen-grow-xl-take-to-work/',
+    msOutputPaths: [
+      'ms/guides/how-long-does-hammer-of-thor-horsemen-grow-xl-take-to-work/index.html',
+      'ms/panduan/berapa-lama-kesan-hammer-of-thor-horsemen-grow-xl-malaysia/index.html',
+    ],
+    defaultProduct: 'magnum-pump-xr',
+    heroVisualWebp: '/assets/products/magnum-pump-xr-stage.webp',
+    heroVisualPng: '/assets/products/magnum-pump-xr-stage.png',
+    watermarkText: 'MASA KESAN 14',
+    readingTimeMinutes: 11,
+    publishedDate: '2026-11-11',
+    updatedDate: '2026-11-11',
+    seoTitle:
+      'Berapa Lama Kesan Hammer of Thor, Horsemen & Grow XL MY?',
+    metaDescription:
+      '✓ Jadual masa kesan sebenar Hammer of Thor, Horsemen, Grow XL & Magnum Pump XR di Malaysia: tindak balas 30–60 minit vs kitaran penuh 30–90 hari. RM 159 COD.',
+    kicker: 'ONYX-STD · PANDUAN PROTOKOL 14 · GARIS MASA TINDAK BALAS 30 MINIT VS KITARAN PENUH 30–90 HARI',
+    headlineHtml:
+      'Berapa Lama Kesan Hammer of Thor, Horsemen, Grow XL &amp; Magnum Pump XR? <span class="foil-champagne-text">Jadual 30 Minit vs Kitaran 30 Hari.</span>',
+    leadSummary:
+      'Soalan paling kerap diajukan di meja WhatsApp Kuala Lumpur kami (+60 14-298 5919) ialah: "Berapa cepat saya boleh merasai kesan Magnum Pump XR, Horsemen, Hammer of Thor, atau Grow XL selepas menelan kapsul pertama?" Memandangkan formulasi tulen Onyxmen menggabungkan asid amino Nitrik Oksida bertindak pantas dengan herba adaptogenik berperingkat, kesannya berlaku dalam dua fasa: Tindak Balas Awal 30–60 Minit dan Penyesuaian Tisu 7–30 Hari.',
+    telemetry: [
+      {
+        label: '01 · FASA I (MINIT KE-30 HINGGA 45)',
+        val: 'Gelombang Nitrik Oksida MPXR',
+        sub: '180mg L-Arginine HCl + Bioperine® melancarkan aliran',
+      },
+      {
+        label: '02 · FASA II (MINIT KE-45 HINGGA 90)',
+        val: 'Puncak Kesediaan Malam Horsemen',
+        sub: '150mg Tongkat Ali 100:1 + 80mg Icariin + 80mg L-Arginine',
+      },
+      {
+        label: '03 · FASA III (HARI KE-5 HINGGA 14)',
+        val: 'Ketepuan Saponin & Kortisol',
+        sub: 'Hammer of Thor 60% Saponin Tribulus & Maca ATP',
+      },
+      {
+        label: '04 · FASA IV (HARI KE-20 HINGGA 90)',
+        val: 'Keseimbangan Penuh Grow XL',
+        sub: 'Muira Puama + Saw Palmetto kitaran 30–90 hari (RM 286 / RM 405)',
+      },
+    ],
+    pinnedSummaryTitle:
+      'Garis Masa Farmakokinetik: Apa Yang Berlaku Dari Minit Ke-6 Selepas Menelan Kapsul Sehingga Hari Ke-90',
+    pinnedSummaryCopy:
+      'Kapsul HPMC melarut dalam masa 6–8 minit bersama 300ml air suam. Asid amino L-Arginine HCl dan L-Citrulline Malate memulakan sokongan aliran darah dalam masa 30–45 minit, manakala herba Tongkat Ali, Maca, Tribulus, dan Saw Palmetto membina ketahanan penuh sepanjang minggu ke-2 hingga minggu ke-4.',
+    chapters: [
+      {
+        code: 'BAB 01 · FASA TINDAK BALAS AWAL (MINIT 0 HINGGA JAM KE-5)',
+        title: 'Seberapa Cepat Magnum Pump XR (30–45 Minit) & Horsemen (45–60 Minit) Mula Bertindak',
+        body: 'Apabila anda menelan 1 kapsul hitam Magnum Pump XR (600mg) atau 1 kapsul Horsemen (500mg) bersama 300ml–350ml air kosong suam (sekitar 45 minit selepas makan malam), sarung kapsul HPMC akan melarut dalam masa 6 hingga 8 minit. Menjelang minit ke-30 hingga ke-45, 180mg L-Arginine HCl (dibantu oleh pemangkin Bioperine® Lada Hitam) diserap merentasi dinding usus kecil dan mengaktifkan enzim eNOS untuk melancarkan aliran darah. Antara minit ke-45 hingga ke-90, 150mg Tongkat Ali 100:1 dan 80mg Epimedium Icariin di dalam Horsemen mencapai kepekatan plasma optimum, manakala L-Citrulline Malate di dalam Magnum Pump XR mengekalkan sokongan aliran selama 3 hingga 5 jam.',
+      },
+      {
+        code: 'BAB 02 · FASA MINGGU PERTAMA & KEDUA (HARI KE-5 HINGGA 14)',
+        title: 'Mengapa Kesan Hammer of Thor & Horsemen Terasa Lebih Mantap Pada Minggu Ke-2',
+        body: 'Berbeza dengan bahan kimia sintetik yang memaksa tindak balas mengejut selama beberapa jam sebelum menyebabkan badan lesu, ekstrak herba adaptogenik piawai membina kekuatan selular secara progresif. Antara Hari ke-5 hingga Hari ke-14 pengambilan konsisten, 200mg Tribulus Terrestris (60% saponin protodioscin) dan 15mg Zink Bisglycinate di dalam Hammer of Thor menyokong pemulihan otot dan kepekaan reseptor. Pada masa yang sama, Tongkat Ali 100:1 membantu menurunkan beban kortisol petang akibat tekanan kerja, menjadikan stamina malam anda pada Minggu ke-2 jauh lebih stabil berbanding Hari Pertama.',
+      },
+      {
+        code: 'BAB 03 · FASA PENYESUAIAN BULANAN (HARI KE-15 HINGGA 30)',
+        title: 'Bagaimana Muira Puama & Saw Palmetto Di Dalam Grow XL Mencapai Ketepuan Penuh',
+        body: 'Bagi pengguna yang mengambil 1 kapsul Grow XL (30 Kapsul × 550mg, SKU: ONYX-GX-30) setiap pagi selepas sarapan, manfaat paling menyeluruh dapat dirasai antara Hari ke-15 hingga Hari ke-30. Sebatian ester sterol daripada Muira Puama Brazil (100mg) dan asid lemak bebas daripada beri Saw Palmetto (80mg) memerlukan 2 hingga 3 minggu penyerapan harian bersama lemak sarapan untuk meresap sepenuhnya ke dalam membran sel saraf dan tisu pelvik lelaki dewasa.',
+      },
+      {
+        code: 'BAB 04 · MENGELAKKAN PENURUNAN KITARAN: KELEBIHAN PAKEJ 60–90 HARI',
+        title: 'Mengapa Pakej 2 Botol (RM 286 · -10%) & 3 Botol (RM 405 · -15%) Memberikan Hasil Terbaik',
+        body: 'Kajian fitoterapi menunjukkan bahawa menghentikan pengambilan herba adaptogenik secara mendadak selepas tamat 1 botol pertama (20 atau 30 hari) boleh menyebabkan tahap kortisol dan SHBG kembali ke paras asal dalam tempoh 2 minggu berikutnya. Oleh itu, pelanggan yang memilih Pakej 2 Botol (RM 286 — Jimat RM 32) atau Pakej 3 Botol (RM 405 — Jimat RM 72) melalui https://www.onyxmen.my atau WhatsApp (+60 14-298 5919) dapat mengekalkan stamina puncak selama 60 hingga 90 hari berturut-turut dengan penghantaran COD percuma.',
+      },
+    ],
+    protocolLedgerRows: [
+      {
+        code: 'MASA-BM-01 · MINIT 30–45',
+        title: 'Magnum Pump XR: Tindak Balas Nitrik Oksida 30–45 Minit',
+        body: 'Telan 1 kapsul hitam bersama 350ml air kosong 30–45 minit sebelum senaman gimnasium atau aktiviti malam.',
+        meta: 'Gelombang 1 L-Arginine + Bioperine',
+      },
+      {
+        code: 'MASA-BM-02 · MINIT 45–60',
+        title: 'Horsemen: Puncak Kesediaan Malam 45–60 Minit Selepas Makan',
+        body: 'Telan 1 kapsul bersama 300ml air suam 45–60 minit selepas makan malam untuk penyerapan 150mg Tongkat Ali 100:1 & Icariin.',
+        meta: 'Puncak Tmax 45–90 Minit',
+      },
+      {
+        code: 'MASA-BM-03 · HARI 5–14',
+        title: 'Hammer of Thor & Semua 4 Botol: Kestabilan Saponin Minggu Ke-2',
+        body: 'Amalkan setiap hari tanpa culas supaya 200mg Saponin Tribulus 60% dan Maca membina daya tahan fizikal.',
+        meta: 'Penyesuaian Minggu 1–2',
+      },
+      {
+        code: 'MASA-BM-04 · HARI 15–30',
+        title: 'Grow XL: Ketepuan Penuh 30 Hari Selepas Sarapan Pagi',
+        body: 'Lengkapkan 30 kapsul pagi untuk penyerapan penuh Muira Puama (100mg), Saw Palmetto (80mg) & Ginkgo Biloba (70mg).',
+        meta: 'Kitaran Penuh 30 Hari',
+      },
+      {
+        code: 'MASA-BM-05 · ELAK LAMBAT',
+        title: 'Jangan Ambil Sejurus Selepas Makanan Bergoreng Berat Atau Teh Tarik',
+        body: 'Makanan terlalu berminyak dan tanin teh boleh melambatkan penyerapan kapsul daripada 45 minit kepada 90–120 minit.',
+        meta: 'Tunggu 45 Minit Selepas Makan',
+      },
+      {
+        code: 'MASA-BM-06 · HARI 31–90',
+        title: 'Sambung Botol Ke-2 (RM 286) & Ke-3 (RM 405) Tanpa Gangguan',
+        body: 'Jimat sehingga 15% (RM 72) dengan penghantaran bungkusan rahsia COD percuma ke seluruh 16 negeri Malaysia.',
+        meta: 'Diskaun 10% & 15% COD',
+      },
+    ],
+    faqs: [
+      {
+        q: 'Kapsul Onyxmen manakah yang memberikan tindak balas paling cepat pada malam pertama?',
+        a: 'Magnum Pump XR (30 Kapsul Hitam × 600mg) memulakan gelombang pertama aliran darah Nitrik Oksida paling pantas—dalam masa 30 hingga 45 minit—melalui gabungan 180mg L-Arginine HCl, 120mg L-Citrulline Malate, dan Bioperine®. Horsemen (20 Kapsul × 500mg) pula mencapai puncak kesediaan malam dalam masa 45 hingga 60 minit.',
+      },
+      {
+        q: 'Berapa harikah masa yang diambil untuk merasai kesan penuh Grow XL atau Hammer of Thor?',
+        a: 'Sokongan aliran mikro dan tenaga harian mula dirasai dalam 3 hingga 5 hari pertama, manakala kesan penyesuaian penuh Saponin Tribulus 60% (Hammer of Thor) serta Tongkat Ali, Muira Puama, dan Saw Palmetto (Grow XL) meningkat secara progresif pada Hari ke-7 hingga ke-14 dan mencapai tahap optimum antara Hari ke-20 hingga ke-30.',
+      },
+      {
+        q: 'Mengapa kapsul mengambil masa lebih lama daripada 60 minit jika diambil bersama makanan berat?',
+        a: 'Jika anda menelan kapsul sejurus selepas makan makanan bergoreng yang sangat berminyak atau meminumnya bersama teh tarik/kopi O, proses pengosongan perut yang perlahan dan tanin teh akan melambatkan penyerapan sehingga 90–120 minit. Sentiasa tunggu 45 minit selepas makan malam dan gunakan 300ml air kosong suam.',
+      },
+      {
+        q: 'Patutkah saya membeli 1 botol (RM 159) atau 2 botol (RM 286) untuk permulaan?',
+        a: 'Anda boleh memulakan dengan 1 Botol (RM 159) untuk kitaran 20–30 hari pertama, atau terus memilih Pakej 2 Botol (RM 286 — Diskaun 10%, jimat RM 32) supaya kitaran anda berterusan tanpa gangguan memasuki minggu ke-4 hingga minggu ke-8.',
+      },
+    ],
   }
 );
 

@@ -2677,6 +2677,622 @@ GUIDE_DOSSIERS.push(
           'Yes. You can order via our 3-field Quick Discreet Order Form or message our official WhatsApp (+60 14-298 5919) for 100% plain-box COD across all 16 Malaysian states (1 Bottle RM 159, 2 Bottles RM 286 [10% OFF], 3 Bottles RM 405 [15% OFF]).',
       },
     ],
+  },
+
+  // ==========================================================================
+  // GUIDE 11 (ONYX-STD): GROW XL VS HORSEMEN VS HAMMER OF THOR MALAYSIA
+  // ==========================================================================
+  {
+    guideNumber: 11,
+    microStep: 'ONYX-STD',
+    guideCode: 'GUIDE-11 · 3-FORMULA BUYER COMPARISON',
+    slug: 'grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia',
+    canonicalEnPath: '/guides/grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia/',
+    alternateMsPath: '/ms/panduan/perbezaan-grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia/',
+    enOutputPaths: [
+      'guides/grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia/index.html',
+    ],
+    watermark: 'COMPARE 3',
+    primaryProductSlug: 'grow-xl',
+    heroImage: '/assets/products/onyxman-lineup-hero.webp',
+    portraitImage: '/assets/products/grow-xl-portrait.webp',
+    publishedDate: '2026-11-11T08:00:00+08:00',
+    updatedDate: '2026-11-11T08:00:00+08:00',
+    readingTime: '12 Min 3-Bottle Comparison Read',
+    seoTitle:
+      'Grow XL vs Horsemen vs Hammer of Thor Malaysia [RM159 Guide]',
+    metaDescription:
+      '✓ Compare Grow XL (30 Caps), Horsemen (20 Caps) & Hammer of Thor (20 Veg Caps) in Malaysia: dosage, Tongkat Ali & Tribulus potency. RM 159 discreet COD.',
+    kicker: 'ONYX-STD · PROTOCOL GUIDE 11 · GROW XL VS. HORSEMEN VS. HAMMER OF THOR MALAYSIA BUYER MATRIX',
+    headline:
+      'Grow XL vs. Horsemen vs. Hammer of Thor Malaysia: <span class="foil-champagne-text">Which Capsule Should You Choose?</span>',
+    taxonomyStrip: [
+      '01 · GROW XL (30 CAPS × 550MG MORNING CYCLE)',
+      '02 · HORSEMEN (20 CAPS × 500MG EVENING RESERVE)',
+      '03 · HAMMER OF THOR (20 VEG. CAPS TRIBULUS 60%)',
+      '04 · UNIFORM RM 159 · 2 FOR RM 286 (-10%) COD',
+    ],
+    executiveSummary:
+      'Malaysian buyers comparing "Grow XL vs Horsemen", "Hammer of Thor vs Horsemen", or "GrowXL for Men vs Hammer of Thor" often wonder why all three flagship bottles share the exact same RM 159 price (RM 286 for 2 bottles [10% OFF], RM 405 for 3 bottles [15% OFF]) yet differ in capsule count and botanical lead ratios. This clinical buyer comparison breaks down exact milligram profiles, morning vs. evening circadian windows, vegetarian HPMC shell options, and dual-bottle stacking across Malaysia.',
+    telemetry: [
+      {
+        key: '01 · GROW XL (SKU: ONYX-GX-30)',
+        val: '30 Caps × 550mg (Morning)',
+        sub: '140mg Tongkat Ali + 100mg Muira Puama + 80mg Saw Palmetto',
+      },
+      {
+        key: '02 · HORSEMEN (SKU: ONYX-HM-20)',
+        val: '20 Caps × 500mg (Evening)',
+        sub: '150mg Tongkat Ali 100:1 + 100mg Black Maca + 80mg Icariin',
+      },
+      {
+        key: '03 · HAMMER OF THOR (ONYX-HT-20)',
+        val: '20 Veg. Caps × 500mg (HPMC)',
+        sub: '200mg Tribulus (60% Saponins) + 100mg Maca + 75mg Ginseng',
+      },
+      {
+        key: '04 · DUAL-BOTTLE STACKING',
+        val: 'RM 286 (Save RM 32 · 10% OFF)',
+        sub: 'Pair 1 morning bottle (Grow XL) + 1 evening bottle (Horsemen)',
+      },
+    ],
+    pinnedSummaryBullets: [
+      'Choose Grow XL (30 Caps × 550mg = 16,500mg) for a 1-capsule-after-breakfast 30-day calendar habit + pelvic Saw Palmetto support',
+      'Choose Horsemen (20 Caps × 500mg = 10,000mg) for our highest 150mg Tongkat Ali 100:1 + 80mg Epimedium Icariin 45-min evening readiness',
+      'Choose Hammer of Thor (20 Veg. Caps × 500mg) for 100% plant-cellulose HPMC vegetarian shells + 200mg Tribulus (60% Protodioscin)',
+      'Need pre-gym vascular pump? Add Magnum Pump XR (30 Black Caps × 600mg) with 300mg L-Arginine & L-Citrulline Nitric Oxide',
+      'All four formulations cost RM 159 (1B), RM 286 (2B — 10% OFF), or RM 405 (3B — 15% OFF) with discreet plain-box COD nationwide',
+    ],
+    chapters: [
+      {
+        kicker: 'CHAPTER 01 · ARCHITECTURAL DIVERGENCE: 30-CAPSULE MORNING CONDITIONING VS. 20-CAPSULE EVENING RESERVES',
+        title: 'Why Grow XL Contains 30 Capsules While Horsemen & Hammer of Thor Contain 20 Capsules.',
+        paragraphs: [
+          'The first distinction between Grow XL (GrowXL for Men), Horsemen, and Hammer of Thor Men’s Health is their circadian dosing architecture. Grow XL (SKU: ONYX-GX-30, RM 159) contains 30 capsules at 550mg each (16,500mg total active mass per bottle) because its lipophilic phytosterols—specifically 80mg Supercritical Saw Palmetto berry fatty acids and 100mg Brazilian Muira Puama sterol esters—are designed to be ingested once every morning 20 to 30 minutes after breakfast across a full 30-day calendar month.',
+          'By contrast, Horsemen (SKU: ONYX-HM-20, 20 Capsules × 500mg) and Hammer of Thor (SKU: ONYX-HT-20, 20 Veg. Capsules × 500mg) allocate their formulation budget toward ultra-high-ratio standardized alkaloids and steroidal saponins engineered for post-dinner evening conditioning or alternate-evening readiness.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 02 · PHYTOCHEMICAL HEAD-TO-HEAD: EURYCOMANONE VS. PROTODIOSCIN VS. MUIRA PUAMA',
+        title: 'Comparing Exact Milligram Standardization Across All Three Flagship Bottles.',
+        paragraphs: [
+          'Horsemen Man Virility Enhancement leads in water-soluble quassinoid and prenylated flavonoid concentration: each 500mg capsule delivers 150mg Malaysian Tongkat Ali 100:1 (≥2.2% eurycomanone), 100mg Gelatinized Black Peruvian Maca, 80mg Epimedium sagittatum (10% icariin), 80mg L-Arginine HCl, and 60mg 6-Year Korean Red Ginseng. This makes Horsemen the #1 choice for men prioritizing rapid 45-to-60-minute evening drive after work.',
+          'Hammer of Thor Men’s Health leads in steroidal furostanol saponins and vegetarian purity: each 500mg plant-cellulose HPMC capsule delivers 200mg Bulgarian-strain Tribulus terrestris (60% saponins / 40mg protodioscin), 100mg Andean Maca, 75mg Panax Ginseng, 65mg Saw Palmetto, 45mg Tongkat Ali 100:1, and 15mg Zinc Bisglycinate. Grow XL bridges both worlds across 30 days with 140mg Tongkat Ali 100:1, 120mg L-Arginine & L-Citrulline, 100mg Muira Puama, 80mg Saw Palmetto, and 70mg Ginkgo Biloba.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 03 · BUYER PERSONA MATCHING FOR MALAYSIAN EXECUTIVES, GYM-GOERS & MATURE MEN',
+        title: 'Selecting Your Ideal Single Bottle (RM 159) Based On Age, Work Schedule & Dietary Preference.',
+        paragraphs: [
+          'Profile 1 — The Busy Corporate Executive or Business Owner (Ages 30–60): Choose Grow XL (30 Capsules, RM 159) if you prefer an effortless 1-capsule-after-breakfast routine that supports daytime mental clarity (Ginkgo Biloba), pelvic/prostate comfort (Saw Palmetto), and steady 30-day stamina without watching the clock at night.',
+          'Profile 2 — The Evening Readiness & High-Tongkat-Ali Seeker: Choose Horsemen (20 Capsules, RM 159) if you want maximum Malaysian Tongkat Ali 100:1 (150mg) + Black Maca (100mg) + Epimedium Icariin (80mg) taken 45–60 minutes after dinner. Profile 3 — The Vegetarian-Capsule & Athletic Recovery Seeker: Choose Hammer of Thor (20 Veg. Capsules, RM 159) if you require 100% animal-free HPMC capsules and 200mg of 60%-saponin Tribulus for physical endurance.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 04 · THE RM 286 DUAL-BOTTLE STACK (10% OFF) & RM 405 3-BOTTLE VIP VAULT (15% OFF)',
+        title: 'Combining Morning Grow XL With Evening Horsemen Or Hammer of Thor In Malaysia.',
+        paragraphs: [
+          'Because Grow XL operates on a morning post-breakfast schedule while Horsemen and Hammer of Thor operate on a post-dinner evening schedule, our most popular multi-bottle order in Malaysia is the Morning + Evening Synergistic Stack at RM 286 (2 Bottles — 10% OFF, saving RM 32 off RM 318) or RM 405 (3 Bottles — 15% OFF, saving RM 72 off RM 477).',
+          'Simply open the Quick Discreet Order Form or message our official WhatsApp desk (+60 14-298 5919) to specify your custom 2-bottle or 3-bottle combination with 100% plain unmarked box Cash on Delivery (COD) across all 16 Malaysian states.',
+        ],
+      },
+    ],
+    protocolSteps: [
+      {
+        code: 'SELECT-01 · GROW XL',
+        title: 'Pick Grow XL (30 Caps × 550mg) For 30-Day Morning Conditioning',
+        metric: '1B RM 159 · 2B RM 286 (-10%) · Day-25 Refill',
+        desc: 'Take 1 capsule 20–30 minutes after breakfast daily for Tongkat Ali (140mg), Muira Puama (100mg), Saw Palmetto (80mg), and Ginkgo (70mg).',
+      },
+      {
+        code: 'SELECT-02 · HORSEMEN',
+        title: 'Pick Horsemen (20 Caps × 500mg) For Peak 45-Min Evening Readiness',
+        metric: '150mg Tongkat Ali 100:1 + 100mg Black Maca + 80mg Icariin',
+        desc: 'Take 1 capsule 45–60 minutes after dinner with 300ml warm water for concentrated evening stamina and cortisol balance.',
+      },
+      {
+        code: 'SELECT-03 · HAMMER OF THOR',
+        title: 'Pick Hammer of Thor (20 Veg. Caps) For Vegetarian Saponin Endurance',
+        metric: '100% HPMC Plant Shell · 200mg Tribulus (60% Saponins)',
+        desc: 'Take 1 vegetarian capsule 30 minutes after dinner or 45 minutes pre-gym for steroidal saponin recovery and Zinc Bisglycinate.',
+      },
+      {
+        code: 'SELECT-04 · MAGNUM PUMP XR',
+        title: 'Add Magnum Pump XR (30 Black Caps × 600mg) For Nitric Oxide Blood Flow',
+        metric: '300mg L-Arginine + L-Citrulline + Bioperine®',
+        desc: 'Take 1 jet-black capsule 30–45 minutes before resistance training or evening activity for 5-hour Extended-Release vasodilation.',
+      },
+      {
+        code: 'SELECT-05 · DUAL STACK',
+        title: 'Order Any 2 Bottles For RM 286 (10% OFF) Or 3 Bottles For RM 405 (15% OFF)',
+        metric: 'Free Malaysia Express & Plain-Box COD',
+        desc: 'Mix and match morning Grow XL with evening Horsemen or Hammer of Thor via the Express Order Drawer or WhatsApp (+60 14-298 5919).',
+      },
+    ],
+    faqs: [
+      {
+        questionEn: 'Between Grow XL, Horsemen, and Hammer of Thor, which one is strongest for evening stamina?',
+        answerEn:
+          'For targeted evening readiness (taken 45–60 minutes after dinner), Horsemen (20 Capsules × 500mg) delivers the highest single-capsule concentration of Malaysian Tongkat Ali 100:1 (150mg) paired with 100mg Black Maca and 80mg Epimedium Icariin. For full-month daily baseline conditioning and pelvic support, Grow XL (30 Capsules × 550mg) is our #1 selling morning formula.',
+      },
+      {
+        questionEn: 'Which capsule should I choose if I want a 100% vegetarian capsule shell?',
+        answerEn:
+          'Choose Hammer of Thor Men’s Health (20 Veg. Capsules, SKU: ONYX-HT-20) or Magnum Pump XR (30 Black Capsules, SKU: ONYX-MP-30), both of which utilize 100% plant-derived hypromellose (HPMC) vegetarian capsules with zero animal gelatin.',
+      },
+      {
+        questionEn: 'Can I take Grow XL in the morning and Horsemen or Hammer of Thor in the evening?',
+        answerEn:
+          'Yes. Taking 1 capsule of Grow XL 20–30 minutes after breakfast and 1 capsule of Horsemen (or Hammer of Thor) 45 minutes after dinner separates intake by 12 hours, allowing complementary absorption without pathway overlap.',
+      },
+      {
+        questionEn: 'Do all three bottles really cost the same RM 159 in Malaysia?',
+        answerEn:
+          'Yes. Every authentic bottle in the Onyxmen Malaysia apothecary is standardized at RM 159 for 1 Bottle, RM 286 for 2 Bottles (10% OFF — Save RM 32), and RM 405 for 3 Bottles (15% OFF — Save RM 72) including discreet plain-box COD.',
+      },
+    ],
+  },
+
+  // ==========================================================================
+  // GUIDE 12 (ONYX-STD): SIDE EFFECTS & SAFETY AUDIT MALAYSIA
+  // ==========================================================================
+  {
+    guideNumber: 12,
+    microStep: 'ONYX-STD',
+    guideCode: 'GUIDE-12 · SAFETY & SIDE EFFECTS AUDIT',
+    slug: 'hammer-of-thor-horsemen-grow-xl-side-effects-safety-malaysia',
+    canonicalEnPath: '/guides/hammer-of-thor-horsemen-grow-xl-side-effects-safety-malaysia/',
+    alternateMsPath: '/ms/panduan/kesan-sampingan-hammer-of-thor-horsemen-grow-xl-keselamatan/',
+    enOutputPaths: [
+      'guides/hammer-of-thor-horsemen-grow-xl-side-effects-safety-malaysia/index.html',
+    ],
+    watermark: 'SAFETY COA',
+    primaryProductSlug: 'hammer-of-thor',
+    heroImage: '/assets/products/hammer-of-thor-stage.webp',
+    portraitImage: '/assets/products/horsemen-portrait.webp',
+    publishedDate: '2026-11-11T08:00:00+08:00',
+    updatedDate: '2026-11-11T08:00:00+08:00',
+    readingTime: '11 Min Clinical Safety & Toxicology Read',
+    seoTitle:
+      'Hammer of Thor, Horsemen & Grow XL Side Effects & Safety MY',
+    metaDescription:
+      '✓ Official safety & side effects audit for Hammer of Thor, Horsemen, Grow XL & Magnum Pump XR in Malaysia: 0% synthetic PDE5, zero headaches & lab COA.',
+    kicker: 'ONYX-STD · PROTOCOL GUIDE 12 · CLINICAL TOXICOLOGY, SIDE EFFECTS & ZERO-SYNTHETIC SAFETY AUDIT',
+    headline:
+      'Hammer of Thor, Horsemen &amp; Grow XL Side Effects &amp; Safety Malaysia: <span class="foil-champagne-text">100% Botanical vs. Fake Street Pills.</span>',
+    taxonomyStrip: [
+      '01 · 0% UNDECLARED SYNTHETIC PDE5 CHEMICALS',
+      '02 · ICP-MS HEAVY METAL & MICROBIAL SCREENED',
+      '03 · ZERO THROBBING HEADACHES OR PALPITATIONS',
+      '04 · CAFFEINE-FREE & SLEEP-SAFE ADAPTATION',
+    ],
+    executiveSummary:
+      'Thousands of Malaysian men search for "Hammer of Thor side effects", "Horsemen capsule side effects", or "Is Grow XL safe?" after hearing warnings about counterfeit street pills and adulterated energy candies. This toxicology and quality-assurance dossier explains why unverified RM 30 imitations cause severe throbbing headaches, facial flushing, and heart palpitations—and how Onyxmen Malaysia verifies 100% synthetic-free, heavy-metal-tested botanical purity across all four RM 159 formulations.',
+    telemetry: [
+      {
+        key: '01 · LC-MS/MS DRUG SCREEN',
+        val: '0.00% Synthetic PDE5 Analogues',
+        sub: 'Tested negative for sildenafil, tadalafil & 84 chemical analogues',
+      },
+      {
+        key: '02 · ICP-MS HEAVY METALS',
+        val: 'Pb <0.18ppm · Hg <0.01ppm',
+        sub: 'Lead, Mercury, Arsenic & Cadmium strictly below statutory limits',
+      },
+      {
+        key: '03 · CARDIOVASCULAR & CNS',
+        val: '0 mg Caffeine · Zero Migraines',
+        sub: 'Natural eNOS & adaptogenic pathways without jittery spikes',
+      },
+      {
+        key: '04 · GASTRIC TOLERANCE',
+        val: 'Take 30–45 Mins Post-Meal',
+        sub: 'Prevents herbal bitterness warmth on an empty stomach',
+      },
+    ],
+    pinnedSummaryBullets: [
+      'Why Fake Pills Cause Headaches: Counterfeit RM 30 pills are spiked with undeclared sildenafil/tadalafil that dilate cranial arteries',
+      'Onyxmen Purity Standard: 100% plant & amino-acid extracts with zero synthetic PDE5 chemicals and zero artificial caffeine',
+      'Heavy-Metal & Microbial Safety: Every batch audited via ICP-MS (Pb, As, Cd, Hg) and USP <2021> microbial testing',
+      'Digestive Comfort Rule: Always swallow capsules 20–60 minutes after a meal with 300ml water (never on a completely empty stomach)',
+      'Medical Caution: Adult men taking prescription nitrates or blood-pressure medication should consult a physician prior to use',
+    ],
+    chapters: [
+      {
+        kicker: 'CHAPTER 01 · THE ROOT CAUSE OF "HEADACHES & PALPITATIONS" IN MALAYSIA’S SUPPLEMENT MARKET',
+        title: 'Why Counterfeit RM 30 Pills & Candy Packets Trigger Cranial Migraines And Flushing.',
+        paragraphs: [
+          'When Malaysian consumers report experiencing a sudden throbbing headache, intense facial redness, stuffy nose, blurred blue-tinted vision, or rapid heart palpitations after taking a cheap RM 30 capsule or coffee/candy packet bought from an unauthorized night-market stall, they are not reacting to Tongkat Ali, Maca, or Tribulus. They are experiencing the classic acute side effects of undeclared synthetic phosphodiesterase-5 (PDE5) pharmaceutical analogues (such as unmeasured sildenafil, tadalafil, or sulfoaildenafil) illegally mixed into counterfeit powders.',
+          'Synthetic PDE5 chemicals forcefully inhibit PDE5 enzymes not only in pelvic tissue but also in cerebral meningeal blood vessels and nasal mucosa—causing cranial arterial distension (severe migraine headaches) and erratic blood-pressure dips. Authentic Onyxmen Malaysia formulations (Horsemen, Hammer of Thor, Grow XL, and Magnum Pump XR) are 100% free of synthetic PDE5 drugs and never induce chemical headaches.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 02 · ONYXMEN MALAYSIA’S THREE-STAGE LABORATORY SAFETY VERIFICATION',
+        title: 'LC-MS/MS Adulterant Screening, ICP-MS Heavy Metal Assay & Microbiological Purity.',
+        paragraphs: [
+          'Before any batch of Horsemen (SKU: ONYX-HM-20), Hammer of Thor (SKU: ONYX-HT-20), Grow XL (SKU: ONYX-GX-30), or Magnum Pump XR (SKU: ONYX-MP-30) enters our 22°C–24°C Kuala Lumpur apothecary vault, it must pass three analytical quality gates: (1) Quadrupole LC-MS/MS screening confirming 0.00% presence of sildenafil, tadalafil, vardenafil, sibutramine, and 84 structural analogues; and (2) Inductively Coupled Plasma Mass Spectrometry (ICP-MS) verifying Lead (<0.18 ppm), Arsenic (<0.11 ppm), Cadmium (<0.04 ppm), and Mercury (<0.01 ppm).',
+          'Third, every batch undergoes USP <2021> microbiological enumeration to guarantee zero E. coli, zero Salmonella, and low water activity inside nitrogen-flushed HPMC capsules. Furthermore, all four formulations contain 0mg synthetic caffeine or yohimbine, ensuring calm cardiovascular rhythm and restorative night sleep.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 03 · MILD BOTANICAL SENSATIONS & HOW TO PREVENT GASTRIC WARMTH',
+        title: 'Why Post-Meal Ingestion & 300ml Hydration Eliminate Digestive Discomfort.',
+        paragraphs: [
+          'Because authentic Horsemen, Grow XL, and Hammer of Thor contain highly concentrated bitter quassinoids (100:1 Eurycoma longifolia), steroidal saponins (60% Tribulus terrestris), and chelated Zinc (15mg), swallowing a capsule on a completely empty stomach with only a sip of water can occasionally produce mild, temporary gastric warmth or herbal burps in sensitive individuals.',
+          'To ensure 100% digestive comfort: always take Grow XL 20 to 30 minutes after breakfast, and take Horsemen or Hammer of Thor 30 to 60 minutes after dinner with a full 300ml glass of warm water. The presence of food chyme buffers gastric mucosa while accelerating bile-micelle absorption of saponins and phytosterols.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 04 · RESPONSIBLE ADULT USE, MEDICATION CONTRAINDICATIONS & AUTHENTIC ORDERING',
+        title: 'Who Should Consult A Doctor & How To Avoid Counterfeit Imitations In Malaysia.',
+        paragraphs: [
+          'Onyxmen Malaysia formulations are crafted strictly for healthy adult men aged 21 and above. Because L-Arginine HCl, L-Citrulline Malate, Panax Ginseng, and Ginkgo Biloba naturally support endothelial vasodilation and micro-circulation, men currently taking prescription organic nitrates, alpha-blockers, antihypertensive drugs, or blood thinners—or men managing diagnosed cardiovascular, renal, or hepatic conditions—should consult a licensed Malaysian medical practitioner before starting any supplement cycle.',
+          'Protect your health by ordering exclusively from https://www.onyxmen.my or our official WhatsApp desk (+60 14-298 5919) at RM 159 (1 Bottle), RM 286 (2 Bottles, 10% OFF), or RM 405 (3 Bottles, 15% OFF) with discreet plain-box COD.',
+        ],
+      },
+    ],
+    protocolSteps: [
+      {
+        code: 'SAFE-01 · AVOID RM 30 FAKES',
+        title: 'Reject Unverified Marketplace Pills, Candies & Liquid Drops',
+        metric: 'Zero Synthetic PDE5 Risk · Official RM 159 Vault Only',
+        desc: 'Never consume RM 25–RM 45 loose blister packs or coloured gelatin pills that risk undeclared chemical adulteration.',
+      },
+      {
+        code: 'SAFE-02 · POST-MEAL INTAKE',
+        title: 'Take Capsules 20–60 Minutes After A Meal (Never Fasting)',
+        metric: 'Buffers Quassinoids, Saponins & 15mg Chelated Zinc',
+        desc: 'Taking your capsule after breakfast (Grow XL) or dinner (Horsemen / Hammer of Thor) prevents empty-stomach herbal warmth.',
+      },
+      {
+        code: 'SAFE-03 · 300ML HYDRATION',
+        title: 'Drink 300ml Plain Water With Every Capsule & 2.5L Daily',
+        metric: 'Supports Smooth Renal & Endothelial Nitric Oxide Flow',
+        desc: 'Full hydration ensures rapid 6-to-8 minute HPMC capsule dissolution and smooth physiological adaptation in Malaysia’s heat.',
+      },
+      {
+        code: 'SAFE-04 · 1 CAPSULE DAILY',
+        title: 'Respect The 1-Capsule Serving Size Per Formulation',
+        metric: '500mg–600mg Standardized Potency Per Capsule',
+        desc: 'Standardized 100:1 Tongkat Ali and 60% Tribulus saponins work via steady daily receptor saturation rather than megadosing.',
+      },
+      {
+        code: 'SAFE-05 · PHYSICIAN CHECK',
+        title: 'Consult Your Doctor If Taking Prescription Heart/BP Meds',
+        metric: 'Adult Men 21+ · Transparent Ingredient Disclosure',
+        desc: 'Show our complete milligram label disclosure to your healthcare provider if you take prescription vasodilators or blood thinners.',
+      },
+    ],
+    faqs: [
+      {
+        questionEn: 'Does original Hammer of Thor, Horsemen, or Grow XL cause headaches or heart palpitations?',
+        answerEn:
+          'No. Authentic Hammer of Thor, Horsemen, Grow XL, and Magnum Pump XR distributed by Onyxmen Malaysia contain 0% synthetic PDE5 drugs and 0mg caffeine. Severe headaches and heart palpitations reported online are caused by counterfeit RM 30 street pills illegally spiked with undeclared sildenafil analogues.',
+      },
+      {
+        questionEn: 'Is it safe to take Onyxmen capsules every day for a 30-day to 90-day cycle?',
+        answerEn:
+          'Yes, for healthy adult men. Standardized botanical adaptogens (Tongkat Ali 100:1, Peruvian Maca, Tribulus, Saw Palmetto) and amino acids (L-Arginine, L-Citrulline) are designed for cumulative 20-to-90 day nutritional conditioning when taken at the recommended 1-capsule daily serving after meals.',
+      },
+      {
+        questionEn: 'Why did I feel mild stomach warmth when taking a capsule on an empty stomach?',
+        answerEn:
+          'Concentrated 100:1 Eurycoma longifolia quassinoids, 60% Tribulus saponins, and 15mg Zinc can stimulate gastric acid if swallowed on an empty stomach. Taking your capsule 30–45 minutes after a meal with 300ml of water completely eliminates gastric warmth.',
+      },
+      {
+        questionEn: 'Can men with high blood pressure or on prescription medication take these supplements?',
+        answerEn:
+          'If you have a diagnosed medical condition (such as hypertension, heart disease, or kidney/liver disorder) or take prescription nitrates, antihypertensives, or anticoagulants, please consult your physician before taking any nitric oxide or botanical supplement.',
+      },
+    ],
+  },
+
+  // ==========================================================================
+  // GUIDE 13 (ONYX-STD): MACA ROOT IN MALAY (AKAR MACA) & TONGKAT ALI SYNERGY
+  // ==========================================================================
+  {
+    guideNumber: 13,
+    microStep: 'ONYX-STD',
+    guideCode: 'GUIDE-13 · AKAR MACA & TONGKAT ALI SYNERGY',
+    slug: 'maca-root-in-malay-akar-maca-tongkat-ali-supplement-malaysia',
+    canonicalEnPath: '/guides/maca-root-in-malay-akar-maca-tongkat-ali-supplement-malaysia/',
+    alternateMsPath: '/ms/panduan/akar-maca-dalam-bahasa-melayu-dan-tongkat-ali-malaysia/',
+    enOutputPaths: [
+      'guides/maca-root-in-malay-akar-maca-tongkat-ali-supplement-malaysia/index.html',
+    ],
+    watermark: 'AKAR MACA',
+    primaryProductSlug: 'horsemen',
+    heroImage: '/assets/products/horsemen-stage.webp',
+    portraitImage: '/assets/products/horsemen-portrait.webp',
+    publishedDate: '2026-11-11T08:00:00+08:00',
+    updatedDate: '2026-11-11T08:00:00+08:00',
+    readingTime: '11 Min Ethnobotanical & Phytochemical Read',
+    seoTitle:
+      'Maca Root in Malay (Akar Maca Hitam) & Tongkat Ali Malaysia',
+    metaDescription:
+      '✓ What is Maca Root in Malay (Akar Maca Hitam Peru / Ginseng Peru) & how it pairs with Malaysian Tongkat Ali 100:1 in Horsemen & Grow XL. RM 159 COD MY.',
+    kicker: 'ONYX-STD · PROTOCOL GUIDE 13 · MACA ROOT IN MALAY (AKAR MACA HITAM PERU) & TONGKAT ALI 100:1 SYNERGY',
+    headline:
+      'Maca Root In Malay (Akar Maca Hitam Peru) &amp; <span class="foil-champagne-text">Malaysian Tongkat Ali 100:1 Supplement Synergy.</span>',
+    taxonomyStrip: [
+      '01 · MACA ROOT IN MALAY = AKAR MACA HITAM PERU',
+      '02 · LEPIDIUM MEYENII (0.6% MACAMIDES & MACAENES)',
+      '03 · MALAYSIAN TONGKAT ALI 100:1 (2.2% EURYCOMANONE)',
+      '04 · GELATINIZED STARCH-FREE DUODENAL ABSORPTION',
+    ],
+    executiveSummary:
+      'In Malaysia, search queries for "Maca Root in Malay", "Maca Root Malaysia", "Akar Maca Hitam", and "Malaysia Tongkat Ali" have surged as adult men look beyond single-ingredient raw powders. In Bahasa Malaysia, Peruvian Maca Root (Lepidium meyenii) is known as "Akar Maca", "Ubi Maca Hitam Peru", or "Ginseng Peru". This monograph explains why gelatinized Black Maca Root and 100:1 Malaysian Tongkat Ali form the twin adaptogenic pillars inside Horsemen, Grow XL, Hammer of Thor, and Magnum Pump XR.',
+    telemetry: [
+      {
+        key: '01 · BAHASA MALAYSIA TERM',
+        val: 'Akar Maca / Ubi Maca Hitam',
+        sub: 'Also known locally as Ginseng Peru (Lepidium meyenii Walp.)',
+      },
+      {
+        key: '02 · ANDEAN BIO-MARKERS',
+        val: '≥0.6% Macamides & Macaenes',
+        sub: 'Gelatinized Junín plateau Black Maca (4,200m elevation)',
+      },
+      {
+        key: '03 · RAINFOREST PARTNER',
+        val: 'Malaysian Tongkat Ali 100:1',
+        sub: 'Eurycoma longifolia standardized to ≥2.2% Eurycomanone',
+      },
+      {
+        key: '04 · ONYXMEN FORMULATIONS',
+        val: '100–110mg Maca + 90–150mg TA',
+        sub: 'Featured in Horsemen, Grow XL, Hammer of Thor & Magnum Pump XR',
+      },
+    ],
+    pinnedSummaryBullets: [
+      'Exact Translation: "Maca Root in Malay" is Akar Maca, Ubi Maca Hitam Peru, or Ginseng Peru (Lepidium meyenii)',
+      'Why Black Maca Beats Yellow Maca: The Black phenotype delivers the highest concentration of lipidic macamides for male stamina',
+      'Why Gelatinized Matters: Low-heat extrusion cleaves indigestible amylose starch so 100mg absorbs in 15 mins without bloating',
+      'Dual-Pathway Synergy: Tongkat Ali 100:1 balances cortisol & SHBG while Akar Maca Hitam fuels non-stimulant mitochondrial ATP',
+      'Available across all 4 Onyxmen Malaysia bottles at RM 159 (1B), RM 286 (2B — 10% OFF), and RM 405 (3B — 15% OFF) with discreet COD',
+    ],
+    chapters: [
+      {
+        kicker: 'CHAPTER 01 · WHAT IS "MACA ROOT IN MALAY"? (AKAR MACA HITAM PERU / LEPIDIUM MEYENII)',
+        title: 'Understanding Akar Maca, Ubi Maca Hitam & Why The Black Andean Phenotype Leads Male Vitality.',
+        paragraphs: [
+          'Malaysian buyers researching international sports and vitality journals frequently search "Maca Root in Malay" to identify local terminology and authentic Malaysian stock. In Bahasa Malaysia, Maca Root (scientific name: Lepidium meyenii Walp., a cruciferous root native to the 4,200-meter Junín plateau of the Peruvian Andes) is officially called "Akar Maca", "Ubi Maca Peru", or "Ginseng Peru".',
+          'Although Maca grows in yellow, red, and black ecotypes, clinical phytopharmacology demonstrates that the rare Black Maca phenotype ("Akar Maca Hitam") concentrates the highest density of N-benzylhexadecanamide (macamides), macaenes, and benzyl glucosinolates—the exact bioactive lipid-amides responsible for supporting male physical endurance, libido resilience, and cellular recovery without altering blood pressure.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 02 · GELATINIZED AKAR MACA VS. RAW MACA POWDER: THE DIGESTIVE BIOAVAILABILITY GAP',
+        title: 'Why Onyxmen Uses Extrusion-Gelatinized Black Maca Instead Of Raw Starch Powder.',
+        paragraphs: [
+          'A critical mistake made by generic supplement brands in Malaysia is encapsulating raw, ungelatinized Maca root powder. Raw Maca hypocotyls consist of nearly 70% long-chain amylose and amylopectin starches that human gastric enzymes struggle to break down—leading to abdominal gas, bloating, and poor macamide absorption.',
+          'Every Onyxmen Malaysia formulation utilizes 100% Gelatinized Peruvian Black Maca. Through a cold-extrusion enzymatic gelatinization process, the inert starch chains are cleaved and removed prior to encapsulation, concentrating the active macamides (≥0.6%) into a water-and-lipid-dispersible extract that dissolves in the duodenum within minutes.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 03 · ANDEAN AKAR MACA + MALAYSIAN TONGKAT ALI 100:1: DUAL-CONTINENT SYNERGY',
+        title: 'How Eurycomanone Quassinoids & Macamides Unlock Complementary Physiological Pathways.',
+        paragraphs: [
+          'Taking Malaysian Tongkat Ali (Eurycoma longifolia) alone or Peruvian Maca Root alone addresses only half of the adult male vitality equation. Malaysian Tongkat Ali 100:1 (standardized to ≥2.2% eurycomanone) acts primarily on the hypothalamic-pituitary-adrenal-gonadal axis—lowering evening traffic-induced serum cortisol and displacing bound vitality factors from Sex Hormone-Binding Globulin (SHBG).',
+          'Simultaneously, Akar Maca Hitam (Black Maca) operates through an independent endocannabinoid-and-mitochondrial pathway: its macamides inhibit fatty acid amide hydrolase (FAAH) and upregulate cellular ATP generation, amplifying physical drive and stamina mood without competing for the same receptors as Tongkat Ali.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 04 · CHOOSING YOUR MACA + TONGKAT ALI FORMULA IN THE ONYXMEN VAULT (RM 159)',
+        title: 'Exact Milligram Pairing In Horsemen, Grow XL, Hammer of Thor & Magnum Pump XR.',
+        paragraphs: [
+          'All four official Onyxmen Malaysia formulations unite Peruvian Maca with Malaysian Tongkat Ali 100:1 tailored to your goal: (1) Horsemen (20 Caps × 500mg, RM 159) packs 150mg Tongkat Ali 100:1 + 100mg Black Maca + 80mg Epimedium Icariin for peak evening readiness; (2) Grow XL (30 Caps × 550mg, RM 159) pairs 140mg Tongkat Ali 100:1 + 110mg Yellow/Black Maca + 100mg Muira Puama + 80mg Saw Palmetto for 30-day morning conditioning.',
+          'Meanwhile, (3) Hammer of Thor (20 Veg. Caps, RM 159) combines 200mg Tribulus (60% Saponins) + 100mg Andean Maca + 45mg Tongkat Ali in vegetarian HPMC shells; and (4) Magnum Pump XR (30 Black Caps, RM 159) combines 300mg L-Arginine/L-Citrulline + 90mg Tongkat Ali + 70mg Black Maca/Fenugreek. Order 1 Bottle (RM 159), 2 Bottles (RM 286, 10% OFF), or 3 Bottles (RM 405, 15% OFF) with discreet COD.',
+        ],
+      },
+    ],
+    protocolSteps: [
+      {
+        code: 'MACA-01 · PHENOTYPE CHECK',
+        title: 'Prioritize Gelatinized Black Peruvian Maca (Akar Maca Hitam)',
+        metric: '≥0.6% Macamides & Macaenes · Zero Raw Starch Bloating',
+        desc: 'Ensure your supplement uses starch-cleaved gelatinized Lepidium meyenii rather than cheap raw yellow maca root flour.',
+      },
+      {
+        code: 'MACA-02 · 100:1 TONGKAT ALI',
+        title: 'Pair With HPLC-Standardized Malaysian Tongkat Ali 100:1',
+        metric: '≥2.2% Eurycomanone · Pahang & Perak Mature Taproots',
+        desc: 'Combine Andean macamides with 90mg–150mg of aqueous 100:1 Eurycoma longifolia for dual cortisol and SHBG support.',
+      },
+      {
+        code: 'MACA-03 · MEAL LIPID TIMING',
+        title: 'Ingest 20–60 Minutes After A Meal Containing Healthy Fats',
+        metric: 'Chylomicron Transport Of Lipophilic Macamides',
+        desc: 'Because macamides are nonpolar fatty-acid amides, taking your capsule after breakfast or dinner boosts intestinal uptake.',
+      },
+      {
+        code: 'MACA-04 · TANNIN BUFFER',
+        title: 'Keep A 45-Minute Buffer From Teh Tarik & Kopi O',
+        metric: 'Prevents Polyphenol Binding Of Tongkat Ali Quassinoids',
+        desc: 'Swallow your capsule with 300ml plain warm water and separate coffee or milk tea by at least 45 minutes.',
+      },
+      {
+        code: 'MACA-05 · BUNDLE SAVINGS',
+        title: 'Lock In A 40-To-90 Day Cycle At RM 286 (2B) Or RM 405 (3B)',
+        metric: '10% To 15% OFF · Free Discreet Malaysia COD',
+        desc: 'Macamide and quassinoid tissue saturation peaks between Days 14 and 30—secure 2 or 3 bottles for uninterrupted results.',
+      },
+    ],
+    faqs: [
+      {
+        questionEn: 'What is Maca Root called in Malay (Bahasa Malaysia)?',
+        answerEn:
+          'In Bahasa Malaysia, Maca Root (Lepidium meyenii) is called "Akar Maca", "Ubi Maca Hitam Peru", or "Ginseng Peru". It is an adaptogenic root native to the Peruvian Andes prized for its stamina-supporting macamides.',
+      },
+      {
+        questionEn: 'Which Onyxmen Malaysia capsule has the highest dose of Tongkat Ali and Black Maca?',
+        answerEn:
+          'Horsemen (20 Capsules × 500mg, SKU: ONYX-HM-20, RM 159) contains our highest single-capsule concentration of Malaysian Tongkat Ali 100:1 (150mg) alongside 100mg of Gelatinized Peruvian Black Maca and 80mg Epimedium Icariin. For a 30-capsule daily bottle, Grow XL delivers 140mg Tongkat Ali 100:1 plus 110mg Dual Maca.',
+      },
+      {
+        questionEn: 'Can I take Akar Maca and Tongkat Ali together in the same capsule?',
+        answerEn:
+          'Yes. In fact, taking them together is superior to taking either herb alone: Tongkat Ali 100:1 modulates cortisol and SHBG binding, while Gelatinized Black Maca supports cellular ATP energy and drive via a completely separate non-hormonal pathway.',
+      },
+      {
+        questionEn: 'Where can I buy authentic Maca Root and Tongkat Ali capsules with COD in Malaysia?',
+        answerEn:
+          'You can order Horsemen, Grow XL, Hammer of Thor, or Magnum Pump XR directly on https://www.onyxmen.my or via WhatsApp (+60 14-298 5919) at RM 159 (1 Bottle), RM 286 (2 Bottles, 10% OFF), or RM 405 (3 Bottles, 15% OFF) with 100% plain-box COD.',
+      },
+    ],
+  },
+
+  // ==========================================================================
+  // GUIDE 14 (ONYX-STD): HOW LONG DO HAMMER OF THOR, HORSEMEN & GROW XL TAKE TO WORK?
+  // ==========================================================================
+  {
+    guideNumber: 14,
+    microStep: 'ONYX-STD',
+    guideCode: 'GUIDE-14 · ONSET & 30-DAY TIMELINE',
+    slug: 'how-long-does-hammer-of-thor-horsemen-grow-xl-take-to-work',
+    canonicalEnPath: '/guides/how-long-does-hammer-of-thor-horsemen-grow-xl-take-to-work/',
+    alternateMsPath: '/ms/panduan/berapa-lama-kesan-hammer-of-thor-horsemen-grow-xl-malaysia/',
+    enOutputPaths: [
+      'guides/how-long-does-hammer-of-thor-horsemen-grow-xl-take-to-work/index.html',
+    ],
+    watermark: 'TIMELINE',
+    primaryProductSlug: 'magnum-pump-xr',
+    heroImage: '/assets/products/magnum-pump-xr-stage.webp',
+    portraitImage: '/assets/products/horsemen-portrait.webp',
+    publishedDate: '2026-11-11T08:00:00+08:00',
+    updatedDate: '2026-11-11T08:00:00+08:00',
+    readingTime: '11 Min Pharmacokinetic Timeline Read',
+    seoTitle:
+      'How Long Do Hammer of Thor, Horsemen & Grow XL Take to Work?',
+    metaDescription:
+      '✓ Exact onset timeline for Hammer of Thor, Horsemen, Grow XL & Magnum Pump XR in Malaysia: 35-min Nitric Oxide surge vs 30-day cycle saturation. RM 159 COD.',
+    kicker: 'ONYX-STD · PROTOCOL GUIDE 14 · ACUTE 30-MINUTE ONSET VS. 30-TO-90 DAY CONDITIONING TIMELINE',
+    headline:
+      'How Long Do Hammer of Thor, Horsemen, Grow XL &amp; Magnum Pump XR Take To Work? <span class="foil-champagne-text">30-Min Onset vs. 30-Day Cycle.</span>',
+    taxonomyStrip: [
+      '01 · MINUTE 30–45: MAGNUM PUMP XR NITRIC OXIDE SURGE',
+      '02 · MINUTE 45–60: HORSEMEN EVENING READINESS T-MAX',
+      '03 · DAYS 5–14: TONGKAT ALI & TRIBULUS SAPONIN SATURATION',
+      '04 · DAYS 20–90: GROW XL FULL PELVIC & VITALITY EQUILIBRIUM',
+    ],
+    executiveSummary:
+      'One of the most frequent questions asked on our Kuala Lumpur WhatsApp desk (+60 14-298 5919) is: "How fast will I feel Magnum Pump XR, Horsemen, Hammer of Thor, or Grow XL after swallowing my first capsule?" Because authentic Onyxmen formulations combine rapid-acting Nitric Oxide amino acids with cumulative botanical adaptogens, your results unfold across two distinct physiological horizons: an Acute 30-to-60 Minute Vascular Window and a Cumulative 7-to-30 Day Tissue Conditioning Curve.',
+    telemetry: [
+      {
+        key: '01 · PHASE I (MINUTE 30–45)',
+        val: 'Magnum Pump XR eNOS Surge',
+        sub: '180mg L-Arginine HCl + Bioperine® rapid vascular onset',
+      },
+      {
+        key: '02 · PHASE II (MINUTE 45–90)',
+        val: 'Horsemen Evening Peak',
+        sub: '150mg Tongkat Ali 100:1 + 80mg Icariin + 80mg L-Arginine',
+      },
+      {
+        key: '03 · PHASE III (DAYS 5–14)',
+        val: 'Cortisol & Saponin Build-Up',
+        sub: 'Hammer of Thor 60% Saponins & Maca ATP accumulation',
+      },
+      {
+        key: '04 · PHASE IV (DAYS 20–90)',
+        val: 'Grow XL Full Equilibrium',
+        sub: 'Muira Puama + Saw Palmetto 30-to-90 day mastery (RM 286 / RM 405)',
+      },
+    ],
+    pinnedSummaryBullets: [
+      'Minute 6–8: Low-moisture HPMC capsule shell ruptures in warm gastric fluid (300ml water required)',
+      'Minute 30–45 (Magnum Pump XR): Wave-1 L-Arginine HCl (180mg) + Bioperine® trigger endothelial Nitric Oxide vasodilation',
+      'Minute 45–60 (Horsemen): 150mg Tongkat Ali 100:1 + 80mg Epimedium Icariin + 80mg L-Arginine reach evening plasma readiness',
+      'Days 5–14 (Hammer of Thor & All 4): Steroidal saponins (200mg Tribulus) and macamides stabilize afternoon/evening energy',
+      'Days 20–90 (Grow XL & 2/3-Bottle Bundles): Full neuro-sterol, pelvic Saw Palmetto, and free-vitality baseline consolidation',
+    ],
+    chapters: [
+      {
+        kicker: 'CHAPTER 01 · THE ACUTE WINDOW (MINUTE 0 TO HOUR 5): HOW FAST FIRST-DAY CAPSULES ACT',
+        title: 'Minute-By-Minute Pharmacokinetics Of Magnum Pump XR (30–45m) & Horsemen (45–60m).',
+        paragraphs: [
+          'When you swallow 1 black capsule of Magnum Pump XR (600mg) or 1 capsule of Horsemen (500mg) with 300ml–350ml of warm plain water on a light stomach (45 minutes after dinner), the hypromellose capsule shell dissolves within 6 to 8 minutes. By Minute 30 to 45, the free-form L-Arginine HCl (180mg in Magnum Pump XR; 80mg in Horsemen) chaperoned by Bioperine® crosses the intestinal brush border and activates endothelial Nitric Oxide Synthase (eNOS), relaxing vascular smooth muscle and increasing peripheral blood flow.',
+          'Between Minute 45 and Minute 90, Horsemen’s aqueous 100:1 Tongkat Ali quassinoids (150mg) and Epimedium icariin flavonoids (80mg) reach peak plasma concentration (Tmax), while Magnum Pump XR’s second-wave L-Citrulline Malate (120mg) recycles through the kidneys to sustain vascular fullness from Hour 1 through Hour 5.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 02 · THE SUB-ACUTE WINDOW (DAYS 5 TO 14): CORTISOL, SHBG & SAPONIN LOADING',
+        title: 'Why Hammer of Thor & Horsemen Feel Stronger In Week 2 Than On Night 1.',
+        paragraphs: [
+          'Unlike synthetic pharmaceuticals that force a temporary 4-hour chemical spike followed by an exhaustion crash, standardized botanical adaptogens build progressive cellular momentum. Between Days 5 and 14 of consecutive daily intake, Hammer of Thor’s 200mg Tribulus terrestris (60% furostanol saponins / 40mg protodioscin) and 15mg Zinc Bisglycinate upregulate androgen-receptor sensitivity and muscular recovery velocity.',
+          'Simultaneously, daily exposure to Malaysian Tongkat Ali 100:1 (in Horsemen, Grow XL, Hammer of Thor, and Magnum Pump XR) progressively lowers elevated evening cortisol caused by Malaysian traffic commutes and sleep debt—meaning your natural evening drive feels noticeably stronger in Week 2 than on Day 1.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 03 · THE FULL-MONTH HORIZON (DAYS 15 TO 30): GROW XL LIPOPHILIC CONDITIONING',
+        title: 'How Muira Puama Sterols & Saw Palmetto Fatty Acids Saturate Over 30 Days.',
+        paragraphs: [
+          'For men taking Grow XL (30 Capsules × 550mg, SKU: ONYX-GX-30) every morning after breakfast, the deepest benefits emerge between Days 15 and 30. Lipophilic sterol esters from Brazilian Muira Puama (100mg) and free fatty acids from Supercritical Saw Palmetto (80mg) integrate gradually into neuronal and prostatic cell membranes over 2 to 3 weeks of daily post-breakfast lipid absorption.',
+          'By Day 25 to Day 30, this cumulative saturation supports consistent morning vitality, all-day mental sharpness (assisted by 70mg Ginkgo Biloba), and comfortable adult male pelvic wellness.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 04 · PREVENTING CYCLE WASHOUT: WHY 60-DAY (RM 286) & 90-DAY (RM 405) BUNDLES WIN',
+        title: 'How Day-18 & Day-25 Refill Synchronization Protects Your Hard-Earned Gains.',
+        paragraphs: [
+          'Clinical phytotherapy studies on Eurycoma longifolia, Lepidium meyenii, and Tribulus terrestris confirm that stopping supplementation abruptly after a single 20-day or 30-day bottle allows SHBG and cortisol levels to drift back toward baseline over the following 2 weeks. That is why our most successful Malaysian clients lock in a continuous 40-to-90 day horizon from the start.',
+          'Ordering 2 Bottles for RM 286 (10% OFF — Save RM 32) or 3 Bottles for RM 405 (15% OFF — Save RM 72) via https://www.onyxmen.my or WhatsApp (+60 14-298 5919) guarantees zero gap between bottles and includes 100% free discreet plain-box Cash on Delivery (COD) nationwide.',
+        ],
+      },
+    ],
+    protocolSteps: [
+      {
+        code: 'TIME-01 · MIN 30–45',
+        title: 'Take Magnum Pump XR 30–45 Mins Before Gym Or Evening Activity',
+        metric: 'Wave-1 L-Arginine HCl (180mg) + Bioperine® Onset',
+        desc: 'Swallow 1 black capsule with 350ml plain water on a light stomach to align peak eNOS Nitric Oxide with your session.',
+      },
+      {
+        code: 'TIME-02 · MIN 45–60',
+        title: 'Take Horsemen 45–60 Mins After Dinner For Evening Readiness',
+        metric: '150mg Tongkat Ali 100:1 + 80mg Epimedium Icariin Tmax',
+        desc: 'Allow 45–60 minutes after dinner with 300ml warm water for full duodenal uptake of quassinoids and icariin.',
+      },
+      {
+        code: 'TIME-03 · DAYS 5–14',
+        title: 'Maintain Daily Intake Through Week 2 For Saponin & Cortisol Reset',
+        metric: 'Hammer of Thor 200mg Tribulus (60% Saponins) + Maca',
+        desc: 'Stay consistent every day so furostanol saponins, macamides, and Zinc Bisglycinate reach steady-state plasma levels.',
+      },
+      {
+        code: 'TIME-04 · DAYS 15–30',
+        title: 'Complete All 30 Morning Capsules Of Grow XL Post-Breakfast',
+        metric: '100mg Muira Puama + 80mg Saw Palmetto Membrane Saturation',
+        desc: 'Take 1 Grow XL capsule 20–30 minutes after breakfast daily for a full calendar month to consolidate baseline vitality.',
+      },
+      {
+        code: 'TIME-05 · DAYS 31–90',
+        title: 'Transition Seamlessly Into Bottle #2 (RM 286) & Bottle #3 (RM 405)',
+        metric: 'Save 10% To 15% · Zero Washout Gap',
+        desc: 'Use our Day-18 (20 Caps) or Day-25 (30 Caps) refill sync—or reserve the 2-Bottle/3-Bottle bundle upfront with free COD.',
+      },
+    ],
+    faqs: [
+      {
+        questionEn: 'Which Onyxmen capsule works the fastest on the very first evening?',
+        answerEn:
+          'Magnum Pump XR (30 Black Capsules × 600mg) initiates first-wave endothelial Nitric Oxide blood flow fastest—within 30 to 45 minutes—thanks to 180mg micronized L-Arginine HCl, 120mg L-Citrulline Malate, and Bioperine®. Horsemen (20 Capsules × 500mg) reaches peak evening adaptogenic and vascular readiness within 45 to 60 minutes.',
+      },
+      {
+        questionEn: 'How many days does it take to feel the full effect of Grow XL or Hammer of Thor?',
+        answerEn:
+          'While microvascular amino acids and ginseng support daytime energy within the first 3 to 5 days, the deeper adaptogenic, saponin, and lipophilic sterol benefits of Hammer of Thor (200mg Tribulus 60% Saponins) and Grow XL (Tongkat Ali, Muira Puama, Saw Palmetto) build progressively over Days 7 to 14 and reach full saturation between Days 20 and 30.',
+      },
+      {
+        questionEn: 'Why did my capsule take longer than 60 minutes to kick in?',
+        answerEn:
+          'If you swallow a capsule immediately after a heavy, oily meal (such as fried mamak dishes) or wash it down with Teh Tarik / Kopi O, delayed gastric emptying and tea tannins can slow absorption to 90–120 minutes. Always wait 45 minutes after dinner and use 300ml of plain warm water.',
+      },
+      {
+        questionEn: 'Should I buy 1 bottle (RM 159) or 2 bottles (RM 286) for my first cycle?',
+        answerEn:
+          'You can start with 1 Bottle (RM 159) to experience the initial 20-to-30 day cycle, or choose the 2-Bottle Bundle (RM 286 — 10% OFF, save RM 32) so your cycle continues seamlessly through Days 21–60 when tissue saturation is at its peak.',
+      },
+    ],
   }
 );
 

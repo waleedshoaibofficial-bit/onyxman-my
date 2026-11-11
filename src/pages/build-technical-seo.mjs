@@ -46,9 +46,8 @@ const WELL_KNOWN_DIR = path.join(PUBLIC_DIR, '.well-known');
 
 const LASTMOD_DATE = '2026-11-05';
 const UPDATED_GUIDES_DATE = '2026-11-10';
+const WAVE2_GUIDES_DATE = '2026-11-11';
 const UPDATED_GUIDE_ROUTES = new Set([
-  '/guides/',
-  '/ms/panduan/',
   '/guides/hammer-of-thor-original-vs-fake-malaysia/',
   '/ms/panduan/hammer-of-thor-original-vs-tiruan-malaysia/',
   '/guides/growxl-for-men-30-capsule-dosage-guide-malaysia/',
@@ -57,6 +56,18 @@ const UPDATED_GUIDE_ROUTES = new Set([
   '/ms/panduan/panduan-horsemen-kapsul-original-500mg-malaysia/',
   '/guides/magnum-pump-xr-30-black-capsules-nitric-oxide-guide/',
   '/ms/panduan/panduan-magnum-pump-xr-30-kapsul-hitam-malaysia/',
+]);
+const WAVE2_GUIDE_ROUTES = new Set([
+  '/guides/',
+  '/ms/panduan/',
+  '/guides/grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia/',
+  '/ms/panduan/perbezaan-grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia/',
+  '/guides/hammer-of-thor-horsemen-grow-xl-side-effects-safety-malaysia/',
+  '/ms/panduan/kesan-sampingan-hammer-of-thor-horsemen-grow-xl-keselamatan/',
+  '/guides/maca-root-in-malay-akar-maca-tongkat-ali-supplement-malaysia/',
+  '/ms/panduan/akar-maca-dalam-bahasa-melayu-dan-tongkat-ali-malaysia/',
+  '/guides/how-long-does-hammer-of-thor-horsemen-grow-xl-take-to-work/',
+  '/ms/panduan/berapa-lama-kesan-hammer-of-thor-horsemen-grow-xl-malaysia/',
 ]);
 
 /**
@@ -372,7 +383,7 @@ function collectAllBilingualRoutes() {
     for (const entry of entries) {
       const fullPath = path.join(dir, entry.name);
       if (entry.isDirectory()) {
-        if (entry.name === 'assets' || entry.name === '.well-known') continue;
+        if (entry.name === 'assets' || entry.name === '.well-known' || entry.name === 'seo-dashboard') continue;
         walkDir(fullPath);
       } else if (entry.isFile() && entry.name === 'index.html') {
         const relDir = path.relative(PUBLIC_DIR, path.dirname(fullPath)).replace(/\\/g, '/');
@@ -528,7 +539,11 @@ function renderUrlsetXml(entries, bannerComment) {
         )
         .join('\n');
 
-      const routeLastmod = UPDATED_GUIDE_ROUTES.has(entry.routePath) ? UPDATED_GUIDES_DATE : LASTMOD_DATE;
+      const routeLastmod = WAVE2_GUIDE_ROUTES.has(entry.routePath)
+        ? WAVE2_GUIDES_DATE
+        : UPDATED_GUIDE_ROUTES.has(entry.routePath)
+          ? UPDATED_GUIDES_DATE
+          : LASTMOD_DATE;
       return `  <url>
     <loc>${escXml(entry.loc)}</loc>
     <xhtml:link rel="alternate" hreflang="en-MY" href="${escXml(entry.enUrl)}" />
@@ -565,11 +580,11 @@ function buildSitemapIndexXml() {
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://www.onyxmen.my/sitemap-en.xml</loc>
-    <lastmod>${UPDATED_GUIDES_DATE}</lastmod>
+    <lastmod>${WAVE2_GUIDES_DATE}</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.onyxmen.my/sitemap-ms.xml</loc>
-    <lastmod>${UPDATED_GUIDES_DATE}</lastmod>
+    <lastmod>${WAVE2_GUIDES_DATE}</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.onyxmen.my/sitemap-images.xml</loc>

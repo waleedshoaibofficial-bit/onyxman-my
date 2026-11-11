@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- ONYXMEN MALAYSIA (https://www.onyxmen.my) — BAHASA MALAYSIA (ms-MY) XML SITEMAP (56 URLS) -->
+<!-- ONYXMEN MALAYSIA (https://www.onyxmen.my) — BAHASA MALAYSIA (ms-MY) XML SITEMAP (58 URLS) -->
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml"
@@ -157,7 +157,7 @@
     <xhtml:link rel="alternate" hreflang="en-MY" href="https://www.onyxmen.my/guides/" />
     <xhtml:link rel="alternate" hreflang="ms-MY" href="https://www.onyxmen.my/ms/panduan/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.onyxmen.my/guides/" />
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
     <image:image>
@@ -360,10 +360,94 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.onyxmen.my/ms/panduan/akar-maca-dalam-bahasa-melayu-dan-tongkat-ali-malaysia/</loc>
+    <xhtml:link rel="alternate" hreflang="en-MY" href="https://www.onyxmen.my/guides/maca-root-in-malay-akar-maca-tongkat-ali-supplement-malaysia/" />
+    <xhtml:link rel="alternate" hreflang="ms-MY" href="https://www.onyxmen.my/ms/panduan/akar-maca-dalam-bahasa-melayu-dan-tongkat-ali-malaysia/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.onyxmen.my/guides/maca-root-in-malay-akar-maca-tongkat-ali-supplement-malaysia/" />
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/onyxman-lineup-hero.webp</image:loc>
+      <image:title>Onyxmen Malaysia Complete 4-Bottle Botanical Vitality Lineup — Horsemen, Hammer of Thor, Grow XL &amp; Magnum Pump XR (RM 159)</image:title>
+      <image:caption>Official Onyxmen Malaysia studio showcase of all four adult male botanical dietary supplements: Horsemen (20 Capsules x 500mg), Hammer of Thor (20 Veg. Capsules), Grow XL (30 Capsules), and Magnum Pump XR (30 Black Capsules) at uniform RM 159 pricing with 100% discreet unmarked parcel delivery across all 16 Malaysian states.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/horsemen.webp</image:loc>
+      <image:title>Horsemen Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg | RM 159 Onyxmen Malaysia (SKU: ONYX-HM-20)</image:title>
+      <image:caption>Authentic Horsemen 20 Capsules x 500mg obsidian apothecary bottle by Onyxmen Malaysia formulated with 150mg Malaysian Tongkat Ali 100:1, 100mg Peruvian Black Maca, 80mg Epimedium, 80mg L-Arginine HCl, and 60mg Korean Red Panax Ginseng. RM 159 per bottle with Day-18 refill protocol.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/hammer-of-thor.webp</image:loc>
+      <image:title>Hammer of Thor Men&apos;s Health Tribulus Terrestris — 20 Veg. Capsules | RM 159 Onyxmen Malaysia (SKU: ONYX-HT-20)</image:title>
+      <image:caption>Authentic Hammer of Thor 20 Veg. Capsules (plant-derived HPMC vegetarian shells) by Onyxmen Malaysia featuring 200mg Standardized Tribulus Terrestris (60% Saponins), 100mg Peruvian Maca, 75mg Panax Ginseng, 65mg Saw Palmetto, 45mg Tongkat Ali, and 15mg Zinc Bisglycinate. RM 159 per bottle.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/grow-xl.webp</image:loc>
+      <image:title>Grow XL #1 Selling Product Extra-Strength Enhancement Male Performance Blend — 30 Capsules | RM 159 Onyxmen Malaysia (SKU: ONYX-GX-30)</image:title>
+      <image:caption>Authentic Grow XL 30 Capsules (550mg per capsule) 30-day daily conditioning bottle by Onyxmen Malaysia formulated with 140mg Tongkat Ali 100:1, 120mg L-Arginine &amp; L-Citrulline, 100mg Muira Puama, 80mg Saw Palmetto, 70mg Ginkgo Biloba, and 40mg Korean Red Ginseng &amp; Zinc. RM 159 per bottle with Day-25 refill protocol.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/magnum-pump-xr.webp</image:loc>
+      <image:title>Magnum Pump XR Testosterone Pro Series Male Enhancement Formula Maximum Strength — 30 Black Capsules | RM 159 Onyxmen Malaysia (SKU: ONYX-MP-30)</image:title>
+      <image:caption>Authentic Magnum Pump XR 30 Black Capsules (600mg per capsule) oral botanical and amino-acid Dietary Supplement by Onyxmen Malaysia formulated with 180mg L-Arginine HCl, 120mg L-Citrulline Malate, 110mg Tribulus Terrestris, 90mg Tongkat Ali 100:1, 70mg Maca &amp; Fenugreek, and 30mg Bioperine &amp; Zinc. RM 159 per bottle.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.onyxmen.my/ms/panduan/berapa-lama-kesan-hammer-of-thor-horsemen-grow-xl-malaysia/</loc>
+    <xhtml:link rel="alternate" hreflang="en-MY" href="https://www.onyxmen.my/guides/how-long-does-hammer-of-thor-horsemen-grow-xl-take-to-work/" />
+    <xhtml:link rel="alternate" hreflang="ms-MY" href="https://www.onyxmen.my/ms/panduan/berapa-lama-kesan-hammer-of-thor-horsemen-grow-xl-malaysia/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.onyxmen.my/guides/how-long-does-hammer-of-thor-horsemen-grow-xl-take-to-work/" />
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/horsemen.webp</image:loc>
+      <image:title>Horsemen Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg | RM 159 Onyxmen Malaysia (SKU: ONYX-HM-20)</image:title>
+      <image:caption>Authentic Horsemen 20 Capsules x 500mg obsidian apothecary bottle by Onyxmen Malaysia formulated with 150mg Malaysian Tongkat Ali 100:1, 100mg Peruvian Black Maca, 80mg Epimedium, 80mg L-Arginine HCl, and 60mg Korean Red Panax Ginseng. RM 159 per bottle with Day-18 refill protocol.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/horsemen-stage.webp</image:loc>
+      <image:title>Horsemen Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg | RM 159 Onyxmen Malaysia (SKU: ONYX-HM-20) — 1600x1200 Obsidian Stage</image:title>
+      <image:caption>Authentic Horsemen 20 Capsules x 500mg obsidian apothecary bottle by Onyxmen Malaysia formulated with 150mg Malaysian Tongkat Ali 100:1, 100mg Peruvian Black Maca, 80mg Epimedium, 80mg L-Arginine HCl, and 60mg Korean Red Panax Ginseng. RM 159 per bottle with Day-18 refill protocol.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/horsemen-cutout.webp</image:loc>
+      <image:title>Horsemen Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg | RM 159 Onyxmen Malaysia (SKU: ONYX-HM-20) — Studio Transparent Cutout</image:title>
+      <image:caption>Authentic Horsemen 20 Capsules x 500mg obsidian apothecary bottle by Onyxmen Malaysia formulated with 150mg Malaysian Tongkat Ali 100:1, 100mg Peruvian Black Maca, 80mg Epimedium, 80mg L-Arginine HCl, and 60mg Korean Red Panax Ginseng. RM 159 per bottle with Day-18 refill protocol.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/hammer-of-thor.webp</image:loc>
+      <image:title>Hammer of Thor Men&apos;s Health Tribulus Terrestris — 20 Veg. Capsules | RM 159 Onyxmen Malaysia (SKU: ONYX-HT-20)</image:title>
+      <image:caption>Authentic Hammer of Thor 20 Veg. Capsules (plant-derived HPMC vegetarian shells) by Onyxmen Malaysia featuring 200mg Standardized Tribulus Terrestris (60% Saponins), 100mg Peruvian Maca, 75mg Panax Ginseng, 65mg Saw Palmetto, 45mg Tongkat Ali, and 15mg Zinc Bisglycinate. RM 159 per bottle.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/hammer-of-thor-stage.webp</image:loc>
+      <image:title>Hammer of Thor Men&apos;s Health Tribulus Terrestris — 20 Veg. Capsules | RM 159 Onyxmen Malaysia (SKU: ONYX-HT-20) — 1600x1200 Obsidian Stage</image:title>
+      <image:caption>Authentic Hammer of Thor 20 Veg. Capsules (plant-derived HPMC vegetarian shells) by Onyxmen Malaysia featuring 200mg Standardized Tribulus Terrestris (60% Saponins), 100mg Peruvian Maca, 75mg Panax Ginseng, 65mg Saw Palmetto, 45mg Tongkat Ali, and 15mg Zinc Bisglycinate. RM 159 per bottle.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/hammer-of-thor-cutout.webp</image:loc>
+      <image:title>Hammer of Thor Men&apos;s Health Tribulus Terrestris — 20 Veg. Capsules | RM 159 Onyxmen Malaysia (SKU: ONYX-HT-20) — Studio Transparent Cutout</image:title>
+      <image:caption>Authentic Hammer of Thor 20 Veg. Capsules (plant-derived HPMC vegetarian shells) by Onyxmen Malaysia featuring 200mg Standardized Tribulus Terrestris (60% Saponins), 100mg Peruvian Maca, 75mg Panax Ginseng, 65mg Saw Palmetto, 45mg Tongkat Ali, and 15mg Zinc Bisglycinate. RM 159 per bottle.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.onyxmen.my/ms/panduan/cara-semak-ketulenan-botol-onyxman-malaysia/</loc>
-    <xhtml:link rel="alternate" hreflang="en-MY" href="https://www.onyxmen.my/guides/how-to-verify-authentic-onyxman-bottles-malaysia/" />
+    <xhtml:link rel="alternate" hreflang="en-MY" href="https://www.onyxmen.my/guides/authentic-onyxman-bottle-verification-malaysia/" />
     <xhtml:link rel="alternate" hreflang="ms-MY" href="https://www.onyxmen.my/ms/panduan/cara-semak-ketulenan-botol-onyxman-malaysia/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.onyxmen.my/guides/how-to-verify-authentic-onyxman-bottles-malaysia/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.onyxmen.my/guides/authentic-onyxman-bottle-verification-malaysia/" />
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -426,10 +510,55 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.onyxmen.my/ms/panduan/kesan-sampingan-hammer-of-thor-horsemen-grow-xl-keselamatan/</loc>
+    <xhtml:link rel="alternate" hreflang="en-MY" href="https://www.onyxmen.my/guides/hammer-of-thor-horsemen-grow-xl-side-effects-safety-malaysia/" />
+    <xhtml:link rel="alternate" hreflang="ms-MY" href="https://www.onyxmen.my/ms/panduan/kesan-sampingan-hammer-of-thor-horsemen-grow-xl-keselamatan/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.onyxmen.my/guides/hammer-of-thor-horsemen-grow-xl-side-effects-safety-malaysia/" />
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/horsemen.webp</image:loc>
+      <image:title>Horsemen Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg | RM 159 Onyxmen Malaysia (SKU: ONYX-HM-20)</image:title>
+      <image:caption>Authentic Horsemen 20 Capsules x 500mg obsidian apothecary bottle by Onyxmen Malaysia formulated with 150mg Malaysian Tongkat Ali 100:1, 100mg Peruvian Black Maca, 80mg Epimedium, 80mg L-Arginine HCl, and 60mg Korean Red Panax Ginseng. RM 159 per bottle with Day-18 refill protocol.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/horsemen-stage.webp</image:loc>
+      <image:title>Horsemen Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg | RM 159 Onyxmen Malaysia (SKU: ONYX-HM-20) — 1600x1200 Obsidian Stage</image:title>
+      <image:caption>Authentic Horsemen 20 Capsules x 500mg obsidian apothecary bottle by Onyxmen Malaysia formulated with 150mg Malaysian Tongkat Ali 100:1, 100mg Peruvian Black Maca, 80mg Epimedium, 80mg L-Arginine HCl, and 60mg Korean Red Panax Ginseng. RM 159 per bottle with Day-18 refill protocol.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/horsemen-cutout.webp</image:loc>
+      <image:title>Horsemen Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg | RM 159 Onyxmen Malaysia (SKU: ONYX-HM-20) — Studio Transparent Cutout</image:title>
+      <image:caption>Authentic Horsemen 20 Capsules x 500mg obsidian apothecary bottle by Onyxmen Malaysia formulated with 150mg Malaysian Tongkat Ali 100:1, 100mg Peruvian Black Maca, 80mg Epimedium, 80mg L-Arginine HCl, and 60mg Korean Red Panax Ginseng. RM 159 per bottle with Day-18 refill protocol.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/hammer-of-thor.webp</image:loc>
+      <image:title>Hammer of Thor Men&apos;s Health Tribulus Terrestris — 20 Veg. Capsules | RM 159 Onyxmen Malaysia (SKU: ONYX-HT-20)</image:title>
+      <image:caption>Authentic Hammer of Thor 20 Veg. Capsules (plant-derived HPMC vegetarian shells) by Onyxmen Malaysia featuring 200mg Standardized Tribulus Terrestris (60% Saponins), 100mg Peruvian Maca, 75mg Panax Ginseng, 65mg Saw Palmetto, 45mg Tongkat Ali, and 15mg Zinc Bisglycinate. RM 159 per bottle.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/hammer-of-thor-stage.webp</image:loc>
+      <image:title>Hammer of Thor Men&apos;s Health Tribulus Terrestris — 20 Veg. Capsules | RM 159 Onyxmen Malaysia (SKU: ONYX-HT-20) — 1600x1200 Obsidian Stage</image:title>
+      <image:caption>Authentic Hammer of Thor 20 Veg. Capsules (plant-derived HPMC vegetarian shells) by Onyxmen Malaysia featuring 200mg Standardized Tribulus Terrestris (60% Saponins), 100mg Peruvian Maca, 75mg Panax Ginseng, 65mg Saw Palmetto, 45mg Tongkat Ali, and 15mg Zinc Bisglycinate. RM 159 per bottle.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/hammer-of-thor-cutout.webp</image:loc>
+      <image:title>Hammer of Thor Men&apos;s Health Tribulus Terrestris — 20 Veg. Capsules | RM 159 Onyxmen Malaysia (SKU: ONYX-HT-20) — Studio Transparent Cutout</image:title>
+      <image:caption>Authentic Hammer of Thor 20 Veg. Capsules (plant-derived HPMC vegetarian shells) by Onyxmen Malaysia featuring 200mg Standardized Tribulus Terrestris (60% Saponins), 100mg Peruvian Maca, 75mg Panax Ginseng, 65mg Saw Palmetto, 45mg Tongkat Ali, and 15mg Zinc Bisglycinate. RM 159 per bottle.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.onyxmen.my/ms/panduan/masa-pengambilan-kapsul-dan-penyerapan-optimum/</loc>
-    <xhtml:link rel="alternate" hreflang="en-MY" href="https://www.onyxmen.my/guides/optimal-capsule-timing-and-absorption-protocol/" />
+    <xhtml:link rel="alternate" hreflang="en-MY" href="https://www.onyxmen.my/guides/capsule-timing-absorption-protocol/" />
     <xhtml:link rel="alternate" hreflang="ms-MY" href="https://www.onyxmen.my/ms/panduan/masa-pengambilan-kapsul-dan-penyerapan-optimum/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.onyxmen.my/guides/optimal-capsule-timing-and-absorption-protocol/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.onyxmen.my/guides/capsule-timing-absorption-protocol/" />
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -466,9 +595,9 @@
   </url>
   <url>
     <loc>https://www.onyxmen.my/ms/panduan/nutrisi-kecergasan-dan-stamina-lelaki-iklim-tropika-malaysia/</loc>
-    <xhtml:link rel="alternate" hreflang="en-MY" href="https://www.onyxmen.my/guides/malaysian-mens-vitality-and-tropical-stamina-nutrition/" />
+    <xhtml:link rel="alternate" hreflang="en-MY" href="https://www.onyxmen.my/guides/malaysian-mens-vitality-tropical-stamina-nutrition/" />
     <xhtml:link rel="alternate" hreflang="ms-MY" href="https://www.onyxmen.my/ms/panduan/nutrisi-kecergasan-dan-stamina-lelaki-iklim-tropika-malaysia/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.onyxmen.my/guides/malaysian-mens-vitality-and-tropical-stamina-nutrition/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.onyxmen.my/guides/malaysian-mens-vitality-tropical-stamina-nutrition/" />
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -586,9 +715,9 @@
   </url>
   <url>
     <loc>https://www.onyxmen.my/ms/panduan/panduan-pemilihan-kitaran-20-kapsul-vs-30-kapsul/</loc>
-    <xhtml:link rel="alternate" hreflang="en-MY" href="https://www.onyxmen.my/guides/20-capsule-vs-30-capsule-cycle-selection-guide/" />
+    <xhtml:link rel="alternate" hreflang="en-MY" href="https://www.onyxmen.my/guides/20-capsule-vs-30-capsule-cycle-selection/" />
     <xhtml:link rel="alternate" hreflang="ms-MY" href="https://www.onyxmen.my/ms/panduan/panduan-pemilihan-kitaran-20-kapsul-vs-30-kapsul/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.onyxmen.my/guides/20-capsule-vs-30-capsule-cycle-selection-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.onyxmen.my/guides/20-capsule-vs-30-capsule-cycle-selection/" />
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -625,9 +754,9 @@
   </url>
   <url>
     <loc>https://www.onyxmen.my/ms/panduan/panduan-tempahan-bungkusan-rahsia-cod-fpx-malaysia/</loc>
-    <xhtml:link rel="alternate" hreflang="en-MY" href="https://www.onyxmen.my/guides/discreet-plain-box-cod-fpx-ordering-guide-malaysia/" />
+    <xhtml:link rel="alternate" hreflang="en-MY" href="https://www.onyxmen.my/guides/discreet-plain-box-cod-fpx-ordering-malaysia/" />
     <xhtml:link rel="alternate" hreflang="ms-MY" href="https://www.onyxmen.my/ms/panduan/panduan-tempahan-bungkusan-rahsia-cod-fpx-malaysia/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.onyxmen.my/guides/discreet-plain-box-cod-fpx-ordering-guide-malaysia/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.onyxmen.my/guides/discreet-plain-box-cod-fpx-ordering-malaysia/" />
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -664,9 +793,9 @@
   </url>
   <url>
     <loc>https://www.onyxmen.my/ms/panduan/perbezaan-asid-amino-nitrik-oksida-dan-herba-adaptogenik/</loc>
-    <xhtml:link rel="alternate" hreflang="en-MY" href="https://www.onyxmen.my/guides/nitric-oxide-amino-acids-vs-adaptogenic-herbs-guide/" />
+    <xhtml:link rel="alternate" hreflang="en-MY" href="https://www.onyxmen.my/guides/nitric-oxide-amino-acids-vs-adaptogenic-herbs/" />
     <xhtml:link rel="alternate" hreflang="ms-MY" href="https://www.onyxmen.my/ms/panduan/perbezaan-asid-amino-nitrik-oksida-dan-herba-adaptogenik/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.onyxmen.my/guides/nitric-oxide-amino-acids-vs-adaptogenic-herbs-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.onyxmen.my/guides/nitric-oxide-amino-acids-vs-adaptogenic-herbs/" />
     <lastmod>2026-11-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
@@ -698,6 +827,51 @@
       <image:loc>https://www.onyxmen.my/assets/products/magnum-pump-xr.webp</image:loc>
       <image:title>Magnum Pump XR Testosterone Pro Series Male Enhancement Formula Maximum Strength — 30 Black Capsules | RM 159 Onyxmen Malaysia (SKU: ONYX-MP-30)</image:title>
       <image:caption>Authentic Magnum Pump XR 30 Black Capsules (600mg per capsule) oral botanical and amino-acid Dietary Supplement by Onyxmen Malaysia formulated with 180mg L-Arginine HCl, 120mg L-Citrulline Malate, 110mg Tribulus Terrestris, 90mg Tongkat Ali 100:1, 70mg Maca &amp; Fenugreek, and 30mg Bioperine &amp; Zinc. RM 159 per bottle.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.onyxmen.my/ms/panduan/perbezaan-grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia/</loc>
+    <xhtml:link rel="alternate" hreflang="en-MY" href="https://www.onyxmen.my/guides/grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia/" />
+    <xhtml:link rel="alternate" hreflang="ms-MY" href="https://www.onyxmen.my/ms/panduan/perbezaan-grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.onyxmen.my/guides/grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia/" />
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/horsemen.webp</image:loc>
+      <image:title>Horsemen Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg | RM 159 Onyxmen Malaysia (SKU: ONYX-HM-20)</image:title>
+      <image:caption>Authentic Horsemen 20 Capsules x 500mg obsidian apothecary bottle by Onyxmen Malaysia formulated with 150mg Malaysian Tongkat Ali 100:1, 100mg Peruvian Black Maca, 80mg Epimedium, 80mg L-Arginine HCl, and 60mg Korean Red Panax Ginseng. RM 159 per bottle with Day-18 refill protocol.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/horsemen-stage.webp</image:loc>
+      <image:title>Horsemen Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg | RM 159 Onyxmen Malaysia (SKU: ONYX-HM-20) — 1600x1200 Obsidian Stage</image:title>
+      <image:caption>Authentic Horsemen 20 Capsules x 500mg obsidian apothecary bottle by Onyxmen Malaysia formulated with 150mg Malaysian Tongkat Ali 100:1, 100mg Peruvian Black Maca, 80mg Epimedium, 80mg L-Arginine HCl, and 60mg Korean Red Panax Ginseng. RM 159 per bottle with Day-18 refill protocol.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/horsemen-cutout.webp</image:loc>
+      <image:title>Horsemen Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg | RM 159 Onyxmen Malaysia (SKU: ONYX-HM-20) — Studio Transparent Cutout</image:title>
+      <image:caption>Authentic Horsemen 20 Capsules x 500mg obsidian apothecary bottle by Onyxmen Malaysia formulated with 150mg Malaysian Tongkat Ali 100:1, 100mg Peruvian Black Maca, 80mg Epimedium, 80mg L-Arginine HCl, and 60mg Korean Red Panax Ginseng. RM 159 per bottle with Day-18 refill protocol.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/hammer-of-thor.webp</image:loc>
+      <image:title>Hammer of Thor Men&apos;s Health Tribulus Terrestris — 20 Veg. Capsules | RM 159 Onyxmen Malaysia (SKU: ONYX-HT-20)</image:title>
+      <image:caption>Authentic Hammer of Thor 20 Veg. Capsules (plant-derived HPMC vegetarian shells) by Onyxmen Malaysia featuring 200mg Standardized Tribulus Terrestris (60% Saponins), 100mg Peruvian Maca, 75mg Panax Ginseng, 65mg Saw Palmetto, 45mg Tongkat Ali, and 15mg Zinc Bisglycinate. RM 159 per bottle.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/hammer-of-thor-stage.webp</image:loc>
+      <image:title>Hammer of Thor Men&apos;s Health Tribulus Terrestris — 20 Veg. Capsules | RM 159 Onyxmen Malaysia (SKU: ONYX-HT-20) — 1600x1200 Obsidian Stage</image:title>
+      <image:caption>Authentic Hammer of Thor 20 Veg. Capsules (plant-derived HPMC vegetarian shells) by Onyxmen Malaysia featuring 200mg Standardized Tribulus Terrestris (60% Saponins), 100mg Peruvian Maca, 75mg Panax Ginseng, 65mg Saw Palmetto, 45mg Tongkat Ali, and 15mg Zinc Bisglycinate. RM 159 per bottle.</image:caption>
+      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.onyxmen.my/assets/products/hammer-of-thor-cutout.webp</image:loc>
+      <image:title>Hammer of Thor Men&apos;s Health Tribulus Terrestris — 20 Veg. Capsules | RM 159 Onyxmen Malaysia (SKU: ONYX-HT-20) — Studio Transparent Cutout</image:title>
+      <image:caption>Authentic Hammer of Thor 20 Veg. Capsules (plant-derived HPMC vegetarian shells) by Onyxmen Malaysia featuring 200mg Standardized Tribulus Terrestris (60% Saponins), 100mg Peruvian Maca, 75mg Panax Ginseng, 65mg Saw Palmetto, 45mg Tongkat Ali, and 15mg Zinc Bisglycinate. RM 159 per bottle.</image:caption>
       <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
     </image:image>
   </url>
@@ -1828,45 +2002,6 @@
     <xhtml:link rel="alternate" hreflang="en-MY" href="https://www.onyxmen.my/privacy-policy/" />
     <xhtml:link rel="alternate" hreflang="ms-MY" href="https://www.onyxmen.my/ms/polisi-privasi/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.onyxmen.my/privacy-policy/" />
-    <lastmod>2026-11-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
-    <image:image>
-      <image:loc>https://www.onyxmen.my/assets/products/onyxman-lineup-hero.webp</image:loc>
-      <image:title>Onyxmen Malaysia Complete 4-Bottle Botanical Vitality Lineup — Horsemen, Hammer of Thor, Grow XL &amp; Magnum Pump XR (RM 159)</image:title>
-      <image:caption>Official Onyxmen Malaysia studio showcase of all four adult male botanical dietary supplements: Horsemen (20 Capsules x 500mg), Hammer of Thor (20 Veg. Capsules), Grow XL (30 Capsules), and Magnum Pump XR (30 Black Capsules) at uniform RM 159 pricing with 100% discreet unmarked parcel delivery across all 16 Malaysian states.</image:caption>
-      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.onyxmen.my/assets/products/horsemen.webp</image:loc>
-      <image:title>Horsemen Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg | RM 159 Onyxmen Malaysia (SKU: ONYX-HM-20)</image:title>
-      <image:caption>Authentic Horsemen 20 Capsules x 500mg obsidian apothecary bottle by Onyxmen Malaysia formulated with 150mg Malaysian Tongkat Ali 100:1, 100mg Peruvian Black Maca, 80mg Epimedium, 80mg L-Arginine HCl, and 60mg Korean Red Panax Ginseng. RM 159 per bottle with Day-18 refill protocol.</image:caption>
-      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.onyxmen.my/assets/products/hammer-of-thor.webp</image:loc>
-      <image:title>Hammer of Thor Men&apos;s Health Tribulus Terrestris — 20 Veg. Capsules | RM 159 Onyxmen Malaysia (SKU: ONYX-HT-20)</image:title>
-      <image:caption>Authentic Hammer of Thor 20 Veg. Capsules (plant-derived HPMC vegetarian shells) by Onyxmen Malaysia featuring 200mg Standardized Tribulus Terrestris (60% Saponins), 100mg Peruvian Maca, 75mg Panax Ginseng, 65mg Saw Palmetto, 45mg Tongkat Ali, and 15mg Zinc Bisglycinate. RM 159 per bottle.</image:caption>
-      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.onyxmen.my/assets/products/grow-xl.webp</image:loc>
-      <image:title>Grow XL #1 Selling Product Extra-Strength Enhancement Male Performance Blend — 30 Capsules | RM 159 Onyxmen Malaysia (SKU: ONYX-GX-30)</image:title>
-      <image:caption>Authentic Grow XL 30 Capsules (550mg per capsule) 30-day daily conditioning bottle by Onyxmen Malaysia formulated with 140mg Tongkat Ali 100:1, 120mg L-Arginine &amp; L-Citrulline, 100mg Muira Puama, 80mg Saw Palmetto, 70mg Ginkgo Biloba, and 40mg Korean Red Ginseng &amp; Zinc. RM 159 per bottle with Day-25 refill protocol.</image:caption>
-      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.onyxmen.my/assets/products/magnum-pump-xr.webp</image:loc>
-      <image:title>Magnum Pump XR Testosterone Pro Series Male Enhancement Formula Maximum Strength — 30 Black Capsules | RM 159 Onyxmen Malaysia (SKU: ONYX-MP-30)</image:title>
-      <image:caption>Authentic Magnum Pump XR 30 Black Capsules (600mg per capsule) oral botanical and amino-acid Dietary Supplement by Onyxmen Malaysia formulated with 180mg L-Arginine HCl, 120mg L-Citrulline Malate, 110mg Tribulus Terrestris, 90mg Tongkat Ali 100:1, 70mg Maca &amp; Fenugreek, and 30mg Bioperine &amp; Zinc. RM 159 per bottle.</image:caption>
-      <image:geo_location>Kuala Lumpur, Malaysia</image:geo_location>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://www.onyxmen.my/ms/seo-dashboard/</loc>
-    <xhtml:link rel="alternate" hreflang="en-MY" href="https://www.onyxmen.my/seo-dashboard/" />
-    <xhtml:link rel="alternate" hreflang="ms-MY" href="https://www.onyxmen.my/ms/seo-dashboard/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.onyxmen.my/seo-dashboard/" />
     <lastmod>2026-11-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
