@@ -3814,6 +3814,7 @@ export function renderMasterGuidesIndexPage() {
             CORE PROTOCOL TAKEAWAYS:
           </div>
           ${g.pinnedSummaryBullets
+            .slice(0, 2)
             .map(
               (b) => `
             <div style="font-size:0.84rem;color:var(--text-silk-ivory);padding:0.28rem 0;">
@@ -3823,13 +3824,9 @@ export function renderMasterGuidesIndexPage() {
             .join('\n')}
         </div>
 
-        <div style="font-size:0.75rem;color:var(--text-ash-silver);padding-top:0.35rem;">
-          <strong>Direct &amp; Alias Routes:</strong> ${aliasLinksHtml}
-        </div>
-
         <div style="display:flex;flex-wrap:wrap;gap:0.85rem;padding-top:0.75rem;">
           <a href="${esc(g.canonicalEnPath)}" class="cta-foil-primary">
-            <span>READ FULL GUIDE #0${g.guideNumber} (${esc(g.microStep)}) →</span>
+            <span>READ FULL GUIDE #${String(g.guideNumber).padStart(2, '0')} (${esc(g.microStep)}) →</span>
           </a>
           <button
             type="button"

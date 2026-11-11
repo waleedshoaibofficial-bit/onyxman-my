@@ -691,7 +691,7 @@ function deduplicateVaultDrawerBody(bodyHtml, routePath) {
   // 6. Buyer & Protocol Guides (/guides/* and /ms/panduan/*)
   if (routePath.startsWith('/guides/') || routePath.startsWith('/ms/panduan/')) {
     if (routePath === '/guides/') {
-      return [sections[0], sections[3]].filter(Boolean).join('\n\n');
+      return [sections[0], sections[1]].filter(Boolean).join('\n\n');
     }
     if (routePath === '/ms/panduan/') {
       return [sections[0], sections[1]].filter(Boolean).join('\n\n');
