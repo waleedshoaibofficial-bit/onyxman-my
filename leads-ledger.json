@@ -5,6 +5,22 @@
   "ownerEmail": "waleedshoaibofficial@gmail.com",
   "createdAtIso": "2026-11-11T08:38:11.145Z",
   "totalFormOrders": 0,
-  "totalWhatsappClicks": 0,
-  "entries": []
+  "totalWhatsappClicks": 1,
+  "entries": [
+    {
+      "id": "#WA-9341",
+      "type": "WHATSAPP_CLICK",
+      "formula": "GROW XL x 2 — RM 286.00 MYR (10% OFF)",
+      "totalMyr": "RM 286.00 MYR (10% OFF)",
+      "triggerSource": "verified-formsubmit-email-alert (7:46 AM / 11:46 AM MYT)",
+      "customerName": "",
+      "customerPhone": "(Check friend WhatsApp +60 14-298 5919 for [Ref: #WA-9341])",
+      "customerAddress": "",
+      "pageUrl": "https://www.onyxmen.my/",
+      "referrer": "Organic Google Search / Direct",
+      "mytTimestamp": "11/11/2026, 11:46:00 am MYT (07:46 AM GST)",
+      "recordedAtUtc": "2026-11-11T03:46:00.000Z"
+    }
+  ],
+  "lastUpdatedAtUtc": "2026-11-11T09:30:37.785Z"
 }
