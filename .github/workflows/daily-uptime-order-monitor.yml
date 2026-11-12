@@ -45,7 +45,7 @@ jobs:
       - name: "02 · Setup Node.js 20 LTS Runtime"
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: "03 · Build Local Static Artifacts & Verify Integrity (--dry-run)"
         env:
