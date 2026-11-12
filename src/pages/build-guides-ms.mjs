@@ -2847,7 +2847,7 @@ function renderMultiBottleAcquisitionAndDirectoryBM(defaultProduct = 'horsemen')
 
   return `
   <!-- ==========================================================================
-       INDEKS LENGKAP 6 PANDUAN PEMBELI & PROTOKOL BAHASA MALAYSIA
+       INDEKS LENGKAP 14 PANDUAN PEMBELI & PROTOKOL BAHASA MALAYSIA
        ========================================================================== -->
   <section
     id="indeks-lengkap-6-panduan-pembeli-bm"
@@ -2866,7 +2866,7 @@ function renderMultiBottleAcquisitionAndDirectoryBM(defaultProduct = 'horsemen')
         </div>
         <div class="panduan-section__header-right">
           <p>
-            Akses terus kesemua 6 panduan penyelidikan dan protokol pengguna dalam Bahasa Malaysia di bawah,
+            Akses terus kesemua 14 panduan penyelidikan dan protokol pengguna dalam Bahasa Malaysia di bawah,
             atau buka Laci Tempahan Ekspres untuk menempah botol rasmi anda (RM 159 / RM 318 / RM 477).
           </p>
         </div>
@@ -3132,7 +3132,7 @@ export function renderIndividualGuidePageBM(dossier) {
           <span>TEMPAH PAKEJ 2 BOTOL · RM 318</span>
           <span aria-hidden="true">→</span>
         </button>
-        <a href="/ms/panduan/" class="cta-hairline-secondary">Semua 6 Panduan BM →</a>
+        <a href="/ms/panduan/" class="cta-hairline-secondary">Semua 14 Panduan BM →</a>
       </div>
     </div>
 
@@ -3220,7 +3220,7 @@ export function renderMasterGuidesIndexPageBM() {
   const title =
     'Perpustakaan Panduan Stamina Lelaki Dewasa, Semakan Ketulenan & Tempahan Rahsia Malaysia | Onyxmen Malaysia';
   const description =
-    'Indeks lengkap 6 panduan rasmi Onyxmen Malaysia dalam Bahasa Malaysia: protokol masa pengambilan kapsul, semakan ketulenan botol RM 159, tempahan bungkusan rahsia COD/FPX, pemilihan kitaran 20 vs 30 kapsul, nutrisi tropika & sinergi Nitrik Oksida.';
+    'Indeks lengkap 14 panduan rasmi Onyxmen Malaysia dalam Bahasa Malaysia: protokol masa pengambilan kapsul, semakan ketulenan botol RM 159, tempahan bungkusan rahsia COD/FPX, pemilihan kitaran 20 vs 30 kapsul, nutrisi tropika & sinergi Nitrik Oksida.';
 
   const combinedFaqs = BM_GUIDE_DOSSIERS.flatMap((g) => g.faqs.slice(0, 2));
 
@@ -3314,7 +3314,7 @@ export function renderMasterGuidesIndexPageBM() {
           Perpustakaan Protokol Stamina, <span class="foil-champagne-text">Semakan Ketulenan &amp; Tempahan Rahsia Malaysia.</span>
         </h1>
         <div class="panduan-cinema-hero__taxonomy-strip">
-          <span>6 PANDUAN PENUH (MS-155 – MS-160)</span>
+          <span>14 PANDUAN PENUH (MS-155 – MS-160)</span>
           <span>·</span>
           <span>4 FORMULASI RASMI (RM 159)</span>
           <span>·</span>
@@ -3337,7 +3337,7 @@ export function renderMasterGuidesIndexPageBM() {
             <span>TEMPAH BUNGKUSAN RAHSIA · RM 159</span>
             <span aria-hidden="true">→</span>
           </button>
-          <a href="#indeks-lengkap-6-panduan-pembeli-bm" class="cta-hairline-secondary">Terokai 6 Panduan Di Bawah ↓</a>
+          <a href="#indeks-lengkap-6-panduan-pembeli-bm" class="cta-hairline-secondary">Terokai 14 Panduan Di Bawah ↓</a>
           <a href="/guides/" class="cta-hairline-secondary">English Guides Library (/guides/) →</a>
         </div>
       </div>
@@ -3362,7 +3362,7 @@ export function renderMasterGuidesIndexPageBM() {
 
     <div class="panduan-cinema-hero__telemetry-strip">
       <div class="panduan-cinema-hero__telemetry-col">
-        <span class="panduan-cinema-hero__telemetry-label">6 PANDUAN PEMBELI BM</span>
+        <span class="panduan-cinema-hero__telemetry-label">14 PANDUAN PEMBELI BM</span>
         <span class="panduan-cinema-hero__telemetry-val">Masa Makan, Ketulenan &amp; Privasi</span>
         <span class="panduan-cinema-hero__telemetry-sub">Diterbitkan oleh Lembaga Kualiti Onyxmen KL</span>
       </div>
@@ -3390,7 +3390,7 @@ export function renderMasterGuidesIndexPageBM() {
   <section class="panduan-split-5050" aria-labelledby="heading-master-split-archive">
     <div class="panduan-split-5050__pinned">
       <div>
-        <span class="editorial-kicker">PARADIGM D · PENTAS SKRIN TERBELAH 50VW / 50VW · 6 PANDUAN UTAMA</span>
+        <span class="editorial-kicker">PARADIGM D · PENTAS SKRIN TERBELAH 50VW / 50VW · 14 PANDUAN UTAMA</span>
         <h2 id="heading-master-split-archive" class="editorial-headline-lg" style="margin-top:0.85rem;">
           Enam Dokumen Protokol Rasmi <span class="foil-champagne-text">Untuk Lelaki Dewasa Di Malaysia.</span>
         </h2>

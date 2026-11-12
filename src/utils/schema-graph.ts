@@ -552,7 +552,7 @@ export function buildOrganizationSchema(): Record<string, unknown> {
     ],
     currenciesAccepted: OFFICIAL_CURRENCY,
     paymentAccepted: 'FPX Online Banking, DuitNow Instant QR, Cash on Delivery (COD)',
-    priceRange: 'RM 159 - RM 477',
+    priceRange: 'RM 159 - RM 405 (10%?15% Bundle OFF vs RM 318 / RM 477)',
     hasMerchantReturnPolicy: {
       '@id': RETURN_POLICY_MY_ID,
     },
@@ -805,14 +805,14 @@ export function buildProductGraphSchema(
     },
     {
       bottles: 2,
-      price: '318.00',
+      price: '286.00',
       skuSuffix: '2B',
       nameEn: `${prod.name} — 2 Bottles Dual Momentum Protocol (${prod.capsuleCount * 2} Capsules)`,
       nameMs: `${prod.name} — Pakej 2 Botol Dwi-Momentum (${prod.capsuleCount * 2} Kapsul)`,
     },
     {
       bottles: 3,
-      price: '477.00',
+      price: '405.00',
       skuSuffix: '3B',
       nameEn: `${prod.name} — 3 Bottles Complete 90-Day Mastery Vault (${prod.capsuleCount * 3} Capsules)`,
       nameMs: `${prod.name} — Pakej 3 Botol Lengkap 90 Hari (${prod.capsuleCount * 3} Kapsul)`,

@@ -346,10 +346,10 @@ for (const slug of productSlugs) {
           Array.isArray(groupNode.hasVariant) &&
           groupNode.hasVariant.length === 3 &&
           variantPrices.includes('159.00') &&
-          variantPrices.includes('318.00') &&
-          variantPrices.includes('477.00'),
+          variantPrices.includes('286.00') &&
+          variantPrices.includes('405.00'),
         `PRODUCT:${slug} (${lang})`,
-        'ProductGroup verified with 3 multi-bottle variants (RM 159.00, RM 318.00, RM 477.00)'
+        'ProductGroup verified with 3 multi-bottle variants (RM 159.00, RM 286.00, RM 405.00)'
       );
     });
   }

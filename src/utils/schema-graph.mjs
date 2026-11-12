@@ -447,7 +447,7 @@ export function buildOrganizationSchema() {
     ],
     currenciesAccepted: OFFICIAL_CURRENCY,
     paymentAccepted: 'FPX Online Banking, DuitNow Instant QR, Cash on Delivery (COD)',
-    priceRange: 'RM 159 - RM 477',
+    priceRange: 'RM 159 - RM 405 (10%?15% Bundle OFF vs RM 318 / RM 477)',
     hasMerchantReturnPolicy: {
       '@id': RETURN_POLICY_MY_ID,
     },
@@ -679,14 +679,14 @@ export function buildProductGraphSchema(productInput, lang = 'en-MY') {
     },
     {
       bottles: 2,
-      price: '318.00',
+      price: '286.00',
       skuSuffix: '2B',
       nameEn: `${prod.name} — 2 Bottles Dual Momentum Protocol (${prod.capsuleCount * 2} Capsules)`,
       nameMs: `${prod.name} — Pakej 2 Botol Dwi-Momentum (${prod.capsuleCount * 2} Kapsul)`,
     },
     {
       bottles: 3,
-      price: '477.00',
+      price: '405.00',
       skuSuffix: '3B',
       nameEn: `${prod.name} — 3 Bottles Complete 90-Day Mastery Vault (${prod.capsuleCount * 3} Capsules)`,
       nameMs: `${prod.name} — Pakej 3 Botol Lengkap 90 Hari (${prod.capsuleCount * 3} Kapsul)`,
@@ -817,10 +817,10 @@ export const DEFAULT_GLOBAL_FAQS = [
   {
     questionEn: 'What is the official price of Onyxmen formulations (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) in Malaysia?',
     answerEn:
-      'Every authentic Onyxmen formulation is priced at RM 159.00 (MYR) for a 1-Bottle Single Cycle Reserve, RM 318.00 for a 2-Bottle Dual Momentum Protocol (Free Nationwide Malaysia Shipping), and RM 477.00 for a 3-Bottle Complete 90-Day Mastery Vault.',
+      'Every authentic Onyxmen formulation is priced at RM 159.00 (MYR) for a 1-Bottle Single Cycle Reserve, RM 286.00 (10% OFF ? Save RM 32 vs RM 318.00) for a 2-Bottle Dual Momentum Protocol (Free Nationwide Malaysia Shipping), and RM 405.00 (15% OFF ? Save RM 72 vs RM 477.00) for a 3-Bottle Complete 90-Day Mastery Vault.',
     questionMs: 'Berapakah harga rasmi produk Onyxmen (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) di Malaysia?',
     answerMs:
-      'Setiap formulasi tulen Onyxmen berharga RM 159.00 (MYR) untuk 1 Botol, RM 318.00 untuk Pakej 2 Botol (Penghantaran Percuma Seluruh Malaysia), dan RM 477.00 untuk Pakej Lengkap 3 Botol (90 Hari).',
+      'Setiap formulasi tulen Onyxmen berharga RM 159.00 (MYR) untuk 1 Botol, RM 286.00 (Diskaun 10% ? Jimat RM 32 berbanding RM 318.00) untuk Pakej 2 Botol (Penghantaran Percuma Seluruh Malaysia), dan RM 405.00 (Diskaun 15% ? Jimat RM 72 berbanding RM 477.00) untuk Pakej Lengkap 3 Botol (90 Hari).',
   },
   {
     questionEn: 'How discreet is Onyxmen parcel packaging across West and East Malaysia?',

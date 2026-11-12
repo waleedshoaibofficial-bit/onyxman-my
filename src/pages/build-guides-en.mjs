@@ -3349,7 +3349,7 @@ export function renderAllGuidesCrossNavigationSection(currentSlug = '') {
             MS-147 TO MS-153 · COMPLETE 6-GUIDE BUYER &amp; PROTOCOL LIBRARY
           </span>
           <h2 id="heading-all-6-guides-nav" class="editorial-headline-lg">
-            Continue Exploring All 6 <span class="foil-champagne-text">Onyxmen Malaysia Protocol &amp; Buyer Guides.</span>
+            Continue Exploring All 14 <span class="foil-champagne-text">Onyxmen Malaysia Protocol &amp; Buyer Guides.</span>
           </h2>
         </div>
         <div class="guide-section__header-right">
@@ -3617,7 +3617,7 @@ export function renderIndividualGuidePage(dossier) {
           <span aria-hidden="true">→</span>
         </button>
         <a href="/guides/" class="cta-hairline-secondary">
-          <span>All 6 Buyer Guides (/guides/)</span>
+          <span>All 14 Buyer Guides (/guides/)</span>
         </a>
       </div>
     </div>
@@ -3733,7 +3733,7 @@ export function renderMasterGuidesIndexPage() {
   const title =
     'Adult Men’s Vitality, Authenticity Verification & Discreet Malaysia Buyer Guides Archive | Onyxmen Malaysia';
   const description =
-    'Master Editorial & Protocol Library for Onyxmen Malaysia (RM 159): explore all 6 clinical buyer guides covering optimal capsule timing, counterfeit verification, discreet plain-box COD/FPX ordering, 20 vs 30 capsule cycles, tropical stamina nutrition & Nitric Oxide synergy.';
+    'Master Editorial & Protocol Library for Onyxmen Malaysia (RM 159): explore all 14 clinical buyer guides covering optimal capsule timing, counterfeit verification, discreet plain-box COD/FPX ordering, 20 vs 30 capsule cycles, tropical stamina nutrition & Nitric Oxide synergy.';
 
   const indexFaqs = [
     ...GUIDE_DOSSIERS.map((g) => g.faqs[0]),
@@ -3950,7 +3950,7 @@ export function renderMasterGuidesIndexPage() {
             <span aria-hidden="true">→</span>
           </button>
           <a href="#master-paradigm-d-guides-curtain" class="cta-hairline-secondary">
-            <span>Explore All 6 Buyer Guides ↓</span>
+            <span>Explore All 14 Buyer Guides ↓</span>
           </a>
           <a href="#quantitative-four-bottle-protocol-matrix" class="cta-hairline-secondary">
             <span>4-Bottle Dosage Matrix ↓</span>
@@ -4054,7 +4054,7 @@ export function renderMasterGuidesIndexPage() {
   </section>
 
   <!-- ==========================================================================
-       CHAPTER III — 30 MASTER PROTOCOL CHECKPOINTS ACROSS ALL 6 GUIDES
+       CHAPTER III — 30 MASTER PROTOCOL CHECKPOINTS ACROSS ALL 14 GUIDES
        ========================================================================== -->
   <section
     id="complete-30-protocol-checkpoints-ledger"
@@ -4106,7 +4106,7 @@ export function renderMasterGuidesIndexPage() {
             MASTER EDITORIAL FAQ LEDGER · ONYXMEN MALAYSIA
           </span>
           <h2 id="heading-master-guides-faqs" class="editorial-headline-lg">
-            Frequently Asked Questions Across <span class="foil-champagne-text">All 6 Vitality &amp; Buyer Protocol Guides.</span>
+            Frequently Asked Questions Across <span class="foil-champagne-text">All 14 Vitality &amp; Buyer Protocol Guides.</span>
           </h2>
         </div>
       </header>

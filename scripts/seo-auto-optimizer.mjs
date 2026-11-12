@@ -192,6 +192,198 @@ function buildOptimalSerpMeta(route, rawTitle, rawDesc) {
       title: 'Berapa Lama Kesan Hammer of Thor, Horsemen & Grow XL? [RM159]',
       desc: '✓ Jadual sebenar berapa lama kesan Hammer of Thor, Horsemen, Grow XL & Magnum Pump XR berfungsi (Kesan Hari 1–3 vs kitaran penuh 14 hingga 30 hari).',
     },
+    "/compare/": {
+      title: "Compare Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR MY",
+      desc: "✓ Side-by-side comparison of all 4 Original Onyxmen Malaysia supplements: Horsemen (20 Caps), Hammer of Thor (20 Veg), Grow XL & Magnum Pump XR (RM 159 COD).",
+    },
+    "/ms/perbandingan/": {
+      title: "Perbandingan Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR",
+      desc: "✓ Jadual perbandingan lengkap 4 suplemen lelaki Original Onyxmen Malaysia: Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159 · Beli 2 RM 286 COD).",
+    },
+    "/compare/all-4-formulas/": {
+      title: "20-Capsule vs 30-Capsule Comparison: All 4 Onyxmen Formulas MY",
+      desc: "✓ Compare 20-Capsule reserves (Horsemen & Hammer of Thor) vs 30-Capsule daily formulas (Grow XL & Magnum Pump XR). Buy 1 RM 159, 2 RM 286 (-10%) discreet COD.",
+    },
+    "/compare/grow-xl-vs-magnum-pump-xr/": {
+      title: "Grow XL vs Magnum Pump XR Malaysia [30 Capsules RM159 COD]",
+      desc: "✓ Compare Grow XL (30 Capsules Tongkat Ali & Maca) vs Magnum Pump XR (30 Black Capsules L-Arginine Nitric Oxide) Malaysia. Buy 1 RM 159, 2 RM 286 (-10%) COD.",
+    },
+    "/compare/horsemen-vs-hammer-of-thor/": {
+      title: "Horsemen vs Hammer of Thor Malaysia [20 Capsules RM159 COD]",
+      desc: "✓ Side-by-side comparison of Horsemen (20 Capsules x 500mg Tongkat Ali) vs Hammer of Thor (20 Veg Capsules 60% Saponin Tribulus). RM 159 discreet COD Malaysia.",
+    },
+    "/ms/perbandingan/semua-4-formula/": {
+      title: "Perbandingan 20 Kapsul vs 30 Kapsul: Semua 4 Formula Onyxmen",
+      desc: "✓ Bandingkan botol 20 kapsul (Horsemen & Hammer of Thor) vs botol 30 kapsul sebulan (Grow XL & Magnum Pump XR). Beli 1 RM 159, 2 RM 286 (-10%) COD Malaysia.",
+    },
+    "/ms/perbandingan/grow-xl-vs-magnum-pump-xr/": {
+      title: "Perbandingan Grow XL vs Magnum Pump XR Malaysia [30 Kapsul]",
+      desc: "✓ Bandingkan Grow XL (30 Kapsul Tongkat Ali & Maca) vs Magnum Pump XR (30 Kapsul Hitam Nitrik Oksida) di Malaysia. Beli 1 RM 159, 2 RM 286 (-10%) COD Rahsia.",
+    },
+    "/ms/perbandingan/horsemen-vs-hammer-of-thor/": {
+      title: "Perbandingan Horsemen vs Hammer of Thor Malaysia [20 Kapsul]",
+      desc: "✓ Perbandingan lengkap Horsemen (20 Kapsul x 500mg Tongkat Ali) vs Hammer of Thor (20 Kapsul Veg Tribulus 60% Saponin) Malaysia. RM 159 COD Bayar Bila Sampai.",
+    },
+    "/guides/": {
+      title: "14 Buyer Guides: Horsemen, Hammer of Thor & Grow XL Malaysia",
+      desc: "✓ Read all 14 official Onyxmen Malaysia guides: Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR dosage, authenticity check & discreet COD (RM 159 / RM 286).",
+    },
+    "/ms/panduan/": {
+      title: "14 Panduan Rasmi Horsemen, Hammer of Thor & Grow XL Malaysia",
+      desc: "✓ Baca 14 panduan rasmi Onyxmen Malaysia: cara makan Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR, semak botol original vs tiruan & COD (RM 159 / RM 286).",
+    },
+    "/guides/20-capsule-vs-30-capsule-cycle-selection/": {
+      title: "Horsemen & Hammer of Thor (20 Caps) vs Grow XL (30 Caps) RM159",
+      desc: "✓ Compare 100% Original Horsemen & Hammer of Thor (20 Capsules) vs Grow XL & Magnum Pump XR (30 Capsules) Malaysia. Buy 1 RM 159, 2 RM 286 (-10%) discreet COD.",
+    },
+    "/guides/authentic-onyxman-bottle-verification-malaysia/": {
+      title: "How to Verify 100% Original Onyxmen Bottles Malaysia [RM159]",
+      desc: "✓ Protect your health from fake RM 30 counterfeit pills in Malaysia. Official 5-step hologram & batch verification guide for Horsemen, Hammer of Thor & Grow XL.",
+    },
+    "/guides/capsule-timing-absorption-protocol/": {
+      title: "Optimal Capsule Timing & Dosage Guide: Horsemen & Grow XL MY",
+      desc: "✓ Master the exact Malaysian capsule timing protocol for Horsemen (20 Caps), Hammer of Thor (20 Veg Caps), Grow XL (30 Caps) & Magnum Pump XR (30 Black Caps).",
+    },
+    "/guides/discreet-plain-box-cod-fpx-ordering-malaysia/": {
+      title: "100% Discreet Plain-Box COD & FPX Ordering Guide Malaysia",
+      desc: "✓ How Onyxmen Malaysia guarantees 100% parcel privacy: unmarked plain box, neutral OM Fulfilment waybill & Cash on Delivery (RM 159 · Buy 2 RM 286 10% OFF).",
+    },
+    "/guides/malaysian-mens-vitality-tropical-stamina-nutrition/": {
+      title: "Malaysian Men's Vitality, Cortisol & Tropical Stamina Guide",
+      desc: "✓ How Malaysian tropical heat, traffic stress & sleep debt affect male stamina—and how Tongkat Ali 100:1, Maca & L-Arginine restore daily vitality (RM 159 COD).",
+    },
+    "/guides/nitric-oxide-amino-acids-vs-adaptogenic-herbs/": {
+      title: "Nitric Oxide (L-Arginine) vs Adaptogenic Herbs (Tongkat Ali)",
+      desc: "✓ Compare Nitric Oxide vascular amino acids (L-Arginine HCl & L-Citrulline in Magnum Pump XR) vs adaptogenic herbs (Tongkat Ali & Maca in Horsemen & Grow XL).",
+    },
+    "/ms/panduan/cara-semak-ketulenan-botol-onyxman-malaysia/": {
+      title: "Cara Semak Ketulenan Botol Original Onyxmen Malaysia [RM159]",
+      desc: "✓ Lindungi diri daripada kapsul tiruan murah. Ketahui 5 langkah semakan hologram & nombor kelompok rasmi Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR.",
+    },
+    "/ms/panduan/masa-pengambilan-kapsul-dan-penyerapan-optimum/": {
+      title: "Panduan Masa Makan Kapsul & Penyerapan Optimum Onyxmen MY",
+      desc: "✓ Jadual lengkap cara makan dan waktu pengambilan kapsul Horsemen (20 Kapsul), Hammer of Thor (20 Veg), Grow XL (30 Kapsul) & Magnum Pump XR (30 Kapsul Hitam).",
+    },
+    "/ms/panduan/nutrisi-kecergasan-dan-stamina-lelaki-iklim-tropika-malaysia/": {
+      title: "Panduan Nutrisi Kecergasan & Stamina Lelaki Iklim Tropika MY",
+      desc: "✓ Bagaimana cuaca panas lembap Malaysia, tekanan kerja & kurang tidur menjejaskan tenaga lelaki—serta peranan Tongkat Ali 100:1 & Maca Hitam (RM 159 COD).",
+    },
+    "/ms/panduan/panduan-pemilihan-kitaran-20-kapsul-vs-30-kapsul/": {
+      title: "Horsemen & Hammer of Thor (20 Kapsul) vs Grow XL (30 Kapsul)",
+      desc: "✓ Bandingkan kitaran padat 20 kapsul (Horsemen & Hammer of Thor) dengan kitaran 30 kapsul sebulan (Grow XL & Magnum Pump XR). Beli 1 RM 159, 2 RM 286 (-10%).",
+    },
+    "/ms/panduan/panduan-tempahan-bungkusan-rahsia-cod-fpx-malaysia/": {
+      title: "Panduan Tempahan Bungkusan Rahsia COD & FPX Onyxmen Malaysia",
+      desc: "✓ Jaminan privasi 100% Onyxmen Malaysia: kotak coklat tanpa nama produk, pengirim neutral OM Fulfilment & Bayar Bila Sampai COD (RM 159 · 2 Botol RM 286).",
+    },
+    "/ms/panduan/perbezaan-asid-amino-nitrik-oksida-dan-herba-adaptogenik/": {
+      title: "Perbezaan Asid Amino Nitrik Oksida vs Herba Adaptogenik MY",
+      desc: "✓ Fahami fungsi vaskular Nitrik Oksida (L-Arginine & L-Citrulline dalam Magnum Pump XR) berbanding herba adaptogenik (Tongkat Ali & Maca dalam Horsemen).",
+    },
+    "/ingredients/": {
+      title: "Botanical & Amino-Acid Ingredients: Tongkat Ali & Maca MY",
+      desc: "✓ Official Onyxmen Malaysia ingredient monographs: Malaysian Tongkat Ali 100:1, Peruvian Black Maca 10:1, Tribulus 60% Saponins & L-Arginine Nitric Oxide.",
+    },
+    "/ms/ingredients/": {
+      title: "Monograf Ramuan Botani: Tongkat Ali 100:1, Maca & Tribulus MY",
+      desc: "✓ Ensiklopedia ramuan rasmi Onyxmen Malaysia: Ekstrak Akar Tongkat Ali 100:1, Akar Maca Hitam Peru 10:1, Tribulus 60% Saponin & L-Arginine Nitrik Oksida.",
+    },
+    "/ingredients/tongkat-ali-malaysia/": {
+      title: "Malaysian Tongkat Ali 100:1 Root Extract Monograph | Onyxmen",
+      desc: "✓ Official monograph on Malaysian Tongkat Ali 100:1 Root Extract (Eurycoma longifolia ≥2.2% Eurycomanone) in Horsemen (150mg) & Grow XL (140mg). RM 159 COD.",
+    },
+    "/ms/ingredients/tongkat-ali-malaysia/": {
+      title: "Monograf Ekstrak Akar Tongkat Ali Malaysia 100:1 | Onyxmen MY",
+      desc: "✓ Monograf rasmi Ekstrak Akar Tongkat Ali Malaysia 100:1 (Eurycoma longifolia ≥2.2% Eurycomanone) dalam Horsemen (150mg) & Grow XL (140mg). RM 159 COD Rahsia.",
+    },
+    "/ingredients/maca-root-malaysia/": {
+      title: "Gelatinized Peruvian Black Maca Root 10:1 Monograph | Onyxmen",
+      desc: "✓ Official monograph on 10:1 Gelatinized Peruvian Black Maca Root (Lepidium meyenii ≥0.6% Macamides) in Grow XL (110mg), Horsemen (100mg) & Hammer of Thor.",
+    },
+    "/ms/ingredients/maca-root-malaysia/": {
+      title: "Monograf Akar Maca Hitam Peru 10:1 (Ubi Maca) | Onyxmen MY",
+      desc: "✓ Monograf rasmi Ekstrak Akar Maca Hitam Peru 10:1 (Lepidium meyenii ≥0.6% Macamides) dalam Grow XL (110mg), Horsemen (100mg) & Hammer of Thor (100mg).",
+    },
+    "/ingredients/tribulus-terrestris-malaysia/": {
+      title: "Tribulus Terrestris 60% Saponins & Panax Ginseng | Onyxmen MY",
+      desc: "✓ Technical monograph on 60%-Saponin Tribulus Terrestris (200mg) & 6-Year Korean Red Panax Ginseng (60mg) in Hammer of Thor Malaysia (20 Veg Capsules RM 159).",
+    },
+    "/ms/ingredients/tribulus-terrestris-malaysia/": {
+      title: "Monograf Tribulus Terrestris 60% Saponin & Ginseng | Onyxmen",
+      desc: "✓ Monograf teknikal Tribulus Terrestris 60% Saponin (200mg) & Panax Ginseng Merah Korea (60mg) dalam Hammer of Thor Original Malaysia (20 Kapsul Veg RM 159).",
+    },
+    "/ingredients/l-arginine-nitric-oxide/": {
+      title: "L-Arginine HCl, L-Citrulline & Nitric Oxide Matrix | Onyxmen",
+      desc: "✓ Scientific monograph on Extended-Release (XR) Nitric Oxide amino acids: L-Arginine HCl, L-Citrulline Malate, Black Ginger & Bioperine in Magnum Pump XR.",
+    },
+    "/ms/ingredients/l-arginine-nitric-oxide/": {
+      title: "Monograf Laluan Nitrik Oksida L-Arginine & Citrulline | Onyxmen",
+      desc: "✓ Monograf saintifik Laluan Nitrik Oksida Pelepasan Lanjutan (XR): L-Arginine HCl, L-Citrulline Malate, Kunyit Hitam & Bioperine dalam Magnum Pump XR RM 159.",
+    },
+    "/malaysia/": {
+      title: "Discreet COD & Express Delivery Across All 17 Malaysia States",
+      desc: "✓ Official Onyxmen Malaysia nationwide delivery hub: 100% unmarked plain-box COD & FPX across KL, Selangor, Johor, Penang, Sabah & Sarawak (RM 159 / RM 286).",
+    },
+    "/ms/malaysia/": {
+      title: "Penghantaran Bungkusan Rahsia COD ke Seluruh 17 Negeri Malaysia",
+      desc: "✓ Rangkaian penghantaran rasmi Onyxmen Malaysia: bungkusan rahsia tanpa jenama COD & FPX ke KL, Selangor, Johor, Pulau Pinang, Sabah & Sarawak (RM 159 / 286).",
+    },
+    "/about/": {
+      title: "About Onyxmen Malaysia — Kuala Lumpur Botanical Apothecary",
+      desc: "✓ Discover Onyxmen Malaysia: Kuala Lumpur men’s botanical vitality apothecary offering 100% Original Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR RM159.",
+    },
+    "/ms/tentang-kami/": {
+      title: "Tentang Onyxmen Malaysia — Apotekari Botani Lelaki Kuala Lumpur",
+      desc: "✓ Kenali Onyxmen Malaysia: pusat rasmi suplemen botani lelaki di Kuala Lumpur untuk Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR Original (RM 159 COD).",
+    },
+    "/authenticity-guarantee/": {
+      title: "100% Original Authenticity Guarantee & Hologram Check | Onyxmen",
+      desc: "✓ Verify 100% Original Onyxmen Malaysia bottles (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR): 1 for RM 159, 2 for RM 286 (10% OFF), 3 for RM 405 (15%).",
+    },
+    "/ms/jaminan-ketulenan/": {
+      title: "Jaminan Ketulenan 100% Original & Semakan Hologram | Onyxmen MY",
+      desc: "✓ Sahkan ketulenan botol rasmi Onyxmen Malaysia (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR): 1 Botol RM 159, 2 RM 286 (-10%), 3 RM 405 (-15%) COD.",
+    },
+    "/discreet-shipping/": {
+      title: "100% Unmarked Discreet Packaging & Malaysia COD Shipping Policy",
+      desc: "✓ Official Onyxmen Malaysia discreet plain-box shipping policy: zero product names on parcel or waybill, neutral OM Fulfilment sender & nationwide COD/FPX.",
+    },
+    "/ms/penghantaran-rahsia/": {
+      title: "Polisi Bungkusan Rahsia Tanpa Jenama & Penghantaran COD Malaysia",
+      desc: "✓ Polisi rasmi bungkusan rahsia Onyxmen Malaysia: kotak legap tanpa nama produk pada slip kurier, pengirim neutral OM Fulfilment & COD seluruh Malaysia.",
+    },
+    "/contact/": {
+      title: "Contact Onyxmen Malaysia — KL WhatsApp & COD Concierge Desk",
+      desc: "✓ Contact the Onyxmen Malaysia Kuala Lumpur Concierge Desk (09:00–23:00 MYT daily): WhatsApp +60 14-298 5919, sales@onyxmen.my & discreet COD order support.",
+    },
+    "/ms/hubungi-kami/": {
+      title: "Hubungi Onyxmen Malaysia — Meja Bantuan WhatsApp & Tempahan COD",
+      desc: "✓ Hubungi Meja Khidmat Pelanggan Privasi Kuala Lumpur Onyxmen Malaysia (09:00–23:00 MYT): WhatsApp +60 14-298 5919, sales@onyxmen.my & bantuan tempahan COD.",
+    },
+    "/faq/": {
+      title: "Frequently Asked Questions (FAQ): Horsemen, Grow XL & Hammer MY",
+      desc: "✓ Complete FAQ on Onyxmen Malaysia: comparing Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR, bundle discounts (1 RM 159, 2 RM 286 -10%, 3 RM 405 -15%).",
+    },
+    "/ms/soalan-lazim/": {
+      title: "Soalan Lazim (FAQ): Horsemen, Hammer of Thor & Grow XL Malaysia",
+      desc: "✓ Jawapan lengkap Soalan Lazim Onyxmen Malaysia: perbandingan Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR serta pakej diskaun (RM 159 / RM 286 / RM 405).",
+    },
+    "/privacy-policy/": {
+      title: "Malaysia PDPA Act 709 Privacy & Data Protection Policy | Onyxmen",
+      desc: "✓ Official Onyxmen Malaysia Personal Data Protection Act 2010 (PDPA Act 709) privacy policy: encrypted order handling, zero public accounts & discreet delivery.",
+    },
+    "/ms/polisi-privasi/": {
+      title: "Polisi Privasi Akta PDPA Malaysia 709 & Data Pelanggan | Onyxmen",
+      desc: "✓ Polisi privasi rasmi Akta Perlindungan Data Peribadi Malaysia 2010 (PDPA Akta 709) Onyxmen Malaysia: perlindungan data pesanan & penghantaran rahsia 100%.",
+    },
+    "/terms-of-service/": {
+      title: "Terms of Service & 14-Day Unopened Bottle Return Policy | Onyxmen",
+      desc: "✓ Official Onyxmen Malaysia Terms of Service & 14-Day Unopened Bottle Return Policy: adult 18+ botanical supplement compliance & official RM 159 / RM 286 / 405.",
+    },
+    "/ms/terma-perkhidmatan/": {
+      title: "Terma Perkhidmatan & Polisi Pemulangan Botol 14 Hari | Onyxmen MY",
+      desc: "✓ Terma Perkhidmatan rasmi & Polisi Pemulangan Botol Belum Dibuka 14 Hari Onyxmen Malaysia: pematuhan suplemen lelaki dewasa 18+ & harga rasmi RM 159 / 286.",
+    },
   };
   if (explicit[route]) return explicit[route];
 
@@ -480,7 +672,18 @@ function main() {
       .replace(/\s*[—–•|·-]\s*MS-\d{3}(?:\s*to\s*MS-\d{3})?/g, '')
       .replace(/MS-\d{3}(?:\s*to\s*MS-\d{3})?\s*[—–•|·-]\s*/g, '')
       .replace(/\(\s*MS-\d{3}(?:[–-]\d{3}|\s*to\s*MS-\d{3})?\s*\)/g, '')
-      .replace(/\bMS-\d{3}\b/g, 'ONYX-STD');
+      .replace(/\bMS-\d{3}\b/g, 'ONYX-STD')
+      .replace(/"priceRange":\s*"RM 159 - RM 477"/g, '"priceRange": "RM 159 - RM 405 (10%\u201315% Bundle OFF vs RM 318 / RM 477)"')
+      .replace(/RM 159 \(1B\), RM 318 \(2B\), RM 477 \(3B\)/g, 'RM 159 (1B), RM 286 (2B 10% OFF vs RM 318), RM 405 (3B 15% OFF vs RM 477)')
+      .replace(/RM 159 \/ RM 318 \/ RM 477/g, 'RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)')
+      .replace(/RM 159\.00 \(1 Bottle\), RM 318\.00 \(2 Bottles\), and RM 477\.00 \(3 Bottles\)/g, 'RM 159.00 (1 Bottle), RM 286.00 (2 Bottles \u2014 10% OFF vs RM 318.00), and RM 405.00 (3 Bottles \u2014 15% OFF vs RM 477.00)')
+      .replace(/is RM 318 \(318\.00 MYR\), and 3 Bottles \(Complete 90-Day Apothecary Mastery Vault with Priority Dispatch & VIP Refill Concierge\) is RM 477 \(477\.00 MYR\)/g, 'is RM 286 (286.00 MYR \u2014 10% OFF, save RM 32 vs RM 318), and 3 Bottles (Complete 90-Day Apothecary Mastery Vault with Priority Dispatch & VIP Refill Concierge) is RM 405 (405.00 MYR \u2014 15% OFF, save RM 72 vs RM 477)')
+      .replace(/2-Bottle \(RM 318\) or 3-Bottle \(RM 477\)/g, '2-Bottle (RM 286 \u2014 10% OFF vs RM 318) or 3-Bottle (RM 405 \u2014 15% OFF vs RM 477)')
+      .replace(/2-bottle RM 318 and 3-bottle RM 477/g, '2-bottle RM 286 (10% OFF vs RM 318) and 3-bottle RM 405 (15% OFF vs RM 477)')
+      .replace(/RM 318\.00 for a 2-Bottle Dual Momentum Protocol \(Free Nationwide Malaysia Shipping\), and RM 477\.00 for a 3-Bottle/g, 'RM 286.00 (10% OFF \u00b7 Save RM 32 vs RM 318.00) for a 2-Bottle Dual Momentum Protocol (Free Nationwide Malaysia Shipping), and RM 405.00 (15% OFF \u00b7 Save RM 72 vs RM 477.00) for a 3-Bottle')
+      .replace(/RM 318\.00 untuk Pakej 2 Botol \(Penghantaran Percuma Seluruh Malaysia\), dan RM 477\.00 untuk Pakej Lengkap 3 Botol/g, 'RM 286.00 (Diskaun 10% \u00b7 Jimat RM 32 berbanding RM 318.00) untuk Pakej 2 Botol (Penghantaran Percuma Seluruh Malaysia), dan RM 405.00 (Diskaun 15% \u00b7 Jimat RM 72 berbanding RM 477.00) untuk Pakej Lengkap 3 Botol')
+      .replace(/explore all 6 clinical buyer guides/gi, 'explore all 14 clinical buyer guides')
+      .replace(/Indeks lengkap 6 panduan rasmi/gi, 'Indeks lengkap 14 panduan rasmi');
 
     if (scrubbedHtml !== html) {
       html = scrubbedHtml;
