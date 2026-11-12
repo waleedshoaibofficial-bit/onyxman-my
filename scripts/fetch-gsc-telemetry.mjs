@@ -17,6 +17,7 @@
  * ============================================================================
  */
 
+import { execSync } from 'node:child_process';
 import crypto from 'node:crypto';
 import dns from 'node:dns';
 import fs from 'node:fs';
@@ -273,12 +274,9 @@ async function main() {
     statusObj = JSON.parse(fs.readFileSync(STATUS_JSON_PATH, 'utf8'));
   }
   try {
-    const leadsRes = await fetch('https://raw.githubusercontent.com/waleedshoaibofficial-bit/onyxman-my/leads-telemetry/leads-ledger.json', {
-      signal: AbortSignal.timeout(8000),
-    });
-    if (leadsRes.ok) {
-      statusObj.leadsTelemetry = await leadsRes.json();
-    }
+    execSync('git fetch origin leads-telemetry --depth=1', { stdio: 'ignore' });
+    const rawLeads = execSync('git show origin/leads-telemetry:leads-ledger.json', { encoding: 'utf8' });
+    statusObj.leadsTelemetry = JSON.parse(rawLeads);
   } catch {}
 
   if (!rawSecret.trim()) {
