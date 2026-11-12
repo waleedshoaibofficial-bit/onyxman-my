@@ -309,13 +309,14 @@ async function main() {
     const endDate = formatDateDaysAgo(0);
     const start28 = formatDateDaysAgo(28);
 
-    const [totalsData, queriesData, pagesData, countriesData, queryCountryData, pageCountryData] = await Promise.all([
+    const [totalsData, queriesData, pagesData, countriesData, queryCountryData, pageCountryData, datesData] = await Promise.all([
       querySearchAnalytics(accessToken, activeSiteUrl, start28, endDate, [], 1),
       querySearchAnalytics(accessToken, activeSiteUrl, start28, endDate, ['query'], 250),
       querySearchAnalytics(accessToken, activeSiteUrl, start28, endDate, ['page'], 250),
       querySearchAnalytics(accessToken, activeSiteUrl, start28, endDate, ['country'], 250),
       querySearchAnalytics(accessToken, activeSiteUrl, start28, endDate, ['query', 'country'], 250),
       querySearchAnalytics(accessToken, activeSiteUrl, start28, endDate, ['page', 'country'], 250),
+      querySearchAnalytics(accessToken, activeSiteUrl, start28, endDate, ['date'], 60),
     ]);
 
     const totalRow = totalsData.rows?.[0] || { clicks: 0, impressions: 0, ctr: 0, position: 0 };
@@ -350,6 +351,13 @@ async function main() {
         ctrPercent: Number(((mysRow.ctr || 0) * 100).toFixed(2)),
         averagePosition: Number((mysRow.position || 0).toFixed(1)),
       },
+      dailyTrend: (datesData.rows || []).map((r) => ({
+        date: r.keys[0],
+        clicks: r.clicks,
+        impressions: r.impressions,
+        ctrPercent: Number((r.ctr * 100).toFixed(2)),
+        position: Number(r.position.toFixed(1)),
+      })),
       topQueries: (queriesData.rows || []).map((r) => ({
         query: r.keys[0],
         clicks: r.clicks,
