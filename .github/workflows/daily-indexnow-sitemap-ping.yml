@@ -43,16 +43,21 @@ jobs:
       - name: "02 · Setup Node.js 20 LTS Runtime"
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: "03 · Sync Live Google Search Console Telemetry & Submit Sitemaps to GSC API (Zero Fake Lastmod Bumps - Rule #38)"
         env:
           GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           echo "Building public/ artifacts for local verification and syncing live GSC API telemetry..."
           node scripts/build-site.mjs
           node scripts/seo-auto-optimizer.mjs
           node scripts/fetch-gsc-telemetry.mjs
+          if [ -n "${CLOUDFLARE_API_TOKEN}" ] && [ -n "${CLOUDFLARE_ACCOUNT_ID}" ]; then
+            npx --yes wrangler@latest pages deploy public --project-name=onyxman-my --branch=main --commit-dirty=true
+          fi
 
       - name: "04 · Pre-Flight Local Sitemap & IndexNow Key Verification (--dry-run)"
         run: |
