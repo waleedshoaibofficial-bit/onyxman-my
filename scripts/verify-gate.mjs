@@ -604,15 +604,32 @@ function runGate8(phase) {
       }
     }
 
-    // 2. Check robots meta directive parity (canonical = index, follow; non-canonical = noindex, follow)
+    // 2. Check robots meta directive parity per Official Google Search Central (consolidate-duplicate-urls & block-indexing):
+    // - Standalone utility/error pages (/404.html, /seo-dashboard/, /ms/seo-dashboard/) -> "noindex, follow"
+    // - All 116 self-canonical pages + 187 cross-canonical alias pages -> "index, follow..." (never combine noindex with cross-page rel="canonical")
+    const noindexUtilityRoutes = new Set(['/404.html', '/seo-dashboard/', '/ms/seo-dashboard/']);
     const robotsMatch = html.match(/<meta\s+name="robots"\s+content="([^"]*)"/i);
     const robotsVal = robotsMatch ? robotsMatch[1].trim() : '';
-    if (isCanonical && !robotsVal.startsWith('index, follow')) {
-      robotsDirectiveViolations++;
-      recordFail('GATE-8', `Canonical route ${routePath} missing index, follow (<meta name="robots" content="${robotsVal}">)`);
-    } else if (!isCanonical && robotsVal !== 'noindex, follow') {
-      robotsDirectiveViolations++;
-      recordFail('GATE-8', `Non-canonical route ${routePath} must have <meta name="robots" content="noindex, follow"> (found "${robotsVal}")`);
+    if (noindexUtilityRoutes.has(routePath)) {
+      if (robotsVal !== 'noindex, follow') {
+        robotsDirectiveViolations++;
+        recordFail('GATE-8', `Utility/error route ${routePath} must have <meta name="robots" content="noindex, follow"> (found "${robotsVal}")`);
+      }
+      if (routePath === '/404.html' && /<link\s+rel="canonical"/i.test(html)) {
+        robotsDirectiveViolations++;
+        recordFail('GATE-8', `/404.html must not contain a <link rel="canonical"> tag`);
+      }
+    } else {
+      if (!robotsVal.startsWith('index, follow')) {
+        robotsDirectiveViolations++;
+        recordFail('GATE-8', `Content route ${routePath} must have <meta name="robots" content="index, follow..."> per consolidate-duplicate-urls (found "${robotsVal}")`);
+      }
+      const canTagMatch = html.match(/<link\s+rel="canonical"\s+href="https:\/\/www\.onyxmen\.my(\/[^"]*)"/i);
+      const canTarget = canTagMatch ? canTagMatch[1] : '';
+      if (!canonicalRouteSet.has(canTarget)) {
+        robotsDirectiveViolations++;
+        recordFail('GATE-8', `Content route ${routePath} canonical target "${canTarget}" is not in the 116 canonical sitemap routes`);
+      }
     }
 
     // 3. Check internal <a href="/..."> canonicality
@@ -679,15 +696,23 @@ function runGate8(phase) {
       recordFail('GATE-8', `<meta description> length (${rawDesc.length}) out of 115-165 char SERP range on ${routePath}`);
     }
 
-    // 7. Check AggregateRating + Review + OfferShippingDetails + MerchantReturnPolicy + WebPage.name sync + 286/405 Offer pricing in @graph
-    if (
-      !html.includes('"AggregateRating"') ||
-      !html.includes('"Review"') ||
-      !html.includes('"OfferShippingDetails"') ||
-      !html.includes('"MerchantReturnPolicy"')
-    ) {
+    // 7. Check OfferShippingDetails + MerchantReturnPolicy on all pages, and strict Review Snippet compliance:
+    // AggregateRating + Review ONLY on dedicated single-product pages (with ProductGroup), NEVER on non-product/legal/policy/guide/category pages
+    const isDedicatedProductPage = html.includes('"@type": "ProductGroup"') || html.includes('"@type":"ProductGroup"');
+    if (!html.includes('"OfferShippingDetails"') || !html.includes('"MerchantReturnPolicy"')) {
       missingRichReviewSchema++;
-      recordFail('GATE-8', `Missing AggregateRating/Review/Shipping/Return schema in @graph on ${routePath}`);
+      recordFail('GATE-8', `Missing OfferShippingDetails or MerchantReturnPolicy schema in @graph on ${routePath}`);
+    }
+    if (isDedicatedProductPage) {
+      if (!html.includes('"AggregateRating"') || !html.includes('"Review"')) {
+        missingRichReviewSchema++;
+        recordFail('GATE-8', `Dedicated product page ${routePath} missing AggregateRating/Review in @graph`);
+      }
+    } else {
+      if (html.includes('"AggregateRating"') || html.includes('#featured-apothecary-reserve')) {
+        missingRichReviewSchema++;
+        recordFail('GATE-8', `Non-product page ${routePath} contains AggregateRating spam in @graph (violates Google Review Snippet guidelines)`);
+      }
     }
 
     const ldMatches = [...html.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)];

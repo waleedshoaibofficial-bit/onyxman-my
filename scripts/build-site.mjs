@@ -163,6 +163,7 @@ function reconcileTrustRouteAliases() {
     ['ms/grow-xl-malaysia/index.html', 'ms/produk/grow-xl/index.html'],
     ['ms/magnum-pump-xr-malaysia/index.html', 'ms/produk/magnum-pump-xr/index.html'],
     ['ms/index.html', 'ms/produk/index.html'],
+    ['ms/index.html', 'ms/products/index.html'],
   ];
 
   for (const [srcRel, destRel] of aliasPairs) {

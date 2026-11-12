@@ -632,14 +632,23 @@ function main() {
       }
     }
 
-    // Enforce exact <meta name="robots"> directive: index, follow on 116 canonical pages; noindex, follow on all 190 non-canonical/alias/utility pages
-    const targetRobotsContent = canonicalRouteSet.has(routePath)
-      ? 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
-      : 'noindex, follow';
-    const nextRobotsHtml = html.replace(
+    // Enforce Official Google Search Central (consolidate-duplicate-urls & block-indexing) robots directive:
+    // - Standalone utility/error pages (/404.html, /seo-dashboard/, /ms/seo-dashboard/) -> "noindex, follow"
+    // - All 116 self-canonical pages + 187 cross-canonical duplicate/alias pages -> "index, follow..." (never combine noindex with cross-page rel="canonical")
+    const noindexUtilityRoutes = new Set(['/404.html', '/seo-dashboard/', '/ms/seo-dashboard/']);
+    const targetRobotsContent = noindexUtilityRoutes.has(routePath)
+      ? 'noindex, follow'
+      : 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
+    let nextRobotsHtml = html.replace(
       /<meta\s+name="robots"\s+content="[^"]*"\s*\/?>/i,
       `<meta name="robots" content="${targetRobotsContent}" />`
     );
+    if (routePath === '/404.html') {
+      // HTTP 404 error page must not emit canonical or hreflang tags pointing to /
+      nextRobotsHtml = nextRobotsHtml
+        .replace(/\s*<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/gi, '')
+        .replace(/\s*<link\s+rel="alternate"\s+hreflang="[^"]*"\s+href="[^"]*"\s*\/?>/gi, '');
+    }
     if (nextRobotsHtml !== html) {
       html = nextRobotsHtml;
       htmlModified = true;
@@ -817,7 +826,7 @@ function main() {
               }
             };
 
-            const fixProduct = (prodNode, fallbackDesc) => {
+            const fixProduct = (prodNode, fallbackDesc, includeRatings = true) => {
               if (!prodNode || typeof prodNode !== 'object') return;
               if (prodNode.gtin13 && String(prodNode.gtin13).startsWith('9550000')) {
                 delete prodNode.gtin13;
@@ -831,19 +840,38 @@ function main() {
                 prodNode.description = fallbackDesc || prodNode.name;
                 graphChanged = true;
               }
-              if (!prodNode.aggregateRating) {
-                prodNode.aggregateRating = defaultAggregateRating;
-                graphChanged = true;
-              }
-              if (!prodNode.review) {
-                prodNode.review = defaultReviews;
-                graphChanged = true;
+              if (includeRatings) {
+                if (!prodNode.aggregateRating) {
+                  prodNode.aggregateRating = defaultAggregateRating;
+                  graphChanged = true;
+                }
+                if (!prodNode.review) {
+                  prodNode.review = defaultReviews;
+                  graphChanged = true;
+                }
+              } else {
+                if (prodNode.aggregateRating) {
+                  delete prodNode.aggregateRating;
+                  graphChanged = true;
+                }
+                if (prodNode.review) {
+                  delete prodNode.review;
+                  graphChanged = true;
+                }
               }
               if (Array.isArray(prodNode.offers)) prodNode.offers.forEach(fixOffer);
               else if (prodNode.offers) fixOffer(prodNode.offers);
             };
 
-            let hasRatedNode = false;
+            // Remove any legacy injected #featured-apothecary-reserve dummy Product node on non-product pages
+            const beforeLen = parsed['@graph'].length;
+            parsed['@graph'] = parsed['@graph'].filter(
+              (n) => !String(n?.['@id'] || '').endsWith('#featured-apothecary-reserve')
+            );
+            if (parsed['@graph'].length !== beforeLen) {
+              graphChanged = true;
+            }
+
             totalJsonLdNodes += parsed['@graph'].length;
             for (const node of parsed['@graph']) {
               const types = Array.isArray(node['@type']) ? node['@type'] : [node['@type']];
@@ -889,8 +917,7 @@ function main() {
                 }
               }
               if (types.includes('Product') || types.includes('DietarySupplement')) {
-                fixProduct(node, node.description);
-                hasRatedNode = true;
+                fixProduct(node, node.description, true);
               }
               if (types.includes('ProductGroup') && Array.isArray(node.hasVariant)) {
                 if (!node.aggregateRating) {
@@ -902,15 +929,14 @@ function main() {
                   graphChanged = true;
                 }
                 for (const v of node.hasVariant) {
-                  fixProduct(v, node.description || v.name);
-                  hasRatedNode = true;
+                  fixProduct(v, node.description || v.name, true);
                 }
               }
               if (types.includes('ItemList') && Array.isArray(node.itemListElement)) {
+                // Official Google Search Central (review-snippet): Do not attach AggregateRating/Review to multi-item category/list pages
                 for (const li of node.itemListElement) {
                   if (li.item && (li.item['@type'] === 'Product' || Array.isArray(li.item['@type']))) {
-                    fixProduct(li.item, li.item.description || li.item.name);
-                    hasRatedNode = true;
+                    fixProduct(li.item, li.item.description || li.item.name, false);
                   }
                 }
               }
@@ -960,48 +986,13 @@ function main() {
               }
             }
 
-            // Ensure every page @graph has OfferShippingDetails, MerchantReturnPolicy, and a valid Product node with AggregateRating+Review
+            // Ensure every page @graph has OfferShippingDetails and MerchantReturnPolicy (without injecting fake Product/AggregateRating onto non-product pages)
             if (!parsed['@graph'].some((n) => n['@type'] === 'OfferShippingDetails')) {
               parsed['@graph'].push({ '@id': `${DOMAIN_ORIGIN}/#shipping-my`, ...defaultShipping });
               graphChanged = true;
             }
             if (!parsed['@graph'].some((n) => n['@type'] === 'MerchantReturnPolicy')) {
               parsed['@graph'].push({ '@id': `${DOMAIN_ORIGIN}/#return-policy`, ...defaultReturnPolicy });
-              graphChanged = true;
-            }
-            if (!hasRatedNode) {
-              parsed['@graph'].push({
-                '@type': ['Product', 'DietarySupplement'],
-                '@id': `${DOMAIN_ORIGIN}${routePath}#featured-apothecary-reserve`,
-                name: isMsPage
-                  ? 'Koleksi Kapsul Vitaliti Botani Onyxmen Malaysia (100% Original)'
-                  : 'Onyxmen Malaysia Botanical Vitality Apothecary Reserve (100% Original)',
-                description: isMsPage
-                  ? 'Koleksi rasmi kapsul botani lelaki dewasa Onyxmen Malaysia (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) — Beli 1 RM 159, Beli 2 RM 286 (Diskaun 10%), Beli 3 RM 405 (Diskaun 15%) dengan penghantaran bungkusan rahsia COD.'
-                  : 'Official 100% Original Malaysian men vitality botanical capsule collection (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) — Buy 1 RM 159, Buy 2 RM 286 (10% OFF), Buy 3 RM 405 (15% OFF) with discreet plain-box COD.',
-                image: [
-                  `${DOMAIN_ORIGIN}/assets/sovereign/web_set_02_catalog_zoom_pure_white_cyclorama_1793437707044.webp`,
-                  `${DOMAIN_ORIGIN}/assets/sovereign/web_set_02_catalog_zoom_pure_white_cyclorama_1793437707044.jpg`,
-                ],
-                brand: { '@type': 'Brand', name: 'Onyxmen' },
-                sku: 'ONYX-COLLECTION-MY',
-                mpn: 'OM-COLLECTION-2026-MY',
-                size: '1 Bottle (20–30 Capsules Official Reserve)',
-                aggregateRating: defaultAggregateRating,
-                review: defaultReviews,
-                offers: {
-                  '@type': 'Offer',
-                  price: '159.00',
-                  priceCurrency: 'MYR',
-                  validFrom: '2026-01-01',
-                  priceValidUntil: '2027-12-31',
-                  availability: 'https://schema.org/InStock',
-                  itemCondition: 'https://schema.org/NewCondition',
-                  url: `${DOMAIN_ORIGIN}${routePath}`,
-                  shippingDetails: { ...defaultShipping },
-                  hasMerchantReturnPolicy: { ...defaultReturnPolicy },
-                },
-              });
               graphChanged = true;
             }
 

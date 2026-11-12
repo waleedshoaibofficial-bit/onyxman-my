@@ -1180,7 +1180,7 @@ Contact: https://www.onyxmen.my/contact/
 Expires: 2027-12-31T23:59:59.000Z
 Preferred-Languages: en, ms
 Canonical: https://www.onyxmen.my/.well-known/security.txt
-Policy: https://www.onyxmen.my/privacy-and-terms/
+Policy: https://www.onyxmen.my/privacy-policy/
 Hiring: https://www.onyxmen.my/about/
 `;
 }
@@ -2304,12 +2304,11 @@ function buildBespoke404Html(allRoutes) {
 
   const schemaGraph = buildFullPageGraph({
     lang: 'en-MY',
-    pageType: 'home',
     pageUrl: `${DOMAIN_ORIGIN}/404.html`,
     title:
-      '404 Apothecary Concierge & Bilingual Route Directory — Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159) | Onyxmen Malaysia',
+      '404 Route Not Found — Official Onyxmen Malaysia Catalog | RM 159',
     description:
-      'Bilingual (EN & BM) 404 Concierge Recovery Directory for Onyxmen Malaysia (https://www.onyxmen.my). Instant access to all 4 flagship men\'s vitality supplements (RM 159), 16 Malaysian state delivery hubs, and Express Discreet Order Drawer.',
+      '✓ The requested Onyxmen Malaysia URL could not be located. Browse 100% Original Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159 · Buy 2 RM 286 COD).',
     breadcrumbs: [
       { name: 'Onyxmen Malaysia Vault', url: `${DOMAIN_ORIGIN}/` },
       { name: '404 Apothecary Concierge & Route Directory', url: `${DOMAIN_ORIGIN}/404.html` },
@@ -2323,12 +2322,13 @@ function buildBespoke404Html(allRoutes) {
   return renderLuxuryShell({
     lang: 'en-MY',
     title:
-      '404 Apothecary Concierge & Bilingual Route Directory — Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159) | Onyxmen Malaysia',
+      '404 Route Not Found — Official Onyxmen Malaysia Catalog | RM 159',
     description:
-      'Bilingual (EN & BM) 404 Concierge Recovery Directory for Onyxmen Malaysia (https://www.onyxmen.my). Instant navigation to Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR (RM 159), and all 16 Malaysian state delivery hubs.',
-    canonicalPath: '/',
+      '✓ The requested Onyxmen Malaysia URL could not be located. Browse 100% Original Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159 · Buy 2 RM 286 COD).',
+    canonicalPath: '/404.html',
     alternatePathEn: '/',
     alternatePathMs: '/ms/',
+    robotsDirective: 'noindex, follow',
     ogImage: '/assets/products/onyxman-lineup-hero.webp',
     productSlug: 'horsemen',
     defaultQty: 1,

@@ -4118,8 +4118,8 @@ export const TRUST_DOSSIERS = [
     microStepEn: 'MS-169',
     microStepMs: 'MS-170',
     schemaPageType: 'products-index',
-    canonicalEnPath: '/products/',
-    canonicalMsPath: '/ms/produk/',
+    canonicalEnPath: '/',
+    canonicalMsPath: '/ms/',
     enOutputPaths: [
       'products/index.html',
     ],
