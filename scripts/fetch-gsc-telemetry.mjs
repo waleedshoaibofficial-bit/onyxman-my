@@ -272,6 +272,14 @@ async function main() {
   if (fs.existsSync(STATUS_JSON_PATH)) {
     statusObj = JSON.parse(fs.readFileSync(STATUS_JSON_PATH, 'utf8'));
   }
+  try {
+    const leadsRes = await fetch('https://raw.githubusercontent.com/waleedshoaibofficial-bit/onyxman-my/leads-telemetry/leads-ledger.json', {
+      signal: AbortSignal.timeout(8000),
+    });
+    if (leadsRes.ok) {
+      statusObj.leadsTelemetry = await leadsRes.json();
+    }
+  } catch {}
 
   if (!rawSecret.trim()) {
     console.log('[GSC-TELEMETRY] GSC_SERVICE_ACCOUNT_JSON not configured yet; writing ready-state schema.');
