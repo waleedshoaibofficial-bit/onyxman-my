@@ -54,7 +54,7 @@ jobs:
       - name: "02 Â· Setup Node.js 20 LTS Runtime"
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
 
       - name: "03 Â· Execute Full Bilingual Static Build (EN-MY + MS-MY)"
         env:
