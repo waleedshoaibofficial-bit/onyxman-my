@@ -15,8 +15,8 @@
  *   - GTIN-13 : 9550000102042
  *   - Weight  : 30 Kapsul Hitam × 600mg = 18,000mg (18.0g) Jisim Aktif Sebotol
  *   - Pricing : 1 Botol (30 Kapsul Hitam) = RM 159 (159.00 MYR)
- *               2 Botol (60 Kapsul Hitam) = RM 318 (318.00 MYR)
- *               3 Botol (90 Kapsul Hitam) = RM 477 (477.00 MYR)
+ *               2 Botol (60 Kapsul Hitam) = RM 286 (10% OFF vs RM 318) (318.00 MYR)
+ *               3 Botol (90 Kapsul Hitam) = RM 405 (15% OFF vs RM 477) (477.00 MYR)
  *   - Cycle   : Kitaran Nitrik Oksida 30 Hari & Peringatan Isian Semula Hari Ke-25
  *   - Desks   : waleedshoaibofficial@gmail.com | sales@onyxmen.my | info@onyxmen.my
  *
@@ -111,7 +111,7 @@ export const MAGNUM_PUMP_XR_MS_FAQS = [
     answerMs:
       'Memandangkan setiap botol Magnum Pump XR membekalkan 30 kapsul hitam untuk Kitaran Nitrik Oksida 30 Hari penuh (pada kadar pengambilan 1 kapsul hitam sehari), pada pagi Hari Ke-25 anda masih mempunyai baki tepat 5 kapsul hitam (3,000mg) di dalam botol. Peringatan automatik Hari Ke-25 memberikan tetingkap masa 5 hari yang selesa untuk penghantaran kurier ekspres rahsia (1–2 hari bekerja di Semenanjung; 2–4 hari bekerja di Sabah, Sarawak & Labuan) tiba di pintu anda sebelum kapsul hitam ke-30 habis.',
     clinicalNoteMs:
-      'Bagi pelanggan Pakej 2 Botol (60 kapsul hitam / RM 318), peringatan diaktifkan pada Hari Ke-50; manakala bagi Pakej 3 Botol (90 kapsul hitam / RM 477), peringatan diaktifkan pada Hari Ke-75.',
+      'Bagi pelanggan Pakej 2 Botol (60 kapsul hitam / RM 286 (10% OFF vs RM 318)), peringatan diaktifkan pada Hari Ke-50; manakala bagi Pakej 3 Botol (90 kapsul hitam / RM 405 (15% OFF vs RM 477)), peringatan diaktifkan pada Hari Ke-75.',
   },
   {
     id: 'faq-mp-ms-06',
@@ -131,9 +131,9 @@ export const MAGNUM_PUMP_XR_MS_FAQS = [
     questionMs:
       'Berapakah harga rasmi Magnum Pump XR di Malaysia dan pakej manakah yang paling berbaloi?',
     answerMs:
-      'Harga rasmi seragam Magnum Pump XR di Onyxmen.my ialah: (1) Pakej 1 Botol (30 Kapsul Hitam / 18,000mg / Kitaran 30 Hari) pada harga RM 159.00 dengan Penghantaran Ekspres Rahsia Percuma di Semenanjung Malaysia (RM 12 untuk Sabah/Sarawak/Labuan); (2) Pakej 2 Botol (60 Kapsul Hitam / 36,000mg / Protokol Dwi-Aliran Vaskular & Senaman 60 Hari) pada harga RM 318.00 dengan Penghantaran Ekspres Rahsia Percuma ke seluruh 16 negeri Malaysia termasuk Sabah, Sarawak & Labuan; dan (3) Pakej 3 Botol (90 Kapsul Hitam / 54,000mg / Pakej Lengkap Siri Pro 90 Hari) pada harga RM 477.00 dengan Pelepasan Keutamaan VIP serta Khidmat Peringatan Hari Ke-75.',
+      'Harga rasmi seragam Magnum Pump XR di Onyxmen.my ialah: (1) Pakej 1 Botol (30 Kapsul Hitam / 18,000mg / Kitaran 30 Hari) pada harga RM 159.00 dengan Penghantaran Ekspres Rahsia Percuma di Semenanjung Malaysia (RM 12 untuk Sabah/Sarawak/Labuan); (2) Pakej 2 Botol (60 Kapsul Hitam / 36,000mg / Protokol Dwi-Aliran Vaskular & Senaman 60 Hari) pada harga RM 286 (10% OFF vs RM 318) dengan Penghantaran Ekspres Rahsia Percuma ke seluruh 16 negeri Malaysia termasuk Sabah, Sarawak & Labuan; dan (3) Pakej 3 Botol (90 Kapsul Hitam / 54,000mg / Pakej Lengkap Siri Pro 90 Hari) pada harga RM 405 (15% OFF vs RM 477) dengan Pelepasan Keutamaan VIP serta Khidmat Peringatan Hari Ke-75.',
     clinicalNoteMs:
-      'Pakej 2 Botol (RM 318) adalah pilihan paling popular kerana ia merangkumi 60 kapsul hitam penuh untuk kegunaan pra-gimnasium dan malam serta pengecualian caj kargo udara ke Malaysia Timur.',
+      'Pakej 2 Botol (RM 286 (10% OFF vs RM 318)) adalah pilihan paling popular kerana ia merangkumi 60 kapsul hitam penuh untuk kegunaan pra-gimnasium dan malam serta pengecualian caj kargo udara ke Malaysia Timur.',
   },
   {
     id: 'faq-mp-ms-08',
@@ -340,9 +340,9 @@ function buildMagnumMsGraphJson() {
   const exactProductGroupNode = {
     '@type': 'ProductGroup',
     '@id': productGroupId,
-    name: 'Magnum Pump XR Malaysia — Koleksi Pakej Rasmi 1, 2 & 3 Botol (RM 159 / RM 318 / RM 477)',
+    name: 'Magnum Pump XR Malaysia — Koleksi Pakej Rasmi 1, 2 & 3 Botol (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477))',
     description:
-      'Koleksi pakej rasmi Magnum Pump XR Malaysia (30 Kapsul Hitam × 600mg sebotol): 1 Botol RM 159.00 (30 Kapsul Hitam), 2 Botol RM 318.00 (60 Kapsul Hitam), dan 3 Botol RM 477.00 (90 Kapsul Hitam) dengan Peringatan Isian Semula Hari Ke-25 dan penghantaran bungkusan rahsia.',
+      'Koleksi pakej rasmi Magnum Pump XR Malaysia (30 Kapsul Hitam × 600mg sebotol): 1 Botol RM 159.00 (30 Kapsul Hitam), 2 Botol RM 286 (10% OFF vs RM 318) (60 Kapsul Hitam), dan 3 Botol RM 405 (15% OFF vs RM 477) (90 Kapsul Hitam) dengan Peringatan Isian Semula Hari Ke-25 dan penghantaran bungkusan rahsia.',
     url: CANONICAL_URL_MS,
     productGroupID: 'ONYX-MP-30-GROUP',
     brand: brandNode,
@@ -633,7 +633,7 @@ const MAGNUM_MS_PAGE_CSS = `
     line-height: 1.15;
   }
 
-  /* Pita Pemilihan Pakej 1 / 2 / 3 Botol (RM 159 / RM 318 / RM 477) */
+  /* Pita Pemilihan Pakej 1 / 2 / 3 Botol (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)) */
   .mp-ms-tier-selector {
     display: flex;
     flex-direction: column;
@@ -1202,7 +1202,7 @@ const MAGNUM_MS_PAGE_CSS = `
  * BAB 1: PENTAS SINEMATIK OBSIDIAN 100vw x 100vh MAGNUM PUMP XR MALAYSIA
  * - Produk: Magnum Pump XR Malaysia (Siri Pro Testosteron — Formula Peningkatan Prestasi Lelaki Kekuatan Maksimum — 30 Kapsul Hitam)
  * - Imej Pentas Studio: /assets/products/magnum-pump-xr-stage.webp (botol + 6 kapsul hitam berkilat)
- * - Pemilih Pakej 1/2/3 Botol (RM 159 / RM 318 / RM 477)
+ * - Pemilih Pakej 1/2/3 Botol (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477))
  * - Pemicu Laci Tempahan Ekspres 1-Klik (data-order-product="magnum-pump-xr")
  * ============================================================================
  */
@@ -1285,7 +1285,7 @@ function renderChapter1Hero() {
           </div>
         </div>
 
-        <!-- Pemilih Pakej 1 / 2 / 3 Botol (RM 159 / RM 318 / RM 477) -->
+        <!-- Pemilih Pakej 1 / 2 / 3 Botol (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)) -->
         <div
           class="mp-ms-tier-selector"
           role="radiogroup"
@@ -1320,7 +1320,7 @@ function renderChapter1Hero() {
             </div>
           </button>
 
-          <!-- Pakej 2 Botol: RM 318 (Pilihan Utama Senaman & Malam) -->
+          <!-- Pakej 2 Botol: RM 286 (10% OFF vs RM 318) (Pilihan Utama Senaman & Malam) -->
           <button
             type="button"
             class="mp-ms-tier-row mp-ms-tier-row--active"
@@ -1348,7 +1348,7 @@ function renderChapter1Hero() {
             </div>
           </button>
 
-          <!-- Pakej 3 Botol: RM 477 -->
+          <!-- Pakej 3 Botol: RM 405 (15% OFF vs RM 477) -->
           <button
             type="button"
             class="mp-ms-tier-row"
@@ -1827,7 +1827,7 @@ function renderChapter2BotanicalAndBlackCapsule() {
             data-order-product="magnum-pump-xr"
             data-order-qty="2"
           >
-            <span>TEMPAH 60 KAPSUL HITAM (2 BOTOL · RM 318)</span>
+            <span>TEMPAH 60 KAPSUL HITAM (2 BOTOL · RM 286 (10% OFF vs RM 318))</span>
             <span aria-hidden="true">→</span>
           </button>
         </div>
@@ -1942,7 +1942,7 @@ function renderChapter3CycleComparisonShippingFaq() {
             data-order-product="magnum-pump-xr"
             data-order-qty="2"
           >
-            <span>MULAKAN PROTOKOL 60 HARI (2 BOTOL · RM 318)</span>
+            <span>MULAKAN PROTOKOL 60 HARI (2 BOTOL · RM 286 (10% OFF vs RM 318))</span>
             <span aria-hidden="true">→</span>
           </button>
         </div>
@@ -2054,7 +2054,7 @@ function renderChapter3CycleComparisonShippingFaq() {
           </div>
           <div class="mp-ms-cycle-stage-row__meta">
             <span style="color: var(--gold-foil-bright); font-size: 0.7rem; letter-spacing: 0.16em;">TINDAKAN DISYORKAN</span>
-            <strong>Sahkan Isian Semula (RM 159 / RM 318)</strong>
+            <strong>Sahkan Isian Semula (RM 159 / RM 286 (10% OFF vs RM 318))</strong>
             <span style="color: var(--gold-champagne);">Baki Botol: 5 Kapsul Hitam (5 Hari)</span>
           </div>
         </div>
@@ -2070,7 +2070,7 @@ function renderChapter3CycleComparisonShippingFaq() {
               Kemuncak Kitaran 18,000mg &amp; Peralihan Lancar ke Kitaran Bulan Kedua
             </h3>
             <p class="mp-ms-cycle-stage-row__desc">
-              Apabila kapsul hitam ke-30 selesai diambil pada Hari Ke-30 (genap <strong>18,000mg / 18.0 gram</strong> matriks asid amino nitrik oksida dan ekstrak Siri Pro Testosteron), botol kedua anda sudah sedia di tangan—sama ada kerana anda memilih <strong>Pakej 2 Botol (RM 318 / 60 Kapsul Hitam)</strong> sejak Hari Pertama, atau melalui pelepasan pantas Hari Ke-25.
+              Apabila kapsul hitam ke-30 selesai diambil pada Hari Ke-30 (genap <strong>18,000mg / 18.0 gram</strong> matriks asid amino nitrik oksida dan ekstrak Siri Pro Testosteron), botol kedua anda sudah sedia di tangan—sama ada kerana anda memilih <strong>Pakej 2 Botol (RM 286 (10% OFF vs RM 318) / 60 Kapsul Hitam)</strong> sejak Hari Pertama, atau melalui pelepasan pantas Hari Ke-25.
             </p>
           </div>
           <div class="mp-ms-cycle-stage-row__meta">
@@ -2099,7 +2099,7 @@ function renderChapter3CycleComparisonShippingFaq() {
             Perbandingan Magnum Pump XR berbanding <span class="foil-champagne-text">Grow XL, Horsemen &amp; Hammer of Thor</span>
           </h2>
           <p class="editorial-lead-paragraph">
-            Keempat-empat formulasi rasmi Onyxmen Malaysia ditawarkan pada harga seragam <strong>RM 159.00 sebotol</strong> (2 Botol RM 318 · 3 Botol RM 477), tetapi setiap satu direka untuk keperluan fisiologi yang berbeza. Gunakan jadual perbandingan 10-dimensi di bawah untuk memahami mengapa <strong>Magnum Pump XR Malaysia (30 Kapsul Hitam × 600mg = 18,000mg)</strong> merupakan pilihan nombor satu untuk aliran vaskular Nitrik Oksida, senaman gimnasium, dan stamina malam.
+            Keempat-empat formulasi rasmi Onyxmen Malaysia ditawarkan pada harga seragam <strong>RM 159.00 sebotol</strong> (2 Botol RM 286 (10% OFF vs RM 318) · 3 Botol RM 405 (15% OFF vs RM 477)), tetapi setiap satu direka untuk keperluan fisiologi yang berbeza. Gunakan jadual perbandingan 10-dimensi di bawah untuk memahami mengapa <strong>Magnum Pump XR Malaysia (30 Kapsul Hitam × 600mg = 18,000mg)</strong> merupakan pilihan nombor satu untuk aliran vaskular Nitrik Oksida, senaman gimnasium, dan stamina malam.
           </p>
         </div>
 
@@ -2276,23 +2276,23 @@ function renderChapter3CycleComparisonShippingFaq() {
               <th scope="row">Harga Rasmi Pakej 1 / 2 / 3 Botol</th>
               <td class="mp-ms-col-highlight">
                 <strong>1 Botol: RM 159.00</strong><br />
-                <strong>2 Botol: RM 318.00</strong><br />
-                <strong>3 Botol: RM 477.00</strong>
+                <strong>2 Botol: RM 286 (10% OFF vs RM 318)</strong><br />
+                <strong>3 Botol: RM 405 (15% OFF vs RM 477)</strong>
               </td>
               <td>
                 1 Botol: RM 159.00<br />
-                2 Botol: RM 318.00<br />
-                3 Botol: RM 477.00
+                2 Botol: RM 286 (10% OFF vs RM 318)<br />
+                3 Botol: RM 405 (15% OFF vs RM 477)
               </td>
               <td>
                 1 Botol: RM 159.00<br />
-                2 Botol: RM 318.00<br />
-                3 Botol: RM 477.00
+                2 Botol: RM 286 (10% OFF vs RM 318)<br />
+                3 Botol: RM 405 (15% OFF vs RM 477)
               </td>
               <td>
                 1 Botol: RM 159.00<br />
-                2 Botol: RM 318.00<br />
-                3 Botol: RM 477.00
+                2 Botol: RM 286 (10% OFF vs RM 318)<br />
+                3 Botol: RM 405 (15% OFF vs RM 477)
               </td>
             </tr>
             <tr>
@@ -2658,7 +2658,7 @@ function renderChapter3CycleComparisonShippingFaq() {
 
         <div class="architectural-ledger__row" role="listitem">
           <span class="architectural-ledger__index">SEMAK 05</span>
-          <h3 class="architectural-ledger__title">Harga Rasmi Seragam RM 159.00 Sebotol (2 Botol RM 318 · 3 Botol RM 477)</h3>
+          <h3 class="architectural-ledger__title">Harga Rasmi Seragam RM 159.00 Sebotol (2 Botol RM 286 (10% OFF vs RM 318) · 3 Botol RM 405 (15% OFF vs RM 477))</h3>
           <p class="architectural-ledger__detail">
             Bahan mentah L-Citrulline Malate 2:1, Kunyit Hitam (5% PMF), Tongkat Ali 100:1, dan Bioperine (95% piperine) tulen mempunyai kos penggubalan yang tinggi. Onyxmen Malaysia menetapkan harga rasmi <strong>RM 159 sebotol</strong> secara telus. Elakkan produk tiruan berharga RM 30–RM 50 di pasaran terbuka.
           </p>
@@ -2850,7 +2850,7 @@ export function buildMagnumMsPage() {
     title:
       'Magnum Pump XR Malaysia (30 Kapsul Hitam × 600mg) — Siri Pro Testosteron & Formula Nitrik Oksida Kekuatan Maksimum | RM 159 Onyxmen.my',
     description:
-      'Tempah Magnum Pump XR Malaysia tulen (Siri Pro Testosteron — Formula Peningkatan Prestasi Lelaki Kekuatan Maksimum — 30 Kapsul Hitam, SKU ONYX-MP-30, MPN MPXR-30BLK-MY, GTIN-13 9550000102042) pada harga rasmi RM 159 sebotol (2 Botol RM 318, 3 Botol RM 477). Gabungan L-Arginine HCl 180mg, L-Citrulline Malate 140mg, Tribulus Terrestris 110mg, Tongkat Ali Malaysia 90mg, Kunyit Hitam 65mg & Bioperine 15mg dengan penghantaran rahsia ke seluruh 16 negeri Malaysia.',
+      'Tempah Magnum Pump XR Malaysia tulen (Siri Pro Testosteron — Formula Peningkatan Prestasi Lelaki Kekuatan Maksimum — 30 Kapsul Hitam, SKU ONYX-MP-30, MPN MPXR-30BLK-MY, GTIN-13 9550000102042) pada harga rasmi RM 159 sebotol (2 Botol RM 286 (10% OFF vs RM 318), 3 Botol RM 405 (15% OFF vs RM 477)). Gabungan L-Arginine HCl 180mg, L-Citrulline Malate 140mg, Tribulus Terrestris 110mg, Tongkat Ali Malaysia 90mg, Kunyit Hitam 65mg & Bioperine 15mg dengan penghantaran rahsia ke seluruh 16 negeri Malaysia.',
     canonicalPath: CANONICAL_PATH_MS,
     alternatePathEn: ALTERNATE_PATH_EN,
     alternatePathMs: CANONICAL_PATH_MS,

@@ -9,7 +9,7 @@
  * Product Constants:
  *   - Title: Horsemen Malaysia (Suplemen Herba Vitaliti & Tenaga Lelaki — 20 Kapsul x 500mg)
  *   - SKU: ONYX-HM-20 | MPN: HM-500MG-20MY | GTIN-13: 9550000102011
- *   - Official Pricing: 1 Botol = RM 159 (159.00 MYR), 2 Botol = RM 318 (318.00 MYR), 3 Botol = RM 477 (477.00 MYR)
+ *   - Official Pricing: 1 Botol = RM 159 (159.00 MYR), 2 Botol = RM 286 (10% OFF vs RM 318) (318.00 MYR), 3 Botol = RM 405 (15% OFF vs RM 477) (477.00 MYR)
  *   - Merchant Desks: waleedshoaibofficial@gmail.com | sales@onyxmen.my | info@onyxmen.my
  * Architecture:
  *   - Paradigm A (100vw x 100vh Full-Bleed Obsidian Cinema Stage)
@@ -86,9 +86,9 @@ export const HORSEMEN_MS_FAQS = [
     category: 'HARGA RASMI & PAKEJ MULTI-BOTOL',
     questionMs: 'Berapakah harga rasmi Horsemen Malaysia dan apakah kelebihan memilih pakej 2 atau 3 botol?',
     answerMs:
-      'Harga rasmi yang ditetapkan oleh Onyxmen Malaysia ialah RM 159.00 untuk Pakej 1 Botol (20 kapsul / 10,000mg), RM 318.00 untuk Pakej Dwi-Momentum 2 Botol (40 kapsul / 20,000mg), dan RM 477.00 untuk Pakej Apotekari Lengkap 3 Botol (60 kapsul / 30,000mg). Pakej 1 Botol menikmati penghantaran rahsia percuma di seluruh Semenanjung Malaysia (RM 12 untuk Sabah, Sarawak & Labuan), manakala Pakej 2 Botol (RM 318) dan 3 Botol (RM 477) melayakkan anda menerima Penghantaran Ekspres Rahsia Percuma ke seluruh 16 negeri Malaysia termasuk Sabah, Sarawak dan Labuan.',
+      'Harga rasmi yang ditetapkan oleh Onyxmen Malaysia ialah RM 159.00 untuk Pakej 1 Botol (20 kapsul / 10,000mg), RM 286 (10% OFF vs RM 318) untuk Pakej Dwi-Momentum 2 Botol (40 kapsul / 20,000mg), dan RM 405 (15% OFF vs RM 477) untuk Pakej Apotekari Lengkap 3 Botol (60 kapsul / 30,000mg). Pakej 1 Botol menikmati penghantaran rahsia percuma di seluruh Semenanjung Malaysia (RM 12 untuk Sabah, Sarawak & Labuan), manakala Pakej 2 Botol (RM 286 (10% OFF vs RM 318)) dan 3 Botol (RM 405 (15% OFF vs RM 477)) melayakkan anda menerima Penghantaran Ekspres Rahsia Percuma ke seluruh 16 negeri Malaysia termasuk Sabah, Sarawak dan Labuan.',
     clinicalNoteMs:
-      'Lebih 68% pelanggan di Kuala Lumpur, Selangor, Johor dan Pulau Pinang memilih Pakej 2 Botol (RM 318) untuk melengkapkan kitaran 40 hari penuh (peringatan isian semula pada Hari Ke-36).',
+      'Lebih 68% pelanggan di Kuala Lumpur, Selangor, Johor dan Pulau Pinang memilih Pakej 2 Botol (RM 286 (10% OFF vs RM 318)) untuk melengkapkan kitaran 40 hari penuh (peringatan isian semula pada Hari Ke-36).',
   },
   {
     id: 'faq-hm-ms-05',
@@ -136,7 +136,7 @@ export const HORSEMEN_MS_FAQS = [
     category: 'PROSES TEMPAhan EKSPRES 10 SAAT',
     questionMs: 'Bagaimanakah proses tempahan melalui Laci Tempahan Ekspres (Express Order Drawer) berfungsi?',
     answerMs:
-      'Apabila anda mengklik mana-mana butang "Tempah Bungkusan Rahsia — RM 159 / RM 318 / RM 477" di halaman ini, Laci Tempahan Ekspres akan dibuka secara serta-merta tanpa perlu memuat semula halaman atau mendaftar akaun yang rumit. Anda hanya perlu memilih kuantiti botol (1, 2, atau 3 botol), mengisi nama panggilan, nombor WhatsApp Malaysia (format 01X-XXXXXXX), memilih negeri serta alamat penghantaran, dan mengesahkan kaedah bayaran. Pesanan anda dihantar terus secara serentak ke meja operasi utama kami (waleedshoaibofficial@gmail.com, sales@onyxmen.my, info@onyxmen.my) bersama resit rujukan segera di skrin.',
+      'Apabila anda mengklik mana-mana butang "Tempah Bungkusan Rahsia — RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)" di halaman ini, Laci Tempahan Ekspres akan dibuka secara serta-merta tanpa perlu memuat semula halaman atau mendaftar akaun yang rumit. Anda hanya perlu memilih kuantiti botol (1, 2, atau 3 botol), mengisi nama panggilan, nombor WhatsApp Malaysia (format 01X-XXXXXXX), memilih negeri serta alamat penghantaran, dan mengesahkan kaedah bayaran. Pesanan anda dihantar terus secara serentak ke meja operasi utama kami (waleedshoaibofficial@gmail.com, sales@onyxmen.my, info@onyxmen.my) bersama resit rujukan segera di skrin.',
     clinicalNoteMs:
       'Pegawai khidmat pelanggan privasi kami akan menghubungi nombor WhatsApp anda untuk mengesahkan jadual pelepasan kurier dan berkongsi pautan Peringatan Kalendar Hari Ke-18.',
   },
@@ -226,13 +226,13 @@ function buildHorsemenMsGraphJson() {
     },
     {
       bottles: 2,
-      price: '318.00',
+      price: '286.00',
       skuSuffix: '2B',
       nameMs: 'Horsemen Malaysia — 2 Botol Protokol Dwi-Momentum (40 Kapsul x 500mg)',
     },
     {
       bottles: 3,
-      price: '477.00',
+      price: '405.00',
       skuSuffix: '3B',
       nameMs: 'Horsemen Malaysia — 3 Botol Pakej Apotekari Lengkap (60 Kapsul x 500mg)',
     },
@@ -322,9 +322,9 @@ function buildHorsemenMsGraphJson() {
   const productGroupNode = {
     '@type': 'ProductGroup',
     '@id': productGroupId,
-    name: 'Horsemen Malaysia — Koleksi Pakej Rasmi 1, 2 & 3 Botol (RM 159 / RM 318 / RM 477)',
+    name: 'Horsemen Malaysia — Koleksi Pakej Rasmi 1, 2 & 3 Botol (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477))',
     description:
-      'Koleksi pakej rasmi Horsemen Malaysia (20 Kapsul x 500mg sebotol): 1 Botol RM 159.00, 2 Botol RM 318.00 (40 Kapsul), dan 3 Botol RM 477.00 (60 Kapsul) dengan penghantaran bungkusan rahsia tanpa nama.',
+      'Koleksi pakej rasmi Horsemen Malaysia (20 Kapsul x 500mg sebotol): 1 Botol RM 159.00, 2 Botol RM 286 (10% OFF vs RM 318) (40 Kapsul), dan 3 Botol RM 405 (15% OFF vs RM 477) (60 Kapsul) dengan penghantaran bungkusan rahsia tanpa nama.',
     url: CANONICAL_URL_MS,
     productGroupID: 'ONYX-HM-20-GROUP',
     brand: brandNode,
@@ -624,7 +624,7 @@ const HORSEMEN_MS_PAGE_CSS = `
     line-height: 1.15;
   }
 
-  /* Pita Pemilihan Pakej 1 / 2 / 3 Botol (RM 159 / RM 318 / RM 477) */
+  /* Pita Pemilihan Pakej 1 / 2 / 3 Botol (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)) */
   .hm-ms-tier-selector {
     display: flex;
     flex-direction: column;
@@ -1193,7 +1193,7 @@ const HORSEMEN_MS_PAGE_CSS = `
  * ============================================================================
  * MS-100: PENTAS SINEMATIK OBSIDIAN 100vw x 100vh HORSEMEN MALAYSIA
  * - Imej Pentas Studio: /assets/products/horsemen-stage.webp & .png
- * - Pemilih Pakej 1/2/3 Botol (RM 159 / RM 318 / RM 477)
+ * - Pemilih Pakej 1/2/3 Botol (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477))
  * - Jaminan Penghantaran Rahsia Kotak Kosong ("OM Fulfilment Logistics")
  * - Pemicu Laci Tempahan Ekspres 1-Klik (data-order-product="horsemen")
  * ============================================================================
@@ -1272,7 +1272,7 @@ function renderChapterMs100() {
           </div>
         </div>
 
-        <!-- Pemilih Pakej 1 / 2 / 3 Botol (RM 159 / RM 318 / RM 477) -->
+        <!-- Pemilih Pakej 1 / 2 / 3 Botol (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)) -->
         <div
           class="hm-ms-tier-selector"
           role="radiogroup"
@@ -1307,7 +1307,7 @@ function renderChapterMs100() {
             </div>
           </button>
 
-          <!-- Pakej 2 Botol: RM 318 (Pilihan Utama KL & Selangor) -->
+          <!-- Pakej 2 Botol: RM 286 (10% OFF vs RM 318) (Pilihan Utama KL & Selangor) -->
           <button
             type="button"
             class="hm-ms-tier-row hm-ms-tier-row--active"
@@ -1335,7 +1335,7 @@ function renderChapterMs100() {
             </div>
           </button>
 
-          <!-- Pakej 3 Botol: RM 477 -->
+          <!-- Pakej 3 Botol: RM 405 (15% OFF vs RM 477) -->
           <button
             type="button"
             class="hm-ms-tier-row"
@@ -1813,7 +1813,7 @@ function renderChapterMs101() {
             data-order-product="horsemen"
             data-order-qty="2"
           >
-            <span>MULAKAN KITARAN 40 HARI (2 BOTOL · RM 318)</span>
+            <span>MULAKAN KITARAN 40 HARI (2 BOTOL · RM 286 (10% OFF vs RM 318))</span>
             <span aria-hidden="true">→</span>
           </button>
         </div>
@@ -1838,7 +1838,7 @@ function renderChapterMs101() {
             Protokol B: Penjagaan Stamina &amp; Vitaliti Harian (Kitaran 20 / 40 / 60 Hari)
           </h3>
           <p class="architectural-ledger__detail">
-            Ambil <strong>1 kapsul setiap malam</strong> secara konsisten 45 minit selepas makan malam selama 20 hari berturut-turut (Pakej 1 Botol = RM 159), 40 hari (Pakej 2 Botol = RM 318), atau 60 hari (Pakej 3 Botol = RM 477). Pastikan pengambilan air kosong sekurang-kurangnya <strong>2.5 liter sehari</strong> bersesuaian dengan cuaca tropika Malaysia. Simpan botol di bawah suhu 30°C di tempat kering.
+            Ambil <strong>1 kapsul setiap malam</strong> secara konsisten 45 minit selepas makan malam selama 20 hari berturut-turut (Pakej 1 Botol = RM 159), 40 hari (Pakej 2 Botol = RM 286 (10% OFF vs RM 318)), atau 60 hari (Pakej 3 Botol = RM 405 (15% OFF vs RM 477)). Pastikan pengambilan air kosong sekurang-kurangnya <strong>2.5 liter sehari</strong> bersesuaian dengan cuaca tropika Malaysia. Simpan botol di bawah suhu 30°C di tempat kering.
           </p>
           <span class="architectural-ledger__metric">BIO-SATURASI KUMULATIF</span>
         </div>
@@ -1925,7 +1925,7 @@ function renderChapterMs101() {
           </div>
           <div class="hm-ms-cycle-stage-row__meta">
             <span style="color: var(--gold-foil-bright); font-size: 0.7rem; letter-spacing: 0.16em;">TINDAKAN DISYORKAN</span>
-            <strong>Sahkan Isian Semula (RM 159 / RM 318)</strong>
+            <strong>Sahkan Isian Semula (RM 159 / RM 286 (10% OFF vs RM 318))</strong>
             <span style="color: var(--gold-champagne);">Baki Botol: 2 Kapsul (48 Jam)</span>
           </div>
         </div>
@@ -1941,7 +1941,7 @@ function renderChapterMs101() {
               Peralihan Lancar ke Kitaran Kedua Tanpa Jurang Penurunan Tenaga
             </h3>
             <p class="hm-ms-cycle-stage-row__desc">
-              Apabila kapsul ke-20 selesai diambil pada malam Hari Ke-20 (genap 10,000mg ekstrak botani), botol kedua anda sudah sedia di tangan—sama ada kerana anda menempah terus <strong>Pakej Dwi-Momentum 2 Botol (RM 318)</strong> pada Hari Pertama, atau melalui pelepasan pantas Hari Ke-18. Momentum stamina anda diteruskan ke Hari 21–40 dengan sifar gangguan.
+              Apabila kapsul ke-20 selesai diambil pada malam Hari Ke-20 (genap 10,000mg ekstrak botani), botol kedua anda sudah sedia di tangan—sama ada kerana anda menempah terus <strong>Pakej Dwi-Momentum 2 Botol (RM 286 (10% OFF vs RM 318))</strong> pada Hari Pertama, atau melalui pelepasan pantas Hari Ke-18. Momentum stamina anda diteruskan ke Hari 21–40 dengan sifar gangguan.
             </p>
           </div>
           <div class="hm-ms-cycle-stage-row__meta">
@@ -2002,7 +2002,7 @@ function renderChapterMs102() {
             Perbandingan Horsemen Malaysia berbanding <span class="foil-champagne-text">Hammer of Thor, Grow XL &amp; Magnum Pump XR</span>
           </h2>
           <p class="editorial-lead-paragraph">
-            Keempat-empat formulasi utama di Onyxmen Malaysia ditawarkan pada harga seragam <strong>RM 159.00 sebotol</strong> (2 Botol RM 318 · 3 Botol RM 477), namun setiap satu kejuruteraan fitokimianya direka untuk sasaran fisiologi lelaki dewasa yang berbeza. Gunakan jadual perbandingan teknikal 12-dimensi di bawah untuk mengesahkan mengapa <strong>Horsemen Malaysia (20 Kapsul × 500mg)</strong> menjadi pilihan utama untuk kesediaan tenaga malam dan fleksibiliti dwi-mod.
+            Keempat-empat formulasi utama di Onyxmen Malaysia ditawarkan pada harga seragam <strong>RM 159.00 sebotol</strong> (2 Botol RM 286 (10% OFF vs RM 318) · 3 Botol RM 405 (15% OFF vs RM 477)), namun setiap satu kejuruteraan fitokimianya direka untuk sasaran fisiologi lelaki dewasa yang berbeza. Gunakan jadual perbandingan teknikal 12-dimensi di bawah untuk mengesahkan mengapa <strong>Horsemen Malaysia (20 Kapsul × 500mg)</strong> menjadi pilihan utama untuk kesediaan tenaga malam dan fleksibiliti dwi-mod.
           </p>
         </div>
 
@@ -2166,23 +2166,23 @@ function renderChapterMs102() {
               <th scope="row">Harga Rasmi Pakej 1 / 2 / 3 Botol</th>
               <td class="hm-ms-col-highlight">
                 <strong>1 Botol: RM 159.00</strong><br />
-                <strong>2 Botol: RM 318.00</strong><br />
-                <strong>3 Botol: RM 477.00</strong>
+                <strong>2 Botol: RM 286 (10% OFF vs RM 318)</strong><br />
+                <strong>3 Botol: RM 405 (15% OFF vs RM 477)</strong>
               </td>
               <td>
                 1 Botol: RM 159.00<br />
-                2 Botol: RM 318.00<br />
-                3 Botol: RM 477.00
+                2 Botol: RM 286 (10% OFF vs RM 318)<br />
+                3 Botol: RM 405 (15% OFF vs RM 477)
               </td>
               <td>
                 1 Botol: RM 159.00<br />
-                2 Botol: RM 318.00<br />
-                3 Botol: RM 477.00
+                2 Botol: RM 286 (10% OFF vs RM 318)<br />
+                3 Botol: RM 405 (15% OFF vs RM 477)
               </td>
               <td>
                 1 Botol: RM 159.00<br />
-                2 Botol: RM 318.00<br />
-                3 Botol: RM 477.00
+                2 Botol: RM 286 (10% OFF vs RM 318)<br />
+                3 Botol: RM 405 (15% OFF vs RM 477)
               </td>
             </tr>
             <tr>
@@ -2565,7 +2565,7 @@ function renderChapterMs102() {
           <span class="architectural-ledger__index">SEMAK 05</span>
           <h3 class="architectural-ledger__title">Harga Rasmi Seragam RM 159.00 Sebotol (Tiada Diskaun Palsu RM 30–RM 50)</h3>
           <p class="architectural-ledger__detail">
-            Ekstrak Tongkat Ali 100:1 (2.2% eurycomanone) dan Maca Hitam Peru terjelatin tulen mempunyai kos bahan mentah yang tinggi. Onyxmen Malaysia menetapkan harga rasmi <strong>RM 159 sebotol</strong> (2 botol RM 318 · 3 botol RM 477) secara telus. Berwaspada terhadap lambakan tiruan berharga murah yang menggunakan tepung kanji.
+            Ekstrak Tongkat Ali 100:1 (2.2% eurycomanone) dan Maca Hitam Peru terjelatin tulen mempunyai kos bahan mentah yang tinggi. Onyxmen Malaysia menetapkan harga rasmi <strong>RM 159 sebotol</strong> (2 botol RM 286 (10% OFF vs RM 318) · 3 botol RM 405 (15% OFF vs RM 477)) secara telus. Berwaspada terhadap lambakan tiruan berharga murah yang menggunakan tepung kanji.
           </p>
           <span class="architectural-ledger__metric">RM 159 RASMI</span>
         </div>
@@ -2753,7 +2753,7 @@ export function buildHorsemenMsPage() {
     title:
       'Horsemen Malaysia (20 Kapsul x 500mg) — Suplemen Herba Vitaliti & Tenaga Lelaki | RM 159 Onyxmen.my',
     description:
-      'Tempah Horsemen Malaysia tulen (Suplemen Herba Vitaliti & Tenaga Lelaki — 20 Kapsul x 500mg, SKU ONYX-HM-20, MPN HM-500MG-20MY) pada harga rasmi RM 159 sebotol (2 Botol RM 318, 3 Botol RM 477). Gabungan Tongkat Ali 150mg, Maca Hitam 100mg, Epimedium 80mg, L-Arginine HCl 80mg, Ginseng Merah 60mg & Tribulus/Zink 30mg dengan penghantaran rahsia kotak kosong ke seluruh 16 negeri Malaysia.',
+      'Tempah Horsemen Malaysia tulen (Suplemen Herba Vitaliti & Tenaga Lelaki — 20 Kapsul x 500mg, SKU ONYX-HM-20, MPN HM-500MG-20MY) pada harga rasmi RM 159 sebotol (2 Botol RM 286 (10% OFF vs RM 318), 3 Botol RM 405 (15% OFF vs RM 477)). Gabungan Tongkat Ali 150mg, Maca Hitam 100mg, Epimedium 80mg, L-Arginine HCl 80mg, Ginseng Merah 60mg & Tribulus/Zink 30mg dengan penghantaran rahsia kotak kosong ke seluruh 16 negeri Malaysia.',
     canonicalPath: CANONICAL_PATH_MS,
     alternatePathEn: ALTERNATE_PATH_EN,
     alternatePathMs: CANONICAL_PATH_MS,

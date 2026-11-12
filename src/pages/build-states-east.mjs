@@ -37,7 +37,7 @@
  * - Obsidian & Liquid Champagne Gold palette (#050507, #0B0C10, #12141C, #D4AF37, #EAE6DF)
  * - Typography: 'Cormorant Garamond', 'Syne', 'Space Grotesk'
  * - Every generated HTML file >= 2,200+ lines of uncompressed semantic HTML5 with 1-Click Express Order Drawer triggers,
- *   exact Onyxmen bottle linkages (RM 159 / RM 318 / RM 477), FAQs, and @graph JSON-LD.
+ *   exact Onyxmen bottle linkages (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)), FAQs, and @graph JSON-LD.
  */
 
 import fs from 'node:fs';
@@ -567,8 +567,8 @@ export const EAST_NORTH_STATE_DOSSIERS = [
     postalCodeRange: '88000–91300',
     transitWindowEn: '2–4 Business Days (Priority Daily Air-Cargo Discreet Parcel via KKIA, SDK & TWU)',
     transitWindowMs: '2–4 Hari Bekerja (Bungkusan Kargo Udara Rahsia Harian melalui KKIA, SDK & TWU)',
-    shippingPolicyEn: 'RM 12 Single-Bottle Air Freight · RM 0 FREE Air Cargo on 2 Bottles (RM 318) & 3 Bottles (RM 477)',
-    shippingPolicyMs: 'RM 12 Kargo Udara 1 Botol · RM 0 Kargo Udara PERCUMA untuk 2 Botol (RM 318) & 3 Botol (RM 477)',
+    shippingPolicyEn: 'RM 12 Single-Bottle Air Freight · RM 0 FREE Air Cargo on 2 Bottles (RM 286 (10% OFF vs RM 318)) & 3 Bottles (RM 405 (15% OFF vs RM 477))',
+    shippingPolicyMs: 'RM 12 Kargo Udara 1 Botol · RM 0 Kargo Udara PERCUMA untuk 2 Botol (RM 286 (10% OFF vs RM 318)) & 3 Botol (RM 405 (15% OFF vs RM 477))',
     sameDayRunnerAvailable: false,
     codSupported: true,
     fpxSupported: true,
@@ -585,11 +585,11 @@ export const EAST_NORTH_STATE_DOSSIERS = [
     seoTitleEn:
       'Discreet Air-Cargo Delivery in Sabah (Kota Kinabalu, Penampang, Sandakan, Tawau) — RM 159 | Onyxmen Malaysia',
     seoDescEn:
-      'Order authentic Onyxmen men’s vitality supplements (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) with 2–4 day discreet air-cargo parcel delivery to Kota Kinabalu, Penampang, Sandakan, Tawau, Lahad Datu & Keningau. Free air shipping on 2+ bottles (RM 318).',
+      'Order authentic Onyxmen men’s vitality supplements (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) with 2–4 day discreet air-cargo parcel delivery to Kota Kinabalu, Penampang, Sandakan, Tawau, Lahad Datu & Keningau. Free air shipping on 2+ bottles (RM 286 (10% OFF vs RM 318)).',
     seoTitleMs:
       'Penghantaran Kargo Udara Rahsia di Sabah (Kota Kinabalu, Penampang, Sandakan, Tawau) — RM 159 | Onyxmen Malaysia',
     seoDescMs:
-      'Tempah suplemen kecergasan lelaki tulen Onyxmen (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) dengan penghantaran kargo udara rahsia 2–4 hari ke Kota Kinabalu, Penampang, Sandakan, Tawau, Lahad Datu & Keningau. Penghantaran udara percuma untuk 2+ botol (RM 318).',
+      'Tempah suplemen kecergasan lelaki tulen Onyxmen (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR — RM 159) dengan penghantaran kargo udara rahsia 2–4 hari ke Kota Kinabalu, Penampang, Sandakan, Tawau, Lahad Datu & Keningau. Penghantaran udara percuma untuk 2+ botol (RM 286 (10% OFF vs RM 318)).',
     kickerEn: 'EAST MALAYSIA BORNEO AIR-CARGO CORRIDOR · KOTA KINABALU · SANDAKAN · TAWAU · LAHAD DATU',
     kickerMs: 'KORIDOR KARGO UDARA BORNEO SABAH · KOTA KINABALU · PENAMPANG · SANDAKAN · TAWAU',
     headlineEn:
@@ -707,8 +707,8 @@ export const EAST_NORTH_STATE_DOSSIERS = [
     postalCodeRange: '93000–98859',
     transitWindowEn: '2–4 Business Days (Priority Daily Air-Cargo Discreet Parcel to KCH, MYY, SBW & BTU)',
     transitWindowMs: '2–4 Hari Bekerja (Bungkusan Kargo Udara Rahsia Harian ke KCH, MYY, SBW & BTU)',
-    shippingPolicyEn: 'RM 12 Single-Bottle Air Freight · RM 0 FREE Air Cargo on 2 Bottles (RM 318) & 3 Bottles (RM 477)',
-    shippingPolicyMs: 'RM 12 Kargo Udara 1 Botol · RM 0 Kargo Udara PERCUMA untuk 2 Botol (RM 318) & 3 Botol (RM 477)',
+    shippingPolicyEn: 'RM 12 Single-Bottle Air Freight · RM 0 FREE Air Cargo on 2 Bottles (RM 286 (10% OFF vs RM 318)) & 3 Bottles (RM 405 (15% OFF vs RM 477))',
+    shippingPolicyMs: 'RM 12 Kargo Udara 1 Botol · RM 0 Kargo Udara PERCUMA untuk 2 Botol (RM 286 (10% OFF vs RM 318)) & 3 Botol (RM 405 (15% OFF vs RM 477))',
     sameDayRunnerAvailable: false,
     codSupported: true,
     fpxSupported: true,
@@ -725,11 +725,11 @@ export const EAST_NORTH_STATE_DOSSIERS = [
     seoTitleEn:
       'Discreet Air-Cargo Delivery in Sarawak (Kuching, Kota Samarahan, Miri, Sibu, Bintulu) — RM 159 | Onyxmen',
     seoDescEn:
-      'Fast 2–4 day discreet air-cargo delivery of authentic Onyxmen men’s supplements (RM 159) across Sarawak: Kuching, Kota Samarahan, Miri, Sibu & Bintulu. Free air shipping on 2-bottle (RM 318) & 3-bottle (RM 477) tiers.',
+      'Fast 2–4 day discreet air-cargo delivery of authentic Onyxmen men’s supplements (RM 159) across Sarawak: Kuching, Kota Samarahan, Miri, Sibu & Bintulu. Free air shipping on 2-bottle (RM 286 (10% OFF vs RM 318)) & 3-bottle (RM 405 (15% OFF vs RM 477)) tiers.',
     seoTitleMs:
       'Penghantaran Kargo Udara Rahsia di Sarawak (Kuching, Kota Samarahan, Miri, Sibu, Bintulu) — RM 159 | Onyxmen',
     seoDescMs:
-      'Penghantaran kargo udara rahsia 2–4 hari suplemen lelaki tulen Onyxmen (RM 159) ke seluruh Sarawak: Kuching, Kota Samarahan, Miri, Sibu & Bintulu. Penghantaran udara percuma untuk pakej 2 botol (RM 318) & 3 botol (RM 477).',
+      'Penghantaran kargo udara rahsia 2–4 hari suplemen lelaki tulen Onyxmen (RM 159) ke seluruh Sarawak: Kuching, Kota Samarahan, Miri, Sibu & Bintulu. Penghantaran udara percuma untuk pakej 2 botol (RM 286 (10% OFF vs RM 318)) & 3 botol (RM 405 (15% OFF vs RM 477)).',
     kickerEn: 'SARAWAK MULTI-AIRPORT BORNEO LOGISTICS · KUCHING · MIRI · BINTULU · SIBU',
     kickerMs: 'RANGKAIAN KARGO UDARA SARAWAK · KUCHING · SAMARAHAN · MIRI · SIBU · BINTULU',
     headlineEn:
@@ -847,8 +847,8 @@ export const EAST_NORTH_STATE_DOSSIERS = [
     postalCodeRange: '05000–09800',
     transitWindowEn: '1–2 Business Days Mainland Kedah · 2–3 Business Days Langkawi Island (RM 0 Free Express)',
     transitWindowMs: '1–2 Hari Bekerja Tanah Besar Kedah · 2–3 Hari Bekerja Pulau Langkawi (Ekspres Percuma RM 0)',
-    shippingPolicyEn: 'RM 0 FREE Express Discreet Shipping on ALL Tiers (1 Bottle RM 159 · 2 Bottles RM 318 · 3 Bottles RM 477)',
-    shippingPolicyMs: 'RM 0 Penghantaran Ekspres Rahsia PERCUMA untuk SEMUA Pakej (1 Botol RM 159 · 2 Botol RM 318 · 3 Botol RM 477)',
+    shippingPolicyEn: 'RM 0 FREE Express Discreet Shipping on ALL Tiers (1 Bottle RM 159 · 2 Bottles RM 286 (10% OFF vs RM 318) · 3 Bottles RM 405 (15% OFF vs RM 477))',
+    shippingPolicyMs: 'RM 0 Penghantaran Ekspres Rahsia PERCUMA untuk SEMUA Pakej (1 Botol RM 159 · 2 Botol RM 286 (10% OFF vs RM 318) · 3 Botol RM 405 (15% OFF vs RM 477))',
     sameDayRunnerAvailable: false,
     codSupported: true,
     fpxSupported: true,
@@ -986,8 +986,8 @@ export const EAST_NORTH_STATE_DOSSIERS = [
     postalCodeRange: '15000–18500',
     transitWindowEn: '1–2 Business Days (Free Overnight East Coast Express Courier — RM 0)',
     transitWindowMs: '1–2 Hari Bekerja (Kurier Ekspres Malam Pantai Timur Percuma — RM 0)',
-    shippingPolicyEn: 'RM 0 FREE Express Discreet Shipping on ALL Tiers (1 Bottle RM 159 · 2 Bottles RM 318 · 3 Bottles RM 477)',
-    shippingPolicyMs: 'RM 0 Penghantaran Ekspres Rahsia PERCUMA untuk SEMUA Pakej (1 Botol RM 159 · 2 Botol RM 318 · 3 Botol RM 477)',
+    shippingPolicyEn: 'RM 0 FREE Express Discreet Shipping on ALL Tiers (1 Bottle RM 159 · 2 Bottles RM 286 (10% OFF vs RM 318) · 3 Bottles RM 405 (15% OFF vs RM 477))',
+    shippingPolicyMs: 'RM 0 Penghantaran Ekspres Rahsia PERCUMA untuk SEMUA Pakej (1 Botol RM 159 · 2 Botol RM 286 (10% OFF vs RM 318) · 3 Botol RM 405 (15% OFF vs RM 477))',
     sameDayRunnerAvailable: false,
     codSupported: true,
     fpxSupported: true,
@@ -1125,8 +1125,8 @@ export const EAST_NORTH_STATE_DOSSIERS = [
     postalCodeRange: '20000–24300',
     transitWindowEn: '1–2 Business Days (Free LPT2 East Coast Expressway Courier — RM 0)',
     transitWindowMs: '1–2 Hari Bekerja (Kurier Ekspres Lebuhraya Pantai Timur LPT2 Percuma — RM 0)',
-    shippingPolicyEn: 'RM 0 FREE Express Discreet Shipping on ALL Tiers (1 Bottle RM 159 · 2 Bottles RM 318 · 3 Bottles RM 477)',
-    shippingPolicyMs: 'RM 0 Penghantaran Ekspres Rahsia PERCUMA untuk SEMUA Pakej (1 Botol RM 159 · 2 Botol RM 318 · 3 Botol RM 477)',
+    shippingPolicyEn: 'RM 0 FREE Express Discreet Shipping on ALL Tiers (1 Bottle RM 159 · 2 Bottles RM 286 (10% OFF vs RM 318) · 3 Bottles RM 405 (15% OFF vs RM 477))',
+    shippingPolicyMs: 'RM 0 Penghantaran Ekspres Rahsia PERCUMA untuk SEMUA Pakej (1 Botol RM 159 · 2 Botol RM 286 (10% OFF vs RM 318) · 3 Botol RM 405 (15% OFF vs RM 477))',
     sameDayRunnerAvailable: false,
     codSupported: true,
     fpxSupported: true,
@@ -1538,8 +1538,8 @@ export const EAST_NORTH_STATE_DOSSIERS = [
     postalCodeRange: '87000–87033',
     transitWindowEn: '2–4 Business Days (Priority Daily Air-Cargo Discreet Parcel via Labuan Airport LBU)',
     transitWindowMs: '2–4 Hari Bekerja (Bungkusan Kargo Udara Rahsia Harian melalui Lapangan Terbang Labuan LBU)',
-    shippingPolicyEn: 'RM 12 Single-Bottle Air Freight · RM 0 FREE Air Cargo on 2 Bottles (RM 318) & 3 Bottles (RM 477)',
-    shippingPolicyMs: 'RM 12 Kargo Udara 1 Botol · RM 0 Kargo Udara PERCUMA untuk 2 Botol (RM 318) & 3 Botol (RM 477)',
+    shippingPolicyEn: 'RM 12 Single-Bottle Air Freight · RM 0 FREE Air Cargo on 2 Bottles (RM 286 (10% OFF vs RM 318)) & 3 Bottles (RM 405 (15% OFF vs RM 477))',
+    shippingPolicyMs: 'RM 12 Kargo Udara 1 Botol · RM 0 Kargo Udara PERCUMA untuk 2 Botol (RM 286 (10% OFF vs RM 318)) & 3 Botol (RM 405 (15% OFF vs RM 477))',
     sameDayRunnerAvailable: false,
     codSupported: true,
     fpxSupported: true,
@@ -1555,11 +1555,11 @@ export const EAST_NORTH_STATE_DOSSIERS = [
     seoTitleEn:
       'Discreet Air-Cargo Delivery in Labuan (Victoria, Financial Park & Rancha-Rancha) — RM 159 | Onyxmen Malaysia',
     seoDescEn:
-      'Order authentic Onyxmen men’s vitality supplements (RM 159) in WP Labuan with 2–4 day discreet air-cargo parcel delivery to Victoria, Financial Park & Rancha-Rancha. Free air shipping on 2+ bottles (RM 318).',
+      'Order authentic Onyxmen men’s vitality supplements (RM 159) in WP Labuan with 2–4 day discreet air-cargo parcel delivery to Victoria, Financial Park & Rancha-Rancha. Free air shipping on 2+ bottles (RM 286 (10% OFF vs RM 318)).',
     seoTitleMs:
       'Penghantaran Kargo Udara Rahsia di WP Labuan (Bandar Labuan, Taman Kewangan & Rancha-Rancha) — RM 159 | Onyxmen',
     seoDescMs:
-      'Tempah suplemen lelaki tulen Onyxmen (RM 159) di Wilayah Persekutuan Labuan dengan kargo udara rahsia 2–4 hari ke Bandar Labuan, Taman Kewangan & Rancha-Rancha. Penghantaran udara percuma untuk 2+ botol (RM 318).',
+      'Tempah suplemen lelaki tulen Onyxmen (RM 159) di Wilayah Persekutuan Labuan dengan kargo udara rahsia 2–4 hari ke Bandar Labuan, Taman Kewangan & Rancha-Rancha. Penghantaran udara percuma untuk 2+ botol (RM 286 (10% OFF vs RM 318)).',
     kickerEn: 'FEDERAL TERRITORY OF LABUAN · INTERNATIONAL FINANCIAL & OFFSHORE ENERGY HUB · AIR-CARGO',
     kickerMs: 'WILAYAH PERSEKUTUAN LABUAN · HAB KEWANGAN ANTARABANGSA & TENAGA LUAR PESISIR · KARGO UDARA',
     headlineEn:
@@ -1567,9 +1567,9 @@ export const EAST_NORTH_STATE_DOSSIERS = [
     headlineMs:
       'Penghantaran Kargo Udara Rahsia WP Labuan: <span class="foil-champagne-text">Bandar Labuan, Taman Kewangan &amp; Rancha-Rancha.</span>',
     leadEn:
-      'Serving international banking executives at Labuan Financial Park, offshore oil & gas engineers at Rancha-Rancha and Asian Supply Base (ASB), maritime crews, and residents across Federal Territory of Labuan (postcodes 87000–87033). Shipped via daily KLIA air freight in an opaque, customs-cleared security pouch with Free Air Cargo on all 2-bottle (RM 318) and 3-bottle (RM 477) orders.',
+      'Serving international banking executives at Labuan Financial Park, offshore oil & gas engineers at Rancha-Rancha and Asian Supply Base (ASB), maritime crews, and residents across Federal Territory of Labuan (postcodes 87000–87033). Shipped via daily KLIA air freight in an opaque, customs-cleared security pouch with Free Air Cargo on all 2-bottle (RM 286 (10% OFF vs RM 318)) and 3-bottle (RM 405 (15% OFF vs RM 477)) orders.',
     leadMs:
-      'Meliputi eksekutif kewangan antarabangsa di Taman Kewangan Labuan, jurutera minyak & gas luar pesisir di Rancha-Rancha dan Asian Supply Base (ASB), kru maritim, serta penduduk di seluruh Wilayah Persekutuan Labuan (poskod 87000–87033). Dihantar melalui penerbangan kargo harian dari KLIA di dalam pek keselamatan legap dengan Penghantaran Udara Percuma bagi pakej 2 botol (RM 318) dan 3 botol (RM 477).',
+      'Meliputi eksekutif kewangan antarabangsa di Taman Kewangan Labuan, jurutera minyak & gas luar pesisir di Rancha-Rancha dan Asian Supply Base (ASB), kru maritim, serta penduduk di seluruh Wilayah Persekutuan Labuan (poskod 87000–87033). Dihantar melalui penerbangan kargo harian dari KLIA di dalam pek keselamatan legap dengan Penghantaran Udara Percuma bagi pakej 2 botol (RM 286 (10% OFF vs RM 318)) dan 3 botol (RM 405 (15% OFF vs RM 477)).',
     customsProtocolEn:
       'Duty-Free Island Airway & Customs Clearance Protocol: All Labuan orders carry pre-cleared domestic nutritional supplement documentation under "OM Fulfilment Logistics" so parcels pass smoothly through Labuan Airport (LBU) with 100% recipient privacy.',
     customsProtocolMs:
@@ -1653,8 +1653,8 @@ export const EAST_NORTH_STATE_DOSSIERS = [
     postalCodeRange: '01000–02800',
     transitWindowEn: '1–2 Business Days (Free Northern Highway & Changlun–Kuala Perlis Express — RM 0)',
     transitWindowMs: '1–2 Hari Bekerja (Kurier Ekspres Lebuhraya Utara & Changlun–Kuala Perlis Percuma — RM 0)',
-    shippingPolicyEn: 'RM 0 FREE Express Discreet Shipping on ALL Tiers (1 Bottle RM 159 · 2 Bottles RM 318 · 3 Bottles RM 477)',
-    shippingPolicyMs: 'RM 0 Penghantaran Ekspres Rahsia PERCUMA untuk SEMUA Pakej (1 Botol RM 159 · 2 Botol RM 318 · 3 Botol RM 477)',
+    shippingPolicyEn: 'RM 0 FREE Express Discreet Shipping on ALL Tiers (1 Bottle RM 159 · 2 Bottles RM 286 (10% OFF vs RM 318) · 3 Bottles RM 405 (15% OFF vs RM 477))',
+    shippingPolicyMs: 'RM 0 Penghantaran Ekspres Rahsia PERCUMA untuk SEMUA Pakej (1 Botol RM 159 · 2 Botol RM 286 (10% OFF vs RM 318) · 3 Botol RM 405 (15% OFF vs RM 477))',
     sameDayRunnerAvailable: false,
     codSupported: true,
     fpxSupported: true,
@@ -1961,8 +1961,8 @@ function renderRegionalFormulationsMatrixSection(lang = 'en-MY', stateShortName 
           <p>
             ${
               isMs
-                ? 'Setiap botol rasmi Onyxmen dijual pada harga tetap RM 159.00 (1 Botol RM 159 · 2 Botol RM 318 · 3 Botol RM 477). Pilih formulasi mengikut matlamat fisiologi anda.'
-                : 'Every authentic Onyxmen bottle carries our uniform official reserve price of RM 159.00 (1 Bottle RM 159 · 2 Bottles RM 318 · 3 Bottles RM 477). Select the formulation engineered for your physiological objective.'
+                ? 'Setiap botol rasmi Onyxmen dijual pada harga tetap RM 159.00 (1 Botol RM 159 · 2 Botol RM 286 (10% OFF vs RM 318) · 3 Botol RM 405 (15% OFF vs RM 477)). Pilih formulasi mengikut matlamat fisiologi anda.'
+                : 'Every authentic Onyxmen bottle carries our uniform official reserve price of RM 159.00 (1 Bottle RM 159 · 2 Bottles RM 286 (10% OFF vs RM 318) · 3 Bottles RM 405 (15% OFF vs RM 477)). Select the formulation engineered for your physiological objective.'
             }
           </p>
         </div>
@@ -2064,7 +2064,7 @@ function renderDiscreetParcelAnatomySection(lang = 'en-MY', stateShortName = 'Ma
 }
 
 /**
- * Renders the Multi-Bottle Tiered Acquisition Protocol (1 Bottle RM 159 / 2 Bottles RM 318 / 3 Bottles RM 477)
+ * Renders the Multi-Bottle Tiered Acquisition Protocol (1 Bottle RM 159 / 2 Bottles RM 286 (10% OFF vs RM 318) / 3 Bottles RM 405 (15% OFF vs RM 477))
  */
 function renderRegionalAcquisitionTiersSection(
   lang = 'en-MY',
@@ -2098,30 +2098,30 @@ function renderRegionalAcquisitionTiersSection(
       code: 'TIER 02 · DUAL MOMENTUM PROTOCOL (MOST POPULAR IN EAST & NORTHERN MALAYSIA)',
       titleEn: '2 Bottles — 40 to 60-Day Continuous Conditioning + FREE Nationwide Air/Highway Shipping',
       titleMs: '2 Botol — Kitaran Berterusan 40–60 Hari + Penghantaran Udara/Lebuhraya PERCUMA',
-      price: 'RM 318.00',
+      price: 'RM 286 (10% OFF vs RM 318)',
       shippingNoteEn: '100% FREE Priority Express & Borneo Air-Cargo Shipping (RM 0 Surcharge Nationwide)',
       shippingNoteMs: '100% Penghantaran Ekspres & Kargo Udara Borneo PERCUMA (RM 0 Caj Tambahan Seluruh Malaysia)',
       descEn:
         'Our most requested tier across Sabah, Sarawak, Labuan, Kedah, Kelantan, Terengganu, Putrajaya, Cyberjaya, and Perlis. Unlocks RM 0 Free Priority Air-Cargo to East Malaysia and provides an uninterrupted 6-to-8 week botanical cycle.',
       descMs:
         'Pakej paling mendapat sambutan di Sabah, Sarawak, Labuan, Kedah, Kelantan, Terengganu, Putrajaya, Cyberjaya, dan Perlis. Melayakkan Penghantaran Kargo Udara PERCUMA (RM 0) ke Sabah/Sarawak/Labuan serta bekalan berterusan 6–8 minggu.',
-      ctaEn: 'ACQUIRE 2 BOTTLES · RM 318 (FREE AIR/EXPRESS)',
-      ctaMs: 'TEMPAH 2 BOTOL · RM 318 (PENGHANTARAN PERCUMA)',
+      ctaEn: 'ACQUIRE 2 BOTTLES · RM 286 (10% OFF vs RM 318) (FREE AIR/EXPRESS)',
+      ctaMs: 'TEMPAH 2 BOTOL · RM 286 (10% OFF vs RM 318) (PENGHANTARAN PERCUMA)',
     },
     {
       qty: 3,
       code: 'TIER 03 · 90-DAY APOTHECARY MASTERY VAULT',
       titleEn: '3 Bottles — Full Quarter Physiological Mastery + Priority VIP Dispatch',
       titleMs: '3 Botol — Kitaran Penuh 90 Hari + Keutamaan Penghantaran VIP Percuma',
-      price: 'RM 477.00',
+      price: 'RM 405 (15% OFF vs RM 477)',
       shippingNoteEn: '100% FREE Priority VIP Air-Cargo / Express Dispatch + Priority Batch Allocation',
       shippingNoteMs: '100% Kargo Udara / Ekspres VIP PERCUMA + Keutamaan Stok Batch Terkini',
       descEn:
         'Designed for executives, offshore rotational engineers, and frequent travelers who want a full 90-day supply on hand without re-ordering every month. Ships 100% free across all 16 Malaysian states and federal territories.',
       descMs:
         'Direka untuk eksekutif, jurutera luar pesisir (offshore), dan pelanggan yang mahukan bekalan lengkap 90 hari tanpa perlu membuat pesanan berulang setiap bulan. Penghantaran 100% percuma ke seluruh Malaysia.',
-      ctaEn: 'ACQUIRE 3 BOTTLES · RM 477 (VIP FREE DISPATCH)',
-      ctaMs: 'TEMPAH 3 BOTOL · RM 477 (VIP PERCUMA)',
+      ctaEn: 'ACQUIRE 3 BOTTLES · RM 405 (15% OFF vs RM 477) (VIP FREE DISPATCH)',
+      ctaMs: 'TEMPAH 3 BOTOL · RM 405 (15% OFF vs RM 477) (VIP PERCUMA)',
     },
   ];
 
@@ -2157,7 +2157,7 @@ function renderRegionalAcquisitionTiersSection(
 
   return `
   <!-- ==========================================================================
-       MULTI-BOTTLE ACQUISITION ARCHITECTURE (RM 159 / RM 318 / RM 477)
+       MULTI-BOTTLE ACQUISITION ARCHITECTURE (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477))
        ========================================================================== -->
   <section
     id="regional-multi-bottle-acquisition-tiers"
@@ -2177,8 +2177,8 @@ function renderRegionalAcquisitionTiersSection(
           <h2 id="heading-acquisition-tiers" class="editorial-headline-lg">
             ${
               isMs
-                ? 'Pilih Pakej Botol Anda: <span class="foil-champagne-text">RM 159 (1 Botol) · RM 318 (2 Botol) · RM 477 (3 Botol).</span>'
-                : 'Select Your Protocol Tier: <span class="foil-champagne-text">RM 159 (1 Bottle) · RM 318 (2 Bottles) · RM 477 (3 Bottles).</span>'
+                ? 'Pilih Pakej Botol Anda: <span class="foil-champagne-text">RM 159 (1 Botol) · RM 286 (10% OFF vs RM 318) (2 Botol) · RM 405 (15% OFF vs RM 477) (3 Botol).</span>'
+                : 'Select Your Protocol Tier: <span class="foil-champagne-text">RM 159 (1 Bottle) · RM 286 (10% OFF vs RM 318) (2 Bottles) · RM 405 (15% OFF vs RM 477) (3 Bottles).</span>'
             }
           </h2>
         </div>
@@ -2328,7 +2328,7 @@ function buildRegionalFaqs(dossier, lang = 'en-MY') {
       },
       {
         question: `3. Berapakah harga rasmi sebotol dan bagaimana cara mendapatkan penghantaran percuma ke ${sName}?`,
-        answer: `Harga rasmi semua empat formulasi Onyxmen ialah RM 159.00 sebotol (1 Botol RM 159.00, 2 Botol RM 318.00, 3 Botol RM 477.00). Polisi penghantaran ke ${sName}: ${dossier.shippingPolicyMs}.`,
+        answer: `Harga rasmi semua empat formulasi Onyxmen ialah RM 159.00 sebotol (1 Botol RM 159.00, 2 Botol RM 286 (10% OFF vs RM 318), 3 Botol RM 405 (15% OFF vs RM 477)). Polisi penghantaran ke ${sName}: ${dossier.shippingPolicyMs}.`,
       },
       {
         question: `4. Bolehkah saya menggunakan perkhidmatan COD (Bayar Waktu Terima) atau DuitNow QR di ${sName}?`,
@@ -2388,7 +2388,7 @@ function buildRegionalFaqs(dossier, lang = 'en-MY') {
     },
     {
       question: `3. What is the official bottle price and shipping rate for ${sName}?`,
-      answer: `All four flagship Onyxmen formulations are uniformly priced at RM 159.00 per bottle (1 Bottle RM 159.00, 2 Bottles RM 318.00, 3 Bottles RM 477.00). Shipping policy for ${sName}: ${dossier.shippingPolicyEn}.`,
+      answer: `All four flagship Onyxmen formulations are uniformly priced at RM 159.00 per bottle (1 Bottle RM 159.00, 2 Bottles RM 286 (10% OFF vs RM 318), 3 Bottles RM 405 (15% OFF vs RM 477)). Shipping policy for ${sName}: ${dossier.shippingPolicyEn}.`,
     },
     {
       question: `4. Is Cash on Delivery (COD) and DuitNow QR / FPX available in ${sName}?`,
@@ -2542,8 +2542,8 @@ export function renderIndividualStateHubPage(dossier, lang = 'en-MY') {
             >
               <span>${
                 isMs
-                  ? `HANTAR KE POSKOD ${d.postcodes} · RM 159 / RM 318`
-                  : `DISPATCH TO POSTCODES ${d.postcodes} · RM 159 / RM 318`
+                  ? `HANTAR KE POSKOD ${d.postcodes} · RM 159 / RM 286 (10% OFF vs RM 318)`
+                  : `DISPATCH TO POSTCODES ${d.postcodes} · RM 159 / RM 286 (10% OFF vs RM 318)`
               }</span>
               <span aria-hidden="true">→</span>
             </button>
@@ -2620,8 +2620,8 @@ export function renderIndividualStateHubPage(dossier, lang = 'en-MY') {
           >
             <span>${
               isMs
-                ? `TEMPAH PAKEJ 2 BOTOL KE ${shortName.toUpperCase()} · RM 318 (PERCUMA POS)`
-                : `DISPATCH 2-BOTTLE PROTOCOL TO ${shortName.toUpperCase()} · RM 318 (FREE SHIPPING)`
+                ? `TEMPAH PAKEJ 2 BOTOL KE ${shortName.toUpperCase()} · RM 286 (10% OFF vs RM 318) (PERCUMA POS)`
+                : `DISPATCH 2-BOTTLE PROTOCOL TO ${shortName.toUpperCase()} · RM 286 (10% OFF vs RM 318) (FREE SHIPPING)`
             }</span>
             <span aria-hidden="true">→</span>
           </button>
@@ -2958,7 +2958,7 @@ export function renderMasterMalaysiaIndexPage(lang = 'en-MY') {
             data-product="${esc(d.primaryProductSlug)}"
             data-qty="2"
           >
-            <span>${isMs ? 'Tempah Ekspres RM 318' : 'Express Order RM 318'}</span>
+            <span>${isMs ? 'Tempah Ekspres RM 286 (10% OFF vs RM 318)' : 'Express Order RM 286 (10% OFF vs RM 318)'}</span>
             <span aria-hidden="true">→</span>
           </button>
         </div>
@@ -3020,7 +3020,7 @@ export function renderMasterMalaysiaIndexPage(lang = 'en-MY') {
         }</span>
       </nav>
       <div>
-        <span>16 NEGERI &amp; WILAYAH PERSEKUTUAN · POSKOD 01000–98859 · RM 159 / RM 318 / RM 477</span>
+        <span>16 NEGERI &amp; WILAYAH PERSEKUTUAN · POSKOD 01000–98859 · RM 159 / RM 286 (10% OFF vs RM 318) / RM 477</span>
       </div>
     </div>
 
@@ -3064,8 +3064,8 @@ export function renderMasterMalaysiaIndexPage(lang = 'en-MY') {
           >
             <span>${
               isMs
-                ? 'TEMPAH PAKEJ 2 BOTOL · RM 318 (PENGHANTARAN PERCUMA SELURUH MALAYSIA)'
-                : 'ACQUIRE 2-BOTTLE PROTOCOL · RM 318 (FREE NATIONWIDE SHIPPING)'
+                ? 'TEMPAH PAKEJ 2 BOTOL · RM 286 (10% OFF vs RM 318) (PENGHANTARAN PERCUMA SELURUH MALAYSIA)'
+                : 'ACQUIRE 2-BOTTLE PROTOCOL · RM 286 (10% OFF vs RM 318) (FREE NATIONWIDE SHIPPING)'
             }</span>
             <span aria-hidden="true">→</span>
           </button>
@@ -3115,7 +3115,7 @@ export function renderMasterMalaysiaIndexPage(lang = 'en-MY') {
       <div class="state-cinema-hero__telemetry-col">
         <span class="state-cinema-hero__telemetry-label">${isMs ? 'HARGA SERAGAM KEBANGSAAN' : 'UNIFORM NATIONWIDE RESERVE'}</span>
         <span class="state-cinema-hero__telemetry-val">RM 159 / Botol</span>
-        <span class="state-cinema-hero__telemetry-sub">1B RM 159 · 2B RM 318 · 3B RM 477 (COD &amp; FPX)</span>
+        <span class="state-cinema-hero__telemetry-sub">1B RM 159 · 2B RM 286 (10% OFF vs RM 318) · 3B RM 405 (15% OFF vs RM 477) (COD &amp; FPX)</span>
       </div>
     </div>
   </section>

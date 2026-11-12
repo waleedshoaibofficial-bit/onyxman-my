@@ -89,9 +89,9 @@ export const DEFAULT_PRODUCTS_CATALOG = {
     keyBotanicals: [
       'Tribulus terrestris (Standardized Saponin Extract)',
       'Eurycoma longifolia (Malaysian Tongkat Ali Root)',
-      'Withania somnifera (Ashwagandha KSM-66 Equivalent Root Extract)',
-      'Mucuna pruriens (Velvet Bean Phytocomplex)',
-      'Zinc Chelate & Selenium Bio-Cofactors',
+      'Lepidium meyenii (Peruvian Maca Root Extract 10:1 ? 100mg)',
+      'L-Arginine HCl (Endothelial Nitric Oxide Precursor ? 80mg)',
+      'Panax ginseng (Standardized 10% Ginsenosides ? 60mg) & Zinc Bisglycinate (15mg)',
     ],
     priceMYR: '159.00',
     sku: 'ONYX-HT-20MY',
@@ -167,9 +167,9 @@ export const DEFAULT_PRODUCTS_CATALOG = {
     keyBotanicals: [
       'L-Arginine Alpha-Ketoglutarate (AAKG)',
       'L-Citrulline Pure Amino Acid',
-      'Beta vulgaris (Concentrated Beetroot Nitrate Extract)',
+      'Tribulus terrestris (Standardized 60% Saponins ? 110mg)',
       'Kaempferia parviflora (Thai Black Ginger / Kunyit Hitam Extract)',
-      'Pinus pinaster (Maritime Pine Bark Proanthocyanidins)',
+      'Eurycoma longifolia (Malaysian Tongkat Ali 100:1 ? 90mg) & Bioperine (15mg)',
     ],
     priceMYR: '159.00',
     sku: 'ONYX-MP-30MY',
@@ -447,7 +447,7 @@ export function buildOrganizationSchema() {
     ],
     currenciesAccepted: OFFICIAL_CURRENCY,
     paymentAccepted: 'FPX Online Banking, DuitNow Instant QR, Cash on Delivery (COD)',
-    priceRange: 'RM 159 - RM 405 (10%?15% Bundle OFF vs RM 318 / RM 477)',
+    priceRange: 'RM 159 - RM 405 (10%–15% Bundle OFF vs RM 318 / RM 477)',
     hasMerchantReturnPolicy: {
       '@id': RETURN_POLICY_MY_ID,
     },
@@ -817,10 +817,10 @@ export const DEFAULT_GLOBAL_FAQS = [
   {
     questionEn: 'What is the official price of Onyxmen formulations (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) in Malaysia?',
     answerEn:
-      'Every authentic Onyxmen formulation is priced at RM 159.00 (MYR) for a 1-Bottle Single Cycle Reserve, RM 286.00 (10% OFF ? Save RM 32 vs RM 318.00) for a 2-Bottle Dual Momentum Protocol (Free Nationwide Malaysia Shipping), and RM 405.00 (15% OFF ? Save RM 72 vs RM 477.00) for a 3-Bottle Complete 90-Day Mastery Vault.',
+      'Every authentic Onyxmen formulation is priced at RM 159.00 (MYR) for a 1-Bottle Single Cycle Reserve, RM 286.00 (10% OFF · Save RM 32 vs RM 318.00) for a 2-Bottle Dual Momentum Protocol (Free Nationwide Malaysia Shipping), and RM 405.00 (15% OFF · Save RM 72 vs RM 477.00) for a 3-Bottle Complete 90-Day Mastery Vault.',
     questionMs: 'Berapakah harga rasmi produk Onyxmen (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) di Malaysia?',
     answerMs:
-      'Setiap formulasi tulen Onyxmen berharga RM 159.00 (MYR) untuk 1 Botol, RM 286.00 (Diskaun 10% ? Jimat RM 32 berbanding RM 318.00) untuk Pakej 2 Botol (Penghantaran Percuma Seluruh Malaysia), dan RM 405.00 (Diskaun 15% ? Jimat RM 72 berbanding RM 477.00) untuk Pakej Lengkap 3 Botol (90 Hari).',
+      'Setiap formulasi tulen Onyxmen berharga RM 159.00 (MYR) untuk 1 Botol, RM 286.00 (Diskaun 10% · Jimat RM 32 berbanding RM 318.00) untuk Pakej 2 Botol (Penghantaran Percuma Seluruh Malaysia), dan RM 405.00 (Diskaun 15% · Jimat RM 72 berbanding RM 477.00) untuk Pakej Lengkap 3 Botol (90 Hari).',
   },
   {
     questionEn: 'How discreet is Onyxmen parcel packaging across West and East Malaysia?',

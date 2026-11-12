@@ -13,7 +13,7 @@
  *   Product: Horsemen (Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg / 20 Kapsul x 500mg)
  *   SKU: ONYX-HM-20 | MPN: HM-500MG-20MY | GTIN-13: 9550000102011
  *   Canonical: https://www.onyxmen.my/horsemen-malaysia/ (Paired BM: https://www.onyxmen.my/ms/horsemen-malaysia/)
- *   Pricing: 1 Bottle = RM 159 (159.00 MYR), 2 Bottles = RM 318 (318.00 MYR), 3 Bottles = RM 477 (477.00 MYR)
+ *   Pricing: 1 Bottle = RM 159 (159.00 MYR), 2 Bottles = RM 286 (10% OFF vs RM 318) (318.00 MYR), 3 Bottles = RM 405 (15% OFF vs RM 477) (477.00 MYR)
  *   Refill Protocol: Day-18 Refill Reminder Calendar Integration (18-day active cycle)
  *   Emails: waleedshoaibofficial@gmail.com, sales@onyxmen.my, info@onyxmen.my
  */
@@ -74,7 +74,7 @@ export const HORSEMEN_FAQS = [
     category: 'Pricing & Multi-Bottle Tiers',
     questionEn: 'What is the official Malaysia price for 1, 2, and 3 bottles of Horsemen on Onyxmen.my?',
     answerEn:
-      'Onyxmen Malaysia maintains a strict, transparent single-tier pricing architecture: 1 Bottle (20 Capsules / 18-Day Active Cycle) is RM 159 (159.00 MYR) with Free Discreet Express Shipping across Peninsular Malaysia; 2 Bottles (40 Capsules / 36-Day Dual Momentum Protocol) is RM 318 (318.00 MYR) with Free Nationwide Discreet Shipping including Sabah, Sarawak, and Labuan; and 3 Bottles (60 Capsules / 54-Day Complete Apothecary Vault) is RM 477 (477.00 MYR) with Priority Discreet Dispatch and VIP Refill Concierge service.',
+      'Onyxmen Malaysia maintains a strict, transparent single-tier pricing architecture: 1 Bottle (20 Capsules / 18-Day Active Cycle) is RM 159 (159.00 MYR) with Free Discreet Express Shipping across Peninsular Malaysia; 2 Bottles (40 Capsules / 36-Day Dual Momentum Protocol) is RM 286 (10% OFF vs RM 318) (318.00 MYR) with Free Nationwide Discreet Shipping including Sabah, Sarawak, and Labuan; and 3 Bottles (60 Capsules / 54-Day Complete Apothecary Vault) is RM 405 (15% OFF vs RM 477) (477.00 MYR) with Priority Discreet Dispatch and VIP Refill Concierge service.',
   },
   {
     id: 'faq-hm-03',
@@ -247,14 +247,14 @@ export function buildHorsemenSchemaGraph() {
     {
       bottles: 2,
       capsules: 40,
-      price: '318.00',
+      price: '286.00',
       skuSuffix: '2B',
       name: 'Horsemen — 2 Bottles Dual 40-Capsule Momentum Protocol (40 Capsules x 500mg · Free Nationwide Malaysia Shipping)',
     },
     {
       bottles: 3,
       capsules: 60,
-      price: '477.00',
+      price: '405.00',
       skuSuffix: '3B',
       name: 'Horsemen — 3 Bottles Complete 60-Capsule Apothecary Vault (60 Capsules x 500mg · Priority VIP Concierge)',
     },
@@ -347,7 +347,7 @@ export function buildHorsemenSchemaGraph() {
         url: pageUrl,
         name: 'Horsemen Malaysia (20 Capsules x 500mg) — Man Virility Enhancement Herbal Supplement | RM 159 Onyxmen.my',
         description:
-          'Official Horsemen Malaysia flagship reserve (SKU: ONYX-HM-20, MPN: HM-500MG-20MY, GTIN-13: 9550000102011). 20 Capsules x 500mg (20 Kapsul x 500mg) with Tongkat Ali 150mg, Black Maca 100mg, Epimedium 80mg, L-Arginine HCl 80mg, Korean Red Ginseng 60mg & Tribulus/Zinc 30mg. RM 159 (1 bottle), RM 318 (2 bottles), RM 477 (3 bottles).',
+          'Official Horsemen Malaysia flagship reserve (SKU: ONYX-HM-20, MPN: HM-500MG-20MY, GTIN-13: 9550000102011). 20 Capsules x 500mg (20 Kapsul x 500mg) with Tongkat Ali 150mg, Black Maca 100mg, Epimedium 80mg, L-Arginine HCl 80mg, Korean Red Ginseng 60mg & Tribulus/Zinc 30mg. RM 159 (1 bottle), RM 286 (10% OFF vs RM 318) (2 bottles), RM 405 (15% OFF vs RM 477) (3 bottles).',
         inLanguage: 'en-MY',
         isPartOf: { '@id': websiteId },
         mainEntity: { '@id': productId },
@@ -420,7 +420,7 @@ export function buildHorsemenSchemaGraph() {
       {
         '@type': 'ProductGroup',
         '@id': productGroupId,
-        name: 'Horsemen Malaysia — Official 1, 2 & 3 Bottle Protocol Collection (RM 159 / RM 318 / RM 477)',
+        name: 'Horsemen Malaysia — Official 1, 2 & 3 Bottle Protocol Collection (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477))',
         description:
           'Multi-bottle reserve tiers for Horsemen (20 Capsules x 500mg per bottle) with automated Day-18 Refill Reminder integration and 100% plain unmarked parcel delivery across all 16 Malaysia states.',
         url: pageUrl,
@@ -1391,7 +1391,7 @@ export function buildHorsemenBodyContent() {
                 </div>
               </button>
 
-              <!-- Tier 2: 2 Bottles = RM 318 -->
+              <!-- Tier 2: 2 Bottles = RM 286 (10% OFF vs RM 318) -->
               <button
                 type="button"
                 role="radio"
@@ -1401,10 +1401,10 @@ export function buildHorsemenBodyContent() {
                 data-tier-bottles="2"
                 data-tier-capsules="40"
                 data-tier-mg="20,000mg"
-                data-tier-price="RM 318"
+                data-tier-price="RM 286 (10% OFF vs RM 318)"
                 data-tier-schema="318.00"
                 data-tier-refill-day="36"
-                data-tier-label="2 Bottles (40 Capsules × 500mg) — RM 318"
+                data-tier-label="2 Bottles (40 Capsules × 500mg) — RM 286 (10% OFF vs RM 318)"
               >
                 <div class="hm-protocol-tier-row__left">
                   <span class="hm-protocol-tier-row__eyebrow">MOST SELECTED IN KUALA LUMPUR, SELANGOR &amp; JOHOR · DUAL CYCLE</span>
@@ -1417,7 +1417,7 @@ export function buildHorsemenBodyContent() {
                 </div>
               </button>
 
-              <!-- Tier 3: 3 Bottles = RM 477 -->
+              <!-- Tier 3: 3 Bottles = RM 405 (15% OFF vs RM 477) -->
               <button
                 type="button"
                 role="radio"
@@ -1427,10 +1427,10 @@ export function buildHorsemenBodyContent() {
                 data-tier-bottles="3"
                 data-tier-capsules="60"
                 data-tier-mg="30,000mg"
-                data-tier-price="RM 477"
+                data-tier-price="RM 405 (15% OFF vs RM 477)"
                 data-tier-schema="477.00"
                 data-tier-refill-day="54"
-                data-tier-label="3 Bottles (60 Capsules × 500mg) — RM 477"
+                data-tier-label="3 Bottles (60 Capsules × 500mg) — RM 405 (15% OFF vs RM 477)"
               >
                 <div class="hm-protocol-tier-row__left">
                   <span class="hm-protocol-tier-row__eyebrow">COMPLETE APOTHECARY MASTERY VAULT · 60-DAY FULL CONDITIONING</span>
@@ -1563,7 +1563,7 @@ export function buildHorsemenBodyContent() {
           </div>
           <div class="hm-hero-telemetry-item">
             <span class="hm-hero-telemetry-item__label">OFFICIAL RESERVE PRICE</span>
-            <span class="hm-hero-telemetry-item__value">RM 159 / RM 318 / RM 477</span>
+            <span class="hm-hero-telemetry-item__value">RM 159 / RM 286 (10% OFF vs RM 318) / RM 477</span>
             <span class="hm-hero-telemetry-item__sub">FPX · DuitNow QR · Cash on Delivery (COD)</span>
           </div>
         </div>
@@ -1935,7 +1935,7 @@ export function buildHorsemenChapterMS098() {
             Horsemen vs. Hammer of Thor vs. Grow XL vs. Magnum Pump XR
           </h2>
           <p style="font-family:'Space Grotesk',sans-serif;font-size:0.96rem;line-height:1.75;color:#B8B3A8;">
-            Every formulation in the Onyxmen Malaysia vault is priced identically at <strong>RM 159 for 1 bottle</strong>, <strong>RM 318 for 2 bottles</strong>, and <strong>RM 477 for 3 bottles</strong>. This uniform pricing architecture ensures you select your reserve strictly by physiological mechanism, capsule count (20 vs. 30 capsules), and intake timing.
+            Every formulation in the Onyxmen Malaysia vault is priced identically at <strong>RM 159 for 1 bottle</strong>, <strong>RM 286 (10% OFF vs RM 318) for 2 bottles</strong>, and <strong>RM 405 (15% OFF vs RM 477) for 3 bottles</strong>. This uniform pricing architecture ensures you select your reserve strictly by physiological mechanism, capsule count (20 vs. 30 capsules), and intake timing.
           </p>
         </div>
 
@@ -1996,10 +1996,10 @@ export function buildHorsemenChapterMS098() {
               </tr>
               <tr>
                 <td><strong>Official Malaysia Pricing</strong></td>
-                <td class="hm-architectural-table__highlight-col">1B: RM 159 · 2B: RM 318 · 3B: RM 477</td>
-                <td>1B: RM 159 · 2B: RM 318 · 3B: RM 477</td>
-                <td>1B: RM 159 · 2B: RM 318 · 3B: RM 477</td>
-                <td>1B: RM 159 · 2B: RM 318 · 3B: RM 477</td>
+                <td class="hm-architectural-table__highlight-col">1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</td>
+                <td>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</td>
+                <td>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</td>
+                <td>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</td>
               </tr>
               <tr>
                 <td><strong>Direct Formulation Route</strong></td>
@@ -2226,7 +2226,7 @@ ${faqItemsHtml}
               Reserve Your Horsemen 20-Capsule × 500mg Protocol Today
             </h3>
             <p style="font-family:'Space Grotesk',sans-serif;font-size:0.94rem;line-height:1.7;color:#B8B3A8;">
-              1 Bottle (20 Capsules) <strong>RM 159</strong> · 2 Bottles (40 Capsules) <strong>RM 318</strong> · 3 Bottles (60 Capsules) <strong>RM 477</strong>. Dispatched in a 100% plain unmarked security parcel with Day-18 Refill Calendar integration.
+              1 Bottle (20 Capsules) <strong>RM 159</strong> · 2 Bottles (40 Capsules) <strong>RM 286 (10% OFF vs RM 318)</strong> · 3 Bottles (60 Capsules) <strong>RM 405 (15% OFF vs RM 477)</strong>. Dispatched in a 100% plain unmarked security parcel with Day-18 Refill Calendar integration.
             </p>
           </div>
           <div style="display:flex;flex-wrap:wrap;gap:1rem;">
@@ -2446,7 +2446,7 @@ export function buildHorsemenExtendedChronologyAndSynergy() {
       capsule: 'Capsule #18 (500mg)',
       cumulativeMg: '9,000 mg',
       remaining: '2 Buffer Capsules',
-      focus: 'AUTOMATED DAY-18 REFILL REMINDER FIRES: Reserve your next bottle today (RM 159 / RM 318 / RM 477) so courier transit completes while Capsules #19 & #20 are active.',
+      focus: 'AUTOMATED DAY-18 REFILL REMINDER FIRES: Reserve your next bottle today (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)) so courier transit completes while Capsules #19 & #20 are active.',
       hydration: '1-Click Express Order or WhatsApp Concierge Dispatch',
     },
     {
@@ -2544,7 +2544,7 @@ export function generateHorsemenEnHtml() {
     title:
       'Horsemen Malaysia (20 Capsules x 500mg) — Man Virility Enhancement Herbal Supplement | RM 159 Onyxmen.my',
     description:
-      'Official Horsemen Malaysia flagship reserve (20 Capsules x 500mg / 20 Kapsul x 500mg, SKU ONYX-HM-20, MPN HM-500MG-20MY, GTIN 9550000102011). 150mg Tongkat Ali, 100mg Black Maca, 80mg Epimedium, 80mg L-Arginine HCl, 60mg Red Ginseng & 30mg Tribulus/Zinc. 1 Bottle RM 159, 2 Bottles RM 318, 3 Bottles RM 477 with 100% discreet delivery across all 16 Malaysia states.',
+      'Official Horsemen Malaysia flagship reserve (20 Capsules x 500mg / 20 Kapsul x 500mg, SKU ONYX-HM-20, MPN HM-500MG-20MY, GTIN 9550000102011). 150mg Tongkat Ali, 100mg Black Maca, 80mg Epimedium, 80mg L-Arginine HCl, 60mg Red Ginseng & 30mg Tribulus/Zinc. 1 Bottle RM 159, 2 Bottles RM 286 (10% OFF vs RM 318), 3 Bottles RM 405 (15% OFF vs RM 477) with 100% discreet delivery across all 16 Malaysia states.',
     canonicalPath: '/horsemen-malaysia/',
     alternatePathEn: '/horsemen-malaysia/',
     alternatePathMs: '/ms/horsemen-malaysia/',
@@ -2592,8 +2592,8 @@ export function writeHorsemenEnPage() {
     '/assets/products/horsemen-portrait.webp',
     '/assets/products/horsemen-cutout.webp',
     'RM 159',
-    'RM 318',
-    'RM 477',
+    'RM 286 (10% OFF vs RM 318)',
+    'RM 405 (15% OFF vs RM 477)',
     '159.00',
     '318.00',
     '477.00',

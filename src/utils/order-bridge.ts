@@ -1,7 +1,7 @@
 /**
  * ONYXMAN.MY — DUAL-MODE ORDER & REVERSE WHATSAPP BRIDGE ENGINE (MS-007)
  * Primary Merchant Notification Email: waleedshoaibofficial@gmail.com
- * Official Brand Email Aliases: sales@onyxman.my, info@onyxman.my
+ * Official Brand Email Aliases: sales@onyxmen.my, info@onyxmen.my
  * Days 1–2 Active Mode: "express-email-drawer" (FormSubmit.co AJAX + Web3Forms Failover)
  *   - Normalizes Malaysian buyer phone (01X -> 601X)
  *   - Generates 1-Click Reverse WhatsApp URL for merchant (https://wa.me/601XXXXXXXX?text=...)
@@ -14,7 +14,7 @@ import { OFFICIAL_TIER_TOTALS } from './pricing.js';
 
 export type OnyxmanProductId =
   | 'horsemen'
-  | 'Sensitivity-of-thor'
+  | 'hammer-of-thor'
   | 'grow-xl'
   | 'magnum-pump-xr';
 
@@ -38,8 +38,8 @@ export interface OrderBridgePayload {
   orderReference: string;
   activeBridgeMode: 'express-email-drawer' | 'direct-whatsapp-concierge';
   primaryNotificationEmail: 'waleedshoaibofficial@gmail.com';
-  salesAliasEmail: 'sales@onyxman.my';
-  infoAliasEmail: 'info@onyxman.my';
+  salesAliasEmail: 'sales@onyxmen.my';
+  infoAliasEmail: 'info@onyxmen.my';
   normalizedBuyerPhoneE164: string;
   merchantReverseWhatsAppUrl: string;
   directMerchantWhatsAppUrl: string | null;
@@ -51,8 +51,8 @@ export interface OrderBridgePayload {
 }
 
 export const MERCHANT_PRIMARY_EMAIL = 'waleedshoaibofficial@gmail.com' as const;
-export const BRAND_SALES_EMAIL = 'sales@onyxman.my' as const;
-export const BRAND_INFO_EMAIL = 'info@onyxman.my' as const;
+export const BRAND_SALES_EMAIL = 'sales@onyxmen.my' as const;
+export const BRAND_INFO_EMAIL = 'info@onyxmen.my' as const;
 export const FORMSUBMIT_AJAX_ENDPOINT =
   'https://formsubmit.co/ajax/waleedshoaibofficial@gmail.com' as const;
 export const WEB3FORMS_API_ENDPOINT = 'https://api.web3forms.com/submit' as const;
@@ -60,7 +60,7 @@ export const WEB3FORMS_API_ENDPOINT = 'https://api.web3forms.com/submit' as cons
 /**
  * Product capsule counts & refill reminder day offsets:
  * - Horsemen (20 capsules) -> Day 18 Refill Reminder
- * - Sensitivity of Thor (20 capsules) -> Day 18 Refill Reminder
+ * - Hammer of Thor (20 capsules) -> Day 18 Refill Reminder
  * - Grow XL (30 capsules) -> Day 25 Refill Reminder
  * - Magnum Pump XR (30 capsules) -> Day 25 Refill Reminder
  */
@@ -73,8 +73,8 @@ export const PRODUCT_CAPSULE_SPECS: Record<
     capsulesPerBottle: 20,
     refillDayOffset: 18,
   },
-  'Sensitivity-of-thor': {
-    name: 'Sensitivity of Thor',
+  'hammer-of-thor': {
+    name: 'Hammer of Thor',
     capsulesPerBottle: 20,
     refillDayOffset: 18,
   },
@@ -183,7 +183,7 @@ function formatGoogleCalendarDateUTC(date: Date): string {
 
 /**
  * Builds a 1-Click Google Calendar Refill Reminder URL:
- * - 20-capsule bottles (Horsemen & Sensitivity of Thor): Day 18 per bottle
+ * - 20-capsule bottles (Horsemen & Hammer of Thor): Day 18 per bottle
  * - 30-capsule bottles (Grow XL & Magnum Pump XR): Day 25 per bottle
  */
 export function buildGoogleCalendarRefillUrl(
@@ -204,7 +204,7 @@ export function buildGoogleCalendarRefillUrl(
 
   const eventTitle = `[Onyxman Refill Follow-Up] ${input.customerName} — ${input.productName} (Day-${baseRefillDay} Protocol)`;
   const refillWhatsAppPrompt = `https://wa.me/${normalizedBuyerPhone}?text=${encodeURIComponent(
-    `Salam / Hello ${input.customerName}, this is the Onyxman Malaysia Concierge (${BRAND_SALES_EMAIL}). You are approaching Day ${totalDaysUntilRefill} of your ${input.productName} cycle. Would you like us to dispatch a fresh discreet refill bottle (RM 159) or 2-bottle reserve (RM 318)?`
+    `Salam / Hello ${input.customerName}, this is the Onyxman Malaysia Concierge (${BRAND_SALES_EMAIL}). You are approaching Day ${totalDaysUntilRefill} of your ${input.productName} cycle. Would you like us to dispatch a fresh discreet refill bottle (RM 159) or 2-bottle reserve (RM 286 ? 10% OFF vs RM 318)?`
   )}`;
 
   const eventDetails = [
@@ -232,7 +232,7 @@ export function buildGoogleCalendarRefillUrl(
 
 /**
  * Generates the complete Dual-Mode Order Bridge payload for FormSubmit.co AJAX + Web3Forms failover
- * targeting `waleedshoaibofficial@gmail.com` and official aliases `sales@onyxman.my` / `info@onyxman.my`.
+ * targeting `waleedshoaibofficial@gmail.com` and official aliases `sales@onyxmen.my` / `info@onyxmen.my`.
  */
 export function buildOrderBridgePayload(
   input: DiscreetOrderInput,

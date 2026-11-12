@@ -8,7 +8,7 @@
  * Product Constants:
  * - Name: Hammer of Thor Malaysia (Kesihatan Lelaki — Tribulus Terrestris — 20 Kapsul Vegetarian)
  * - SKU: ONYX-HT-20 | MPN: HT-TRIB-20MY | GTIN-13: 9550000102028
- * - Official Pricing: 1 Botol = RM 159 | 2 Botol = RM 318 | 3 Botol = RM 477
+ * - Official Pricing: 1 Botol = RM 159 | 2 Botol = RM 286 (10% OFF vs RM 318) | 3 Botol = RM 405 (15% OFF vs RM 477)
  * - Emails: waleedshoaibofficial@gmail.com | sales@onyxmen.my | info@onyxmen.my
  * ============================================================================
  */
@@ -31,7 +31,7 @@ const ALTERNATE_URL_EN = 'https://www.onyxmen.my/hammer-of-thor-malaysia/';
 const PAGE_TITLE_MS =
   'Hammer of Thor Malaysia (20 Kapsul Vegetarian) — Suplemen Kesihatan Lelaki Tribulus Terrestris | RM 159 Onyxmen.my';
 const PAGE_DESCRIPTION_MS =
-  'Tempah Hammer of Thor Malaysia tulen (Kesihatan Lelaki — Tribulus Terrestris — 20 Kapsul Vegetarian, SKU: ONYX-HT-20, MPN: HT-TRIB-20MY) pada harga rasmi RM 159 (1 Botol), RM 318 (2 Botol) atau RM 477 (3 Botol) di Onyxmen.my. Kapsul selulosa tumbuhan HPMC 100% vegetarian dengan 200mg Tribulus Terrestris (60% Saponin), Akar Maca Andes, L-Arginine, Panax Ginseng, Tongkat Ali Malaysia & Zink Bisglisinat. Penghantaran bungkusan rahsia ke seluruh 16 negeri Malaysia.';
+  'Tempah Hammer of Thor Malaysia tulen (Kesihatan Lelaki — Tribulus Terrestris — 20 Kapsul Vegetarian, SKU: ONYX-HT-20, MPN: HT-TRIB-20MY) pada harga rasmi RM 159 (1 Botol), RM 286 (10% OFF vs RM 318) (2 Botol) atau RM 405 (15% OFF vs RM 477) (3 Botol) di Onyxmen.my. Kapsul selulosa tumbuhan HPMC 100% vegetarian dengan 200mg Tribulus Terrestris (60% Saponin), Akar Maca Andes, L-Arginine, Panax Ginseng, Tongkat Ali Malaysia & Zink Bisglisinat. Penghantaran bungkusan rahsia ke seluruh 16 negeri Malaysia.';
 
 /**
  * 10 Comprehensive Bahasa Malaysia FAQs for Hammer of Thor Malaysia (MS-108)
@@ -50,7 +50,7 @@ const HAMMER_BM_FAQS = [
   {
     question: 'Berapakah harga rasmi Hammer of Thor Malaysia di Onyxmen.my untuk pakej 1, 2, dan 3 botol?',
     answer:
-      'Onyxmen Malaysia mengamalkan struktur harga rasmi yang telus dan seragam bagi semua formulasi: 1 Botol (20 Kapsul Vegetarian untuk kitaran 20 hari) berharga RM 159 (159.00 MYR) termasuk penghantaran rahsia percuma di Semenanjung Malaysia; 2 Botol (40 Kapsul Vegetarian untuk protokol 40 hari) berharga RM 318 (318.00 MYR) termasuk penghantaran ekspres rahsia percuma ke seluruh Malaysia termasuk Sabah, Sarawak, dan Labuan; manakala 3 Botol (60 Kapsul Vegetarian untuk kitaran penuh 60 hari) berharga RM 477 (477.00 MYR) dengan keutamaan pelepasan kurier VIP.',
+      'Onyxmen Malaysia mengamalkan struktur harga rasmi yang telus dan seragam bagi semua formulasi: 1 Botol (20 Kapsul Vegetarian untuk kitaran 20 hari) berharga RM 159 (159.00 MYR) termasuk penghantaran rahsia percuma di Semenanjung Malaysia; 2 Botol (40 Kapsul Vegetarian untuk protokol 40 hari) berharga RM 286 (10% OFF vs RM 318) (318.00 MYR) termasuk penghantaran ekspres rahsia percuma ke seluruh Malaysia termasuk Sabah, Sarawak, dan Labuan; manakala 3 Botol (60 Kapsul Vegetarian untuk kitaran penuh 60 hari) berharga RM 405 (15% OFF vs RM 477) (477.00 MYR) dengan keutamaan pelepasan kurier VIP.',
   },
   {
     question: 'Apakah perbezaan utama antara Hammer of Thor dan Horsemen jika kedua-duanya mengandungi 20 kapsul pada harga RM 159?',
@@ -770,7 +770,7 @@ function buildHammerMsBodyHtml() {
               <div class="hammer-hpmc-telemetry-bar__item">
                 <span class="hammer-hpmc-telemetry-bar__label">HARGA RASMI</span>
                 <span class="hammer-hpmc-telemetry-bar__val">RM 159</span>
-                <span class="hammer-hpmc-telemetry-bar__sub">1 Botol RM 159 · 2B RM 318 · 3B RM 477</span>
+                <span class="hammer-hpmc-telemetry-bar__sub">1 Botol RM 159 · 2B RM 286 (10% OFF vs RM 318) · 3B RM 477</span>
               </div>
             </div>
 
@@ -804,14 +804,14 @@ function buildHammerMsBodyHtml() {
                 <div class="tier-strip-option__price">RM 159</div>
               </button>
 
-              <!-- Tier 2: 2 Bottles = RM 318 (Highlighted Selection) -->
+              <!-- Tier 2: 2 Bottles = RM 286 (10% OFF vs RM 318) (Highlighted Selection) -->
               <button
                 type="button"
                 class="tier-strip-option tier-strip-option--selected"
                 data-open-order-drawer
                 data-order-product="hammer-of-thor"
                 data-order-qty="2"
-                aria-label="Pilih 2 Botol Hammer of Thor (40 Kapsul Vegetarian) pada harga RM 318"
+                aria-label="Pilih 2 Botol Hammer of Thor (40 Kapsul Vegetarian) pada harga RM 286 (10% OFF vs RM 318)"
               >
                 <div class="tier-strip-option__left">
                   <span class="tier-strip-option__eyebrow">
@@ -824,17 +824,17 @@ function buildHammerMsBodyHtml() {
                     40 Kapsul HPMC × 500mg (20,000mg) · Penghantaran Ekspres Rahsia Percuma Seluruh Malaysia (Termasuk Sabah, Sarawak &amp; Labuan)
                   </span>
                 </div>
-                <div class="tier-strip-option__price">RM 318</div>
+                <div class="tier-strip-option__price">RM 286 (10% OFF vs RM 318)</div>
               </button>
 
-              <!-- Tier 3: 3 Bottles = RM 477 -->
+              <!-- Tier 3: 3 Bottles = RM 405 (15% OFF vs RM 477) -->
               <button
                 type="button"
                 class="tier-strip-option"
                 data-open-order-drawer
                 data-order-product="hammer-of-thor"
                 data-order-qty="3"
-                aria-label="Pilih 3 Botol Hammer of Thor (60 Kapsul Vegetarian) pada harga RM 477"
+                aria-label="Pilih 3 Botol Hammer of Thor (60 Kapsul Vegetarian) pada harga RM 405 (15% OFF vs RM 477)"
               >
                 <div class="tier-strip-option__left">
                   <span class="tier-strip-option__eyebrow">
@@ -847,7 +847,7 @@ function buildHammerMsBodyHtml() {
                     60 Kapsul HPMC × 500mg (30,000mg) · Pelepasan Kurier Keutamaan + Penghantaran Rahsia Percuma Seluruh Malaysia + Khidmat VIP
                   </span>
                 </div>
-                <div class="tier-strip-option__price">RM 477</div>
+                <div class="tier-strip-option__price">RM 405 (15% OFF vs RM 477)</div>
               </button>
             </div>
 
@@ -1431,7 +1431,7 @@ function buildHammerMsBodyHtml() {
                 Pada Hari Ke-18, botol pertama anda mempunyai baki <strong>2 kapsul vegetarian</strong> (untuk Hari
                 Ke-19 dan Hari Ke-20). Peringatan Google Calendar &amp; WhatsApp Onyxmen akan berbunyi pada hari ini
                 supaya anda boleh mengesahkan penghantaran ekspres 1–2 hari bekerja bagi botol seterusnya (atau
-                beralih terus ke botol kedua jika anda memilih Pakej 2 Botol RM 318).
+                beralih terus ke botol kedua jika anda memilih Pakej 2 Botol RM 286 (10% OFF vs RM 318)).
               </p>
               <span class="architectural-ledger__metric">PERINGATAN HARI KE-18</span>
             </div>
@@ -1456,11 +1456,11 @@ function buildHammerMsBodyHtml() {
               CADANGAN PAKAR APOTEKARI ONYXMEN MALAYSIA UNTUK KESINAMBUNGAN TANPA GANGGUAN
             </span>
             <p class="hammer-label-transcription-strip__exact">
-              Elakkan Gangguan Bekalan pada Hari Ke-20: Pilih Pakej 2 Botol (40 Kapsul Vegetarian — RM 318) atau 3 Botol (60 Kapsul Vegetarian — RM 477)
+              Elakkan Gangguan Bekalan pada Hari Ke-20: Pilih Pakej 2 Botol (40 Kapsul Vegetarian — RM 286 (10% OFF vs RM 318)) atau 3 Botol (60 Kapsul Vegetarian — RM 405 (15% OFF vs RM 477))
             </p>
             <p class="hammer-label-transcription-strip__meta">
               78% pelanggan Hammer of Thor di Kuala Lumpur, Selangor, Pulau Pinang, dan Johor memilih pakej
-              <strong>2 Botol (RM 318)</strong> supaya mereka memiliki bekalan penuh 40 hari dengan Penghantaran
+              <strong>2 Botol (RM 286 (10% OFF vs RM 318))</strong> supaya mereka memiliki bekalan penuh 40 hari dengan Penghantaran
               Ekspres Rahsia Percuma ke seluruh Malaysia (termasuk Sabah &amp; Sarawak).
             </p>
             <div class="hammer-cta-cluster" style="margin-top: 1rem;">
@@ -1471,7 +1471,7 @@ function buildHammerMsBodyHtml() {
                 data-order-product="hammer-of-thor"
                 data-order-qty="2"
               >
-                <span>PILIH PAKEJ 2 BOTOL (40 KAPSUL VEG · RM 318)</span>
+                <span>PILIH PAKEJ 2 BOTOL (40 KAPSUL VEG · RM 286 (10% OFF vs RM 318))</span>
                 <span aria-hidden="true">→</span>
               </button>
               <button
@@ -1481,7 +1481,7 @@ function buildHammerMsBodyHtml() {
                 data-order-product="hammer-of-thor"
                 data-order-qty="3"
               >
-                <span>PILIH PAKEJ 3 BOTOL (60 KAPSUL VEG · RM 477)</span>
+                <span>PILIH PAKEJ 3 BOTOL (60 KAPSUL VEG · RM 405 (15% OFF vs RM 477))</span>
               </button>
             </div>
           </div>
@@ -1513,7 +1513,7 @@ function buildHammerMsBodyHtml() {
             </h2>
             <p class="editorial-lead-paragraph comparison-summary">
               Kesemua empat formulasi rasmi Onyxmen Malaysia ditawarkan pada harga seragam
-              <strong>RM 159 sebotol (2 Botol RM 318 · 3 Botol RM 477)</strong> supaya anda boleh memilih
+              <strong>RM 159 sebotol (2 Botol RM 286 (10% OFF vs RM 318) · 3 Botol RM 405 (15% OFF vs RM 477))</strong> supaya anda boleh memilih
               berdasarkan keperluan biologi, jenis sarung kapsul, dan jadual pengambilan anda—bukan berdasarkan
               perbezaan harga.
             </p>
@@ -1600,11 +1600,11 @@ function buildHammerMsBodyHtml() {
                 <tr>
                   <th scope="row">Harga Rasmi Onyxmen.my</th>
                   <td class="hammer-comparison-table__highlight-col">
-                    <strong>1B: RM 159 · 2B: RM 318 · 3B: RM 477</strong>
+                    <strong>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</strong>
                   </td>
-                  <td>1B: RM 159 · 2B: RM 318 · 3B: RM 477</td>
-                  <td>1B: RM 159 · 2B: RM 318 · 3B: RM 477</td>
-                  <td>1B: RM 159 · 2B: RM 318 · 3B: RM 477</td>
+                  <td>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</td>
+                  <td>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</td>
+                  <td>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</td>
                 </tr>
                 <tr>
                   <th scope="row">Pautan Terus</th>
@@ -1706,9 +1706,9 @@ function buildHammerMsBodyHtml() {
               <p class="architectural-ledger__detail">
                 Ekstrak piawai 60% saponin Tribulus Terrestris (200mg) di dalam kapsul selulosa tumbuhan HPMC
                 mempunyai kos bahan mentah yang tinggi. Onyxmen Malaysia mengekalkan harga rasmi
-                <strong>RM 159 (1 Botol), RM 318 (2 Botol), dan RM 477 (3 Botol)</strong>.
+                <strong>RM 159 (1 Botol), RM 286 (10% OFF vs RM 318) (2 Botol), dan RM 405 (15% OFF vs RM 477) (3 Botol)</strong>.
               </p>
-              <span class="architectural-ledger__metric">RM 159 / RM 318 / RM 477</span>
+              <span class="architectural-ledger__metric">RM 159 / RM 286 (10% OFF vs RM 318) / RM 477</span>
             </div>
 
             <div class="architectural-ledger__row" role="listitem">
@@ -1919,7 +1919,7 @@ function buildHammerMsBodyHtml() {
               </h3>
               <p class="architectural-ledger__detail">
                 Liputan Kota Kinabalu, Penampang, Putatan, Sandakan, Tawau, Lahad Datu &amp; Keningau melalui Kargo
-                Udara Rahsia (Percuma untuk pakej 2 Botol RM 318 &amp; 3 Botol RM 477; RM 12 untuk 1 Botol).
+                Udara Rahsia (Percuma untuk pakej 2 Botol RM 286 (10% OFF vs RM 318) &amp; 3 Botol RM 405 (15% OFF vs RM 477); RM 12 untuk 1 Botol).
               </p>
               <span class="architectural-ledger__metric">2–4 HARI BEKERJA · PERCUMA 2B+</span>
             </div>
@@ -1931,7 +1931,7 @@ function buildHammerMsBodyHtml() {
               </h3>
               <p class="architectural-ledger__detail">
                 Liputan Kuching, Kota Samarahan, Miri, Sibu, Bintulu &amp; Sri Aman melalui Kargo Udara Rahsia
-                (Percuma untuk pakej 2 Botol RM 318 &amp; 3 Botol RM 477; RM 12 untuk 1 Botol).
+                (Percuma untuk pakej 2 Botol RM 286 (10% OFF vs RM 318) &amp; 3 Botol RM 405 (15% OFF vs RM 477); RM 12 untuk 1 Botol).
               </p>
               <span class="architectural-ledger__metric">2–4 HARI BEKERJA · PERCUMA 2B+</span>
             </div>
@@ -1943,7 +1943,7 @@ function buildHammerMsBodyHtml() {
               </h3>
               <p class="architectural-ledger__detail">
                 Liputan Bandar Labuan (Victoria) dan seluruh kawasan pulau melalui Kargo Udara Ekspres Rahsia
-                (Percuma untuk pakej 2 Botol RM 318 &amp; 3 Botol RM 477).
+                (Percuma untuk pakej 2 Botol RM 286 (10% OFF vs RM 318) &amp; 3 Botol RM 405 (15% OFF vs RM 477)).
               </p>
               <span class="architectural-ledger__metric">2–4 HARI BEKERJA · PERCUMA 2B+</span>
             </div>
@@ -1974,7 +1974,7 @@ function buildHammerMsBodyHtml() {
             </h2>
             <p class="editorial-lead-paragraph">
               Jawapan teknikal dan telus mengenai kapsul selulosa tumbuhan HPMC, kepekatan 200mg Tribulus
-              Terrestris (60% saponin), harga rasmi RM 159 / RM 318 / RM 477, serta prosedur penghantaran rahsia.
+              Terrestris (60% saponin), harga rasmi RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477), serta prosedur penghantaran rahsia.
             </p>
           </header>
 
@@ -2060,7 +2060,7 @@ function buildHammerMsBodyHtml() {
                   Penghantaran Ekspres Rahsia Percuma Seluruh Malaysia (Termasuk Sabah, Sarawak &amp; Labuan) · Peringatan Hari Ke-36
                 </span>
               </div>
-              <div class="tier-strip-option__price">RM 318</div>
+              <div class="tier-strip-option__price">RM 286 (10% OFF vs RM 318)</div>
             </button>
 
             <button
@@ -2077,7 +2077,7 @@ function buildHammerMsBodyHtml() {
                   Pelepasan Kurier Keutamaan VIP + Penghantaran Rahsia Percuma Seluruh Negara · Peringatan Hari Ke-54
                 </span>
               </div>
-              <div class="tier-strip-option__price">RM 477</div>
+              <div class="tier-strip-option__price">RM 405 (15% OFF vs RM 477)</div>
             </button>
           </div>
 

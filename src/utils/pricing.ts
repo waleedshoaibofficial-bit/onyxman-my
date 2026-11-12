@@ -36,8 +36,8 @@ export const OFFICIAL_TIER_TOTALS: Record<BottleTierCount, {
   schema: string;
 }> = {
   1: { numeric: 159.0, display: 'RM 159', schema: '159.00' },
-  2: { numeric: 318.0, display: 'RM 318', schema: '318.00' },
-  3: { numeric: 477.0, display: 'RM 477', schema: '477.00' },
+  2: { numeric: 286.0, display: 'RM 286 (10% OFF vs RM 318)', schema: '286.00' /* regular: 318.00 */ },
+  3: { numeric: 405.0, display: 'RM 405 (15% OFF vs RM 477)', schema: '405.00' /* regular: 477.00 */ },
 };
 
 export const EAST_MALAYSIA_STATES = new Set<string>([
@@ -135,7 +135,7 @@ export function calculateTierQuote(
 }
 
 /**
- * Generates a strict schema.org Offer or AggregateOffer JSON-LD object for any Onyxman product.
+ * Generates a strict schema.org Offer or AggregateOffer JSON-LD object for any Onyxmen product.
  */
 export function buildProductOffersSchema(productUrl: string, sku: string): Record<string, unknown> {
   return {
@@ -155,9 +155,9 @@ export function buildProductOffersSchema(productUrl: string, sku: string): Recor
     },
     seller: {
       '@type': 'Organization',
-      name: 'Onyxman',
+      name: 'Onyxmen',
       url: 'https://www.onyxmen.my',
-      email: 'sales@onyxman.my',
+      email: 'sales@onyxmen.my',
     },
     shippingDetails: [
       {

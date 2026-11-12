@@ -91,10 +91,10 @@
         {
           "dimensionEn": "Official Malaysia Pricing",
           "dimensionMs": "Harga Rasmi Malaysia",
-          "leftValueEn": "1 Bottle: RM 159 | 2 Bottles: RM 318 | 3 Bottles: RM 477",
-          "leftValueMs": "1 Botol: RM 159 | 2 Botol: RM 318 | 3 Botol: RM 477",
-          "rightValueEn": "1 Bottle: RM 159 | 2 Bottles: RM 318 | 3 Bottles: RM 477",
-          "rightValueMs": "1 Botol: RM 159 | 2 Botol: RM 318 | 3 Botol: RM 477"
+          "leftValueEn": "1 Bottle: RM 159 | 2 Bottles: RM 286 (10% OFF, was RM 318) | 3 Bottles: RM 405 (15% OFF, was RM 477)",
+          "leftValueMs": "1 Botol: RM 159 | 2 Botol: RM 286 (Diskaun 10%, asal RM 318) | 3 Botol: RM 405 (Diskaun 15%, asal RM 477)",
+          "rightValueEn": "1 Bottle: RM 159 | 2 Bottles: RM 286 (10% OFF, was RM 318) | 3 Bottles: RM 405 (15% OFF, was RM 477)",
+          "rightValueMs": "1 Botol: RM 159 | 2 Botol: RM 286 (Diskaun 10%, asal RM 318) | 3 Botol: RM 405 (Diskaun 15%, asal RM 477)"
         }
       ],
       "decisionScenarios": [
@@ -193,10 +193,10 @@
         {
           "dimensionEn": "Official Malaysia Pricing",
           "dimensionMs": "Harga Rasmi Malaysia",
-          "leftValueEn": "1 Bottle: RM 159 | 2 Bottles: RM 318 | 3 Bottles: RM 477",
-          "leftValueMs": "1 Botol: RM 159 | 2 Botol: RM 318 | 3 Botol: RM 477",
-          "rightValueEn": "1 Bottle: RM 159 | 2 Bottles: RM 318 | 3 Bottles: RM 477",
-          "rightValueMs": "1 Botol: RM 159 | 2 Botol: RM 318 | 3 Botol: RM 477"
+          "leftValueEn": "1 Bottle: RM 159 | 2 Bottles: RM 286 (10% OFF, was RM 318) | 3 Bottles: RM 405 (15% OFF, was RM 477)",
+          "leftValueMs": "1 Botol: RM 159 | 2 Botol: RM 286 (Diskaun 10%, asal RM 318) | 3 Botol: RM 405 (Diskaun 15%, asal RM 477)",
+          "rightValueEn": "1 Bottle: RM 159 | 2 Bottles: RM 286 (10% OFF, was RM 318) | 3 Bottles: RM 405 (15% OFF, was RM 477)",
+          "rightValueMs": "1 Botol: RM 159 | 2 Botol: RM 286 (Diskaun 10%, asal RM 318) | 3 Botol: RM 405 (Diskaun 15%, asal RM 477)"
         }
       ],
       "decisionScenarios": [

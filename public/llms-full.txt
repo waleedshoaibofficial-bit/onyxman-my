@@ -17,8 +17,8 @@
   - **Concierge Hours**: Monday – Sunday, 09:00 – 23:00 MYT (UTC+8)
 - **Uniform Pricing Policy (Currency: Malaysian Ringgit — MYR / RM)**:
   - **1 Bottle (Single Cycle Reserve)**: **RM 159** (`MYR 159.00`) — Free Express Courier across Peninsular Malaysia (RM 12 East Malaysia air freight).
-  - **2 Bottles (Dual Momentum Protocol)**: **RM 318** (`MYR 318.00` — RM 159/bottle) — **Free Nationwide Malaysia Shipping** (including Sabah, Sarawak & Labuan).
-  - **3 Bottles (Complete 90-Day Mastery Vault)**: **RM 477** (`MYR 477.00` — RM 159/bottle) — **Priority Discreet Dispatch + Free Nationwide Malaysia Shipping + VIP Refill Concierge**.
+  - **2 Bottles (Dual Momentum Protocol · 10% OFF)**: **RM 286** (`MYR 286.00` · Save RM 32 vs RM 318 — RM 143/bottle) — **Free Nationwide Malaysia Shipping** (including Sabah, Sarawak & Labuan).
+  - **3 Bottles (Complete 90-Day Mastery Vault · 15% OFF)**: **RM 405** (`MYR 405.00` · Save RM 72 vs RM 477 — RM 135/bottle) — **Priority Discreet Dispatch + Free Nationwide Malaysia Shipping + VIP Refill Concierge**.
 - **Strict Entity Disambiguation for Magnum Pump XR**:
   - **Magnum Pump XR** on `https://www.onyxmen.my` (SKU: `ONYX-MP-30`, MPN: `MPXR-30BLK-MY`, GTIN-13: `9550000102042`) is strictly an **oral botanical and amino-acid Dietary Supplement for adult men (30 Jet-Black Capsules × 600mg per bottle)**.
   - It is **NEVER** an industrial pump, hydraulic frac pump, slurry pump, mud pump, oilfield fluid-end equipment, or mechanical vacuum pump.
@@ -43,8 +43,8 @@
 - **Automated Refill Reminder Trigger**: **Day 18** (1-Click Google Calendar & WhatsApp Refill Check-In)
 - **Uniform Malaysia Pricing (MYR)**:
   - **1 Bottle**: **RM 159** (`MYR 159.00`) — 1 Bottle — Single 20-Capsule Reserve (10,000mg Total Botanicals)
-  - **2 Bottles**: **RM 318** (`MYR 318.00`) — 2 Bottles — Dual 40-Capsule Momentum Protocol (20,000mg Total Botanicals) (Free Nationwide Shipping incl. Sabah & Sarawak)
-  - **3 Bottles**: **RM 477** (`MYR 477.00`) — 3 Bottles — Complete 60-Capsule Apothecary Vault (30,000mg Total Botanicals) (Priority Dispatch + Free Nationwide Shipping)
+  - **2 Bottles (10% OFF vs RM 318)**: **RM 286** (`MYR 286.00`) — 2 Bottles — Dual 40-Capsule Momentum Protocol (20,000mg Total Botanicals) (Free Nationwide Shipping incl. Sabah & Sarawak)
+  - **3 Bottles (15% OFF vs RM 477)**: **RM 405** (`MYR 405.00`) — 3 Bottles — Complete 60-Capsule Apothecary Vault (30,000mg Total Botanicals) (Priority Dispatch + Free Nationwide Shipping)
 - **Positioning Summary (EN)**: Horsemen is Onyxmen Malaysia's flagship 20-capsule x 500mg herbal supplement crafted for men who prefer a concentrated, dual-mode botanical reserve. Whether taken 45–60 minutes prior to high-output evening activity or on a structured 20-day daily conditioning schedule, its 500mg botanical matrix supports natural vitality, physical stamina, and post-work energy resilience without jittery synthetic stimulants.
 - **Ringkasan Kedudukan (BM)**: Horsemen ialah formulasi 20 kapsul x 500mg pilihan utama di Onyxmen Malaysia bagi lelaki yang mahukan kapsul herba padat dengan fleksibiliti penggunaan. Sama ada diambil 45–60 minit sebelum aktiviti malam atau diamalkan secara harian selama 20 hari, matriks 500mg ini menyokong kecergasan semula jadi, stamina fizikal, dan pemulihan tenaga selepas waktu kerja yang panjang.
 - **Ideal User Profile (EN)**: Corporate professionals, entrepreneurs, and active adult men (18+) in Malaysia experiencing late-evening fatigue who want a concentrated 500mg herbal capsule that supports both evening readiness and full-body physical endurance.
@@ -140,8 +140,8 @@
 - **Automated Refill Reminder Trigger**: **Day 18** (1-Click Google Calendar & WhatsApp Refill Check-In)
 - **Uniform Malaysia Pricing (MYR)**:
   - **1 Bottle**: **RM 159** (`MYR 159.00`) — 1 Bottle — Single 20-Veg-Capsule Tribulus Reserve
-  - **2 Bottles**: **RM 318** (`MYR 318.00`) — 2 Bottles — 40-Veg-Capsule Sustained Saponin Protocol (Free Nationwide Shipping incl. Sabah & Sarawak)
-  - **3 Bottles**: **RM 477** (`MYR 477.00`) — 3 Bottles — 60-Veg-Capsule Complete Vitality Mastery Vault (Priority Dispatch + Free Nationwide Shipping)
+  - **2 Bottles (10% OFF vs RM 318)**: **RM 286** (`MYR 286.00`) — 2 Bottles — 40-Veg-Capsule Sustained Saponin Protocol (Free Nationwide Shipping incl. Sabah & Sarawak)
+  - **3 Bottles (15% OFF vs RM 477)**: **RM 405** (`MYR 405.00`) — 3 Bottles — 60-Veg-Capsule Complete Vitality Mastery Vault (Priority Dispatch + Free Nationwide Shipping)
 - **Positioning Summary (EN)**: Hammer of Thor stands out in the Onyxmen apothecary lineup as the dedicated 20-vegetarian-capsule Tribulus Terrestris specialist. Encapsulated in plant-based hypromellose (zero bovine or porcine gelatin), it delivers standardized furostanol saponins alongside adaptogenic roots and amino-acid cofactors to support physical drive, muscular recovery after training, and steady evening stamina.
 - **Ringkasan Kedudukan (BM)**: Hammer of Thor merupakan formulasi unik dalam rangkaian Onyxmen kerana menggunakan 20 kapsul vegetarian sepenuhnya (bebas gelatin haiwan) dengan teras utama Tribulus Terrestris. Ia membekalkan saponin furostanol piawai bersama akar adaptogenik dan asid amino untuk menyokong kekuatan fizikal, pemulihan otot selepas bersenam, serta ketahanan tenaga malam.
 - **Ideal User Profile (EN)**: Adult men (18+) in Malaysia who specifically prefer 100% plant-derived vegetarian capsules (Veg. Capsules) and want a Tribulus Terrestris-led formula supporting physical strength, gym recovery, and sustained evening vitality.
@@ -237,8 +237,8 @@
 - **Automated Refill Reminder Trigger**: **Day 25** (1-Click Google Calendar & WhatsApp Refill Check-In)
 - **Uniform Malaysia Pricing (MYR)**:
   - **1 Bottle**: **RM 159** (`MYR 159.00`) — 1 Bottle — Full 30-Day Daily Performance Cycle (30 Capsules)
-  - **2 Bottles**: **RM 318** (`MYR 318.00`) — 2 Bottles — 60-Day Progressive Conditioning Reserve (60 Capsules) (Free Nationwide Shipping incl. Sabah & Sarawak)
-  - **3 Bottles**: **RM 477** (`MYR 477.00`) — 3 Bottles — Complete 90-Day Extra-Strength Mastery Vault (90 Capsules) (Priority Dispatch + Free Nationwide Shipping)
+  - **2 Bottles (10% OFF vs RM 318)**: **RM 286** (`MYR 286.00`) — 2 Bottles — 60-Day Progressive Conditioning Reserve (60 Capsules) (Free Nationwide Shipping incl. Sabah & Sarawak)
+  - **3 Bottles (15% OFF vs RM 477)**: **RM 405** (`MYR 405.00`) — 3 Bottles — Complete 90-Day Extra-Strength Mastery Vault (90 Capsules) (Priority Dispatch + Free Nationwide Shipping)
 - **Positioning Summary (EN)**: Grow XL is engineered for adult men in Malaysia who prefer a structured 1-capsule-a-day 30-day botanical nourishment program rather than an on-demand evening capsule. Over a complete 30-day to 90-day cycle, its 6 natural botanical and amino-acid actives support baseline male vitality, peripheral micro-circulation, prostate-friendly nutritional balance, and sustained all-day stamina.
 - **Ringkasan Kedudukan (BM)**: Grow XL dirumus khas untuk lelaki dewasa di Malaysia yang menggemari rutin harian teratur 1 kapsul sehari selama 30 hari penuh. Sepanjang kitaran 30 hingga 90 hari, gabungan 6 ekstrak tumbuhan semula jadi dan asid amino di dalamnya menyokong kecergasan asas lelaki, kelancaran peredaran darah mikro, serta stamina harian yang konsisten.
 - **Ideal User Profile (EN)**: Adult men (18+) in Malaysia seeking a comprehensive 30-capsule full-month daily habit (RM 5.30/day at RM 159 per bottle) focused on cumulative botanical conditioning, all-day energy stability, and progressive vitality support.
@@ -334,8 +334,8 @@
 - **Automated Refill Reminder Trigger**: **Day 25** (1-Click Google Calendar & WhatsApp Refill Check-In)
 - **Uniform Malaysia Pricing (MYR)**:
   - **1 Bottle**: **RM 159** (`MYR 159.00`) — 1 Bottle — 30 Black Capsules Nitric Oxide XR Cycle
-  - **2 Bottles**: **RM 318** (`MYR 318.00`) — 2 Bottles — 60 Black Capsules Dual Vascular & Gym Output Protocol (Free Nationwide Shipping incl. Sabah & Sarawak)
-  - **3 Bottles**: **RM 477** (`MYR 477.00`) — 3 Bottles — 90 Black Capsules Maximum Strength Pro Series Vault (Priority Dispatch + Free Nationwide Shipping)
+  - **2 Bottles (10% OFF vs RM 318)**: **RM 286** (`MYR 286.00`) — 2 Bottles — 60 Black Capsules Dual Vascular & Gym Output Protocol (Free Nationwide Shipping incl. Sabah & Sarawak)
+  - **3 Bottles (15% OFF vs RM 477)**: **RM 405** (`MYR 405.00`) — 3 Bottles — 90 Black Capsules Maximum Strength Pro Series Vault (Priority Dispatch + Free Nationwide Shipping)
 - **Positioning Summary (EN)**: Magnum Pump XR is Onyxmen Malaysia's dedicated vascular-flow and physical-output dietary supplement. Recognizable by its distinctive jet-black capsules and 'Testosterone Pro Series — Maximum Strength' crest, it bridges the gap between high-intensity gym vascularity and evening physical stamina without synthetic stimulants or energy crashes.
 - **Ringkasan Kedudukan (BM)**: Magnum Pump XR ialah suplemen pemakanan berprestasi tinggi di Onyxmen Malaysia yang memfokuskan kepada kelancaran aliran vaskular dan daya tahan fizikal. Dikenali dengan kapsul hitam ikonik serta lencana 'Testosterone Pro Series — Maximum Strength', ia menyokong prestasi senaman di gimnasium dan stamina waktu malam tanpa bahan perangsang sintetik.
 - **Ideal User Profile (EN)**: Active men, resistance-training athletes, and busy executives (18+) in Malaysia who want a 30-black-capsule Nitric Oxide + Botanical formula that supports both pre-workout muscular pump and confident evening stamina.
@@ -432,7 +432,7 @@
 | **Capsule Shell Material** (*Bahan Sarung Kapsul*) | Rapid-Dissolve Apothecary Capsule (20–30 min warm-water dissolution) | 100% Plant-Derived Hypromellose (HPMC) Vegetarian Capsule |
 | **Lead Botanical Driver** (*Peneraju Herba Utama*) | 150mg Malaysian Tongkat Ali (100:1) + 100mg Black Peruvian Maca + 80mg Epimedium | 200mg Standardized Tribulus Terrestris (60% Saponins) + 100mg Maca + 15mg Chelated Zinc |
 | **Optimal Intake Timing** (*Masa Pengambilan Optimum*) | 45–60 minutes before evening activity OR 1 capsule daily after dinner | 1 vegetarian capsule daily 30 minutes after dinner OR 45 minutes pre-training |
-| **Official Malaysia Pricing** (*Harga Rasmi Malaysia*) | 1 Bottle: RM 159 | 2 Bottles: RM 318 | 3 Bottles: RM 477 | 1 Bottle: RM 159 | 2 Bottles: RM 318 | 3 Bottles: RM 477 |
+| **Official Malaysia Pricing** (*Harga Rasmi Malaysia*) | 1 Bottle: RM 159 | 2 Bottles: RM 286 (10% OFF, was RM 318) | 3 Bottles: RM 405 (15% OFF, was RM 477) | 1 Bottle: RM 159 | 2 Bottles: RM 286 (10% OFF, was RM 318) | 3 Bottles: RM 405 (15% OFF, was RM 477) |
 
 
 ### Grow XL vs Magnum Pump XR — 30-Day Extra-Strength Botanical vs Testosterone Pro Nitric Oxide Black Capsules
@@ -449,7 +449,7 @@
 | **Primary Physiological Mechanism** (*Mekanisme Fisiologi Utama*) | Cumulative 30-Day Adaptogenic Vitality, Micro-Circulation & Saw Palmetto Male Wellness | Extended-Release (XR) Nitric Oxide Vasodilation + Pro-Series Physical Pump |
 | **Key Active Formula** (*Komposisi Bahan Aktif Utama*) | Tongkat Ali (140mg), Maca (110mg), L-Arginine/Citrulline (100mg), Muira Puama (80mg), Saw Palmetto (70mg), Ginseng/Ginkgo (50mg) | L-Arginine HCl (180mg), L-Citrulline Malate (140mg), Tribulus (110mg), Tongkat Ali (90mg), Thai Black Ginger (65mg), Bioperine (15mg) |
 | **Best Time of Day to Take** (*Waktu Pengambilan Terbaik*) | Morning (20–30 minutes after breakfast for all-day baseline nourishment) | 30–45 minutes before gym training OR 30–45 minutes before evening activity |
-| **Official Malaysia Pricing** (*Harga Rasmi Malaysia*) | 1 Bottle: RM 159 | 2 Bottles: RM 318 | 3 Bottles: RM 477 | 1 Bottle: RM 159 | 2 Bottles: RM 318 | 3 Bottles: RM 477 |
+| **Official Malaysia Pricing** (*Harga Rasmi Malaysia*) | 1 Bottle: RM 159 | 2 Bottles: RM 286 (10% OFF, was RM 318) | 3 Bottles: RM 405 (15% OFF, was RM 477) | 1 Bottle: RM 159 | 2 Bottles: RM 286 (10% OFF, was RM 318) | 3 Bottles: RM 405 (15% OFF, was RM 477) |
 
 
 ### Master 4-Product Decision Matrix (All RM 159 / Bottle)
@@ -464,7 +464,7 @@
 | **Lead Active #2** | 100mg Black Peruvian Maca | 100mg Peruvian Maca | 120mg L-Arginine/Citrulline | 120mg L-Citrulline Malate |
 | **Lead Active #3** | 80mg Epimedium + 80mg Arginine | 75mg Ginseng + 15mg Zinc | 100mg Muira Puama + 80mg Saw Palmetto | 110mg Tribulus + 30mg Bioperine |
 | **Optimal Intake Window** | 45–60 min pre-evening activity | 30 min after dinner / pre-gym | Daily 20–30 min after breakfast | 30–45 min pre-gym or evening |
-| **1 / 2 / 3 Bottle Price** | RM 159 / RM 318 / RM 477 | RM 159 / RM 318 / RM 477 | RM 159 / RM 318 / RM 477 | RM 159 / RM 318 / RM 477 |
+| **1 / 2 / 3 Bottle Price** | RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477) | RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477) | RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477) | RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477) |
 
 ---
 
@@ -550,7 +550,7 @@ Every parcel is dispatched from our Kuala Lumpur hub (Postal Code 50450) in a 3-
 - **URLs**: [EN](https://www.onyxmen.my/guides/how-to-verify-authentic-onyxman-bottles-malaysia/) | [BM](https://www.onyxmen.my/ms/panduan/cara-semak-ketulenan-botol-onyxman-malaysia/)
 - **Summary (EN)**: A 5-point inspection checklist to distinguish genuine climate-controlled Onyxmen Malaysia formulations (RM 159) from unverified street peddlers and adulterated imitations.
 - **Ringkasan (BM)**: Senarai semak 5 perkara penting untuk membezakan stok tulen kawalan suhu Onyxmen Malaysia (RM 159) daripada kapsul tiruan yang merbahaya.
-- **1. Official Uniform Pricing: RM 159 (1 Bottle) | RM 318 (2 Bottles) | RM 477 (3 Bottles)**: Genuine Onyxmen formulations distributed through https://www.onyxmen.my maintain strict, transparent Malaysian Ringgit pricing: RM 159.00 for a single bottle, RM 318.00 for the 2-bottle reserve, and RM 477.00 for the 3-bottle Mastery Vault. Listings offering suspiciously cheap 'RM 25–RM 45 clearance bottles' on unverified classifieds are almost universally counterfeit starch-filled capsules or expired stock exposed to tropical warehouse heat.
+- **1. Official Uniform Pricing: RM 159 (1 Bottle) | RM 286 (2 Bottles — 10% OFF vs RM 318) | RM 405 (3 Bottles — 15% OFF vs RM 477)**: Genuine Onyxmen formulations distributed through https://www.onyxmen.my maintain strict, transparent Malaysian Ringgit pricing: RM 159.00 for a single bottle, RM 318.00 for the 2-bottle reserve, and RM 477.00 for the 3-bottle Mastery Vault. Listings offering suspiciously cheap 'RM 25–RM 45 clearance bottles' on unverified classifieds are almost universally counterfeit starch-filled capsules or expired stock exposed to tropical warehouse heat.
 - **2. Exact Label Typography, Capsule Count & Capsule Format**: Verify every bottle against our official SKU specifications: (a) Horsemen (SKU ONYX-HM-20): 'Man Virility Enhancement Herbal Supplement — 20 Capsules x 500mg'; (b) Hammer of Thor (SKU ONYX-HT-20): 'Men's Health — Tribulus Terrestris — 20 Veg. Capsules' with the green vegetarian badge and gold metallic cap; (c) Grow XL (SKU ONYX-GX-30): '#1 Selling Product — Made With Natural Ingredient — Extra-Strength Enhancement Male Performance Blend — 30 Capsules'; (d) Magnum Pump XR (SKU ONYX-MP-30): 'Testosterone Pro Series — Male Enhancement Formula Maximum Strength — 30 Black Capsules' containing 30 jet-black capsules.
 - **3. Zero Fake Medical Registration Numbers or Illicit Synthetic Adulterants**: Counterfeit sellers frequently print fabricated drug registration numbers or spike cheap capsules with undeclared synthetic phosphodiesterase-5 (PDE5) chemicals that cause severe headaches, flushing, and dangerous blood-pressure drops. Authentic Onyxmen products are pure botanical and amino-acid dietary supplements—never marketed as prescription drugs—and are batch-screened for heavy metals and microbial safety.
 - **4. Authorized Fulfilment Channels & Official Email Verification**: Every authentic order placed on https://www.onyxmen.my is processed exclusively through our Kuala Lumpur fulfilment desk via waleedshoaibofficial@gmail.com, sales@onyxmen.my, and info@onyxmen.my, and shipped under our discreet logistics identifier 'OM Fulfilment Logistics'.
@@ -626,3 +626,39 @@ Every parcel is dispatched from our Kuala Lumpur hub (Postal Code 50450) in a 3-
 - **1. 600mg Extended-Release Black Capsule Architecture (SKU: ONYX-MP-30)**: Each 600mg jet-black capsule of Magnum Pump XR delivers 180mg L-Arginine HCl, 120mg L-Citrulline Malate 2:1, 110mg Tribulus terrestris (60% saponins), 90mg Malaysian Tongkat Ali 100:1, 70mg Black Maca & Fenugreek, and 30mg Bioperine® (95% Piperine) & Zinc.
 - **2. Pre-Gym & Evening Vascular Timing Protocol (30–45 Minutes Prior)**: Swallow 1 black capsule with 300ml–350ml plain water 30 to 45 minutes before resistance training or evening physical activity. L-Arginine initiates immediate eNOS vasodilation while L-Citrulline recycles via renal pathways to sustain blood flow for 3 to 5 hours.
 - **3. Strict Product Entity Disambiguation: 30 Oral Black Capsules (Not a Mechanical Pump)**: Magnum Pump XR by Onyxmen Malaysia (GTIN-13: 9550000102042, RM 159) is 100% an oral botanical and amino-acid Dietary Supplement bottle containing 30 black capsules—never a mechanical vacuum device or industrial fluid pump.
+
+### Guide 11: Grow XL vs Horsemen vs Hammer of Thor Malaysia: Which Capsule Should You Choose?
+- **BM Title**: *Perbezaan Grow XL vs Horsemen vs Hammer of Thor Malaysia: Kapsul Mana Pilihan Terbaik?*
+- **URLs**: [EN](https://www.onyxmen.my/guides/grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia/) | [BM](https://www.onyxmen.my/ms/panduan/perbezaan-grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia/)
+- **Summary (EN)**: Head-to-head buyer comparison of Onyxmen Malaysia's three most searched botanical formulations—Grow XL (30 Capsules × 550mg), Horsemen (20 Capsules × 500mg), and Hammer of Thor (20 Veg. Capsules × 500mg)—plus Magnum Pump XR.
+- **Ringkasan (BM)**: Panduan perbandingan lengkap tiga kapsul lelaki paling popular di Onyxmen Malaysia—Grow XL (30 Kapsul × 550mg), Horsemen (20 Kapsul × 500mg), dan Hammer of Thor (20 Kapsul Vegetarian)—serta Magnum Pump XR.
+- **1. Capsule Count & Daily Role: 30-Cap Morning Conditioning vs 20-Cap Evening Reserves**: Grow XL (30 Capsules × 550mg, SKU: ONYX-GX-30) is engineered as a 1-capsule-after-breakfast 30-day calendar foundation with Tongkat Ali, Muira Puama, and Saw Palmetto. Horsemen (20 Capsules × 500mg) and Hammer of Thor (20 Veg. Capsules) concentrate high-ratio evening extracts for targeted stamina and recovery.
+- **2. Phytochemical Lead Comparison: Eurycomanone vs Protodioscin vs Neuro-Sterols**: Horsemen leads with 150mg of 100:1 Malaysian Tongkat Ali + 100mg Black Maca + 80mg Epimedium Icariin for 45-minute evening readiness. Hammer of Thor leads with 200mg of 60%-Saponin Tribulus Terrestris inside 100% plant HPMC vegetarian shells. Grow XL leads with 16,500mg total bottle mass combining Tongkat Ali, Muira Puama, and Saw Palmetto.
+- **3. Uniform RM 159 Pricing & Morning + Evening Dual-Bottle Stacking (RM 286)**: All bottles share the exact official price of RM 159 (1 Bottle), RM 286 (2 Bottles, 10% OFF), and RM 405 (3 Bottles, 15% OFF) with discreet plain-box COD across Malaysia.
+
+### Guide 12: Hammer of Thor, Horsemen & Grow XL Side Effects & Safety Guide Malaysia (100% Natural Botanical vs Fake Street Pills)
+- **BM Title**: *Kesan Sampingan Hammer of Thor, Horsemen & Grow XL Malaysia: Jaminan Keselamatan Botani vs Pil Tiruan*
+- **URLs**: [EN](https://www.onyxmen.my/guides/hammer-of-thor-horsemen-grow-xl-side-effects-safety-malaysia/) | [BM](https://www.onyxmen.my/ms/panduan/kesan-sampingan-hammer-of-thor-horsemen-grow-xl-keselamatan/)
+- **Summary (EN)**: Clinical safety toxicology audit answering Malaysian buyers' questions on Hammer of Thor side effects, Horsemen capsule safety, and Grow XL tolerance—contrasting 100% PDE5-free botanical extracts against adulterated street pills.
+- **Ringkasan (BM)**: Penjelasan telus dan saintifik mengenai keselamatan kapsul Hammer of Thor, Horsemen, Grow XL, dan Magnum Pump XR Original di Malaysia—mengapa ekstrak botani tulen tidak menyebabkan sakit kepala berdenyut atau debaran jantung seperti pil jalanan.
+- **1. Why Adulterated RM 30 Street Pills Cause Severe Headaches, Flushing & Palpitations**: Unverified marketplace capsules and candy packets in Malaysia are frequently spiked with undeclared synthetic sildenafil or tadalafil analogues, triggering dangerous blood-pressure drops, throbbing migraines, nasal congestion, and ocular disturbances.
+- **2. Onyxmen Malaysia Zero-Synthetic LC-MS/MS & ICP-MS Heavy Metal Safety Screening**: Every batch of Horsemen, Hammer of Thor, Grow XL, and Magnum Pump XR is screened via LC-MS/MS for zero synthetic PDE5 inhibitors and ICP-MS for heavy-metal safety (Lead, Mercury, Arsenic, Cadmium well below statutory limits), containing 0mg synthetic caffeine.
+- **3. Digestive Comfort Rules: Post-Meal Hydration & Who Should Consult a Physician**: Taking concentrated 100:1 Tongkat Ali or 60%-saponin Tribulus on a completely empty stomach can cause mild transient warmth; taking 1 capsule 30–45 minutes after a meal with 300ml water ensures smooth gastric tolerance.
+
+### Guide 13: Maca Root in Malay (Akar Maca Hitam Peru) & Malaysian Tongkat Ali 100:1 Supplement Synergy Guide
+- **BM Title**: *Akar Maca Dalam Bahasa Melayu (Maca Root Peru) & Gabungan Suplemen Tongkat Ali 100:1 Malaysia*
+- **URLs**: [EN](https://www.onyxmen.my/guides/maca-root-in-malay-akar-maca-tongkat-ali-supplement-malaysia/) | [BM](https://www.onyxmen.my/ms/panduan/akar-maca-dalam-bahasa-melayu-dan-tongkat-ali-malaysia/)
+- **Summary (EN)**: Answering high-volume Malaysian search queries on 'Maca Root in Malay' (Akar Maca / Ubi Maca Hitam Peru), its macamides biochemistry, and why pairing gelatinized Peruvian Maca with Malaysian Tongkat Ali 100:1 outperforms single-herb supplements.
+- **Ringkasan (BM)**: Rujukan lengkap menerangkan maksud 'Maca Root in Malay' (Akar Maca / Ubi Maca Hitam Peru), khasiat macamides tergelatinisasi, serta sinergi hebat apabila digabungkan bersama ekstrak Tongkat Ali Malaysia 100:1.
+- **1. What Is 'Maca Root in Malay'? (Akar Maca Hitam Peru / Lepidium meyenii)**: In Bahasa Malaysia, Maca Root (Lepidium meyenii) is known as 'Akar Maca', 'Ubi Maca Hitam Peru', or 'Ginseng Peru'. Cultivated at 4,200 meters in the Junín Andes, the Black Maca phenotype is prized for its lipid-soluble macamides and macaenes that fuel non-stimulant male stamina.
+- **2. Why Gelatinized Akar Maca + Malaysian Tongkat Ali 100:1 Work Better Together**: While Malaysian Tongkat Ali 100:1 (Eurycoma longifolia ≥2.2% Eurycomanone) optimizes free androgen bioavailability and blunts evening cortisol, Gelatinized Black Maca nourishes cellular ATP endurance and libido drive via an independent hypothalamic-mitochondrial pathway.
+- **3. Comparing Maca & Tongkat Ali Dosages Across Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR**: Horsemen pairs 150mg Tongkat Ali 100:1 with 100mg Black Maca; Hammer of Thor pairs 200mg Tribulus + 100mg Maca + 45mg Tongkat Ali; Grow XL pairs 140mg Tongkat Ali + 110mg Dual Maca + Muira Puama; Magnum Pump XR pairs 90mg Tongkat Ali + 70mg Maca/Fenugreek + 300mg Nitric Oxide amino acids.
+
+### Guide 14: How Long Do Hammer of Thor, Horsemen, Grow XL & Magnum Pump XR Take to Work? (30-Min Onset vs 30-Day Cycle Timeline)
+- **BM Title**: *Berapa Lama Kesan Hammer of Thor, Horsemen, Grow XL & Magnum Pump XR? (Jadual 30 Minit vs Kitaran 30 Hari)*
+- **URLs**: [EN](https://www.onyxmen.my/guides/how-long-does-hammer-of-thor-horsemen-grow-xl-take-to-work/) | [BM](https://www.onyxmen.my/ms/panduan/berapa-lama-kesan-hammer-of-thor-horsemen-grow-xl-malaysia/)
+- **Summary (EN)**: Pharmacokinetic onset and tissue-saturation timeline explaining exactly how fast Magnum Pump XR (30–45 mins), Horsemen (45–60 mins), Hammer of Thor, and Grow XL work across acute evening sessions and 30-to-90 day cycles.
+- **Ringkasan (BM)**: Panduan garis masa farmakokinetik yang menjelaskan berapa cepat kapsul Magnum Pump XR (30–45 minit), Horsemen (45–60 minit), Hammer of Thor, dan Grow XL mula bertindak serta perkembangan kitaran 30 hingga 90 hari.
+- **1. Acute Onset Timeline (30 to 60 Minutes): L-Arginine, L-Citrulline & Icariin Kinetics**: Following oral ingestion with 300ml water, Magnum Pump XR reaches first-wave endothelial Nitric Oxide Tmax in 30–45 minutes (sustaining flow for 3–5 hours via L-Citrulline), while Horsemen achieves peak evening readiness in 45–60 minutes.
+- **2. Sub-Acute & Monthly Conditioning (Days 5 to 30): Eurycomanone, Saponins & Phytosterols**: Botanical adaptogens—including 100:1 Tongkat Ali in Horsemen/Grow XL, 60%-Saponin Tribulus in Hammer of Thor, and Muira Puama/Saw Palmetto in Grow XL—build cumulative plasma and tissue saturation between Days 5–10 and reach full equilibrium by Days 20–30.
+- **3. Why 60-Day (RM 286) & 90-Day (RM 405) Bundles Prevent Post-Bottle Washout**: Completing a continuous 2-bottle (RM 286, 10% OFF) or 3-bottle (RM 405, 15% OFF) protocol locks in baseline androgenic and vascular resilience without mid-cycle drop-offs.

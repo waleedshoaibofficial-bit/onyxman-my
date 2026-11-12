@@ -12,7 +12,6 @@
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
   Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
   Content-Security-Policy: default-src 'self' https://www.onyxmen.my https://onyxmen.my; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' https://www.onyxmen.my https://onyxmen.my data: blob:; connect-src 'self' https://formsubmit.co https://api.web3forms.com https://api.indexnow.org; frame-ancestors 'none'; base-uri 'self'; form-action 'self' https://formsubmit.co https://api.web3forms.com https://wa.me
-  X-Robots-Tag: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
 
 /*.html
   Cache-Control: public, max-age=0, s-maxage=3600, stale-while-revalidate=86400

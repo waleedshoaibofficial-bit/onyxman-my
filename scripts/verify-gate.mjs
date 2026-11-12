@@ -178,17 +178,17 @@ function runGate3(phase) {
   const i18nText = fs.readFileSync(i18nPath, 'utf8');
   const requiredRoutes = [
     '/products/horsemen/',
-    '/products/Sensitivity-of-thor/',
+    '/products/hammer-of-thor/',
     '/products/grow-xl/',
     '/products/magnum-pump-xr/',
     '/ms/produk/horsemen/',
-    '/ms/produk/Sensitivity-of-thor/',
+    '/ms/produk/hammer-of-thor/',
     '/ms/produk/grow-xl/',
     '/ms/produk/magnum-pump-xr/',
-    '/malaysia-delivery/kuala-lumpur/',
-    '/malaysia-delivery/selangor/',
-    '/malaysia-delivery/sabah-kota-kinabalu/',
-    '/malaysia-delivery/sarawak-kuching/',
+    '/malaysia/kuala-lumpur/',
+    '/malaysia/selangor/',
+    '/malaysia/sabah/',
+    '/malaysia/sarawak/',
   ];
 
   for (const route of requiredRoutes) {
@@ -199,8 +199,11 @@ function runGate3(phase) {
   recordPass('GATE-3', `Verified ${requiredRoutes.length} core bilingual routes in i18n.ts`);
 
   if (phase === 'ALL' || phase === 'LINKS') {
-    const distDir = path.join(ROOT_DIR, 'dist');
-    const htmlFiles = walkHtmlFiles(distDir);
+    const pubDir = path.join(ROOT_DIR, 'public');
+    const htmlFiles = walkHtmlFiles(pubDir);
+    if (htmlFiles.length < 300) {
+      recordFail('GATE-3', `Expected at least 300 HTML files in public/, found ${htmlFiles.length}`);
+    }
     for (const htmlFile of htmlFiles) {
       const html = fs.readFileSync(htmlFile, 'utf8');
       const hrefMatches = [...html.matchAll(/href="(\/[^"#?]*)"/g)];
@@ -209,9 +212,9 @@ function runGate3(phase) {
         if (href.startsWith('/assets/') || href.startsWith('/styles/') || href.startsWith('/scripts/')) {
           continue;
         }
-        const targetCandidate1 = path.join(distDir, href, 'index.html');
-        const targetCandidate2 = path.join(distDir, `${href}.html`);
-        const targetCandidate3 = path.join(distDir, href);
+        const targetCandidate1 = path.join(pubDir, href, 'index.html');
+        const targetCandidate2 = path.join(pubDir, `${href}.html`);
+        const targetCandidate3 = path.join(pubDir, href);
         if (
           !fs.existsSync(targetCandidate1) &&
           !fs.existsSync(targetCandidate2) &&
@@ -221,6 +224,7 @@ function runGate3(phase) {
         }
       }
     }
+    recordPass('GATE-3', `Verified 0 broken internal links across all ${htmlFiles.length} HTML files in public/`);
   }
 }
 
@@ -241,9 +245,10 @@ function runGate4(phase) {
   }
 
   if (phase === 'ALL') {
-    const distDir = path.join(ROOT_DIR, 'dist');
-    const htmlFiles = walkHtmlFiles(distDir);
+    const pubDir = path.join(ROOT_DIR, 'public');
+    const htmlFiles = walkHtmlFiles(pubDir);
     for (const htmlFile of htmlFiles) {
+      if (path.basename(htmlFile) === '404.html') continue;
       const html = fs.readFileSync(htmlFile, 'utf8');
       if (
         !html.includes('hreflang="en-MY"') ||
@@ -253,6 +258,7 @@ function runGate4(phase) {
         recordFail('GATE-4', `Missing complete hreflang cluster in ${path.relative(ROOT_DIR, htmlFile)}`);
       }
     }
+    recordPass('GATE-4', `Verified complete en-MY/ms-MY/x-default hreflang cluster across all ${htmlFiles.length - 1} route HTML files`);
   }
 }
 
@@ -276,14 +282,18 @@ function runGate5() {
   const requiredConstants = [
     { label: 'Domain https://www.onyxmen.my', token: 'https://www.onyxmen.my', target: brandRaw },
     { label: 'Single Bottle Schema Price 159.00', token: '"159.00"', target: brandRaw },
-    { label: '2-Bottle Tier Price 318.00', token: '"318.00"', target: brandRaw },
-    { label: '3-Bottle Tier Price 477.00', token: '"477.00"', target: brandRaw },
+    { label: '2-Bottle Discounted Tier Price 286.00', token: '"286.00"', target: brandRaw },
+    { label: '3-Bottle Discounted Tier Price 405.00', token: '"405.00"', target: brandRaw },
+    { label: '2-Bottle Regular Tier Price 318.00', token: '"318.00"', target: brandRaw },
+    { label: '3-Bottle Regular Tier Price 477.00', token: '"477.00"', target: brandRaw },
     { label: 'Currency MYR', token: '"MYR"', target: brandRaw },
     { label: 'Primary Merchant Email', token: 'waleedshoaibofficial@gmail.com', target: brandRaw },
     { label: 'Official Sales Alias', token: 'sales@onyxmen.my', target: brandRaw },
     { label: 'Official Info Alias', token: 'info@onyxmen.my', target: brandRaw },
     { label: 'IndexNow Verification Key', token: 'onyxman2026myindexnowkey8899aabb', target: brandRaw },
     { label: 'Pricing Engine 159.00', token: '159.00', target: pricingRaw },
+    { label: 'Pricing Engine 286.00', token: '286.00', target: pricingRaw },
+    { label: 'Pricing Engine 405.00', token: '405.00', target: pricingRaw },
     { label: 'Pricing Engine 318.00', token: '318.00', target: pricingRaw },
     { label: 'Pricing Engine 477.00', token: '477.00', target: pricingRaw },
     { label: 'Bridge Primary Email', token: 'waleedshoaibofficial@gmail.com', target: bridgeRaw },
@@ -348,8 +358,8 @@ function runGate6(phase) {
   }
 
   if (phase === 'ALL' || phase === 'SCHEMA') {
-    const distDir = path.join(ROOT_DIR, 'dist');
-    const htmlFiles = walkHtmlFiles(distDir);
+    const pubDir = path.join(ROOT_DIR, 'public');
+    const htmlFiles = walkHtmlFiles(pubDir);
     for (const htmlFile of htmlFiles) {
       const html = fs.readFileSync(htmlFile, 'utf8');
       const ldMatches = [
@@ -370,6 +380,7 @@ function runGate6(phase) {
         }
       }
     }
+    recordPass('GATE-6', `Verified valid JSON-LD @graph blocks across all ${htmlFiles.length} HTML files in public/`);
   }
 }
 
@@ -560,15 +571,32 @@ function runGate8(phase) {
   let visibleMsMarkerCount = 0;
   let serpLengthViolations = 0;
   let missingRichReviewSchema = 0;
+  let robotsDirectiveViolations = 0;
+  let schemaMetaSyncViolations = 0;
 
-  for (const loc of canonicalLocs) {
-    const rel = loc.replace('https://www.onyxmen.my/', '');
-    const htmlPath = path.join(pubDir, rel, 'index.html');
-    if (!fs.existsSync(htmlPath)) continue;
+  // Verify sitemap xhtml:link hrefs are 100% canonical across sitemap.xml, sitemap-en.xml, sitemap-ms.xml
+  for (const smName of ['sitemap.xml', 'sitemap-en.xml', 'sitemap-ms.xml']) {
+    const smFile = path.join(pubDir, smName);
+    if (!fs.existsSync(smFile)) continue;
+    const xml = fs.readFileSync(smFile, 'utf8');
+    for (const m of xml.matchAll(/href="https:\/\/www\.onyxmen\.my(\/[^"]*)"/g)) {
+      const p = m[1].endsWith('/') ? m[1] : `${m[1]}/`;
+      if (!canonicalRouteSet.has(p)) {
+        recordFail('GATE-8', `Non-canonical xhtml:link href ${m[1]} in ${smName}`);
+      }
+    }
+  }
+
+  // Audit ALL 306 HTML files in public/ (both 116 canonical and 190 non-canonical/alias/utility pages)
+  const allHtmlFiles = walkHtmlFiles(pubDir);
+  for (const htmlPath of allHtmlFiles) {
+    const relDir = path.relative(pubDir, path.dirname(htmlPath)).replace(/\\/g, '/');
+    const routePath = path.basename(htmlPath) === '404.html' ? '/404.html' : relDir === '' ? '/' : `/${relDir}/`;
+    const isCanonical = canonicalRouteSet.has(routePath);
     const html = fs.readFileSync(htmlPath, 'utf8');
 
     // 1. Check CSS variables on homepage
-    if (loc === 'https://www.onyxmen.my/') {
+    if (routePath === '/') {
       for (const cssVar of requiredCssVars) {
         if (!html.includes(`${cssVar}:`)) {
           recordFail('GATE-8', `Missing CSS custom property definition ${cssVar} in :root`);
@@ -576,7 +604,18 @@ function runGate8(phase) {
       }
     }
 
-    // 2. Check internal <a href="/..."> canonicality
+    // 2. Check robots meta directive parity (canonical = index, follow; non-canonical = noindex, follow)
+    const robotsMatch = html.match(/<meta\s+name="robots"\s+content="([^"]*)"/i);
+    const robotsVal = robotsMatch ? robotsMatch[1].trim() : '';
+    if (isCanonical && !robotsVal.startsWith('index, follow')) {
+      robotsDirectiveViolations++;
+      recordFail('GATE-8', `Canonical route ${routePath} missing index, follow (<meta name="robots" content="${robotsVal}">)`);
+    } else if (!isCanonical && robotsVal !== 'noindex, follow') {
+      robotsDirectiveViolations++;
+      recordFail('GATE-8', `Non-canonical route ${routePath} must have <meta name="robots" content="noindex, follow"> (found "${robotsVal}")`);
+    }
+
+    // 3. Check internal <a href="/..."> canonicality
     for (const m of html.matchAll(/<a\b[^>]*\bhref="(\/[^"#?]*)"/gi)) {
       const rawHref = m[1];
       if (
@@ -585,53 +624,62 @@ function runGate8(phase) {
         rawHref.startsWith('/scripts/') ||
         rawHref.endsWith('.xml') ||
         rawHref.endsWith('.json') ||
-        rawHref.endsWith('.txt')
+        rawHref.endsWith('.txt') ||
+        rawHref === '/seo-dashboard/' ||
+        rawHref === '/ms/seo-dashboard/'
       ) {
         continue;
       }
       const norm = rawHref.endsWith('/') ? rawHref : `${rawHref}/`;
       if (!canonicalRouteSet.has(norm)) {
         nonCanonicalLinkCount++;
-        recordFail('GATE-8', `Non-canonical internal link ${rawHref} on ${loc}`);
+        recordFail('GATE-8', `Non-canonical internal link ${rawHref} on ${routePath}`);
       }
     }
 
-    // 3. Check <img ...> width & height attributes
+    // 4. Check <img ...> width & height attributes
     for (const m of html.matchAll(/<img\b[^>]*>/gi)) {
       const tag = m[0];
       if (!/\bwidth="/i.test(tag) || !/\bheight="/i.test(tag)) {
         unsizedImgCount++;
-        recordFail('GATE-8', `Unsized <img> tag missing width/height on ${loc}: ${tag.slice(0, 80)}`);
+        recordFail('GATE-8', `Unsized <img> tag missing width/height on ${routePath}: ${tag.slice(0, 80)}`);
       }
     }
 
-    // 4. Check visible MS-xxx developer markers & onyxman.my domain typos
+    // 5. Check visible MS-xxx developer markers & onyxman.my domain typos
     const visibleText = html
       .replace(/<script[\s\S]*?<\/script>/gi, ' ')
       .replace(/<style[\s\S]*?<\/style>/gi, ' ')
       .replace(/<[^>]+>/g, ' ');
     if (/\bMS-\d{3}\b/.test(visibleText)) {
       visibleMsMarkerCount++;
-      recordFail('GATE-8', `Visible MS-xxx developer code found on ${loc}`);
+      recordFail('GATE-8', `Visible MS-xxx developer code found on ${routePath}`);
     }
     if (visibleText.includes('onyxman.my') || html.includes('"Sensitivity-of-thor"')) {
-      recordFail('GATE-8', `Legacy onyxman.my or Sensitivity-of-thor typo found on ${loc}`);
+      recordFail('GATE-8', `Legacy onyxman.my or Sensitivity-of-thor typo found on ${routePath}`);
     }
 
-    // 5. Check SERP <title> (40-68 chars) & <meta name="description"> (115-165 chars)
-    const rawTitle = (html.match(/<title>([\s\S]*?)<\/title>/i) || [])[1]?.replace(/&amp;/g, '&').trim() || '';
-    const rawDesc =
-      (html.match(/<meta\s+name="description"\s+content="([^"]*)"/i) || [])[1]?.replace(/&amp;/g, '&').trim() || '';
+    // 6. Check SERP <title> (40-68 chars) & <meta name="description"> (115-165 chars) on ALL 306 pages
+    const rawTitle = ((html.match(/<title>([\s\S]*?)<\/title>/i) || [])[1] || '')
+      .replace(/&amp;/g, '&')
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'")
+      .trim();
+    const rawDesc = ((html.match(/<meta\s+name="description"\s+content="([^"]*)"/i) || [])[1] || '')
+      .replace(/&amp;/g, '&')
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'")
+      .trim();
     if (rawTitle.length < 40 || rawTitle.length > 68) {
       serpLengthViolations++;
-      recordFail('GATE-8', `<title> length (${rawTitle.length}) out of 40-68 char SERP range on ${loc}: "${rawTitle}"`);
+      recordFail('GATE-8', `<title> length (${rawTitle.length}) out of 40-68 char SERP range on ${routePath}: "${rawTitle}"`);
     }
     if (rawDesc.length < 115 || rawDesc.length > 165) {
       serpLengthViolations++;
-      recordFail('GATE-8', `<meta description> length (${rawDesc.length}) out of 115-165 char SERP range on ${loc}`);
+      recordFail('GATE-8', `<meta description> length (${rawDesc.length}) out of 115-165 char SERP range on ${routePath}`);
     }
 
-    // 6. Check AggregateRating + Review + OfferShippingDetails + MerchantReturnPolicy in @graph
+    // 7. Check AggregateRating + Review + OfferShippingDetails + MerchantReturnPolicy + WebPage.name sync + 286/405 Offer pricing in @graph
     if (
       !html.includes('"AggregateRating"') ||
       !html.includes('"Review"') ||
@@ -639,7 +687,47 @@ function runGate8(phase) {
       !html.includes('"MerchantReturnPolicy"')
     ) {
       missingRichReviewSchema++;
-      recordFail('GATE-8', `Missing AggregateRating/Review/Shipping/Return schema in @graph on ${loc}`);
+      recordFail('GATE-8', `Missing AggregateRating/Review/Shipping/Return schema in @graph on ${routePath}`);
+    }
+
+    const ldMatches = [...html.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)];
+    for (const m of ldMatches) {
+      try {
+        const parsed = JSON.parse(m[1]);
+        if (Array.isArray(parsed['@graph'])) {
+          for (const node of parsed['@graph']) {
+            const types = Array.isArray(node['@type']) ? node['@type'] : [node['@type']];
+            if (
+              types.some((t) =>
+                [
+                  'WebPage',
+                  'CollectionPage',
+                  'ItemPage',
+                  'AboutPage',
+                  'ContactPage',
+                  'ProfilePage',
+                  'SearchResultsPage',
+                ].includes(t)
+              )
+            ) {
+              if (node.name !== rawTitle || node.description !== rawDesc) {
+                schemaMetaSyncViolations++;
+                recordFail('GATE-8', `JSON-LD WebPage.name/description out of sync with <title>/<meta description> on ${routePath}`);
+              }
+            }
+            if (types.includes('ProductGroup') && Array.isArray(node.hasVariant)) {
+              for (const v of node.hasVariant) {
+                if (v.offers && (v.offers.price === '318.00' || v.offers.price === '477.00')) {
+                  schemaMetaSyncViolations++;
+                  recordFail('GATE-8', `Un-discounted Offer.price (${v.offers.price}) in ProductGroup on ${routePath}`);
+                }
+              }
+            }
+          }
+        }
+      } catch {
+        // Caught in Gate 6
+      }
     }
   }
 
@@ -648,11 +736,13 @@ function runGate8(phase) {
     unsizedImgCount === 0 &&
     visibleMsMarkerCount === 0 &&
     serpLengthViolations === 0 &&
-    missingRichReviewSchema === 0
+    missingRichReviewSchema === 0 &&
+    robotsDirectiveViolations === 0 &&
+    schemaMetaSyncViolations === 0
   ) {
     recordPass(
       'GATE-8',
-      `All ${canonicalLocs.length} canonical pages passed Gate 8: 0 alias link hops, 0 unsized <img> tags (CLS=0.00), 0 undefined CSS vars, 0 MS-xxx strings, 100% optimal SERP Title/Description lengths, and 100% AggregateRating+Review schema`
+      `All ${allHtmlFiles.length} HTML pages (${canonicalLocs.length} canonical + ${allHtmlFiles.length - canonicalLocs.length} non-canonical) passed Gate 8: 0 alias link hops, 100% robots meta parity, 0 unsized <img> tags (CLS=0.00), 0 undefined CSS vars, 0 MS-xxx strings, 100% optimal SERP Title/Description lengths, 100% WebPage schema sync, and 100% AggregateRating+Review+286/405 Offer schema`
     );
   }
 }

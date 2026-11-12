@@ -18,7 +18,7 @@
  *   - Product: Grow XL (#1 Selling Product — Made With Natural Ingredient — Extra-Strength Enhancement Male Performance Blend — 30 Capsules)
  *   - SKU: ONYX-GX-30 | MPN: GXL-30CAP-MY | GTIN-13: 9550000102035
  *   - Capsule Specification: 30 Capsules × 550mg = 16,500mg (16.5g) Total Bottle Potency
- *   - Official Pricing: 1 Bottle (30 Capsules) = RM 159 (159.00 MYR), 2 Bottles (60 Capsules) = RM 318 (318.00 MYR), 3 Bottles (90 Capsules) = RM 477 (477.00 MYR)
+ *   - Official Pricing: 1 Bottle (30 Capsules) = RM 159 (159.00 MYR), 2 Bottles (60 Capsules) = RM 286 (10% OFF vs RM 318) (318.00 MYR), 3 Bottles (90 Capsules) = RM 405 (15% OFF vs RM 477) (477.00 MYR)
  *   - Refill Protocol: Day-25 Automated Refill Reminder Calendar Integration (30-day sustained performance cycle)
  *   - Studio Assets: /assets/products/grow-xl-stage.webp, /assets/products/grow-xl-portrait.webp, /assets/products/grow-xl-cutout.webp
  *   - Emails: waleedshoaibofficial@gmail.com, sales@onyxmen.my, info@onyxmen.my
@@ -414,7 +414,7 @@ export const GROWXL_30_DAY_DAILY_CHRONOLOGY = [
     capsule: 'Capsule #25 (550mg)',
     cumulativeMg: '13,750 mg',
     remaining: '5 Buffer Capsules',
-    milestone: 'AUTOMATED DAY-25 REFILL REMINDER FIRES: With 5 capsules (5 days) remaining, reserve your Month-2 bottle (RM 159 / RM 318 / RM 477) so discreet courier delivery arrives across West or East Malaysia with zero gap.',
+    milestone: 'AUTOMATED DAY-25 REFILL REMINDER FIRES: With 5 capsules (5 days) remaining, reserve your Month-2 bottle (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)) so discreet courier delivery arrives across West or East Malaysia with zero gap.',
     protocolNote: '1-Click Express Order or Calendar Alert',
   },
   {
@@ -474,7 +474,7 @@ export const GROWXL_16_STATES_LEDGER = [
     transitWindow: 'Same-Day Private Runner (3–5 Hours) or 1 Business Day Free Express',
     keyDistricts: 'KLCC, Bukit Bintang, Bangsar, Mont Kiara, Sri Hartamas, Damansara Heights, Cheras, Bukit Jalil, Setapak, Wangsa Maju',
     postalCodes: '50000–60000',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority (+RM 15 optional 3–5h Runner)',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority (+RM 15 optional 3–5h Runner)',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -486,7 +486,7 @@ export const GROWXL_16_STATES_LEDGER = [
     transitWindow: 'Same-Day Private Runner (3–5 Hours) or 1 Business Day Free Express',
     keyDistricts: 'Petaling Jaya, Subang Jaya, Sunway, Shah Alam, Puchong, Klang, Setia Alam, Damansara, Kajang, Bangi, Cyberjaya, Rawang',
     postalCodes: '40000–48300, 63000–68100',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority (+RM 15 optional 3–5h Runner)',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority (+RM 15 optional 3–5h Runner)',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -498,7 +498,7 @@ export const GROWXL_16_STATES_LEDGER = [
     transitWindow: 'Same-Day Private Runner (3–5 Hours) or 1 Business Day Free Express',
     keyDistricts: 'Precinct 1–20 Putrajaya, Diplomatic Enclave, IOI Resort City, Cyberjaya Border',
     postalCodes: '62000–62988',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority (+RM 15 optional 3–5h Runner)',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority (+RM 15 optional 3–5h Runner)',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -510,7 +510,7 @@ export const GROWXL_16_STATES_LEDGER = [
     transitWindow: '1–2 Business Days Overnight Southern Highway Linehaul',
     keyDistricts: 'Johor Bahru, Iskandar Puteri, Mount Austin, Skudai, Kulai, Pasir Gudang, Batu Pahat, Muar, Kluang, Segamat, Mersing',
     postalCodes: '79000–86900',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority VIP',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority VIP',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -522,7 +522,7 @@ export const GROWXL_16_STATES_LEDGER = [
     transitWindow: '1–2 Business Days Island & Seberang Perai Express',
     keyDistricts: 'George Town, Bayan Lepas, Gurney, Tanjung Tokong, Jelutong, Butterworth, Bukit Mertajam, Seberang Jaya, Batu Kawan',
     postalCodes: '10000–14400',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority VIP',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority VIP',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -534,7 +534,7 @@ export const GROWXL_16_STATES_LEDGER = [
     transitWindow: '1–2 Business Days North-South Highway Dispatch',
     keyDistricts: 'Ipoh, Canning Garden, Meru Raya, Taiping, Seri Manjung, Sitiawan, Lumut, Teluk Intan, Kampar, Kuala Kangsar',
     postalCodes: '30000–36810',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority VIP',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority VIP',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -546,7 +546,7 @@ export const GROWXL_16_STATES_LEDGER = [
     transitWindow: '1–2 Business Days Direct Highway Dispatch',
     keyDistricts: 'Melaka City (Bandaraya Melaka), Ayer Keroh, Batu Berendam, Bukit Beruang, Klebang, Alor Gajah, Jasin',
     postalCodes: '75000–78300',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority VIP',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority VIP',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -558,7 +558,7 @@ export const GROWXL_16_STATES_LEDGER = [
     transitWindow: '1–2 Business Days Express Courier',
     keyDistricts: 'Seremban, Seremban 2, Bandar Sri Sendayan, Senawang, Nilai, Port Dickson, Lukut, Tampin, Bahau',
     postalCodes: '70000–73500',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority VIP',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority VIP',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -570,7 +570,7 @@ export const GROWXL_16_STATES_LEDGER = [
     transitWindow: '1–2 Business Days Karak-LPT Highway Linehaul',
     keyDistricts: 'Kuantan, Indera Mahkota, Temerloh, Mentakab, Bentong, Genting Highlands, Pekan, Raub, Cameron Highlands',
     postalCodes: '25000–28800, 39000–39200',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority VIP',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority VIP',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -582,7 +582,7 @@ export const GROWXL_16_STATES_LEDGER = [
     transitWindow: '1–2 Business Days Mainland Kedah (2–3 Days Langkawi Island)',
     keyDistricts: 'Alor Setar, Sungai Petani, Kulim Hi-Tech Park, Jitra, Kubang Pasu, Changlun, Baling, Langkawi (Kuah & Pantai Cenang)',
     postalCodes: '05000–09810',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority VIP',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority VIP',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -594,7 +594,7 @@ export const GROWXL_16_STATES_LEDGER = [
     transitWindow: '1–2 Business Days East Coast Express Courier',
     keyDistricts: 'Kota Bharu, Kubang Kerian, Pengkalan Chepa, Wakaf Bharu, Pasir Mas, Tanah Merah, Machang, Kuala Krai, Gua Musang',
     postalCodes: '15000–18500',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority VIP',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority VIP',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -606,7 +606,7 @@ export const GROWXL_16_STATES_LEDGER = [
     transitWindow: '1–2 Business Days LPT2 Highway Dispatch',
     keyDistricts: 'Kuala Terengganu, Gong Badak, Kuala Nerus, Chukai (Kemaman), Kerteh, Paka, Dungun, Marang, Jerteh (Besut)',
     postalCodes: '20000–24300',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority VIP',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority VIP',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -618,7 +618,7 @@ export const GROWXL_16_STATES_LEDGER = [
     transitWindow: '1–2 Business Days Northern Express Courier',
     keyDistricts: 'Kangar, Arau, Kuala Perlis, Padang Besar, Simpang Empat, Chuping',
     postalCodes: '01000–02800',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority VIP',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority VIP',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -630,7 +630,7 @@ export const GROWXL_16_STATES_LEDGER = [
     transitWindow: '2–4 Business Days Discreet Air Cargo Parcel',
     keyDistricts: 'Kota Kinabalu, Luyang, Penampang, Putatan, Sandakan, Tawau, Lahad Datu, Keningau, Kudat, Semporna',
     postalCodes: '88000–91309',
-    shippingCost: '1B: RM 12 Air Subsidized · 2B (RM 318): RM 0 FREE · 3B (RM 477): RM 0 FREE Priority Air',
+    shippingCost: '1B: RM 12 Air Subsidized · 2B (RM 286 (10% OFF vs RM 318)): RM 0 FREE · 3B (RM 405 (15% OFF vs RM 477)): RM 0 FREE Priority Air',
     paymentModes: 'FPX Online Banking, DuitNow Instant QR, Selected Metro COD',
   },
   {
@@ -642,7 +642,7 @@ export const GROWXL_16_STATES_LEDGER = [
     transitWindow: '2–4 Business Days Discreet Air Cargo Parcel',
     keyDistricts: 'Kuching, Petra Jaya, Kota Samarahan, Miri, Sibu, Bintulu, Sarikei, Sri Aman, Limbang',
     postalCodes: '93000–98859',
-    shippingCost: '1B: RM 12 Air Subsidized · 2B (RM 318): RM 0 FREE · 3B (RM 477): RM 0 FREE Priority Air',
+    shippingCost: '1B: RM 12 Air Subsidized · 2B (RM 286 (10% OFF vs RM 318)): RM 0 FREE · 3B (RM 405 (15% OFF vs RM 477)): RM 0 FREE Priority Air',
     paymentModes: 'FPX Online Banking, DuitNow Instant QR, Selected Metro COD',
   },
   {
@@ -654,7 +654,7 @@ export const GROWXL_16_STATES_LEDGER = [
     transitWindow: '2–4 Business Days Discreet Air Cargo Parcel',
     keyDistricts: 'Victoria (Bandar Labuan), Financial Park Complex, Rancha-Rancha, Patau-Patau',
     postalCodes: '87000–87033',
-    shippingCost: '1B: RM 12 Air Subsidized · 2B (RM 318): RM 0 FREE · 3B (RM 477): RM 0 FREE Priority Air',
+    shippingCost: '1B: RM 12 Air Subsidized · 2B (RM 286 (10% OFF vs RM 318)): RM 0 FREE · 3B (RM 405 (15% OFF vs RM 477)): RM 0 FREE Priority Air',
     paymentModes: 'FPX Online Banking, DuitNow Instant QR, Selected COD',
   },
 ];
@@ -698,7 +698,7 @@ export const GROWXL_FAQS = [
     category: 'OFFICIAL MALAYSIA PRICING & TIERS',
     questionEn: 'What is the official price for 1, 2, or 3 bottles of Grow XL in Malaysia?',
     answerEn:
-      'Onyxmen Malaysia enforces transparent, uniform apothecary pricing: 1 Bottle (30 Capsules / 30-Day Full-Month Cycle, SKU ONYX-GX-30-1B) is RM 159 (159.00 MYR) with Free Discreet Express Shipping across Peninsular Malaysia (RM 12 subsidized air freight for Sabah, Sarawak & Labuan); 2 Bottles (60 Capsules / 60-Day Progressive Conditioning Reserve, SKU ONYX-GX-30-2B) is RM 318 (318.00 MYR) with 100% Free Nationwide Malaysia Shipping including Sabah, Sarawak & Labuan; and 3 Bottles (90 Capsules / Complete 90-Day Extra-Strength Mastery Vault, SKU ONYX-GX-30-3B) is RM 477 (477.00 MYR) with Priority VIP Discreet Dispatch and Day-75 Concierge Refill Check-In.',
+      'Onyxmen Malaysia enforces transparent, uniform apothecary pricing: 1 Bottle (30 Capsules / 30-Day Full-Month Cycle, SKU ONYX-GX-30-1B) is RM 159 (159.00 MYR) with Free Discreet Express Shipping across Peninsular Malaysia (RM 12 subsidized air freight for Sabah, Sarawak & Labuan); 2 Bottles (60 Capsules / 60-Day Progressive Conditioning Reserve, SKU ONYX-GX-30-2B) is RM 286 (10% OFF vs RM 318) (318.00 MYR) with 100% Free Nationwide Malaysia Shipping including Sabah, Sarawak & Labuan; and 3 Bottles (90 Capsules / Complete 90-Day Extra-Strength Mastery Vault, SKU ONYX-GX-30-3B) is RM 405 (15% OFF vs RM 477) (477.00 MYR) with Priority VIP Discreet Dispatch and Day-75 Concierge Refill Check-In.',
   },
   {
     index: '06',
@@ -738,7 +738,7 @@ export const GROWXL_FAQS = [
     category: 'OPTIMAL 30-TO-90-DAY DURATION & STACKING',
     questionEn: 'How long should I take Grow XL for optimal results, and can I stack it with Horsemen or Magnum Pump XR?',
     answerEn:
-      'While initial morning energy stability and peripheral micro-circulation support are typically noted within Days 7 to 10 (Phase I), concentrated botanical adaptogens and phytosterols—such as Extra-Strength Tongkat Ali (140mg), Peruvian Maca (110mg), Brazilian Muira Puama (80mg), and Saw Palmetto (70mg)—achieve peak physiological conditioning over a continuous 60-day (2 bottles, RM 318) to 90-day (3 bottles, RM 477) cycle. Many Malaysian customers also run a Morning + Evening Apothecary Stack: taking 1 Grow XL capsule after breakfast for all-day baseline nourishment, while keeping Horsemen or Magnum Pump XR on hand for targeted pre-workout or evening performance.',
+      'While initial morning energy stability and peripheral micro-circulation support are typically noted within Days 7 to 10 (Phase I), concentrated botanical adaptogens and phytosterols—such as Extra-Strength Tongkat Ali (140mg), Peruvian Maca (110mg), Brazilian Muira Puama (80mg), and Saw Palmetto (70mg)—achieve peak physiological conditioning over a continuous 60-day (2 bottles, RM 286 (10% OFF vs RM 318)) to 90-day (3 bottles, RM 405 (15% OFF vs RM 477)) cycle. Many Malaysian customers also run a Morning + Evening Apothecary Stack: taking 1 Grow XL capsule after breakfast for all-day baseline nourishment, while keeping Horsemen or Magnum Pump XR on hand for targeted pre-workout or evening performance.',
   },
 ];
 
@@ -1719,7 +1719,7 @@ export const GROWXL_PAGE_SCOPED_CSS = `
  * Features:
  * - /assets/products/grow-xl-stage.webp
  * - Physical label verification (#1 Selling Product · Made With Natural Ingredient · Extra-Strength Enhancement · Male Performance Blend · Dietary Supplement 30 Capsules)
- * - Interactive 1/2/3-bottle tier selector (RM 159 / RM 318 / RM 477)
+ * - Interactive 1/2/3-bottle tier selector (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477))
  * - 1-Click Express Order Drawer triggers (data-order-product="grow-xl")
  */
 export function renderMs109HeroStage() {
@@ -1789,7 +1789,7 @@ export function renderMs109HeroStage() {
               </p>
             </div>
 
-            <!-- Interactive 1 / 2 / 3 Bottle Tier Selector Strip (RM 159 / RM 318 / RM 477) -->
+            <!-- Interactive 1 / 2 / 3 Bottle Tier Selector Strip (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)) -->
             <div
               class="tier-strip-group"
               role="radiogroup"
@@ -1820,7 +1820,7 @@ export function renderMs109HeroStage() {
                 <span class="tier-strip-option__price">RM 159</span>
               </button>
 
-              <!-- Tier 2: 2 Bottles = RM 318 (Default Highlighted Bestseller Protocol) -->
+              <!-- Tier 2: 2 Bottles = RM 286 (10% OFF vs RM 318) (Default Highlighted Bestseller Protocol) -->
               <button
                 type="button"
                 role="radio"
@@ -1844,7 +1844,7 @@ export function renderMs109HeroStage() {
                 <span class="tier-strip-option__price">RM 318</span>
               </button>
 
-              <!-- Tier 3: 3 Bottles = RM 477 -->
+              <!-- Tier 3: 3 Bottles = RM 405 (15% OFF vs RM 477) -->
               <button
                 type="button"
                 role="radio"
@@ -2329,10 +2329,10 @@ export function renderMs110BotanicalAndChronologyStage() {
             <div class="architectural-ledger__row">
               <span class="architectural-ledger__index">DAYS 31–90 VAULT</span>
               <strong class="architectural-ledger__title">
-                Month 2 (60-Day Reserve · RM 318) &amp; Month 3 (90-Day Mastery Vault · RM 477)
+                Month 2 (60-Day Reserve · RM 286 (10% OFF vs RM 318)) &amp; Month 3 (90-Day Mastery Vault · RM 405 (15% OFF vs RM 477))
               </strong>
               <p class="architectural-ledger__detail">
-                Men who lock in the <strong>2-Bottle 60-Day Pack (60 Capsules, RM 318 · Free Nationwide Malaysia Shipping)</strong> or <strong>3-Bottle 90-Day Vault (90 Capsules, RM 477 · Priority VIP Dispatch)</strong> enjoy uninterrupted 60-to-90-day botanical saturation with automated refill checkpoints on Day 50 and Day 75.
+                Men who lock in the <strong>2-Bottle 60-Day Pack (60 Capsules, RM 286 (10% OFF vs RM 318) · Free Nationwide Malaysia Shipping)</strong> or <strong>3-Bottle 90-Day Vault (90 Capsules, RM 405 (15% OFF vs RM 477) · Priority VIP Dispatch)</strong> enjoy uninterrupted 60-to-90-day botanical saturation with automated refill checkpoints on Day 50 and Day 75.
               </p>
               <span class="architectural-ledger__metric">60–90 DAY MASTERY</span>
             </div>
@@ -2508,7 +2508,7 @@ export function renderMs111ComparisonStatesAndFaqStage() {
             </div>
             <div class="growxl-stage-header__right">
               <p style="color:var(--text-muted-alabaster);font-size:0.96rem;line-height:1.65;">
-                Every formulation in the Onyxmen Malaysia vault shares a uniform <strong>RM 159 single-bottle price (RM 318 for 2 bottles, RM 477 for 3 bottles)</strong>. Compare Grow XL&rsquo;s 30-capsule extra-strength daily blend against Magnum Pump XR, Horsemen, and Hammer of Thor below.
+                Every formulation in the Onyxmen Malaysia vault shares a uniform <strong>RM 159 single-bottle price (RM 286 (10% OFF vs RM 318) for 2 bottles, RM 405 (15% OFF vs RM 477) for 3 bottles)</strong>. Compare Grow XL&rsquo;s 30-capsule extra-strength daily blend against Magnum Pump XR, Horsemen, and Hammer of Thor below.
               </p>
             </div>
           </div>
@@ -2603,11 +2603,11 @@ export function renderMs111ComparisonStatesAndFaqStage() {
                 <tr>
                   <td><strong style="color:var(--gold-champagne);">Official Malaysia Pricing</strong></td>
                   <td class="growxl-matrix-table__highlight-col">
-                    <strong>1B: RM 159 · 2B: RM 318 · 3B: RM 477</strong> (RM 5.30 / Day)
+                    <strong>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</strong> (RM 5.30 / Day)
                   </td>
-                  <td>1B: RM 159 · 2B: RM 318 · 3B: RM 477</td>
-                  <td>1B: RM 159 · 2B: RM 318 · 3B: RM 477</td>
-                  <td>1B: RM 159 · 2B: RM 318 · 3B: RM 477</td>
+                  <td>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</td>
+                  <td>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</td>
+                  <td>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</td>
                 </tr>
               </tbody>
             </table>
@@ -2725,7 +2725,7 @@ export function renderMs111ComparisonStatesAndFaqStage() {
                 Begin Your 30-Day <span class="foil-champagne-text">Grow XL Extra-Strength</span> Protocol Today
               </h3>
               <p style="color:var(--text-muted-alabaster);font-size:0.95rem;line-height:1.65;">
-                Reserve <strong>1 Bottle (30 Capsules · RM 159)</strong>, <strong>2 Bottles (60 Capsules · RM 318 · Free Nationwide Malaysia Shipping)</strong>, or <strong>3 Bottles (90 Capsules · RM 477 · Complete 90-Day Mastery Vault)</strong>. Shipped in a 100% plain matte security parcel under <strong>OM Fulfilment Logistics</strong>. Direct concierge desk: <a href="mailto:sales@onyxmen.my" style="color:var(--gold-foil-bright);">sales@onyxmen.my</a> | <a href="mailto:info@onyxmen.my" style="color:var(--gold-foil-bright);">info@onyxmen.my</a> | <a href="mailto:waleedshoaibofficial@gmail.com" style="color:var(--gold-foil-bright);">waleedshoaibofficial@gmail.com</a>.
+                Reserve <strong>1 Bottle (30 Capsules · RM 159)</strong>, <strong>2 Bottles (60 Capsules · RM 286 (10% OFF vs RM 318) · Free Nationwide Malaysia Shipping)</strong>, or <strong>3 Bottles (90 Capsules · RM 405 (15% OFF vs RM 477) · Complete 90-Day Mastery Vault)</strong>. Shipped in a 100% plain matte security parcel under <strong>OM Fulfilment Logistics</strong>. Direct concierge desk: <a href="mailto:sales@onyxmen.my" style="color:var(--gold-foil-bright);">sales@onyxmen.my</a> | <a href="mailto:info@onyxmen.my" style="color:var(--gold-foil-bright);">info@onyxmen.my</a> | <a href="mailto:waleedshoaibofficial@gmail.com" style="color:var(--gold-foil-bright);">waleedshoaibofficial@gmail.com</a>.
               </p>
             </div>
 
@@ -2839,8 +2839,8 @@ export function buildGrowXlEnFlagshipPage() {
     '/assets/products/grow-xl-portrait.webp',
     '/assets/products/grow-xl-cutout.webp',
     'RM 159',
-    'RM 318',
-    'RM 477',
+    'RM 286 (10% OFF vs RM 318)',
+    'RM 405 (15% OFF vs RM 477)',
     '159.00',
     '318.00',
     '477.00',

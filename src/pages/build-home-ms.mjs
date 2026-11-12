@@ -9,7 +9,7 @@
  *   Zero repeat(3, 1fr) bordered card boxes.
  * - Authentic Business Constants:
  *   Brand: Onyxmen (https://www.onyxmen.my/ms/, alternate EN https://www.onyxmen.my/)
- *   Prices: 1 Botol = RM 159 (159.00), 2 Botol = RM 318 (318.00), 3 Botol = RM 477 (477.00)
+ *   Prices: 1 Botol = RM 159 (159.00), 2 Botol = RM 286 (10% OFF vs RM 318) (318.00), 3 Botol = RM 405 (15% OFF vs RM 477) (477.00)
  *   Emails: waleedshoaibofficial@gmail.com, sales@onyxmen.my, info@onyxmen.my
  *   Zero fake KKM/MAL claims.
  */
@@ -120,7 +120,7 @@ const HOMEPAGE_BM_FAQS = [
     questionMs:
       'Berapakah harga rasmi setiap botol produk Onyxmen (Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR) di Malaysia?',
     answerMs:
-      'Semua empat formulasi utama Onyxmen Malaysia ditawarkan pada harga rasmi yang seragam dalam Ringgit Malaysia (MYR) supaya anda boleh memilih mengikut keperluan fisiologi tanpa kompromi harga: 1 Botol (Bekalan Permulaan Satu Kitaran) berharga RM 159 (159.00 MYR); Pakej 2 Botol (Protokol Dwi-Momentum + Penghantaran Ekspres Rahsia Percuma ke seluruh Malaysia termasuk Sabah, Sarawak & Labuan) berharga RM 318 (318.00 MYR); dan Pakej Lengkap 3 Botol (Bilik Kebal Penguasaan 90 Hari + Pelepasan Keutamaan VIP) berharga RM 477 (477.00 MYR).',
+      'Semua empat formulasi utama Onyxmen Malaysia ditawarkan pada harga rasmi yang seragam dalam Ringgit Malaysia (MYR) supaya anda boleh memilih mengikut keperluan fisiologi tanpa kompromi harga: 1 Botol (Bekalan Permulaan Satu Kitaran) berharga RM 159 (159.00 MYR); Pakej 2 Botol (Protokol Dwi-Momentum + Penghantaran Ekspres Rahsia Percuma ke seluruh Malaysia termasuk Sabah, Sarawak & Labuan) berharga RM 286 (10% OFF vs RM 318) (318.00 MYR); dan Pakej Lengkap 3 Botol (Bilik Kebal Penguasaan 90 Hari + Pelepasan Keutamaan VIP) berharga RM 405 (15% OFF vs RM 477) (477.00 MYR).',
   },
   {
     id: 'faq-bm-02',
@@ -168,7 +168,7 @@ const HOMEPAGE_BM_FAQS = [
     questionMs:
       'Berapa lamakah masa penghantaran ke Lembah Klang, Semenanjung Malaysia, serta Sabah dan Sarawak?',
     answerMs:
-      'Bagi kawasan Lembah Klang (Kuala Lumpur, Selangor, Putrajaya & Cyberjaya), kami menyediakan Penghantar Persendirian Rahsia Hari Sama dalam masa 3–5 jam untuk pesanan sebelum jam 4:00 petang MYT, atau Kurier Ekspres Percuma 1 hari bekerja. Bagi seluruh negeri Semenanjung Malaysia (Johor, Pulau Pinang, Perak, Melaka, Negeri Sembilan, Pahang, Kedah, Kelantan, Terengganu & Perlis), penghantaran ekspres percuma mengambil masa 1–2 hari bekerja. Bagi Sabah, Sarawak & WP Labuan, kargo udara rahsia mengambil masa 2–4 hari bekerja (caj RM 12 untuk 1 botol, atau PERCUMA sepenuhnya untuk pembelian pakej 2 botol RM 318 dan 3 botol RM 477).',
+      'Bagi kawasan Lembah Klang (Kuala Lumpur, Selangor, Putrajaya & Cyberjaya), kami menyediakan Penghantar Persendirian Rahsia Hari Sama dalam masa 3–5 jam untuk pesanan sebelum jam 4:00 petang MYT, atau Kurier Ekspres Percuma 1 hari bekerja. Bagi seluruh negeri Semenanjung Malaysia (Johor, Pulau Pinang, Perak, Melaka, Negeri Sembilan, Pahang, Kedah, Kelantan, Terengganu & Perlis), penghantaran ekspres percuma mengambil masa 1–2 hari bekerja. Bagi Sabah, Sarawak & WP Labuan, kargo udara rahsia mengambil masa 2–4 hari bekerja (caj RM 12 untuk 1 botol, atau PERCUMA sepenuhnya untuk pembelian pakej 2 botol RM 286 (10% OFF vs RM 318) dan 3 botol RM 405 (15% OFF vs RM 477)).',
   },
   {
     id: 'faq-bm-08',
@@ -198,9 +198,9 @@ const HOMEPAGE_BM_FAQS = [
     id: 'faq-bm-11',
     category: 'GABUNGAN MULTI-BOTOL',
     questionMs:
-      'Bolehkah saya menggabungkan dua formulasi berbeza di dalam Pakej 2 Botol (RM 318) atau Pakej 3 Botol (RM 477)?',
+      'Bolehkah saya menggabungkan dua formulasi berbeza di dalam Pakej 2 Botol (RM 286 (10% OFF vs RM 318)) atau Pakej 3 Botol (RM 405 (15% OFF vs RM 477))?',
     answerMs:
-      'Ya, amat digalakkan. Ramai pelanggan di Kuala Lumpur, Selangor, dan Johor Bahru menggabungkan 1 botol Grow XL (untuk rutin penjagaan asas setiap pagi) bersama 1 botol Horsemen atau Magnum Pump XR (untuk kesediaan malam atau sebelum latihan gimnasium) di bawah Pakej 2 Botol RM 318. Anda hanya perlu membuka Laci Tempahan Ekspres 10 Saat atau menghubungi meja operasi kami di sales@onyxmen.my / waleedshoaibofficial@gmail.com untuk menetapkan gabungan botol pilihan anda.',
+      'Ya, amat digalakkan. Ramai pelanggan di Kuala Lumpur, Selangor, dan Johor Bahru menggabungkan 1 botol Grow XL (untuk rutin penjagaan asas setiap pagi) bersama 1 botol Horsemen atau Magnum Pump XR (untuk kesediaan malam atau sebelum latihan gimnasium) di bawah Pakej 2 Botol RM 286 (10% OFF vs RM 318). Anda hanya perlu membuka Laci Tempahan Ekspres 10 Saat atau menghubungi meja operasi kami di sales@onyxmen.my / waleedshoaibofficial@gmail.com untuk menetapkan gabungan botol pilihan anda.',
   },
   {
     id: 'faq-bm-12',
@@ -278,7 +278,7 @@ const BM_HOMEPAGE_EXTRA_CSS = `
     padding-bottom: 1.25rem;
     border-bottom: var(--hairline-subtle);
   }
-  .bm-cinema-hero__ coordinates {
+  .bm-cinema-hero__coordinates {
     font-family: var(--font-technical);
     font-size: 0.72rem;
     letter-spacing: 0.22em;
@@ -609,7 +609,7 @@ function renderMs087HeroStage() {
               MS-087 · BILIK KEBAL APOTEKARI DIRAJA OBSIDIAN MALAYSIA · KUALA LUMPUR (50450 MY)
             </span>
             <span class="bm-cinema-hero__coordinates">
-              HARGA SERAGAM RASMI: 1 BOTOL RM 159 · 2 BOTOL RM 318 · 3 BOTOL RM 477
+              HARGA SERAGAM RASMI: 1 BOTOL RM 159 · 2 BOTOL RM 286 (10% OFF vs RM 318) · 3 BOTOL RM 477
             </span>
           </div>
 
@@ -668,7 +668,7 @@ function renderMs087HeroStage() {
               data-order-qty="2"
               aria-controls="onyxman-express-order-drawer"
             >
-              <span>PAKEJ DWI-MOMENTUM 2 BOTOL · RM 318 (POS PERCUMA SABAH/SARAWAK)</span>
+              <span>PAKEJ DWI-MOMENTUM 2 BOTOL · RM 286 (10% OFF vs RM 318) (POS PERCUMA SABAH/SARAWAK)</span>
               <span aria-hidden="true">→</span>
             </button>
 
@@ -695,10 +695,10 @@ function renderMs087HeroStage() {
             <div class="bm-cinema-hero__telemetry-col">
               <span class="bm-cinema-hero__telemetry-kicker">01 · HARGA RASMI SERAGAM MALAYSIA</span>
               <strong class="bm-cinema-hero__telemetry-val foil-champagne-text">
-                RM 159 · RM 318 · RM 477
+                RM 159 · RM 286 (10% OFF vs RM 318) · RM 405 (15% OFF vs RM 477)
               </strong>
               <span class="bm-cinema-hero__telemetry-sub">
-                1 Botol RM 159.00 | 2 Botol RM 318.00 | 3 Botol RM 477.00 — Tiada caj tersembunyi bagi FPX, DuitNow QR atau COD.
+                1 Botol RM 159.00 | 2 Botol RM 286 (10% OFF vs RM 318) | 3 Botol RM 405 (15% OFF vs RM 477) — Tiada caj tersembunyi bagi FPX, DuitNow QR atau COD.
               </span>
             </div>
 
@@ -1070,7 +1070,7 @@ function renderMs089InteractiveDiagnosticMatrix() {
             <div class="bm-section-header__right">
               <p style="color: var(--text-muted-alabaster); font-size: 0.96rem;">
                 Memandangkan keempat-empat botol berharga <strong>RM 159 (1 Botol)</strong>,
-                <strong>RM 318 (2 Botol)</strong>, dan <strong>RM 477 (3 Botol)</strong>, pemilihan anda adalah 100%
+                <strong>RM 286 (10% OFF vs RM 318) (2 Botol)</strong>, dan <strong>RM 405 (15% OFF vs RM 477) (3 Botol)</strong>, pemilihan anda adalah 100%
                 berdasarkan bilangan kapsul (<strong>20 Kapsul vs 30 Kapsul</strong>) serta jenis kapsul
                 (<strong>Kapsul Herba Padat 500mg vs Kapsul Vegetarian HPMC vs Kapsul Hitam Nitrik Oksida</strong>).
                 Klik matlamat utama anda di bawah:
@@ -1188,7 +1188,7 @@ function renderMs089InteractiveDiagnosticMatrix() {
                 data-order-qty="2"
                 data-quiz-order-btn
               >
-                <span>TEMPAH PAKEJ 2 BOTOL CADANGAN INI · RM 318 (POS PERCUMA)</span>
+                <span>TEMPAH PAKEJ 2 BOTOL CADANGAN INI · RM 286 (10% OFF vs RM 318) (POS PERCUMA)</span>
                 <span aria-hidden="true">→</span>
               </button>
               <a
@@ -1233,7 +1233,7 @@ function renderMs089InteractiveDiagnosticMatrix() {
               <div class="architectural-ledger__row">
                 <span class="architectural-ledger__index">DIMENSI 03</span>
                 <strong class="architectural-ledger__title">
-                  Strategi Gabungan Dwi-Botol Pagi + Malam (Pakej RM 318 / RM 477)
+                  Strategi Gabungan Dwi-Botol Pagi + Malam (Pakej RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477))
                 </strong>
                 <p class="architectural-ledger__detail">
                   Untuk sokongan 24 jam yang menyeluruh, ramai pengguna berpengalaman mengambil <strong>1 kapsul Grow XL selepas sarapan pagi</strong> (penjagaan asas Muira Puama &amp; Saw Palmetto) dan menyimpan <strong>Horsemen atau Magnum Pump XR untuk waktu malam/senaman</strong>.
@@ -1571,10 +1571,10 @@ function renderMs091ComparisonMatrix() {
                 </tr>
                 <tr>
                   <th scope="row">Harga Rasmi Malaysia (MYR)</th>
-                  <td>1 Botol: RM 159<br />2 Botol: RM 318<br />3 Botol: RM 477</td>
-                  <td>1 Botol: RM 159<br />2 Botol: RM 318<br />3 Botol: RM 477</td>
-                  <td>1 Botol: RM 159<br />2 Botol: RM 318<br />3 Botol: RM 477</td>
-                  <td>1 Botol: RM 159<br />2 Botol: RM 318<br />3 Botol: RM 477</td>
+                  <td>1 Botol: RM 159<br />2 Botol: RM 286 (10% OFF vs RM 318)<br />3 Botol: RM 405 (15% OFF vs RM 477)</td>
+                  <td>1 Botol: RM 159<br />2 Botol: RM 286 (10% OFF vs RM 318)<br />3 Botol: RM 405 (15% OFF vs RM 477)</td>
+                  <td>1 Botol: RM 159<br />2 Botol: RM 286 (10% OFF vs RM 318)<br />3 Botol: RM 405 (15% OFF vs RM 477)</td>
+                  <td>1 Botol: RM 159<br />2 Botol: RM 286 (10% OFF vs RM 318)<br />3 Botol: RM 405 (15% OFF vs RM 477)</td>
                 </tr>
                 <tr>
                   <th scope="row">Pautan &amp; Tempahan Segera</th>
@@ -1732,7 +1732,7 @@ function renderMs092Malaysia16StatesNetwork() {
                 Malaysia Timur / Borneo (Sabah, Sarawak &amp; Wilayah Persekutuan Labuan)
               </strong>
               <p class="architectural-ledger__detail">
-                Penerbangan kargo udara harian dari KLIA ke Kota Kinabalu, Sandakan, Tawau, Kuching, Miri, Sibu, Bintulu &amp; Labuan dalam pek keselamatan legap. Tiba dalam <strong>2–4 Hari Bekerja</strong> (RM 12 untuk 1 botol; <strong>PERCUMA untuk Pakej 2 Botol RM 318 &amp; 3 Botol RM 477</strong>).
+                Penerbangan kargo udara harian dari KLIA ke Kota Kinabalu, Sandakan, Tawau, Kuching, Miri, Sibu, Bintulu &amp; Labuan dalam pek keselamatan legap. Tiba dalam <strong>2–4 Hari Bekerja</strong> (RM 12 untuk 1 botol; <strong>PERCUMA untuk Pakej 2 Botol RM 286 (10% OFF vs RM 318) &amp; 3 Botol RM 405 (15% OFF vs RM 477)</strong>).
               </p>
               <span class="architectural-ledger__metric">2–4 HARI · PERCUMA 2+ BOTOL</span>
             </div>
@@ -1824,7 +1824,7 @@ function renderMs093AuthenticityAndBuyerGuides() {
               </span>
               <h2 id="ms-093-title" class="editorial-headline-lg">
                 Ketulenan Gudang Kawalan Suhu Kuala Lumpur &amp;
-                <span class="foil-champagne-text">6 Panduan Pembeli Malaysia.</span>
+                <span class="foil-champagne-text">14 Panduan Pembeli Malaysia.</span>
               </h2>
             </div>
             <div class="bm-section-header__right">
@@ -1851,7 +1851,7 @@ function renderMs093AuthenticityAndBuyerGuides() {
                 Harga Rasmi Tetap RM 159 Sebotol (Anti-Tiruan Pasaran Gelap)
               </strong>
               <p class="architectural-ledger__detail">
-                Semua stok tulen Horsemen, Hammer of Thor, Grow XL, dan Magnum Pump XR dijual pada harga rasmi <strong>RM 159 (1 Botol)</strong>, <strong>RM 318 (2 Botol)</strong>, dan <strong>RM 477 (3 Botol)</strong>. Kami tidak pernah melantik penjual jalanan yang menjual kapsul tiruan berisi tepung kanji pada harga tidak munasabah.
+                Semua stok tulen Horsemen, Hammer of Thor, Grow XL, dan Magnum Pump XR dijual pada harga rasmi <strong>RM 159 (1 Botol)</strong>, <strong>RM 286 (10% OFF vs RM 318) (2 Botol)</strong>, dan <strong>RM 405 (15% OFF vs RM 477) (3 Botol)</strong>. Kami tidak pernah melantik penjual jalanan yang menjual kapsul tiruan berisi tepung kanji pada harga tidak munasabah.
               </p>
               <span class="architectural-ledger__metric">RM 159.00 RASMI</span>
             </div>
@@ -1893,7 +1893,7 @@ function renderMs093AuthenticityAndBuyerGuides() {
           <!-- Complete 6 Buyer & Protocol Guides Ledger -->
           <div>
             <span class="editorial-kicker" style="margin-bottom: 1rem;">
-              ENAM PANDUAN LENGKAP PEMBELI, PROTOKOL MASA PENGAMBILAN &amp; SEMAKAN KETULENAN MALAYSIA
+              14 panduan LENGKAP PEMBELI, PROTOKOL MASA PENGAMBILAN &amp; SEMAKAN KETULENAN MALAYSIA
             </span>
             <div class="architectural-ledger">
               ${guidesLedgerHtml}
@@ -1983,7 +1983,7 @@ export function buildHomeMsPage() {
   const pageTitle =
     'Onyxmen Malaysia — Suplemen Herba Tenaga, Stamina & Vitaliti Lelaki Eksklusif Malaysia (RM 159)';
   const pageDescription =
-    'Laman Rasmi Bahasa Malaysia Onyxmen.my: Horsemen (20 Kapsul x 500mg), Hammer of Thor (20 Kapsul Veg. Tribulus), Grow XL (30 Kapsul), dan Magnum Pump XR (30 Kapsul Hitam Nitrik Oksida). Harga rasmi RM 159 sebotol (2 Botol RM 318, 3 Botol RM 477) dengan penghantaran bungkusan rahsia tanpa logo ke seluruh 16 negeri Malaysia (FPX, DuitNow QR & COD).';
+    'Laman Rasmi Bahasa Malaysia Onyxmen.my: Horsemen (20 Kapsul x 500mg), Hammer of Thor (20 Kapsul Veg. Tribulus), Grow XL (30 Kapsul), dan Magnum Pump XR (30 Kapsul Hitam Nitrik Oksida). Harga rasmi RM 159 sebotol (2 Botol RM 286 (10% OFF vs RM 318), 3 Botol RM 405 (15% OFF vs RM 477)) dengan penghantaran bungkusan rahsia tanpa logo ke seluruh 16 negeri Malaysia (FPX, DuitNow QR & COD).';
 
   const schemaGraphJson = buildFullPageGraph({
     pageType: 'home',

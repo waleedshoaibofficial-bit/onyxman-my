@@ -62,7 +62,7 @@ export const DISCREET_SEAL_ITEMS = {
       index: 'METERAI · 02',
       code: 'KETULENAN-LOT',
       title: 'Meterai Hologram Keselamatan & Ujian Makmal',
-      metric: 'PIAWAian GMP TULEN',
+      metric: 'PIAWAIAN GMP TULEN',
       detail:
         'Setiap botol Horsemen, Hammer of Thor, Grow XL, dan Magnum Pump XR dilengkapi pelekat keselamatan berhologram serta saringan logam berat untuk jaminan kualiti.',
     },
@@ -208,7 +208,7 @@ export function renderDiscreetSealStrip(options = {}) {
     }">
       <div class="discreet-seal-strip__waybill-col">
         <span class="discreet-seal-strip__waybill-label">${
-          isMs ? 'PENama PENGIRIM KURIER' : 'COURIER WAYBILL SENDER'
+          isMs ? 'PENAMA PENGIRIM KURIER' : 'COURIER WAYBILL SENDER'
         }</span>
         <strong class="discreet-seal-strip__waybill-value">OM Fulfilment Logistics (KL Hub 50450)</strong>
       </div>

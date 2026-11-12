@@ -13,7 +13,7 @@
  * - Authentic Constants:
  *   Product: Hammer of Thor (Men's Health — Tribulus Terrestris — 20 Veg. Capsules)
  *   SKU: ONYX-HT-20 | MPN: HT-TRIB-20MY | GTIN-13: 9550000102028
- *   Pricing: 1 Bottle = RM 159 (159.00 MYR), 2 Bottles = RM 318 (318.00 MYR), 3 Bottles = RM 477 (477.00 MYR)
+ *   Pricing: 1 Bottle = RM 159 (159.00 MYR), 2 Bottles = RM 286 (10% OFF vs RM 318) (318.00 MYR), 3 Bottles = RM 405 (15% OFF vs RM 477) (477.00 MYR)
  *   Emails: waleedshoaibofficial@gmail.com, sales@onyxmen.my, info@onyxmen.my
  *   Refill Protocol: Day-18 Refill Reminder Calendar Integration (20 plant-origin HPMC vegetarian capsules)
  */
@@ -333,7 +333,7 @@ export const HAMMER_16_STATES_LEDGER = [
     transitWindow: '2–4 Business Days Discreet Air Cargo Parcel',
     keyDistricts: 'Kota Kinabalu, Luyang, Penampang, Putatan, Sandakan, Tawau, Lahad Datu, Keningau, Kudat, Semporna',
     postalCodes: '88000–91309',
-    shippingCost: '1B: RM 12 Air Subsidized · 2B (RM 318): RM 0 FREE · 3B (RM 477): RM 0 FREE Priority Air',
+    shippingCost: '1B: RM 12 Air Subsidized · 2B (RM 286 (10% OFF vs RM 318)): RM 0 FREE · 3B (RM 405 (15% OFF vs RM 477)): RM 0 FREE Priority Air',
     paymentModes: 'FPX Online Banking, DuitNow Instant QR, Selected Metro COD',
   },
   {
@@ -345,7 +345,7 @@ export const HAMMER_16_STATES_LEDGER = [
     transitWindow: '2–4 Business Days Discreet Air Cargo Parcel',
     keyDistricts: 'Kuching, Petra Jaya, Kota Samarahan, Miri, Sibu, Bintulu, Sarikei, Sri Aman, Limbang, Kapit',
     postalCodes: '93000–98859',
-    shippingCost: '1B: RM 12 Air Subsidized · 2B (RM 318): RM 0 FREE · 3B (RM 477): RM 0 FREE Priority Air',
+    shippingCost: '1B: RM 12 Air Subsidized · 2B (RM 286 (10% OFF vs RM 318)): RM 0 FREE · 3B (RM 405 (15% OFF vs RM 477)): RM 0 FREE Priority Air',
     paymentModes: 'FPX Online Banking, DuitNow Instant QR, Selected Metro COD',
   },
   {
@@ -357,7 +357,7 @@ export const HAMMER_16_STATES_LEDGER = [
     transitWindow: '2–4 Business Days Discreet Air Cargo Parcel',
     keyDistricts: 'Victoria (Bandar Labuan), Financial Park Complex, Rancha-Rancha Offshore Logistics Hub, Patau-Patau',
     postalCodes: '87000–87033',
-    shippingCost: '1B: RM 12 Air Subsidized · 2B (RM 318): RM 0 FREE · 3B (RM 477): RM 0 FREE Priority Air',
+    shippingCost: '1B: RM 12 Air Subsidized · 2B (RM 286 (10% OFF vs RM 318)): RM 0 FREE · 3B (RM 405 (15% OFF vs RM 477)): RM 0 FREE Priority Air',
     paymentModes: 'FPX Online Banking, DuitNow Instant QR, Selected COD',
   },
 ];
@@ -396,7 +396,7 @@ export const HAMMER_FAQS = [
     category: 'OFFICIAL MALAYSIA PRICING',
     questionEn: 'What are the official bundle prices for Hammer of Thor on Onyxmen.my?',
     answerEn:
-      "Onyxmen Malaysia enforces transparent, uniform apothecary pricing across all formulations: 1 Bottle (20 Veg. Capsules / 20-Day Single Cycle Reserve) is RM 159 (159.00 MYR) with Free Discreet Express Shipping across Peninsular Malaysia (RM 12 subsidized air freight to Sabah, Sarawak & Labuan); 2 Bottles (40 Veg. Capsules / 40-Day Sustained Saponin Protocol) is RM 318 (318.00 MYR) with 100% Free Nationwide Malaysia Shipping including Sabah, Sarawak & Labuan; and 3 Bottles (60 Veg. Capsules / 60-Day Complete Vitality Mastery Vault) is RM 477 (477.00 MYR) with Priority Free Nationwide Dispatch and VIP Day-54 Refill Concierge.",
+      "Onyxmen Malaysia enforces transparent, uniform apothecary pricing across all formulations: 1 Bottle (20 Veg. Capsules / 20-Day Single Cycle Reserve) is RM 159 (159.00 MYR) with Free Discreet Express Shipping across Peninsular Malaysia (RM 12 subsidized air freight to Sabah, Sarawak & Labuan); 2 Bottles (40 Veg. Capsules / 40-Day Sustained Saponin Protocol) is RM 286 (10% OFF vs RM 318) (318.00 MYR) with 100% Free Nationwide Malaysia Shipping including Sabah, Sarawak & Labuan; and 3 Bottles (60 Veg. Capsules / 60-Day Complete Vitality Mastery Vault) is RM 405 (15% OFF vs RM 477) (477.00 MYR) with Priority Free Nationwide Dispatch and VIP Day-54 Refill Concierge.",
   },
   {
     index: '06',
@@ -519,7 +519,7 @@ export function buildHammerEnSchemaGraph() {
       capsules: 40,
       days: 40,
       refillDay: 36,
-      price: '318.00',
+      price: '286.00',
       skuSuffix: '2B',
       name: 'Hammer of Thor — 2 Bottles Sustained Saponin Vegetarian Protocol (40 Veg. Capsules · Free Nationwide Shipping)',
     },
@@ -528,7 +528,7 @@ export function buildHammerEnSchemaGraph() {
       capsules: 60,
       days: 60,
       refillDay: 54,
-      price: '477.00',
+      price: '405.00',
       skuSuffix: '3B',
       name: 'Hammer of Thor — 3 Bottles Complete 60-Day Vegetarian Vitality Vault (60 Veg. Capsules · Priority VIP Dispatch)',
     },
@@ -645,7 +645,7 @@ export function buildHammerEnSchemaGraph() {
     '@id': productGroupId,
     name: 'Hammer of Thor (20 Veg. Capsules) — Official Multi-Bottle Protocol Collection (1, 2 & 3 Bottles)',
     description:
-      'Official Onyxmen Malaysia multi-bottle protocol tiers for Hammer of Thor (SKU: ONYX-HT-20, MPN: HT-TRIB-20MY): 1 Bottle (20 Veg. Capsules) = RM 159.00, 2 Bottles (40 Veg. Capsules) = RM 318.00, 3 Bottles (60 Veg. Capsules) = RM 477.00.',
+      'Official Onyxmen Malaysia multi-bottle protocol tiers for Hammer of Thor (SKU: ONYX-HT-20, MPN: HT-TRIB-20MY): 1 Bottle (20 Veg. Capsules) = RM 159.00, 2 Bottles (40 Veg. Capsules) = RM 286 (10% OFF vs RM 318), 3 Bottles (60 Veg. Capsules) = RM 405 (15% OFF vs RM 477).',
     url: pageUrl,
     productGroupID: `${HAMMER_CONSTANTS.sku}-GROUP`,
     brand: brandNode,
@@ -1403,7 +1403,7 @@ export function renderMs103HeroStage() {
               </p>
             </div>
 
-            <!-- Interactive 1 / 2 / 3 Bottle Tier Selector Strip (RM 159 / RM 318 / RM 477) -->
+            <!-- Interactive 1 / 2 / 3 Bottle Tier Selector Strip (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)) -->
             <div
               class="tier-strip-group"
               role="radiogroup"
@@ -1434,7 +1434,7 @@ export function renderMs103HeroStage() {
                 <span class="tier-strip-option__price">RM 159</span>
               </button>
 
-              <!-- Tier 2: 2 Bottles = RM 318 (Default Highlighted Protocol) -->
+              <!-- Tier 2: 2 Bottles = RM 286 (10% OFF vs RM 318) (Default Highlighted Protocol) -->
               <button
                 type="button"
                 role="radio"
@@ -1458,7 +1458,7 @@ export function renderMs103HeroStage() {
                 <span class="tier-strip-option__price">RM 318</span>
               </button>
 
-              <!-- Tier 3: 3 Bottles = RM 477 -->
+              <!-- Tier 3: 3 Bottles = RM 405 (15% OFF vs RM 477) -->
               <button
                 type="button"
                 role="radio"
@@ -1999,7 +1999,7 @@ export function renderMs105CycleComparisonAndStatesStage() {
                 Phase 6: Multi-Bottle Saponin Mastery (2-Bottle 40-Day &amp; 3-Bottle 60-Day Vaults)
               </strong>
               <p class="architectural-ledger__detail">
-                Men selecting the 2-Bottle Protocol (40 Veg. Capsules, RM 318) or 3-Bottle Vault (60 Veg. Capsules, RM 477) experience uninterrupted 40-to-60-day conditioning with Free Nationwide Malaysia Shipping and Day-36 / Day-54 refill continuity.
+                Men selecting the 2-Bottle Protocol (40 Veg. Capsules, RM 286 (10% OFF vs RM 318)) or 3-Bottle Vault (60 Veg. Capsules, RM 405 (15% OFF vs RM 477)) experience uninterrupted 40-to-60-day conditioning with Free Nationwide Malaysia Shipping and Day-36 / Day-54 refill continuity.
               </p>
               <span class="architectural-ledger__metric">40–60 DAY MASTERY</span>
             </div>
@@ -2087,7 +2087,7 @@ export function renderMs105CycleComparisonAndStatesStage() {
             </div>
             <div class="hammer-stage-header__right">
               <p style="color:var(--text-muted-alabaster);font-size:0.96rem;line-height:1.65;">
-                All four Onyxmen formulations carry an identical <strong>RM 159 single-bottle price (RM 318 for 2 bottles, RM 477 for 3 bottles)</strong> so you never compromise by budget. Compare capsule shell architecture, active botanical drivers, and physiological timing below.
+                All four Onyxmen formulations carry an identical <strong>RM 159 single-bottle price (RM 286 (10% OFF vs RM 318) for 2 bottles, RM 405 (15% OFF vs RM 477) for 3 bottles)</strong> so you never compromise by budget. Compare capsule shell architecture, active botanical drivers, and physiological timing below.
               </p>
             </div>
           </div>
@@ -2173,11 +2173,11 @@ export function renderMs105CycleComparisonAndStatesStage() {
                 <tr>
                   <td><strong style="color:var(--gold-champagne);">Official Malaysia Pricing</strong></td>
                   <td class="hammer-matrix-table__highlight-col">
-                    <strong>1B: RM 159 · 2B: RM 318 · 3B: RM 477</strong>
+                    <strong>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</strong>
                   </td>
-                  <td>1B: RM 159 · 2B: RM 318 · 3B: RM 477</td>
-                  <td>1B: RM 159 · 2B: RM 318 · 3B: RM 477</td>
-                  <td>1B: RM 159 · 2B: RM 318 · 3B: RM 477</td>
+                  <td>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</td>
+                  <td>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</td>
+                  <td>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</td>
                 </tr>
               </tbody>
             </table>
@@ -2302,7 +2302,7 @@ export function renderMs106FaqStage() {
                 Begin Your 20-Day <span class="foil-champagne-text">Vegetarian Tribulus</span> Protocol Today
               </h3>
               <p style="color:var(--text-muted-alabaster);font-size:0.95rem;line-height:1.65;">
-                Reserve 1 Bottle (RM 159), 2 Bottles (RM 318 · Free Nationwide Malaysia Shipping), or 3 Bottles (RM 477 · Complete 60-Day Vault). Dispatched in a 100% plain matte security parcel under <strong>OM Fulfilment Logistics</strong>. Direct concierge support: <a href="mailto:sales@onyxmen.my" style="color:var(--gold-foil-bright);">sales@onyxmen.my</a> | <a href="mailto:info@onyxmen.my" style="color:var(--gold-foil-bright);">info@onyxmen.my</a>.
+                Reserve 1 Bottle (RM 159), 2 Bottles (RM 286 (10% OFF vs RM 318) · Free Nationwide Malaysia Shipping), or 3 Bottles (RM 405 (15% OFF vs RM 477) · Complete 60-Day Vault). Dispatched in a 100% plain matte security parcel under <strong>OM Fulfilment Logistics</strong>. Direct concierge support: <a href="mailto:sales@onyxmen.my" style="color:var(--gold-foil-bright);">sales@onyxmen.my</a> | <a href="mailto:info@onyxmen.my" style="color:var(--gold-foil-bright);">info@onyxmen.my</a>.
               </p>
             </div>
 

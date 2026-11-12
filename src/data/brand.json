@@ -76,34 +76,44 @@
       {
         "tierId": "tier-2-bottles",
         "bottles": 2,
-        "labelEn": "2 Bottles — Dual Momentum Protocol",
-        "labelMs": "2 Botol — Protokol Dwi-Momentum",
+        "labelEn": "2 Bottles ? Dual Momentum Protocol (10% OFF ? Save RM 32)",
+        "labelMs": "2 Botol ? Protokol Dwi-Momentum (Diskaun 10% ? Jimat RM 32)",
         "subtitleEn": "60-Day Sustained Stamina & Nitric Oxide Support • Free Nationwide Malaysia Shipping (incl. Sabah & Sarawak)",
         "subtitleMs": "Sokongan Stamina & Tenaga Berterusan 60 Hari • Penghantaran Percuma Seluruh Malaysia (termasuk Sabah & Sarawak)",
-        "unitPrice": 159,
-        "totalPrice": 318,
-        "totalPriceFormatted": "RM 318",
-        "totalPriceSchema": "318.00",
+        "unitPrice": 143,
+        "totalPrice": 286,
+        "totalPriceFormatted": "RM 286 (10% OFF ? Was RM 318)",
+        "totalPriceSchema": "286.00",
         "freeShippingWestMY": true,
         "freeShippingEastMY": true,
         "badgeEn": "MOST SELECTED IN KL & SELANGOR",
-        "badgeMs": "PALING POPULAR DI KL & SELANGOR"
+        "badgeMs": "PALING POPULAR DI KL & SELANGOR",
+        "regularUnitPrice": 159,
+        "regularTotalPrice": 318,
+        "regularPriceSchema": "318.00",
+        "discountPercent": 10,
+        "savingsMYR": 32
       },
       {
         "tierId": "tier-3-bottles",
         "bottles": 3,
-        "labelEn": "3 Bottles — Complete 90-Day Mastery Vault",
-        "labelMs": "3 Botol — Pakej Lengkap 90 Hari",
+        "labelEn": "3 Bottles ? Complete 90-Day Mastery Vault (15% OFF ? Save RM 72)",
+        "labelMs": "3 Botol ? Pakej Lengkap 90 Hari (Diskaun 15% ? Jimat RM 72)",
         "subtitleEn": "Full 90-Day Peak Vitality Conditioning • Priority Discreet Dispatch + Free Nationwide Shipping + VIP Refill Concierge",
         "subtitleMs": "Penjagaan Prestasi Optimum 90 Hari • Penghantaran Rahsia Keutamaan + Percuma Seluruh Negara",
-        "unitPrice": 159,
-        "totalPrice": 477,
-        "totalPriceFormatted": "RM 477",
-        "totalPriceSchema": "477.00",
+        "unitPrice": 135,
+        "totalPrice": 405,
+        "totalPriceFormatted": "RM 405 (15% OFF ? Was RM 477)",
+        "totalPriceSchema": "405.00",
         "freeShippingWestMY": true,
         "freeShippingEastMY": true,
         "badgeEn": "PEAK 90-DAY PROTOCOL",
-        "badgeMs": "PROTOKOL OPTIMUM 90 HARI"
+        "badgeMs": "PROTOKOL OPTIMUM 90 HARI",
+        "regularUnitPrice": 159,
+        "regularTotalPrice": 477,
+        "regularPriceSchema": "477.00",
+        "discountPercent": 15,
+        "savingsMYR": 72
       }
     ]
   },
@@ -121,40 +131,40 @@
       "primaryFocusEn": "Rapid Evening Readiness, Physical Endurance & Andean-Malaysian Adaptogenic Drive",
       "primaryFocusMs": "Kesediaan Tenaga Malam, Ketahanan Fizikal & Sokongan Adaptogenik",
       "keyBotanicals": [
-        "Eurycoma longifolia (Tongkat Ali Root Extract 100:1)",
-        "Lepidium meyenii (Black Peruvian Maca Root)",
-        "Panax ginseng (Korean Red Ginseng Standardized Ginsenosides)",
-        "Epimedium sagittatum (Horny Goat Weed Icariin Complex)",
-        "L-Arginine HCl"
+        "Eurycoma longifolia (Malaysian Tongkat Ali Root Extract 100:1 ? 150mg)",
+        "Lepidium meyenii (Peruvian Black Maca Root 10:1 ? 100mg)",
+        "Epimedium sagittatum (Horny Goat Weed 10% Icariin ? 80mg)",
+        "L-Arginine HCl (Nitric Oxide Precursor ? 80mg)",
+        "Panax ginseng (6-Year Korean Red Ginseng ? 60mg) & Zinc Picolinate (30mg)"
       ],
       "priceMYR": "159.00",
-      "sku": "ONYX-HM-20MY",
+      "sku": "ONYX-HM-20",
       "gtin13": "9550000102011",
       "imageHero": "/assets/products/horsemen-obsidian-stage.webp"
     },
     {
-      "id": "Sensitivity-of-thor",
-      "slug": "Sensitivity-of-thor",
-      "name": "Sensitivity of Thor",
-      "fullTitleEn": "Sensitivity of Thor — Nordic-Tropical Vitality & Sustained Physical Stamina Complex",
-      "fullTitleMs": "Sensitivity of Thor — Kompleks Kecergasan & Ketahanan Fizikal Lelaki Dewasa",
+      "id": "hammer-of-thor",
+      "slug": "hammer-of-thor",
+      "name": "Hammer of Thor",
+      "fullTitleEn": "Hammer of Thor ? Men's Health 60% Saponin Tribulus Terrestris & Maca Vitality Complex (20 Veg. Capsules)",
+      "fullTitleMs": "Hammer of Thor ? Kompleks Kesihatan Lelaki Tribulus Terrestris 60% Saponin & Maca (20 Kapsul Vegetarian)",
       "capsuleCount": 20,
       "refillReminderDay": 18,
-      "dosageProtocolEn": "Take 1 capsule daily after an evening meal with 250ml water for progressive stamina conditioning.",
-      "dosageProtocolMs": "Ambil 1 kapsul sehari selepas makan malam bersama 250ml air untuk penyediaan tenaga berperingkat.",
-      "primaryFocusEn": "Physical Stamina Conditioning, Muscular Recovery & Evening Vitality Confidence",
-      "primaryFocusMs": "Ketahanan Stamina Fizikal, Pemulihan Tenaga & Keyakinan Malam",
+      "dosageProtocolEn": "Take 1 vegetarian HPMC capsule daily 30 minutes after dinner with 250ml warm water, or 45?60 minutes before evening activity.",
+      "dosageProtocolMs": "Ambil 1 kapsul vegetarian HPMC sehari 30 minit selepas makan malam bersama 250ml air suam, atau 45?60 minit sebelum aktiviti malam.",
+      "primaryFocusEn": "Physical Stamina Conditioning, 60% Steroidal Saponin Drive & Sustained Evening Vitality",
+      "primaryFocusMs": "Ketahanan Stamina Fizikal, Sokongan Saponin Tribulus 60% & Keyakinan Malam",
       "keyBotanicals": [
-        "Tribulus terrestris (Standardized Saponin Extract)",
-        "Eurycoma longifolia (Malaysian Tongkat Ali Root)",
-        "Withania somnifera (Ashwagandha KSM-66 Equivalent Root Extract)",
-        "Mucuna pruriens (Velvet Bean Phytocomplex)",
-        "Zinc Chelate & Selenium Bio-Cofactors"
+        "Tribulus terrestris (Standardized 60% Steroidal Saponins ? 200mg)",
+        "Lepidium meyenii (Peruvian Maca Root Extract 10:1 ? 100mg)",
+        "L-Arginine HCl (Endothelial Nitric Oxide Precursor ? 80mg)",
+        "Panax ginseng (Standardized 10% Ginsenosides ? 60mg)",
+        "Eurycoma longifolia (Malaysian Tongkat Ali 100:1 ? 45mg) & Zinc Bisglycinate (15mg)"
       ],
       "priceMYR": "159.00",
-      "sku": "ONYX-HT-20MY",
+      "sku": "ONYX-HT-20",
       "gtin13": "9550000102028",
-      "imageHero": "/assets/products/Sensitivity-of-thor-obsidian-stage.webp"
+      "imageHero": "/assets/products/hammer-of-thor-stage.webp"
     },
     {
       "id": "grow-xl",
@@ -169,14 +179,15 @@
       "primaryFocusEn": "30-Day Daily Baseline Vitality, Vascular Nutrient Delivery & Sustained Male Energy",
       "primaryFocusMs": "Kecergasan Harian 30 Hari, Sokongan Aliran Nutrien & Tenaga Lelaki Sepanjang Hari",
       "keyBotanicals": [
-        "Panax ginseng (Aged Root Extract)",
-        "Ginkgo biloba (Standardized Flavone Glycosides)",
-        "Serenoa repens (Saw Palmetto Berry Extract)",
-        "Muira puama (Potency Wood Bark Extract)",
-        "L-Citrulline Malate & Vitamin B3 (Niacin)"
+        "Eurycoma longifolia (Extra-Strength Malaysian Tongkat Ali 100:1 ? 140mg)",
+        "Lepidium meyenii (Peruvian Maca Root 10:1 ? 110mg)",
+        "L-Arginine HCl & L-Citrulline Malate Dual Matrix (100mg)",
+        "Ptychopetalum olacoides (Brazilian Muira Puama 10:1 ? 80mg)",
+        "Serenoa repens (Saw Palmetto Berry Extract ? 70mg)",
+        "Panax ginseng & Ginkgo biloba Standardized Extract (50mg)"
       ],
       "priceMYR": "159.00",
-      "sku": "ONYX-GX-30MY",
+      "sku": "ONYX-GX-30",
       "gtin13": "9550000102035",
       "imageHero": "/assets/products/grow-xl-obsidian-stage.webp"
     },
@@ -193,14 +204,15 @@
       "primaryFocusEn": "Nitric Oxide Precursor Support, Gym & Evening Vascular Pump, Peak Physical Output",
       "primaryFocusMs": "Sokongan Prekursor Nitrik Oksida, Aliran Fizikal Optimum & Prestasi Senaman/Malam",
       "keyBotanicals": [
-        "L-Arginine Alpha-Ketoglutarate (AAKG)",
-        "L-Citrulline Pure Amino Acid",
-        "Beta vulgaris (Concentrated Beetroot Nitrate Extract)",
-        "Kaempferia parviflora (Thai Black Ginger / Kunyit Hitam Extract)",
-        "Pinus pinaster (Maritime Pine Bark Proanthocyanidins)"
+        "L-Arginine HCl (Pharmaceutical-Grade Nitric Oxide Precursor ? 180mg)",
+        "L-Citrulline Malate 2:1 (Sustained-Release Arginine Recycling ? 140mg)",
+        "Tribulus terrestris (Standardized 60% Saponins ? 110mg)",
+        "Eurycoma longifolia (Malaysian Tongkat Ali Root 100:1 ? 90mg)",
+        "Kaempferia parviflora (Thai Black Ginger / Kunyit Hitam 5% DMF ? 65mg)",
+        "Piper nigrum (Bioperine 95% Piperine Absorption Catalyst ? 15mg)"
       ],
       "priceMYR": "159.00",
-      "sku": "ONYX-MP-30MY",
+      "sku": "ONYX-MP-30",
       "gtin13": "9550000102042",
       "imageHero": "/assets/products/magnum-pump-xr-obsidian-stage.webp"
     }
@@ -255,7 +267,7 @@
         "DHL eCommerce Malaysia"
       ],
       "discreetPackagingNoteEn": "Opaque Tamper-Evident Security Pouch • Customs/Airway declared as 'Personal Nutritional Wellness'.",
-      "discreetPackagingNoteMs": "Bungkusan Keselamatanlegap • Diisytihar sebagai 'Penjagaan Kesihatan Harian' untuk privasi penuh."
+      "discreetPackagingNoteMs": "Bungkusan Keselamatan Legap ? Diisytihar sebagai 'Penjagaan Kesihatan Harian' untuk privasi penuh."
     },
     "sameDayKlangValley": {
       "zoneId": "MY-KV-SAMEDAY",

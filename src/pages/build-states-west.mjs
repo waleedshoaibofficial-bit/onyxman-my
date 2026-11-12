@@ -34,7 +34,7 @@
  * - Obsidian & Liquid Champagne Gold palette (#050507, #0B0C10, #12141C, #D4AF37, #EAE6DF)
  * - Typography: 'Cormorant Garamond', 'Syne', 'Space Grotesk'
  * - Every generated HTML file >= 2,200+ lines of uncompressed semantic HTML5 with 1-Click Express Order Drawer buttons
- *   pre-selecting that state, localized postcode & district delivery tables, all 4 Onyxmen bottles at RM 159 / RM 318 / RM 477,
+ *   pre-selecting that state, localized postcode & district delivery tables, all 4 Onyxmen bottles at RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477),
  *   plain-box privacy specification ('OM Fulfilment Logistics'), 10 localized FAQs, and valid @graph JSON-LD.
  */
 
@@ -841,8 +841,8 @@ export const WEST_MALAYSIA_HUBS = [
     districts: [
       {
         code: 'SGR-01',
-        nameEn: 'Petaling Jaya (PJ Old Town, SS2, Jaya One, Kelana Jaya)',
-        nameMs: 'Petaling Jaya (PJ Old Town, SS2, Jaya One, Kelana Jaya)',
+        nameEn: 'Petaling Jaya (PJ Old Town), SS2, Jaya One, Kelana Jaya)',
+        nameMs: 'Petaling Jaya (PJ Old Town), SS2, Jaya One, Kelana Jaya)',
         postcodes: '46000 – 47410',
         runnerWindowEn: '2.5 – 4 Hours (Same-Day Klang Valley Rider)',
         runnerWindowMs: '2.5 – 4 Jam (Penghantar Lembah Klang Hari Sama)',
@@ -959,7 +959,7 @@ export const WEST_MALAYSIA_HUBS = [
       },
       {
         q: 'Can I pay by Cash on Delivery (COD) or DuitNow QR when the courier arrives in Selangor?',
-        a: 'Yes. You can settle your RM 159 (1 bottle), RM 318 (2 bottles), or RM 477 (3 bottles) order via Cash on Delivery, DuitNow QR scan upon handover, or online FPX banking across all Selangor postcodes.',
+        a: 'Yes. You can settle your RM 159 (1 bottle), RM 286 (10% OFF vs RM 318) (2 bottles), or RM 405 (15% OFF vs RM 477) (3 bottles) order via Cash on Delivery, DuitNow QR scan upon handover, or online FPX banking across all Selangor postcodes.',
       },
       {
         q: 'Are parcels delivered to gated townships like Setia Eco Park, Kota Kemuning, Jade Hills, or Bandar Utama 100% discreet?',
@@ -977,7 +977,7 @@ export const WEST_MALAYSIA_HUBS = [
       },
       {
         q: 'Bolehkah saya membayar secara COD atau imbasan DuitNow QR semasa kurier tiba di Selangor?',
-        a: 'Ya. Anda boleh menjelaskan bayaran RM 159 (1 botol), RM 318 (2 botol), atau RM 477 (3 botol) melalui Tunai Semasa Terima (COD), imbasan DuitNow QR semasa penyerahan, atau perbankan FPX di seluruh poskod Selangor.',
+        a: 'Ya. Anda boleh menjelaskan bayaran RM 159 (1 botol), RM 286 (10% OFF vs RM 318) (2 botol), atau RM 405 (15% OFF vs RM 477) (3 botol) melalui Tunai Semasa Terima (COD), imbasan DuitNow QR semasa penyerahan, atau perbankan FPX di seluruh poskod Selangor.',
       },
       {
         q: 'Adakah bungkusan yang dihantar ke kawasan berpengawal seperti Setia Alam, Kota Kemuning, Jade Hills, atau Bandar Utama 100% rahsia?',
@@ -1148,7 +1148,7 @@ export const WEST_MALAYSIA_HUBS = [
       },
       {
         q: 'What is the most popular Onyxmen protocol ordered in Johor?',
-        a: 'Grow XL (30 Capsules — 30-Day Daily Botanical Vitality Protocol) and the 2-Bottle Reserve (RM 318) of Horsemen are the highest-demand selections across Johor Bahru and Iskandar Puteri.',
+        a: 'Grow XL (30 Capsules — 30-Day Daily Botanical Vitality Protocol) and the 2-Bottle Reserve (RM 286 (10% OFF vs RM 318)) of Horsemen are the highest-demand selections across Johor Bahru and Iskandar Puteri.',
       },
     ],
     extraFaqsMs: [
@@ -1166,7 +1166,7 @@ export const WEST_MALAYSIA_HUBS = [
       },
       {
         q: 'Apakah protokol Onyxmen yang paling mendapat sambutan di negeri Johor?',
-        a: 'Grow XL (30 Kapsul — Protokol Kecergasan Harian 30 Hari) dan Pakej 2 Botol (RM 318) Horsemen merupakan pilihan paling tinggi permintaannya di Johor Bahru dan Iskandar Puteri.',
+        a: 'Grow XL (30 Kapsul — Protokol Kecergasan Harian 30 Hari) dan Pakej 2 Botol (RM 286 (10% OFF vs RM 318)) Horsemen merupakan pilihan paling tinggi permintaannya di Johor Bahru dan Iskandar Puteri.',
       },
     ],
   },
@@ -1688,7 +1688,7 @@ WEST_MALAYSIA_HUBS.push(
       },
       {
         q: 'Can I combine 2 or 3 bottles for free priority courier shipping to Melaka?',
-        a: 'Yes. 1 Bottle (RM 159), 2 Bottles (RM 318), and 3 Bottles (RM 477) all include Free Express Discreet Shipping across Melaka.',
+        a: 'Yes. 1 Bottle (RM 159), 2 Bottles (RM 286 (10% OFF vs RM 318)), and 3 Bottles (RM 405 (15% OFF vs RM 477)) all include Free Express Discreet Shipping across Melaka.',
       },
     ],
     extraFaqsMs: [
@@ -1706,7 +1706,7 @@ WEST_MALAYSIA_HUBS.push(
       },
       {
         q: 'Bolehkah saya menempah pakej 2 atau 3 botol untuk penghantaran keutamaan percuma ke Melaka?',
-        a: 'Ya. Pakej 1 Botol (RM 159), 2 Botol (RM 318), dan 3 Botol (RM 477) semuanya termasuk Penghantaran Ekspres Rahsia Percuma ke seluruh negeri Melaka.',
+        a: 'Ya. Pakej 1 Botol (RM 159), 2 Botol (RM 286 (10% OFF vs RM 318)), dan 3 Botol (RM 405 (15% OFF vs RM 477)) semuanya termasuk Penghantaran Ekspres Rahsia Percuma ke seluruh negeri Melaka.',
       },
     ],
   },
@@ -1867,7 +1867,7 @@ WEST_MALAYSIA_HUBS.push(
       },
       {
         q: 'Are there any extra shipping charges for Negeri Sembilan?',
-        a: 'No. Shipping is RM 0 (100% Free Express Discreet Shipping) on 1 bottle (RM 159), 2 bottles (RM 318), and 3 bottles (RM 477).',
+        a: 'No. Shipping is RM 0 (100% Free Express Discreet Shipping) on 1 bottle (RM 159), 2 bottles (RM 286 (10% OFF vs RM 318)), and 3 bottles (RM 405 (15% OFF vs RM 477)).',
       },
     ],
     extraFaqsMs: [
@@ -1885,7 +1885,7 @@ WEST_MALAYSIA_HUBS.push(
       },
       {
         q: 'Adakah terdapat sebarang caj penghantaran tambahan ke Negeri Sembilan?',
-        a: 'Tiada. Penghantaran adalah RM 0 (Penghantaran Ekspres Rahsia Percuma) bagi pakej 1 botol (RM 159), 2 botol (RM 318), dan 3 botol (RM 477).',
+        a: 'Tiada. Penghantaran adalah RM 0 (Penghantaran Ekspres Rahsia Percuma) bagi pakej 1 botol (RM 159), 2 botol (RM 286 (10% OFF vs RM 318)), dan 3 botol (RM 405 (15% OFF vs RM 477)).',
       },
     ],
   },
@@ -2018,8 +2018,8 @@ WEST_MALAYSIA_HUBS.push(
       },
       {
         code: 'PHG-08',
-        nameEn: 'Cameron Highlands (Tanah Rata, Brinchang, Ringlet) & Kuala Rompin',
-        nameMs: 'Cameron Highlands (Tanah Rata, Brinchang, Ringlet) & Kuala Rompin',
+        nameEn: 'Cameron Highlands (Tanah Rata), Brinchang, Ringlet) & Kuala Rompin',
+        nameMs: 'Cameron Highlands (Tanah Rata), Brinchang, Ringlet) & Kuala Rompin',
         postcodes: '39000, 39100, 39200, 26800',
         runnerWindowEn: 'Highlands & Southern Coast Express (24–48 Hours)',
         runnerWindowMs: 'Ekspres Tanah Tinggi & Pantai Selatan (24–48 Jam)',
@@ -2107,8 +2107,8 @@ function buildLocalizedStateFaqs(hub, vaultState, lang = 'en-MY') {
         ? `Apakah harga rasmi bagi kesemua 4 botol Onyxmen untuk penghantaran ke ${stateName}?`
         : `What is the official price for all 4 Onyxmen formulations delivered to ${stateName}?`,
       answer: isMs
-        ? `Kesemua 4 formulasi utama Onyxmen—Horsemen (20 Kapsul × 500mg), Hammer of Thor (20 Kapsul Vegetarian), Grow XL (30 Kapsul Harian), dan Magnum Pump XR (30 Kapsul Hitam)—ditawarkan pada harga rasmi seragam RM 159.00 sebotol, RM 318.00 untuk Pakej 2 Botol, dan RM 477.00 untuk Pakej Lengkap 3 Botol (90 Hari) termasuk penghantaran ekspres rahsia percuma ke ${stateName}.`
-        : `All 4 flagship Onyxmen formulations—Horsemen (20 Capsules × 500mg), Hammer of Thor (20 Vegetarian Capsules), Grow XL (30 Daily Capsules), and Magnum Pump XR (30 Black Capsules)—carry our standardized official Malaysia reserve price of RM 159.00 for 1 Bottle, RM 318.00 for 2 Bottles, and RM 477.00 for the 3-Bottle 90-Day Vault, inclusive of Free Express Discreet Shipping across ${stateName}.`,
+        ? `Kesemua 4 formulasi utama Onyxmen—Horsemen (20 Kapsul × 500mg), Hammer of Thor (20 Kapsul Vegetarian), Grow XL (30 Kapsul Harian), dan Magnum Pump XR (30 Kapsul Hitam)—ditawarkan pada harga rasmi seragam RM 159.00 sebotol, RM 286 (10% OFF vs RM 318) untuk Pakej 2 Botol, dan RM 405 (15% OFF vs RM 477) untuk Pakej Lengkap 3 Botol (90 Hari) termasuk penghantaran ekspres rahsia percuma ke ${stateName}.`
+        : `All 4 flagship Onyxmen formulations—Horsemen (20 Capsules × 500mg), Hammer of Thor (20 Vegetarian Capsules), Grow XL (30 Daily Capsules), and Magnum Pump XR (30 Black Capsules)—carry our standardized official Malaysia reserve price of RM 159.00 for 1 Bottle, RM 286 (10% OFF vs RM 318) for 2 Bottles, and RM 405 (15% OFF vs RM 477) for the 3-Bottle 90-Day Vault, inclusive of Free Express Discreet Shipping across ${stateName}.`,
     },
     {
       question: isMs
@@ -2176,7 +2176,7 @@ function renderStateSplit5050Section(hub, vaultState, featuredProduct, lang = 'e
         {
           num: `PROTOKOL PEMBAYARAN 03 · COD, FPX & DUITNOW QR`,
           title: `Fleksibiliti Bayaran Tunai Semasa Terima (COD) & Imbasan QR Tanpa Tunai`,
-          body: `Di seluruh daerah ${stateName}, anda bebas memilih kaedah penyelesaian yang paling selesa. Pilih Pembayaran Dalam Talian FPX / DuitNow QR untuk penyerahan pantas tanpa bersemuka (contohnya ditinggalkan di meja concierge kondo atau pondok pengawal), atau pilih Tunai Semasa Terima (COD) di mana anda hanya membayar RM 159 / RM 318 / RM 477 apabila bungkusan berlakri berada di tangan anda.`,
+          body: `Di seluruh daerah ${stateName}, anda bebas memilih kaedah penyelesaian yang paling selesa. Pilih Pembayaran Dalam Talian FPX / DuitNow QR untuk penyerahan pantas tanpa bersemuka (contohnya ditinggalkan di meja concierge kondo atau pondok pengawal), atau pilih Tunai Semasa Terima (COD) di mana anda hanya membayar RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477) apabila bungkusan berlakri berada di tangan anda.`,
           specLeft: `SOKONGAN COD: AKTIF SELURUH ${hub.isoCode}`,
           specRight: `CAJ PENGHANTARAN: RM 0 (PERCUMA)`,
         },
@@ -2184,7 +2184,7 @@ function renderStateSplit5050Section(hub, vaultState, featuredProduct, lang = 'e
           num: `PROTOKOL KETULENAN 04 · TERUS DARI BILIK KEBAL APOTEKARI`,
           title: `Jaminan Botol Tulen Berlakri Emas & KitaranIsian Semula Pintar`,
           body: `Mengelakkan risiko produk tiruan di pasaran terbuka adalah keutamaan kami. Setiap botol Horsemen (20 Kapsul), Hammer of Thor (20 Kapsul Veg.), Grow XL (30 Kapsul), dan Magnum Pump XR (30 Kapsul Hitam) dihantar terus dari bilik kebal kawalan suhu Onyxmen Malaysia bersama pautan peringatan isian semula Google Calendar (+18 hari atau +25 hari).`,
-          specLeft: `HARGA RASMI: RM 159 / RM 318 / RM 477`,
+          specLeft: `HARGA RASMI: RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)`,
           specRight: `STATUS STOK ${hub.isoCode}: SEDIA DIHANTAR`,
         },
       ]
@@ -2206,7 +2206,7 @@ function renderStateSplit5050Section(hub, vaultState, featuredProduct, lang = 'e
         {
           num: `SETTLEMENT PROTOCOL 03 · COD, FPX & DUITNOW QR`,
           title: `Seamless Cash On Delivery (COD) Or Contactless DuitNow QR / FPX`,
-          body: `Across every postcode in ${stateName}, you control how your order is settled. Select instant FPX / DuitNow QR when you want contactless drop-off at a condominium concierge desk, office mailroom, or guardhouse; or select Cash on Delivery (COD) to inspect your sealed security parcel in person before paying RM 159, RM 318, or RM 477.`,
+          body: `Across every postcode in ${stateName}, you control how your order is settled. Select instant FPX / DuitNow QR when you want contactless drop-off at a condominium concierge desk, office mailroom, or guardhouse; or select Cash on Delivery (COD) to inspect your sealed security parcel in person before paying RM 159, RM 286 (10% OFF vs RM 318), or RM 405 (15% OFF vs RM 477).`,
           specLeft: `COD COVERAGE: ACTIVE ACROSS ${hub.isoCode}`,
           specRight: `EXPRESS SHIPPING FEE: RM 0 (FREE)`,
         },
@@ -2214,7 +2214,7 @@ function renderStateSplit5050Section(hub, vaultState, featuredProduct, lang = 'e
           num: `AUTHENTICITY PROTOCOL 04 · DIRECT APOTHECARY VAULT`,
           title: `Tamper-Evident Gold Induction Seal & Automated Refill Concierge`,
           body: `Counterfeit capsules on third-party marketplaces compromise both safety and efficacy. Every bottle of Horsemen (20 Capsules), Hammer of Thor (20 Veg. Capsules), Grow XL (30 Capsules), and Magnum Pump XR (30 Black Capsules) ships directly from the official Onyxmen Malaysia vault with a 1-click Google Calendar refill schedule (+18 days or +25 days).`,
-          specLeft: `OFFICIAL RESERVE: RM 159 / RM 318 / RM 477`,
+          specLeft: `OFFICIAL RESERVE: RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)`,
           specRight: `${hub.isoCode} INVENTORY: IN STOCK · READY`,
         },
       ];
@@ -2309,8 +2309,8 @@ function renderStateSplit5050Section(hub, vaultState, featuredProduct, lang = 'e
           <span>
             ${
               isMs
-                ? `TEMPAH PAKEJ 2 BOTOL KE ${esc(stateName.toUpperCase())} · RM 318`
-                : `DISPATCH 2-BOTTLE RESERVE TO ${esc(stateName.toUpperCase())} · RM 318`
+                ? `TEMPAH PAKEJ 2 BOTOL KE ${esc(stateName.toUpperCase())} · RM 286 (10% OFF vs RM 318)`
+                : `DISPATCH 2-BOTTLE RESERVE TO ${esc(stateName.toUpperCase())} · RM 286 (10% OFF vs RM 318)`
             }
           </span>
         </button>
@@ -2425,8 +2425,8 @@ function renderDistrictPostcodeSection(hub, vaultState, lang = 'en-MY') {
           <p>
             ${
               isMs
-                ? `Setiap daerah di ${stateName} diliputi oleh rangkaian penghantaran bungkusan rahsia kami tanpa sebarang caj penghantaran tambahan (RM 0) untuk 1 botol (RM 159), 2 botol (RM 318), dan 3 botol (RM 477).`
-                : `Every district across ${stateName} is served by our unmarked security parcel network with RM 0 free express shipping on 1 bottle (RM 159), 2 bottles (RM 318), and 3 bottles (RM 477).`
+                ? `Setiap daerah di ${stateName} diliputi oleh rangkaian penghantaran bungkusan rahsia kami tanpa sebarang caj penghantaran tambahan (RM 0) untuk 1 botol (RM 159), 2 botol (RM 286 (10% OFF vs RM 318)), dan 3 botol (RM 405 (15% OFF vs RM 477)).`
+                : `Every district across ${stateName} is served by our unmarked security parcel network with RM 0 free express shipping on 1 bottle (RM 159), 2 bottles (RM 286 (10% OFF vs RM 318)), and 3 bottles (RM 405 (15% OFF vs RM 477)).`
             }
           </p>
         </div>
@@ -2458,7 +2458,7 @@ function renderDistrictPostcodeSection(hub, vaultState, lang = 'en-MY') {
 }
 
 /**
- * Renders Chapter IV — All 4 Onyxmen Flagship Formulations Showcase (RM 159 / RM 318 / RM 477)
+ * Renders Chapter IV — All 4 Onyxmen Flagship Formulations Showcase (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477))
  * with 1-Click Express Order Drawer buttons pre-selecting the current state.
  */
 function renderStateFourFormulationsSection(hub, vaultState, lang = 'en-MY') {
@@ -2598,7 +2598,7 @@ function renderStateFourFormulationsSection(hub, vaultState, lang = 'en-MY') {
 
   return `
   <!-- ==========================================================================
-       CHAPTER IV — ALL 4 ONYXMEN BOTTLES AT RM 159 / RM 318 / RM 477 FOR THIS STATE
+       CHAPTER IV — ALL 4 ONYXMEN BOTTLES AT RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477) FOR THIS STATE
        ========================================================================== -->
   <section
     id="state-four-bottles-catalog"
@@ -2618,8 +2618,8 @@ function renderStateFourFormulationsSection(hub, vaultState, lang = 'en-MY') {
           <h2 id="heading-four-bottles-${esc(hub.slug)}" class="editorial-headline-lg">
             ${
               isMs
-                ? `Pilih Formulasi Anda Dengan <span class="foil-champagne-text">Pra-Pilihan Negeri ${esc(stateName)} (RM 159 / RM 318 / RM 477).</span>`
-                : `Select Your Formulation With <span class="foil-champagne-text">1-Click ${esc(stateName)} Pre-Selection (RM 159 / RM 318 / RM 477).</span>`
+                ? `Pilih Formulasi Anda Dengan <span class="foil-champagne-text">Pra-Pilihan Negeri ${esc(stateName)} (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)).</span>`
+                : `Select Your Formulation With <span class="foil-champagne-text">1-Click ${esc(stateName)} Pre-Selection (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)).</span>`
             }
           </h2>
         </div>
@@ -2980,7 +2980,7 @@ export function renderWestMalaysiaStateHubPage(hub, lang = 'en-MY') {
           </div>
           <div class="state-cinema-hero__assay-metric">
             <span class="state-cinema-hero__assay-label">${isMs ? 'HARGA RASMI MALAYSIA' : 'OFFICIAL RESERVE'}</span>
-            <span class="state-cinema-hero__assay-value">RM 159 / RM 318 / RM 477</span>
+            <span class="state-cinema-hero__assay-value">RM 159 / RM 286 (10% OFF vs RM 318) / RM 477</span>
           </div>
         </div>
 

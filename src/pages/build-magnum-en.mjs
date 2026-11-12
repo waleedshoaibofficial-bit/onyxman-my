@@ -17,8 +17,8 @@
  *   - Product: Magnum Pump XR (Testosterone Pro Series — Male Enhancement Formula Maximum Strength — 30 Black Capsules)
  *   - SKU: ONYX-MP-30 | MPN: MPXR-30BLK-MY | GTIN-13: 9550000102042
  *   - Official Pricing: 1 Bottle (30 Black Capsules) = RM 159 (159.00 MYR),
- *                       2 Bottles (60 Black Capsules) = RM 318 (318.00 MYR),
- *                       3 Bottles (90 Black Capsules) = RM 477 (477.00 MYR)
+ *                       2 Bottles (60 Black Capsules) = RM 286 (10% OFF vs RM 318) (318.00 MYR),
+ *                       3 Bottles (90 Black Capsules) = RM 405 (15% OFF vs RM 477) (477.00 MYR)
  *   - Refill Protocol: Day-25 Automated Refill Reminder Calendar Integration (30-day nitric oxide & vitality cycle)
  *   - Mandatory Entity Disambiguation (ONYX-22): Explicitly disambiguates Magnum Pump XR
  *     (DietarySupplement — 30 Oral Black Botanical & Amino Acid Capsules for Men's Vitality in Malaysia)
@@ -243,7 +243,7 @@ export const MAGNUM_ENTITY_DISAMBIGUATION_LEDGER = [
     code: 'ONYX-22-05',
     dimension: 'Official Malaysia Commercial & Fulfilment Identity',
     magnumPumpXrSpec:
-      'Sold exclusively in Malaysia at the uniform apothecary reserve price of RM 159 (1 Bottle / 30 Black Capsules), RM 318 (2 Bottles / 60 Black Capsules), and RM 477 (3 Bottles / 90 Black Capsules) via https://www.onyxmen.my.',
+      'Sold exclusively in Malaysia at the uniform apothecary reserve price of RM 159 (1 Bottle / 30 Black Capsules), RM 286 (10% OFF vs RM 318) (2 Bottles / 60 Black Capsules), and RM 405 (15% OFF vs RM 477) (3 Bottles / 90 Black Capsules) via https://www.onyxmen.my.',
     excludedExternalEntity:
       'Dispatched in 100% plain, unmarked matte parcels under sender "OM Fulfilment Logistics" via waleedshoaibofficial@gmail.com, sales@onyxmen.my, and info@onyxmen.my.',
     verificationTag: 'RM 159 OFFICIAL RESERVE',
@@ -260,7 +260,7 @@ export const MAGNUM_16_STATES_LEDGER = [
     transitWindow: 'Same-Day Private Runner (3–5 Hours) or 1 Business Day Free Express',
     keyDistricts: 'KLCC, Bukit Bintang, Bangsar, Mont Kiara, Sri Hartamas, Damansara Heights, TRX, Cheras, Bukit Jalil, Wangsa Maju',
     postalCodes: '50000–60000',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority (+RM 15 optional 3–5h Runner)',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority (+RM 15 optional 3–5h Runner)',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -272,7 +272,7 @@ export const MAGNUM_16_STATES_LEDGER = [
     transitWindow: 'Same-Day Private Runner (3–5 Hours) or 1 Business Day Free Express',
     keyDistricts: 'Petaling Jaya, Subang Jaya, Bandar Sunway, Shah Alam, Puchong, Klang, Setia Alam, Damansara, Kajang, Bangi, Cyberjaya',
     postalCodes: '40000–48300, 63000–68100',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority (+RM 15 optional 3–5h Runner)',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority (+RM 15 optional 3–5h Runner)',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -284,7 +284,7 @@ export const MAGNUM_16_STATES_LEDGER = [
     transitWindow: 'Same-Day Private Runner (3–5 Hours) or 1 Business Day Free Express',
     keyDistricts: 'Precinct 1–20 Putrajaya, Diplomatic Enclave, IOI Resort City, Cyberjaya South',
     postalCodes: '62000–62988',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority (+RM 15 optional 3–5h Runner)',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority (+RM 15 optional 3–5h Runner)',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -296,7 +296,7 @@ export const MAGNUM_16_STATES_LEDGER = [
     transitWindow: '1–2 Business Days Overnight Southern Linehaul',
     keyDistricts: 'Johor Bahru, Iskandar Puteri, Mount Austin, Skudai, Kulai, Pasir Gudang, Batu Pahat, Muar, Kluang, Segamat',
     postalCodes: '79000–86900',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority VIP',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority VIP',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -308,7 +308,7 @@ export const MAGNUM_16_STATES_LEDGER = [
     transitWindow: '1–2 Business Days Island & Mainland Express',
     keyDistricts: 'George Town, Bayan Lepas, Gurney Drive, Tanjung Tokong, Jelutong, Butterworth, Bukit Mertajam, Seberang Jaya, Batu Kawan',
     postalCodes: '10000–14400',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority VIP',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority VIP',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -320,7 +320,7 @@ export const MAGNUM_16_STATES_LEDGER = [
     transitWindow: '1–2 Business Days North-South Highway Dispatch',
     keyDistricts: 'Ipoh, Canning Garden, Meru Raya, Taiping, Manjung, Sitiawan, Teluk Intan, Kampar, Kuala Kangsar, Tanjung Malim',
     postalCodes: '30000–36810',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority VIP',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority VIP',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -332,7 +332,7 @@ export const MAGNUM_16_STATES_LEDGER = [
     transitWindow: '1–2 Business Days Direct Highway Dispatch',
     keyDistricts: 'Melaka City (Bandaraya Melaka), Ayer Keroh, Batu Berendam, Bukit Baru, Klebang, Alor Gajah, Masjid Tanah, Jasin',
     postalCodes: '75000–78300',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority VIP',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority VIP',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -344,7 +344,7 @@ export const MAGNUM_16_STATES_LEDGER = [
     transitWindow: '1 Business Day Express Courier',
     keyDistricts: 'Seremban, Seremban 2, Senawang, Nilai, Bandar Enstek, Port Dickson, Lukut, Tampin, Bahau, Kuala Pilah',
     postalCodes: '70000–73500',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority VIP',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority VIP',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -356,7 +356,7 @@ export const MAGNUM_16_STATES_LEDGER = [
     transitWindow: '1–2 Business Days Karak-ECE Linehaul',
     keyDistricts: 'Kuantan, Indera Mahkota, Temerloh, Mentakab, Bentong, Genting Highlands, Pekan, Raub, Jerantut, Cameron Highlands',
     postalCodes: '25000–28800, 39000–39200',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority VIP',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority VIP',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -368,7 +368,7 @@ export const MAGNUM_16_STATES_LEDGER = [
     transitWindow: '1–2 Business Days Northern Linehaul (2–3 Days Langkawi)',
     keyDistricts: 'Alor Setar, Sungai Petani, Kulim Hi-Tech Park, Jitra, Changlun, Baling, Gurun, Pendang, Langkawi Island',
     postalCodes: '05000–09810',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority VIP',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority VIP',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -380,7 +380,7 @@ export const MAGNUM_16_STATES_LEDGER = [
     transitWindow: '1–2 Business Days East Coast Express Courier',
     keyDistricts: 'Kota Bharu, Kubang Kerian, Pengkalan Chepa, Wakaf Bharu, Pasir Mas, Tanah Merah, Machang, Kuala Krai, Gua Musang',
     postalCodes: '15000–18500',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority VIP',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority VIP',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -392,7 +392,7 @@ export const MAGNUM_16_STATES_LEDGER = [
     transitWindow: '1–2 Business Days LPT2 Highway Dispatch',
     keyDistricts: 'Kuala Terengganu, Gong Badak, Chukai (Kemaman), Kerteh, Paka, Dungun, Marang, Jerteh (Besut), Kuala Berang',
     postalCodes: '20000–24300',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority VIP',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority VIP',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -404,7 +404,7 @@ export const MAGNUM_16_STATES_LEDGER = [
     transitWindow: '1–2 Business Days Northern Express Courier',
     keyDistricts: 'Kangar, Arau, Kuala Perlis, Padang Besar, Simpang Empat, Kaki Bukit',
     postalCodes: '01000–02800',
-    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 318): RM 0 Free · 3B (RM 477): RM 0 Priority VIP',
+    shippingCost: '1B (RM 159): RM 0 Free Express · 2B (RM 286 (10% OFF vs RM 318)): RM 0 Free · 3B (RM 405 (15% OFF vs RM 477)): RM 0 Priority VIP',
     paymentModes: 'COD, DuitNow Instant QR, FPX Online Banking',
   },
   {
@@ -416,7 +416,7 @@ export const MAGNUM_16_STATES_LEDGER = [
     transitWindow: '2–4 Business Days Discreet Air Cargo Parcel',
     keyDistricts: 'Kota Kinabalu, Luyang, Penampang, Putatan, Sandakan, Tawau, Lahad Datu, Keningau, Kudat, Semporna, Ranau',
     postalCodes: '88000–91309',
-    shippingCost: '1B (RM 159): RM 12 Air Subsidized · 2B (RM 318): RM 0 FREE · 3B (RM 477): RM 0 FREE Priority Air',
+    shippingCost: '1B (RM 159): RM 12 Air Subsidized · 2B (RM 286 (10% OFF vs RM 318)): RM 0 FREE · 3B (RM 405 (15% OFF vs RM 477)): RM 0 FREE Priority Air',
     paymentModes: 'FPX Online Banking, DuitNow Instant QR, Selected Metro COD',
   },
   {
@@ -428,7 +428,7 @@ export const MAGNUM_16_STATES_LEDGER = [
     transitWindow: '2–4 Business Days Discreet Air Cargo Parcel',
     keyDistricts: 'Kuching, Petra Jaya, Kota Samarahan, Miri, Sibu, Bintulu, Sarikei, Sri Aman, Limbang, Mukah, Kapit',
     postalCodes: '93000–98859',
-    shippingCost: '1B (RM 159): RM 12 Air Subsidized · 2B (RM 318): RM 0 FREE · 3B (RM 477): RM 0 FREE Priority Air',
+    shippingCost: '1B (RM 159): RM 12 Air Subsidized · 2B (RM 286 (10% OFF vs RM 318)): RM 0 FREE · 3B (RM 405 (15% OFF vs RM 477)): RM 0 FREE Priority Air',
     paymentModes: 'FPX Online Banking, DuitNow Instant QR, Selected Metro COD',
   },
   {
@@ -440,7 +440,7 @@ export const MAGNUM_16_STATES_LEDGER = [
     transitWindow: '2–4 Business Days Discreet Air Cargo Parcel',
     keyDistricts: 'Victoria (Bandar Labuan), Financial Park Complex, Rancha-Rancha Logistics Hub, Patau-Patau, Layang-Layangan',
     postalCodes: '87000–87033',
-    shippingCost: '1B (RM 159): RM 12 Air Subsidized · 2B (RM 318): RM 0 FREE · 3B (RM 477): RM 0 FREE Priority Air',
+    shippingCost: '1B (RM 159): RM 12 Air Subsidized · 2B (RM 286 (10% OFF vs RM 318)): RM 0 FREE · 3B (RM 405 (15% OFF vs RM 477)): RM 0 FREE Priority Air',
     paymentModes: 'FPX Online Banking, DuitNow Instant QR, Selected COD',
   },
 ];
@@ -486,7 +486,7 @@ export const MAGNUM_FAQS = [
     category: 'OFFICIAL MALAYSIA PRICING',
     questionEn: 'What are the official Malaysia prices for 1, 2, and 3 bottles of Magnum Pump XR?',
     answerEn:
-      'Onyxmen Malaysia maintains strict, uniform apothecary pricing across all formulations: 1 Bottle (30 Black Capsules · 18,000mg Total Potency · 30-Day Nitric Oxide XR Cycle) is RM 159 (159.00 MYR) with Free Discreet Express Shipping across Peninsular Malaysia (RM 12 subsidized air freight for East Malaysia); 2 Bottles (60 Black Capsules · 36,000mg Total Potency · 60-Day Dual Vascular & Gym Output Protocol) is RM 318 (318.00 MYR) with 100% Free Nationwide Discreet Shipping including Sabah, Sarawak & Labuan; and 3 Bottles (90 Black Capsules · 54,000mg Total Potency · 90-Day Pro Series Vault) is RM 477 (477.00 MYR) with Priority VIP Dispatch and Free Nationwide Shipping.',
+      'Onyxmen Malaysia maintains strict, uniform apothecary pricing across all formulations: 1 Bottle (30 Black Capsules · 18,000mg Total Potency · 30-Day Nitric Oxide XR Cycle) is RM 159 (159.00 MYR) with Free Discreet Express Shipping across Peninsular Malaysia (RM 12 subsidized air freight for East Malaysia); 2 Bottles (60 Black Capsules · 36,000mg Total Potency · 60-Day Dual Vascular & Gym Output Protocol) is RM 286 (10% OFF vs RM 318) (318.00 MYR) with 100% Free Nationwide Discreet Shipping including Sabah, Sarawak & Labuan; and 3 Bottles (90 Black Capsules · 54,000mg Total Potency · 90-Day Pro Series Vault) is RM 405 (15% OFF vs RM 477) (477.00 MYR) with Priority VIP Dispatch and Free Nationwide Shipping.',
   },
   {
     index: '07',
@@ -507,7 +507,7 @@ export const MAGNUM_FAQS = [
     category: 'PAYMENT & EXPRESS RESERVATION',
     questionEn: 'How do I order Magnum Pump XR via Cash on Delivery (COD), DuitNow QR, or FPX Online Banking?',
     answerEn:
-      'Click any "Acquire Magnum Pump XR" button on this page to open our 1-Click Express Discreet Order Drawer. Select 1 Bottle (RM 159), 2 Bottles (RM 318), or 3 Bottles (RM 477), enter your Malaysian delivery address, and choose Cash on Delivery (COD — pay upon receiving your sealed parcel), DuitNow Instant QR, or FPX Online Banking. Your reservation routes directly to our Kuala Lumpur fulfilment desk (waleedshoaibofficial@gmail.com, sales@onyxmen.my, info@onyxmen.my) for immediate dispatch.',
+      'Click any "Acquire Magnum Pump XR" button on this page to open our 1-Click Express Discreet Order Drawer. Select 1 Bottle (RM 159), 2 Bottles (RM 286 (10% OFF vs RM 318)), or 3 Bottles (RM 405 (15% OFF vs RM 477)), enter your Malaysian delivery address, and choose Cash on Delivery (COD — pay upon receiving your sealed parcel), DuitNow Instant QR, or FPX Online Banking. Your reservation routes directly to our Kuala Lumpur fulfilment desk (waleedshoaibofficial@gmail.com, sales@onyxmen.my, info@onyxmen.my) for immediate dispatch.',
   },
   {
     index: '10',
@@ -635,7 +635,7 @@ export function buildMagnumEnSchemaGraph(canonicalUrlOverride = MAGNUM_CONSTANTS
       capsules: 60,
       days: 60,
       refillDay: 50,
-      price: '318.00',
+      price: '286.00',
       skuSuffix: '2B',
       name: 'Magnum Pump XR — 2 Bottles Dual Vascular & Gym Output Protocol (60 Black Capsules × 600mg · Free Nationwide Malaysia Shipping)',
     },
@@ -644,7 +644,7 @@ export function buildMagnumEnSchemaGraph(canonicalUrlOverride = MAGNUM_CONSTANTS
       capsules: 90,
       days: 90,
       refillDay: 75,
-      price: '477.00',
+      price: '405.00',
       skuSuffix: '3B',
       name: 'Magnum Pump XR — 3 Bottles Maximum Strength Pro Series Vault (90 Black Capsules × 600mg · Priority VIP Dispatch)',
     },
@@ -779,7 +779,7 @@ export function buildMagnumEnSchemaGraph(canonicalUrlOverride = MAGNUM_CONSTANTS
         productGroupID: `${MAGNUM_CONSTANTS.sku}-GROUP`,
         name: 'Magnum Pump XR (30 Black Capsules) — Official Multi-Bottle Protocol Collection (1, 2 & 3 Bottles)',
         description:
-          'Official Onyxmen Malaysia multi-bottle protocol tiers for Magnum Pump XR (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042): 1 Bottle (30 Black Capsules) = RM 159.00, 2 Bottles (60 Black Capsules) = RM 318.00, 3 Bottles (90 Black Capsules) = RM 477.00.',
+          'Official Onyxmen Malaysia multi-bottle protocol tiers for Magnum Pump XR (SKU: ONYX-MP-30, MPN: MPXR-30BLK-MY, GTIN-13: 9550000102042): 1 Bottle (30 Black Capsules) = RM 159.00, 2 Bottles (60 Black Capsules) = RM 286 (10% OFF vs RM 318), 3 Bottles (90 Black Capsules) = RM 405 (15% OFF vs RM 477).',
         hasVariant: hasVariantNodes,
       };
     }
@@ -1406,7 +1406,7 @@ export const MAGNUM_PAGE_SCOPED_CSS = `
 /**
  * Renders Chapter 1: 100vw x 100vh Full-Bleed Obsidian Hero Stage for Magnum Pump XR.
  * Features /assets/products/magnum-pump-xr-stage.webp (bottle + 6 loose glossy black capsules),
- * interactive 1/2/3-bottle tier selector (RM 159 / RM 318 / RM 477),
+ * interactive 1/2/3-bottle tier selector (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)),
  * ONYX-22 DietarySupplement Entity Disambiguation Banner, and 1-Click Express Order Drawer triggers.
  */
 export function renderChapter1HeroStage() {
@@ -1476,7 +1476,7 @@ export function renderChapter1HeroStage() {
               </p>
             </div>
 
-            <!-- Interactive 1 / 2 / 3 Bottle Tier Selector Strip (RM 159 / RM 318 / RM 477) -->
+            <!-- Interactive 1 / 2 / 3 Bottle Tier Selector Strip (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)) -->
             <div
               class="tier-strip-group"
               role="radiogroup"
@@ -1507,7 +1507,7 @@ export function renderChapter1HeroStage() {
                 <span class="tier-strip-option__price">RM 159</span>
               </button>
 
-              <!-- Tier 2: 2 Bottles (60 Black Capsules) = RM 318 (Default Highlighted Protocol) -->
+              <!-- Tier 2: 2 Bottles (60 Black Capsules) = RM 286 (10% OFF vs RM 318) (Default Highlighted Protocol) -->
               <button
                 type="button"
                 role="radio"
@@ -1531,7 +1531,7 @@ export function renderChapter1HeroStage() {
                 <span class="tier-strip-option__price">RM 318</span>
               </button>
 
-              <!-- Tier 3: 3 Bottles (90 Black Capsules) = RM 477 -->
+              <!-- Tier 3: 3 Bottles (90 Black Capsules) = RM 405 (15% OFF vs RM 477) -->
               <button
                 type="button"
                 role="radio"
@@ -2097,7 +2097,7 @@ export function renderChapter3ChronologyDisambiguationComparisonAndStatesStage()
                 Phase 6: Full 30-Day Cycle Completion &amp; 60/90-Day Pro Series Mastery Vaults
               </strong>
               <p class="architectural-ledger__detail">
-                Capsules #26 to #30 complete your first 18,000mg bottle. Men who lock in the <strong>2-Bottle Dual Vascular Protocol (60 Black Capsules · RM 318 · Day-50 Refill Alert)</strong> or <strong>3-Bottle Pro Series Vault (90 Black Capsules · RM 477 · Day-75 Refill Alert)</strong> enjoy uninterrupted 60-to-90-day Nitric Oxide and botanical conditioning with 100% Free Nationwide Malaysia Shipping.
+                Capsules #26 to #30 complete your first 18,000mg bottle. Men who lock in the <strong>2-Bottle Dual Vascular Protocol (60 Black Capsules · RM 286 (10% OFF vs RM 318) · Day-50 Refill Alert)</strong> or <strong>3-Bottle Pro Series Vault (90 Black Capsules · RM 405 (15% OFF vs RM 477) · Day-75 Refill Alert)</strong> enjoy uninterrupted 60-to-90-day Nitric Oxide and botanical conditioning with 100% Free Nationwide Malaysia Shipping.
               </p>
               <span class="architectural-ledger__metric">30–90 DAY MASTERY</span>
             </div>
@@ -2219,7 +2219,7 @@ export function renderChapter3ChronologyDisambiguationComparisonAndStatesStage()
             </div>
             <div class="magnum-stage-header__right">
               <p style="color:var(--text-muted-alabaster);font-size:0.96rem;line-height:1.65;">
-                Every Onyxmen formulation is priced uniformly at <strong>RM 159 for 1 Bottle, RM 318 for 2 Bottles, and RM 477 for 3 Bottles</strong>. Compare Magnum Pump XR&rsquo;s 30 UV-shielded jet-black Nitric Oxide capsules against our companion apothecary reserves below.
+                Every Onyxmen formulation is priced uniformly at <strong>RM 159 for 1 Bottle, RM 286 (10% OFF vs RM 318) for 2 Bottles, and RM 405 (15% OFF vs RM 477) for 3 Bottles</strong>. Compare Magnum Pump XR&rsquo;s 30 UV-shielded jet-black Nitric Oxide capsules against our companion apothecary reserves below.
               </p>
             </div>
           </div>
@@ -2314,11 +2314,11 @@ export function renderChapter3ChronologyDisambiguationComparisonAndStatesStage()
                 <tr>
                   <td><strong style="color:var(--gold-champagne);">Official Malaysia Pricing</strong></td>
                   <td class="magnum-matrix-table__highlight-col">
-                    <strong>1B: RM 159 · 2B: RM 318 · 3B: RM 477</strong>
+                    <strong>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</strong>
                   </td>
-                  <td>1B: RM 159 · 2B: RM 318 · 3B: RM 477</td>
-                  <td>1B: RM 159 · 2B: RM 318 · 3B: RM 477</td>
-                  <td>1B: RM 159 · 2B: RM 318 · 3B: RM 477</td>
+                  <td>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</td>
+                  <td>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</td>
+                  <td>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</td>
                 </tr>
               </tbody>
             </table>
@@ -2443,7 +2443,7 @@ export function renderChapter4FaqAndAcquisitionStage() {
                 Begin Your 30-Day <span class="foil-champagne-text">Extended-Release Nitric Oxide</span> Protocol Today
               </h3>
               <p style="color:var(--text-muted-alabaster);font-size:0.95rem;line-height:1.65;">
-                Reserve 1 Bottle (30 Black Capsules · RM 159), 2 Bottles (60 Black Capsules · RM 318 · Free Nationwide Malaysia Shipping), or 3 Bottles (90 Black Capsules · RM 477 · Pro Series Vault). Dispatched in a 100% plain matte security parcel under <strong>OM Fulfilment Logistics</strong>. Direct concierge support: <a href="mailto:waleedshoaibofficial@gmail.com" style="color:var(--gold-foil-bright);">waleedshoaibofficial@gmail.com</a> | <a href="mailto:sales@onyxmen.my" style="color:var(--gold-foil-bright);">sales@onyxmen.my</a> | <a href="mailto:info@onyxmen.my" style="color:var(--gold-foil-bright);">info@onyxmen.my</a>.
+                Reserve 1 Bottle (30 Black Capsules · RM 159), 2 Bottles (60 Black Capsules · RM 286 (10% OFF vs RM 318) · Free Nationwide Malaysia Shipping), or 3 Bottles (90 Black Capsules · RM 405 (15% OFF vs RM 477) · Pro Series Vault). Dispatched in a 100% plain matte security parcel under <strong>OM Fulfilment Logistics</strong>. Direct concierge support: <a href="mailto:waleedshoaibofficial@gmail.com" style="color:var(--gold-foil-bright);">waleedshoaibofficial@gmail.com</a> | <a href="mailto:sales@onyxmen.my" style="color:var(--gold-foil-bright);">sales@onyxmen.my</a> | <a href="mailto:info@onyxmen.my" style="color:var(--gold-foil-bright);">info@onyxmen.my</a>.
               </p>
             </div>
 

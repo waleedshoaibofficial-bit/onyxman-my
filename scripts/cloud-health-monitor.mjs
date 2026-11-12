@@ -225,14 +225,14 @@ function verifyHtmlDocumentIntegrity(target, htmlContent) {
     }
   }
 
-  // 4. RM 159 Pricing Integrity (RM 159, RM 318, RM 477, 159.00 MYR)
-  const requiredPriceTokens = ['RM 159', 'RM 318', 'RM 477', '159.00', 'MYR'];
+  // 4. RM 159 / RM 286 / RM 405 Pricing Integrity (RM 159, RM 286, RM 405, RM 318, RM 477, 159.00 MYR)
+  const requiredPriceTokens = ['RM 159', 'RM 286', 'RM 405', 'RM 318', 'RM 477', '159.00', 'MYR'];
   for (const token of requiredPriceTokens) {
     if (!htmlContent.includes(token)) {
       recordFail(id, 'PRICING-INTEGRITY', `${route} missing required pricing token "${token}"`);
     }
   }
-  recordPass(id, 'PRICING-INTEGRITY', `${route} verified RM 159 / RM 318 / RM 477 (159.00 MYR) pricing integrity`);
+  recordPass(id, 'PRICING-INTEGRITY', `${route} verified RM 159 / RM 286 (10% OFF) / RM 405 (15% OFF) pricing integrity`);
 
   // 5. Express Order Drawer & waleedshoaibofficial@gmail.com Endpoint Configuration
   const requiredOrderDrawerTokens = [
@@ -318,9 +318,11 @@ function runDryRunAudit() {
         !raw.includes('3D9YmY9SMd5RVAdrfKySd2Z5ZsxJOEHtLbQUTNWOKgA') ||
         !raw.includes('id="onyxman-critical-css"') ||
         !raw.includes('RM 159') ||
+        !raw.includes('RM 286') ||
+        !raw.includes('RM 405') ||
         !raw.includes('"@graph"')
       ) {
-        recordFail('DEEP-SCAN', 'PAGE-INTEGRITY', `public/${rel} missing GSC meta, critical CSS, RM 159, or @graph`);
+        recordFail('DEEP-SCAN', 'PAGE-INTEGRITY', `public/${rel} missing GSC meta, critical CSS, RM 159 / RM 286 / RM 405, or @graph`);
         deepMistakes++;
       }
     }

@@ -22,7 +22,7 @@
  * - Obsidian & Liquid Champagne Gold palette (#050507, #0B0C10, #12141C, #D4AF37, #EAE6DF)
  * - Typography: 'Cormorant Garamond', 'Syne', 'Space Grotesk'
  * - Every generated HTML file >= 2,200+ lines of uncompressed semantic HTML5 with 1-Click Express Order Drawer triggers,
- *   exact Onyxmen bottle linkages (RM 159 / RM 318 / RM 477), FAQs, and @graph JSON-LD.
+ *   exact Onyxmen bottle linkages (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)), FAQs, and @graph JSON-LD.
  */
 
 import fs from 'node:fs';
@@ -632,7 +632,7 @@ export const MONOGRAPH_DOSSIERS = [
         },
         {
           questionEn: 'What is the official price of Onyxmen Tongkat Ali formulations and how discreet is Malaysia shipping?',
-          answerEn: 'All four Onyxmen formulations (Horsemen, Grow XL, Magnum Pump XR, and Hammer of Thor) share our transparent official Malaysia pricing: 1 Bottle = RM 159 (159.00 MYR), 2 Bottles = RM 318 (318.00 MYR with Free Nationwide Malaysia Shipping), and 3 Bottles = RM 477 (477.00 MYR Complete 90-Day Vault). Every order ships in a 100% plain unmarked parcel from OM Fulfilment Logistics with FPX, DuitNow QR, and COD supported.',
+          answerEn: 'All four Onyxmen formulations (Horsemen, Grow XL, Magnum Pump XR, and Hammer of Thor) share our transparent official Malaysia pricing: 1 Bottle = RM 159 (159.00 MYR), 2 Bottles = RM 286 (10% OFF vs RM 318) (318.00 MYR with Free Nationwide Malaysia Shipping), and 3 Bottles = RM 405 (15% OFF vs RM 477) (477.00 MYR Complete 90-Day Vault). Every order ships in a 100% plain unmarked parcel from OM Fulfilment Logistics with FPX, DuitNow QR, and COD supported.',
         },
       ],
     },
@@ -718,7 +718,7 @@ export const MONOGRAPH_DOSSIERS = [
         },
         {
           questionMs: 'Berapakah harga rasmi botol Onyxmen di Malaysia dan adakah penghantarannya rahsia?',
-          answerMs: 'Semua 4 formulasi Onyxmen dijual pada harga rasmi yang seragam: 1 Botol = RM 159 (159.00 MYR), 2 Botol = RM 318 (318.00 MYR dengan Penghantaran Percuma ke seluruh Malaysia termasuk Sabah & Sarawak), dan 3 Botol = RM 477 (477.00 MYR Pakej Lengkap 90 Hari). Setiap bungkusan dihantar tanpa sebarang nama produk atau logo di luar kotak, dengan pilihan FPX, DuitNow QR, dan COD.',
+          answerMs: 'Semua 4 formulasi Onyxmen dijual pada harga rasmi yang seragam: 1 Botol = RM 159 (159.00 MYR), 2 Botol = RM 286 (10% OFF vs RM 318) (318.00 MYR dengan Penghantaran Percuma ke seluruh Malaysia termasuk Sabah & Sarawak), dan 3 Botol = RM 405 (15% OFF vs RM 477) (477.00 MYR Pakej Lengkap 90 Hari). Setiap bungkusan dihantar tanpa sebarang nama produk atau logo di luar kotak, dengan pilihan FPX, DuitNow QR, dan COD.',
         },
       ],
     },
@@ -893,7 +893,7 @@ export const MONOGRAPH_DOSSIERS = [
         },
         {
           questionEn: 'How can I order Hammer of Thor or Magnum Pump XR with discreet delivery in Malaysia?',
-          answerEn: 'Click any "Acquire" button on this monograph to open the Express Discreet Order Drawer. Select 1 Bottle (RM 159), 2 Bottles (RM 318 — Free Nationwide Shipping), or 3 Bottles (RM 477), and pay via FPX Online Banking, DuitNow QR, or Cash on Delivery (COD). Every parcel is 100% plain and unmarked.',
+          answerEn: 'Click any "Acquire" button on this monograph to open the Express Discreet Order Drawer. Select 1 Bottle (RM 159), 2 Bottles (RM 286 (10% OFF vs RM 318) — Free Nationwide Shipping), or 3 Bottles (RM 405 (15% OFF vs RM 477)), and pay via FPX Online Banking, DuitNow QR, or Cash on Delivery (COD). Every parcel is 100% plain and unmarked.',
         },
       ],
     },
@@ -979,7 +979,7 @@ export const MONOGRAPH_DOSSIERS = [
         },
         {
           questionMs: 'Bagaimanakah cara menempah Hammer of Thor atau Magnum Pump XR dengan bungkusan rahsia?',
-          answerMs: 'Klik butang tempahan pada halaman ini untuk membuka Laci Tempahan Ekspres Rahsia. Pilih 1 Botol (RM 159), 2 Botol (RM 318 — Penghantaran Percuma Seluruh Malaysia), atau 3 Botol (RM 477), dengan pilihan pembayaran FPX, DuitNow QR, atau Bayar Waktu Terima (COD).',
+          answerMs: 'Klik butang tempahan pada halaman ini untuk membuka Laci Tempahan Ekspres Rahsia. Pilih 1 Botol (RM 159), 2 Botol (RM 286 (10% OFF vs RM 318) — Penghantaran Percuma Seluruh Malaysia), atau 3 Botol (RM 405 (15% OFF vs RM 477)), dengan pilihan pembayaran FPX, DuitNow QR, atau Bayar Waktu Terima (COD).',
         },
       ],
     },
@@ -1139,7 +1139,7 @@ export const MONOGRAPH_DOSSIERS = [
         },
         {
           questionEn: 'What are the official Malaysia multi-bottle prices for Grow XL, Horsemen, and Hammer of Thor?',
-          answerEn: 'All Onyxmen bottles are RM 159 for 1 Bottle, RM 318 for 2 Bottles (with Free Nationwide Discreet Shipping across Peninsular & East Malaysia), and RM 477 for the 3-Bottle Complete Vault. Orders are dispatched in 100% unmarked parcels with FPX, DuitNow QR, and COD.',
+          answerEn: 'All Onyxmen bottles are RM 159 for 1 Bottle, RM 286 (10% OFF vs RM 318) for 2 Bottles (with Free Nationwide Discreet Shipping across Peninsular & East Malaysia), and RM 405 (15% OFF vs RM 477) for the 3-Bottle Complete Vault. Orders are dispatched in 100% unmarked parcels with FPX, DuitNow QR, and COD.',
         },
       ],
     },
@@ -1225,7 +1225,7 @@ export const MONOGRAPH_DOSSIERS = [
         },
         {
           questionMs: 'Berapakah harga rasmi pakej botol Grow XL, Horsemen, dan Hammer of Thor di Malaysia?',
-          answerMs: 'Harga rasmi adalah seragam: 1 Botol = RM 159, 2 Botol = RM 318 (Penghantaran Ekspres Rahsia Percuma ke seluruh Malaysia termasuk Sabah & Sarawak), dan 3 Botol = RM 477. Menyokong pembayaran FPX, DuitNow QR, dan COD.',
+          answerMs: 'Harga rasmi adalah seragam: 1 Botol = RM 159, 2 Botol = RM 286 (10% OFF vs RM 318) (Penghantaran Ekspres Rahsia Percuma ke seluruh Malaysia termasuk Sabah & Sarawak), dan 3 Botol = RM 405 (15% OFF vs RM 477). Menyokong pembayaran FPX, DuitNow QR, dan COD.',
         },
       ],
     },
@@ -1398,7 +1398,7 @@ export const MONOGRAPH_DOSSIERS = [
         },
         {
           questionEn: 'What is the official price of Magnum Pump XR and Grow XL in Malaysia?',
-          answerEn: 'Every authentic Onyxmen bottle is RM 159 (159.00 MYR) for 1 Bottle, RM 318 (318.00 MYR) for 2 Bottles with Free Nationwide Discreet Shipping across all 16 Malaysian states, and RM 477 (477.00 MYR) for the 3-Bottle Complete 90-Day Vault. Order in 10 seconds via our Express Discreet Order Drawer.',
+          answerEn: 'Every authentic Onyxmen bottle is RM 159 (159.00 MYR) for 1 Bottle, RM 286 (10% OFF vs RM 318) (318.00 MYR) for 2 Bottles with Free Nationwide Discreet Shipping across all 16 Malaysian states, and RM 405 (15% OFF vs RM 477) (477.00 MYR) for the 3-Bottle Complete 90-Day Vault. Order in 10 seconds via our Express Discreet Order Drawer.',
         },
       ],
     },
@@ -1484,7 +1484,7 @@ export const MONOGRAPH_DOSSIERS = [
         },
         {
           questionMs: 'Berapakah harga rasmi Magnum Pump XR dan Grow XL di Malaysia?',
-          answerMs: 'Setiap botol tulen Onyxmen berharga RM 159 (159.00 MYR) untuk 1 Botol, RM 318 (318.00 MYR) untuk Pakej 2 Botol dengan Penghantaran Rahsia Percuma ke seluruh 16 negeri Malaysia, dan RM 477 (477.00 MYR) untuk Pakej Lengkap 3 Botol (90 Hari).',
+          answerMs: 'Setiap botol tulen Onyxmen berharga RM 159 (159.00 MYR) untuk 1 Botol, RM 286 (10% OFF vs RM 318) (318.00 MYR) untuk Pakej 2 Botol dengan Penghantaran Rahsia Percuma ke seluruh 16 negeri Malaysia, dan RM 405 (15% OFF vs RM 477) (477.00 MYR) untuk Pakej Lengkap 3 Botol (90 Hari).',
         },
       ],
     },
@@ -1711,8 +1711,8 @@ export const EXTRACTION_COMPARISON_ROWS = [
   {
     dimEn: '08 · Pricing Transparency & Discreet Logistics',
     dimMs: '08 · Ketelusan Harga & Penghantaran Rahsia',
-    onyxEn: 'Official RM 159 / RM 318 / RM 477 Tiers · 100% Plain Unmarked Parcel · FPX, DuitNow QR & COD',
-    onyxMs: 'Harga Rasmi RM 159 / RM 318 / RM 477 · 100% Bungkusan Rahsia Tanpa Nama · FPX, DuitNow & COD',
+    onyxEn: 'Official RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477) Tiers · 100% Plain Unmarked Parcel · FPX, DuitNow QR & COD',
+    onyxMs: 'Harga Rasmi RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477) · 100% Bungkusan Rahsia Tanpa Nama · FPX, DuitNow & COD',
     streetEn: 'Inconsistent Pricing, Exposed Product Names on Courier Labels & Zero Customer Support',
     streetMs: 'Harga Tidak Menentu, Nama Produk Terdedah Pada Bungkusan Kurier & Tiada Jaminan',
   },
@@ -1899,7 +1899,7 @@ function renderStatesFulfilmentSection(lang = 'en-MY', defaultProductSlug = 'hor
 }
 
 /**
- * Renders the Multi-Bottle Pricing & Acquisition Vault Section (RM 159 / RM 318 / RM 477)
+ * Renders the Multi-Bottle Pricing & Acquisition Vault Section (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477))
  */
 function renderMultiBottleAcquisitionSection(lang = 'en-MY', primarySlug = 'horsemen') {
   const isMs = lang === 'ms-MY';
@@ -1964,7 +1964,7 @@ function renderMultiBottleAcquisitionSection(lang = 'en-MY', primarySlug = 'hors
                 data-order-product="${esc(prod.slug)}"
                 data-order-qty="2"
               >
-                <span>${isMs ? `2 Botol (Pos Percuma) · RM 318` : `2 Bottles (Free MY Shipping) · RM 318`}</span>
+                <span>${isMs ? `2 Botol (Pos Percuma) · RM 286 (10% OFF vs RM 318)` : `2 Bottles (Free MY Shipping) · RM 286 (10% OFF vs RM 318)`}</span>
               </button>
               <button
                 type="button"
@@ -1973,7 +1973,7 @@ function renderMultiBottleAcquisitionSection(lang = 'en-MY', primarySlug = 'hors
                 data-order-product="${esc(prod.slug)}"
                 data-order-qty="3"
               >
-                <span>${isMs ? `3 Botol (90 Hari) · RM 477` : `3 Bottles (90-Day Vault) · RM 477`}</span>
+                <span>${isMs ? `3 Botol (90 Hari) · RM 405 (15% OFF vs RM 477)` : `3 Bottles (90-Day Vault) · RM 405 (15% OFF vs RM 477)`}</span>
               </button>
               <a href="${esc(prodHref)}" class="cta-hairline-secondary">
                 <span>${isMs ? 'Spesifikasi Penuh →' : 'Full Product Dossier →'}</span>
@@ -1984,7 +1984,7 @@ function renderMultiBottleAcquisitionSection(lang = 'en-MY', primarySlug = 'hors
           <div class="botanical-hairline-row__meta">
             <span class="botanical-hairline-row__dosage">RM 159.00</span>
             <span class="botanical-hairline-row__sub">
-              ${isMs ? '1 BOTOL · 2 BOTOL RM 318 · 3 BOTOL RM 477' : '1 BOTTLE · 2B RM 318 · 3B RM 477'}
+              ${isMs ? '1 BOTOL · 2 BOTOL RM 286 (10% OFF vs RM 318) · 3 BOTOL RM 405 (15% OFF vs RM 477)' : '1 BOTTLE · 2B RM 286 (10% OFF vs RM 318) · 3B RM 405 (15% OFF vs RM 477)'}
             </span>
             <span style="font-size:0.76rem;color:var(--gold-champagne);">
               ${isMs ? 'Stok Sedia Ada · Kuala Lumpur' : 'In Stock · Kuala Lumpur Vault'}
@@ -1996,7 +1996,7 @@ function renderMultiBottleAcquisitionSection(lang = 'en-MY', primarySlug = 'hors
 
   return `
   <!-- ==========================================================================
-       MULTI-BOTTLE PROTOCOL ACQUISITION VAULT (RM 159 / RM 318 / RM 477)
+       MULTI-BOTTLE PROTOCOL ACQUISITION VAULT (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477))
        ========================================================================== -->
   <section
     id="botanical-protocol-acquisition-vault"
@@ -2016,8 +2016,8 @@ function renderMultiBottleAcquisitionSection(lang = 'en-MY', primarySlug = 'hors
           <h2 id="heading-botanical-acquisition-vault" class="editorial-headline-lg">
             ${
               isMs
-                ? 'Pilih Formulasi &amp; Kitaran Botol Anda: <span class="foil-champagne-text">RM 159 · RM 318 · RM 477.</span>'
-                : 'Acquire Your Standardized Botanical Protocol: <span class="foil-champagne-text">RM 159 · RM 318 · RM 477.</span>'
+                ? 'Pilih Formulasi &amp; Kitaran Botol Anda: <span class="foil-champagne-text">RM 159 · RM 286 (10% OFF vs RM 318) · RM 405 (15% OFF vs RM 477).</span>'
+                : 'Acquire Your Standardized Botanical Protocol: <span class="foil-champagne-text">RM 159 · RM 286 (10% OFF vs RM 318) · RM 405 (15% OFF vs RM 477).</span>'
             }
           </h2>
         </div>
@@ -2474,9 +2474,9 @@ export const SHARED_BOTANICAL_FAQS = [
   },
   {
     questionEn: 'How does the 10-Second Express Discreet Order Drawer work without exposing my privacy?',
-    answerEn: 'Clicking any "Acquire" or "Reserve" button on this monograph opens our encrypted Express Discreet Order Drawer. You simply select your formulation, choose 1 Bottle (RM 159), 2 Bottles (RM 318 — Free Nationwide Shipping), or 3 Bottles (RM 477), enter your recipient name or initials, delivery address, and preferred payment (FPX, DuitNow QR, or COD). Your order is routed straight to waleedshoaibofficial@gmail.com and sales@onyxmen.my with a 1-click WhatsApp confirmation link and automated refill calendar reminder.',
+    answerEn: 'Clicking any "Acquire" or "Reserve" button on this monograph opens our encrypted Express Discreet Order Drawer. You simply select your formulation, choose 1 Bottle (RM 159), 2 Bottles (RM 286 (10% OFF vs RM 318) — Free Nationwide Shipping), or 3 Bottles (RM 405 (15% OFF vs RM 477)), enter your recipient name or initials, delivery address, and preferred payment (FPX, DuitNow QR, or COD). Your order is routed straight to waleedshoaibofficial@gmail.com and sales@onyxmen.my with a 1-click WhatsApp confirmation link and automated refill calendar reminder.',
     questionMs: 'Bagaimanakah Laci Tempahan Ekspres Rahsia 10 Saat berfungsi untuk menjaga privasi saya?',
-    answerMs: 'Klik mana-mana butang tempahan pada halaman ini untuk membuka Laci Tempahan Ekspres Rahsia. Pilih formulasi pilihan anda, kuantiti 1 Botol (RM 159), 2 Botol (RM 318 — Pos Percuma Seluruh Malaysia), atau 3 Botol (RM 477), masukkan nama atau singkatan nama, alamat, dan kaedah bayaran (FPX, DuitNow QR, atau COD). Pesanan dihantar terus ke waleedshoaibofficial@gmail.com dan sales@onyxmen.my bersama pautan pengesahan WhatsApp serta peringatan kalendar automatik.',
+    answerMs: 'Klik mana-mana butang tempahan pada halaman ini untuk membuka Laci Tempahan Ekspres Rahsia. Pilih formulasi pilihan anda, kuantiti 1 Botol (RM 159), 2 Botol (RM 286 (10% OFF vs RM 318) — Pos Percuma Seluruh Malaysia), atau 3 Botol (RM 405 (15% OFF vs RM 477)), masukkan nama atau singkatan nama, alamat, dan kaedah bayaran (FPX, DuitNow QR, atau COD). Pesanan dihantar terus ke waleedshoaibofficial@gmail.com dan sales@onyxmen.my bersama pautan pengesahan WhatsApp serta peringatan kalendar automatik.',
   },
 ];
 
@@ -2582,7 +2582,7 @@ export function renderIndividualMonographPage(dossier, lang = 'en-MY') {
                 data-order-product="${esc(ad.productSlug)}"
                 data-order-qty="2"
               >
-                <span>${isMs ? `Tempah 2 Botol · RM 318` : `Acquire 2 Bottles · RM 318`}</span>
+                <span>${isMs ? `Tempah 2 Botol · RM 286 (10% OFF vs RM 318)` : `Acquire 2 Bottles · RM 286 (10% OFF vs RM 318)`}</span>
               </button>
               <button
                 type="button"
@@ -2591,7 +2591,7 @@ export function renderIndividualMonographPage(dossier, lang = 'en-MY') {
                 data-order-product="${esc(ad.productSlug)}"
                 data-order-qty="3"
               >
-                <span>${isMs ? `Pakej 3 Botol · RM 477` : `3-Bottle Vault · RM 477`}</span>
+                <span>${isMs ? `Pakej 3 Botol · RM 405 (15% OFF vs RM 477)` : `3-Bottle Vault · RM 405 (15% OFF vs RM 477)`}</span>
               </button>
               <a href="${esc(prodHref)}" class="cta-hairline-secondary">
                 <span>${isMs ? 'Lihat Botol →' : 'Inspect Bottle →'}</span>
@@ -2756,7 +2756,7 @@ export function renderIndividualMonographPage(dossier, lang = 'en-MY') {
             data-order-product="${esc(dossier.primaryProductSlug)}"
             data-order-qty="2"
           >
-            <span>${isMs ? 'PAKEJ 2 BOTOL (POS PERCUMA) · RM 318' : '2-BOTTLE PROTOCOL (FREE MY SHIPPING) · RM 318'}</span>
+            <span>${isMs ? 'PAKEJ 2 BOTOL (POS PERCUMA) · RM 286 (10% OFF vs RM 318)' : '2-BOTTLE PROTOCOL (FREE MY SHIPPING) · RM 286 (10% OFF vs RM 318)'}</span>
           </button>
 
           <a href="#monograph-bottle-dosages" class="cta-hairline-secondary">
@@ -2826,7 +2826,7 @@ export function renderIndividualMonographPage(dossier, lang = 'en-MY') {
         <span class="botanical-cinema-hero__telemetry-key">
           ${isMs ? '04 · HARGA RASMI MALAYSIA' : '04 · OFFICIAL MALAYSIA RESERVE'}
         </span>
-        <span class="botanical-cinema-hero__telemetry-val">RM 159 / RM 318 / RM 477</span>
+        <span class="botanical-cinema-hero__telemetry-val">RM 159 / RM 286 (10% OFF vs RM 318) / RM 477</span>
         <span class="botanical-cinema-hero__telemetry-sub">
           ${isMs ? '100% Bungkusan Rahsia · FPX, DuitNow QR &amp; COD' : '100% Unmarked Parcel · FPX, DuitNow QR &amp; COD'}
         </span>
@@ -2974,8 +2974,8 @@ export function renderIndividualMonographPage(dossier, lang = 'en-MY') {
           <span class="editorial-kicker">
             ${
               isMs
-                ? 'PECAHAN DOS MENGIKUT BOTOL · RM 159 / RM 318 / RM 477'
-                : 'FORMULATION-BY-FORMULATION DOSAGE ARCHITECTURE · RM 159 / RM 318 / RM 477'
+                ? 'PECAHAN DOS MENGIKUT BOTOL · RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)'
+                : 'FORMULATION-BY-FORMULATION DOSAGE ARCHITECTURE · RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)'
             }
           </span>
           <h2 id="heading-monograph-bottle-dosages" class="editorial-headline-lg">

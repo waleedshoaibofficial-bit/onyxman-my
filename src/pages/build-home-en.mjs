@@ -15,7 +15,7 @@
  *   * ZERO banned tokens, ZERO pill badges, ZERO bordered 3-column card grids
  * - Authentic Business Constants:
  *   * Brand: Onyxmen (https://www.onyxmen.my/) | Alternate BM: https://www.onyxmen.my/ms/
- *   * Prices: 1 Bottle = RM 159 (159.00), 2 Bottles = RM 318 (318.00), 3 Bottles = RM 477 (477.00)
+ *   * Prices: 1 Bottle = RM 159 (159.00), 2 Bottles = RM 286 (10% OFF vs RM 318) (318.00), 3 Bottles = RM 405 (15% OFF vs RM 477) (477.00)
  *   * Emails: waleedshoaibofficial@gmail.com, sales@onyxmen.my, info@onyxmen.my
  *   * Zero fake KKM/MAL registration claims
  * ============================================================================
@@ -66,7 +66,7 @@ export const HOMEPAGE_EN_FAQS = [
     questionEn:
       'What is the official Malaysia price for Horsemen, Hammer of Thor, Grow XL, and Magnum Pump XR on Onyxmen.my?',
     answerEn:
-      'Every authentic Onyxmen formulation shares a uniform, transparent Malaysian Ringgit reserve structure so you can select strictly by physiological objective rather than price differences: 1 Bottle (Single Cycle Reserve) is RM 159 (159.00 MYR), 2 Bottles (Dual Momentum Protocol with Free Nationwide Malaysia Express Shipping including Sabah, Sarawak & Labuan) is RM 318 (318.00 MYR), and 3 Bottles (Complete 90-Day Apothecary Mastery Vault with Priority Dispatch & VIP Refill Concierge) is RM 477 (477.00 MYR).',
+      'Every authentic Onyxmen formulation shares a uniform, transparent Malaysian Ringgit reserve structure so you can select strictly by physiological objective rather than price differences: 1 Bottle (Single Cycle Reserve) is RM 159 (159.00 MYR), 2 Bottles (Dual Momentum Protocol with Free Nationwide Malaysia Express Shipping including Sabah, Sarawak & Labuan) is RM 286 (10% OFF vs RM 318) (318.00 MYR), and 3 Bottles (Complete 90-Day Apothecary Mastery Vault with Priority Dispatch & VIP Refill Concierge) is RM 405 (15% OFF vs RM 477) (477.00 MYR).',
   },
   {
     id: 'faq-home-02',
@@ -90,7 +90,7 @@ export const HOMEPAGE_EN_FAQS = [
     questionEn:
       'How fast is delivery to Kuala Lumpur, Selangor, Peninsular Malaysia, and Sabah & Sarawak?',
     answerEn:
-      'Because our primary climate-controlled dispatch vault operates in Kuala Lumpur (50450 MY), orders confirmed before 16:00 MYT across Kuala Lumpur, Selangor (Petaling Jaya, Subang Jaya, Shah Alam, Puchong, Klang), Putrajaya, and Cyberjaya qualify for either our 3–5 Hour Same-Day Private Discreet Runner or Free Next-Business-Day Express Courier. Across Peninsular Malaysia (Johor Bahru, Penang, Ipoh, Melaka, Seremban, Kuantan, Alor Setar, Kota Bharu, Kuala Terengganu, Kangar), express linehaul courier transit takes 1–2 business days (RM 0 Free Shipping on 1, 2, or 3 bottles). For East Malaysia (Kota Kinabalu, Sandakan, Tawau, Kuching, Miri, Sibu, Bintulu, and Labuan), daily air freight takes 2–4 business days (RM 12 for 1 bottle, or 100% Free Air Freight on 2-bottle RM 318 and 3-bottle RM 477 orders).',
+      'Because our primary climate-controlled dispatch vault operates in Kuala Lumpur (50450 MY), orders confirmed before 16:00 MYT across Kuala Lumpur, Selangor (Petaling Jaya, Subang Jaya, Shah Alam, Puchong, Klang), Putrajaya, and Cyberjaya qualify for either our 3–5 Hour Same-Day Private Discreet Runner or Free Next-Business-Day Express Courier. Across Peninsular Malaysia (Johor Bahru, Penang, Ipoh, Melaka, Seremban, Kuantan, Alor Setar, Kota Bharu, Kuala Terengganu, Kangar), express linehaul courier transit takes 1–2 business days (RM 0 Free Shipping on 1, 2, or 3 bottles). For East Malaysia (Kota Kinabalu, Sandakan, Tawau, Kuching, Miri, Sibu, Bintulu, and Labuan), daily air freight takes 2–4 business days (RM 12 for 1 bottle, or 100% Free Air Freight on 2-bottle RM 286 (10% OFF vs RM 318) and 3-bottle RM 405 (15% OFF vs RM 477) orders).',
   },
   {
     id: 'faq-home-05',
@@ -114,7 +114,7 @@ export const HOMEPAGE_EN_FAQS = [
     questionEn:
       'Are Onyxmen formulations prescription drugs, and how do I avoid counterfeit marketplace imitations?',
     answerEn:
-      'Onyxmen formulations are traditional botanical and amino-acid dietary supplements formulated exclusively for adult men (18+) to support physical stamina, peripheral micro-circulation, and daily vitality. We never print fabricated medical registration codes, never make unrealistic surgical claims, and screen every batch against undeclared synthetic PDE5 adulterants and heavy metals (Pb, As, Hg, Cd). To avoid cheap starch-filled counterfeits or heat-degraded classifieds stock, reserve exclusively through https://www.onyxmen.my at the official RM 159 / RM 318 / RM 477 tariff backed by our Kuala Lumpur desk (sales@onyxmen.my / waleedshoaibofficial@gmail.com).',
+      'Onyxmen formulations are traditional botanical and amino-acid dietary supplements formulated exclusively for adult men (18+) to support physical stamina, peripheral micro-circulation, and daily vitality. We never print fabricated medical registration codes, never make unrealistic surgical claims, and screen every batch against undeclared synthetic PDE5 adulterants and heavy metals (Pb, As, Hg, Cd). To avoid cheap starch-filled counterfeits or heat-degraded classifieds stock, reserve exclusively through https://www.onyxmen.my at the official RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477) tariff backed by our Kuala Lumpur desk (sales@onyxmen.my / waleedshoaibofficial@gmail.com).',
   },
   {
     id: 'faq-home-08',
@@ -144,9 +144,9 @@ export const HOMEPAGE_EN_FAQS = [
     id: 'faq-home-11',
     category: 'MULTI-BOTTLE STACKING',
     questionEn:
-      'Can I combine two different formulations in a 2-Bottle (RM 318) or 3-Bottle (RM 477) protocol?',
+      'Can I combine two different formulations in a 2-Bottle (RM 286 (10% OFF vs RM 318)) or 3-Bottle (RM 405 (15% OFF vs RM 477)) protocol?',
     answerEn:
-      'Yes. Many experienced Malaysian clients combine a morning baseline bottle of Grow XL (1 capsule after breakfast) with an evening or pre-gym bottle of Horsemen or Magnum Pump XR at the RM 318 (2-Bottle) or RM 477 (3-Bottle) tier. Simply select the 2-Bottle or 3-Bottle tier in the Express Order Drawer and mention your preferred bottle combination in the delivery address/notes field, or reply to our concierge confirmation from sales@onyxmen.my.',
+      'Yes. Many experienced Malaysian clients combine a morning baseline bottle of Grow XL (1 capsule after breakfast) with an evening or pre-gym bottle of Horsemen or Magnum Pump XR at the RM 286 (10% OFF vs RM 318) (2-Bottle) or RM 405 (15% OFF vs RM 477) (3-Bottle) tier. Simply select the 2-Bottle or 3-Bottle tier in the Express Order Drawer and mention your preferred bottle combination in the delivery address/notes field, or reply to our concierge confirmation from sales@onyxmen.my.',
   },
   {
     id: 'faq-home-12',
@@ -1013,7 +1013,7 @@ function renderMs079HeroStage() {
         Formulated exclusively for adult men (18+) across Malaysia demanding pharmaceutical-grade botanical standardization without synthetic stimulants, caffeine crashes, or undeclared chemicals. Every bottle is climate-stored in our Kuala Lumpur vault and dispatched in a 100% plain, unmarked security parcel labeled <strong>"OM Fulfilment Logistics"</strong>.
       </p>
 
-      <!-- Live MYR Official Reserve Ledger (RM 159 / RM 318 / RM 477) -->
+      <!-- Live MYR Official Reserve Ledger (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)) -->
       <div class="home-hero-cinema__tariff-strip" role="region" aria-label="Official Malaysia MYR Reserve Pricing">
         <div class="home-hero-cinema__tariff-node">
           <span class="home-hero-cinema__tariff-eyebrow">TIER 01 · SINGLE CYCLE RESERVE</span>
@@ -1022,12 +1022,12 @@ function renderMs079HeroStage() {
         </div>
         <div class="home-hero-cinema__tariff-node">
           <span class="home-hero-cinema__tariff-eyebrow">TIER 02 · DUAL MOMENTUM PROTOCOL</span>
-          <strong class="home-hero-cinema__tariff-figure">RM 318 <span style="font-size:0.9rem;color:#B8B3A8;">(318.00 MYR)</span></strong>
+          <strong class="home-hero-cinema__tariff-figure">RM 286 (10% OFF vs RM 318) <span style="font-size:0.9rem;color:#B8B3A8;">(318.00 MYR)</span></strong>
           <span class="home-hero-cinema__tariff-note">2 Bottles · Free Nationwide Shipping incl. Sabah &amp; Sarawak</span>
         </div>
         <div class="home-hero-cinema__tariff-node">
           <span class="home-hero-cinema__tariff-eyebrow">TIER 03 · 90-DAY MASTERY VAULT</span>
-          <strong class="home-hero-cinema__tariff-figure">RM 477 <span style="font-size:0.9rem;color:#B8B3A8;">(477.00 MYR)</span></strong>
+          <strong class="home-hero-cinema__tariff-figure">RM 405 (15% OFF vs RM 477) <span style="font-size:0.9rem;color:#B8B3A8;">(477.00 MYR)</span></strong>
           <span class="home-hero-cinema__tariff-note">3 Bottles · Priority Plain-Box Dispatch + VIP Refill Desk</span>
         </div>
       </div>
@@ -1397,10 +1397,10 @@ function renderProductCinemaChapter(product, config) {
           </div>
         </div>
 
-        <!-- 1 / 2 / 3 Bottle Tier Selector Strip (RM 159 / RM 318 / RM 477) -->
+        <!-- 1 / 2 / 3 Bottle Tier Selector Strip (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)) -->
         <div>
           <h3 class="product-cinema-chapter__subheading">
-            SELECT ${esc(product.name.toUpperCase())} RESERVE TIER (UNIFORM MALAYSIA TARIFF: RM 159 / RM 318 / RM 477)
+            SELECT ${esc(product.name.toUpperCase())} RESERVE TIER (UNIFORM MALAYSIA TARIFF: RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477))
           </h3>
           <div class="tier-strip-group" role="group" aria-label="${esc(product.name)} Multi-Bottle Tier Selector">
             ${tiersHtml}
@@ -1464,7 +1464,7 @@ function renderMs081DiagnosticSelector() {
       </div>
       <div style="flex:1 1 440px;">
         <p style="color:#B8B3A8;font-size:0.98rem;line-height:1.7;">
-          Because all four Onyxmen formulations are priced identically at <strong>RM 159 (1 Bottle)</strong>, <strong>RM 318 (2 Bottles)</strong>, and <strong>RM 477 (3 Bottles)</strong>, your selection depends purely on your primary physiological goal, capsule shell preference, and intake timing. Select your primary objective below to calibrate your protocol:
+          Because all four Onyxmen formulations are priced identically at <strong>RM 159 (1 Bottle)</strong>, <strong>RM 286 (10% OFF vs RM 318) (2 Bottles)</strong>, and <strong>RM 405 (15% OFF vs RM 477) (3 Bottles)</strong>, your selection depends purely on your primary physiological goal, capsule shell preference, and intake timing. Select your primary objective below to calibrate your protocol:
         </p>
       </div>
     </div>
@@ -1574,12 +1574,12 @@ function renderMs081DiagnosticSelector() {
           <div class="architectural-ledger__row" style="padding:0.95rem 0;">
             <span class="architectural-ledger__index">DUAL</span>
             <span class="architectural-ledger__title" style="font-size:1.1rem;">2 Bottles Dual Momentum (Free Nationwide MY Shipping)</span>
-            <span class="architectural-ledger__metric">RM 318 (318.00 MYR)</span>
+            <span class="architectural-ledger__metric">RM 286 (10% OFF vs RM 318) (318.00 MYR)</span>
           </div>
           <div class="architectural-ledger__row" style="padding:0.95rem 0;">
             <span class="architectural-ledger__index">VAULT</span>
             <span class="architectural-ledger__title" style="font-size:1.1rem;">3 Bottles 90-Day Mastery Vault + Priority Concierge</span>
-            <span class="architectural-ledger__metric">RM 477 (477.00 MYR)</span>
+            <span class="architectural-ledger__metric">RM 405 (15% OFF vs RM 477) (477.00 MYR)</span>
           </div>
         </div>
 
@@ -1827,7 +1827,7 @@ function renderMs082BotanicalMonographCurtain() {
         data-order-product="horsemen"
         data-order-qty="2"
       >
-        <span>ACQUIRE 2-BOTTLE BOTANICAL PROTOCOL · RM 318 →</span>
+        <span>ACQUIRE 2-BOTTLE BOTANICAL PROTOCOL · RM 286 (10% OFF vs RM 318) →</span>
       </button>
     </div>
   </div>
@@ -2125,7 +2125,7 @@ function renderMs084Malaysia16StatesLedger() {
         <span class="architectural-ledger__index">ZONE 03 · EAST MY</span>
         <h3 class="architectural-ledger__title">Sabah, Sarawak &amp; WP Labuan Discreet Air Freight</h3>
         <p class="architectural-ledger__detail">
-          Daily air cargo dispatch from KLIA to <strong>Kota Kinabalu, Sandakan, Tawau, Kuching, Miri, Sibu, Bintulu, and Labuan</strong>. Double-sealed in opaque tamper-evident pouches declared as "Personal Nutritional Wellness". RM 12 on 1 bottle, or <strong>RM 0 FREE Air Freight on 2-Bottle (RM 318) &amp; 3-Bottle (RM 477) orders</strong>.
+          Daily air cargo dispatch from KLIA to <strong>Kota Kinabalu, Sandakan, Tawau, Kuching, Miri, Sibu, Bintulu, and Labuan</strong>. Double-sealed in opaque tamper-evident pouches declared as "Personal Nutritional Wellness". RM 12 on 1 bottle, or <strong>RM 0 FREE Air Freight on 2-Bottle (RM 286 (10% OFF vs RM 318)) &amp; 3-Bottle (RM 405 (15% OFF vs RM 477)) orders</strong>.
         </p>
         <span class="architectural-ledger__metric">2–4 DAYS · FREE ON 2+ BOTTLES</span>
       </div>
@@ -2196,12 +2196,12 @@ function renderMs085AntiCounterfeitAndPrivacy() {
           Unverified online classifieds and street stalls frequently circulate counterfeit capsules filled with raw starch or heat-degraded grey-market bottles. Every bottle dispatched by <strong>https://www.onyxmen.my</strong> passes our 5-Point Kuala Lumpur Vault Verification Protocol.
         </p>
         <div style="display:flex;flex-wrap:wrap;gap:0.85rem;">
-          <a href="/guides/how-to-verify-authentic-onyxman-bottles-malaysia/" class="cta-foil-primary">
+          <a href="/guides/authentic-onyxman-bottle-verification-malaysia/" class="cta-foil-primary">
             <span>5-POINT AUTHENTICITY CHECKLIST</span>
             <span aria-hidden="true">→</span>
           </a>
           <a href="/guides/" class="cta-hairline-secondary">
-            <span>ALL 6 BUYER &amp; PROTOCOL GUIDES (/guides/) →</span>
+            <span>ALL 14 BUYER &amp; PROTOCOL GUIDES (/guides/) →</span>
           </a>
         </div>
       </div>
@@ -2211,11 +2211,11 @@ function renderMs085AntiCounterfeitAndPrivacy() {
     <div class="architectural-ledger" role="list" aria-label="5-Point Anti-Counterfeit and Privacy Architecture">
       <div class="architectural-ledger__row" role="listitem">
         <span class="architectural-ledger__index">VERIFY · 01</span>
-        <h3 class="architectural-ledger__title">Official Uniform MYR Tariff (RM 159 / RM 318 / RM 477)</h3>
+        <h3 class="architectural-ledger__title">Official Uniform MYR Tariff (RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477))</h3>
         <p class="architectural-ledger__detail">
-          Authentic Onyxmen Malaysia formulations never sell for "RM 25–RM 45 clearance prices" on unverified marketplaces. Official pricing across Malaysia is strictly <strong>RM 159.00 (1 Bottle)</strong>, <strong>RM 318.00 (2 Bottles)</strong>, and <strong>RM 477.00 (3 Bottles)</strong>.
+          Authentic Onyxmen Malaysia formulations never sell for "RM 25–RM 45 clearance prices" on unverified marketplaces. Official pricing across Malaysia is strictly <strong>RM 159.00 (1 Bottle)</strong>, <strong>RM 286 (10% OFF vs RM 318) (2 Bottles)</strong>, and <strong>RM 405 (15% OFF vs RM 477) (3 Bottles)</strong>.
         </p>
-        <span class="architectural-ledger__metric">159.00 / 318.00 / 477.00 MYR</span>
+        <span class="architectural-ledger__metric">159.00 / 286.00 / 405.00 MYR</span>
       </div>
 
       <div class="architectural-ledger__row" role="listitem">
@@ -2348,7 +2348,7 @@ export function buildHomeEnPage() {
   const pageTitle =
     'Onyxmen Malaysia — Architectural Botanical Apothecary for Adult Men’s Vitality & Stamina | Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159)';
   const pageDescription =
-    'Official Onyxmen Malaysia (https://www.onyxmen.my) botanical apothecary for adult men: Horsemen (20 Caps x 500mg), Hammer of Thor (20 Veg. Caps Tribulus), Grow XL (30 Caps), and Magnum Pump XR (30 Black Caps Nitric Oxide). Uniform RM 159 (1B), RM 318 (2B), RM 477 (3B) pricing with 100% plain unmarked parcel delivery across all 16 Malaysia states (Same-Day Klang Valley, FPX, DuitNow QR & COD).';
+    'Official Onyxmen Malaysia (https://www.onyxmen.my) botanical apothecary for adult men: Horsemen (20 Caps x 500mg), Hammer of Thor (20 Veg. Caps Tribulus), Grow XL (30 Caps), and Magnum Pump XR (30 Black Caps Nitric Oxide). Uniform RM 159 (1B), RM 286 (10% OFF vs RM 318) (2B), RM 405 (15% OFF vs RM 477) (3B) pricing with 100% plain unmarked parcel delivery across all 16 Malaysia states (Same-Day Klang Valley, FPX, DuitNow QR & COD).';
 
   const chapterConfigs = [
     {

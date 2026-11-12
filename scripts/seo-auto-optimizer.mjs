@@ -384,6 +384,18 @@ function buildOptimalSerpMeta(route, rawTitle, rawDesc) {
       title: "Terma Perkhidmatan & Polisi Pemulangan Botol 14 Hari | Onyxmen MY",
       desc: "✓ Terma Perkhidmatan rasmi & Polisi Pemulangan Botol Belum Dibuka 14 Hari Onyxmen Malaysia: pematuhan suplemen lelaki dewasa 18+ & harga rasmi RM 159 / 286.",
     },
+    "/404.html": {
+      title: "404 Route Not Found — Official Onyxmen Malaysia Catalog | RM 159",
+      desc: "✓ The requested Onyxmen Malaysia URL could not be located. Browse 100% Original Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR (RM 159 · Buy 2 RM 286 COD).",
+    },
+    "/seo-dashboard/": {
+      title: "Onyxmen Malaysia Live SEO, Indexing & Order Telemetry Command Hub",
+      desc: "✓ Real-time Onyxmen Malaysia organic search indexing, 116 bilingual canonical URLs, JSON-LD @graph verification & Express COD/FPX order telemetry command hub.",
+    },
+    "/ms/seo-dashboard/": {
+      title: "Pusat Kawalan Telemetri SEO, Indeks & Pesanan Langsung | Onyxmen",
+      desc: "✓ Papan pemuka telemetri masa nyata Onyxmen Malaysia: status pengindeksan Google 116 URL kanonik dwibahasa, pengesahan skema JSON-LD & pesanan COD/FPX.",
+    },
   };
   if (explicit[route]) return explicit[route];
 
@@ -545,6 +557,7 @@ function main() {
     if (path.basename(file) === '404.html') continue;
     const relDir = path.relative(PUBLIC_DIR, path.dirname(file)).replace(/\\/g, '/');
     const routePath = path.basename(file) === '404.html' ? '/404.html' : relDir === '' ? '/' : `/${relDir}/`;
+    if (routePath === '/seo-dashboard/' || routePath === '/ms/seo-dashboard/') continue;
     if (productVaultOverrides[routePath]) {
       canonicalRouteSet.add(routePath);
       continue;
@@ -596,11 +609,14 @@ function main() {
           `<h1 class="editorial-headline">\n            ${vaultOverride.h1}\n          </h1>`
         );
       htmlModified = true;
-    } else if (canonicalRouteSet.has(routePath)) {
-      // MS-243: Optimize <title> (42-65 chars) and <meta name="description"> (120-162 chars) on all canonical pages
+    } else {
+      // Optimize <title> (40-68 chars) and <meta name="description"> (115-165 chars) on all canonical and alias pages
+      const lookupRoute = canonicalRouteSet.has(routePath)
+        ? routePath
+        : aliasToCanonicalMap.get(routePath) || routePath;
       const curTitle = (html.match(/<title>([\s\S]*?)<\/title>/i) || [])[1]?.trim() || '';
       const curDesc = (html.match(/<meta\s+name="description"\s+content="([^"]*)"/i) || [])[1]?.trim() || '';
-      const opt = buildOptimalSerpMeta(routePath, curTitle, curDesc);
+      const opt = buildOptimalSerpMeta(lookupRoute, curTitle, curDesc);
       const safeTitle = escapeAttr(opt.title);
       const safeDesc = escapeAttr(opt.desc);
       const nextHtml = html
@@ -614,6 +630,19 @@ function main() {
         html = nextHtml;
         htmlModified = true;
       }
+    }
+
+    // Enforce exact <meta name="robots"> directive: index, follow on 116 canonical pages; noindex, follow on all 190 non-canonical/alias/utility pages
+    const targetRobotsContent = canonicalRouteSet.has(routePath)
+      ? 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'
+      : 'noindex, follow';
+    const nextRobotsHtml = html.replace(
+      /<meta\s+name="robots"\s+content="[^"]*"\s*\/?>/i,
+      `<meta name="robots" content="${targetRobotsContent}" />`
+    );
+    if (nextRobotsHtml !== html) {
+      html = nextRobotsHtml;
+      htmlModified = true;
     }
 
     // MS-237: Rewrite internal <a href="/..."> and <link rel="alternate" hreflang="..."> pointing to alias URLs
@@ -694,7 +723,18 @@ function main() {
     if (html.includes('hreflang="en-MY"') && html.includes('hreflang="ms-MY"')) pagesWithHreflang++;
     if (html.includes('id="onyxman-critical-css"')) pagesWithCriticalCss++;
 
-    // MS-244: Enrich @graph JSON-LD with AggregateRating, Review, OfferShippingDetails, and MerchantReturnPolicy
+    const finalPageTitle = ((html.match(/<title>([\s\S]*?)<\/title>/i) || [])[1] || '')
+      .replace(/&amp;/g, '&')
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'")
+      .trim();
+    const finalPageDesc = ((html.match(/<meta\s+name="description"\s+content="([^"]*)"/i) || [])[1] || '')
+      .replace(/&amp;/g, '&')
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'")
+      .trim();
+
+    // MS-244: Enrich @graph JSON-LD with AggregateRating, Review, OfferShippingDetails, MerchantReturnPolicy, and synced WebPage/Offer/FAQ fields
     html = html.replace(
       /(<script[^>]*type="application\/ld\+json"[^>]*>)([\s\S]*?)(<\/script>)/gi,
       (fullMatch, openTag, jsonBody, closeTag) => {
@@ -741,6 +781,13 @@ function main() {
 
             const fixOffer = (off) => {
               if (!off || typeof off !== 'object') return;
+              if (off.price === '318.00' || off.price === 318) {
+                off.price = '286.00';
+                graphChanged = true;
+              } else if (off.price === '477.00' || off.price === 477) {
+                off.price = '405.00';
+                graphChanged = true;
+              }
               if (!off.validFrom) {
                 off.validFrom = '2026-01-01';
                 graphChanged = true;
@@ -800,8 +847,46 @@ function main() {
             totalJsonLdNodes += parsed['@graph'].length;
             for (const node of parsed['@graph']) {
               const types = Array.isArray(node['@type']) ? node['@type'] : [node['@type']];
+              if (
+                types.some((t) =>
+                  [
+                    'WebPage',
+                    'CollectionPage',
+                    'ItemPage',
+                    'AboutPage',
+                    'ContactPage',
+                    'ProfilePage',
+                    'SearchResultsPage',
+                  ].includes(t)
+                )
+              ) {
+                if (finalPageTitle && node.name !== finalPageTitle) {
+                  node.name = finalPageTitle;
+                  graphChanged = true;
+                }
+                if (finalPageDesc && node.description !== finalPageDesc) {
+                  node.description = finalPageDesc;
+                  graphChanged = true;
+                }
+              }
               if (types.includes('FAQPage') && Array.isArray(node.mainEntity)) {
                 totalFaqQuestionsIndexed += node.mainEntity.length;
+                for (const q of node.mainEntity) {
+                  if (q && q.acceptedAnswer && typeof q.acceptedAnswer.text === 'string') {
+                    let ans = q.acceptedAnswer.text;
+                    if (!ans.includes('286')) {
+                      const nextAns = ans
+                        .replace(/RM 318\.00/g, 'RM 286.00 (10% OFF vs RM 318.00)')
+                        .replace(/RM 477\.00/g, 'RM 405.00 (15% OFF vs RM 477.00)')
+                        .replace(/RM 318\b/g, 'RM 286 (10% OFF vs RM 318)')
+                        .replace(/RM 477\b/g, 'RM 405 (15% OFF vs RM 477)');
+                      if (nextAns !== ans) {
+                        q.acceptedAnswer.text = nextAns;
+                        graphChanged = true;
+                      }
+                    }
+                  }
+                }
               }
               if (types.includes('Product') || types.includes('DietarySupplement')) {
                 fixProduct(node, node.description);
@@ -943,18 +1028,31 @@ function main() {
     const smPath = path.join(PUBLIC_DIR, sm);
     if (!fs.existsSync(smPath)) continue;
     const rawXml = fs.readFileSync(smPath, 'utf8');
-    const filteredXml = rawXml.replace(/\s*<url>[\s\S]*?<\/url>/g, (urlBlock) => {
-      const locMatch = urlBlock.match(/<loc>([^<]+)<\/loc>/);
-      if (!locMatch) return urlBlock;
-      const locUrl = locMatch[1].trim();
-      const rel = locUrl.replace(`${DOMAIN_ORIGIN}/`, '').replace(/^\/+/, '');
-      const htmlPath = path.join(PUBLIC_DIR, rel, 'index.html');
-      if (!fs.existsSync(htmlPath)) return '';
-      const pageHtml = fs.readFileSync(htmlPath, 'utf8');
-      const canMatch = pageHtml.match(/<link\s+rel="canonical"\s+href="([^"]+)"/i);
-      const declaredCan = canMatch ? canMatch[1].trim() : locUrl;
-      return declaredCan === locUrl ? urlBlock : '';
-    });
+    const filteredXml = rawXml
+      .replace(/102 CANONICAL/g, '116 CANONICAL')
+      .replace(/51 URLS/g, '58 URLS')
+      .replace(/\s*<url>[\s\S]*?<\/url>/g, (urlBlock) => {
+        const locMatch = urlBlock.match(/<loc>([^<]+)<\/loc>/);
+        if (!locMatch) return urlBlock;
+        const locUrl = locMatch[1].trim();
+        const locRoute = locUrl.replace(DOMAIN_ORIGIN, '');
+        if (!canonicalRouteSet.has(locRoute)) return '';
+        const rel = locUrl.replace(`${DOMAIN_ORIGIN}/`, '').replace(/^\/+/, '');
+        const htmlPath = path.join(PUBLIC_DIR, rel, 'index.html');
+        if (!fs.existsSync(htmlPath)) return '';
+        const pageHtml = fs.readFileSync(htmlPath, 'utf8');
+        const canMatch = pageHtml.match(/<link\s+rel="canonical"\s+href="([^"]+)"/i);
+        const declaredCan = canMatch ? canMatch[1].trim() : locUrl;
+        if (declaredCan !== locUrl) return '';
+        return urlBlock.replace(
+          /(href="https:\/\/www\.onyxmen\.my)(\/[^"]*)(")/g,
+          (m, pre, rawP, suf) => {
+            const normP = rawP.endsWith('/') ? rawP : `${rawP}/`;
+            const targetCan = aliasToCanonicalMap.get(normP);
+            return targetCan ? `${pre}${targetCan}${suf}` : m;
+          }
+        );
+      });
     if (filteredXml !== rawXml) {
       fs.writeFileSync(smPath, filteredXml, 'utf8');
     }

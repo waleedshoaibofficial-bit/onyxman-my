@@ -2,7 +2,7 @@
   "microStep": "MS-043",
   "brand": "Onyxmen",
   "domain": "https://www.onyxmen.my",
-  "totalGuides": 6,
+  "totalGuides": 14,
   "hubRoutes": {
     "enPath": "/guides/",
     "msPath": "/ms/panduan/",
@@ -93,7 +93,7 @@
           "summary": "A 5-point inspection checklist to distinguish genuine climate-controlled Onyxmen Malaysia formulations (RM 159) from unverified street peddlers and adulterated imitations.",
           "sections": [
             {
-              "heading": "1. Official Uniform Pricing: RM 159 (1 Bottle) | RM 318 (2 Bottles) | RM 477 (3 Bottles)",
+              "heading": "1. Official Uniform Pricing: RM 159 (1 Bottle) | RM 286 (2 Bottles — 10% OFF vs RM 318) | RM 405 (3 Bottles — 15% OFF vs RM 477)",
               "body": "Genuine Onyxmen formulations distributed through https://www.onyxmen.my maintain strict, transparent Malaysian Ringgit pricing: RM 159.00 for a single bottle, RM 318.00 for the 2-bottle reserve, and RM 477.00 for the 3-bottle Mastery Vault. Listings offering suspiciously cheap 'RM 25–RM 45 clearance bottles' on unverified classifieds are almost universally counterfeit starch-filled capsules or expired stock exposed to tropical warehouse heat."
             },
             {
@@ -117,7 +117,7 @@
           "summary": "Senarai semak 5 perkara penting untuk membezakan stok tulen kawalan suhu Onyxmen Malaysia (RM 159) daripada kapsul tiruan yang merbahaya.",
           "sections": [
             {
-              "heading": "1. Harga Rasmi Seragam: RM 159 (1 Botol) | RM 318 (2 Botol) | RM 477 (3 Botol)",
+              "heading": "1. Harga Rasmi Seragam: RM 159 (1 Botol) | RM 286 (2 Botol — Diskaun 10% berbanding RM 318) | RM 405 (3 Botol — Diskaun 15% berbanding RM 477)",
               "body": "Semua formulasi tulen Onyxmen yang diedarkan melalui https://www.onyxmen.my mempunyai harga rasmi yang tetap dalam Ringgit Malaysia: RM 159.00 untuk 1 botol, RM 318.00 untuk pakej 2 botol, dan RM 477.00 untuk pakej lengkap 3 botol. Iklan yang menawarkan harga terlalu murah seperti 'RM 25–RM 45' di platform tidak sah lazimnya merupakan produk tiruan berisi tepung kanji atau stok rosak."
             },
             {

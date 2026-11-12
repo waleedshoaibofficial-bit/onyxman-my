@@ -667,14 +667,14 @@ export const EXTENDED_4_FORMULA_DIMENSIONS = [
     categoryMs: 'Harga & Logistik Rahsia',
     dimEn: 'Official Malaysia Pricing & Multi-Bottle Tiers',
     dimMs: 'Harga Rasmi Malaysia & Pakej Botol Berganda',
-    horsemenEn: '1 Bottle: RM 159.00 | 2 Bottles: RM 318.00 | 3 Bottles: RM 477.00',
-    horsemenMs: '1 Botol: RM 159.00 | 2 Botol: RM 318.00 | 3 Botol: RM 477.00',
-    hammerEn: '1 Bottle: RM 159.00 | 2 Bottles: RM 318.00 | 3 Bottles: RM 477.00',
-    hammerMs: '1 Botol: RM 159.00 | 2 Botol: RM 318.00 | 3 Botol: RM 477.00',
-    growEn: '1 Bottle: RM 159.00 | 2 Bottles: RM 318.00 | 3 Bottles: RM 477.00',
-    growMs: '1 Botol: RM 159.00 | 2 Botol: RM 318.00 | 3 Botol: RM 477.00',
-    magnumEn: '1 Bottle: RM 159.00 | 2 Bottles: RM 318.00 | 3 Bottles: RM 477.00',
-    magnumMs: '1 Botol: RM 159.00 | 2 Botol: RM 318.00 | 3 Botol: RM 477.00',
+    horsemenEn: '1 Bottle: RM 159.00 | 2 Bottles: RM 286 (10% OFF vs RM 318) | 3 Bottles: RM 405 (15% OFF vs RM 477)',
+    horsemenMs: '1 Botol: RM 159.00 | 2 Botol: RM 286 (10% OFF vs RM 318) | 3 Botol: RM 405 (15% OFF vs RM 477)',
+    hammerEn: '1 Bottle: RM 159.00 | 2 Bottles: RM 286 (10% OFF vs RM 318) | 3 Bottles: RM 405 (15% OFF vs RM 477)',
+    hammerMs: '1 Botol: RM 159.00 | 2 Botol: RM 286 (10% OFF vs RM 318) | 3 Botol: RM 405 (15% OFF vs RM 477)',
+    growEn: '1 Bottle: RM 159.00 | 2 Bottles: RM 286 (10% OFF vs RM 318) | 3 Bottles: RM 405 (15% OFF vs RM 477)',
+    growMs: '1 Botol: RM 159.00 | 2 Botol: RM 286 (10% OFF vs RM 318) | 3 Botol: RM 405 (15% OFF vs RM 477)',
+    magnumEn: '1 Bottle: RM 159.00 | 2 Bottles: RM 286 (10% OFF vs RM 318) | 3 Bottles: RM 405 (15% OFF vs RM 477)',
+    magnumMs: '1 Botol: RM 159.00 | 2 Botol: RM 286 (10% OFF vs RM 318) | 3 Botol: RM 405 (15% OFF vs RM 477)',
   },
   {
     code: 'DIM-11',
@@ -695,8 +695,8 @@ export const EXTENDED_4_FORMULA_DIMENSIONS = [
     code: 'DIM-12',
     categoryEn: 'Stacking & Compatibility',
     categoryMs: 'Keserasian Gabungan (Stacking)',
-    dimEn: 'Recommended Dual-Bottle AM/PM Pairing (RM 318 Tier)',
-    dimMs: 'Cadangan Gabungan Dwi-Botol Pagi/Malam (Pakej RM 318)',
+    dimEn: 'Recommended Dual-Bottle AM/PM Pairing (RM 286 (10% OFF vs RM 318) Tier)',
+    dimMs: 'Cadangan Gabungan Dwi-Botol Pagi/Malam (Pakej RM 286 (10% OFF vs RM 318))',
     horsemenEn: 'Pair Horsemen (PM Pre-Activity) + Grow XL (AM Daily Baseline)',
     horsemenMs: 'Gabungkan Horsemen (Malam) + Grow XL (Asas Pagi Harian)',
     hammerEn: 'Pair Hammer of Thor (Post-Dinner Vegetarian) + Magnum Pump XR (Pre-Gym)',
@@ -720,8 +720,8 @@ export const BUYER_ARCHETYPE_SCENARIOS = [
     profileMs: 'Waktu kerja panjang, tekanan mental tinggi, dan keletihan waktu malam yang memerlukan kapsul herba padat 45–60 minit sebelum aktiviti malam.',
     primarySlug: 'horsemen',
     secondarySlug: 'grow-xl',
-    verdictEn: 'Primary: Horsemen (20 Capsules x 500mg, RM 159) for rapid 100:1 Tongkat Ali + Epimedium evening readiness. Optional 2-Bottle Stack (RM 318): Add Grow XL in the morning.',
-    verdictMs: 'Utama: Horsemen (20 Kapsul x 500mg, RM 159) untuk kesediaan malam Tongkat Ali 100:1 + Epimedium. Pilihan Pakej 2 Botol (RM 318): Tambah Grow XL pada waktu pagi.',
+    verdictEn: 'Primary: Horsemen (20 Capsules x 500mg, RM 159) for rapid 100:1 Tongkat Ali + Epimedium evening readiness. Optional 2-Bottle Stack (RM 286 (10% OFF vs RM 318)): Add Grow XL in the morning.',
+    verdictMs: 'Utama: Horsemen (20 Kapsul x 500mg, RM 159) untuk kesediaan malam Tongkat Ali 100:1 + Epimedium. Pilihan Pakej 2 Botol (RM 286 (10% OFF vs RM 318)): Tambah Grow XL pada waktu pagi.',
   },
   {
     code: 'ARCH-02',
@@ -764,8 +764,8 @@ export const BUYER_ARCHETYPE_SCENARIOS = [
     profileMs: 'Kerap terbang atas urusan kerja antara Semenanjung dan Sabah/Sarawak; memerlukan botol kedap udara dan ketahanan terhadap kelesuan perjalanan.',
     primarySlug: 'horsemen',
     secondarySlug: 'hammer-of-thor',
-    verdictEn: 'Primary: Horsemen 2-Bottle Travel & Home Reserve (RM 318, 40 Capsules total) so one bottle stays in your briefcase and one at home.',
-    verdictMs: 'Utama: Pakej 2 Botol Horsemen (RM 318, jumlah 40 Kapsul) supaya satu botol disimpan di dalam beg kerja dan satu botol di rumah.',
+    verdictEn: 'Primary: Horsemen 2-Bottle Travel & Home Reserve (RM 286 (10% OFF vs RM 318), 40 Capsules total) so one bottle stays in your briefcase and one at home.',
+    verdictMs: 'Utama: Pakej 2 Botol Horsemen (RM 286 (10% OFF vs RM 318), jumlah 40 Kapsul) supaya satu botol disimpan di dalam beg kerja dan satu botol di rumah.',
   },
   {
     code: 'ARCH-06',
@@ -775,8 +775,8 @@ export const BUYER_ARCHETYPE_SCENARIOS = [
     profileMs: 'Lelaki dewasa berumur 40–65 tahun yang menginginkan pemulihan aliran mikro secara berperingkat, kecergasan pagi, dan keyakinan malam.',
     primarySlug: 'grow-xl',
     secondarySlug: 'magnum-pump-xr',
-    verdictEn: 'Primary: 3-Bottle Vault (RM 477) combining 2 bottles of Grow XL (60-day morning foundation) + 1 bottle of Magnum Pump XR or Horsemen.',
-    verdictMs: 'Utama: Pakej Lengkap 3 Botol (RM 477) menggabungkan 2 botol Grow XL (asas pagi 60 hari) + 1 botol Magnum Pump XR atau Horsemen.',
+    verdictEn: 'Primary: 3-Bottle Vault (RM 405 (15% OFF vs RM 477)) combining 2 bottles of Grow XL (60-day morning foundation) + 1 bottle of Magnum Pump XR or Horsemen.',
+    verdictMs: 'Utama: Pakej Lengkap 3 Botol (RM 405 (15% OFF vs RM 477)) menggabungkan 2 botol Grow XL (asas pagi 60 hari) + 1 botol Magnum Pump XR atau Horsemen.',
   },
 ];
 /**
@@ -911,7 +911,7 @@ function renderBotanicalPharmacologyLedger(productList, isMs) {
             ${isMs ? `Tempah 1 Botol ${prod.name} (RM 159)` : `Reserve 1 Bottle ${prod.name} (RM 159)`}
           </button>
           <button type="button" class="cmp-btn-outline" data-open-order-drawer data-product-slug="${esc(prod.slug)}" data-order-qty="2">
-            ${isMs ? `Pakej 2 Botol (RM 318)` : `2-Bottle Protocol (RM 318)`}
+            ${isMs ? `Pakej 2 Botol (RM 286 (10% OFF vs RM 318))` : `2-Bottle Protocol (RM 286 (10% OFF vs RM 318))`}
           </button>
         </div>
       </div>
@@ -973,8 +973,8 @@ function renderMaster4FormulaMatrixSection(isMs) {
       <p class="cmp-section-desc">
         ${
           isMs
-            ? 'Keempat-empat formulasi ditawarkan pada harga rasmi seragam RM 159.00 sebotol (RM 318 untuk 2 botol, RM 477 untuk 3 botol). Bandingkan 20 kapsul berbanding 30 kapsul di bawah.'
-            : 'All four formulations share a uniform RM 159.00 single-bottle reserve (RM 318 for 2 bottles, RM 477 for 3 bottles). Compare 20-capsule concentrated reserves against 30-capsule full-month protocols below.'
+            ? 'Keempat-empat formulasi ditawarkan pada harga rasmi seragam RM 159.00 sebotol (RM 286 (10% OFF vs RM 318) untuk 2 botol, RM 405 (15% OFF vs RM 477) untuk 3 botol). Bandingkan 20 kapsul berbanding 30 kapsul di bawah.'
+            : 'All four formulations share a uniform RM 159.00 single-bottle reserve (RM 286 (10% OFF vs RM 318) for 2 bottles, RM 405 (15% OFF vs RM 477) for 3 bottles). Compare 20-capsule concentrated reserves against 30-capsule full-month protocols below.'
         }
       </p>
     </div>
@@ -1021,8 +1021,8 @@ function renderInteractiveSelectorAndArchetypes(isMs) {
       <p class="cmp-section-desc" style="margin-top:0.65rem;">
         ${
           isMs
-            ? 'Klik mana-mana profil gaya hidup di bawah atau semak 6 senario pengguna Malaysia untuk melihat kombinasi 1 botol (RM 159), 2 botol (RM 318), atau 3 botol (RM 477) yang paling sesuai.'
-            : 'Select any physiological priority below or inspect the 6 Malaysian buyer archetypes to identify your optimal 1-bottle (RM 159), 2-bottle (RM 318), or 3-bottle (RM 477) reserve.'
+            ? 'Klik mana-mana profil gaya hidup di bawah atau semak 6 senario pengguna Malaysia untuk melihat kombinasi 1 botol (RM 159), 2 botol (RM 286 (10% OFF vs RM 318)), atau 3 botol (RM 405 (15% OFF vs RM 477)) yang paling sesuai.'
+            : 'Select any physiological priority below or inspect the 6 Malaysian buyer archetypes to identify your optimal 1-bottle (RM 159), 2-bottle (RM 286 (10% OFF vs RM 318)), or 3-bottle (RM 405 (15% OFF vs RM 477)) reserve.'
         }
       </p>
       <div class="cmp-quiz-row" role="group" aria-label="${isMs ? 'Pemilih Matlamat Fisiologi' : 'Physiological Goal Selector'}">
@@ -1080,7 +1080,7 @@ function renderInteractiveSelectorAndArchetypes(isMs) {
             ${isMs ? 'Tempah 1 Botol (RM 159)' : 'Reserve 1 Bottle (RM 159)'}
           </button>
           <button type="button" class="cmp-btn-outline" id="cmp-quiz-order-2btn" data-open-order-drawer data-product-slug="horsemen" data-order-qty="2">
-            ${isMs ? 'Tempah 2 Botol (RM 318)' : 'Reserve 2 Bottles (RM 318)'}
+            ${isMs ? 'Tempah 2 Botol (RM 286 (10% OFF vs RM 318))' : 'Reserve 2 Bottles (RM 286 (10% OFF vs RM 318))'}
           </button>
         </div>
       </div>
@@ -1094,8 +1094,8 @@ function renderInteractiveSelectorAndArchetypes(isMs) {
       <p class="cmp-section-desc">
         ${
           isMs
-            ? 'Anda boleh menggabungkan dua formulasi berbeza dalam pakej 2 botol (RM 318) atau 3 botol (RM 477)—contohnya Grow XL pada waktu pagi dan Horsemen atau Magnum Pump XR pada waktu malam.'
-            : 'You can mix two distinct formulations within any 2-bottle (RM 318) or 3-bottle (RM 477) reserve—such as pairing Grow XL in the morning with Horsemen or Magnum Pump XR in the evening.'
+            ? 'Anda boleh menggabungkan dua formulasi berbeza dalam pakej 2 botol (RM 286 (10% OFF vs RM 318)) atau 3 botol (RM 405 (15% OFF vs RM 477))—contohnya Grow XL pada waktu pagi dan Horsemen atau Magnum Pump XR pada waktu malam.'
+            : 'You can mix two distinct formulations within any 2-bottle (RM 286 (10% OFF vs RM 318)) or 3-bottle (RM 405 (15% OFF vs RM 477)) reserve—such as pairing Grow XL in the morning with Horsemen or Magnum Pump XR in the evening.'
         }
       </p>
     </div>
@@ -1116,7 +1116,7 @@ function renderInteractiveSelectorAndArchetypes(isMs) {
               ${isMs ? 'Tempah 1 Botol — RM 159' : 'Reserve 1 Bottle — RM 159'}
             </button>
             <button type="button" class="cmp-btn-outline" data-open-order-drawer data-product-slug="${esc(arch.primarySlug)}" data-order-qty="2">
-              ${isMs ? 'Pakej Dwi-Botol — RM 318' : '2-Bottle Stack — RM 318'}
+              ${isMs ? 'Pakej Dwi-Botol — RM 286 (10% OFF vs RM 318)' : '2-Bottle Stack — RM 286 (10% OFF vs RM 318)'}
             </button>
           </div>
         </div>
@@ -1176,8 +1176,8 @@ function renderMalaysiaLogisticsAndCrossLinks(isMs) {
       <p class="cmp-section-desc">
         ${
           isMs
-            ? 'Semua pesanan 1 botol (RM 159), 2 botol (RM 318), dan 3 botol (RM 477) dibungkus dalam kotak legap tanpa sebarang logo atau perkataan suplemen lelaki pada slip kurier.'
-            : 'Every 1-bottle (RM 159), 2-bottle (RM 318), and 3-bottle (RM 477) order ships inside a double-sealed opaque mailer with neutral sender billing ("OM Wellness Fulfillment PLT") and zero supplement labels.'
+            ? 'Semua pesanan 1 botol (RM 159), 2 botol (RM 286 (10% OFF vs RM 318)), dan 3 botol (RM 405 (15% OFF vs RM 477)) dibungkus dalam kotak legap tanpa sebarang logo atau perkataan suplemen lelaki pada slip kurier.'
+            : 'Every 1-bottle (RM 159), 2-bottle (RM 286 (10% OFF vs RM 318)), and 3-bottle (RM 405 (15% OFF vs RM 477)) order ships inside a double-sealed opaque mailer with neutral sender billing ("OM Wellness Fulfillment PLT") and zero supplement labels.'
         }
       </p>
     </div>
@@ -1315,11 +1315,11 @@ function buildComparisonPageHtml(config) {
           </div>
           <div class="cmp-spec-row">
             <span class="cmp-spec-key">${isMs ? '2 Botol (Boleh Campur Produk)' : '2 Bottles (Mix-and-Match Allowed)'}</span>
-            <span class="cmp-spec-val" style="color:var(--gold-foil-bright);font-weight:600;">RM 318.00 MYR</span>
+            <span class="cmp-spec-val" style="color:var(--gold-foil-bright);font-weight:600;">RM 286 (10% OFF vs RM 318) MYR</span>
           </div>
           <div class="cmp-spec-row">
             <span class="cmp-spec-key">${isMs ? '3 Botol (Pakej Lengkap VIP)' : '3 Bottles (Complete VIP Vault)'}</span>
-            <span class="cmp-spec-val" style="color:var(--gold-foil-bright);font-weight:600;">RM 477.00 MYR</span>
+            <span class="cmp-spec-val" style="color:var(--gold-foil-bright);font-weight:600;">RM 405 (15% OFF vs RM 477) MYR</span>
           </div>
         </div>
         <div class="cmp-wing-actions">
@@ -1379,7 +1379,7 @@ function buildComparisonPageHtml(config) {
         </div>
         <div class="cmp-spec-row">
           <span class="cmp-spec-key">${isMs ? 'Harga Rasmi Malaysia' : 'Official Malaysia Pricing'}</span>
-          <span class="cmp-spec-val" style="color:var(--gold-foil-bright);">1B: RM 159 | 2B: RM 318 | 3B: RM 477</span>
+          <span class="cmp-spec-val" style="color:var(--gold-foil-bright);">1B: RM 159 | 2B: RM 286 (10% OFF vs RM 318) | 3B: RM 477</span>
         </div>
       </div>
       <div class="cmp-wing-actions">
@@ -1416,7 +1416,7 @@ function buildComparisonPageHtml(config) {
         </div>
         <div class="cmp-spec-row">
           <span class="cmp-spec-key">${isMs ? 'Harga Rasmi Malaysia' : 'Official Malaysia Pricing'}</span>
-          <span class="cmp-spec-val" style="color:var(--gold-foil-bright);">1B: RM 159 | 2B: RM 318 | 3B: RM 477</span>
+          <span class="cmp-spec-val" style="color:var(--gold-foil-bright);">1B: RM 159 | 2B: RM 286 (10% OFF vs RM 318) | 3B: RM 477</span>
         </div>
       </div>
       <div class="cmp-wing-actions">

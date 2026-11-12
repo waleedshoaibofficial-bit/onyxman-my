@@ -660,7 +660,7 @@ export function renderExpressOrderDrawer(options = {}) {
       </a>
 
       <a
-        href="https://wa.me/60100000000"
+        href="https://wa.me/60142985919" data-wa-direct-trigger="drawer-receipt-reverse"
         target="_blank"
         rel="noopener noreferrer"
         class="cta-hairline-secondary concierge-drawer__action-link"
@@ -675,7 +675,7 @@ export function renderExpressOrderDrawer(options = {}) {
       </a>
 
       <a
-        href="https://wa.me/"
+        href="https://wa.me/60142985919" data-wa-direct-trigger="drawer-receipt-direct"
         target="_blank"
         rel="noopener noreferrer"
         class="cta-hairline-secondary concierge-drawer__action-link"

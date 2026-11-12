@@ -97,12 +97,19 @@ export function resolvePairedLocaleRoutes(canonicalPath = '/', locale = 'en-MY',
           .replace(/^\/ms\/produk\//, '/products/')
           .replace(/^\/ms\/perbandingan\//, '/compare/')
           .replace(/^\/ms\/ramuan-botani\//, '/ingredients/')
-          .replace(/^\/ms\/penghantaran-malaysia\//, '/malaysia-delivery/')
+          .replace(/^\/ms\/ingredients\//, '/ingredients/')
+          .replace(/^\/ms\/penghantaran-malaysia\//, '/malaysia/')
+          .replace(/^\/ms\/malaysia\//, '/malaysia/')
           .replace(/^\/ms\/panduan\//, '/guides/')
           .replace(/^\/ms\/tentang-kami\/$/, '/about/')
-          .replace(/^\/ms\/penghantaran-dan-bungkusan-rahsia\/$/, '/shipping-and-discreet-packaging/')
+          .replace(/^\/ms\/jaminan-ketulenan\/$/, '/authenticity-guarantee/')
+          .replace(/^\/ms\/penghantaran-rahsia\/$/, '/discreet-shipping/')
+          .replace(/^\/ms\/penghantaran-dan-bungkusan-rahsia\/$/, '/discreet-shipping/')
           .replace(/^\/ms\/hubungi-kami\/$/, '/contact/')
-          .replace(/^\/ms\/privasi-dan-terma\/$/, '/privacy-and-terms/')
+          .replace(/^\/ms\/polisi-privasi\/$/, '/privacy-policy/')
+          .replace(/^\/ms\/terma-perkhidmatan\/$/, '/terms-of-service/')
+          .replace(/^\/ms\/soalan-lazim\/$/, '/faq/')
+          .replace(/^\/ms\/privasi-dan-terma\/$/, '/privacy-policy/')
           .replace(/^\/ms\/$/, '/');
     } else {
       enHref = enHref || pathClean;
@@ -113,13 +120,19 @@ export function resolvePairedLocaleRoutes(canonicalPath = '/', locale = 'en-MY',
           : pathClean
               .replace(/^\/products\//, '/ms/produk/')
               .replace(/^\/compare\//, '/ms/perbandingan/')
-              .replace(/^\/ingredients\//, '/ms/ramuan-botani/')
-              .replace(/^\/malaysia-delivery\//, '/ms/penghantaran-malaysia/')
+              .replace(/^\/ingredients\//, '/ms/ingredients/')
+              .replace(/^\/malaysia-delivery\//, '/ms/malaysia/')
+              .replace(/^\/malaysia\//, '/ms/malaysia/')
               .replace(/^\/guides\//, '/ms/panduan/')
               .replace(/^\/about\/$/, '/ms/tentang-kami/')
-              .replace(/^\/shipping-and-discreet-packaging\/$/, '/ms/penghantaran-dan-bungkusan-rahsia/')
+              .replace(/^\/authenticity-guarantee\/$/, '/ms/jaminan-ketulenan/')
+              .replace(/^\/discreet-shipping\/$/, '/ms/penghantaran-rahsia/')
+              .replace(/^\/shipping-and-discreet-packaging\/$/, '/ms/penghantaran-rahsia/')
               .replace(/^\/contact\/$/, '/ms/hubungi-kami/')
-              .replace(/^\/privacy-and-terms\/$/, '/ms/privasi-dan-terma/'));
+              .replace(/^\/privacy-policy\/$/, '/ms/polisi-privasi/')
+              .replace(/^\/terms-of-service\/$/, '/ms/terma-perkhidmatan/')
+              .replace(/^\/faq\/$/, '/ms/soalan-lazim/')
+              .replace(/^\/privacy-and-terms\/$/, '/ms/polisi-privasi/'));
     }
   }
 

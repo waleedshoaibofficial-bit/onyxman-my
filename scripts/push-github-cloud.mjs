@@ -62,6 +62,30 @@ function collectSourceFiles(dir, relPrefix = '', list = []) {
 }
 
 function collectPublicStaticFiles(dir, relPrefix, list) {
+  const ROOT_PUBLIC_FILES = new Set([
+    '_headers',
+    '_redirects',
+    'indexnow-key.txt',
+    'favicon.ico',
+    'favicon-48x48.png',
+    'logo-512x512.png',
+    'apple-touch-icon.png',
+    'manifest.webmanifest',
+    'robots.txt',
+    'llms.txt',
+    'llms-full.txt',
+    'sitemap.xml',
+    'sitemap-index.xml',
+    'sitemap-en.xml',
+    'sitemap-ms.xml',
+    'sitemap-images.xml',
+    'feed.xml',
+    'rss.xml',
+    'google-merchant-feed.xml',
+    'google-merchant-feed-ms.xml',
+    'seo-health-status.json',
+    '404.html',
+  ]);
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const rel = `${relPrefix}/${entry.name}`;
     const full = path.join(dir, entry.name);
@@ -70,7 +94,7 @@ function collectPublicStaticFiles(dir, relPrefix, list) {
         collectSourceFiles(full, rel, list);
       }
     } else if (entry.isFile()) {
-      if (['_headers', '_redirects', 'indexnow-key.txt'].includes(entry.name)) {
+      if (ROOT_PUBLIC_FILES.has(entry.name)) {
         list.push({ rel, full });
       }
     }

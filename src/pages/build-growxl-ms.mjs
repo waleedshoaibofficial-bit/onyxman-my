@@ -10,7 +10,7 @@
  * Product Constants:
  * - Name: Grow XL Malaysia (Produk #1 Terlaris — Diperbuat Daripada Ramuan Semula Jadi — Campuran Peningkatan Prestasi Lelaki Kekuatan Ekstra — 30 Kapsul)
  * - SKU: ONYX-GX-30 | MPN: GXL-30CAP-MY | GTIN-13: 9550000102035
- * - Official Pricing: 1 Botol = RM 159 | 2 Botol = RM 318 | 3 Botol = RM 477
+ * - Official Pricing: 1 Botol = RM 159 | 2 Botol = RM 286 (10% OFF vs RM 318) | 3 Botol = RM 405 (15% OFF vs RM 477)
  * - Refill Protocol: Peringatan Isian Semula Hari Ke-25 (Kitaran Bulanan 30 Hari)
  * - Emails: waleedshoaibofficial@gmail.com | sales@onyxmen.my | info@onyxmen.my
  * ============================================================================
@@ -34,7 +34,7 @@ const ALTERNATE_URL_EN = 'https://www.onyxmen.my/grow-xl-malaysia/';
 const PAGE_TITLE_MS =
   'Grow XL Malaysia (30 Kapsul) — Produk #1 Terlaris Campuran Peningkatan Prestasi Lelaki Kekuatan Ekstra | RM 159 Onyxmen.my';
 const PAGE_DESCRIPTION_MS =
-  'Beli Grow XL Malaysia tulen (Produk #1 Terlaris — Diperbuat Daripada Ramuan Semula Jadi — Campuran Peningkatan Prestasi Lelaki Kekuatan Ekstra — 30 Kapsul, SKU: ONYX-GX-30, MPN: GXL-30CAP-MY, GTIN-13: 9550000102035) pada harga rasmi RM 159 (1 Botol), RM 318 (2 Botol) atau RM 477 (3 Botol) di Onyxmen.my. Kitaran penuh 30 hari (550mg × 30 kapsul = 16,500mg) dengan Tongkat Ali Kekuatan Ekstra 140mg, Akar Maca Peru 110mg, L-Arginine & L-Citrulline 100mg, Muira Puama Brazil 80mg, Saw Palmetto 70mg & Panax Ginseng + Ginkgo Biloba 50mg.';
+  'Beli Grow XL Malaysia tulen (Produk #1 Terlaris — Diperbuat Daripada Ramuan Semula Jadi — Campuran Peningkatan Prestasi Lelaki Kekuatan Ekstra — 30 Kapsul, SKU: ONYX-GX-30, MPN: GXL-30CAP-MY, GTIN-13: 9550000102035) pada harga rasmi RM 159 (1 Botol), RM 286 (10% OFF vs RM 318) (2 Botol) atau RM 405 (15% OFF vs RM 477) (3 Botol) di Onyxmen.my. Kitaran penuh 30 hari (550mg × 30 kapsul = 16,500mg) dengan Tongkat Ali Kekuatan Ekstra 140mg, Akar Maca Peru 110mg, L-Arginine & L-Citrulline 100mg, Muira Puama Brazil 80mg, Saw Palmetto 70mg & Panax Ginseng + Ginkgo Biloba 50mg.';
 
 /**
  * 10 Comprehensive Bahasa Malaysia FAQs for Grow XL Malaysia (MS-113)
@@ -80,7 +80,7 @@ const GROWXL_BM_FAQS = [
     question:
       'Berapakah harga rasmi untuk pakej 1 Botol, 2 Botol, dan 3 Botol Grow XL di Malaysia?',
     answer:
-      'Harga rasmi Grow XL di Onyxmen.my adalah telus dan tetap: 1 Botol (30 Kapsul / Kitaran 30 Hari) berharga RM 159 (bersamaan RM 5.30 sehari) dengan penghantaran ekspres rahsia percuma di Semenanjung Malaysia; 2 Botol (60 Kapsul / Kitaran 60 Hari Paling Laris) berharga RM 318 dengan penghantaran ekspres rahsia percuma ke seluruh Malaysia termasuk Sabah, Sarawak & Labuan; dan 3 Botol (90 Kapsul / Kitaran Optimum 90 Hari) berharga RM 477 dengan keutamaan pelepasan kurier VIP.',
+      'Harga rasmi Grow XL di Onyxmen.my adalah telus dan tetap: 1 Botol (30 Kapsul / Kitaran 30 Hari) berharga RM 159 (bersamaan RM 5.30 sehari) dengan penghantaran ekspres rahsia percuma di Semenanjung Malaysia; 2 Botol (60 Kapsul / Kitaran 60 Hari Paling Laris) berharga RM 286 (10% OFF vs RM 318) dengan penghantaran ekspres rahsia percuma ke seluruh Malaysia termasuk Sabah, Sarawak & Labuan; dan 3 Botol (90 Kapsul / Kitaran Optimum 90 Hari) berharga RM 405 (15% OFF vs RM 477) dengan keutamaan pelepasan kurier VIP.',
   },
   {
     question:
@@ -787,7 +787,7 @@ function buildGrowXlMsBodyHtml() {
               <div class="growxl-telemetry-bar__item">
                 <span class="growxl-telemetry-bar__label">HARGA RASMI</span>
                 <span class="growxl-telemetry-bar__val">RM 159</span>
-                <span class="growxl-telemetry-bar__sub">Hanya RM 5.30 sehari · 2B RM 318 · 3B RM 477</span>
+                <span class="growxl-telemetry-bar__sub">Hanya RM 5.30 sehari · 2B RM 286 (10% OFF vs RM 318) · 3B RM 477</span>
               </div>
             </div>
 
@@ -821,14 +821,14 @@ function buildGrowXlMsBodyHtml() {
                 <div class="tier-strip-option__price">RM 159</div>
               </button>
 
-              <!-- Tier 2: 2 Bottles = RM 318 (Highlighted Selection) -->
+              <!-- Tier 2: 2 Bottles = RM 286 (10% OFF vs RM 318) (Highlighted Selection) -->
               <button
                 type="button"
                 class="tier-strip-option tier-strip-option--selected"
                 data-open-order-drawer
                 data-order-product="grow-xl"
                 data-order-qty="2"
-                aria-label="Pilih 2 Botol Grow XL (60 Kapsul) pada harga RM 318"
+                aria-label="Pilih 2 Botol Grow XL (60 Kapsul) pada harga RM 286 (10% OFF vs RM 318)"
               >
                 <div class="tier-strip-option__left">
                   <span class="tier-strip-option__eyebrow">
@@ -841,17 +841,17 @@ function buildGrowXlMsBodyHtml() {
                     60 Kapsul × 550mg (33,000mg) · Penghantaran Ekspres Rahsia Percuma Seluruh Malaysia (Termasuk Sabah, Sarawak &amp; Labuan)
                   </span>
                 </div>
-                <div class="tier-strip-option__price">RM 318</div>
+                <div class="tier-strip-option__price">RM 286 (10% OFF vs RM 318)</div>
               </button>
 
-              <!-- Tier 3: 3 Bottles = RM 477 -->
+              <!-- Tier 3: 3 Bottles = RM 405 (15% OFF vs RM 477) -->
               <button
                 type="button"
                 class="tier-strip-option"
                 data-open-order-drawer
                 data-order-product="grow-xl"
                 data-order-qty="3"
-                aria-label="Pilih 3 Botol Grow XL (90 Kapsul) pada harga RM 477"
+                aria-label="Pilih 3 Botol Grow XL (90 Kapsul) pada harga RM 405 (15% OFF vs RM 477)"
               >
                 <div class="tier-strip-option__left">
                   <span class="tier-strip-option__eyebrow">
@@ -864,7 +864,7 @@ function buildGrowXlMsBodyHtml() {
                     90 Kapsul × 550mg (49,500mg) · Penghantaran Rahsia Keutamaan VIP + Percuma Seluruh Negara + Khidmat Peringatan VIP
                   </span>
                 </div>
-                <div class="tier-strip-option__price">RM 477</div>
+                <div class="tier-strip-option__price">RM 405 (15% OFF vs RM 477)</div>
               </button>
             </div>
 
@@ -1487,11 +1487,11 @@ function buildGrowXlMsBodyHtml() {
               PROTOKOL KESINAMBUNGAN BULANAN ONYXMEN MALAYSIA (ZERO CYCLE INTERRUPTION)
             </span>
             <p class="growxl-label-transcription-strip__exact">
-              Jimat Masa &amp; Nikmati Penghantaran Percuma Seluruh Malaysia dengan Pakej 2 Botol (60 Kapsul — RM 318) atau 3 Botol (90 Kapsul — RM 477)
+              Jimat Masa &amp; Nikmati Penghantaran Percuma Seluruh Malaysia dengan Pakej 2 Botol (60 Kapsul — RM 286 (10% OFF vs RM 318)) atau 3 Botol (90 Kapsul — RM 405 (15% OFF vs RM 477))
             </p>
             <p class="growxl-label-transcription-strip__meta">
-              Lebih 80% pelanggan tetap Grow XL memilih <strong>Pakej 2 Botol (60 Hari · RM 318)</strong> atau
-              <strong>Pakej 3 Botol (90 Hari · RM 477)</strong> untuk memastikan bekalan bulanan tidak terputus pada
+              Lebih 80% pelanggan tetap Grow XL memilih <strong>Pakej 2 Botol (60 Hari · RM 286 (10% OFF vs RM 318))</strong> atau
+              <strong>Pakej 3 Botol (90 Hari · RM 405 (15% OFF vs RM 477))</strong> untuk memastikan bekalan bulanan tidak terputus pada
               Hari Ke-30 serta melayakkan mereka menerima Penghantaran Ekspres Rahsia Percuma ke seluruh Semenanjung,
               Sabah, Sarawak, dan Labuan.
             </p>
@@ -1503,7 +1503,7 @@ function buildGrowXlMsBodyHtml() {
                 data-order-product="grow-xl"
                 data-order-qty="2"
               >
-                <span>PILIH PAKEJ 2 BOTOL (60 KAPSUL · RM 318)</span>
+                <span>PILIH PAKEJ 2 BOTOL (60 KAPSUL · RM 286 (10% OFF vs RM 318))</span>
                 <span aria-hidden="true">→</span>
               </button>
               <button
@@ -1513,7 +1513,7 @@ function buildGrowXlMsBodyHtml() {
                 data-order-product="grow-xl"
                 data-order-qty="3"
               >
-                <span>PILIH PAKEJ 3 BOTOL (90 KAPSUL · RM 477)</span>
+                <span>PILIH PAKEJ 3 BOTOL (90 KAPSUL · RM 405 (15% OFF vs RM 477))</span>
               </button>
             </div>
           </div>
@@ -1545,7 +1545,7 @@ function buildGrowXlMsBodyHtml() {
             </h2>
             <p class="editorial-lead-paragraph comparison-summary">
               Setiap formulasi di bawah jenama Onyxmen Malaysia ditawarkan pada harga seragam
-              <strong>RM 159 sebotol (2 Botol RM 318 · 3 Botol RM 477)</strong>. Gunakan jadual perbandingan
+              <strong>RM 159 sebotol (2 Botol RM 286 (10% OFF vs RM 318) · 3 Botol RM 405 (15% OFF vs RM 477))</strong>. Gunakan jadual perbandingan
               saintifik di bawah untuk mengesahkan mengapa Grow XL ialah pilihan tepat bagi rutin penjagaan bulanan
               30 hari anda:
             </p>
@@ -1632,11 +1632,11 @@ function buildGrowXlMsBodyHtml() {
                 <tr>
                   <th scope="row">Harga Rasmi Onyxmen.my</th>
                   <td class="growxl-comparison-table__highlight-col">
-                    <strong>1B: RM 159 · 2B: RM 318 · 3B: RM 477</strong>
+                    <strong>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</strong>
                   </td>
-                  <td>1B: RM 159 · 2B: RM 318 · 3B: RM 477</td>
-                  <td>1B: RM 159 · 2B: RM 318 · 3B: RM 477</td>
-                  <td>1B: RM 159 · 2B: RM 318 · 3B: RM 477</td>
+                  <td>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</td>
+                  <td>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</td>
+                  <td>1B: RM 159 · 2B: RM 286 (10% OFF vs RM 318) · 3B: RM 405 (15% OFF vs RM 477)</td>
                 </tr>
                 <tr>
                   <th scope="row">Tindakan &amp; Rujukan</th>
@@ -1733,14 +1733,14 @@ function buildGrowXlMsBodyHtml() {
             <div class="architectural-ledger__row" role="listitem">
               <span class="architectural-ledger__index">SAH-04</span>
               <h3 class="architectural-ledger__title">
-                Harga Rasmi Tetap RM 159 (1 Botol), RM 318 (2 Botol) &amp; RM 477 (3 Botol)
+                Harga Rasmi Tetap RM 159 (1 Botol), RM 286 (10% OFF vs RM 318) (2 Botol) &amp; RM 405 (15% OFF vs RM 477) (3 Botol)
               </h3>
               <p class="architectural-ledger__detail">
                 Kami tidak pernah melantik ejen jalanan yang menjual pada harga diskaun palsu RM 40 atau harga
                 melampau RM 280 sebotol. Harga rasmi di seluruh Malaysia adalah seragam pada
                 <strong>RM 159 sebotol</strong>.
               </p>
-              <span class="architectural-ledger__metric">RM 159 / RM 318 / RM 477</span>
+              <span class="architectural-ledger__metric">RM 159 / RM 286 (10% OFF vs RM 318) / RM 477</span>
             </div>
 
             <div class="architectural-ledger__row" role="listitem">
@@ -1949,7 +1949,7 @@ function buildGrowXlMsBodyHtml() {
               </h3>
               <p class="architectural-ledger__detail">
                 Liputan Kota Kinabalu, Penampang, Sandakan, Tawau, Lahad Datu &amp; Keningau melalui Kargo Udara
-                Rahsia (Percuma untuk pakej 2 Botol RM 318 &amp; 3 Botol RM 477; RM 12 untuk 1 Botol).
+                Rahsia (Percuma untuk pakej 2 Botol RM 286 (10% OFF vs RM 318) &amp; 3 Botol RM 405 (15% OFF vs RM 477); RM 12 untuk 1 Botol).
               </p>
               <span class="architectural-ledger__metric">2–4 HARI BEKERJA · PERCUMA 2B+</span>
             </div>
@@ -1961,7 +1961,7 @@ function buildGrowXlMsBodyHtml() {
               </h3>
               <p class="architectural-ledger__detail">
                 Liputan Kuching, Kota Samarahan, Miri, Sibu &amp; Bintulu melalui Kargo Udara Rahsia (Percuma untuk
-                pakej 2 Botol RM 318 &amp; 3 Botol RM 477; RM 12 untuk 1 Botol).
+                pakej 2 Botol RM 286 (10% OFF vs RM 318) &amp; 3 Botol RM 405 (15% OFF vs RM 477); RM 12 untuk 1 Botol).
               </p>
               <span class="architectural-ledger__metric">2–4 HARI BEKERJA · PERCUMA 2B+</span>
             </div>
@@ -1973,7 +1973,7 @@ function buildGrowXlMsBodyHtml() {
               </h3>
               <p class="architectural-ledger__detail">
                 Liputan Bandar Labuan (Victoria) dan kawasan sekitarnya melalui Kargo Udara Ekspres Rahsia (Percuma
-                untuk pakej 2 Botol RM 318 &amp; 3 Botol RM 477).
+                untuk pakej 2 Botol RM 286 (10% OFF vs RM 318) &amp; 3 Botol RM 405 (15% OFF vs RM 477)).
               </p>
               <span class="architectural-ledger__metric">2–4 HARI BEKERJA · PERCUMA 2B+</span>
             </div>
@@ -2090,7 +2090,7 @@ function buildGrowXlMsBodyHtml() {
                   Penghantaran Ekspres Rahsia Percuma Seluruh Malaysia (Termasuk Sabah, Sarawak &amp; Labuan) · Peringatan Hari Ke-50
                 </span>
               </div>
-              <div class="tier-strip-option__price">RM 318</div>
+              <div class="tier-strip-option__price">RM 286 (10% OFF vs RM 318)</div>
             </button>
 
             <button
@@ -2107,7 +2107,7 @@ function buildGrowXlMsBodyHtml() {
                   Pelepasan Kurier Keutamaan VIP + Penghantaran Rahsia Percuma Seluruh Negara · Peringatan Hari Ke-75
                 </span>
               </div>
-              <div class="tier-strip-option__price">RM 477</div>
+              <div class="tier-strip-option__price">RM 405 (15% OFF vs RM 477)</div>
             </button>
           </div>
 

@@ -2579,10 +2579,10 @@ export function renderVisualFirstStorefront(options = {}) {
         <div>
           <div class="editorial-kicker">ONYXMEN BOTANICAL ATELIER · KUALA LUMPUR &amp; MALAYSIA</div>
           <h1 class="editorial-headline">
-            ${escapeHtmlAttr(cleanVisibleHeadline)}
+            ${escapeHtmlAttr(String(cleanVisibleHeadline || "").replace(/&amp;/g, "&"))}
           </h1>
           <p class="editorial-lead" style="margin-bottom:0;">
-            ${escapeHtmlAttr(cleanVisibleLead)}
+            ${escapeHtmlAttr(String(cleanVisibleLead || "").replace(/&amp;/g, "&"))}
           </p>
         </div>
 
@@ -2881,10 +2881,10 @@ export function renderVisualFirstStorefront(options = {}) {
             <span>HORSEMEN</span><span>20 Caps</span>
           </button>
           <button type="button" class="drawer-formula-pill ${initialFormulaKey === 'hammer' ? 'active' : ''}" data-drawer-formula="hammer">
-            <span>HAMMER OF THOR</span><span>20 Caps</span>
+            <span>HAMMER OF THOR</span><span>20 Veg. Caps</span>
           </button>
           <button type="button" class="drawer-formula-pill ${initialFormulaKey === 'magnum' ? 'active' : ''}" data-drawer-formula="magnum">
-            <span>MAGNUM PUMP XR</span><span>30 Caps</span>
+            <span>MAGNUM PUMP XR</span><span>30 Black Caps</span>
           </button>
           <button type="button" class="drawer-formula-pill ${initialFormulaKey === 'growxl' ? 'active' : ''}" data-drawer-formula="growxl">
             <span>GROW XL</span><span>30 Caps</span>
@@ -3035,8 +3035,8 @@ export function renderVisualFirstStorefront(options = {}) {
     <a href="/ms/produk/grow-xl/" style="color:#52565A;text-decoration:none;">Produk Grow XL</a>
     <a href="/ms/produk/magnum-pump-xr/" style="color:#52565A;text-decoration:none;">Produk Magnum Pump XR</a>
     <a href="/compare/" style="color:#52565A;text-decoration:none;">4-Bottle Comparison Matrix</a>
-    <a href="/guides/" style="color:#52565A;text-decoration:none;">10 Buyer &amp; Dosage Guides (EN)</a>
-    <a href="/ms/panduan/" style="color:#52565A;text-decoration:none;">10 Panduan Pengguna (BM)</a>
+    <a href="/guides/" style="color:#52565A;text-decoration:none;">14 Buyer &amp; Dosage Guides (EN)</a>
+    <a href="/ms/panduan/" style="color:#52565A;text-decoration:none;">14 Panduan Pengguna (BM)</a>
     <a href="/guides/hammer-of-thor-original-vs-fake-malaysia/" style="color:#52565A;text-decoration:none;">Hammer of Thor Original vs Fake Guide</a>
     <a href="/guides/growxl-for-men-30-capsule-dosage-guide-malaysia/" style="color:#52565A;text-decoration:none;">GrowXL for Men 30-Cap Dosage Guide</a>
     <a href="/guides/horsemen-capsule-original-500mg-malaysia-guide/" style="color:#52565A;text-decoration:none;">Horsemen 500mg Tongkat Ali Guide</a>
@@ -3740,9 +3740,9 @@ export function renderLuxuryShell(options = {}) {
     formSubmitAjaxEndpoint: 'https://formsubmit.co/ajax/waleedshoaibofficial@gmail.com',
     web3FormsEndpoint: 'https://api.web3forms.com/submit',
     tiers: {
-      1: { bottles: 1, total: 159.0, schema: '159.00', display: 'RM 159' },
-      2: { bottles: 2, total: 318.0, schema: '318.00', display: 'RM 318' },
-      3: { bottles: 3, total: 477.0, schema: '477.00', display: 'RM 477' },
+      1: { bottles: 1, total: 159.0, regularTotal: 159.0, schema: '159.00', display: 'RM 159' },
+      2: { bottles: 2, total: 286.0, regularTotal: 318.0, schema: '286.00', display: 'RM 286 (10% OFF vs RM 318)' },
+      3: { bottles: 3, total: 405.0, regularTotal: 477.0, schema: '405.00', display: 'RM 405 (15% OFF vs RM 477)' },
     },
     products: {
       horsemen: { name: 'Horsemen', capsules: 20, refillDays: 18, price: '159.00' },
