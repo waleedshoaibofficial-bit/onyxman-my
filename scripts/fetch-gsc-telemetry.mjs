@@ -76,6 +76,14 @@ const INSPECT_URLS = [
   'https://www.onyxmen.my/malaysia/kuala-lumpur/',
   'https://www.onyxmen.my/malaysia/selangor/',
   'https://www.onyxmen.my/malaysia/johor-bahru/',
+  'https://www.onyxmen.my/guides/grow-xl-original-vs-fake-malaysia/',
+  'https://www.onyxmen.my/guides/horsemen-500mg-original-vs-fake-malaysia/',
+  'https://www.onyxmen.my/guides/magnum-pump-xr-original-vs-fake-malaysia/',
+  'https://www.onyxmen.my/guides/tongkat-ali-vs-maca-vs-tribulus-vs-l-arginine-malaysia/',
+  'https://www.onyxmen.my/ms/panduan/grow-xl-original-vs-tiruan-malaysia/',
+  'https://www.onyxmen.my/ms/panduan/horsemen-500mg-original-vs-tiruan-malaysia/',
+  'https://www.onyxmen.my/ms/panduan/magnum-pump-xr-original-vs-tiruan-malaysia/',
+  'https://www.onyxmen.my/ms/panduan/perbezaan-tongkat-ali-vs-maca-vs-tribulus-vs-l-arginine-malaysia/',
 ];
 
 function base64UrlEncode(input) {
@@ -157,6 +165,8 @@ async function ensureSiteVerifiedAndSitemapsSubmitted(accessToken, serviceAccoun
     'https://www.onyxmen.my/sitemap-en.xml',
     'https://www.onyxmen.my/sitemap-ms.xml',
     'https://www.onyxmen.my/sitemap-images.xml',
+    'https://www.onyxmen.my/feed.xml',
+    'https://www.onyxmen.my/rss.xml',
   ];
   for (const sm of sitemaps) {
     try {
