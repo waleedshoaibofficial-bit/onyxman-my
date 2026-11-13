@@ -47,6 +47,14 @@ const WELL_KNOWN_DIR = path.join(PUBLIC_DIR, '.well-known');
 const LASTMOD_DATE = '2026-11-05';
 const UPDATED_GUIDES_DATE = '2026-11-10';
 const WAVE2_GUIDES_DATE = '2026-11-11';
+const WAVE3_GUIDES_DATE = '2026-11-13';
+const WAVE3_GUIDE_ROUTES = new Set([
+  '/guides/', '/ms/panduan/',
+  '/guides/grow-xl-original-vs-fake-malaysia/', '/ms/panduan/grow-xl-original-vs-tiruan-malaysia/',
+  '/guides/horsemen-500mg-original-vs-fake-malaysia/', '/ms/panduan/horsemen-500mg-original-vs-tiruan-malaysia/',
+  '/guides/magnum-pump-xr-original-vs-fake-malaysia/', '/ms/panduan/magnum-pump-xr-original-vs-tiruan-malaysia/',
+  '/guides/tongkat-ali-vs-maca-vs-tribulus-vs-l-arginine-malaysia/', '/ms/panduan/perbezaan-tongkat-ali-vs-maca-vs-tribulus-vs-l-arginine-malaysia/',
+]);
 const UPDATED_GUIDE_ROUTES = new Set([
   '/guides/hammer-of-thor-original-vs-fake-malaysia/',
   '/ms/panduan/hammer-of-thor-original-vs-tiruan-malaysia/',
@@ -539,8 +547,10 @@ function renderUrlsetXml(entries, bannerComment) {
         )
         .join('\n');
 
-      const routeLastmod = WAVE2_GUIDE_ROUTES.has(entry.routePath)
-        ? WAVE2_GUIDES_DATE
+      const routeLastmod = WAVE3_GUIDE_ROUTES.has(entry.routePath)
+        ? WAVE3_GUIDES_DATE
+        : WAVE2_GUIDE_ROUTES.has(entry.routePath)
+          ? WAVE2_GUIDES_DATE
         : UPDATED_GUIDE_ROUTES.has(entry.routePath)
           ? UPDATED_GUIDES_DATE
           : LASTMOD_DATE;
@@ -580,11 +590,11 @@ function buildSitemapIndexXml() {
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://www.onyxmen.my/sitemap-en.xml</loc>
-    <lastmod>${WAVE2_GUIDES_DATE}</lastmod>
+    <lastmod>${WAVE3_GUIDES_DATE}</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.onyxmen.my/sitemap-ms.xml</loc>
-    <lastmod>${WAVE2_GUIDES_DATE}</lastmod>
+    <lastmod>${WAVE3_GUIDES_DATE}</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.onyxmen.my/sitemap-images.xml</loc>

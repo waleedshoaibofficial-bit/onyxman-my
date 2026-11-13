@@ -419,8 +419,8 @@ export function renderObsidianFooter(options = {}) {
       <p class="obsidian-footer__horizon-lead">
         ${
           isMs
-            ? 'Harga Rasmi Seluruh Malaysia: 1 Botol RM 159 (159.00 MYR) · 2 Botol RM 318 (318.00 MYR) · 3 Botol RM 477 (477.00 MYR). Penghantaran Hari Sama Lembah Klang & Ekspres 16 Negeri.'
-            : 'Official Malaysia Pricing: 1 Bottle RM 159 (159.00 MYR) · 2 Bottles RM 318 (318.00 MYR) · 3 Bottles RM 477 (477.00 MYR). Same-Day Klang Valley Runner & 16-State Express Courier.'
+            ? 'Harga Rasmi Seluruh Malaysia: 1 Botol RM 159 (159.00 MYR) · 2 Botol RM 286 (Diskaun 10% vs 318.00 MYR) · 3 Botol RM 405 (Diskaun 15% vs 477.00 MYR). Penghantaran Hari Sama Lembah Klang & Ekspres 16 Negeri.'
+            : 'Official Malaysia Pricing: 1 Bottle RM 159 (159.00 MYR) · 2 Bottles RM 286 (10% OFF vs 318.00 MYR) · 3 Bottles RM 405 (15% OFF vs 477.00 MYR). Same-Day Klang Valley Runner & 16-State Express Courier.'
         }
       </p>
     </div>
@@ -576,8 +576,8 @@ export function renderObsidianFooter(options = {}) {
     <span>
       ${
         isMs
-          ? 'Harga Rasmi: RM 159 (159.00 MYR) · RM 318 (318.00 MYR) · RM 477 (477.00 MYR) | Meja Operasi: sales@onyxmen.my · info@onyxmen.my'
-          : 'Official Pricing: RM 159 (159.00 MYR) · RM 318 (318.00 MYR) · RM 477 (477.00 MYR) | Concierge: sales@onyxmen.my · info@onyxmen.my'
+          ? 'Harga Rasmi: RM 159 (159.00 MYR) · RM 286 (10% OFF vs 318.00 MYR) · RM 405 (15% OFF vs 477.00 MYR) | Meja Operasi: sales@onyxmen.my · info@onyxmen.my'
+          : 'Official Pricing: RM 159 (159.00 MYR) · RM 286 (10% OFF vs 318.00 MYR) · RM 405 (15% OFF vs 477.00 MYR) | Concierge: sales@onyxmen.my · info@onyxmen.my'
       }
     </span>
   </div>

@@ -3016,42 +3016,131 @@ export function renderVisualFirstStorefront(options = {}) {
        Passes direct open-DOM PageRank from already-indexed pages (/, /ms/, /products/hammer-of-thor/, /guides/...)
        to all 8 bilingual flagship hubs, 4 product vaults, and top Malaysia state delivery hubs.
        ========================================================================== -->
-  <nav class="minimal-crawl-bridge" aria-label="${isMs ? 'Rangkaian Pautan Rasmi ONYXMEN Malaysia' : 'ONYXMEN Malaysia Direct Commercial & State Dispatch Hubs'}" style="max-width:1380px;margin:0 auto;padding:28px 32px 12px;border-top:1px solid #E8E8E8;font-size:0.72rem;line-height:1.9;color:#52565A;display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:center;">
-    <strong style="color:#0F1113;letter-spacing:0.12em;text-transform:uppercase;">${isMs ? 'HAB RASMI MALAYSIA (RM 159):' : 'OFFICIAL MALAYSIA HUBS (RM 159):'}</strong>
-    <a href="/horsemen-malaysia/" style="color:#0F1113;text-decoration:none;font-weight:600;">Horsemen Malaysia (20 Caps · RM 159)</a>
-    <a href="/hammer-of-thor-malaysia/" style="color:#0F1113;text-decoration:none;font-weight:600;">Hammer of Thor Malaysia (20 Veg. Caps · RM 159)</a>
-    <a href="/grow-xl-malaysia/" style="color:#0F1113;text-decoration:none;font-weight:600;">Grow XL Malaysia (30 Caps · RM 159)</a>
-    <a href="/magnum-pump-xr-malaysia/" style="color:#0F1113;text-decoration:none;font-weight:600;">Magnum Pump XR Malaysia (30 Black Caps · RM 159)</a>
-    <a href="/products/horsemen/" style="color:#52565A;text-decoration:none;">Horsemen Vault</a>
-    <a href="/products/hammer-of-thor/" style="color:#52565A;text-decoration:none;">Hammer of Thor Vault</a>
-    <a href="/products/grow-xl/" style="color:#52565A;text-decoration:none;">Grow XL Vault</a>
-    <a href="/products/magnum-pump-xr/" style="color:#52565A;text-decoration:none;">Magnum Pump XR Vault</a>
-    <a href="/ms/horsemen-malaysia/" style="color:#0F1113;text-decoration:none;font-weight:600;">Horsemen Malaysia (BM)</a>
-    <a href="/ms/hammer-of-thor-malaysia/" style="color:#0F1113;text-decoration:none;font-weight:600;">Hammer of Thor Malaysia (BM)</a>
-    <a href="/ms/grow-xl-malaysia/" style="color:#0F1113;text-decoration:none;font-weight:600;">Grow XL Malaysia (BM)</a>
-    <a href="/ms/magnum-pump-xr-malaysia/" style="color:#0F1113;text-decoration:none;font-weight:600;">Magnum Pump XR Malaysia (BM)</a>
-    <a href="/ms/produk/horsemen/" style="color:#52565A;text-decoration:none;">Produk Horsemen</a>
-    <a href="/ms/produk/hammer-of-thor/" style="color:#52565A;text-decoration:none;">Produk Hammer of Thor</a>
-    <a href="/ms/produk/grow-xl/" style="color:#52565A;text-decoration:none;">Produk Grow XL</a>
-    <a href="/ms/produk/magnum-pump-xr/" style="color:#52565A;text-decoration:none;">Produk Magnum Pump XR</a>
-    <a href="/compare/" style="color:#52565A;text-decoration:none;">4-Bottle Comparison Matrix</a>
-    <a href="/guides/" style="color:#52565A;text-decoration:none;">14 Buyer &amp; Dosage Guides (EN)</a>
-    <a href="/ms/panduan/" style="color:#52565A;text-decoration:none;">14 Panduan Pengguna (BM)</a>
-    <a href="/guides/hammer-of-thor-original-vs-fake-malaysia/" style="color:#52565A;text-decoration:none;">Hammer of Thor Original vs Fake Guide</a>
-    <a href="/guides/growxl-for-men-30-capsule-dosage-guide-malaysia/" style="color:#52565A;text-decoration:none;">GrowXL for Men 30-Cap Dosage Guide</a>
-    <a href="/guides/horsemen-capsule-original-500mg-malaysia-guide/" style="color:#52565A;text-decoration:none;">Horsemen 500mg Tongkat Ali Guide</a>
+  <nav class="minimal-crawl-bridge" aria-label="${isMs ? 'Rangkaian Pautan Kanonik Rasmi ONYXMEN Malaysia' : 'ONYXMEN Malaysia Official Canonical Directory'}" style="max-width:1380px;margin:0 auto;padding:28px 32px 12px;border-top:1px solid #E8E8E8;font-size:0.72rem;line-height:1.9;color:#52565A;display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:center;">
+    <strong style="color:#0F1113;letter-spacing:0.12em;text-transform:uppercase;">${isMs ? 'HAB RASMI MALAYSIA (RM 159 · BELI 2 RM 286):' : 'OFFICIAL MALAYSIA HUBS (RM 159 · BUY 2 RM 286):'}</strong>
+    ${isMs ? `<a href="/ms/" style="color:#0F1113;font-weight:600;text-decoration:none;">Kedai Rasmi Onyxmen Malaysia (RM 159)</a>
+    <a href="/ms/horsemen-malaysia/" style="color:#0F1113;font-weight:600;text-decoration:none;">Horsemen Malaysia (20 Kapsul · RM 159)</a>
+    <a href="/ms/hammer-of-thor-malaysia/" style="color:#0F1113;font-weight:600;text-decoration:none;">Hammer of Thor Malaysia (20 Kapsul Veg · RM 159)</a>
+    <a href="/ms/grow-xl-malaysia/" style="color:#0F1113;font-weight:600;text-decoration:none;">Grow XL Malaysia (30 Kapsul · RM 159)</a>
+    <a href="/ms/magnum-pump-xr-malaysia/" style="color:#0F1113;font-weight:600;text-decoration:none;">Magnum Pump XR Malaysia (30 Kapsul Hitam · RM 159)</a>
+    <a href="/ms/produk/horsemen/" style="color:#52565A;text-decoration:none;">Katalog Rasmi Horsemen</a>
+    <a href="/ms/produk/hammer-of-thor/" style="color:#52565A;text-decoration:none;">Katalog Rasmi Hammer of Thor</a>
+    <a href="/ms/produk/grow-xl/" style="color:#52565A;text-decoration:none;">Katalog Rasmi Grow XL</a>
+    <a href="/ms/produk/magnum-pump-xr/" style="color:#52565A;text-decoration:none;">Katalog Rasmi Magnum Pump XR</a>
+    <a href="/ms/perbandingan/" style="color:#52565A;text-decoration:none;">Perbandingan 4 Formulasi</a>
+    <a href="/ms/perbandingan/semua-4-formula/" style="color:#52565A;text-decoration:none;">Perbandingan 20 vs 30 Kapsul</a>
+    <a href="/ms/perbandingan/horsemen-vs-hammer-of-thor/" style="color:#52565A;text-decoration:none;">Horsemen vs Hammer of Thor (BM)</a>
+    <a href="/ms/perbandingan/grow-xl-vs-magnum-pump-xr/" style="color:#52565A;text-decoration:none;">Grow XL vs Magnum Pump XR (BM)</a>
+    <a href="/ms/ingredients/" style="color:#52565A;text-decoration:none;">Monograf Ramuan Botani</a>
+    <a href="/ms/ingredients/tongkat-ali-malaysia/" style="color:#52565A;text-decoration:none;">Monograf Tongkat Ali 100:1</a>
+    <a href="/ms/ingredients/maca-root-malaysia/" style="color:#52565A;text-decoration:none;">Monograf Akar Maca Hitam 10:1</a>
+    <a href="/ms/ingredients/tribulus-terrestris-malaysia/" style="color:#52565A;text-decoration:none;">Monograf Tribulus 60% Saponin</a>
+    <a href="/ms/ingredients/l-arginine-nitric-oxide/" style="color:#52565A;text-decoration:none;">Monograf L-Arginine Nitrik Oksida</a>
+    <a href="/ms/panduan/" style="color:#52565A;text-decoration:none;">Semua Panduan Pengguna</a>
+    <a href="/ms/panduan/hammer-of-thor-original-vs-tiruan-malaysia/" style="color:#52565A;text-decoration:none;">Hammer of Thor Original vs Tiruan</a>
+    <a href="/ms/panduan/grow-xl-original-vs-tiruan-malaysia/" style="color:#52565A;text-decoration:none;">Grow XL Original vs Tiruan</a>
+    <a href="/ms/panduan/horsemen-500mg-original-vs-tiruan-malaysia/" style="color:#52565A;text-decoration:none;">Horsemen 500mg Original vs Tiruan</a>
+    <a href="/ms/panduan/magnum-pump-xr-original-vs-tiruan-malaysia/" style="color:#52565A;text-decoration:none;">Magnum Pump XR Original vs Tiruan</a>
+    <a href="/ms/panduan/perbezaan-tongkat-ali-vs-maca-vs-tribulus-vs-l-arginine-malaysia/" style="color:#52565A;text-decoration:none;">Perbezaan Tongkat Ali, Maca, Tribulus &amp; L-Arginine</a>
+    <a href="/ms/panduan/panduan-cara-makan-grow-xl-30-kapsul-malaysia/" style="color:#52565A;text-decoration:none;">Cara Makan Grow XL 30 Kapsul</a>
+    <a href="/ms/panduan/panduan-horsemen-kapsul-original-500mg-malaysia/" style="color:#52565A;text-decoration:none;">Panduan Horsemen 500mg Original</a>
+    <a href="/ms/panduan/panduan-magnum-pump-xr-30-kapsul-hitam-malaysia/" style="color:#52565A;text-decoration:none;">Panduan Magnum Pump XR 30 Kapsul Hitam</a>
+    <a href="/ms/panduan/perbezaan-grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia/" style="color:#52565A;text-decoration:none;">Perbezaan Grow XL, Horsemen &amp; Hammer</a>
+    <a href="/ms/panduan/kesan-sampingan-hammer-of-thor-horsemen-grow-xl-keselamatan/" style="color:#52565A;text-decoration:none;">Panduan Keselamatan &amp; Kesan Sampingan</a>
+    <a href="/ms/panduan/akar-maca-dalam-bahasa-melayu-dan-tongkat-ali-malaysia/" style="color:#52565A;text-decoration:none;">Akar Maca &amp; Tongkat Ali Malaysia</a>
+    <a href="/ms/panduan/berapa-lama-kesan-hammer-of-thor-horsemen-grow-xl-malaysia/" style="color:#52565A;text-decoration:none;">Jadual Masa Kesan 30 Minit vs 30 Hari</a>
+    <a href="/ms/panduan/masa-pengambilan-kapsul-dan-penyerapan-optimum/" style="color:#52565A;text-decoration:none;">Waktu Makan Kapsul Optimum</a>
+    <a href="/ms/panduan/cara-semak-ketulenan-botol-onyxman-malaysia/" style="color:#52565A;text-decoration:none;">Cara Semak Ketulenan Botol</a>
+    <a href="/ms/panduan/panduan-tempahan-bungkusan-rahsia-cod-fpx-malaysia/" style="color:#52565A;text-decoration:none;">Panduan Tempahan COD &amp; FPX Rahsia</a>
+    <a href="/ms/panduan/panduan-pemilihan-kitaran-20-kapsul-vs-30-kapsul/" style="color:#52565A;text-decoration:none;">Pemilihan Kitaran 20 vs 30 Kapsul</a>
+    <a href="/ms/panduan/nutrisi-kecergasan-dan-stamina-lelaki-iklim-tropika-malaysia/" style="color:#52565A;text-decoration:none;">Nutrisi Stamina Iklim Tropika</a>
+    <a href="/ms/panduan/perbezaan-asid-amino-nitrik-oksida-dan-herba-adaptogenik/" style="color:#52565A;text-decoration:none;">Nitrik Oksida vs Herba Adaptogenik</a>
+    <a href="/ms/malaysia/" style="color:#52565A;text-decoration:none;">Hab Penghantaran COD 17 Negeri</a>
+    <a href="/ms/malaysia/kuala-lumpur/" style="color:#52565A;text-decoration:none;">COD Kuala Lumpur</a>
+    <a href="/ms/malaysia/selangor/" style="color:#52565A;text-decoration:none;">COD Selangor</a>
+    <a href="/ms/malaysia/johor-bahru/" style="color:#52565A;text-decoration:none;">COD Johor Bahru</a>
+    <a href="/ms/malaysia/pulau-pinang/" style="color:#52565A;text-decoration:none;">COD Pulau Pinang</a>
+    <a href="/ms/malaysia/sabah/" style="color:#52565A;text-decoration:none;">Ekspres Sabah</a>
+    <a href="/ms/malaysia/sarawak/" style="color:#52565A;text-decoration:none;">Ekspres Sarawak</a>
+    <a href="/ms/malaysia/perak/" style="color:#52565A;text-decoration:none;">COD Perak</a>
+    <a href="/ms/malaysia/pahang/" style="color:#52565A;text-decoration:none;">COD Pahang</a>
+    <a href="/ms/malaysia/kedah/" style="color:#52565A;text-decoration:none;">COD Kedah</a>
+    <a href="/ms/malaysia/kelantan/" style="color:#52565A;text-decoration:none;">COD Kelantan</a>
+    <a href="/ms/malaysia/terengganu/" style="color:#52565A;text-decoration:none;">COD Terengganu</a>
+    <a href="/ms/malaysia/negeri-sembilan/" style="color:#52565A;text-decoration:none;">COD Negeri Sembilan</a>
+    <a href="/ms/malaysia/melaka/" style="color:#52565A;text-decoration:none;">COD Melaka</a>
+    <a href="/ms/malaysia/putrajaya/" style="color:#52565A;text-decoration:none;">COD Putrajaya</a>
+    <a href="/ms/malaysia/cyberjaya/" style="color:#52565A;text-decoration:none;">COD Cyberjaya</a>
+    <a href="/ms/malaysia/labuan/" style="color:#52565A;text-decoration:none;">Ekspres Labuan</a>
+    <a href="/ms/malaysia/perlis/" style="color:#52565A;text-decoration:none;">COD Perlis</a>
+    <a href="/ms/tentang-kami/" style="color:#52565A;text-decoration:none;">Tentang Onyxmen KL</a>
+    <a href="/ms/jaminan-ketulenan/" style="color:#52565A;text-decoration:none;">Jaminan Ketulenan</a>
+    <a href="/ms/penghantaran-rahsia/" style="color:#52565A;text-decoration:none;">Polisi Bungkusan Rahsia</a>
+    <a href="/ms/hubungi-kami/" style="color:#52565A;text-decoration:none;">Meja Bantuan WhatsApp KL</a>
+    <a href="/ms/soalan-lazim/" style="color:#52565A;text-decoration:none;">Soalan Lazim (FAQ)</a>
+    <a href="/ms/polisi-privasi/" style="color:#52565A;text-decoration:none;">Polisi Privasi PDPA</a>
+    <a href="/ms/terma-perkhidmatan/" style="color:#52565A;text-decoration:none;">Terma &amp; Pemulangan</a>` : `<a href="/" style="color:#0F1113;font-weight:600;text-decoration:none;">Onyxmen Malaysia Official Store (RM 159)</a>
+    <a href="/horsemen-malaysia/" style="color:#0F1113;font-weight:600;text-decoration:none;">Horsemen Malaysia (20 Caps · RM 159)</a>
+    <a href="/hammer-of-thor-malaysia/" style="color:#0F1113;font-weight:600;text-decoration:none;">Hammer of Thor Malaysia (20 Veg Caps · RM 159)</a>
+    <a href="/grow-xl-malaysia/" style="color:#0F1113;font-weight:600;text-decoration:none;">Grow XL Malaysia (30 Caps · RM 159)</a>
+    <a href="/magnum-pump-xr-malaysia/" style="color:#0F1113;font-weight:600;text-decoration:none;">Magnum Pump XR Malaysia (30 Black Caps · RM 159)</a>
+    <a href="/products/horsemen/" style="color:#52565A;text-decoration:none;">Horsemen Technical Vault</a>
+    <a href="/products/hammer-of-thor/" style="color:#52565A;text-decoration:none;">Hammer of Thor Technical Vault</a>
+    <a href="/products/grow-xl/" style="color:#52565A;text-decoration:none;">Grow XL Technical Vault</a>
+    <a href="/products/magnum-pump-xr/" style="color:#52565A;text-decoration:none;">Magnum Pump XR Technical Vault</a>
+    <a href="/compare/" style="color:#52565A;text-decoration:none;">Compare All 4 Formulas</a>
+    <a href="/compare/all-4-formulas/" style="color:#52565A;text-decoration:none;">20 vs 30 Capsule Matrix</a>
+    <a href="/compare/horsemen-vs-hammer-of-thor/" style="color:#52565A;text-decoration:none;">Horsemen vs Hammer of Thor</a>
+    <a href="/compare/grow-xl-vs-magnum-pump-xr/" style="color:#52565A;text-decoration:none;">Grow XL vs Magnum Pump XR</a>
+    <a href="/ingredients/" style="color:#52565A;text-decoration:none;">Botanical Monographs</a>
+    <a href="/ingredients/tongkat-ali-malaysia/" style="color:#52565A;text-decoration:none;">Tongkat Ali 100:1 Monograph</a>
+    <a href="/ingredients/maca-root-malaysia/" style="color:#52565A;text-decoration:none;">Peruvian Maca 10:1 Monograph</a>
+    <a href="/ingredients/tribulus-terrestris-malaysia/" style="color:#52565A;text-decoration:none;">Tribulus 60% Saponins Monograph</a>
+    <a href="/ingredients/l-arginine-nitric-oxide/" style="color:#52565A;text-decoration:none;">L-Arginine Nitric Oxide Monograph</a>
+    <a href="/guides/" style="color:#52565A;text-decoration:none;">All Buyer &amp; Dosage Guides</a>
+    <a href="/guides/hammer-of-thor-original-vs-fake-malaysia/" style="color:#52565A;text-decoration:none;">Hammer of Thor Original vs Fake</a>
+    <a href="/guides/grow-xl-original-vs-fake-malaysia/" style="color:#52565A;text-decoration:none;">Grow XL Original vs Fake</a>
+    <a href="/guides/horsemen-500mg-original-vs-fake-malaysia/" style="color:#52565A;text-decoration:none;">Horsemen 500mg Original vs Fake</a>
+    <a href="/guides/magnum-pump-xr-original-vs-fake-malaysia/" style="color:#52565A;text-decoration:none;">Magnum Pump XR Original vs Fake</a>
+    <a href="/guides/tongkat-ali-vs-maca-vs-tribulus-vs-l-arginine-malaysia/" style="color:#52565A;text-decoration:none;">Tongkat Ali vs Maca vs Tribulus vs L-Arginine</a>
+    <a href="/guides/growxl-for-men-30-capsule-dosage-guide-malaysia/" style="color:#52565A;text-decoration:none;">GrowXL 30-Cap Dosage Guide</a>
+    <a href="/guides/horsemen-capsule-original-500mg-malaysia-guide/" style="color:#52565A;text-decoration:none;">Horsemen 500mg Capsule Guide</a>
     <a href="/guides/magnum-pump-xr-30-black-capsules-nitric-oxide-guide/" style="color:#52565A;text-decoration:none;">Magnum Pump XR 30 Black Caps Guide</a>
-    <a href="/ms/panduan/hammer-of-thor-original-vs-tiruan-malaysia/" style="color:#52565A;text-decoration:none;">Hammer of Thor Original vs Tiruan (BM)</a>
-    <a href="/ms/panduan/panduan-cara-makan-grow-xl-30-kapsul-malaysia/" style="color:#52565A;text-decoration:none;">Cara Makan Grow XL 30 Kapsul (BM)</a>
-    <a href="/ms/panduan/panduan-horsemen-kapsul-original-500mg-malaysia/" style="color:#52565A;text-decoration:none;">Panduan Horsemen 500mg (BM)</a>
-    <a href="/ms/panduan/panduan-magnum-pump-xr-30-kapsul-hitam-malaysia/" style="color:#52565A;text-decoration:none;">Panduan Magnum Pump XR 30 Kapsul Hitam (BM)</a>
+    <a href="/guides/grow-xl-vs-horsemen-vs-hammer-of-thor-malaysia/" style="color:#52565A;text-decoration:none;">Grow XL vs Horsemen vs Hammer</a>
+    <a href="/guides/hammer-of-thor-horsemen-grow-xl-side-effects-safety-malaysia/" style="color:#52565A;text-decoration:none;">Safety &amp; Side Effects Guide</a>
+    <a href="/guides/maca-root-in-malay-akar-maca-tongkat-ali-supplement-malaysia/" style="color:#52565A;text-decoration:none;">Maca Root &amp; Tongkat Ali Guide</a>
+    <a href="/guides/how-long-does-hammer-of-thor-horsemen-grow-xl-take-to-work/" style="color:#52565A;text-decoration:none;">30-Min vs 30-Day Onset Timeline</a>
+    <a href="/guides/capsule-timing-absorption-protocol/" style="color:#52565A;text-decoration:none;">Capsule Timing Protocol</a>
+    <a href="/guides/authentic-onyxman-bottle-verification-malaysia/" style="color:#52565A;text-decoration:none;">Bottle Verification Guide</a>
+    <a href="/guides/discreet-plain-box-cod-fpx-ordering-malaysia/" style="color:#52565A;text-decoration:none;">Discreet COD &amp; FPX Guide</a>
     <a href="/guides/20-capsule-vs-30-capsule-cycle-selection/" style="color:#52565A;text-decoration:none;">20 vs 30 Capsule Cycle Guide</a>
+    <a href="/guides/malaysian-mens-vitality-tropical-stamina-nutrition/" style="color:#52565A;text-decoration:none;">Tropical Stamina Nutrition</a>
+    <a href="/guides/nitric-oxide-amino-acids-vs-adaptogenic-herbs/" style="color:#52565A;text-decoration:none;">Nitric Oxide vs Adaptogens</a>
+    <a href="/malaysia/" style="color:#52565A;text-decoration:none;">Malaysia 17-Region COD Hub</a>
     <a href="/malaysia/kuala-lumpur/" style="color:#52565A;text-decoration:none;">COD Kuala Lumpur</a>
     <a href="/malaysia/selangor/" style="color:#52565A;text-decoration:none;">COD Selangor</a>
     <a href="/malaysia/johor-bahru/" style="color:#52565A;text-decoration:none;">COD Johor Bahru</a>
     <a href="/malaysia/penang/" style="color:#52565A;text-decoration:none;">COD Penang</a>
     <a href="/malaysia/sabah/" style="color:#52565A;text-decoration:none;">Express Sabah</a>
     <a href="/malaysia/sarawak/" style="color:#52565A;text-decoration:none;">Express Sarawak</a>
+    <a href="/malaysia/perak/" style="color:#52565A;text-decoration:none;">COD Perak</a>
+    <a href="/malaysia/pahang/" style="color:#52565A;text-decoration:none;">COD Pahang</a>
+    <a href="/malaysia/kedah/" style="color:#52565A;text-decoration:none;">COD Kedah</a>
+    <a href="/malaysia/kelantan/" style="color:#52565A;text-decoration:none;">COD Kelantan</a>
+    <a href="/malaysia/terengganu/" style="color:#52565A;text-decoration:none;">COD Terengganu</a>
+    <a href="/malaysia/negeri-sembilan/" style="color:#52565A;text-decoration:none;">COD Negeri Sembilan</a>
+    <a href="/malaysia/melaka/" style="color:#52565A;text-decoration:none;">COD Melaka</a>
+    <a href="/malaysia/putrajaya/" style="color:#52565A;text-decoration:none;">COD Putrajaya</a>
+    <a href="/malaysia/cyberjaya/" style="color:#52565A;text-decoration:none;">COD Cyberjaya</a>
+    <a href="/malaysia/labuan/" style="color:#52565A;text-decoration:none;">Express Labuan</a>
+    <a href="/malaysia/perlis/" style="color:#52565A;text-decoration:none;">COD Perlis</a>
+    <a href="/about/" style="color:#52565A;text-decoration:none;">About Onyxmen KL</a>
+    <a href="/authenticity-guarantee/" style="color:#52565A;text-decoration:none;">Authenticity Guarantee</a>
+    <a href="/discreet-shipping/" style="color:#52565A;text-decoration:none;">Discreet Packaging</a>
+    <a href="/contact/" style="color:#52565A;text-decoration:none;">KL WhatsApp Concierge</a>
+    <a href="/faq/" style="color:#52565A;text-decoration:none;">Official FAQ</a>
+    <a href="/privacy-policy/" style="color:#52565A;text-decoration:none;">PDPA Privacy Policy</a>
+    <a href="/terms-of-service/" style="color:#52565A;text-decoration:none;">Terms &amp; Return Policy</a>`}
   </nav>
 
   <!-- ==========================================================================

@@ -69,25 +69,27 @@ export const DRAWER_PROTOCOL_TIERS = [
   },
   {
     qty: 2,
-    priceNumeric: 318,
-    priceSchema: '318.00',
-    priceFormatted: 'RM 318',
-    eyebrowEn: 'MOST SELECTED IN KL & SELANGOR · 2 BOTTLES',
-    eyebrowMs: 'PILIHAN UTAMA DI KL & SELANGOR · 2 BOTOL',
-    titleEn: '2 Bottles — RM 318',
-    titleMs: '2 Botol — RM 318',
+    priceNumeric: 286,
+    priceSchema: '286.00',
+    regularPriceSchema: '318.00',
+    priceFormatted: 'RM 286',
+    eyebrowEn: 'MOST SELECTED IN KL & SELANGOR · 2 BOTTLES (10% OFF vs 318.00)',
+    eyebrowMs: 'PILIHAN UTAMA DI KL & SELANGOR · 2 BOTOL (DISKAUN 10% vs 318.00)',
+    titleEn: '2 Bottles — RM 286 (Save RM 32 vs RM 318)',
+    titleMs: '2 Botol — RM 286 (Jimat RM 32 vs RM 318)',
     subtitleEn: 'Free Discreet Plain-Box Express Shipping Nationwide (incl. Sabah & Sarawak)',
     subtitleMs: 'Penghantaran Ekspres Bungkusan Rahsia Percuma Seluruh Negara (Termasuk Sabah & Sarawak)',
   },
   {
     qty: 3,
-    priceNumeric: 477,
-    priceSchema: '477.00',
-    priceFormatted: 'RM 477',
-    eyebrowEn: 'COMPLETE 90-DAY APOTHECARY VAULT · 3 BOTTLES',
-    eyebrowMs: 'PAKEJ LENGKAP APOTEKARI 90 HARI · 3 BOTOL',
-    titleEn: '3 Bottles — RM 477',
-    titleMs: '3 Botol — RM 477',
+    priceNumeric: 405,
+    priceSchema: '405.00',
+    regularPriceSchema: '477.00',
+    priceFormatted: 'RM 405',
+    eyebrowEn: 'COMPLETE 90-DAY APOTHECARY VAULT · 3 BOTTLES (15% OFF vs 477.00)',
+    eyebrowMs: 'PAKEJ LENGKAP APOTEKARI 90 HARI · 3 BOTOL (DISKAUN 15% vs 477.00)',
+    titleEn: '3 Bottles — RM 405 (Save RM 72 vs RM 477)',
+    titleMs: '3 Botol — RM 405 (Jimat RM 72 vs RM 477)',
     subtitleEn: 'Priority Discreet Plain-Box Express Shipping + VIP Refill Concierge',
     subtitleMs: 'Penghantaran Rahsia Keutamaan Percuma Seluruh Malaysia + Khidmat VIP',
   },
@@ -325,7 +327,7 @@ export function renderExpressOrderDrawer(options = {}) {
   >
     <input type="hidden" name="productId" id="onyxman-field-product-id" value="${defaultProduct}" />
     <input type="hidden" name="bottles" id="onyxman-field-bottles" value="${defaultQty}" />
-    <input type="hidden" name="totalMYR" id="onyxman-field-total-myr" value="${defaultQty * 159}.00" />
+    <input type="hidden" name="totalMYR" id="onyxman-field-total-myr" value="${defaultQty === 3 ? '405.00' : defaultQty === 2 ? '286.00' : '159.00'}" />
     <input type="hidden" name="merchantEmail" value="waleedshoaibofficial@gmail.com" />
     <input type="hidden" name="brandSalesAlias" value="sales@onyxmen.my" />
     <input type="hidden" name="brandInfoAlias" value="info@onyxmen.my" />
@@ -353,13 +355,13 @@ export function renderExpressOrderDrawer(options = {}) {
       </div>
     </div>
 
-    <!-- 2. Protocol Tier Selector (RM 159 / RM 318 / RM 477) -->
+    <!-- 2. Protocol Tier Selector (RM 159 / RM 286 [10% OFF vs 318.00] / RM 405 [15% OFF vs 477.00]) -->
     <div class="apothecary-field-group">
       <span class="apothecary-field-label" id="label-select-tier">
         ${
           isMs
-            ? '02 · PILIH KUANTITI KITARAN (RM 159 / RM 318 / RM 477)'
-            : '02 · SELECT PROTOCOL TIER (RM 159 / RM 318 / RM 477)'
+            ? '02 · PILIH KUANTITI KITARAN (RM 159 / RM 286 [10% OFF vs 318.00] / RM 405 [15% OFF vs 477.00])'
+            : '02 · SELECT PROTOCOL TIER (RM 159 / RM 286 [10% OFF vs 318.00] / RM 405 [15% OFF vs 477.00])'
         }
       </span>
       <div

@@ -192,6 +192,38 @@ function buildOptimalSerpMeta(route, rawTitle, rawDesc) {
       title: 'Berapa Lama Kesan Hammer of Thor, Horsemen & Grow XL? [RM159]',
       desc: '✓ Jadual sebenar berapa lama kesan Hammer of Thor, Horsemen, Grow XL & Magnum Pump XR berfungsi (Kesan Hari 1–3 vs kitaran penuh 14 hingga 30 hari).',
     },
+    '/guides/grow-xl-original-vs-fake-malaysia/': {
+      title: 'Grow XL Original vs Fake Malaysia [30 Capsules Check & RM159]',
+      desc: '✓ Spot 100% Original Grow XL / GrowXL for Men Malaysia (30 Capsules x 550mg) vs fake 7-pill blisters & RM 30 starch counterfeits. Discreet COD RM 159 / RM 286.',
+    },
+    '/ms/panduan/grow-xl-original-vs-tiruan-malaysia/': {
+      title: 'Grow XL Original vs Tiruan Malaysia [30 Kapsul Asli RM159]',
+      desc: '✓ Cara kenal Grow XL / GrowXL Original Malaysia (30 Kapsul x 550mg) vs pek percubaan 7 biji & kapsul tiruan murah. Beli 1 RM 159, 2 RM 286 (-10%) COD.',
+    },
+    '/guides/horsemen-500mg-original-vs-fake-malaysia/': {
+      title: 'Horsemen Original vs Fake Malaysia [20 Caps × 500mg RM159]',
+      desc: '✓ Verify 100% Original Horsemen Man Virility Malaysia (20 Capsules x 500mg Tongkat Ali 100:1) vs fake 10-pill packs & sildenafil copies. RM 159 discreet COD.',
+    },
+    '/ms/panduan/horsemen-500mg-original-vs-tiruan-malaysia/': {
+      title: 'Horsemen Original vs Tiruan Malaysia [20 Kapsul 500mg RM159]',
+      desc: '✓ Panduan semak Horsemen Kapsul Original Malaysia (20 Kapsul x 500mg Tongkat Ali 100:1) vs ubat tiruan berbahaya. Beli 1 RM 159, 2 RM 286 (-10%) COD Rahsia.',
+    },
+    '/guides/magnum-pump-xr-original-vs-fake-malaysia/': {
+      title: 'Magnum Pump XR Original vs Fake Malaysia [30 Black Caps RM159]',
+      desc: '✓ How to check 100% Original Magnum Pump XR Malaysia (30 Black Capsules x 600mg L-Arginine Nitric Oxide) vs fake gym powders & copies. RM 159 discreet COD.',
+    },
+    '/ms/panduan/magnum-pump-xr-original-vs-tiruan-malaysia/': {
+      title: 'Magnum Pump XR Original vs Tiruan Malaysia [30 Kapsul Hitam]',
+      desc: '✓ Cara semak Magnum Pump XR Original Malaysia (30 Kapsul Hitam x 600mg Nitrik Oksida) vs produk tiruan murah. Beli 1 RM 159, 2 RM 286 (-10%) COD Rahsia.',
+    },
+    '/guides/tongkat-ali-vs-maca-vs-tribulus-vs-l-arginine-malaysia/': {
+      title: 'Tongkat Ali vs Maca vs Tribulus vs L-Arginine Malaysia Guide',
+      desc: '✓ Compare Tongkat Ali 100:1, Peruvian Black Maca, Tribulus 60% Saponins & L-Arginine Nitric Oxide for Malaysian men—and which RM 159 bottle fits your goal.',
+    },
+    '/ms/panduan/perbezaan-tongkat-ali-vs-maca-vs-tribulus-vs-l-arginine-malaysia/': {
+      title: 'Perbezaan Tongkat Ali vs Maca vs Tribulus vs L-Arginine MY',
+      desc: '✓ Bandingkan fungsi Tongkat Ali 100:1, Akar Maca Hitam, Tribulus 60% Saponin & L-Arginine Nitrik Oksida untuk lelaki Malaysia—pilih botol RM 159 terbaik.',
+    },
     "/compare/": {
       title: "Compare Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR MY",
       desc: "✓ Side-by-side comparison of all 4 Original Onyxmen Malaysia supplements: Horsemen (20 Caps), Hammer of Thor (20 Veg), Grow XL & Magnum Pump XR (RM 159 COD).",

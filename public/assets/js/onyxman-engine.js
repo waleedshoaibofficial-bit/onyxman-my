@@ -3,7 +3,7 @@
  * ONYXMAN.MY — CLIENT-SIDE LUXURY CHOREOGRAPHY & DUAL-MODE ORDER ENGINE
  * Micro-Steps: MS-071 through MS-074
  * Domain: https://onyxman.my
- * Official Prices: 1 Bottle = RM 159 (159.00 MYR) | 2 Bottles = RM 318 (318.00 MYR) | 3 Bottles = RM 477 (477.00 MYR)
+ * Official Prices: 1 Bottle = RM 159 (159.00 MYR) | 2 Bottles = RM 286 (10% OFF vs 318.00 MYR) | 3 Bottles = RM 405 (15% OFF vs 477.00 MYR)
  * Primary Merchant Notification Inbox: waleedshoaibofficial@gmail.com
  * Official Brand Aliases: sales@onyxman.my | info@onyxman.my
  * ============================================================================
@@ -123,18 +123,20 @@
     2: {
       bottles: 2,
       unitPrice: 159,
-      totalNumeric: 318,
-      totalSchema: '318.00',
-      totalDisplay: 'RM 318',
+      totalNumeric: 286,
+      totalSchema: '286.00',
+      regularSchema: '318.00',
+      totalDisplay: 'RM 286',
       labelEn: '2 Bottles · Free Nationwide Discreet Express Shipping (incl. Sabah & Sarawak)',
       labelMs: '2 Botol · Penghantaran Ekspres Rahsia Percuma Seluruh Malaysia',
     },
     3: {
       bottles: 3,
       unitPrice: 159,
-      totalNumeric: 477,
-      totalSchema: '477.00',
-      totalDisplay: 'RM 477',
+      totalNumeric: 405,
+      totalSchema: '405.00',
+      regularSchema: '477.00',
+      totalDisplay: 'RM 405',
       labelEn: '3 Bottles · Priority Discreet Plain-Box Express Shipping + VIP Refill Concierge',
       labelMs: '3 Botol · Penghantaran Rahsia Keutamaan + Khidmat Peringatan VIP',
     },
@@ -298,7 +300,7 @@
           totalDaysUntilRefill +
           ' of your ' +
           productSpec.name +
-          ' protocol. Would you like us to dispatch a fresh discreet refill bottle (RM 159) or 2-bottle reserve (RM 318) in an unmarked parcel?'
+          ' protocol. Would you like us to dispatch a fresh discreet refill bottle (RM 159) or 2-bottle reserve (RM 286 — 10% OFF vs RM 318) in an unmarked parcel?'
       );
 
     const eventTitle =
@@ -984,7 +986,7 @@
         return;
       }
 
-      // 4. Select Bottle Tier (1 / 2 / 3 Bottles — RM 159 / RM 318 / RM 477)
+      // 4. Select Bottle Tier (1 / 2 / 3 Bottles — RM 159 / RM 286 / RM 405)
       const qtySelectBtn = target.closest('[data-drawer-select-qty]');
       if (qtySelectBtn) {
         event.preventDefault();

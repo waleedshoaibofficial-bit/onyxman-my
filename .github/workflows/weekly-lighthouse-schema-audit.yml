@@ -47,6 +47,7 @@ jobs:
           if [ -f "scripts/build-site.mjs" ]; then
             echo "Running scripts/build-site.mjs to guarantee fresh public/ artifact..."
             node scripts/build-site.mjs
+            node scripts/seo-auto-optimizer.mjs
           fi
 
       - name: "04 Â· Run Google Merchant Center & @graph JSON-LD Schema Validation Suite"

@@ -3299,6 +3299,356 @@ GUIDE_DOSSIERS.push(
 /**
  * Renders the Sibling Guides Cross-Navigation Ledger for each Individual Guide Page
  */
+GUIDE_DOSSIERS.push(
+  {
+    guideNumber: 15,
+    microStep: 'ONYX-STD',
+    guideCode: 'GUIDE-15 · GROW XL AUTHENTICITY',
+    slug: 'grow-xl-original-vs-fake-malaysia',
+    canonicalEnPath: '/guides/grow-xl-original-vs-fake-malaysia/',
+    alternateMsPath: '/ms/panduan/grow-xl-original-vs-tiruan-malaysia/',
+    enOutputPaths: ['guides/grow-xl-original-vs-fake-malaysia/index.html'],
+    watermark: 'GROWXL CHECK',
+    primaryProductSlug: 'grow-xl',
+    heroImage: '/assets/products/grow-xl-stage.webp',
+    portraitImage: '/assets/products/grow-xl-portrait.webp',
+    publishedDate: '2026-11-13T08:00:00+08:00',
+    updatedDate: '2026-11-13T08:00:00+08:00',
+    readingTime: '11 Min Authenticity Audit Read',
+    seoTitle: 'Grow XL Original vs Fake Malaysia [30 Capsules Check & RM159]',
+    metaDescription: '✓ Spot 100% Original Grow XL / GrowXL for Men Malaysia (30 Capsules x 550mg) vs fake 7-pill blisters & RM 30 starch counterfeits. Discreet COD RM 159 / RM 286.',
+    kicker: 'ONYX-STD · PROTOCOL GUIDE 15 · GROW XL / GROWXL FOR MEN 30-CAPSULE AUTHENTICITY AUDIT',
+    headline: 'Grow XL Original vs. Fake in Malaysia: <span class="foil-champagne-text">Verifying the 30-Capsule Bottle.</span>',
+    taxonomyStrip: [
+      '01 · 30 CAPSULES × 550MG HDPE BOTTLE',
+      '02 · ZERO 7-PILL TRIAL BLISTER COPIES',
+      '03 · 16,500MG SIX-BOTANICAL PAYLOAD',
+      '04 · OFFICIAL RM 159 / RM 286 / RM 405 COD',
+    ],
+    executiveSummary: 'Protect yourself against RM 30 starch imitations and 7-pill blister packs: verify genuine Grow XL Malaysia (30 Capsules × 550mg, SKU ONYX-GX-30) before starting your 30-day cycle.',
+    telemetry: [
+      { key: '01 · OFFICIAL FORMAT', val: '30 Caps × 550mg Bottle', sub: '16,500mg total active payload (never 7-pill blisters)' },
+      { key: '02 · SEAL INTEGRITY', val: 'Induction Foil + Silica', sub: 'Nitrogen-flushed HPMC shells for tropical humidity' },
+      { key: '03 · LAB PURITY', val: '0% Synthetic PDE5', sub: 'Tongkat Ali 100:1, Maca, Muira Puama & Saw Palmetto' },
+      { key: '04 · OFFICIAL PRICE', val: 'RM 159 · 2 For RM 286', sub: 'Save 10% (RM 32) or 3 For RM 405 (-15%) COD' },
+    ],
+    pinnedSummaryBullets: [
+      'Genuine Grow XL Malaysia comes exclusively in a 30-capsule HDPE bottle (550mg per capsule), never loose 7-pill foil blisters',
+      'Check the heat-sealed inner induction liner, base lot stamp, and 2g food-grade desiccant protecting 100:1 Tongkat Ali',
+      'Avoid RM 25–RM 45 marketplace counterfeits filled with dyed rice flour or undeclared headache-inducing chemicals',
+      'Order direct via onyxmen.my or WhatsApp +60 14-298 5919 with unmarked plain-box Cash on Delivery nationwide',
+    ],
+    chapters: [
+      {
+        kicker: 'CHAPTER 01 · PACKAGING ANATOMY: 30-CAPSULE HDPE RESERVE VS. FAKE 7-PILL BLISTERS',
+        title: 'Why Authentic GrowXL for Men Never Ships in Loose Foil Strips or RM 30 Boxes.',
+        paragraphs: [
+          'Across Malaysian classifieds and unverified social shops, counterfeiters frequently sell flimsy cardboard sleeves containing 4 to 7 brightly colored tablets under the Grow XL name for RM 25 to RM 45. Authentic Grow XL (also searched as GrowXL for Men, SKU: ONYX-GX-30) distributed by Onyxmen Malaysia is never packaged in loose blister strips. Every genuine unit is a heavy-wall opaque bottle housing exactly 30 low-moisture vegetarian capsules at 550mg each (16,500mg net botanical weight).',
+          'Beneath the outer cap sits a tamper-evident electromagnetic induction foil liner and a 2.0-gram pharmaceutical silica canister. Because 100:1 Malaysian Eurycoma longifolia root extract is naturally hygroscopic in 80% tropical humidity, unsealed fake capsules clump, darken, and lose potency within days of warehouse storage.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 02 · CAPSULE POWDER INSPECTION & SENSORY PROFILE',
+        title: 'Earthy Botanical Quassinoid Powder vs. Odorless White Starch Counterfeits.',
+        paragraphs: [
+          'Genuine Grow XL Size-00 hypromellose (HPMC) capsules contain a fine, tan-to-warm-ochre botanical powder milled from six standardized extracts: 140mg Tongkat Ali 100:1, 110mg Yellow and Black Peruvian Maca, 100mg L-Arginine and L-Citrulline vascular amino acids, 80mg Brazilian Muira Puama bark, 70mg Supercritical Saw Palmetto berry lipids, and 50mg Panax ginseng plus Zinc Citrate.',
+          'Counterfeit capsules opened during quality audits typically reveal chalky bright-white cornstarch or bitter chemical crystals laced with undeclared sildenafil analogues that trigger throbbing temples, nasal congestion, and sudden blood-pressure drops. Authentic Grow XL works progressively with zero synthetic stimulant crash.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 03 · PRICING ECONOMICS: WHY GENUINE SIX-EXTRACT STANDARDIZATION COSTS RM 159',
+        title: 'Understanding True Raw-Material Cost Per 30-Day Conditioning Bottle in Malaysia.',
+        paragraphs: [
+          'Standardizing mature 7-year Malaysian Tongkat Ali taproot to 2.4% eurycomanone alongside CO2-extracted Saw Palmetto fatty acids and imported Andean Maca makes RM 30 retail pricing mathematically impossible. Official Onyxmen Malaysia inventory maintains transparent nationwide pricing: RM 159.00 for 1 Bottle (RM 5.30 per daily morning capsule), RM 286.00 for 2 Bottles (10% OFF, saving RM 32 off RM 318.00), and RM 405.00 for 3 Bottles (15% OFF, saving RM 72 off RM 477.00).',
+          'Multi-bottle tiers include 100% free discreet express delivery across Peninsular Malaysia, Sabah, Sarawak, and Labuan?allowing men to complete a full 60-to-90 day morning conditioning routine without mid-cycle gaps.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 04 · SAFE DIRECT DISPATCH & PLAIN-BOX COD VERIFICATION',
+        title: 'How Kuala Lumpur Vault Fulfilment Protects Both Product Purity and Buyer Privacy.',
+        paragraphs: [
+          'Every authentic Grow XL order placed on https://www.onyxmen.my or through our Kuala Lumpur WhatsApp concierge (+60 14-298 5919) ships directly from our climate-controlled 24°C storage facility?never sitting in hot third-party marketplace drop-off bins. Parcels are wrapped inside unmarked 3-layer kraft boxes bearing only the neutral sender name OM Fulfilment.',
+          'You can select Cash on Delivery (COD ? inspect the sealed outer parcel upon courier arrival before paying) or instant FPX / DuitNow QR settlement across all 17 Malaysian delivery regions.',
+        ],
+      },
+    ],
+    protocolSteps: [
+      { code: 'GX-CHK-01 · COUNT', title: 'Confirm Full 30-Capsule Opaque Bottle', metric: '30 Caps × 550mg = 16,500mg', desc: 'Reject any 7-pill trial blister, tin box, or unsealed plastic bag claiming to be Grow XL.' },
+      { code: 'GX-CHK-02 · SEAL', title: 'Inspect Inner Induction Foil & Lot Code', metric: 'Hermetic Seal + Base Batch Stamp', desc: 'Verify the intact heat-welded foil liner beneath the cap and printed expiry/lot serial on the bottle base.' },
+      { code: 'GX-CHK-03 · SHELL', title: 'Verify Plant-Origin HPMC Capsule Quality', metric: 'Non-Sticky Low-Moisture Shell', desc: 'Authentic HPMC shells remain firm and dry in Malaysian weather without gelatin melting or chemical odor.' },
+      { code: 'GX-CHK-04 · PRICE', title: 'Match Official RM 159 / RM 286 / RM 405 Ledger', metric: 'RM 5.30 Per Day (1 Bottle)', desc: 'Avoid suspicious RM 25–RM 45 clearance listings that indicate counterfeit filler capsules.' },
+      { code: 'GX-CHK-05 · SOURCE', title: 'Order Exclusively Via Onyxmen.my Or Official WhatsApp', metric: '+60 14-298 5919 · Plain-Box COD', desc: 'Direct Kuala Lumpur vault dispatch ensures fresh batch rotation and 100% discreet courier waybills.' },
+    ],
+    faqs: [
+      { questionEn: 'Does authentic Grow XL Malaysia ever come in a 7-capsule or 10-capsule trial pack?', answerEn: 'No. Genuine Grow XL (SKU: ONYX-GX-30) is manufactured strictly as a 30-capsule full-month bottle (550mg per capsule). Any 7-pill or 10-pill blister strip sold online is an unauthorized counterfeit.' },
+      { questionEn: 'Why are RM 30 Grow XL listings on marketplace apps dangerous?', answerEn: 'Independent checks show ultra-cheap counterfeit male pills frequently contain either inert rice starch or undeclared synthetic PDE5 drugs mixed in unsanitary workshops, posing serious cardiovascular and blood-pressure risks.' },
+      { questionEn: 'How can I verify my Grow XL bottle before starting my morning routine?', answerEn: 'Confirm your parcel shipped from Onyxmen Malaysia (OM Fulfilment), check the intact inner induction foil seal, verify the 30-capsule count and lot stamp on the bottle base, or message our KL desk on WhatsApp (+60 14-298 5919).' },
+      { questionEn: 'What is the official Malaysia price for 1, 2, and 3 bottles of Grow XL?', answerEn: '1 Bottle (30 days) is RM 159, 2 Bottles (60 days) is RM 286 (10% OFF, save RM 32 vs RM 318), and 3 Bottles (90 days) is RM 405 (15% OFF, save RM 72 vs RM 477), all eligible for discreet COD.' },
+    ],
+  },
+  {
+    guideNumber: 16,
+    microStep: 'ONYX-STD',
+    guideCode: 'GUIDE-16 · HORSEMEN AUTHENTICITY',
+    slug: 'horsemen-500mg-original-vs-fake-malaysia',
+    canonicalEnPath: '/guides/horsemen-500mg-original-vs-fake-malaysia/',
+    alternateMsPath: '/ms/panduan/horsemen-500mg-original-vs-tiruan-malaysia/',
+    enOutputPaths: ['guides/horsemen-500mg-original-vs-fake-malaysia/index.html'],
+    watermark: 'HORSEMEN CHECK',
+    primaryProductSlug: 'horsemen',
+    heroImage: '/assets/products/horsemen-stage.webp',
+    portraitImage: '/assets/products/horsemen-portrait.webp',
+    publishedDate: '2026-11-13T08:00:00+08:00',
+    updatedDate: '2026-11-13T08:00:00+08:00',
+    readingTime: '11 Min Authenticity Audit Read',
+    seoTitle: 'Horsemen Original vs Fake Malaysia [20 Caps × 500mg RM159]',
+    metaDescription: '✓ Verify 100% Original Horsemen Man Virility Malaysia (20 Capsules x 500mg Tongkat Ali 100:1) vs fake 10-pill packs & sildenafil copies. RM 159 discreet COD.',
+    kicker: 'ONYX-STD · PROTOCOL GUIDE 16 · HORSEMEN 20 CAPSULES × 500MG ANTI-COUNTERFEIT CHECKLIST',
+    headline: 'Horsemen 500mg Original vs. Fake Malaysia: <span class="foil-champagne-text">20-Capsule Verification Guide.</span>',
+    taxonomyStrip: [
+      '01 · 20 CAPSULES × 500MG RESERVE',
+      '02 · 150MG TONGKAT ALI 100:1 ASSAY',
+      '03 · METALLIC CROWN SEAL & FOIL LINER',
+      '04 · ZERO HEADACHE SYNTHETIC DRUGS',
+    ],
+    executiveSummary: 'Distinguish authentic Horsemen Man Virility Enhancement (20 Capsules × 500mg, SKU ONYX-HM-20) from counterfeit 10-pill tins and spiked street capsules across Malaysia.',
+    telemetry: [
+      { key: '01 · OFFICIAL SPEC', val: '20 Caps × 500mg (10g)', sub: '150mg Tongkat Ali 100:1 + 100mg Black Maca + 80mg Icariin' },
+      { key: '02 · SECURITY MARK', val: 'Crown Seal + Lot Stamp', sub: 'Induction-sealed dark bottle from KL vault' },
+      { key: '03 · CLEAN RESPONSE', val: '45–60m Natural Readiness', sub: 'Zero facial flushing, nasal stuffiness, or visual tint' },
+      { key: '04 · OFFICIAL TIER', val: 'RM 159 · RM 286 · RM 405', sub: 'Plain unmarked parcel with Malaysia COD' },
+    ],
+    pinnedSummaryBullets: [
+      'Authentic Horsemen Malaysia is strictly a 20-capsule × 500mg dark reserve bottle (SKU ONYX-HM-20), never a 10-pill metal tin',
+      'Contains 150mg HPLC-verified Eurycoma longifolia 100:1, 100mg Gelatinized Black Maca, 80mg Icariin, and 80mg L-Arginine HCl',
+      'Never triggers the throbbing headache, heart palpitations, or nasal block typical of sildenafil-spiked street copies',
+      'Dispatched solely from Onyxmen Kuala Lumpur at RM 159 (1 Bottle), RM 286 (2 Bottles -10%), and RM 405 (3 Bottles -15%)',
+    ],
+    chapters: [
+      {
+        kicker: 'CHAPTER 01 · IDENTIFYING GENUINE HORSEMEN 20 × 500MG PACKAGING',
+        title: 'Why Counterfeit 10-Pill Tins and Unsealed Bottles Fail Our 4-Point Physical Audit.',
+        paragraphs: [
+          'As demand for concentrated evening vitality formulas has grown across Kuala Lumpur, Johor Bahru, and Penang, unauthorized sellers have flooded auction sites with lookalike 10-capsule metal tins and blurry-label plastic bottles using similar horse emblems. Official Horsemen Man Virility Enhancement distributed by Onyxmen Malaysia (SKU: ONYX-HM-20, GTIN-13: 9555889900018) is housed exclusively in a 20-capsule dark apothecary bottle delivering 10,000mg total active botanical mass.',
+          'Every authentic bottle features crisp metallic crown detailing on the primary label, an unbroken inner heat-induction foil seal, a moisture-absorbing silica canister, and laser-printed batch/expiry serialization on the underside.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 02 · PHYSIOLOGICAL SIGNALS: PURE BOTANICAL ADAPTATION VS. SPIKED PILLS',
+        title: 'How Your Body Immediately Tells Real Tongkat Ali 100:1 Apart From Illegal Adulterants.',
+        paragraphs: [
+          'Illicit street counterfeits rely on cheap synthetic PDE5 chemicals to mimic fast action, which almost invariably cause facial redness, stuffy sinuses, dizziness, or a heavy migraine the next morning. Authentic Horsemen contains zero synthetic drugs or stimulants.',
+          'Taken 45 to 60 minutes after dinner with 300ml of warm water, its 80mg pharmaceutical L-Arginine HCl and 80mg standardized Epimedium icariin support smooth peripheral blood flow, while 150mg of aqueous Malaysian Tongkat Ali 100:1 and 100mg Black Maca build clean, sustained evening drive that feels stronger in Week 2 than on Night 1.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 03 · TROPICAL STORAGE & HUMIDITY PROTECTION IN MALAYSIA',
+        title: 'Why Unauthorized Reseller Stock Degrades Before Reaching Your Doorstep.',
+        paragraphs: [
+          'High-ratio aqueous quassinoid extracts (2.2% eurycomanone) degrade rapidly if stored inside non-air-conditioned shophouses or car trunks exceeding 35°C. Onyxmen Malaysia stores all Horsemen batches below 24°C in Kuala Lumpur using Size-00 hypromellose shells engineered for low water activity.',
+          'Purchasing directly at the official RM 159 single-bottle rate?or locking in the 2-Bottle Dual Cycle (RM 286, 10% OFF vs RM 318) or 3-Bottle Vault (RM 405, 15% OFF vs RM 477)?guarantees fresh lot rotation straight from cold-room inventory.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 04 · DISCREET COD INSPECTION PROTOCOL ACROSS ALL 17 REGIONS',
+        title: 'Zero Product Names on Your Waybill and Pay-Upon-Delivery Peace of Mind.',
+        paragraphs: [
+          'Counterfeit marketplace orders often expose embarrassing supplement titles directly on printed courier stickers. Every official Onyxmen Malaysia parcel uses an opaque plain outer box labeled solely from OM Fulfilment with neutral document/wellness waybill coding.',
+          'Whether you reside in Klang Valley (same-day discreet runner option), Peninsular states (1–2 business days), or Sabah and Sarawak (2–4 days air express), you can verify parcel integrity in hand via Cash on Delivery.',
+        ],
+      },
+    ],
+    protocolSteps: [
+      { code: 'HM-CHK-01 · BOTTLE', title: 'Confirm 20-Capsule Dark Reserve Format', metric: '20 Caps × 500mg = 10,000mg', desc: 'Never accept 10-capsule tin cans, loose foil strips, or unlabeled trial packets.' },
+      { code: 'HM-CHK-02 · LINER', title: 'Check Metallic Crown Print & Induction Foil', metric: 'Tamper-Evident Inner Seal', desc: 'Ensure crisp metallic label typography and an unbroken electromagnetic foil seal under the cap.' },
+      { code: 'HM-CHK-03 · FEEL', title: 'Expect Smooth 45–60 Min Botanical Readiness', metric: '0% Flushing Or Sinus Headache', desc: 'Clean Tongkat Ali 100:1 + Icariin supports natural vascular response without synthetic side effects.' },
+      { code: 'HM-CHK-04 · CYCLE', title: 'Sync Day-18 Refill Or 2-Bottle RM 286 Reserve', metric: 'Save RM 32 (10% OFF)', desc: 'Maintain continuous evening SHBG and cortisol conditioning across 36 to 60 days.' },
+      { code: 'HM-CHK-05 · DIRECT', title: 'Verify Via Official KL Concierge Desk', metric: 'onyxmen.my · +60 14-298 5919', desc: 'Order directly from our official storefront for guaranteed authenticity and plain-box COD.' },
+    ],
+    faqs: [
+      { questionEn: 'How can I tell fake Horsemen capsules apart from the original Malaysia edition?', answerEn: 'Original Horsemen Malaysia (SKU: ONYX-HM-20) comes exclusively in an induction-sealed 20-capsule bottle (500mg per capsule) at RM 159. Fake copies usually appear as RM 30–RM 50 10-pill tins or loose blisters with blurry printing.' },
+      { questionEn: 'Does authentic Horsemen cause headaches or heart racing?', answerEn: 'No. Headaches, red eyes, and rapid heartbeat are hallmarks of illegal sildenafil-adulterated street pills. Authentic Horsemen uses 100% caffeine-free, drug-free standardized botanicals and L-Arginine HCl.' },
+      { questionEn: 'Why does Horsemen have 20 capsules while Grow XL has 30 capsules at RM 159?', answerEn: 'Horsemen concentrates higher per-capsule ratios of costly evening extracts (150mg Tongkat Ali 100:1 + 80mg Epimedium Icariin) for targeted 18-to-20 day evening cycles, whereas Grow XL is calibrated for 30-day morning conditioning.' },
+      { questionEn: 'Can I pay Cash on Delivery (COD) when ordering original Horsemen in Malaysia?', answerEn: 'Yes. Select COD at checkout on onyxmen.my or via WhatsApp (+60 14-298 5919) for 1 Bottle (RM 159), 2 Bottles (RM 286, 10% OFF), or 3 Bottles (RM 405, 15% OFF) in an unmarked parcel.' },
+    ],
+  }
+);
+
+GUIDE_DOSSIERS.push(
+  {
+    guideNumber: 17,
+    microStep: 'ONYX-STD',
+    guideCode: 'GUIDE-17 · MAGNUM PUMP XR CHECK',
+    slug: 'magnum-pump-xr-original-vs-fake-malaysia',
+    canonicalEnPath: '/guides/magnum-pump-xr-original-vs-fake-malaysia/',
+    alternateMsPath: '/ms/panduan/magnum-pump-xr-original-vs-tiruan-malaysia/',
+    enOutputPaths: ['guides/magnum-pump-xr-original-vs-fake-malaysia/index.html'],
+    watermark: 'MPXR CHECK',
+    primaryProductSlug: 'magnum-pump-xr',
+    heroImage: '/assets/products/magnum-pump-xr-stage.webp',
+    portraitImage: '/assets/products/magnum-pump-xr-portrait.webp',
+    publishedDate: '2026-11-13T08:00:00+08:00',
+    updatedDate: '2026-11-13T08:00:00+08:00',
+    readingTime: '11 Min Authenticity Audit Read',
+    seoTitle: 'Magnum Pump XR Original vs Fake Malaysia [30 Black Caps RM159]',
+    metaDescription: '✓ How to check 100% Original Magnum Pump XR Malaysia (30 Black Capsules x 600mg L-Arginine Nitric Oxide) vs fake gym powders & copies. RM 159 discreet COD.',
+    kicker: 'ONYX-STD · PROTOCOL GUIDE 17 · MAGNUM PUMP XR 30 BLACK CAPSULES AUTHENTICITY AUDIT',
+    headline: 'Magnum Pump XR Original vs. Fake Malaysia: <span class="foil-champagne-text">30 Black Capsules Inspection.</span>',
+    taxonomyStrip: [
+      '01 · 30 UV-SHIELDED BLACK CAPSULES',
+      '02 · 600MG NITRIC OXIDE MATRIX',
+      '03 · ZERO CAFFEINE GYM POWDER CONFUSION',
+      '04 · OFFICIAL RM 159 / RM 286 / RM 405 COD',
+    ],
+    executiveSummary: 'Verify authentic Magnum Pump XR Pro Series Malaysia (30 Black Capsules × 600mg, SKU ONYX-MP-30) against unrelated North American gym tubs and dyed gelatin copies.',
+    telemetry: [
+      { key: '01 · CAPSULE SHELL', val: '30 Black HPMC × 600mg', sub: '18,000mg total nitric oxide & botanical payload' },
+      { key: '02 · DUAL AMINO ASSAY', val: '180mg Arg + 140mg Cit', sub: 'Plus Black Ginger (5% DMF), Tribulus & Bioperine®' },
+      { key: '03 · STIMULANT STATUS', val: '0mg Caffeine / 0% PDE5', sub: 'Safe evening pre-session blood-flow support' },
+      { key: '04 · OFFICIAL LEDGER', val: 'RM 159 · 2 For RM 286', sub: 'Save 10% (RM 32) or 3 For RM 405 (-15%) COD' },
+    ],
+    pinnedSummaryBullets: [
+      'Original Magnum Pump XR Malaysia is an encapsulated 30 Black Capsules × 600mg bottle (SKU ONYX-MP-30), never a flavored pre-workout powder tub',
+      'Matte-black mineral-shielded vegetarian HPMC capsules protect L-Arginine HCl, L-Citrulline Malate, and Black Ginger flavones from UV oxidation',
+      'Zero caffeine jitters and zero undeclared pharmaceuticals?delivers clean 30–45 minute endothelial Nitric Oxide support',
+      'Shipped exclusively from Onyxmen Kuala Lumpur in unmarked parcels with nationwide Cash on Delivery',
+    ],
+    chapters: [
+      {
+        kicker: 'CHAPTER 01 · DISTINGUISHING MALAYSIA PRO SERIES CAPSULES FROM OVERSEAS GYM POWDERS',
+        title: 'Why Authentic Magnum Pump XR Uses 30 Black 600mg Capsules Instead of Flavored Scoops.',
+        paragraphs: [
+          'Malaysian shoppers searching Magnum Pump XR online often encounter two sources of confusion: parallel-imported North American pre-workout drink tubs bearing similar gym words, and cheap RM 35 unverified marketplace pill packets. Official Magnum Pump XR Pro Series distributed by Onyxmen Malaysia (SKU: ONYX-MP-30, GTIN-13: 9555889900049) is strictly an oral 30-capsule botanical and amino-acid supplement weighing 600mg per capsule (18,000mg per bottle).',
+          'Each capsule uses a distinctive iron-oxide UV-opaque black hypromellose shell rather than animal gelatin, preventing tropical light and moisture from degrading sensitive methoxyflavones and hygroscopic amino-acid salts.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 02 · INSIDE THE 600MG NITRIC OXIDE & KAEMPFERIA PARVIFLORA MATRIX',
+        title: 'Dual-Wave L-Arginine + L-Citrulline Kinetics vs. Fake Dyed Charcoal Capsules.',
+        paragraphs: [
+          'Counterfeit black capsules sold on auction listings frequently use cheap food-dye gelatin shells stuffed with inert charcoal or unstandardized root dust. Every authentic 600mg Magnum Pump XR capsule delivers a verified vascular payload: 180mg micronized L-Arginine HCl for 30-to-45 minute first-wave eNOS Nitric Oxide synthesis, plus 140mg L-Citrulline DL-Malate (2:1) that recycles renally to sustain blood flow across Hours 2 through 6.',
+          'This dual-amino core is reinforced with 110mg Tribulus terrestris (60% saponins), 90mg Malaysian Tongkat Ali 100:1, 60mg Thai/Malaysian Black Ginger (standardized to 5% 5,7-dimethoxyflavone), and Bioperine® black pepper extract for rapid intestinal uptake.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 03 · ZERO CAFFEINE CRASH & SAFE EVENING COMPATIBILITY',
+        title: 'Supporting Gym Pumps and Late-Evening Vascular Readiness Without Insomnia.',
+        paragraphs: [
+          'Commercial gym pre-workouts pack 250mg to 350mg of anhydrous caffeine that constricts peripheral blood vessels and ruins sleep when taken after 6:00 PM. Authentic Magnum Pump XR is 100% stimulant-free and 100% free of synthetic PDE5 drugs.',
+          'Whether taken 35 minutes before evening weight training or 45 minutes after dinner with 350ml plain water, it supports clean endothelial relaxation without rapid heartbeat, hand tremors, or next-day exhaustion.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 04 · OFFICIAL MALAYSIA PRICING & PLAIN-BOX COD VERIFICATION',
+        title: 'Securing Fresh Cold-Chain Stock at RM 159 / RM 286 (-10%) / RM 405 (-15%).',
+        paragraphs: [
+          'Authentic Magnum Pump XR Pro Series is priced uniformly across Malaysia: RM 159.00 for 1 Bottle (30 Black Capsules), RM 286.00 for 2 Bottles (10% OFF, saving RM 32 vs RM 318.00), and RM 405.00 for 3 Bottles (15% OFF, saving RM 72 vs RM 477.00). Many clients also pair 1 bottle of Grow XL (morning) with 1 bottle of Magnum Pump XR (evening/gym) under the RM 286 two-bottle tier.',
+          'All orders placed on https://www.onyxmen.my or WhatsApp (+60 14-298 5919) ship in unmarked kraft parcels from OM Fulfilment with Cash on Delivery nationwide.',
+        ],
+      },
+    ],
+    protocolSteps: [
+      { code: 'MP-CHK-01 · SHELL', title: 'Confirm 30 Matte-Black UV-Shielded HPMC Capsules', metric: '30 Black Caps × 600mg = 18g', desc: 'Authentic Onyxmen stock is encapsulated (never a flavored scoop powder or clear plastic blister).' },
+      { code: 'MP-CHK-02 · SEAL', title: 'Verify Inner Heat-Induction Foil & Desiccant', metric: 'Hygroscopic Amino Protection', desc: 'L-Citrulline Malate requires intact foil sealing and silica protection against Malaysian humidity.' },
+      { code: 'MP-CHK-03 · ONSET', title: 'Take With 350ml Plain Water 30–45 Mins Pre-Session', metric: 'Dual-Wave 5-Hour Vascular Arc', desc: 'Experience clean peripheral warmth and fullness with zero caffeine jitters or sinus pressure.' },
+      { code: 'MP-CHK-04 · STACK', title: 'Unlock 2-Bottle RM 286 (-10%) Free Express Shipping', metric: 'Save RM 32 Off RM 318', desc: 'Combine two Magnum Pump XR bottles or stack with Grow XL / Horsemen at checkout.' },
+      { code: 'MP-CHK-05 · SOURCE', title: 'Order Direct From Official Kuala Lumpur Vault', metric: 'onyxmen.my · +60 14-298 5919', desc: 'Guaranteed authentic batch serialization with plain-box COD across all 17 Malaysian regions.' },
+    ],
+    faqs: [
+      { questionEn: 'Is Magnum Pump XR Malaysia a powder tub or a 30-black-capsule bottle?', answerEn: 'Official Magnum Pump XR distributed by Onyxmen Malaysia (SKU: ONYX-MP-30) is strictly a 30 Black Capsules × 600mg oral supplement bottle?not a caffeinated pre-workout drink powder.' },
+      { questionEn: 'Why are authentic Magnum Pump XR capsules colored black?', answerEn: 'The matte-black vegetarian HPMC shell acts as a natural UV light barrier protecting 5,7-dimethoxyflavone (Black Ginger) and Nitric Oxide amino acids from photo-oxidation in Malaysia.' },
+      { questionEn: 'Can I take Magnum Pump XR at night without losing sleep?', answerEn: 'Yes. Authentic Magnum Pump XR contains 0mg caffeine and zero synthetic stimulants, making it completely suitable for evening sessions without disrupting sleep.' },
+      { questionEn: 'How much does genuine Magnum Pump XR cost in Malaysia with COD?', answerEn: '1 Bottle (30 Black Capsules) is RM 159, 2 Bottles is RM 286 (10% OFF, save RM 32), and 3 Bottles is RM 405 (15% OFF, save RM 72) with discreet plain-box COD.' },
+    ],
+  },
+  {
+    guideNumber: 18,
+    microStep: 'ONYX-STD',
+    guideCode: 'GUIDE-18 · 4-INGREDIENT SELECTOR',
+    slug: 'tongkat-ali-vs-maca-vs-tribulus-vs-l-arginine-malaysia',
+    canonicalEnPath: '/guides/tongkat-ali-vs-maca-vs-tribulus-vs-l-arginine-malaysia/',
+    alternateMsPath: '/ms/panduan/perbezaan-tongkat-ali-vs-maca-vs-tribulus-vs-l-arginine-malaysia/',
+    enOutputPaths: ['guides/tongkat-ali-vs-maca-vs-tribulus-vs-l-arginine-malaysia/index.html'],
+    watermark: '4 PATHWAYS',
+    primaryProductSlug: 'horsemen',
+    heroImage: '/assets/products/studio-botanicals-macro.webp',
+    portraitImage: '/assets/products/onyxman-lineup-hero.webp',
+    publishedDate: '2026-11-13T08:00:00+08:00',
+    updatedDate: '2026-11-13T08:00:00+08:00',
+    readingTime: '12 Min Phytochemical Selector Read',
+    seoTitle: 'Tongkat Ali vs Maca vs Tribulus vs L-Arginine Malaysia Guide',
+    metaDescription: '✓ Compare Tongkat Ali 100:1, Peruvian Black Maca, Tribulus 60% Saponins & L-Arginine Nitric Oxide for Malaysian men—and which RM 159 bottle fits your goal.',
+    kicker: 'ONYX-STD · PROTOCOL GUIDE 18 · FOUR BIOCHEMICAL PATHWAYS COMPARED HEAD-TO-HEAD',
+    headline: 'Tongkat Ali vs. Maca vs. Tribulus vs. L-Arginine: <span class="foil-champagne-text">Which Pathway Fits Your Goal?</span>',
+    taxonomyStrip: [
+      '01 · TONGKAT ALI 100:1: FREE DRIVE & CORTISOL',
+      '02 · BLACK MACA 10:1: ATP STAMINA & MOOD',
+      '03 · TRIBULUS 60% SAPONINS: LH & STRENGTH',
+      '04 · L-ARGININE + CITRULLINE: 35M BLOOD FLOW',
+    ],
+    executiveSummary: 'Compare how Tongkat Ali 100:1, Peruvian Black Maca, Tribulus 60% Saponins, and L-Arginine Nitric Oxide work?and match your primary goal to the right RM 159 bottle.',
+    telemetry: [
+      { key: '01 · TONGKAT ALI LEAD', val: 'Horsemen (150mg 100:1)', sub: '2.2% eurycomanone for evening drive & SHBG release' },
+      { key: '02 · MACA + STEROL LEAD', val: 'Grow XL (110mg + Muira)', sub: '30-day morning stamina, mood & Saw Palmetto support' },
+      { key: '03 · TRIBULUS LEAD', val: 'Hammer of Thor (200mg)', sub: '60% steroidal saponins in 100% vegetarian HPMC caps' },
+      { key: '04 · NITRIC OXIDE LEAD', val: 'Magnum Pump XR (320mg)', sub: '180mg L-Arginine + 140mg L-Citrulline 35-min flow' },
+    ],
+    pinnedSummaryBullets: [
+      'Pick Tongkat Ali-dominant Horsemen (150mg 100:1) when work stress and evening fatigue blunt your natural drive',
+      'Pick Maca + Muira Puama-rich Grow XL (30 Capsules) when you want steady all-day morning energy and 30-day conditioning',
+      'Pick Tribulus-dominant Hammer of Thor (200mg, 60% Saponins) for athletic androgenic recovery in 100% vegetarian shells',
+      'Pick L-Arginine + L-Citrulline-dominant Magnum Pump XR (320mg NO matrix) for fast 30–45 minute peripheral blood flow',
+    ],
+    chapters: [
+      {
+        kicker: 'CHAPTER 01 · MALAYSIAN TONGKAT ALI 100:1 (EURYCOMA LONGIFOLIA) VS. PERUVIAN MACA (LEPIDIUM MEYENII)',
+        title: 'Hormonal Cortisol-SHBG Liberation vs. Non-Hormonal Mitochondrial Stamina.',
+        paragraphs: [
+          'Malaysian buyers frequently assume Tongkat Ali and Peruvian Maca do the exact same thing, yet they operate on complementary biological axes. Aqueous 100:1 Eurycoma longifolia root extract (standardized to eurycomanone?150mg in Horsemen and 140mg in Grow XL) modulates the hypothalamic-pituitary-adrenal-gonadal axis, lowering stress-induced evening cortisol while freeing bioavailable testosterone from Sex-Hormone-Binding Globulin (SHBG).',
+          'Conversely, Gelatinized Peruvian Black Maca (110mg in Grow XL; 100mg in Horsemen and Hammer of Thor) acts non-hormonally through lipidic macamides and macaenes, fueling cellular ATP endurance, mood resilience, and desire without altering baseline hormone ratios. Together, they address both stress-blunted drive and physical stamina.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 02 · BULGARIAN TRIBULUS TERRESTRIS (60% SAPONINS) VS. L-ARGININE & L-CITRULLINE',
+        title: 'Receptor & Muscular Vitality Over 14 Days vs. Endothelial Blood Flow in 35 Minutes.',
+        paragraphs: [
+          'Tribulus terrestris standardized to 60% steroidal furostanol saponins and 20% protodioscin (200mg in Hammer of Thor; 110mg in Magnum Pump XR) supports luteinizing hormone pulsatility, androgen-receptor sensitivity, and physical strength recovery across 7 to 14 days of daily intake?making Hammer of Thor ideal for men prioritizing daytime vigor in 100% vegetarian capsules.',
+          'By contrast, pharmaceutical L-Arginine HCl and L-Citrulline Malate (combined 320mg in Magnum Pump XR; 100mg in Grow XL; 80mg in Horsemen) serve as direct nitrogen donors for endothelial Nitric Oxide Synthase (eNOS). Rather than waiting weeks, L-Arginine relaxes vascular smooth muscle within 30 to 45 minutes while L-Citrulline sustains micro-circulation for up to 5 hours.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 03 · WHY SINGLE-INGREDIENT CAPSULES UNDERPERFORM MULTI-PATHWAY FORMULAS',
+        title: 'Solving the Bottleneck Problem in Adult Men?s Vitality.',
+        paragraphs: [
+          'Taking raw single-herb Tongkat Ali powder alone often disappoints men whose real bottleneck is sluggish peripheral blood flow caused by sedentary desk work, whereas taking plain L-Arginine alone cannot restore evening drive if Klang Valley commute stress has spiked cortisol. Every Onyxmen formulation combines multiple synergistic pathways while letting one lead anchor match your primary physiology.',
+          'All four formulas are priced identically at RM 159.00 per bottle so you choose purely by mechanism rather than price.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 04 · EXACT 4-BOTTLE & 2-BOTTLE STACK DECISION MATRIX (RM 159 / RM 286 / RM 405)',
+        title: 'How to Select Your Ideal Single Bottle or Morning + Evening Stack.',
+        paragraphs: [
+          'If your #1 priority is evening drive and stress recovery, start with Horsemen (20 Caps, RM 159). If you want a full-month post-breakfast foundation with Saw Palmetto and Muira Puama, choose Grow XL (30 Caps, RM 159). If you prefer 100% vegetarian capsules focused on 60%-saponin Tribulus strength, select Hammer of Thor (20 Veg Caps, RM 159). If rapid 35-minute vascular fullness and gym/evening blood flow come first, choose Magnum Pump XR (30 Black Caps, RM 159).',
+          'For comprehensive 24-hour coverage, combine a morning foundation bottle (Grow XL) with an evening vascular bottle (Magnum Pump XR or Horsemen) under our 2-Bottle Bundle at RM 286 (10% OFF vs RM 318) or 3-Bottle Vault at RM 405 (15% OFF vs RM 477) with free plain-box COD.',
+        ],
+      },
+    ],
+    protocolSteps: [
+      { code: 'ING-SEL-01 · DRIVE', title: 'High Work Stress & Low Evening Drive → Tongkat Ali 100:1', metric: 'Select Horsemen (150mg 100:1)', desc: 'Targets elevated evening cortisol and SHBG binding 45–60 minutes after dinner.' },
+      { code: 'ING-SEL-02 · DAILY', title: 'All-Day Fatigue & 30-Day Conditioning → Maca + Muira Puama', metric: 'Select Grow XL (30 Capsules)', desc: 'Builds non-hormonal ATP stamina, mental sharpness, and pelvic comfort after breakfast.' },
+      { code: 'ING-SEL-03 · STRENGTH', title: 'Vegetarian Shell & Muscular Recovery → Tribulus 60% Saponins', metric: 'Select Hammer of Thor (200mg)', desc: 'Delivers 40mg verified protodioscin plus Panax ginseng and Zinc Bisglycinate.' },
+      { code: 'ING-SEL-04 · FLOW', title: 'Fast 35-Minute Vascular Blood Flow → L-Arginine + L-Citrulline', metric: 'Select Magnum Pump XR (320mg)', desc: 'Dual-wave Nitric Oxide + Black Ginger matrix for rapid pre-gym or evening circulation.' },
+      { code: 'ING-SEL-05 · STACK', title: '24-Hour Morning + Evening Synergy → 2-Bottle RM 286 Bundle', metric: '10% OFF + Free Malaysia COD', desc: 'Pair Grow XL (AM) + Magnum Pump XR or Horsemen (PM) via onyxmen.my or +60 14-298 5919.' },
+    ],
+    faqs: [
+      { questionEn: 'Which is better for Malaysian men: Tongkat Ali or Maca Root?', answerEn: 'Tongkat Ali 100:1 is superior when chronic work stress and cortisol suppress evening drive, whereas Peruvian Black Maca excels at steady daily energy and endurance. Both Horsemen and Grow XL combine standardized extracts of both herbs in a single capsule.' },
+      { questionEn: 'Does L-Arginine work faster than Tribulus Terrestris?', answerEn: 'Yes for immediate blood flow: L-Arginine HCl + L-Citrulline in Magnum Pump XR activates Nitric Oxide vasodilation within 30 to 45 minutes, while Tribulus 60% saponins in Hammer of Thor build progressive receptor and stamina support over 7 to 14 days.' },
+      { questionEn: 'Can I stack two different Onyxmen bottles together safely?', answerEn: 'Yes. Many clients take 1 Grow XL capsule after breakfast for daily baseline vitality and 1 Magnum Pump XR or Horsemen capsule 45 minutes before an evening session, spacing doses at least 8 hours apart with 2.5L–3.0L daily water.' },
+      { questionEn: 'Do all four Onyxmen formulas cost the same in Malaysia?', answerEn: 'Yes. Every bottle is RM 159 (1 Bottle), RM 286 for any 2 Bottles (10% OFF vs RM 318), and RM 405 for any 3 Bottles (15% OFF vs RM 477) with free discreet plain-box COD.' },
+    ],
+  }
+);
+
 export function renderAllGuidesCrossNavigationSection(currentSlug = '') {
   const rowsHtml = GUIDE_DOSSIERS.map((g) => {
     const isCurrent = g.slug === currentSlug;
@@ -3814,7 +4164,7 @@ export function renderMasterGuidesIndexPage() {
             CORE PROTOCOL TAKEAWAYS:
           </div>
           ${g.pinnedSummaryBullets
-            .slice(0, 2)
+            .slice(0, g.guideNumber >= 15 ? 1 : 2)
             .map(
               (b) => `
             <div style="font-size:0.84rem;color:var(--text-silk-ivory);padding:0.28rem 0;">
