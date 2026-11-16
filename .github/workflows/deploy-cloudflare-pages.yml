@@ -80,16 +80,6 @@ jobs:
           node scripts/ping-indexnow.mjs --dry-run
           node scripts/cloud-health-monitor.mjs --dry-run
 
-      - name: "06B Â· Upload public/ Artifact for GitHub Pages Cloud Hosting"
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./public
-
-      - name: "06C Â· Deploy to GitHub Pages Live Cloud Edge"
-        id: gh_pages_deploy
-        uses: actions/deploy-pages@v4
-        continue-on-error: true
-
       - name: "07 · Deploy public/ Artifact to Cloudflare Pages (onyxman-my -> https://www.onyxmen.my)"
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}

@@ -43,6 +43,15 @@ const INDEXNOW_ENDPOINTS = [
 
 const CORE_PRIORITY_URLS = [
   `${SITE_ORIGIN}/`,
+  `${SITE_ORIGIN}/guides/grow-xl-original-vs-fake-malaysia/`,
+  `${SITE_ORIGIN}/hammer-of-thor-malaysia/`,
+  `${SITE_ORIGIN}/grow-xl-malaysia/`,
+  `${SITE_ORIGIN}/horsemen-malaysia/`,
+  `${SITE_ORIGIN}/magnum-pump-xr-malaysia/`,
+  `${SITE_ORIGIN}/ms/hammer-of-thor-malaysia/`,
+  `${SITE_ORIGIN}/ms/grow-xl-malaysia/`,
+  `${SITE_ORIGIN}/ms/horsemen-malaysia/`,
+  `${SITE_ORIGIN}/ms/magnum-pump-xr-malaysia/`,
   `${SITE_ORIGIN}/products/horsemen/`,
   `${SITE_ORIGIN}/products/hammer-of-thor/`,
   `${SITE_ORIGIN}/products/grow-xl/`,
@@ -365,7 +374,7 @@ async function executeLiveCloudPings(payload) {
 
   // Step 3b: Trigger Google Official WebSub / PubSubHubbub Hub (https://pubsubhubbub.appspot.com/)
   // for real-time Google FeedFetcher & Googlebot discovery of feed.xml and rss.xml
-  const websubFeeds = [`${SITE_ORIGIN}/feed.xml`, `${SITE_ORIGIN}/rss.xml`];
+  const websubFeeds = [`${SITE_ORIGIN}/feed.xml`, `${SITE_ORIGIN}/rss.xml`, `${SITE_ORIGIN}/google-merchant-feed.xml`, `${SITE_ORIGIN}/google-merchant-feed-ms.xml`];
   for (const feedUrl of websubFeeds) {
     try {
       const wsRes = await fetch('https://pubsubhubbub.appspot.com/', {

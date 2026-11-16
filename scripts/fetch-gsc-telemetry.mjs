@@ -167,6 +167,8 @@ async function ensureSiteVerifiedAndSitemapsSubmitted(accessToken, serviceAccoun
     'https://www.onyxmen.my/sitemap-images.xml',
     'https://www.onyxmen.my/feed.xml',
     'https://www.onyxmen.my/rss.xml',
+    'https://www.onyxmen.my/google-merchant-feed.xml',
+    'https://www.onyxmen.my/google-merchant-feed-ms.xml',
   ];
   for (const sm of sitemaps) {
     try {
