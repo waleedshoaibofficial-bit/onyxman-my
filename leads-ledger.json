@@ -5,8 +5,24 @@
   "ownerEmail": "waleedshoaibofficial@gmail.com",
   "createdAtIso": "2026-11-11T08:38:11.145Z",
   "totalFormOrders": 0,
-  "totalWhatsappClicks": 1,
+  "totalWhatsappClicks": 2,
   "entries": [
+    {
+      "id": "#WA-6425",
+      "type": "WHATSAPP_CLICK",
+      "formula": "HAMMER OF THOR x 2",
+      "totalMyr": "RM 286 (10% OFF)",
+      "triggerSource": "floating-wa-dock",
+      "customerName": "",
+      "customerPhone": "",
+      "customerAddress": "",
+      "pageUrl": "https://www.onyxmen.my/ms/panduan/hammer-of-thor-original-vs-tiruan-malaysia/",
+      "referrer": "https://www.google.com/",
+      "mytTimestamp": "17/11/2026, 9:47:14 pm",
+      "recordedAtUtc": "2026-11-17T13:47:15.679Z",
+      "countryEdge": "MY",
+      "cityEdge": "Kota Bharu"
+    },
     {
       "id": "#WA-9341",
       "type": "WHATSAPP_CLICK",
@@ -22,5 +38,5 @@
       "recordedAtUtc": "2026-11-11T03:46:00.000Z"
     }
   ],
-  "lastUpdatedAtUtc": "2026-11-11T09:30:37.785Z"
+  "lastUpdatedAtUtc": "2026-11-17T13:47:16.057Z"
 }
