@@ -628,9 +628,9 @@
       _captcha: 'false',
       _replyto: customerEmail || RUNTIME_CONFIG.salesEmail,
       order_reference_id: orderId,
-      brand_domain: 'https://onyxman.my',
+      brand_domain: 'https://www.onyxmen.my',
       primary_merchant_inbox: 'waleedshoaibofficial@gmail.com',
-      official_brand_aliases: 'sales@onyxman.my | info@onyxman.my',
+      official_brand_aliases: 'sales@onyxmen.my | info@onyxmen.my',
       product_formulation:
         productSpec.name + ' (' + productSpec.capsulesPerBottle + ' Capsules × ' + tierInfo.bottles + ' Bottle(s))',
       bottle_tier_quantity: tierInfo.bottles + ' Bottle(s)',
@@ -669,16 +669,45 @@
       // Ignore storage quota errors in private browsing
     }
 
-    // Attempt Primary Endpoint: FormSubmit.co AJAX to waleedshoaibofficial@gmail.com
+    // Mirror Express Order Drawer submission to Cloud Lead Ledger (/api/lead-log)
+    try {
+      fetch('/api/lead-log', {
+        method: 'POST',
+        keepalive: true,
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          type: 'FORM_ORDER',
+          refCode: '#' + orderId,
+          formula: productSpec.name + ' x ' + tierInfo.bottles,
+          totalMyr: tierInfo.totalDisplay,
+          triggerSource: 'express-order-drawer',
+          customerName: customerName,
+          customerPhone: customerPhoneRaw,
+          customerAddress: deliveryAddress + ' (' + malaysiaState + ')',
+          pageUrl: window.location.href,
+          referrer: document.referrer || 'Direct / Google Search',
+          mytTimestamp: new Date().toLocaleString('en-MY', { timeZone: 'Asia/Kuala_Lumpur' }),
+        }),
+      }).catch(function () {});
+    } catch {
+      // Non-blocking cloud ledger telemetry
+    }
+
+    // Attempt Primary Endpoint: Zero-Preflight FormData POST to FormSubmit.co AJAX
     let primaryDelivered = false;
     try {
+      const drawerFormData = new FormData();
+      drawerFormData.append('_url', 'https://www.onyxmen.my/');
+      Object.keys(ajaxPayload).forEach(function (key) {
+        drawerFormData.append(key, String(ajaxPayload[key] == null ? '' : ajaxPayload[key]));
+      });
       const response = await fetch(RUNTIME_CONFIG.formSubmitAjaxEndpoint, {
         method: 'POST',
+        keepalive: true,
         headers: {
-          'Content-Type': 'application/json',
           Accept: 'application/json',
         },
-        body: JSON.stringify(ajaxPayload),
+        body: drawerFormData,
       });
       if (response && response.ok) {
         primaryDelivered = true;

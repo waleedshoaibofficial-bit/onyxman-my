@@ -3529,19 +3529,23 @@ export function renderVisualFirstStorefront(options = {}) {
           }
 
           try {
+            const vipFormData = new FormData();
+            vipFormData.append('_url', 'https://www.onyxmen.my/');
+            vipFormData.append('_template', 'table');
+            vipFormData.append('_captcha', 'false');
+            vipFormData.append('_subject', 'ONYXMEN VIP Order ' + refCode + ' — RM ' + totalMyr + pricing.badge + ' (' + customerName + ')');
+            vipFormData.append('Order_Reference', refCode);
+            vipFormData.append('Customer_Name', customerName);
+            vipFormData.append('Customer_Phone_WhatsApp', customerPhone);
+            vipFormData.append('Delivery_Address_Malaysia', customerAddr);
+            vipFormData.append('Ordered_Formulas', (itemsSummary || 'HORSEMEN x 1') + ' — RM ' + totalMyr + pricing.badge);
+            vipFormData.append('Total_Amount_MYR', 'RM ' + totalMyr + '.00 MYR' + pricing.badge);
+            vipFormData.append('Source_Page', window.location.href);
             await fetch('https://formsubmit.co/ajax/waleedshoaibofficial@gmail.com', {
               method: 'POST',
-              headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-              body: JSON.stringify({
-                _subject: 'ONYXMEN VIP Order ' + refCode + ' — RM ' + totalMyr + pricing.badge + ' (' + customerName + ')',
-                Order_Reference: refCode,
-                Customer_Name: customerName,
-                Customer_Phone_WhatsApp: customerPhone,
-                Delivery_Address_Malaysia: customerAddr,
-                Ordered_Formulas: (itemsSummary || 'HORSEMEN x 1') + ' — RM ' + totalMyr + pricing.badge,
-                Total_Amount_MYR: 'RM ' + totalMyr + '.00 MYR' + pricing.badge,
-                Source_Page: window.location.href
-              })
+              keepalive: true,
+              headers: { Accept: 'application/json' },
+              body: vipFormData
             });
           } catch (_) {
             /* Fallback gracefully */
@@ -3562,7 +3566,13 @@ export function renderVisualFirstStorefront(options = {}) {
       const FRIEND_WA_E164 = '60142985919';
       const FRIEND_WA_DISPLAY = '+60 14-298 5919';
 
-      function dispatchTrackedWhatsAppLead(triggerSource) {
+      let waDispatchLock = false;
+
+      async function dispatchTrackedWhatsAppLead(triggerSource) {
+        if (waDispatchLock) return;
+        waDispatchLock = true;
+        setTimeout(() => { waDispatchLock = false; }, 2200);
+
         const nameEl = document.getElementById('vip-customer-name');
         const phoneEl = document.getElementById('vip-customer-phone');
         const addrEl = document.getElementById('vip-customer-address');
@@ -3600,69 +3610,7 @@ export function renderVisualFirstStorefront(options = {}) {
           /* Ignore storage errors */
         }
 
-        /* 1. Fire Instant Keepalive Owner Audit Email to waleedshoaibofficial@gmail.com & Cloud Lead Ledger */
-        try {
-          fetch('/api/lead-log', {
-            method: 'POST',
-            keepalive: true,
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              type: 'WHATSAPP_CLICK',
-              refCode: '#' + waRef,
-              formula: itemsSummary,
-              totalMyr: 'RM ' + totalMyr + pricing.badge,
-              triggerSource,
-              customerName: customerName || '',
-              customerPhone: customerPhone || '',
-              customerAddress: customerAddr || '',
-              pageUrl: window.location.href,
-              referrer: document.referrer || 'Direct / Google Search',
-              mytTimestamp,
-            }),
-          }).catch(() => {});
-        } catch (_) {
-          /* Non-blocking cloud ledger telemetry */
-        }
-
-        try {
-          fetch('https://formsubmit.co/ajax/waleedshoaibofficial@gmail.com', {
-            method: 'POST',
-            keepalive: true,
-            headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-            body: JSON.stringify({
-              _subject:
-                '🟢 [WHATSAPP LEAD #' +
-                waRef +
-                '] Customer Contacted WhatsApp (' +
-                FRIEND_WA_DISPLAY +
-                ') — ' +
-                itemsSummary +
-                ' (RM ' +
-                totalMyr +
-                ')',
-              _template: 'table',
-              _captcha: 'false',
-              WhatsApp_Tracking_Code_On_Friend_Phone: '#' + waRef,
-              Friend_WhatsApp_Desk: FRIEND_WA_DISPLAY + ' (wa.me/' + FRIEND_WA_E164 + ')',
-              Selected_Formula_And_Bundle: itemsSummary + ' — RM ' + totalMyr + '.00 MYR' + pricing.badge,
-              Button_Clicked_By_Visitor: triggerSource,
-              Customer_Name_If_Entered: customerName || '(Not typed before clicking WhatsApp)',
-              Customer_Phone_If_Entered: customerPhone || '(Visible inside friend WhatsApp chat #' + waRef + ')',
-              Customer_Address_If_Entered: customerAddr || '(To be confirmed on WhatsApp #' + waRef + ')',
-              Source_Page_URL: window.location.href,
-              Traffic_Referrer: document.referrer || 'Direct / Google Search',
-              Clicked_Time_Malaysia: mytTimestamp,
-              Owner_Audit_Note:
-                'Every WhatsApp click sends this instant alert to waleedshoaibofficial@gmail.com AND stamps [Ref: #' +
-                waRef +
-                '] inside the WhatsApp message sent to +60 14-298 5919 so you can cross-check 100% of leads.',
-            }),
-          }).catch(() => {});
-        } catch (_) {
-          /* Non-blocking telemetry */
-        }
-
-        /* 2. Build Simple, Friendly 1-Line WhatsApp Message (Info or Order) with Short [Ref: #WA-XXXX] */
+        /* Build Simple, Friendly 1-Line WhatsApp Message (Info or Order) with Short [Ref: #WA-XXXX] */
         const isPageMs = document.documentElement.lang === 'ms-MY';
         let simpleWaText = isPageMs
           ? 'Hai ONYXMEN Malaysia, saya ingin tanya info / buat tempahan mengenai ' + selectedItem.name + '. [Ref: #' + waRef + ']'
@@ -3684,6 +3632,87 @@ export function renderVisualFirstStorefront(options = {}) {
             waRef +
             '...';
         }
+
+        /* Fire Zero-Preflight FormData Email Alert + Same-Origin Cloud Ledger with 420ms Mobile Flush */
+        let leadLogReq = Promise.resolve();
+        try {
+          leadLogReq = fetch('/api/lead-log', {
+            method: 'POST',
+            keepalive: true,
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              type: 'WHATSAPP_CLICK',
+              refCode: '#' + waRef,
+              formula: itemsSummary,
+              totalMyr: 'RM ' + totalMyr + pricing.badge,
+              triggerSource,
+              customerName: customerName || '',
+              customerPhone: customerPhone || '',
+              customerAddress: customerAddr || '',
+              pageUrl: window.location.href,
+              referrer: document.referrer || 'Direct / Google Search',
+              mytTimestamp,
+            }),
+          }).catch(() => {});
+        } catch (_) {
+          /* Non-blocking cloud ledger telemetry */
+        }
+
+        let formSubmitReq = Promise.resolve();
+        try {
+          const waFormData = new FormData();
+          waFormData.append('_url', 'https://www.onyxmen.my/');
+          waFormData.append('_template', 'table');
+          waFormData.append('_captcha', 'false');
+          waFormData.append(
+            '_subject',
+            '🟢 [WHATSAPP LEAD #' +
+              waRef +
+              '] Customer Contacted WhatsApp (' +
+              FRIEND_WA_DISPLAY +
+              ') — ' +
+              itemsSummary +
+              ' (RM ' +
+              totalMyr +
+              ')'
+          );
+          waFormData.append('WhatsApp_Tracking_Code_On_Friend_Phone', '#' + waRef);
+          waFormData.append('Friend_WhatsApp_Desk', FRIEND_WA_DISPLAY + ' (wa.me/' + FRIEND_WA_E164 + ')');
+          waFormData.append('Selected_Formula_And_Bundle', itemsSummary + ' — RM ' + totalMyr + '.00 MYR' + pricing.badge);
+          waFormData.append('Button_Clicked_By_Visitor', triggerSource);
+          waFormData.append('Customer_Name_If_Entered', customerName || '(Not typed before clicking WhatsApp)');
+          waFormData.append('Customer_Phone_If_Entered', customerPhone || '(Visible inside friend WhatsApp chat #' + waRef + ')');
+          waFormData.append('Customer_Address_If_Entered', customerAddr || '(To be confirmed on WhatsApp #' + waRef + ')');
+          waFormData.append('Source_Page_URL', window.location.href);
+          waFormData.append('Traffic_Referrer', document.referrer || 'Direct / Google Search');
+          waFormData.append('Clicked_Time_Malaysia', mytTimestamp);
+          waFormData.append(
+            'Owner_Audit_Note',
+            'Every WhatsApp click sends this instant alert to waleedshoaibofficial@gmail.com AND stamps [Ref: #' +
+              waRef +
+              '] inside the WhatsApp message sent to +60 14-298 5919 so you can cross-check 100% of leads.'
+          );
+
+          formSubmitReq = fetch('https://formsubmit.co/ajax/waleedshoaibofficial@gmail.com', {
+            method: 'POST',
+            keepalive: true,
+            headers: { Accept: 'application/json' },
+            body: waFormData,
+          }).catch(() => {
+            try {
+              if (navigator.sendBeacon) {
+                navigator.sendBeacon('https://formsubmit.co/waleedshoaibofficial@gmail.com', waFormData);
+              }
+            } catch (_) {}
+          });
+        } catch (_) {
+          /* Non-blocking telemetry */
+        }
+
+        await Promise.race([
+          Promise.allSettled([leadLogReq, formSubmitReq]),
+          new Promise((resolve) => setTimeout(resolve, 420)),
+        ]);
 
         window.location.href = waTargetUrl;
       }
