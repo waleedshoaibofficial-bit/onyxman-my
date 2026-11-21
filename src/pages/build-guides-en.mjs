@@ -3649,88 +3649,7 @@ GUIDE_DOSSIERS.push(
   }
 );
 
-export function renderAllGuidesCrossNavigationSection(currentSlug = '') {
-  const rowsHtml = GUIDE_DOSSIERS.map((g) => {
-    const isCurrent = g.slug === currentSlug;
-    const aliasList = g.enOutputPaths
-      .slice(1)
-      .map((p) => `/${p.replace(/index\.html$/, '')}`)
-      .join(' · ');
-
-    return `
-      <div class="guide-hairline-row" ${isCurrent ? 'style="background:rgba(212,175,55,0.08);"' : ''}>
-        <div class="guide-hairline-row__code">
-          ${esc(g.microStep)} · GUIDE #0${g.guideNumber}
-          ${isCurrent ? '<br /><span style="color:var(--gold-foil-bright);">[CURRENT GUIDE]</span>' : ''}
-        </div>
-        <div class="guide-hairline-row__main">
-          <h3 class="guide-hairline-row__title">
-            <a href="${esc(g.canonicalEnPath)}" style="text-decoration:underline;text-underline-offset:4px;">
-              ${g.headline}
-            </a>
-          </h3>
-          <p class="guide-hairline-row__desc">${esc(g.executiveSummary)}</p>
-          <p style="font-size:0.74rem;color:var(--text-ash-silver);letter-spacing:0.06em;">
-            <strong>Supported Route Aliases:</strong> ${esc(g.canonicalEnPath)} · ${esc(aliasList)}
-          </p>
-        </div>
-        <div class="guide-hairline-row__meta">
-          <span style="font-size:0.76rem;color:var(--gold-foil-bright);">${esc(g.readingTime)}</span>
-          <a href="${esc(g.canonicalEnPath)}" class="cta-foil-primary" style="padding:0.65rem 1.25rem;font-size:0.72rem;">
-            <span>Read Guide #0${g.guideNumber} →</span>
-          </a>
-        </div>
-      </div>`;
-  }).join('\n');
-
-  return `
-  <!-- ==========================================================================
-       SHARED ARCHITECTURAL LEDGER — COMPLETE 6-GUIDE EDITORIAL DIRECTORY
-       ========================================================================== -->
-  <section
-    id="complete-6-guide-protocol-archive-directory"
-    class="guide-section guide-section--onyx"
-    aria-labelledby="heading-all-6-guides-nav"
-  >
-    <div class="guide-section__inner">
-      <header class="guide-section__header">
-        <div class="guide-section__header-left">
-          <span class="editorial-kicker">
-            MS-147 TO MS-153 · COMPLETE 6-GUIDE BUYER &amp; PROTOCOL LIBRARY
-          </span>
-          <h2 id="heading-all-6-guides-nav" class="editorial-headline-lg">
-            Continue Exploring All 21 <span class="foil-champagne-text">Onyxmen Malaysia Protocol &amp; Buyer Guides.</span>
-          </h2>
-        </div>
-        <div class="guide-section__header-right">
-          <a href="/guides/" class="cta-foil-primary">
-            <span>Return To Master Guides Archive (/guides/) →</span>
-          </a>
-        </div>
-      </header>
-
-      <div class="guide-hairline-ledger">
-        ${rowsHtml}
-      </div>
-    </div>
-  </section>`;
-}
-
-/**
- * Renders an Individual English Buyer-Intent SEO Guide Page (`MS-148` through `MS-153`)
- */
-export function renderIndividualGuidePage(dossier) {
-  const lang = 'en-MY';
-  const canonicalPath = dossier.canonicalEnPath;
-  const alternatePathEn = dossier.canonicalEnPath;
-  const alternatePathMs = dossier.alternateMsPath;
-
-  const combinedFaqs = [...dossier.faqs, ...SHARED_BUYER_GUIDE_FAQS];
-
-  const breadcrumbs = [
-    { name: 'Onyxmen Malaysia Home', url: '/' },
-    { name: 'Vitality & Buyer Protocol Guides', url: '/guides/' },
-    { name: dossier.seoTitle.split('|')[0].trim(), url: canonicalPath },
+GUIDE_DOSSIERS.push(
   {
     guideNumber: 19,
     microStep: 'ONYX-STD',
@@ -3989,7 +3908,91 @@ export function renderIndividualGuidePage(dossier) {
       { questionEn: 'Can health writers and researchers republish tables from this dataset?', answerEn: 'Yes. Under the Creative Commons Attribution 4.0 (CC BY 4.0) license, anyone may share or adapt the data by citing Onyxmen Malaysia with a link to https://www.onyxmen.my/.' },
       { questionEn: 'What are the official 2026 prices for verified Onyxmen Malaysia formulations?', answerEn: 'All four authentic SKUs (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) are RM 159 for 1 Bottle, RM 286 for 2 Bottles (10% OFF), and RM 405 for 3 Bottles (15% OFF) with discreet COD.' },
     ],
-  },
+  }
+);
+
+export function renderAllGuidesCrossNavigationSection(currentSlug = '') {
+  const rowsHtml = GUIDE_DOSSIERS.map((g) => {
+    const isCurrent = g.slug === currentSlug;
+    const aliasList = g.enOutputPaths
+      .slice(1)
+      .map((p) => `/${p.replace(/index\.html$/, '')}`)
+      .join(' · ');
+
+    return `
+      <div class="guide-hairline-row" ${isCurrent ? 'style="background:rgba(212,175,55,0.08);"' : ''}>
+        <div class="guide-hairline-row__code">
+          ${esc(g.microStep)} · GUIDE #0${g.guideNumber}
+          ${isCurrent ? '<br /><span style="color:var(--gold-foil-bright);">[CURRENT GUIDE]</span>' : ''}
+        </div>
+        <div class="guide-hairline-row__main">
+          <h3 class="guide-hairline-row__title">
+            <a href="${esc(g.canonicalEnPath)}" style="text-decoration:underline;text-underline-offset:4px;">
+              ${g.headline}
+            </a>
+          </h3>
+          <p class="guide-hairline-row__desc">${esc(g.executiveSummary)}</p>
+          <p style="font-size:0.74rem;color:var(--text-ash-silver);letter-spacing:0.06em;">
+            <strong>Supported Route Aliases:</strong> ${esc(g.canonicalEnPath)} · ${esc(aliasList)}
+          </p>
+        </div>
+        <div class="guide-hairline-row__meta">
+          <span style="font-size:0.76rem;color:var(--gold-foil-bright);">${esc(g.readingTime)}</span>
+          <a href="${esc(g.canonicalEnPath)}" class="cta-foil-primary" style="padding:0.65rem 1.25rem;font-size:0.72rem;">
+            <span>Read Guide #0${g.guideNumber} →</span>
+          </a>
+        </div>
+      </div>`;
+  }).join('\n');
+
+  return `
+  <!-- ==========================================================================
+       SHARED ARCHITECTURAL LEDGER — COMPLETE 6-GUIDE EDITORIAL DIRECTORY
+       ========================================================================== -->
+  <section
+    id="complete-6-guide-protocol-archive-directory"
+    class="guide-section guide-section--onyx"
+    aria-labelledby="heading-all-6-guides-nav"
+  >
+    <div class="guide-section__inner">
+      <header class="guide-section__header">
+        <div class="guide-section__header-left">
+          <span class="editorial-kicker">
+            MS-147 TO MS-153 · COMPLETE 6-GUIDE BUYER &amp; PROTOCOL LIBRARY
+          </span>
+          <h2 id="heading-all-6-guides-nav" class="editorial-headline-lg">
+            Continue Exploring All 21 <span class="foil-champagne-text">Onyxmen Malaysia Protocol &amp; Buyer Guides.</span>
+          </h2>
+        </div>
+        <div class="guide-section__header-right">
+          <a href="/guides/" class="cta-foil-primary">
+            <span>Return To Master Guides Archive (/guides/) →</span>
+          </a>
+        </div>
+      </header>
+
+      <div class="guide-hairline-ledger">
+        ${rowsHtml}
+      </div>
+    </div>
+  </section>`;
+}
+
+/**
+ * Renders an Individual English Buyer-Intent SEO Guide Page (`MS-148` through `MS-153`)
+ */
+export function renderIndividualGuidePage(dossier) {
+  const lang = 'en-MY';
+  const canonicalPath = dossier.canonicalEnPath;
+  const alternatePathEn = dossier.canonicalEnPath;
+  const alternatePathMs = dossier.alternateMsPath;
+
+  const combinedFaqs = [...dossier.faqs, ...SHARED_BUYER_GUIDE_FAQS];
+
+  const breadcrumbs = [
+    { name: 'Onyxmen Malaysia Home', url: '/' },
+    { name: 'Vitality & Buyer Protocol Guides', url: '/guides/' },
+    { name: dossier.seoTitle.split('|')[0].trim(), url: canonicalPath },
   ];
 
   const schemaGraphJson = buildFullPageGraph({
