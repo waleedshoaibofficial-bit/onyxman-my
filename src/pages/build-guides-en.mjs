@@ -4408,11 +4408,11 @@ export function renderMasterGuidesIndexPage() {
   const title =
     'Adult Men’s Vitality, Authenticity Verification & Discreet Malaysia Buyer Guides Archive | Onyxmen Malaysia';
   const description =
-    'Master Editorial & Protocol Library for Onyxmen Malaysia (RM 159): explore all 14 clinical buyer guides covering optimal capsule timing, counterfeit verification, discreet plain-box COD/FPX ordering, 20 vs 30 capsule cycles, tropical stamina nutrition & Nitric Oxide synergy.';
+    'Master Editorial & Protocol Library for Onyxmen Malaysia (RM 159): explore all 21 clinical buyer guides covering optimal capsule timing, counterfeit verification, discreet plain-box COD/FPX ordering, 20 vs 30 capsule cycles, tropical stamina nutrition & Nitric Oxide synergy.';
 
   const indexFaqs = [
-    ...GUIDE_DOSSIERS.map((g) => g.faqs[0]),
-    ...GUIDE_DOSSIERS.map((g) => g.faqs[1]),
+    ...GUIDE_DOSSIERS.slice(0, 10).map((g) => g.faqs[0]),
+    ...GUIDE_DOSSIERS.slice(18).map((g) => g.faqs[0]),
     ...SHARED_BUYER_GUIDE_FAQS,
   ];
 
