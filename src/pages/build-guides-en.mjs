@@ -4489,7 +4489,7 @@ export function renderMasterGuidesIndexPage() {
             CORE PROTOCOL TAKEAWAYS:
           </div>
           ${g.pinnedSummaryBullets
-            .slice(0, g.guideNumber >= 15 ? 1 : 2)
+            .slice(0, g.guideNumber <= 6 ? 1 : 0)
             .map(
               (b) => `
             <div style="font-size:0.84rem;color:var(--text-silk-ivory);padding:0.28rem 0;">
