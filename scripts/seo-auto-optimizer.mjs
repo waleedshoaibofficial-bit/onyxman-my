@@ -224,6 +224,31 @@ function buildOptimalSerpMeta(route, rawTitle, rawDesc) {
       title: 'Perbezaan Tongkat Ali vs Maca vs Tribulus vs L-Arginine MY',
       desc: '✓ Bandingkan fungsi Tongkat Ali 100:1, Akar Maca Hitam, Tribulus 60% Saponin & L-Arginine Nitrik Oksida untuk lelaki Malaysia—pilih botol RM 159 terbaik.',
     },
+    '/guides/hammer-of-thor-20-veg-capsule-dosage-guide-malaysia/': {
+      title: 'Hammer of Thor Dosage Guide Malaysia: 20 Veg Capsules Timing',
+      desc: '✓ Official Hammer of Thor Malaysia 20 Veg. Capsule dosage & meal-timing guide (60% Tribulus saponins & Maca). Buy 1 RM 159, 2 RM 286 (-10%) discreet COD.',
+    },
+    '/ms/panduan/panduan-cara-makan-hammer-of-thor-20-kapsul-malaysia/': {
+      title: 'Panduan Cara Makan Hammer of Thor 20 Kapsul Veg Malaysia',
+      desc: '✓ Panduan rasmi cara makan Hammer of Thor Original Malaysia (20 Kapsul Veg. 60% Saponin Tribulus) ikut waktu tepat. 1 RM 159, 2 RM 286 (-10%) COD Rahsia.',
+    },
+    '/guides/night-shift-fatigue-gym-stamina-supplement-routine-malaysia/': {
+      title: 'Night-Shift, Driving & Gym Stamina Supplement Guide Malaysia',
+      desc: '✓ Stamina & recovery timing protocol for Malaysian night-shift workers, drivers & active men using Tongkat Ali, Maca & L-Arginine (RM 159 / 2 for RM 286 COD).',
+    },
+    '/ms/panduan/panduan-tenaga-lelaki-kerja-syif-malam-dan-stamina-malaysia/': {
+      title: 'Panduan Stamina Lelaki Kerja Syif Malam & Pemandu Malaysia',
+      desc: '✓ Jadual suplemen tenaga batin & stamina lelaki kerja syif malam, pemandu jauh & aktif bersenam di Malaysia (Tongkat Ali & Maca RM 159 / 2 Botol RM 286 COD).',
+    },
+    '/guides/malaysia-botanical-supplement-standardization-dataset-2026/': {
+      title: 'Malaysia Men Supplement Standardization Dataset (2026 Open)',
+      desc: '✓ Open 2026 Malaysia botanical supplement dataset (CSV & JSON): Tongkat Ali 100:1, Maca, Tribulus 60% Saponins & L-Arginine specs plus authentic bottle checks.',
+    },
+    '/ms/panduan/dataset-piawaian-suplemen-botani-lelaki-malaysia-2026/': {
+      title: 'Dataset Piawaian Suplemen Botani Lelaki Malaysia (2026 Rasmi)',
+      desc: '✓ Dataset terbuka 2026 suplemen botani lelaki Malaysia (CSV & JSON): nisbah ekstrak Tongkat Ali 100:1, Maca, Tribulus 60% Saponin & semakan ketulenan botol.',
+    },
+
     "/compare/": {
       title: "Compare Horsemen, Hammer of Thor, Grow XL & Magnum Pump XR MY",
       desc: "✓ Side-by-side comparison of all 4 Original Onyxmen Malaysia supplements: Horsemen (20 Caps), Hammer of Thor (20 Veg), Grow XL & Magnum Pump XR (RM 159 COD).",

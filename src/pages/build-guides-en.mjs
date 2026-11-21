@@ -3699,7 +3699,7 @@ export function renderAllGuidesCrossNavigationSection(currentSlug = '') {
             MS-147 TO MS-153 · COMPLETE 6-GUIDE BUYER &amp; PROTOCOL LIBRARY
           </span>
           <h2 id="heading-all-6-guides-nav" class="editorial-headline-lg">
-            Continue Exploring All 14 <span class="foil-champagne-text">Onyxmen Malaysia Protocol &amp; Buyer Guides.</span>
+            Continue Exploring All 21 <span class="foil-champagne-text">Onyxmen Malaysia Protocol &amp; Buyer Guides.</span>
           </h2>
         </div>
         <div class="guide-section__header-right">
@@ -3731,7 +3731,266 @@ export function renderIndividualGuidePage(dossier) {
     { name: 'Onyxmen Malaysia Home', url: '/' },
     { name: 'Vitality & Buyer Protocol Guides', url: '/guides/' },
     { name: dossier.seoTitle.split('|')[0].trim(), url: canonicalPath },
-  ];
+    {
+    guideNumber: 19,
+    microStep: 'ONYX-STD',
+    guideCode: 'GUIDE-19 · HAMMER OF THOR DOSAGE',
+    slug: 'hammer-of-thor-20-veg-capsule-dosage-guide-malaysia',
+    canonicalEnPath: '/guides/hammer-of-thor-20-veg-capsule-dosage-guide-malaysia/',
+    alternateMsPath: '/ms/panduan/panduan-cara-makan-hammer-of-thor-20-kapsul-malaysia/',
+    enOutputPaths: ['guides/hammer-of-thor-20-veg-capsule-dosage-guide-malaysia/index.html'],
+    watermark: 'HT DOSAGE 20',
+    primaryProductSlug: 'hammer-of-thor',
+    heroImage: '/assets/products/hammer-of-thor-stage.webp',
+    portraitImage: '/assets/products/hammer-of-thor-portrait.webp',
+    publishedDate: '2026-11-21T08:00:00+08:00',
+    updatedDate: '2026-11-21T08:00:00+08:00',
+    readingTime: '11 Min Dosage & Cycle Protocol Read',
+    seoTitle: 'Hammer of Thor Dosage Guide Malaysia: 20 Veg Capsules Timing',
+    metaDescription: '✓ Official Hammer of Thor Malaysia 20 Veg. Capsule dosage & meal-timing guide (60% Tribulus saponins & Maca). Buy 1 RM 159, 2 RM 286 (-10%) discreet COD.',
+    kicker: 'ONYX-STD · PROTOCOL GUIDE 19 · OFFICIAL 20 VEGETARIAN CAPSULE DOSAGE & MEAL-TIMING MANUAL',
+    headline: 'Hammer of Thor 20-Capsule Dosage Guide: <span class="foil-champagne-text">Exact Timing &amp; Cycle Protocol in Malaysia.</span>',
+    taxonomyStrip: [
+      '01 · DAILY SERVING: 1 VEG CAPSULE AFTER MEAL',
+      '02 · ACTIVE CORE: 200MG TRIBULUS (60% SAPONINS)',
+      '03 · HYDRATION RULE: 300ML WARM WATER + DIETARY FAT',
+      '04 · REFILL CADENCE: DAY-18 REORDER FOR 40-DAY CONTINUITY',
+    ],
+    executiveSummary: 'Master the exact daily capsule timing, post-meal lipid absorption window, tropical hydration targets, and 20-day vs. 40-day cycle schedule for genuine Hammer of Thor (20 Vegetarian Capsules, SKU ONYX-HT-20) in Malaysia.',
+    telemetry: [
+      { key: '01 · OFFICIAL FORMAT', val: '20 Veg. Capsules × 500mg', sub: '100% plant-cellulose HPMC vegetarian shell' },
+      { key: '02 · OPTIMAL TIMING', val: '30–45 Min Post-Meal', sub: 'After lunch or dinner with healthy dietary lipids' },
+      { key: '03 · DAILY CEILING', val: '1 Capsule / 24 Hours', sub: 'Gradual 7–14 day saponin & adaptogen conditioning' },
+      { key: '04 · OFFICIAL BUNDLES', val: 'RM 159 / RM 286 / RM 405', sub: 'Save 10%–15% on 40-day & 60-day discreet COD cycles' },
+    ],
+    pinnedSummaryBullets: [
+      'Take exactly 1 Hammer of Thor vegetarian capsule 30 to 45 minutes after a main meal containing natural fats (eggs, fish, olive oil, or santan dishes) to maximize steroidal saponin micellar absorption',
+      'Drink 300ml of room-temperature or warm plain water at intake and maintain 2.5 to 3.0 liters of daily hydration in Malaysia’s tropical climate',
+      'Leave a 60-minute gap away from strong kopi O, teh tarik, or espresso so polyphenols and tannins do not bind Zinc Bisglycinate and Panax ginseng ginsenosides',
+      'Start a 2-Bottle 40-day protocol (RM 286, 10% OFF vs RM 318 + Free COD) for uninterrupted Day-14 through Day-40 androgenic stamina conditioning',
+    ],
+    chapters: [
+      {
+        kicker: 'CHAPTER 01 · WHY POST-MEAL LIPID TIMING UNLOCKS 60% TRIBULUS SAPONINS',
+        title: 'Fat-Soluble Furostanol Saponin Bioavailability vs. Empty-Stomach Waste.',
+        paragraphs: [
+          'Genuine Hammer of Thor Malaysia (20 Vegetarian Capsules, SKU ONYX-HT-20) is anchored by 200mg of standardized Bulgarian Tribulus terrestris extract yielding 60% steroidal furostanol saponins (protodioscin), paired with Gelatinized Peruvian Maca, Panax ginseng, and chelated Zinc Bisglycinate. Because steroidal saponins have amphiphilic molecular structures, swallowing a capsule on a completely empty morning stomach reduces bile-salt emulsification and can cause mild herbal gastric warmth.',
+          'Taking your single daily capsule 30 to 45 minutes after a balanced Malaysian lunch or dinner triggers natural gallbladder bile release, increasing intestinal absorption of protodioscin and ginsenosides while keeping digestion completely smooth.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 02 · WORKDAY LUNCH VS. EVENING DINNER TIMING WINDOWS',
+        title: 'Choosing the Best 24-Hour Slot for Physical Stamina and Evening Readiness.',
+        paragraphs: [
+          'Malaysian men typically follow one of two consistent daily schedules depending on work hours. For daytime physical energy, gym strength, and post-work vigor, take 1 capsule 30 minutes after lunch (around 1:30 PM to 2:00 PM). For evening vitality and overnight recovery, take 1 capsule 45 minutes after dinner (around 8:00 PM to 9:00 PM) at least 2 hours before sleep.',
+          'Consistency at the same clock hour every 24 hours matters far more than taking extra capsules. Never exceed 1–2 capsules in 24 hours; botanical adaptogens build steady physiological momentum across Days 7, 14, and 20 rather than forcing synthetic blood-pressure spikes.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 03 · COFFEE, TEH TARIK & TROPICAL HYDRATION RULES IN MALAYSIA',
+        title: 'Preventing Tannin Chelation and Heat-Induced Dehydration.',
+        paragraphs: [
+          'Tannins and chlorogenic acids in concentrated Malaysian kopi, teh tarik, and energy drinks can chelate trace minerals such as Zinc Bisglycinate when consumed simultaneously. Simply space your Hammer of Thor capsule 60 minutes apart from heavy caffeinated drinks and swallow with 300ml of plain water.',
+          'In high-humidity cities from Kuala Lumpur and Johor Bahru to Penang and Kota Kinabalu, maintaining 2.5 to 3.0 liters of daily water intake supports optimal plasma volume and nutrient transport.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 04 · 20-DAY SINGLE BOTTLE (RM 159) VS. 40-DAY DUAL CYCLE (RM 286)',
+        title: 'Eliminating the Day-20 Gap With Timely Day-18 Continuity.',
+        paragraphs: [
+          'One bottle of Hammer of Thor provides 20 vegetarian capsules (a 20-day daily conditioning cycle at RM 159.00, or RM 7.95 per day). Because botanical saponin and macaene tissue saturation peaks between Week 3 and Week 6, stopping abruptly on Day 20 interrupts peak adaptation.',
+          'Most returning Malaysian clients order the 2-Bottle 40-Capsule Bundle at RM 286 (10% OFF vs RM 318, saving RM 32 with Free Nationwide Discreet COD) or the 3-Bottle 60-Capsule Vault at RM 405 (15% OFF vs RM 477, saving RM 72) via onyxmen.my or WhatsApp +60 14-298 5919.',
+        ],
+      },
+    ],
+    protocolSteps: [
+      { code: 'HT-DOS-01 · MEAL', title: 'Eat a Balanced Lunch or Dinner With Healthy Fats', metric: '30–45 Min Pre-Capsule', desc: 'Stimulates natural bile emulsification for 60% steroidal saponin absorption.' },
+      { code: 'HT-DOS-02 · WATER', title: 'Swallow 1 Vegetarian Capsule With 300ml Plain Water', metric: '1 Capsule / 24 Hours', desc: 'Dissolves HPMC plant-cellulose shell cleanly within 12–18 minutes.' },
+      { code: 'HT-DOS-03 · GAP', title: 'Keep a 60-Minute Buffer From Kopi, Teh Tarik & Medications', metric: '60-Min Tannin Buffer', desc: 'Protects Zinc Bisglycinate chelation; consult a doctor if taking prescription medicines.' },
+      { code: 'HT-DOS-04 · TRACK', title: 'Maintain Daily Consistency Through Day 14 & Day 20', metric: '7–14 Day Build-Up', desc: 'Gradual botanical stamina support with zero synthetic sildenafil headache crash.' },
+      { code: 'HT-DOS-05 · CYCLE', title: 'Lock In 40-Day Continuity With 2 Bottles (RM 286 COD)', metric: 'Save RM 32 + Free Pos', desc: 'Dispatched in unmarked OM Fulfilment parcels across all 16 Malaysian states & federal territories.' },
+    ],
+    faqs: [
+      { questionEn: 'How many Hammer of Thor capsules should I take per day in Malaysia?', answerEn: 'Take 1 vegetarian capsule once daily 30 to 45 minutes after lunch or dinner with 300ml of plain water. One bottle of 20 capsules provides a complete 20-day daily cycle.' },
+      { questionEn: 'Should Hammer of Thor be taken before or after food?', answerEn: 'Always take Hammer of Thor 30 to 45 minutes after a meal containing healthy dietary fats rather than on an empty stomach to optimize Tribulus saponin absorption and digestive comfort.' },
+      { questionEn: 'Can I drink coffee or teh tarik with Hammer of Thor?', answerEn: 'Yes, simply leave a 60-minute gap between kopi or teh tarik and your capsule so tea and coffee tannins do not reduce Zinc and botanical absorption.' },
+      { questionEn: 'Why do most Malaysian buyers choose the 2-bottle RM 286 Hammer of Thor pack?', answerEn: 'Two bottles provide 40 vegetarian capsules for uninterrupted Week-3 to Week-6 conditioning at RM 286 (10% OFF vs RM 318) including free plain-box COD nationwide.' },
+    ],
+  },
+  {
+    guideNumber: 20,
+    microStep: 'ONYX-STD',
+    guideCode: 'GUIDE-20 · NIGHT-SHIFT & STAMINA ROUTINE',
+    slug: 'night-shift-fatigue-gym-stamina-supplement-routine-malaysia',
+    canonicalEnPath: '/guides/night-shift-fatigue-gym-stamina-supplement-routine-malaysia/',
+    alternateMsPath: '/ms/panduan/panduan-tenaga-lelaki-kerja-syif-malam-dan-stamina-malaysia/',
+    enOutputPaths: ['guides/night-shift-fatigue-gym-stamina-supplement-routine-malaysia/index.html'],
+    watermark: 'SHIFT STAMINA',
+    primaryProductSlug: 'grow-xl',
+    heroImage: '/assets/products/grow-xl-stage.webp',
+    portraitImage: '/assets/products/grow-xl-portrait.webp',
+    publishedDate: '2026-11-21T08:00:00+08:00',
+    updatedDate: '2026-11-21T08:00:00+08:00',
+    readingTime: '12 Min Shift & Active Lifestyle Read',
+    seoTitle: 'Night-Shift, Driving & Gym Stamina Supplement Guide Malaysia',
+    metaDescription: '✓ Stamina & recovery timing protocol for Malaysian night-shift workers, drivers & active men using Tongkat Ali, Maca & L-Arginine (RM 159 / 2 for RM 286 COD).',
+    kicker: 'ONYX-STD · PROTOCOL GUIDE 20 · CIRCADIAN RECOVERY FOR SHIFT WORKERS, DRIVERS & ACTIVE MEN',
+    headline: 'Night-Shift, Long-Haul Driving &amp; Gym Stamina: <span class="foil-champagne-text">Malaysian Supplement Timing Guide.</span>',
+    taxonomyStrip: [
+      '01 · NIGHT-SHIFT ANCHOR: DOSE AFTER WAKE-UP MEAL',
+      '02 · LONG-HAUL DRIVERS: ZERO JITTER MACA ATP',
+      '03 · GYM & SPORTS: 35-MIN PRE-WORKOUT NO FLOW',
+      '04 · OFF-DAY RESET: CORTISOL & SLEEP HYGIENE',
+    ],
+    executiveSummary: 'Practical botanical timing schedule built for Malaysian factory engineers, healthcare/security night-shift staff, long-distance lorry/e-hailing drivers, and evening gym trainees combating circadian fatigue.',
+    telemetry: [
+      { key: '01 · SHIFT BASELINE', val: 'Grow XL (30 Capsules)', sub: 'Take after your first meal upon waking (day or night)' },
+      { key: '02 · STRESS SHIELD', val: 'Horsemen (Tongkat 100:1)', sub: 'Balances inverted circadian cortisol after graveyard shifts' },
+      { key: '03 · GYM VASCULARITY', val: 'Magnum Pump XR (30 Caps)', sub: '320mg L-Arginine + Citrulline 35 min before training' },
+      { key: '04 · DUAL SHIFT PACK', val: 'RM 286 (2 Bottles -10%)', sub: 'Free discreet plain-box COD to home or workplace' },
+    ],
+    pinnedSummaryBullets: [
+      'Anchor your daily Grow XL or Hammer of Thor capsule to your biological "first meal after waking" (e.g., 5:30 PM dinner before a 7:00 PM night shift) rather than wall-clock morning',
+      'Replace sugar-heavy canned energy drinks during highway driving with Gelatinized Peruvian Maca and Tongkat Ali 100:1 for steady non-jittery cellular ATP alertness',
+      'Use Magnum Pump XR (30 Black Capsules) 35 minutes before resistance training for stimulant-free Nitric Oxide muscle blood flow that never ruins post-shift daytime sleep',
+      'Keep an 8-hour spacing rule when pairing a wake-meal foundation bottle (Grow XL) with an off-duty evening bottle (Horsemen) on the RM 286 2-Bottle protocol',
+    ],
+    chapters: [
+      {
+        kicker: 'CHAPTER 01 · INVERTED CIRCADIAN CLOCKS IN MALAYSIAN SHIFT & LOGISTICS WORK',
+        title: 'Why Graveyard Shifts, Highway Traffic, and Sleep Debt Drain Male Vitality.',
+        paragraphs: [
+          'Across Penang’s semiconductor plants, Klang Valley logistics hubs, Johor port operations, and 10-hour PLUS highway routes, hundreds of thousands of Malaysian men work rotating or overnight schedules. Inverted sleep-wake cycles flatten natural morning vigor peaks while keeping stress cortisol elevated, leaving men physically drained on rest days.',
+          'Relying on high-sugar canned kopi and synthetic taurine drinks creates a 90-minute caffeine spike followed by deeper afternoon crashes and fragmented daytime sleep.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 02 · BIOLOGICAL WAKE-MEAL TIMING FOR ROTATING 12-HOUR SHIFTS',
+        title: 'Aligning Grow XL (30 Capsules) and Horsemen With Your Personal Wake Window.',
+        paragraphs: [
+          'Botanical adaptogens work with your personal wake-sleep rhythm rather than sun clock time. If you sleep from 8:30 AM to 4:00 PM and eat your first meal at 5:00 PM before an overnight shift, take 1 capsule of Grow XL (Tongkat Ali + Peruvian Maca + Muira Puama) 30 minutes after that 5:00 PM wake-up meal.',
+          'Avoid taking energizing adaptogens right before your morning sleep window so your 7-hour recovery sleep remains deep and restorative.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 03 · STIMULANT-FREE GYM & EVENING BLOOD FLOW WITHOUT INSOMNIA',
+        title: 'Why Magnum Pump XR Outperforms High-Caffeine Pre-Workouts After Work.',
+        paragraphs: [
+          'Men who train at 8:00 PM or 9:00 PM after a full workday often ruin their sleep with 300mg-caffeine pre-workout powders. Magnum Pump XR (30 Black Capsules) uses a zero-caffeine 320mg L-Arginine HCl + L-Citrulline Malate + Black Ginger Nitric Oxide matrix.',
+          'Taken 35 minutes before gym training or evening downtime, it supports endothelial vasodilation and physical stamina while allowing effortless natural sleep afterward.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 04 · RECOMMENDED SINGLE & 2-BOTTLE SHIFT PROTOCOLS (RM 159 / RM 286)',
+        title: 'Practical 30-Day and 60-Day Stacks With Workplace or Home COD.',
+        paragraphs: [
+          'For 7-day-a-week shift stamina and mental focus, start with 1 bottle of Grow XL (30 Capsules, RM 159.00). For men wanting both work-shift endurance and off-day evening performance, pair Grow XL with Horsemen or Magnum Pump XR under the 2-Bottle Bundle at RM 286 (10% OFF vs RM 318 + Free Express COD).',
+          'All parcels ship in plain unmarked OM Fulfilment boxes so you can safely receive COD deliveries at your factory guardhouse, office reception, or home address.',
+        ],
+      },
+    ],
+    protocolSteps: [
+      { code: 'SHF-01 · WAKE', title: 'Dose 30 Min After Your First Post-Sleep Meal', metric: 'Day or Night Shift', desc: 'Syncs Grow XL or Hammer of Thor with your true biological morning.' },
+      { code: 'SHF-02 · DRIVE', title: 'Swap Sugary Canned Drinks for 3L Plain Water + Electrolytes', metric: 'Zero Sugar Crash', desc: 'Prevents highway dehydration and preserves steady Maca ATP endurance.' },
+      { code: 'SHF-03 · GYM', title: 'Take Magnum Pump XR 35 Min Before Evening Training', metric: '0mg Caffeine NO Flow', desc: 'Delivers vascular pump and stamina without blocking post-workout sleep.' },
+      { code: 'SHF-04 · SLEEP', title: 'Stop Adaptogen Intake 5 Hours Before Daytime Sleep', metric: 'Deep REM Recovery', desc: 'Protects natural hormonal restoration in darkened bedroom conditions.' },
+      { code: 'SHF-05 · COD', title: 'Order 2-Bottle Shift Stack (RM 286) in Plain Unmarked Box', metric: 'Office/Home Safe COD', desc: 'Zero supplement labels on parcel airway bill via +60 14-298 5919.' },
+    ],
+    faqs: [
+      { questionEn: 'When should night-shift workers in Malaysia take Grow XL or Horsemen?', answerEn: 'Take 1 capsule 30 to 45 minutes after your first full meal upon waking (for example, at 5:30 PM before a 7:00 PM shift), and avoid taking capsules immediately before going to sleep in the morning.' },
+      { questionEn: 'Will Magnum Pump XR or Grow XL cause jitters while driving long distances?', answerEn: 'No. All four Onyxmen formulas are 100% free of synthetic caffeine, ephedrine, and stimulants, providing calm botanical stamina without heart palpitations or energy crashes.' },
+      { questionEn: 'Can I receive discreet COD parcels at my office or factory security desk?', answerEn: 'Yes. Every order is shipped under the neutral sender name OM Fulfilment Logistics in an unmarked parcel with zero product names visible.' },
+      { questionEn: 'Which 2-bottle RM 286 combo is best for tired shift workers?', answerEn: 'Pairing Grow XL (30 Capsules for wake-meal daily stamina) with Horsemen (20 Capsules for rest-day evening drive) at RM 286 (10% OFF + Free COD) is our #1 shift-worker stack.' },
+    ],
+  },
+  {
+    guideNumber: 21,
+    isDatasetGuide: true,
+    microStep: 'ONYX-STD',
+    guideCode: 'GUIDE-21 · 2026 OPEN DATASET',
+    slug: 'malaysia-botanical-supplement-standardization-dataset-2026',
+    canonicalEnPath: '/guides/malaysia-botanical-supplement-standardization-dataset-2026/',
+    alternateMsPath: '/ms/panduan/dataset-piawaian-suplemen-botani-lelaki-malaysia-2026/',
+    enOutputPaths: ['guides/malaysia-botanical-supplement-standardization-dataset-2026/index.html'],
+    watermark: 'DATASET 2026',
+    primaryProductSlug: 'horsemen',
+    heroImage: '/assets/products/onyxman-lineup-hero.webp',
+    portraitImage: '/assets/products/studio-botanicals-macro.webp',
+    publishedDate: '2026-11-21T08:00:00+08:00',
+    updatedDate: '2026-11-21T08:00:00+08:00',
+    readingTime: '14 Min Open Reference Dataset',
+    seoTitle: 'Malaysia Men Supplement Standardization Dataset (2026 Open)',
+    metaDescription: '✓ Open 2026 Malaysia botanical supplement dataset (CSV & JSON): Tongkat Ali 100:1, Maca, Tribulus 60% Saponins & L-Arginine specs plus authentic bottle checks.',
+    kicker: 'ONYX-STD · OPEN RESEARCH DATASET 21 · CC BY 4.0 PUBLIC REFERENCE BENCHMARK (CSV & JSON)',
+    headline: 'Malaysia Men’s Botanical Supplement <span class="foil-champagne-text">Standardization &amp; Authenticity Dataset (2026).</span>',
+    taxonomyStrip: [
+      '01 · LICENSE: CC BY 4.0 OPEN ATTRIBUTION',
+      '02 · FORMATS: MACHINE-READABLE JSON & CSV',
+      '03 · MARKERS: HPLC PHYTOCHEMICAL BENCHMARKS',
+      '04 · SAFETY: ADULTERANT RED-FLAG CRITERIA',
+    ],
+    executiveSummary: 'Free public CC BY 4.0 reference dataset (JSON & CSV) documenting standardized botanical extract ratios, capsule net weights, tropical moisture packaging specs, and consumer counterfeit red-flag markers across Malaysia (2026).',
+    telemetry: [
+      { key: '01 · EURYCOMANONE', val: '>= 2.2% (100:1 Root)', sub: 'Aqueous Malaysian Eurycoma longifolia benchmark' },
+      { key: '02 · PROTODIOSCIN', val: '60% Saponins / 20% Proto', sub: 'Standardized Tribulus terrestris extract ratio' },
+      { key: '03 · NITRIC OXIDE', val: '320mg Dual Amino Matrix', sub: '180mg L-Arginine HCl + 140mg L-Citrulline Malate' },
+      { key: '04 · OPEN ACCESS', val: 'JSON + CSV (CC BY 4.0)', sub: 'Free download & academic/editorial citation' },
+    ],
+    pinnedSummaryBullets: [
+      'Documents verified per-capsule milligram benchmarks across four primary Malaysian men’s botanical formulations: Horsemen (500mg × 20), Hammer of Thor (500mg × 20 Veg), Grow XL (550mg × 30), and Magnum Pump XR (600mg × 30)',
+      'Contrasts authentic HPMC induction-sealed bottles (RM 159 single / RM 286 dual) against counterfeit RM 25–RM 60 marketplace blister strips frequently flagged by health authorities for undeclared synthetic PDE5 adulterants',
+      'Published in machine-readable JSON and RFC-4180 CSV formats under Creative Commons Attribution 4.0 (CC BY 4.0) for researchers, health journalists, and AI retrieval systems',
+      'Includes tropical storage stability thresholds (<= 65% relative humidity inside HDPE/amber vessels with food-grade silica desiccant) for equatorial Southeast Asia',
+    ],
+    chapters: [
+      {
+        kicker: 'CHAPTER 01 · METHODOLOGY & PHYTOCHEMICAL STANDARDIZATION BENCHMARKS (2026)',
+        title: 'Why Raw Unstandardized Herb Powders Differ 20-Fold From Standardized Extracts.',
+        paragraphs: [
+          'Across Southeast Asian e-commerce listings, two bottles labeled "Tongkat Ali" or "Tribulus" can differ by more than 2,000% in bioactive compound density. Raw milled root bark contains mostly inert cellulose fiber, whereas a water-extracted 100:1 Eurycoma longifolia concentrate standardized to >= 2.2% eurycomanone delivers reproducible physiological potency in a single 500mg to 600mg HPMC capsule.',
+          'This 2026 open reference dataset compiles exact extract ratios, bioactive marker percentages, capsule shell compositions, and recommended daily intake ceilings across all four flagship formulations distributed by Onyxmen Malaysia.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 02 · COUNTERFEIT IDENTIFICATION & CONSUMER SAFETY RED-FLAG MATRIX',
+        title: 'Distinguishing Legitimate Gradual Botanicals From Adulterated Black-Market Pills.',
+        paragraphs: [
+          'Public health advisories in Malaysia consistently warn adult consumers against unbranded or ultra-cheap RM 25 to RM 60 "instant 30-minute miracle" capsules that trigger severe throbbing headaches, facial flushing, nasal congestion, or rapid heart palpitations—classic indicators of undeclared synthetic sildenafil or tadalafil analogues.',
+          'Authentic botanical dietary supplements work progressively over 7 to 30 days without synthetic vasodilator side effects, ship in factory induction-sealed bottles with batch/expiry serialization, and advise individuals with hypertension, heart conditions, or diabetes to consult a licensed physician prior to use.',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 03 · TROPICAL STORAGE & HPMC CAPSULE INTEGRITY IN EQUATORIAL HUMIDITY',
+        title: 'Preventing Hygroscopic Clumping in 80%+ Malaysian Relative Humidity.',
+        paragraphs: [
+          'Hygroscopic amino acids (L-Arginine HCl, L-Citrulline Malate) and 100:1 aqueous root extracts rapidly absorb ambient moisture above 32°C if packed in thin blister foil or animal gelatin shells. Our dataset specifies low-moisture Hydroxypropyl Methylcellulose (HPMC) plant shells paired with induction liners and silica gel canisters.',
+          'All four verified SKUs (ONYX-HM-20, ONYX-HT-20, ONYX-GX-30, ONYX-MP-30) maintain a uniform official retail benchmark of RM 159.00 (1 Bottle), RM 286.00 (2 Bottles, 10% OFF), and RM 405.00 (3 Bottles, 15% OFF).',
+        ],
+      },
+      {
+        kicker: 'CHAPTER 04 · OPEN CITATION & REUSE PROTOCOL (CC BY 4.0)',
+        title: 'How Researchers, Bloggers, and AI Systems Can Cite This 2026 Dataset.',
+        paragraphs: [
+          'Journalists, wellness editors, consumer protection bloggers, and data aggregators may freely download, quote, and republish tables from /assets/data/malaysia-supplement-authenticity-2026.json and /assets/data/malaysia-supplement-authenticity-2026.csv under Creative Commons Attribution 4.0 International (CC BY 4.0) by attributing Onyxmen Malaysia (https://www.onyxmen.my/).',
+          'For direct product verification or discreet nationwide COD inquiries, reference the Kuala Lumpur verification desk at +60 14-298 5919.',
+        ],
+      },
+    ],
+    protocolSteps: [
+      { code: 'DATA-01 · JSON', title: 'Download Machine-Readable JSON Benchmark File', metric: 'application/json', desc: 'Available free at /assets/data/malaysia-supplement-authenticity-2026.json (CC BY 4.0).' },
+      { code: 'DATA-02 · CSV', title: 'Download Spreadsheet CSV Table for Analysis', metric: 'text/csv (RFC-4180)', desc: 'Available free at /assets/data/malaysia-supplement-authenticity-2026.csv for researchers.' },
+      { code: 'DATA-03 · SEAL', title: 'Verify Induction Foil, Batch Lot & Capsule Count', metric: '20 or 30 Caps Only', desc: 'Reject loose 4-pill or 10-pill trial blisters priced at RM 30–RM 60 online.' },
+      { code: 'DATA-04 · SAFETY', title: 'Screen Against Synthetic Adulterant Red Flags', metric: '0% Undeclared Drugs', desc: 'Avoid any product promising instant 20-minute drug effects or causing severe headaches.' },
+      { code: 'DATA-05 · CITE', title: 'Cite Canonical Source URL Under CC BY 4.0 License', metric: 'onyxmen.my Attribution', desc: 'Credit Onyxmen Botanical Research Board (2026) with a link to https://www.onyxmen.my/.' },
+    ],
+    faqs: [
+      { questionEn: 'Where can I download the 2026 Malaysia botanical supplement dataset in CSV and JSON?', answerEn: 'Both files are freely downloadable at https://www.onyxmen.my/assets/data/malaysia-supplement-authenticity-2026.csv and https://www.onyxmen.my/assets/data/malaysia-supplement-authenticity-2026.json under CC BY 4.0.' },
+      { questionEn: 'What are the main red flags of counterfeit male supplements in Malaysia?', answerEn: 'Prices below RM 80 (typically RM 25–RM 60), loose 7-to-10 capsule blister strips, missing induction seals, and sudden throbbing headaches caused by undeclared synthetic PDE5 adulterants.' },
+      { questionEn: 'Can health writers and researchers republish tables from this dataset?', answerEn: 'Yes. Under the Creative Commons Attribution 4.0 (CC BY 4.0) license, anyone may share or adapt the data by citing Onyxmen Malaysia with a link to https://www.onyxmen.my/.' },
+      { questionEn: 'What are the official 2026 prices for verified Onyxmen Malaysia formulations?', answerEn: 'All four authentic SKUs (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) are RM 159 for 1 Bottle, RM 286 for 2 Bottles (10% OFF), and RM 405 for 3 Bottles (15% OFF) with discreet COD.' },
+    ],
+  },
+];
 
   const schemaGraphJson = buildFullPageGraph({
     pageType: 'guide',
@@ -3754,6 +4013,41 @@ export function renderIndividualGuidePage(dossier) {
     breadcrumbs,
     faqs: combinedFaqs,
   });
+
+  const finalSchemaGraphJson = dossier.isDatasetGuide
+    ? (() => {
+        const parsed = JSON.parse(schemaGraphJson);
+        parsed['@graph'].push({
+          '@type': 'Dataset',
+          '@id': `https://www.onyxmen.my${canonicalPath}#dataset`,
+          name: "Malaysia Men's Botanical Supplement Standardization & Authenticity Dataset (2026)",
+          description:
+            'Open bilingual (EN-MY / MS-MY) reference dataset documenting standardized botanical extract ratios (Eurycoma longifolia 100:1, Tribulus terrestris 60% saponins, Lepidium meyenii, L-Arginine HCl), capsule weights, packaging authenticity markers, and consumer safety red-flag criteria in Malaysia (2026).',
+          url: `https://www.onyxmen.my${canonicalPath}`,
+          sameAs: `https://www.onyxmen.my${alternatePathMs}`,
+          version: '2026.11',
+          isAccessibleForFree: true,
+          license: 'https://creativecommons.org/licenses/by/4.0/',
+          temporalCoverage: '2026-01-01/2026-12-31',
+          spatialCoverage: { '@type': 'Country', name: 'Malaysia' },
+          creator: { '@id': 'https://www.onyxmen.my/#organization' },
+          keywords: ['Tongkat Ali 100:1 Malaysia', 'Tribulus 60% Saponins', 'Peruvian Maca Malaysia', 'Botanical Supplement Authenticity Dataset 2026'],
+          distribution: [
+            {
+              '@type': 'DataDownload',
+              encodingFormat: 'application/json',
+              contentUrl: 'https://www.onyxmen.my/assets/data/malaysia-supplement-authenticity-2026.json',
+            },
+            {
+              '@type': 'DataDownload',
+              encodingFormat: 'text/csv',
+              contentUrl: 'https://www.onyxmen.my/assets/data/malaysia-supplement-authenticity-2026.csv',
+            },
+          ],
+        });
+        return JSON.stringify(parsed, null, 2);
+      })()
+    : schemaGraphJson;
 
   const chaptersHtml = dossier.chapters
     .map(
@@ -3967,7 +4261,7 @@ export function renderIndividualGuidePage(dossier) {
           <span aria-hidden="true">→</span>
         </button>
         <a href="/guides/" class="cta-hairline-secondary">
-          <span>All 14 Buyer Guides (/guides/)</span>
+          <span>All 21 Buyer Guides (/guides/)</span>
         </a>
       </div>
     </div>
@@ -3975,6 +4269,34 @@ export function renderIndividualGuidePage(dossier) {
     <!-- Right 50vw Scrolling Deep-Dive Chapters -->
     <div class="guide-split-5050__scrolling">
       ${chaptersHtml}
+      ${dossier.isDatasetGuide ? `
+      <div style="margin-top:2rem;padding:1.5rem 0;border-top:1px solid rgba(212,175,55,0.28);border-bottom:1px solid rgba(212,175,55,0.28);">
+        <span class="editorial-kicker">OPEN DATA DOWNLOADS &amp; CC BY 4.0 CITATION</span>
+        <p style="color:var(--text-silk-ivory);font-size:0.94rem;line-height:1.7;margin:0.65rem 0 1rem;">
+          Download the complete 2026 reference files or cite <a href="/" style="color:var(--gold-foil-bright);text-decoration:underline;">Onyxmen Malaysia</a> under CC BY 4.0:
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:0.85rem;">
+          <a href="/assets/data/malaysia-supplement-authenticity-2026.json" class="cta-foil-primary"><span>Download JSON Dataset (2026) →</span></a>
+          <a href="/assets/data/malaysia-supplement-authenticity-2026.csv" class="cta-hairline-secondary"><span>Download CSV Table (RFC-4180) →</span></a>
+        </div>
+      </div>` : ''}
+      <aside aria-label="Official Malaysia Discreet COD Offer" style="margin-top:2.25rem;padding:1.65rem 0;border-top:1px solid rgba(212,175,55,0.35);border-bottom:1px solid rgba(212,175,55,0.35);">
+        <span class="editorial-kicker">OFFICIAL KUALA LUMPUR VAULT · 100% AUTHENTIC SEALED STOCK</span>
+        <h3 class="editorial-headline-lg" style="font-size:clamp(1.35rem,2vw,1.8rem);margin:0.45rem 0 0.6rem;">
+          1 Bottle RM 159 · <span class="foil-champagne-text">2 Bottles RM 286 (Save RM 32 + Free COD)</span>
+        </h3>
+        <p style="color:var(--text-muted-alabaster);font-size:0.92rem;line-height:1.68;margin:0 0 1.1rem;">
+          100% plain unmarked OM Fulfilment parcel across all Malaysian states. Pay cash or DuitNow QR on delivery, or verify batch authenticity directly on WhatsApp (+60 14-298 5919).
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:0.85rem;">
+          <a href="https://wa.me/60142985919" data-wa-direct-trigger="guide-inline-cod" class="cta-foil-primary">
+            <span>WhatsApp 2-Bottle COD (RM 286 · 10% OFF) →</span>
+          </a>
+          <button type="button" class="cta-hairline-secondary" data-open-order-drawer="true" data-order-product="${esc(dossier.primaryProductSlug)}" data-order-qty="2">
+            <span>Open Express COD Drawer (RM 159 / RM 286 / RM 405)</span>
+          </button>
+        </div>
+      </aside>
     </div>
   </section>
 
@@ -4058,7 +4380,7 @@ export function renderIndividualGuidePage(dossier) {
     alternatePathEn,
     alternatePathMs,
     ogImage: dossier.heroImage,
-    schemaGraphJson,
+    schemaGraphJson: finalSchemaGraphJson,
     bodyContent,
     activeNav: 'guides',
     productSlug: dossier.primaryProductSlug,
@@ -4300,7 +4622,7 @@ export function renderMasterGuidesIndexPage() {
             <span aria-hidden="true">→</span>
           </button>
           <a href="#master-paradigm-d-guides-curtain" class="cta-hairline-secondary">
-            <span>Explore All 14 Buyer Guides ↓</span>
+            <span>Explore All 21 Buyer Guides ↓</span>
           </a>
           <a href="#quantitative-four-bottle-protocol-matrix" class="cta-hairline-secondary">
             <span>4-Bottle Dosage Matrix ↓</span>

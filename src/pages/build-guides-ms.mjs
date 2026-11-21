@@ -1012,6 +1012,215 @@ export const BM_GUIDE_DOSSIERS = [
       },
     ],
   },
+  {
+    microStep: 'ONYX-STD',
+    guideNumber: 19,
+    guideCode: 'PANDUAN-BM-19',
+    id: 'hammer-of-thor-20-veg-capsule-dosage-guide-malaysia',
+    slug: 'panduan-cara-makan-hammer-of-thor-20-kapsul-malaysia',
+    canonicalMsPath: '/ms/panduan/panduan-cara-makan-hammer-of-thor-20-kapsul-malaysia/',
+    canonicalEnPath: '/guides/hammer-of-thor-20-veg-capsule-dosage-guide-malaysia/',
+    msOutputPaths: [
+      'ms/guides/hammer-of-thor-20-veg-capsule-dosage-guide-malaysia/index.html',
+      'ms/panduan/panduan-cara-makan-hammer-of-thor-20-kapsul-malaysia/index.html',
+    ],
+    defaultProduct: 'hammer-of-thor',
+    heroVisualWebp: '/assets/products/hammer-of-thor-stage.webp',
+    heroVisualPng: '/assets/products/hammer-of-thor-stage.png',
+    watermarkText: 'CARA MAKAN HT 19',
+    readingTimeMinutes: 11,
+    publishedDate: '2026-11-21',
+    updatedDate: '2026-11-21',
+    seoTitle: 'Panduan Cara Makan Hammer of Thor 20 Kapsul Veg Malaysia',
+    metaDescription: '✓ Panduan rasmi cara makan Hammer of Thor Original Malaysia (20 Kapsul Veg. 60% Saponin Tribulus) ikut waktu tepat. 1 RM 159, 2 RM 286 (-10%) COD Rahsia.',
+    kicker: 'ONYX-STD · PANDUAN PROTOKOL 19 · JADUAL DOS HARIAN & MASA PENGAMBILAN 20 KAPSUL VEGETARIAN',
+    headlineHtml: 'Cara Makan Hammer of Thor Original: <span class="foil-champagne-text">Jadual 20 Kapsul Veg Di Malaysia.</span>',
+    leadSummary: 'Kuasai waktu pengambilan selepas makan yang betul, sasaran air kosong harian di iklim tropika, jarak minuman berkafein, serta perancangan kitaran 20 hari dan 40 hari bagi Hammer of Thor Original (20 Kapsul Vegetarian, SKU ONYX-HT-20).',
+    telemetry: [
+      { label: '01 · FORMAT TULEN', val: '20 Kapsul Veg. × 500mg', sub: 'Sarung selulosa tumbuhan HPMC 100% vegetarian' },
+      { label: '02 · WAKTU TERBAIK', val: '30–45 Minit Selepas Makan', sub: 'Selepas makan tengah hari atau makan malam berlauk' },
+      { label: '03 · SUKATAN HARIAN', val: '1 Kapsul / 24 Jam', sub: 'Pembinaan stamina berperingkat 7–14 hari' },
+      { label: '04 · PAKEJ RASMI', val: 'RM 159 / RM 286 / RM 405', sub: 'Jimat 10%–15% dengan COD bungkusan rahsia' },
+    ],
+    pinnedSummaryTitle: 'Ringkasan Pantas: Mengapa Waktu Selepas Makan Menggandakan Penyerapan Saponin Tribulus',
+    pinnedSummaryCopy: 'Hammer of Thor tulen mengandungi 200mg ekstrak Tribulus Terrestris berpiawai 60% saponin steroid bersama Akar Maca Peru, Panax Ginseng, dan Zink Bisglycinate. Mengambil 1 kapsul selepas hidangan berlauk membantu hempedu melarutkan saponin secara maksimum tanpa rasa pedih perut.',
+    chapters: [
+      {
+        code: 'BAB 01 · SAINS PENYERAPAN SAPONIN SELEPAS MAKAN BERLEMAK SIHAT',
+        title: 'Mengapa Anda Tidak Digalakkan Menelan Kapsul Ketika Perut Kosong Pagi',
+        body: 'Sebatian saponin furostanol (protodioscin 20%) di dalam 200mg ekstrak Tribulus Terrestris serta ginsenosida Panax Ginseng memerlukan rembesan garam hempedu semula jadi untuk diserap secara optimum melalui dinding usus kecil. Menelan kapsul ketika perut kosong sepenuhnya pada awal pagi mengurangkan kecekapan penyerapan dan kadang-kala menimbulkan rasa hangat herba. Ambil 1 kapsul 30 hingga 45 minit selepas makan tengah hari atau makan malam yang mengandungi sumber lemak sihat seperti ikan, telur, ayam, atau kuah santan sederhana.',
+      },
+      {
+        code: 'BAB 02 · PILIHAN SLOT WAKTU TENGAH HARI ATAU SELEPAS MAKAN MALAM',
+        title: 'Menyesuaikan Jadual 24 Jam Mengikut Rutin Kerja & Kecergasan Malam',
+        body: 'Bagi lelaki Malaysia yang mengutamakan tenaga fizikal sepanjang petang dan latihan gimnasium selepas waktu pejabat, ambil 1 kapsul 30 minit selepas makan tengah hari (sekitar jam 1:30 hingga 2:00 petang). Bagi lelaki yang mengutamakan pemulihan stamina malam, ambil 1 kapsul 45 minit selepas makan malam (sekitar jam 8:00 hingga 9:00 malam). Kekalkan waktu yang sama setiap hari dan jangan melebihi 1 hingga 2 kapsul dalam tempoh 24 jam kerana herba adaptogenik membina daya tahan secara stabil tanpa bahan sintetik terlarang.',
+      },
+      {
+        code: 'BAB 03 · JARAK 60 MINIT DARIPADA KOPI O, TEH TARIK & KEPERLUAN AIR 3 LITER',
+        title: 'Elakkan Ikatan Tanin Terhadap Mineral Zink Di Iklim Panas Lembap Malaysia',
+        body: 'Minuman pekat seperti kopi O kaw, teh tarik, dan minuman tenaga mengandungi sebatian tanin serta asid klorogenik yang boleh mengikat mineral Zink Bisglycinate jika diminum serentak. Jarakkan sekurang-kurangnya 60 minit antara minuman berkafein dan kapsul Hammer of Thor anda, telan bersama 300ml air suam atau air suhu bilik, dan pastikan pengambilan 2.5 hingga 3.0 liter air kosong sepanjang hari.',
+      },
+      {
+        code: 'BAB 04 · KITARAN 20 HARI (RM 159) BERBANDING KITARAN PENUH 40 HARI (RM 286)',
+        title: 'Elakkan Terputus Bekalan Pada Hari Ke-20 Dengan Pakej 2 Botol Diskaun 10%',
+        body: 'Sebotol Hammer of Thor mengandungi 20 kapsul vegetarian untuk kitaran harian selama 20 hari (RM 159.00 sebotol atau RM 7.95 sehari). Memandangkan penyesuaian reseptor dan stamina otot mencapai tahap kemuncak antara Minggu Ke-3 hingga Minggu Ke-6, kebanyakan pelanggan tetap di Malaysia terus memilih Pakej 2 Botol (40 Kapsul) pada harga RM 286 (Diskaun 10% berbanding RM 318, jimat RM 32 + Pos COD Percuma) atau Pakej 3 Botol pada harga RM 405 (Diskaun 15% berbanding RM 477) melalui onyxmen.my atau WhatsApp +60 14-298 5919.',
+      },
+    ],
+    protocolLedgerRows: [
+      { code: 'HT-BM-01 · HIDANGAN', title: 'Ambil 30–45 Minit Selepas Makan Tengah Hari Atau Malam', body: 'Hidangan berlauk merangsang hempedu untuk menyerap 60% saponin Tribulus secara menyeluruh.', meta: 'Selepas Makan' },
+      { code: 'HT-BM-02 · AIR', title: 'Telan 1 Kapsul Vegetarian Bersama 300ml Air Suam / Kosong', body: 'Melarutkan sarung kapsul HPMC tumbuhan dengan lancar dalam masa 12–18 minit.', meta: '1 Kapsul / Hari' },
+      { code: 'HT-BM-03 · JARAK', title: 'Jarakkan 60 Minit Daripada Kopi O, Teh Tarik & Ubat Doktor', body: 'Melindungi penyerapan Zink Bisglycinate; rujuk doktor jika mengambil ubat preskripsi.', meta: 'Jarak 60 Minit' },
+      { code: 'HT-BM-04 · KONSISTEN', title: 'Amalkan Secara Konsisten Setiap 24 Jam Sehingga Hari Ke-20', body: 'Sokongan herba semula jadi berperingkat tanpa kesan sakit kepala berdenyut.', meta: 'Kitaran 20 Hari' },
+      { code: 'HT-BM-05 · JIMAT', title: 'Pilih Pakej 2 Botol (40 Kapsul) RM 286 Untuk Kitaran 40 Hari', body: 'Diskaun 10% (jimat RM 32 daripada RM 318) berserta penghantaran ekspres percuma.', meta: 'RM 286 · -10%' },
+      { code: 'HT-BM-06 · RAHSIA', title: 'Terima Bungkusan Tanpa Nama Produk Melalui COD (+60 14-298 5919)', body: 'Dihantar atas nama OM Fulfilment Logistics ke seluruh Semenanjung, Sabah dan Sarawak.', meta: '100% Privasi COD' },
+    ],
+    faqs: [
+      { q: 'Berapa biji kapsul Hammer of Thor perlu diambil sehari?', a: 'Ambil 1 kapsul vegetarian sekali sehari pada waktu tetap, 30 hingga 45 minit selepas makan tengah hari atau makan malam bersama segelas 300ml air kosong.' },
+      { q: 'Perlukah Hammer of Thor diambil sebelum atau selepas makan?', a: 'Sebaiknya diambil 30 hingga 45 minit selepas makan berlauk supaya saponin Tribulus Terrestris 60% dan Panax Ginseng diserap sepenuhnya dengan selesa.' },
+      { q: 'Bolehkah saya minum kopi atau teh tarik semasa mengamalkan Hammer of Thor?', a: 'Boleh, cuma jarakkan sekurang-kurangnya 60 minit sebelum atau selepas menelan kapsul supaya tanin kopi dan teh tidak menghalang penyerapan mineral Zink.' },
+      { q: 'Berapakah harga Pakej 2 Botol Hammer of Thor untuk kitaran 40 hari?', a: 'Pakej 2 Botol (40 kapsul vegetarian) berharga RM 286 (Diskaun 10% berbanding RM 318, jimat RM 32) termasuk penghantaran COD bungkusan rahsia percuma ke seluruh Malaysia.' },
+    ],
+  },
+  {
+    microStep: 'ONYX-STD',
+    guideNumber: 20,
+    guideCode: 'PANDUAN-BM-20',
+    id: 'night-shift-fatigue-gym-stamina-supplement-routine-malaysia',
+    slug: 'panduan-tenaga-lelaki-kerja-syif-malam-dan-stamina-malaysia',
+    canonicalMsPath: '/ms/panduan/panduan-tenaga-lelaki-kerja-syif-malam-dan-stamina-malaysia/',
+    canonicalEnPath: '/guides/night-shift-fatigue-gym-stamina-supplement-routine-malaysia/',
+    msOutputPaths: [
+      'ms/guides/night-shift-fatigue-gym-stamina-supplement-routine-malaysia/index.html',
+      'ms/panduan/panduan-tenaga-lelaki-kerja-syif-malam-dan-stamina-malaysia/index.html',
+    ],
+    defaultProduct: 'grow-xl',
+    heroVisualWebp: '/assets/products/grow-xl-stage.webp',
+    heroVisualPng: '/assets/products/grow-xl-stage.png',
+    watermarkText: 'SYIF MALAM 20',
+    readingTimeMinutes: 12,
+    publishedDate: '2026-11-21',
+    updatedDate: '2026-11-21',
+    seoTitle: 'Panduan Stamina Lelaki Kerja Syif Malam & Pemandu Malaysia',
+    metaDescription: '✓ Jadual suplemen tenaga batin & stamina lelaki kerja syif malam, pemandu jauh & aktif bersenam di Malaysia (Tongkat Ali & Maca RM 159 / 2 Botol RM 286 COD).',
+    kicker: 'ONYX-STD · PANDUAN PROTOKOL 20 · PEMULIHAN TENAGA LELAKI KERJA SYIF MALAM, PEMANDU & GIMNASIUM',
+    headlineHtml: 'Kerja Syif Malam, Pemandu Jauh &amp; Stamina: <span class="foil-champagne-text">Jadual Herba Lelaki Malaysia.</span>',
+    leadSummary: 'Panduan jadual suplemen botani khusus untuk jurutera kilang, petugas keselamatan/hospital syif malam, pemandu lori serta e-hailing jarak jauh, dan lelaki aktif bersenam waktu malam di Malaysia.',
+    telemetry: [
+      { label: '01 · ASAS SYIF', val: 'Grow XL (30 Kapsul)', sub: 'Ambil selepas hidangan pertama sebaik bangun tidur' },
+      { label: '02 · KAWAL STRES', val: 'Horsemen (Tongkat 100:1)', sub: 'Imbangi beban kortisol akibat jadual tidur terbalik' },
+      { label: '03 · ALIRAN DARAH', val: 'Magnum Pump XR (30 Biji)', sub: '320mg L-Arginine + Citrulline 35 minit sebelum latihan' },
+      { label: '04 · KOMBO 2 BOTOL', val: 'RM 286 (-10% + COD)', sub: 'Bungkusan rahsia selamat ke rumah atau pondok pengawal' },
+    ],
+    pinnedSummaryTitle: 'Prinsip Utama Pekerja Syif: Ikut Waktu Bangun Tidur Biologi Anda, Bukan Jam Dinding',
+    pinnedSummaryCopy: 'Jika anda tidur jam 8:30 pagi selepas tamat syif malam dan bangun jam 4:30 petang, hidangan jam 5:00 petang ialah "sarapan biologi" anda. Ambil 1 kapsul Grow XL selepas hidangan tersebut untuk tenaga stabil sepanjang malam tanpa debaran kafein.',
+    chapters: [
+      {
+        code: 'BAB 01 · MENGAPA KERJA SYIF MALAM & PEMANDUAN JAUH MENURUNKAN KECERGASAN LELAKI',
+        title: 'Kesan Gangguan Kitaran Tidur Terhadap Kortisol Dan Kelesuan Hari Cuti',
+        body: 'Di zon perindustrian Pulau Pinang, Selangor, Johor, serta lebuh raya utama Malaysia, ratusan ribu lelaki dewasa bekerja mengikut giliran syif 12 jam atau memandu berjam-jam lamanya. Kitaran tidur siang yang tidak menentu meningkatkan hormon tekanan kortisol dan menyebabkan badan kekal lesu walaupun pada hari cuti. Bergantung kepada minuman tin bergula tinggi hanya memberi rangsangan sementara selama 60 minit diikuti keletihan mendadak.',
+      },
+      {
+        code: 'BAB 02 · CARA MENYUSUN WAKTU MAKAN GROW XL & HORSEMEN MENGIKUT GILIRAN SYIF',
+        title: 'Ambil Selepas Hidangan Pertama Bangun Tidur & Hentikan 5 Jam Sebelum Tidur Siang',
+        body: 'Herba adaptogenik seperti Akar Maca Hitam Peru dan Tongkat Ali 100:1 di dalam Grow XL (30 Kapsul) bertindak selaras dengan waktu jaga badan anda. Sekiranya syif anda bermula jam 7:00 malam, ambil 1 kapsul Grow XL 30 minit selepas makan petang sekitar jam 5:30 petang. Elakkan mengambil kapsul sejurus sebelum masuk tidur pada waktu pagi supaya tidur pemulihan 7 jam anda kekal nyenyak.',
+      },
+      {
+        code: 'BAB 03 · LATIHAN GIMNASIUM MALAM TANPA GANGGUAN INSOMNIA KAFEIN',
+        title: 'Kelebihan Magnum Pump XR (0mg Kafein) Berbanding Serbuk Pre-Workout',
+        body: 'Ramai lelaki yang bersenam pada jam 8:30 malam sukar melelapkan mata kerana mengambil serbuk pre-workout tinggi kafein. Magnum Pump XR (30 Kapsul Hitam) membekalkan 320mg L-Arginine HCl + L-Citrulline Malate + Kunyit Hitam tanpa sebarang kafein—menyokong kelancaran aliran darah Nitrik Oksida dalam 35 minit sambil membolehkan anda tidur lena selepas latihan.',
+      },
+      {
+        code: 'BAB 04 · CADANGAN PAKEJ PEKERJA SYIF & PEMANDU (RM 159 / RM 286 COD)',
+        title: 'Penghantaran Bungkusan Rahsia Ke Alamat Rumah, Pejabat Atau Kilang',
+        body: 'Mulakan dengan 1 botol Grow XL (30 Kapsul, RM 159.00) untuk bekalan tenaga kerja 30 hari, atau gabungkan Grow XL bersama Horsemen/Magnum Pump XR di bawah Pakej 2 Botol RM 286 (Diskaun 10% berbanding RM 318 + Pos COD Percuma). Semua bungkusan menggunakan nama pengirim neutral OM Fulfilment Logistics tanpa sebarang perkataan suplemen pada kotak.',
+      },
+    ],
+    protocolLedgerRows: [
+      { code: 'SYIF-01 · JAGA', title: 'Ambil Kapsul 30 Minit Selepas Hidangan Pertama Bangun Tidur', body: 'Sesuai untuk kedua-dua minggu syif siang mahupun minggu syif malam.', meta: 'Ikut Jam Biologi' },
+      { code: 'SYIF-02 · PEMANDU', title: 'Gantikan Minuman Tin Manis Dengan 3L Air Kosong + Maca', body: 'Mengekalkan fokus pemanduan tanpa debaran jantung atau mengantuk mendadak.', meta: 'Tenaga Stabil ATP' },
+      { code: 'SYIF-03 · SENAMAN', title: 'Gunakan Magnum Pump XR 35 Minit Sebelum Sesi Gimnasium Malam', body: 'Aliran darah Nitrik Oksida 0% kafein yang tidak mengganggu waktu tidur.', meta: '0mg Kafein' },
+      { code: 'SYIF-04 · REHAT', title: 'Jarakkan Sekurang-Kurangnya 5 Jam Sebelum Waktu Tidur Siang', body: 'Pastikan bilik gelap dan sejuk untuk pemulihan tenaga semula jadi.', meta: 'Tidur Berkualiti' },
+      { code: 'SYIF-05 · KOMBO', title: 'Padankan Grow XL + Horsemen Dalam Pakej 2 Botol RM 286 (-10%)', body: 'Grow XL untuk hari bekerja dan Horsemen untuk malam rehat hujung minggu.', meta: 'Jimat RM 32 + Pos Percuma' },
+      { code: 'SYIF-06 · COD', title: 'Terima Secara Selamat Di Pondok Pengawal Atau Rumah (+60 14-298 5919)', body: 'Kotak polos OM Fulfilment Logistics melindungi privasi penuh di tempat kerja.', meta: 'COD Seluruh MY' },
+    ],
+    faqs: [
+      { q: 'Bilakah waktu terbaik pekerja syif malam mengambil Grow XL atau Hammer of Thor?', a: 'Ambil 1 kapsul 30 hingga 45 minit selepas hidangan pertama anda sebaik bangun tidur (contohnya jam 5:30 petang sebelum masuk syif jam 7:00 malam), dan elakkan mengambilnya sejurus sebelum tidur pagi.' },
+      { q: 'Adakah suplemen Onyxmen menyebabkan jantung berdebar semasa memandu jauh?', a: 'Tidak. Kesemua empat formulasi Onyxmen adalah 100% bebas kafein sintetik dan perangsang tiruan, memberikan sokongan tenaga herba yang tenang dan stabil.' },
+      { q: 'Selamatkah jika saya menerima bungkusan COD di pejabat atau kilang?', a: 'Sangat selamat. Setiap bungkusan dihantar menggunakan nama pengirim OM Fulfilment Logistics tanpa sebarang nama produk atau gambar pada luar kotak.' },
+      { q: 'Pakej manakah paling berbaloi untuk lelaki yang cepat penat bekerja syif?', a: 'Pakej 2 Botol RM 286 (Diskaun 10% vs RM 318 + COD Percuma) yang menggabungkan Grow XL (30 kapsul harian) bersama Horsemen (20 kapsul malam cuti) ialah pilihan paling digemari.' },
+    ],
+  },
+  {
+    microStep: 'ONYX-STD',
+    isDatasetGuide: true,
+    guideNumber: 21,
+    guideCode: 'PANDUAN-BM-21',
+    id: 'malaysia-botanical-supplement-standardization-dataset-2026',
+    slug: 'dataset-piawaian-suplemen-botani-lelaki-malaysia-2026',
+    canonicalMsPath: '/ms/panduan/dataset-piawaian-suplemen-botani-lelaki-malaysia-2026/',
+    canonicalEnPath: '/guides/malaysia-botanical-supplement-standardization-dataset-2026/',
+    msOutputPaths: [
+      'ms/guides/malaysia-botanical-supplement-standardization-dataset-2026/index.html',
+      'ms/panduan/dataset-piawaian-suplemen-botani-lelaki-malaysia-2026/index.html',
+    ],
+    defaultProduct: 'horsemen',
+    heroVisualWebp: '/assets/products/onyxman-lineup-hero.webp',
+    heroVisualPng: '/assets/products/onyxman-lineup-hero.png',
+    watermarkText: 'DATASET BOTANI 21',
+    readingTimeMinutes: 14,
+    publishedDate: '2026-11-21',
+    updatedDate: '2026-11-21',
+    seoTitle: 'Dataset Piawaian Suplemen Botani Lelaki Malaysia (2026 Rasmi)',
+    metaDescription: '✓ Dataset terbuka 2026 suplemen botani lelaki Malaysia (CSV & JSON): nisbah ekstrak Tongkat Ali 100:1, Maca, Tribulus 60% Saponin & semakan ketulenan botol.',
+    kicker: 'ONYX-STD · DATASET PENYELIDIKAN TERBUKA 21 · RUJUKAN AWAM CC BY 4.0 (FORMAT CSV & JSON)',
+    headlineHtml: 'Dataset Piawaian Suplemen Botani <span class="foil-champagne-text">&amp; Ketulenan Botol Malaysia (2026).</span>',
+    leadSummary: 'Dataset rujukan awam terbuka (lesen CC BY 4.0 dalam format JSON & CSV) yang mendokumentasikan nisbah ekstrak herba piawai, berat kapsul HPMC, perlindungan kelembapan tropika, serta penanda keselamatan pengguna terhadap produk tiruan di Malaysia.',
+    telemetry: [
+      { label: '01 · EURYCOMANONE', val: '>= 2.2% (Akar 100:1)', sub: 'Piawaian ekstrak larut air Tongkat Ali Malaysia' },
+      { label: '02 · PROTODIOSCIN', val: '60% Saponin / 20% Proto', sub: 'Nisbah piawai ekstrak Tribulus Terrestris' },
+      { label: '03 · NITRIK OKSIDA', val: '320mg Dwi-Asid Amino', sub: '180mg L-Arginine HCl + 140mg L-Citrulline Malate' },
+      { label: '04 · AKSES TERBUKA', val: 'JSON + CSV (CC BY 4.0)', sub: 'Muat turun percuma untuk penyelidik & penulis' },
+    ],
+    pinnedSummaryTitle: 'Rujukan Data Terbuka 2026: Perbandingan Ekstrak Piawai Tulen Berbanding Kapsul Tiruan Murah',
+    pinnedSummaryCopy: 'Dataset ini menyatukan parameter makmal empat formulasi utama Onyxmen Malaysia (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) supaya penulis kesihatan, penyelidik, dan pengguna dapat menyemak ketulenan spesifikasi dengan mudah.',
+    chapters: [
+      {
+        code: 'BAB 01 · METODOLOGI & PENANDA ARAS FITOKIMIA PIAWAI (2026)',
+        title: 'Perbezaan Ketumpatan Aktif Antara Serbuk Akar Mentah Dan Ekstrak Piawai 100:1',
+        body: 'Di pasaran dalam talian Asia Tenggara, dua botol yang menggunakan label herba serupa boleh mempunyai jurang kepekatan sebatian bioaktif melebihi 20 kali ganda. Serbuk akar kisar biasa sebahagian besarnya terdiri daripada serat selulosa tidak aktif, manakala ekstrak air 100:1 Eurycoma longifolia yang dipiawaikan kepada sekurang-kurangnya 2.2% eurycomanone memberikan sukatan konsisten di dalam setiap kapsul HPMC 500mg hingga 600mg.',
+      },
+      {
+        code: 'BAB 02 · MATRIKS AMARAN KESELAMATAN PENGGUNA TERHADAP CAMPURAN SINTETIK HARAM',
+        title: 'Cara Membezakan Suplemen Botani Berperingkat Daripada Kapsul Pasaran Gelap',
+        body: 'Amaran kesihatan awam di Malaysia sering mengingatkan pengguna dewasa supaya menjauhi kapsul tanpa pengesahan berharga RM 25 hingga RM 60 yang menjanjikan kesan mendadak dalam 20 minit tetapi menyebabkan sakit kepala berdenyut teruk, muka kemerahan, atau jantung berdebar—tanda klasik pencemaran bahan sintetik sildenafil atau tadalafil secara haram. Suplemen herba adaptogenik tulen berfungsi secara progresif sepanjang 7 hingga 30 hari, dibungkus dengan kedap induksi kilang, dan menasihatkan individu berpenyakit darah tinggi, jantung, atau kencing manis merujuk doktor bertauliah.',
+      },
+      {
+        code: 'BAB 03 · SPESIFIKASI KAPSUL HPMC & KESTABILAN KELEMBAPAN TROPIKA MALAYSIA',
+        title: 'Perlindungan Daripada Kelembapan Udara 80%+ Di Semenanjung, Sabah & Sarawak',
+        body: 'Asid amino higroskopik seperti L-Arginine HCl serta ekstrak akar pekat mudah menyerap wap air pada suhu melebihi 32 darjah Celsius jika disimpan di dalam kepingan blister nipis. Dataset ini menetapkan penggunaan sarung selulosa tumbuhan HPMC rendah lembapan bersama botol kedap induksi dan penyerap silika gred makanan pada harga rasmi seragam RM 159.00 (1 Botol), RM 286.00 (2 Botol, Diskaun 10%), dan RM 405.00 (3 Botol, Diskaun 15%).',
+      },
+      {
+        code: 'BAB 04 · PROTOKOL PETIKAN SUMBER & PENGGUNAAN SEMULA DATA (CC BY 4.0)',
+        title: 'Panduan Petikan Untuk Wartawan, Blogger Kesihatan & Enjin Carian AI',
+        paragraphs: [],
+        body: 'Semua jadual dan fail data di /assets/data/malaysia-supplement-authenticity-2026.json serta /assets/data/malaysia-supplement-authenticity-2026.csv diterbitkan di bawah lesen Creative Commons Attribution 4.0 International (CC BY 4.0). Penulis blog, penyelidik, dan sistem carian AI bebas memetik data ini dengan menyertakan kredit pautan kepada Onyxmen Malaysia (https://www.onyxmen.my/).',
+      },
+    ],
+    protocolLedgerRows: [
+      { code: 'DATA-BM-01 · JSON', title: 'Muat Turun Fail Data JSON Mesin-Boleh-Baca', body: 'Tersedia percuma di /assets/data/malaysia-supplement-authenticity-2026.json di bawah lesen CC BY 4.0.', meta: 'Format JSON' },
+      { code: 'DATA-BM-02 · CSV', title: 'Muat Turun Jadual Hamparan CSV (RFC-4180)', body: 'Tersedia percuma di /assets/data/malaysia-supplement-authenticity-2026.csv untuk analisis.', meta: 'Format CSV' },
+      { code: 'DATA-BM-03 · KEDAP', title: 'Semak Kedap Induksi, Nombor Kelompok & Bilangan Kapsul', body: 'Tolak pek blister 4–10 biji berharga RM 30–RM 60 yang tiada botol kedap rasmi.', meta: '20 / 30 Kapsul' },
+      { code: 'DATA-BM-04 · SELAMAT', title: 'Saring Tanda Amaran Bahan Campuran Sintetik Terlarang', body: 'Jauhi sebarang produk yang menyebabkan sakit kepala melampau atau debaran jantung.', meta: '0% Bahan Sintetik' },
+      { code: 'DATA-BM-05 · KREDIT', title: 'Sertakan Pautan Sumber Rasmi Onyxmen Malaysia (CC BY 4.0)', body: 'Kreditkan Lembaga Penyelidikan Botani Onyxmen (2026) dengan pautan ke https://www.onyxmen.my/.', meta: 'Lesen CC BY 4.0' },
+      { code: 'DATA-BM-06 · MEJA KL', title: 'Pengesahan Kelompok & Tempahan COD Di +60 14-298 5919', body: 'Penghantaran kotak polos OM Fulfilment ke seluruh Malaysia termasuk Sabah & Sarawak.', meta: 'COD Bungkusan Rahsia' },
+    ],
+    faqs: [
+      { q: 'Di manakah saya boleh memuat turun dataset suplemen botani Malaysia 2026 dalam format CSV dan JSON?', a: 'Anda boleh memuat turun kedua-dua fail secara percuma di https://www.onyxmen.my/assets/data/malaysia-supplement-authenticity-2026.csv dan https://www.onyxmen.my/assets/data/malaysia-supplement-authenticity-2026.json.' },
+      { q: 'Apakah tanda utama kapsul tiruan berbahaya di pasaran dalam talian Malaysia?', a: 'Harga terlalu murah di bawah RM 80 (lazimnya RM 25–RM 60), kepingan blister tanpa botol kedap induksi, serta kesan sakit kepala berdenyut mendadak akibat bahan kimia terlarang.' },
+      { q: 'Bolehkah penulis blog kesihatan memetik jadual daripada dataset 2026 ini?', a: 'Ya. Di bawah lesen terbuka Creative Commons Attribution 4.0 (CC BY 4.0), sesiapa sahaja boleh berkongsi data ini dengan menyertakan pautan kredit kepada https://www.onyxmen.my/.' },
+      { q: 'Berapakah harga rasmi 2026 bagi kesemua empat botol tulen Onyxmen Malaysia?', a: 'Harga rasmi seragam ialah RM 159 untuk 1 Botol, RM 286 untuk 2 Botol (Diskaun 10% + Pos Percuma), dan RM 405 untuk 3 Botol (Diskaun 15%) dengan COD bungkusan rahsia.' },
+    ],
+  },
 ];
 
 // Append Panduan 5 (MS-159) and Panduan 6 (MS-160) into BM_GUIDE_DOSSIERS
@@ -3197,7 +3406,7 @@ function renderMultiBottleAcquisitionAndDirectoryBM(defaultProduct = 'horsemen')
             data-order-product="${esc(defaultProduct)}"
             data-order-qty="3"
           >
-            <span>PAKEJ 3 BOTOL · RM 477</span>
+            <span>PAKEJ 3 BOTOL · RM 405 (15% OFF vs RM 477)</span>
           </button>
         </div>
       </div>
@@ -3240,6 +3449,41 @@ export function renderIndividualGuidePageBM(dossier) {
     breadcrumbs,
     faqs: dossier.faqs,
   });
+
+  const finalSchemaGraphJson = dossier.isDatasetGuide
+    ? (() => {
+        const parsed = JSON.parse(schemaGraphJson);
+        parsed['@graph'].push({
+          '@type': 'Dataset',
+          '@id': `https://www.onyxmen.my${canonicalPath}#dataset`,
+          name: 'Dataset Piawaian Suplemen Botani & Ketulenan Botol Lelaki Malaysia (2026)',
+          description:
+            'Dataset rujukan dwibahasa (MS-MY / EN-MY) terbuka yang mendokumentasikan nisbah ekstrak herba piawai (Tongkat Ali 100:1, Tribulus 60% saponin, Maca Peru, L-Arginine HCl), berat kapsul HPMC, penanda ketulenan bungkusan, dan kriteria keselamatan pengguna di Malaysia (2026).',
+          url: `https://www.onyxmen.my${canonicalPath}`,
+          sameAs: `https://www.onyxmen.my${alternatePathEn}`,
+          version: '2026.11',
+          isAccessibleForFree: true,
+          license: 'https://creativecommons.org/licenses/by/4.0/',
+          temporalCoverage: '2026-01-01/2026-12-31',
+          spatialCoverage: { '@type': 'Country', name: 'Malaysia' },
+          creator: { '@id': 'https://www.onyxmen.my/#organization' },
+          keywords: ['Tongkat Ali 100:1 Malaysia', 'Tribulus 60% Saponin', 'Suplemen Botani Lelaki Malaysia', 'Dataset Ketulenan Suplemen 2026'],
+          distribution: [
+            {
+              '@type': 'DataDownload',
+              encodingFormat: 'application/json',
+              contentUrl: 'https://www.onyxmen.my/assets/data/malaysia-supplement-authenticity-2026.json',
+            },
+            {
+              '@type': 'DataDownload',
+              encodingFormat: 'text/csv',
+              contentUrl: 'https://www.onyxmen.my/assets/data/malaysia-supplement-authenticity-2026.csv',
+            },
+          ],
+        });
+        return JSON.stringify(parsed, null, 2);
+      })()
+    : schemaGraphJson;
 
   const telemetryHtml = dossier.telemetry
     .map(
@@ -3323,7 +3567,7 @@ export function renderIndividualGuidePageBM(dossier) {
         <div class="panduan-cinema-hero__taxonomy-strip">
           <span>KOD PROTOKOL: ${esc(dossier.guideCode)}</span>
           <span>·</span>
-          <span>HARGA RASMI: RM 159 / RM 286 (10% OFF vs RM 318) / RM 477</span>
+          <span>HARGA RASMI: RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)</span>
           <span>·</span>
           <span>100% BUNGKUSAN RAHSIA MALAYSIA</span>
         </div>
@@ -3411,15 +3655,43 @@ export function renderIndividualGuidePageBM(dossier) {
           data-order-product="${esc(dossier.defaultProduct)}"
           data-order-qty="2"
         >
-          <span>TEMPAH PAKEJ 2 BOTOL · RM 318</span>
+          <span>TEMPAH 2 BOTOL · RM 286 (10% OFF + POS PERCUMA)</span>
           <span aria-hidden="true">→</span>
         </button>
-        <a href="/ms/panduan/" class="cta-hairline-secondary">Semua 14 Panduan BM →</a>
+        <a href="/ms/panduan/" class="cta-hairline-secondary">Semua 21 Panduan BM →</a>
       </div>
     </div>
 
     <div class="panduan-split-5050__scrolling">
       ${chaptersHtml}
+      ${dossier.isDatasetGuide ? `
+      <div style="margin-top:2rem;padding:1.5rem 0;border-top:1px solid rgba(212,175,55,0.28);border-bottom:1px solid rgba(212,175,55,0.28);">
+        <span class="editorial-kicker">MUAT TURUN DATA TERBUKA &amp; PETIKAN CC BY 4.0</span>
+        <p style="color:var(--text-silk-ivory);font-size:0.94rem;line-height:1.7;margin:0.65rem 0 1rem;">
+          Muat turun fail data penuh 2026 atau petik sumber <a href="/ms/" style="color:var(--gold-foil-bright);text-decoration:underline;">Onyxmen Malaysia</a> di bawah lesen CC BY 4.0:
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:0.85rem;">
+          <a href="/assets/data/malaysia-supplement-authenticity-2026.json" class="cta-foil-primary"><span>Muat Turun Fail JSON (2026) →</span></a>
+          <a href="/assets/data/malaysia-supplement-authenticity-2026.csv" class="cta-hairline-secondary"><span>Muat Turun Jadual CSV (RFC-4180) →</span></a>
+        </div>
+      </div>` : ''}
+      <aside aria-label="Tawaran Rasmi COD Bungkusan Rahsia Malaysia" style="margin-top:2.25rem;padding:1.65rem 0;border-top:1px solid rgba(212,175,55,0.35);border-bottom:1px solid rgba(212,175,55,0.35);">
+        <span class="editorial-kicker">BILIK KEBAL KUALA LUMPUR · 100% STOK ORIGINAL BERKEDAP INDUKSI</span>
+        <h3 class="editorial-headline-lg" style="font-size:clamp(1.35rem,2vw,1.8rem);margin:0.45rem 0 0.6rem;">
+          1 Botol RM 159 · <span class="foil-champagne-text">2 Botol RM 286 (Jimat RM 32 + COD Percuma)</span>
+        </h3>
+        <p style="color:var(--text-muted-alabaster);font-size:0.92rem;line-height:1.68;margin:0 0 1.1rem;">
+          100% bungkusan kotak polos OM Fulfilment tanpa nama produk ke seluruh Malaysia. Bayar tunai atau QR apabila barang sampai (COD), atau sahkan stok tulen terus di WhatsApp (+60 14-298 5919).
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:0.85rem;">
+          <a href="https://wa.me/60142985919" data-wa-direct-trigger="panduan-inline-cod" class="cta-foil-primary">
+            <span>WhatsApp Pakej 2 Botol (RM 286 · Diskaun 10%) →</span>
+          </a>
+          <button type="button" class="cta-hairline-secondary" data-open-order-drawer="true" data-order-product="${esc(dossier.defaultProduct)}" data-order-qty="2">
+            <span>Buka Laci Tempahan COD (RM 159 / RM 286 / RM 405)</span>
+          </button>
+        </div>
+      </aside>
     </div>
   </section>
 
@@ -3483,7 +3755,7 @@ export function renderIndividualGuidePageBM(dossier) {
     alternatePathEn,
     alternatePathMs,
     ogImage: dossier.heroVisualWebp,
-    schemaGraphJson,
+    schemaGraphJson: finalSchemaGraphJson,
     bodyContent,
     activeNav: 'guides',
     productSlug: dossier.defaultProduct,
@@ -3650,7 +3922,7 @@ export function renderMasterGuidesIndexPageBM() {
       </div>
       <div class="panduan-cinema-hero__telemetry-col">
         <span class="panduan-cinema-hero__telemetry-label">HARGA RASMI SERAGAM</span>
-        <span class="panduan-cinema-hero__telemetry-val">RM 159 / RM 286 (10% OFF vs RM 318) / RM 477</span>
+        <span class="panduan-cinema-hero__telemetry-val">RM 159 / RM 286 (10% OFF vs RM 318) / RM 405 (15% OFF vs RM 477)</span>
         <span class="panduan-cinema-hero__telemetry-sub">Penghantaran Percuma untuk Pakej 2 &amp; 3 Botol</span>
       </div>
       <div class="panduan-cinema-hero__telemetry-col">

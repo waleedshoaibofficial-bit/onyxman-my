@@ -84,6 +84,12 @@ const INSPECT_URLS = [
   'https://www.onyxmen.my/ms/panduan/horsemen-500mg-original-vs-tiruan-malaysia/',
   'https://www.onyxmen.my/ms/panduan/magnum-pump-xr-original-vs-tiruan-malaysia/',
   'https://www.onyxmen.my/ms/panduan/perbezaan-tongkat-ali-vs-maca-vs-tribulus-vs-l-arginine-malaysia/',
+  'https://www.onyxmen.my/guides/hammer-of-thor-20-veg-capsule-dosage-guide-malaysia/',
+  'https://www.onyxmen.my/ms/panduan/panduan-cara-makan-hammer-of-thor-20-kapsul-malaysia/',
+  'https://www.onyxmen.my/guides/night-shift-fatigue-gym-stamina-supplement-routine-malaysia/',
+  'https://www.onyxmen.my/ms/panduan/panduan-tenaga-lelaki-kerja-syif-malam-dan-stamina-malaysia/',
+  'https://www.onyxmen.my/guides/malaysia-botanical-supplement-standardization-dataset-2026/',
+  'https://www.onyxmen.my/ms/panduan/dataset-piawaian-suplemen-botani-lelaki-malaysia-2026/',
 ];
 
 function base64UrlEncode(input) {

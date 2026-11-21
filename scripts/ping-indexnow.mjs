@@ -44,6 +44,12 @@ const INDEXNOW_ENDPOINTS = [
 const CORE_PRIORITY_URLS = [
   `${SITE_ORIGIN}/`,
   `${SITE_ORIGIN}/guides/grow-xl-original-vs-fake-malaysia/`,
+  `${SITE_ORIGIN}/guides/hammer-of-thor-20-veg-capsule-dosage-guide-malaysia/`,
+  `${SITE_ORIGIN}/ms/panduan/panduan-cara-makan-hammer-of-thor-20-kapsul-malaysia/`,
+  `${SITE_ORIGIN}/guides/night-shift-fatigue-gym-stamina-supplement-routine-malaysia/`,
+  `${SITE_ORIGIN}/ms/panduan/panduan-tenaga-lelaki-kerja-syif-malam-dan-stamina-malaysia/`,
+  `${SITE_ORIGIN}/guides/malaysia-botanical-supplement-standardization-dataset-2026/`,
+  `${SITE_ORIGIN}/ms/panduan/dataset-piawaian-suplemen-botani-lelaki-malaysia-2026/`,
   `${SITE_ORIGIN}/hammer-of-thor-malaysia/`,
   `${SITE_ORIGIN}/grow-xl-malaysia/`,
   `${SITE_ORIGIN}/horsemen-malaysia/`,

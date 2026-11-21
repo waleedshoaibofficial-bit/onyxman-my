@@ -48,6 +48,13 @@ const LASTMOD_DATE = '2026-11-05';
 const UPDATED_GUIDES_DATE = '2026-11-10';
 const WAVE2_GUIDES_DATE = '2026-11-11';
 const WAVE3_GUIDES_DATE = '2026-11-13';
+const WAVE4_GUIDES_DATE = '2026-11-21';
+const WAVE4_GUIDE_ROUTES = new Set([
+  '/guides/', '/ms/panduan/',
+  '/guides/hammer-of-thor-20-veg-capsule-dosage-guide-malaysia/', '/ms/panduan/panduan-cara-makan-hammer-of-thor-20-kapsul-malaysia/',
+  '/guides/night-shift-fatigue-gym-stamina-supplement-routine-malaysia/', '/ms/panduan/panduan-tenaga-lelaki-kerja-syif-malam-dan-stamina-malaysia/',
+  '/guides/malaysia-botanical-supplement-standardization-dataset-2026/', '/ms/panduan/dataset-piawaian-suplemen-botani-lelaki-malaysia-2026/',
+]);
 const WAVE3_GUIDE_ROUTES = new Set([
   '/guides/', '/ms/panduan/',
   '/guides/grow-xl-original-vs-fake-malaysia/', '/ms/panduan/grow-xl-original-vs-tiruan-malaysia/',
@@ -547,8 +554,10 @@ function renderUrlsetXml(entries, bannerComment) {
         )
         .join('\n');
 
-      const routeLastmod = WAVE3_GUIDE_ROUTES.has(entry.routePath)
-        ? WAVE3_GUIDES_DATE
+      const routeLastmod = WAVE4_GUIDE_ROUTES.has(entry.routePath)
+        ? WAVE4_GUIDES_DATE
+        : WAVE3_GUIDE_ROUTES.has(entry.routePath)
+          ? WAVE3_GUIDES_DATE
         : WAVE2_GUIDE_ROUTES.has(entry.routePath)
           ? WAVE2_GUIDES_DATE
         : UPDATED_GUIDE_ROUTES.has(entry.routePath)
@@ -590,11 +599,11 @@ function buildSitemapIndexXml() {
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://www.onyxmen.my/sitemap-en.xml</loc>
-    <lastmod>${WAVE3_GUIDES_DATE}</lastmod>
+    <lastmod>${WAVE4_GUIDES_DATE}</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.onyxmen.my/sitemap-ms.xml</loc>
-    <lastmod>${WAVE3_GUIDES_DATE}</lastmod>
+    <lastmod>${WAVE4_GUIDES_DATE}</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.onyxmen.my/sitemap-images.xml</loc>
@@ -855,6 +864,9 @@ All four Onyxmen formulations share a uniform price structure so Malaysian buyer
 - [Horsemen 500mg Original vs Fake Malaysia (EN)](https://www.onyxmen.my/guides/horsemen-500mg-original-vs-fake-malaysia/) | [BM](https://www.onyxmen.my/ms/panduan/horsemen-500mg-original-vs-tiruan-malaysia/)
 - [Magnum Pump XR Original vs Fake Malaysia (EN)](https://www.onyxmen.my/guides/magnum-pump-xr-original-vs-fake-malaysia/) | [BM](https://www.onyxmen.my/ms/panduan/magnum-pump-xr-original-vs-tiruan-malaysia/)
 - [Tongkat Ali vs Maca vs Tribulus vs L-Arginine Malaysia (EN)](https://www.onyxmen.my/guides/tongkat-ali-vs-maca-vs-tribulus-vs-l-arginine-malaysia/) | [BM](https://www.onyxmen.my/ms/panduan/perbezaan-tongkat-ali-vs-maca-vs-tribulus-vs-l-arginine-malaysia/)
+- [Hammer of Thor 20-Veg-Capsule Dosage Guide Malaysia (EN)](https://www.onyxmen.my/guides/hammer-of-thor-20-veg-capsule-dosage-guide-malaysia/) | [BM](https://www.onyxmen.my/ms/panduan/panduan-cara-makan-hammer-of-thor-20-kapsul-malaysia/)
+- [Night-Shift, Driving & Gym Stamina Supplement Guide Malaysia (EN)](https://www.onyxmen.my/guides/night-shift-fatigue-gym-stamina-supplement-routine-malaysia/) | [BM](https://www.onyxmen.my/ms/panduan/panduan-tenaga-lelaki-kerja-syif-malam-dan-stamina-malaysia/)
+- [Malaysia Botanical Supplement Standardization Dataset 2026 (EN)](https://www.onyxmen.my/guides/malaysia-botanical-supplement-standardization-dataset-2026/) | [BM](https://www.onyxmen.my/ms/panduan/dataset-piawaian-suplemen-botani-lelaki-malaysia-2026/) | [JSON](https://www.onyxmen.my/assets/data/malaysia-supplement-authenticity-2026.json) | [CSV](https://www.onyxmen.my/assets/data/malaysia-supplement-authenticity-2026.csv)
 - [Discreet Packaging & COD Policy](https://www.onyxmen.my/discreet-shipping/)
 - [Complete AI Knowledge Encyclopedia (llms-full.txt)](https://www.onyxmen.my/llms-full.txt)
 
@@ -2712,6 +2724,26 @@ function main() {
   // MS-180: public/404.html
   const html404 = buildBespoke404Html(allRoutes);
   writeOut(path.join(PUBLIC_DIR, '404.html'), html404);
+
+  // Open CC BY 4.0 Dataset Files (JSON + RFC-4180 CSV) for Google Dataset Search & AI Citations
+  const openDatasetRows = [
+    { sku: 'ONYX-HM-20', formula: 'Horsemen', capsulesPerBottle: 20, capsuleWeightMg: 500, shellType: 'HPMC Vegetarian', primaryStandardization: 'Eurycoma longifolia 100:1 (>=2.2% Eurycomanone, 150mg) + Black Maca 10:1 (100mg) + Epimedium (80mg)', singleBottleMyr: '159.00', dualBundleMyr: '286.00', tripleVaultMyr: '405.00', syntheticPde5Adulterants: '0% Verified Free', canonicalUrl: 'https://www.onyxmen.my/horsemen-malaysia/' },
+    { sku: 'ONYX-HT-20', formula: 'Hammer of Thor', capsulesPerBottle: 20, capsuleWeightMg: 500, shellType: 'HPMC Vegetarian', primaryStandardization: 'Tribulus terrestris (60% Saponins / 20% Protodioscin, 200mg) + Peruvian Maca (100mg) + Panax Ginseng + Zinc Bisglycinate', singleBottleMyr: '159.00', dualBundleMyr: '286.00', tripleVaultMyr: '405.00', syntheticPde5Adulterants: '0% Verified Free', canonicalUrl: 'https://www.onyxmen.my/hammer-of-thor-malaysia/' },
+    { sku: 'ONYX-GX-30', formula: 'Grow XL', capsulesPerBottle: 30, capsuleWeightMg: 550, shellType: 'HPMC Vegetarian', primaryStandardization: 'Eurycoma longifolia 100:1 (140mg) + Peruvian Maca (110mg) + Muira Puama + Saw Palmetto', singleBottleMyr: '159.00', dualBundleMyr: '286.00', tripleVaultMyr: '405.00', syntheticPde5Adulterants: '0% Verified Free', canonicalUrl: 'https://www.onyxmen.my/grow-xl-malaysia/' },
+    { sku: 'ONYX-MP-30', formula: 'Magnum Pump XR', capsulesPerBottle: 30, capsuleWeightMg: 600, shellType: 'HPMC Black Vegetarian', primaryStandardization: 'L-Arginine HCl (180mg) + L-Citrulline Malate (140mg) + Tribulus (110mg) + Kaempferia parviflora', singleBottleMyr: '159.00', dualBundleMyr: '286.00', tripleVaultMyr: '405.00', syntheticPde5Adulterants: '0% Verified Free', canonicalUrl: 'https://www.onyxmen.my/magnum-pump-xr-malaysia/' },
+  ];
+  writeOut(path.join(PUBLIC_DIR, 'assets', 'data', 'malaysia-supplement-authenticity-2026.json'), JSON.stringify({
+    datasetName: "Malaysia Men's Botanical Supplement Standardization & Authenticity Dataset (2026)",
+    version: '2026.11',
+    license: 'https://creativecommons.org/licenses/by/4.0/',
+    attributionUrl: 'https://www.onyxmen.my/',
+    publisher: 'Onyxmen Botanical Research & Quality Assurance Board (Kuala Lumpur, Malaysia)',
+    whatsappVerificationDesk: '+60 14-298 5919',
+    records: openDatasetRows,
+  }, null, 2));
+  const csvHeaders = ['sku','formula','capsulesPerBottle','capsuleWeightMg','shellType','primaryStandardization','singleBottleMyr','dualBundleMyr','tripleVaultMyr','syntheticPde5Adulterants','canonicalUrl'];
+  const csvBody = [csvHeaders.join(','), ...openDatasetRows.map(r => csvHeaders.map(k => '"' + String(r[k]).replace(/"/g, '""') + '"').join(','))].join('\n') + '\n';
+  writeOut(path.join(PUBLIC_DIR, 'assets', 'data', 'malaysia-supplement-authenticity-2026.csv'), csvBody);
 
   // MS-214: public/seo-dashboard/index.html & public/ms/seo-dashboard/index.html
   const seoDashEn = buildLiveSeoDashboardHtml('en-MY');

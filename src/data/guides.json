@@ -2,7 +2,7 @@
   "microStep": "MS-043",
   "brand": "Onyxmen",
   "domain": "https://www.onyxmen.my",
-  "totalGuides": 14,
+  "totalGuides": 21,
   "hubRoutes": {
     "enPath": "/guides/",
     "msPath": "/ms/panduan/",
@@ -1034,6 +1034,136 @@
             {
               "heading": "1. Padankan Setiap Laluan Fitokimia Dengan Matlamat Anda",
               "body": "Pilih Tongkat Ali 100:1 (Horsemen) untuk kesediaan malam, Maca + Muira Puama (Grow XL) untuk rutin pagi 30 hari, Tribulus 60% Saponin (Hammer of Thor) untuk kapsul vegetarian, atau L-Arginine (Magnum Pump XR) untuk aliran darah 35 minit."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "guideNumber": 19,
+      "id": "hammer-of-thor-20-veg-capsule-dosage-guide-malaysia",
+      "slug": "hammer-of-thor-20-veg-capsule-dosage-guide-malaysia",
+      "i18nRouteKey": "guides-index",
+      "enPath": "/guides/hammer-of-thor-20-veg-capsule-dosage-guide-malaysia/",
+      "msPath": "/ms/panduan/panduan-cara-makan-hammer-of-thor-20-kapsul-malaysia/",
+      "publishedDate": "2026-11-21",
+      "updatedDate": "2026-11-21",
+      "author": "Onyxmen Botanical Research & Quality Assurance Board (Kuala Lumpur)",
+      "readingTimeMinutes": 11,
+      "relatedProductIds": [
+        "hammer-of-thor",
+        "horsemen",
+        "grow-xl"
+      ],
+      "locales": {
+        "en-MY": {
+          "seoTitle": "Hammer of Thor Dosage Guide Malaysia: 20 Veg Capsules Timing",
+          "metaDescription": "✓ Official Hammer of Thor Malaysia 20 Veg. Capsule dosage & meal-timing guide (60% Tribulus saponins & Maca). Buy 1 RM 159, 2 RM 286 (-10%) discreet COD.",
+          "headline": "Hammer of Thor 20-Capsule Dosage Guide: Exact Timing & Cycle Protocol in Malaysia",
+          "summary": "Post-meal lipid absorption timing, hydration rules, and 20-day vs 40-day cycle planning for genuine Hammer of Thor (20 Veg. Capsules) in Malaysia.",
+          "sections": [
+            {
+              "heading": "1. Post-Meal Lipid Absorption Protocol",
+              "body": "Take 1 vegetarian capsule 30-45 minutes after lunch or dinner with 300ml water."
+            }
+          ]
+        },
+        "ms-MY": {
+          "seoTitle": "Panduan Cara Makan Hammer of Thor 20 Kapsul Veg Malaysia",
+          "metaDescription": "✓ Panduan rasmi cara makan Hammer of Thor Original Malaysia (20 Kapsul Veg. 60% Saponin Tribulus) ikut waktu tepat. 1 RM 159, 2 RM 286 (-10%) COD Rahsia.",
+          "headline": "Cara Makan Hammer of Thor Original: Jadual 20 Kapsul Veg Di Malaysia",
+          "summary": "Jadual pengambilan selepas makan, sasaran air kosong harian, dan perancangan kitaran 20 hari serta 40 hari bagi Hammer of Thor Original Malaysia.",
+          "sections": [
+            {
+              "heading": "1. Waktu Terbaik Selepas Makan Berlauk",
+              "body": "Ambil 1 kapsul vegetarian 30-45 minit selepas makan tengah hari atau makan malam bersama 300ml air kosong."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "guideNumber": 20,
+      "id": "night-shift-fatigue-gym-stamina-supplement-routine-malaysia",
+      "slug": "night-shift-fatigue-gym-stamina-supplement-routine-malaysia",
+      "i18nRouteKey": "guides-index",
+      "enPath": "/guides/night-shift-fatigue-gym-stamina-supplement-routine-malaysia/",
+      "msPath": "/ms/panduan/panduan-tenaga-lelaki-kerja-syif-malam-dan-stamina-malaysia/",
+      "publishedDate": "2026-11-21",
+      "updatedDate": "2026-11-21",
+      "author": "Onyxmen Botanical Research & Quality Assurance Board (Kuala Lumpur)",
+      "readingTimeMinutes": 12,
+      "relatedProductIds": [
+        "grow-xl",
+        "horsemen",
+        "magnum-pump-xr"
+      ],
+      "locales": {
+        "en-MY": {
+          "seoTitle": "Night-Shift, Driving & Gym Stamina Supplement Guide Malaysia",
+          "metaDescription": "✓ Stamina & recovery timing protocol for Malaysian night-shift workers, drivers & active men using Tongkat Ali, Maca & L-Arginine (RM 159 / 2 for RM 286 COD).",
+          "headline": "Night-Shift, Long-Haul Driving & Gym Stamina: Malaysian Supplement Timing Guide",
+          "summary": "Biological wake-meal timing and stimulant-free Nitric Oxide support for Malaysian shift staff, drivers, and evening gym trainees.",
+          "sections": [
+            {
+              "heading": "1. Biological Wake-Meal Timing",
+              "body": "Dose Grow XL 30 minutes after your first meal upon waking regardless of wall-clock shift schedule."
+            }
+          ]
+        },
+        "ms-MY": {
+          "seoTitle": "Panduan Stamina Lelaki Kerja Syif Malam & Pemandu Malaysia",
+          "metaDescription": "✓ Jadual suplemen tenaga batin & stamina lelaki kerja syif malam, pemandu jauh & aktif bersenam di Malaysia (Tongkat Ali & Maca RM 159 / 2 Botol RM 286 COD).",
+          "headline": "Kerja Syif Malam, Pemandu Jauh & Stamina: Jadual Herba Lelaki Malaysia",
+          "summary": "Jadual pengambilan suplemen botani bebas kafein untuk pekerja syif malam, pemandu jarak jauh, dan lelaki aktif di Malaysia.",
+          "sections": [
+            {
+              "heading": "1. Ikut Waktu Bangun Tidur Biologi",
+              "body": "Ambil 1 kapsul Grow XL 30 minit selepas hidangan pertama anda sebaik bangun tidur."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "guideNumber": 21,
+      "id": "malaysia-botanical-supplement-standardization-dataset-2026",
+      "slug": "malaysia-botanical-supplement-standardization-dataset-2026",
+      "i18nRouteKey": "guides-index",
+      "enPath": "/guides/malaysia-botanical-supplement-standardization-dataset-2026/",
+      "msPath": "/ms/panduan/dataset-piawaian-suplemen-botani-lelaki-malaysia-2026/",
+      "publishedDate": "2026-11-21",
+      "updatedDate": "2026-11-21",
+      "author": "Onyxmen Botanical Research & Quality Assurance Board (Kuala Lumpur)",
+      "readingTimeMinutes": 14,
+      "relatedProductIds": [
+        "horsemen",
+        "hammer-of-thor",
+        "grow-xl",
+        "magnum-pump-xr"
+      ],
+      "locales": {
+        "en-MY": {
+          "seoTitle": "Malaysia Men Supplement Standardization Dataset (2026 Open)",
+          "metaDescription": "✓ Open 2026 Malaysia botanical supplement dataset (CSV & JSON): Tongkat Ali 100:1, Maca, Tribulus 60% Saponins & L-Arginine specs plus authentic bottle checks.",
+          "headline": "Malaysia Men Botanical Supplement Standardization & Authenticity Dataset (2026)",
+          "summary": "Open CC BY 4.0 CSV and JSON reference dataset covering phytochemical extract benchmarks, HPMC packaging, and counterfeit red-flag markers in Malaysia.",
+          "sections": [
+            {
+              "heading": "1. Open Phytochemical Benchmark Matrix",
+              "body": "Standardized extract specifications across Tongkat Ali 100:1, Tribulus 60% Saponins, Peruvian Maca, and L-Arginine HCl."
+            }
+          ]
+        },
+        "ms-MY": {
+          "seoTitle": "Dataset Piawaian Suplemen Botani Lelaki Malaysia (2026 Rasmi)",
+          "metaDescription": "✓ Dataset terbuka 2026 suplemen botani lelaki Malaysia (CSV & JSON): nisbah ekstrak Tongkat Ali 100:1, Maca, Tribulus 60% Saponin & semakan ketulenan botol.",
+          "headline": "Dataset Piawaian Suplemen Botani & Ketulenan Botol Malaysia (2026)",
+          "summary": "Dataset awam CC BY 4.0 (CSV & JSON) merangkumi nisbah ekstrak fitokimia piawai, kapsul HPMC, dan penanda amaran produk tiruan di Malaysia.",
+          "sections": [
+            {
+              "heading": "1. Matriks Penanda Aras Fitokimia Terbuka",
+              "body": "Spesifikasi ekstrak piawai merentasi Tongkat Ali 100:1, Tribulus 60% Saponin, Maca Peru, dan L-Arginine HCl."
             }
           ]
         }
