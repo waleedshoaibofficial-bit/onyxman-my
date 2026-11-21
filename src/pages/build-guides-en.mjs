@@ -4517,7 +4517,7 @@ export function renderMasterGuidesIndexPage() {
   }).join('\n');
 
   const allProtocolStepsCombinedHtml = GUIDE_DOSSIERS.flatMap((g) =>
-    g.protocolSteps.map((st) => ({
+    g.protocolSteps.slice(0, 2).map((st) => ({
       ...st,
       guideTitle: `Guide #0${g.guideNumber} (${g.microStep})`,
       guideHref: g.canonicalEnPath,
