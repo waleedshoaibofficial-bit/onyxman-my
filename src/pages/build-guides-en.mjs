@@ -3731,7 +3731,7 @@ export function renderIndividualGuidePage(dossier) {
     { name: 'Onyxmen Malaysia Home', url: '/' },
     { name: 'Vitality & Buyer Protocol Guides', url: '/guides/' },
     { name: dossier.seoTitle.split('|')[0].trim(), url: canonicalPath },
-    {
+  {
     guideNumber: 19,
     microStep: 'ONYX-STD',
     guideCode: 'GUIDE-19 · HAMMER OF THOR DOSAGE',
@@ -3990,7 +3990,7 @@ export function renderIndividualGuidePage(dossier) {
       { questionEn: 'What are the official 2026 prices for verified Onyxmen Malaysia formulations?', answerEn: 'All four authentic SKUs (Horsemen, Hammer of Thor, Grow XL, Magnum Pump XR) are RM 159 for 1 Bottle, RM 286 for 2 Bottles (10% OFF), and RM 405 for 3 Bottles (15% OFF) with discreet COD.' },
     ],
   },
-];
+  ];
 
   const schemaGraphJson = buildFullPageGraph({
     pageType: 'guide',
